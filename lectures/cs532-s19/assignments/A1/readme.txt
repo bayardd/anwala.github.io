@@ -1,0 +1,1 @@
+The main files (pyton, images, and pdf) are all in the mainComponents, while the LaTeX formatting is in the texFormatting folder. The images required are included in the Figures folder. After our discussion it was apparent that the program could be made more effective. I did not have enough time to make changes before the assignment, but plan on reworking the code soon.
