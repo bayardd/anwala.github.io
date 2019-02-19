@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.tokyo-sports.co.jp/entame/entertainment/1281337/",
+  "self": "http://localhost:1208/timemap/json/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T11:45:33Z",
+        "uri": "http://web.archive.org/web/20190215114533/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/"
+      },
+      {
+        "datetime": "2019-02-15T20:21:26Z",
+        "uri": "http://archive.md/20190215202126/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T11:45:33Z",
+      "uri": "http://web.archive.org/web/20190215114533/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/"
+    },
+    "last": {
+      "datetime": "2019-02-15T20:21:26Z",
+      "uri": "http://archive.md/20190215202126/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.tokyo-sports.co.jp/entame/entertainment/1281337/"
+}

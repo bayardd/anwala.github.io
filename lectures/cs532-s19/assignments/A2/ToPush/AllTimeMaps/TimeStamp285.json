@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/",
+  "self": "http://localhost:1208/timemap/json/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T15:41:53Z",
+        "uri": "http://web.archive.org/web/20190215154153/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T15:41:53Z",
+      "uri": "http://web.archive.org/web/20190215154153/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:41:53Z",
+      "uri": "http://web.archive.org/web/20190215154153/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/"
+}

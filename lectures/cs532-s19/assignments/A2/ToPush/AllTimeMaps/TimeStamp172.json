@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/",
+  "self": "http://localhost:1208/timemap/json/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:46:38Z",
+        "uri": "http://web.archive.org/web/20190215134638/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:46:38Z",
+      "uri": "http://web.archive.org/web/20190215134638/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:46:38Z",
+      "uri": "http://web.archive.org/web/20190215134638/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/"
+}

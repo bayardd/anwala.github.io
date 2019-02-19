@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp",
+  "self": "http://localhost:1208/timemap/json/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T05:49:45Z",
+        "uri": "http://web.archive.org/web/20190214054945/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T05:49:45Z",
+      "uri": "http://web.archive.org/web/20190214054945/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp"
+    },
+    "last": {
+      "datetime": "2019-02-14T05:49:45Z",
+      "uri": "http://web.archive.org/web/20190214054945/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp",
+    "json_format": "http://localhost:1208/timemap/json/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat",
+  "self": "http://localhost:1208/timemap/json/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-04T01:02:42Z",
+        "uri": "http://web.archive.org/web/20190204010242/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-04T01:02:42Z",
+      "uri": "http://web.archive.org/web/20190204010242/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat"
+    },
+    "last": {
+      "datetime": "2019-02-04T01:02:42Z",
+      "uri": "http://web.archive.org/web/20190204010242/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat",
+    "json_format": "http://localhost:1208/timemap/json/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators",
+  "self": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T08:21:43Z",
+        "uri": "http://web.archive.org/web/20190215082143/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators"
+      },
+      {
+        "datetime": "2019-02-15T08:21:45Z",
+        "uri": "http://web.archive.org/web/20190215082145/http://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T08:21:43Z",
+      "uri": "http://web.archive.org/web/20190215082143/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators"
+    },
+    "last": {
+      "datetime": "2019-02-15T08:21:45Z",
+      "uri": "http://web.archive.org/web/20190215082145/http://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators",
+    "json_format": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators"
+}

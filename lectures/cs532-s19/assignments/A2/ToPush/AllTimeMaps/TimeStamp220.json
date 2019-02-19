@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:29:24Z",
+        "uri": "http://web.archive.org/web/20190215132924/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:29:24Z",
+      "uri": "http://web.archive.org/web/20190215132924/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:29:24Z",
+      "uri": "http://web.archive.org/web/20190215132924/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/%0A"
+}

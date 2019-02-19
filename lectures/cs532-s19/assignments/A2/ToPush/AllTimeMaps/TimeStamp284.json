@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://vine.co/v/hLDXdJrH2DE",
+  "self": "http://localhost:1208/timemap/json/https://vine.co/v/hLDXdJrH2DE",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-12-09T04:53:42Z",
+        "uri": "http://web.archive.org/web/20161209045342/https://vine.co/v/hLDXdJrH2DE/"
+      },
+      {
+        "datetime": "2016-12-09T04:53:42Z",
+        "uri": "http://web.archive.org/web/20161209045342/https://vine.co/v/hLDXdJrH2DE"
+      },
+      {
+        "datetime": "2018-01-28T00:59:13Z",
+        "uri": "http://web.archive.org/web/20180128005913/https://vine.co/v/hLDXdJrH2DE"
+      },
+      {
+        "datetime": "2018-02-18T07:14:46Z",
+        "uri": "http://web.archive.org/web/20180218071446/https://vine.co/v/hLDXdJrH2DE/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-12-09T04:53:42Z",
+      "uri": "http://web.archive.org/web/20161209045342/https://vine.co/v/hLDXdJrH2DE/"
+    },
+    "last": {
+      "datetime": "2018-02-18T07:14:46Z",
+      "uri": "http://web.archive.org/web/20180218071446/https://vine.co/v/hLDXdJrH2DE/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://vine.co/v/hLDXdJrH2DE",
+    "json_format": "http://localhost:1208/timemap/json/https://vine.co/v/hLDXdJrH2DE",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://vine.co/v/hLDXdJrH2DE"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://vine.co/v/hLDXdJrH2DE"
+}

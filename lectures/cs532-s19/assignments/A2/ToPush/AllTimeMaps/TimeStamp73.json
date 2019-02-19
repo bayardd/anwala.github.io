@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/",
+  "self": "http://localhost:1208/timemap/json/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T07:48:42Z",
+        "uri": "http://web.archive.org/web/20190215074842/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T07:48:42Z",
+      "uri": "http://web.archive.org/web/20190215074842/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-15T07:48:42Z",
+      "uri": "http://web.archive.org/web/20190215074842/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/",
+    "json_format": "http://localhost:1208/timemap/json/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/"
+}

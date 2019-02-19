@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html",
+  "self": "http://localhost:1208/timemap/json/https://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-03-16T19:21:16Z",
+        "uri": "http://web.archive.org/web/20150316192116/http://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+      },
+      {
+        "datetime": "2016-05-06T13:02:33Z",
+        "uri": "http://web.archive.org/web/20160506130233/http://researchmaniacs.com:80/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+      },
+      {
+        "datetime": "2017-04-09T01:59:01Z",
+        "uri": "http://web.archive.org/web/20170409015901/http://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+      },
+      {
+        "datetime": "2017-05-14T11:47:00Z",
+        "uri": "http://web.archive.org/web/20170514114700/http://researchmaniacs.com:80/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+      },
+      {
+        "datetime": "2017-07-01T03:37:02Z",
+        "uri": "http://web.archive.org/web/20170701033702/http://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+      }
+    ],
+    "first": {
+      "datetime": "2015-03-16T19:21:16Z",
+      "uri": "http://web.archive.org/web/20150316192116/http://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+    },
+    "last": {
+      "datetime": "2017-07-01T03:37:02Z",
+      "uri": "http://web.archive.org/web/20170701033702/http://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html",
+    "json_format": "http://localhost:1208/timemap/json/https://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html"
+}

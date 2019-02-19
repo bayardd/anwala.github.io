@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/",
+  "self": "http://localhost:1208/timemap/json/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:17:02Z",
+        "uri": "http://web.archive.org/web/20190215031702/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/"
+      },
+      {
+        "datetime": "2019-02-15T12:43:02Z",
+        "uri": "http://web.archive.org/web/20190215124302/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:17:02Z",
+      "uri": "http://web.archive.org/web/20190215031702/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:43:02Z",
+      "uri": "http://web.archive.org/web/20190215124302/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/",
+  "self": "http://localhost:1208/timemap/json/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T00:58:32Z",
+        "uri": "http://web.archive.org/web/20190215005832/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/"
+      },
+      {
+        "datetime": "2019-02-15T01:44:50Z",
+        "uri": "http://web.archive.org/web/20190215014450/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T00:58:32Z",
+      "uri": "http://web.archive.org/web/20190215005832/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/"
+    },
+    "last": {
+      "datetime": "2019-02-15T01:44:50Z",
+      "uri": "http://web.archive.org/web/20190215014450/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/",
+    "json_format": "http://localhost:1208/timemap/json/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/"
+}

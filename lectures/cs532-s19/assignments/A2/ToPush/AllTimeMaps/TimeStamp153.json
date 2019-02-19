@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29",
+  "self": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:48:02Z",
+        "uri": "http://web.archive.org/web/20190215134802/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:48:02Z",
+      "uri": "http://web.archive.org/web/20190215134802/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:48:02Z",
+      "uri": "http://web.archive.org/web/20190215134802/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29"
+}

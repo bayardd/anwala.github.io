@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T21:46:15Z",
+        "uri": "http://web.archive.org/web/20190213214615/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292"
+      },
+      {
+        "datetime": "2019-02-14T14:35:52Z",
+        "uri": "http://web.archive.org/web/20190214143552/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292"
+      },
+      {
+        "datetime": "2019-02-15T02:43:11Z",
+        "uri": "http://web.archive.org/web/20190215024311/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T21:46:15Z",
+      "uri": "http://web.archive.org/web/20190213214615/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292"
+    },
+    "last": {
+      "datetime": "2019-02-15T02:43:11Z",
+      "uri": "http://web.archive.org/web/20190215024311/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292%0A"
+}

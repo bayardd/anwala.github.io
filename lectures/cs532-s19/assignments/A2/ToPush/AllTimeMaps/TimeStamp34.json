@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T02:45:58Z",
+        "uri": "http://web.archive.org/web/20190215024558/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+      },
+      {
+        "datetime": "2019-02-15T05:56:58Z",
+        "uri": "http://web.archive.org/web/20190215055658/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+      },
+      {
+        "datetime": "2019-02-15T05:58:59Z",
+        "uri": "http://web.archive.org/web/20190215055859/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+      },
+      {
+        "datetime": "2019-02-15T10:07:07Z",
+        "uri": "http://web.archive.org/web/20190215100707/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+      },
+      {
+        "datetime": "2019-02-15T10:07:07Z",
+        "uri": "http://web.archive.org/web/20190215100707/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+      },
+      {
+        "datetime": "2019-02-15T13:46:33Z",
+        "uri": "http://web.archive.org/web/20190215134633/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+      },
+      {
+        "datetime": "2019-02-15T15:11:48Z",
+        "uri": "http://web.archive.org/web/20190215151148/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T02:45:58Z",
+      "uri": "http://web.archive.org/web/20190215024558/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:11:48Z",
+      "uri": "http://web.archive.org/web/20190215151148/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/"
+}

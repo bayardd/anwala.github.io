@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T04:57:49Z",
+        "uri": "http://web.archive.org/web/20190213045749/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T04:57:49Z",
+      "uri": "http://web.archive.org/web/20190213045749/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/"
+    },
+    "last": {
+      "datetime": "2019-02-13T04:57:49Z",
+      "uri": "http://web.archive.org/web/20190213045749/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/%0A"
+}

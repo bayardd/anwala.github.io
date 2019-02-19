@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T11:06:06Z",
+        "uri": "http://web.archive.org/web/20190214110606/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html"
+      },
+      {
+        "datetime": "2019-02-14T14:39:29Z",
+        "uri": "http://web.archive.org/web/20190214143929/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html"
+      },
+      {
+        "datetime": "2019-02-14T15:26:24Z",
+        "uri": "http://web.archive.org/web/20190214152624/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html"
+      },
+      {
+        "datetime": "2019-02-15T13:14:05Z",
+        "uri": "http://web.archive.org/web/20190215131405/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html"
+      },
+      {
+        "datetime": "2019-02-15T15:13:02Z",
+        "uri": "http://web.archive.org/web/20190215151302/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T11:06:06Z",
+      "uri": "http://web.archive.org/web/20190214110606/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:13:02Z",
+      "uri": "http://web.archive.org/web/20190215151302/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html%0A"
+}

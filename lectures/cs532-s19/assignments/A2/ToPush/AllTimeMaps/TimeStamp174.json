@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/",
+  "self": "http://localhost:1208/timemap/json/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T02:57:38Z",
+        "uri": "http://web.archive.org/web/20190214025738/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T02:57:38Z",
+      "uri": "http://web.archive.org/web/20190214025738/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/"
+    },
+    "last": {
+      "datetime": "2019-02-14T02:57:38Z",
+      "uri": "http://web.archive.org/web/20190214025738/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/"
+}

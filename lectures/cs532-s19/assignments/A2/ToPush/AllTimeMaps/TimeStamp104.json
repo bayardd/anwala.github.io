@@ -1,0 +1,1646 @@
+{
+  "original_uri": "https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers",
+  "self": "http://localhost:1208/timemap/json/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-09-20T04:11:51Z",
+        "uri": "http://web.archive.org/web/20170920041151/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-09-21T12:40:57Z",
+        "uri": "http://web.archive.org/web/20170921124057/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-09-22T05:46:52Z",
+        "uri": "http://web.archive.org/web/20170922054652/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-09-27T21:00:31Z",
+        "uri": "http://web.archive.org/web/20170927210031/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-09-29T03:33:07Z",
+        "uri": "http://web.archive.org/web/20170929033307/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-09-29T13:02:28Z",
+        "uri": "http://web.archive.org/web/20170929130228/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-09-29T23:01:10Z",
+        "uri": "http://web.archive.org/web/20170929230110/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-09-30T23:00:48Z",
+        "uri": "http://web.archive.org/web/20170930230048/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-02T04:27:40Z",
+        "uri": "http://web.archive.org/web/20171002042740/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-02T13:10:17Z",
+        "uri": "http://web.archive.org/web/20171002131017/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-03T02:33:31Z",
+        "uri": "http://web.archive.org/web/20171003023331/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-04T07:03:06Z",
+        "uri": "http://web.archive.org/web/20171004070306/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-04T21:23:19Z",
+        "uri": "http://webarchive.loc.gov/all/20171004212319/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-05T02:31:35Z",
+        "uri": "http://web.archive.org/web/20171005023135/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-06T11:55:22Z",
+        "uri": "http://web.archive.org/web/20171006115522/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-07T00:06:06Z",
+        "uri": "http://web.archive.org/web/20171007000606/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-08T03:43:17Z",
+        "uri": "http://web.archive.org/web/20171008034317/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-08T21:10:22Z",
+        "uri": "http://web.archive.org/web/20171008211022/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-10T07:33:28Z",
+        "uri": "http://web.archive.org/web/20171010073328/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-11T05:42:14Z",
+        "uri": "http://web.archive.org/web/20171011054214/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-11T20:09:08Z",
+        "uri": "http://wayback.archive-it.org/all/20171011200908/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-11T20:09:08Z",
+        "uri": "http://web.archive.org/web/20171011200908/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-12T07:11:08Z",
+        "uri": "http://web.archive.org/web/20171012071108/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-13T11:12:21Z",
+        "uri": "http://web.archive.org/web/20171013111221/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-15T13:44:55Z",
+        "uri": "http://web.archive.org/web/20171015134455/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-18T07:22:36Z",
+        "uri": "http://web.archive.org/web/20171018072236/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-19T11:48:19Z",
+        "uri": "http://web.archive.org/web/20171019114819/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-21T11:11:03Z",
+        "uri": "http://web.archive.org/web/20171021111103/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-22T06:01:19Z",
+        "uri": "http://web.archive.org/web/20171022060119/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-27T18:36:16Z",
+        "uri": "http://web.archive.org/web/20171027183616/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-28T03:29:24Z",
+        "uri": "http://web.archive.org/web/20171028032924/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-28T21:35:47Z",
+        "uri": "http://web.archive.org/web/20171028213547/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-10-31T05:11:30Z",
+        "uri": "http://web.archive.org/web/20171031051130/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-01T12:00:58Z",
+        "uri": "http://web.archive.org/web/20171101120058/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-02T13:06:01Z",
+        "uri": "http://web.archive.org/web/20171102130601/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-03T12:55:18Z",
+        "uri": "http://web.archive.org/web/20171103125518/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-04T18:56:20Z",
+        "uri": "http://web.archive.org/web/20171104185620/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-04T21:38:51Z",
+        "uri": "http://web.archive.org/web/20171104213851/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-06T04:32:04Z",
+        "uri": "http://web.archive.org/web/20171106043204/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-08T17:19:17Z",
+        "uri": "http://web.archive.org/web/20171108171917/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-09T13:54:38Z",
+        "uri": "http://web.archive.org/web/20171109135438/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-10T19:23:24Z",
+        "uri": "http://web.archive.org/web/20171110192324/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-11T15:59:40Z",
+        "uri": "http://web.archive.org/web/20171111155940/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-13T15:24:23Z",
+        "uri": "http://web.archive.org/web/20171113152423/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-15T08:17:26Z",
+        "uri": "http://web.archive.org/web/20171115081726/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-17T07:28:23Z",
+        "uri": "http://web.archive.org/web/20171117072823/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-21T05:34:52Z",
+        "uri": "http://web.archive.org/web/20171121053452/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-11-26T06:46:01Z",
+        "uri": "http://web.archive.org/web/20171126064601/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-01T03:59:59Z",
+        "uri": "http://web.archive.org/web/20171201035959/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-02T18:17:55Z",
+        "uri": "http://web.archive.org/web/20171202181755/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-05T15:20:58Z",
+        "uri": "http://web.archive.org/web/20171205152058/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-07T12:33:42Z",
+        "uri": "http://web.archive.org/web/20171207123342/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-09T19:12:29Z",
+        "uri": "http://web.archive.org/web/20171209191229/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-13T14:52:11Z",
+        "uri": "http://web.archive.org/web/20171213145211/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-14T11:48:21Z",
+        "uri": "http://web.archive.org/web/20171214114821/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-16T10:24:15Z",
+        "uri": "http://web.archive.org/web/20171216102415/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-16T21:17:15Z",
+        "uri": "http://web.archive.org/web/20171216211715/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-18T03:32:50Z",
+        "uri": "http://web.archive.org/web/20171218033250/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-18T08:53:51Z",
+        "uri": "http://web.archive.org/web/20171218085351/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-20T22:25:19Z",
+        "uri": "http://web.archive.org/web/20171220222519/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-22T07:47:28Z",
+        "uri": "http://web.archive.org/web/20171222074728/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-22T07:47:29Z",
+        "uri": "http://web.archive.org/web/20171222074729/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-23T07:07:11Z",
+        "uri": "http://web.archive.org/web/20171223070711/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-23T15:15:58Z",
+        "uri": "http://web.archive.org/web/20171223151558/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-25T12:14:57Z",
+        "uri": "http://web.archive.org/web/20171225121457/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-28T18:11:36Z",
+        "uri": "http://web.archive.org/web/20171228181136/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2017-12-30T02:06:40Z",
+        "uri": "http://web.archive.org/web/20171230020640/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-05T14:08:59Z",
+        "uri": "http://web.archive.org/web/20180105140859/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-07T05:31:45Z",
+        "uri": "http://wayback.archive-it.org/all/20180107053145/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-07T05:31:45Z",
+        "uri": "http://web.archive.org/web/20180107053145/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-07T11:04:51Z",
+        "uri": "http://web.archive.org/web/20180107110451/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-07T17:54:07Z",
+        "uri": "http://web.archive.org/web/20180107175407/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-09T04:13:50Z",
+        "uri": "http://web.archive.org/web/20180109041350/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-10T19:13:21Z",
+        "uri": "http://web.archive.org/web/20180110191321/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-11T19:38:37Z",
+        "uri": "http://web.archive.org/web/20180111193837/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-12T17:59:41Z",
+        "uri": "http://web.archive.org/web/20180112175941/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-13T06:42:45Z",
+        "uri": "http://web.archive.org/web/20180113064245/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-14T14:19:32Z",
+        "uri": "http://web.archive.org/web/20180114141932/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-17T09:56:07Z",
+        "uri": "http://web.archive.org/web/20180117095607/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-18T19:10:41Z",
+        "uri": "http://web.archive.org/web/20180118191041/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-20T14:51:34Z",
+        "uri": "http://web.archive.org/web/20180120145134/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-21T12:01:35Z",
+        "uri": "http://web.archive.org/web/20180121120135/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-21T14:58:02Z",
+        "uri": "http://web.archive.org/web/20180121145802/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-22T15:46:16Z",
+        "uri": "http://web.archive.org/web/20180122154616/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-24T21:49:13Z",
+        "uri": "http://wayback.archive-it.org/all/20180124214913/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-24T21:49:13Z",
+        "uri": "http://web.archive.org/web/20180124214913/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-24T23:47:09Z",
+        "uri": "http://wayback.archive-it.org/all/20180124234709/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-24T23:47:09Z",
+        "uri": "http://web.archive.org/web/20180124234709/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-25T00:31:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180125003144/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-25T00:31:44Z",
+        "uri": "http://web.archive.org/web/20180125003144/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-25T01:29:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180125012918/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-25T01:29:18Z",
+        "uri": "http://web.archive.org/web/20180125012918/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-25T06:44:41Z",
+        "uri": "http://wayback.archive-it.org/all/20180125064441/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-25T06:44:41Z",
+        "uri": "http://web.archive.org/web/20180125064441/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-25T23:03:20Z",
+        "uri": "http://web.archive.org/web/20180125230320/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-30T05:38:56Z",
+        "uri": "http://web.archive.org/web/20180130053856/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-01-31T16:57:35Z",
+        "uri": "http://web.archive.org/web/20180131165735/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-01T16:47:04Z",
+        "uri": "http://web.archive.org/web/20180201164704/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-01T19:39:31Z",
+        "uri": "http://webarchive.loc.gov/all/20180201193931/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-04T13:05:19Z",
+        "uri": "http://web.archive.org/web/20180204130519/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-05T13:42:39Z",
+        "uri": "http://web.archive.org/web/20180205134239/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-06T14:18:58Z",
+        "uri": "http://web.archive.org/web/20180206141858/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-07T13:25:15Z",
+        "uri": "http://web.archive.org/web/20180207132515/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-08T13:04:43Z",
+        "uri": "http://web.archive.org/web/20180208130443/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-18T19:31:29Z",
+        "uri": "https://perma-archives.org/warc/20180218193129/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-18T19:31:29Z",
+        "uri": "http://web.archive.org/web/20180218193129/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-18T19:31:36Z",
+        "uri": "https://perma-archives.org/warc/20180218193136/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-18T19:31:36Z",
+        "uri": "http://web.archive.org/web/20180218193136/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-18T19:31:37Z",
+        "uri": "https://perma-archives.org/warc/20180218193137/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-02-18T19:31:37Z",
+        "uri": "http://web.archive.org/web/20180218193137/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-03-09T02:41:47Z",
+        "uri": "http://web.archive.org/web/20180309024147/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-03-09T12:31:10Z",
+        "uri": "http://wayback.archive-it.org/all/20180309123110/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-03-09T12:31:10Z",
+        "uri": "http://web.archive.org/web/20180309123110/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-03-21T07:58:11Z",
+        "uri": "http://web.archive.org/web/20180321075811/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-03-25T07:19:41Z",
+        "uri": "http://web.archive.org/web/20180325071941/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-04T18:32:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180404183253/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-04T18:32:53Z",
+        "uri": "http://web.archive.org/web/20180404183253/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-04T20:25:44Z",
+        "uri": "http://wayback.archive-it.org/all/20180404202544/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-04T20:25:44Z",
+        "uri": "http://web.archive.org/web/20180404202544/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-07T07:15:05Z",
+        "uri": "http://web.archive.org/web/20180407071505/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-08T07:45:01Z",
+        "uri": "http://web.archive.org/web/20180408074501/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-10T10:51:12Z",
+        "uri": "http://web.archive.org/web/20180410105112/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-12T21:56:38Z",
+        "uri": "http://web.archive.org/web/20180412215638/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-17T12:13:27Z",
+        "uri": "http://web.archive.org/web/20180417121327/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-22T06:49:26Z",
+        "uri": "http://web.archive.org/web/20180422064926/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-04-26T12:12:28Z",
+        "uri": "http://web.archive.org/web/20180426121228/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-09T17:50:49Z",
+        "uri": "http://web.archive.org/web/20180509175049/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-11T04:57:46Z",
+        "uri": "http://web.archive.org/web/20180511045746/http://fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-14T22:28:13Z",
+        "uri": "http://archive.md/20180514222813/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-16T01:40:11Z",
+        "uri": "http://web.archive.org/web/20180516014011/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-18T00:06:03Z",
+        "uri": "http://web.archive.org/web/20180518000603/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-20T13:07:36Z",
+        "uri": "http://web.archive.org/web/20180520130736/http://fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-21T12:00:00Z",
+        "uri": "http://web.archive.org/web/20180521120000/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-26T22:27:58Z",
+        "uri": "http://web.archive.org/web/20180526222758/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-05-28T00:59:29Z",
+        "uri": "http://web.archive.org/web/20180528005929/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-14T17:29:20Z",
+        "uri": "http://web.archive.org/web/20180614172920/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-19T13:38:56Z",
+        "uri": "http://web.archive.org/web/20180619133856/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-20T06:11:55Z",
+        "uri": "http://web.archive.org/web/20180620061155/http://fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-20T23:11:09Z",
+        "uri": "http://wayback.archive-it.org/all/20180620231109/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-20T23:11:09Z",
+        "uri": "http://web.archive.org/web/20180620231109/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-21T01:41:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180621014132/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-21T01:41:32Z",
+        "uri": "http://web.archive.org/web/20180621014132/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-23T06:13:15Z",
+        "uri": "http://web.archive.org/web/20180623061315/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-23T06:13:18Z",
+        "uri": "http://web.archive.org/web/20180623061318/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-06-28T19:39:38Z",
+        "uri": "http://web.archive.org/web/20180628193938/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-01T12:24:57Z",
+        "uri": "http://wayback.archive-it.org/all/20180701122457/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-01T12:24:57Z",
+        "uri": "http://web.archive.org/web/20180701122457/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-04T13:50:45Z",
+        "uri": "http://web.archive.org/web/20180704135045/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-05T13:45:21Z",
+        "uri": "http://web.archive.org/web/20180705134521/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-07T06:33:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180707063320/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-07T06:33:20Z",
+        "uri": "http://web.archive.org/web/20180707063320/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-07T17:57:14Z",
+        "uri": "http://web.archive.org/web/20180707175714/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-08T02:10:10Z",
+        "uri": "http://web.archive.org/web/20180708021010/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-10T11:39:41Z",
+        "uri": "http://web.archive.org/web/20180710113941/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-11T11:51:16Z",
+        "uri": "http://web.archive.org/web/20180711115116/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-11T11:51:17Z",
+        "uri": "http://web.archive.org/web/20180711115117/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-12T07:04:21Z",
+        "uri": "http://web.archive.org/web/20180712070421/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-15T13:30:51Z",
+        "uri": "http://web.archive.org/web/20180715133051/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-16T00:22:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180716002228/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-16T00:22:28Z",
+        "uri": "http://web.archive.org/web/20180716002228/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-20T01:10:17Z",
+        "uri": "http://wayback.archive-it.org/all/20180720011017/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-20T01:10:17Z",
+        "uri": "http://web.archive.org/web/20180720011017/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-21T11:45:16Z",
+        "uri": "http://web.archive.org/web/20180721114516/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-21T12:13:55Z",
+        "uri": "http://web.archive.org/web/20180721121355/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-22T12:46:47Z",
+        "uri": "http://web.archive.org/web/20180722124647/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-23T06:43:57Z",
+        "uri": "http://web.archive.org/web/20180723064357/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-23T10:15:36Z",
+        "uri": "http://web.archive.org/web/20180723101536/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-25T18:08:19Z",
+        "uri": "http://web.archive.org/web/20180725180819/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-07-30T01:04:28Z",
+        "uri": "http://web.archive.org/web/20180730010428/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-07T13:48:39Z",
+        "uri": "http://web.archive.org/web/20180807134839/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-07T18:25:11Z",
+        "uri": "http://web.archive.org/web/20180807182511/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-13T18:14:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180813181420/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-13T18:14:20Z",
+        "uri": "http://web.archive.org/web/20180813181420/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-13T19:47:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180813194700/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-13T19:47:00Z",
+        "uri": "http://web.archive.org/web/20180813194700/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-20T18:11:08Z",
+        "uri": "http://web.archive.org/web/20180820181108/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-20T18:12:19Z",
+        "uri": "http://archive.md/20180820181219/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-31T05:44:58Z",
+        "uri": "http://web.archive.org/web/20180831054458/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-31T05:55:48Z",
+        "uri": "http://web.archive.org/web/20180831055548/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-31T13:41:48Z",
+        "uri": "http://wayback.archive-it.org/all/20180831134148/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-31T13:41:48Z",
+        "uri": "http://web.archive.org/web/20180831134148/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-31T21:01:59Z",
+        "uri": "http://wayback.archive-it.org/all/20180831210159/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-08-31T21:01:59Z",
+        "uri": "http://web.archive.org/web/20180831210159/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-02T11:16:24Z",
+        "uri": "http://wayback.archive-it.org/all/20180902111624/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-02T11:16:24Z",
+        "uri": "http://web.archive.org/web/20180902111624/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-03T13:20:30Z",
+        "uri": "http://wayback.archive-it.org/all/20180903132030/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-03T13:20:30Z",
+        "uri": "http://web.archive.org/web/20180903132030/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-04T14:47:00Z",
+        "uri": "http://wayback.archive-it.org/all/20180904144700/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-04T14:47:00Z",
+        "uri": "http://web.archive.org/web/20180904144700/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-05T15:11:54Z",
+        "uri": "http://wayback.archive-it.org/all/20180905151154/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-05T15:11:54Z",
+        "uri": "http://web.archive.org/web/20180905151154/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-06T14:54:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180906145440/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-06T14:54:40Z",
+        "uri": "http://web.archive.org/web/20180906145440/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-10T21:04:05Z",
+        "uri": "http://web.archive.org/web/20180910210405/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-13T23:40:33Z",
+        "uri": "http://web.archive.org/web/20180913234033/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-20T01:27:04Z",
+        "uri": "http://wayback.archive-it.org/all/20180920012704/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-20T01:27:04Z",
+        "uri": "http://web.archive.org/web/20180920012704/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-20T15:13:47Z",
+        "uri": "http://web.archive.org/web/20180920151347/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-21T22:17:35Z",
+        "uri": "http://wayback.archive-it.org/all/20180921221735/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-21T22:17:35Z",
+        "uri": "http://web.archive.org/web/20180921221735/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-22T11:25:48Z",
+        "uri": "http://web.archive.org/web/20180922112548/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-22T22:18:55Z",
+        "uri": "http://wayback.archive-it.org/all/20180922221855/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-22T22:18:55Z",
+        "uri": "http://web.archive.org/web/20180922221855/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-22T22:54:05Z",
+        "uri": "http://web.archive.org/web/20180922225405/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-23T23:14:00Z",
+        "uri": "http://web.archive.org/web/20180923231400/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-25T05:11:09Z",
+        "uri": "http://web.archive.org/web/20180925051109/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-26T05:12:43Z",
+        "uri": "http://web.archive.org/web/20180926051243/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-28T07:30:56Z",
+        "uri": "http://web.archive.org/web/20180928073056/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-09-30T20:02:32Z",
+        "uri": "http://web.archive.org/web/20180930200232/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-10-07T16:38:48Z",
+        "uri": "http://wayback.archive-it.org/all/20181007163848/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-10-07T16:38:48Z",
+        "uri": "http://web.archive.org/web/20181007163848/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-10-23T14:04:01Z",
+        "uri": "http://web.archive.org/web/20181023140401/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-10-24T22:22:02Z",
+        "uri": "http://web.archive.org/web/20181024222202/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-02T09:10:44Z",
+        "uri": "http://wayback.archive-it.org/all/20181102091044/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-02T09:10:44Z",
+        "uri": "http://web.archive.org/web/20181102091044/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-03T13:07:12Z",
+        "uri": "http://web.archive.org/web/20181103130712/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-05T13:30:49Z",
+        "uri": "http://web.archive.org/web/20181105133049/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-11T07:37:56Z",
+        "uri": "http://wayback.archive-it.org/all/20181111073756/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-11T07:37:56Z",
+        "uri": "http://web.archive.org/web/20181111073756/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-25T03:52:22Z",
+        "uri": "http://web.archive.org/web/20181125035222/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-26T02:56:28Z",
+        "uri": "http://web.archive.org/web/20181126025628/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-26T03:53:43Z",
+        "uri": "http://web.archive.org/web/20181126035343/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-26T05:34:42Z",
+        "uri": "http://wayback.archive-it.org/all/20181126053442/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-26T05:34:42Z",
+        "uri": "http://web.archive.org/web/20181126053442/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-26T09:26:42Z",
+        "uri": "http://web.archive.org/web/20181126092642/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-11-27T04:48:57Z",
+        "uri": "http://web.archive.org/web/20181127044857/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-02T10:23:31Z",
+        "uri": "http://web.archive.org/web/20181202102331/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-03T11:58:39Z",
+        "uri": "http://web.archive.org/web/20181203115839/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-04T12:40:55Z",
+        "uri": "http://web.archive.org/web/20181204124055/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-05T12:48:41Z",
+        "uri": "http://web.archive.org/web/20181205124841/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-05T16:33:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181205163354/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-05T16:33:54Z",
+        "uri": "http://web.archive.org/web/20181205163354/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-05T18:50:56Z",
+        "uri": "http://wayback.archive-it.org/all/20181205185056/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-05T18:50:56Z",
+        "uri": "http://web.archive.org/web/20181205185056/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-05T20:31:04Z",
+        "uri": "http://wayback.archive-it.org/all/20181205203104/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-05T20:31:04Z",
+        "uri": "http://web.archive.org/web/20181205203104/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-06T14:46:09Z",
+        "uri": "http://web.archive.org/web/20181206144609/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-07T12:56:00Z",
+        "uri": "http://web.archive.org/web/20181207125600/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-07T13:34:06Z",
+        "uri": "http://web.archive.org/web/20181207133406/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-08T14:17:48Z",
+        "uri": "http://web.archive.org/web/20181208141748/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-09T13:23:41Z",
+        "uri": "http://web.archive.org/web/20181209132341/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-19T04:33:43Z",
+        "uri": "http://web.archive.org/web/20181219043343/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-23T23:19:57Z",
+        "uri": "http://wayback.archive-it.org/all/20181223231957/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-23T23:19:57Z",
+        "uri": "http://web.archive.org/web/20181223231957/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-23T23:19:58Z",
+        "uri": "http://wayback.archive-it.org/all/20181223231958/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-23T23:19:58Z",
+        "uri": "http://web.archive.org/web/20181223231958/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-24T23:20:28Z",
+        "uri": "http://wayback.archive-it.org/all/20181224232028/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-24T23:20:28Z",
+        "uri": "http://web.archive.org/web/20181224232028/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-24T23:20:29Z",
+        "uri": "http://wayback.archive-it.org/all/20181224232029/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-24T23:20:29Z",
+        "uri": "http://web.archive.org/web/20181224232029/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-25T23:17:37Z",
+        "uri": "http://wayback.archive-it.org/all/20181225231737/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-25T23:17:37Z",
+        "uri": "http://web.archive.org/web/20181225231737/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-25T23:17:38Z",
+        "uri": "http://wayback.archive-it.org/all/20181225231738/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-25T23:17:38Z",
+        "uri": "http://web.archive.org/web/20181225231738/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-26T17:13:47Z",
+        "uri": "http://web.archive.org/web/20181226171347/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-26T23:16:16Z",
+        "uri": "http://wayback.archive-it.org/all/20181226231616/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-26T23:16:16Z",
+        "uri": "http://web.archive.org/web/20181226231616/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-26T23:16:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181226231618/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-26T23:16:18Z",
+        "uri": "http://web.archive.org/web/20181226231618/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-27T23:12:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181227231221/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-27T23:12:21Z",
+        "uri": "http://web.archive.org/web/20181227231221/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-28T23:22:01Z",
+        "uri": "http://wayback.archive-it.org/all/20181228232201/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-28T23:22:01Z",
+        "uri": "http://web.archive.org/web/20181228232201/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-28T23:22:03Z",
+        "uri": "http://wayback.archive-it.org/all/20181228232203/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-28T23:22:03Z",
+        "uri": "http://web.archive.org/web/20181228232203/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-31T23:16:49Z",
+        "uri": "http://wayback.archive-it.org/all/20181231231649/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-31T23:16:49Z",
+        "uri": "http://web.archive.org/web/20181231231649/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-31T23:16:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181231231651/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2018-12-31T23:16:51Z",
+        "uri": "http://web.archive.org/web/20181231231651/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-01T01:14:11Z",
+        "uri": "http://web.archive.org/web/20190101011411/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-01T23:15:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190101231547/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-01T23:15:47Z",
+        "uri": "http://web.archive.org/web/20190101231547/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-01T23:15:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190101231548/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-01T23:15:48Z",
+        "uri": "http://web.archive.org/web/20190101231548/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-02T23:22:22Z",
+        "uri": "http://wayback.archive-it.org/all/20190102232222/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-02T23:22:22Z",
+        "uri": "http://web.archive.org/web/20190102232222/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-02T23:22:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190102232223/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-02T23:22:23Z",
+        "uri": "http://web.archive.org/web/20190102232223/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-04T11:33:26Z",
+        "uri": "http://web.archive.org/web/20190104113326/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-04T21:45:07Z",
+        "uri": "http://web.archive.org/web/20190104214507/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-04T23:26:35Z",
+        "uri": "http://wayback.archive-it.org/all/20190104232635/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-04T23:26:35Z",
+        "uri": "http://web.archive.org/web/20190104232635/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-04T23:26:41Z",
+        "uri": "http://wayback.archive-it.org/all/20190104232641/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-04T23:26:41Z",
+        "uri": "http://web.archive.org/web/20190104232641/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-05T23:11:32Z",
+        "uri": "http://web.archive.org/web/20190105231132/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-05T23:16:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190105231619/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-05T23:16:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190105231619/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-05T23:16:19Z",
+        "uri": "http://web.archive.org/web/20190105231619/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-06T04:16:50Z",
+        "uri": "http://web.archive.org/web/20190106041650/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-06T11:35:55Z",
+        "uri": "http://web.archive.org/web/20190106113555/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-06T23:17:36Z",
+        "uri": "http://wayback.archive-it.org/all/20190106231736/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-06T23:17:36Z",
+        "uri": "http://web.archive.org/web/20190106231736/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-06T23:17:38Z",
+        "uri": "http://wayback.archive-it.org/all/20190106231738/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-06T23:17:38Z",
+        "uri": "http://web.archive.org/web/20190106231738/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-07T11:45:06Z",
+        "uri": "http://web.archive.org/web/20190107114506/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-08T11:21:14Z",
+        "uri": "http://web.archive.org/web/20190108112114/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-09T06:04:17Z",
+        "uri": "http://web.archive.org/web/20190109060417/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-09T10:30:37Z",
+        "uri": "http://web.archive.org/web/20190109103037/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-09T16:46:14Z",
+        "uri": "http://web.archive.org/web/20190109164614/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-10T03:22:26Z",
+        "uri": "http://web.archive.org/web/20190110032226/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-10T10:01:54Z",
+        "uri": "http://web.archive.org/web/20190110100154/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-10T21:11:44Z",
+        "uri": "http://web.archive.org/web/20190110211144/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-10T21:28:06Z",
+        "uri": "http://web.archive.org/web/20190110212806/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-11T06:53:45Z",
+        "uri": "http://web.archive.org/web/20190111065345/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-11T08:58:19Z",
+        "uri": "http://web.archive.org/web/20190111085819/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-11T21:08:06Z",
+        "uri": "http://web.archive.org/web/20190111210806/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-12T15:32:10Z",
+        "uri": "http://web.archive.org/web/20190112153210/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-13T11:14:06Z",
+        "uri": "http://wayback.archive-it.org/all/20190113111406/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-13T11:14:06Z",
+        "uri": "http://web.archive.org/web/20190113111406/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-13T16:41:27Z",
+        "uri": "http://web.archive.org/web/20190113164127/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-13T17:56:40Z",
+        "uri": "http://web.archive.org/web/20190113175640/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-14T07:48:15Z",
+        "uri": "http://web.archive.org/web/20190114074815/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-14T17:05:04Z",
+        "uri": "http://web.archive.org/web/20190114170504/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-15T06:34:54Z",
+        "uri": "http://web.archive.org/web/20190115063454/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-15T17:19:30Z",
+        "uri": "http://web.archive.org/web/20190115171930/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-16T05:29:45Z",
+        "uri": "http://web.archive.org/web/20190116052945/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-16T18:36:05Z",
+        "uri": "http://web.archive.org/web/20190116183605/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-16T18:41:54Z",
+        "uri": "http://web.archive.org/web/20190116184154/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-17T04:26:08Z",
+        "uri": "http://web.archive.org/web/20190117042608/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-17T17:38:23Z",
+        "uri": "http://web.archive.org/web/20190117173823/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-17T21:59:49Z",
+        "uri": "http://web.archive.org/web/20190117215949/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-17T23:14:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190117231425/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-17T23:14:25Z",
+        "uri": "http://web.archive.org/web/20190117231425/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-17T23:14:26Z",
+        "uri": "http://wayback.archive-it.org/all/20190117231426/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-17T23:14:26Z",
+        "uri": "http://web.archive.org/web/20190117231426/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-18T04:24:13Z",
+        "uri": "http://web.archive.org/web/20190118042413/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-18T19:38:40Z",
+        "uri": "http://wayback.archive-it.org/all/20190118193840/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-18T19:38:40Z",
+        "uri": "http://web.archive.org/web/20190118193840/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-18T22:03:27Z",
+        "uri": "http://web.archive.org/web/20190118220327/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-18T23:20:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190118232048/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-18T23:20:48Z",
+        "uri": "http://web.archive.org/web/20190118232048/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-19T06:23:33Z",
+        "uri": "http://web.archive.org/web/20190119062333/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-19T13:00:49Z",
+        "uri": "http://web.archive.org/web/20190119130049/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-19T22:30:40Z",
+        "uri": "http://web.archive.org/web/20190119223040/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-19T23:16:14Z",
+        "uri": "http://wayback.archive-it.org/all/20190119231614/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-19T23:16:14Z",
+        "uri": "http://web.archive.org/web/20190119231614/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-20T05:49:13Z",
+        "uri": "http://web.archive.org/web/20190120054913/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-20T23:14:09Z",
+        "uri": "http://web.archive.org/web/20190120231409/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-20T23:19:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190120231919/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-20T23:19:19Z",
+        "uri": "http://web.archive.org/web/20190120231919/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-20T23:19:20Z",
+        "uri": "http://wayback.archive-it.org/all/20190120231920/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-20T23:19:20Z",
+        "uri": "http://web.archive.org/web/20190120231920/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-21T12:12:04Z",
+        "uri": "http://web.archive.org/web/20190121121204/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-21T23:20:04Z",
+        "uri": "http://wayback.archive-it.org/all/20190121232004/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-21T23:20:04Z",
+        "uri": "http://web.archive.org/web/20190121232004/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-21T23:20:05Z",
+        "uri": "http://wayback.archive-it.org/all/20190121232005/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-21T23:20:05Z",
+        "uri": "http://web.archive.org/web/20190121232005/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-21T23:42:55Z",
+        "uri": "http://web.archive.org/web/20190121234255/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-22T06:34:40Z",
+        "uri": "http://web.archive.org/web/20190122063440/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-22T23:34:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190122233454/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-22T23:34:54Z",
+        "uri": "http://web.archive.org/web/20190122233454/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-22T23:35:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190122233502/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-22T23:35:02Z",
+        "uri": "http://web.archive.org/web/20190122233502/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-23T02:04:35Z",
+        "uri": "http://web.archive.org/web/20190123020435/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-24T01:53:16Z",
+        "uri": "http://web.archive.org/web/20190124015316/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-24T07:27:30Z",
+        "uri": "http://web.archive.org/web/20190124072730/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-24T18:32:49Z",
+        "uri": "http://web.archive.org/web/20190124183249/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-25T04:30:47Z",
+        "uri": "http://web.archive.org/web/20190125043047/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-25T10:08:23Z",
+        "uri": "http://web.archive.org/web/20190125100823/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-26T05:21:53Z",
+        "uri": "http://web.archive.org/web/20190126052153/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-26T07:51:39Z",
+        "uri": "http://web.archive.org/web/20190126075139/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-26T20:20:20Z",
+        "uri": "http://web.archive.org/web/20190126202020/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-26T22:48:31Z",
+        "uri": "http://web.archive.org/web/20190126224831/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-26T23:22:46Z",
+        "uri": "http://web.archive.org/web/20190126232246/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-27T04:25:08Z",
+        "uri": "http://web.archive.org/web/20190127042508/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-27T14:30:04Z",
+        "uri": "http://wayback.archive-it.org/all/20190127143004/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-27T14:30:04Z",
+        "uri": "http://web.archive.org/web/20190127143004/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-28T00:37:36Z",
+        "uri": "http://web.archive.org/web/20190128003736/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-28T04:22:24Z",
+        "uri": "http://web.archive.org/web/20190128042224/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-28T10:44:33Z",
+        "uri": "http://wayback.archive-it.org/all/20190128104433/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-28T10:44:33Z",
+        "uri": "http://web.archive.org/web/20190128104433/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-29T05:07:08Z",
+        "uri": "http://web.archive.org/web/20190129050708/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-29T07:40:52Z",
+        "uri": "http://web.archive.org/web/20190129074052/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-29T12:16:37Z",
+        "uri": "http://web.archive.org/web/20190129121637/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-29T19:12:04Z",
+        "uri": "http://web.archive.org/web/20190129191204/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-30T02:55:54Z",
+        "uri": "http://web.archive.org/web/20190130025554/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-30T03:55:58Z",
+        "uri": "http://web.archive.org/web/20190130035558/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-30T08:27:54Z",
+        "uri": "http://web.archive.org/web/20190130082754/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-31T04:51:19Z",
+        "uri": "http://web.archive.org/web/20190131045119/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-31T10:36:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190131103648/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-01-31T10:36:48Z",
+        "uri": "http://web.archive.org/web/20190131103648/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-01T04:04:37Z",
+        "uri": "http://web.archive.org/web/20190201040437/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-01T23:55:06Z",
+        "uri": "http://web.archive.org/web/20190201235506/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-02T05:39:22Z",
+        "uri": "http://web.archive.org/web/20190202053922/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-02T23:41:39Z",
+        "uri": "http://web.archive.org/web/20190202234139/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-03T04:45:16Z",
+        "uri": "http://web.archive.org/web/20190203044516/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-03T11:55:10Z",
+        "uri": "http://web.archive.org/web/20190203115510/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-04T04:03:22Z",
+        "uri": "http://web.archive.org/web/20190204040322/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-04T04:35:18Z",
+        "uri": "http://web.archive.org/web/20190204043518/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-05T05:29:35Z",
+        "uri": "http://web.archive.org/web/20190205052935/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-06T01:58:07Z",
+        "uri": "http://web.archive.org/web/20190206015807/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-06T03:37:34Z",
+        "uri": "http://web.archive.org/web/20190206033734/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-07T03:38:06Z",
+        "uri": "http://web.archive.org/web/20190207033806/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-08T04:37:26Z",
+        "uri": "http://web.archive.org/web/20190208043726/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-08T16:35:06Z",
+        "uri": "http://web.archive.org/web/20190208163506/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-09T03:20:13Z",
+        "uri": "http://web.archive.org/web/20190209032013/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-09T04:29:40Z",
+        "uri": "http://web.archive.org/web/20190209042940/http://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-10T04:50:19Z",
+        "uri": "http://web.archive.org/web/20190210045019/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-10T12:40:09Z",
+        "uri": "http://web.archive.org/web/20190210124009/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-11T04:47:21Z",
+        "uri": "http://web.archive.org/web/20190211044721/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-11T05:49:38Z",
+        "uri": "http://web.archive.org/web/20190211054938/http://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-12T04:27:49Z",
+        "uri": "http://web.archive.org/web/20190212042749/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-12T15:03:21Z",
+        "uri": "http://web.archive.org/web/20190212150321/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-13T03:15:17Z",
+        "uri": "http://web.archive.org/web/20190213031517/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-14T03:57:23Z",
+        "uri": "http://web.archive.org/web/20190214035723/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      },
+      {
+        "datetime": "2019-02-15T04:30:29Z",
+        "uri": "http://web.archive.org/web/20190215043029/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+      }
+    ],
+    "first": {
+      "datetime": "2017-09-20T04:11:51Z",
+      "uri": "http://web.archive.org/web/20170920041151/http://www.fairus.org:80/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+    },
+    "last": {
+      "datetime": "2019-02-15T04:30:29Z",
+      "uri": "http://web.archive.org/web/20190215043029/https://fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers",
+    "json_format": "http://localhost:1208/timemap/json/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers"
+}

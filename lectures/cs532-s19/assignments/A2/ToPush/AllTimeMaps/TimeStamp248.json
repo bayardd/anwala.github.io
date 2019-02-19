@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective",
+  "self": "http://localhost:1208/timemap/json/https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-11-07T12:29:46Z",
+        "uri": "http://web.archive.org/web/20181107122946/https://www.cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective"
+      },
+      {
+        "datetime": "2019-01-24T05:32:30Z",
+        "uri": "http://web.archive.org/web/20190124053230/https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective"
+      }
+    ],
+    "first": {
+      "datetime": "2018-11-07T12:29:46Z",
+      "uri": "http://web.archive.org/web/20181107122946/https://www.cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective"
+    },
+    "last": {
+      "datetime": "2019-01-24T05:32:30Z",
+      "uri": "http://web.archive.org/web/20190124053230/https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective",
+    "json_format": "http://localhost:1208/timemap/json/https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective"
+}

@@ -1,0 +1,58 @@
+{
+  "original_uri": "http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt",
+  "self": "http://localhost:1208/timemap/json/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-12T20:49:46Z",
+        "uri": "http://web.archive.org/web/20181212204946/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2018-12-13T12:41:24Z",
+        "uri": "http://web.archive.org/web/20181213124124/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2018-12-22T05:33:17Z",
+        "uri": "http://web.archive.org/web/20181222053317/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2018-12-29T03:55:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181229035552/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2018-12-29T03:55:52Z",
+        "uri": "http://web.archive.org/web/20181229035552/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2018-12-30T03:32:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181230033214/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2018-12-30T03:32:14Z",
+        "uri": "http://web.archive.org/web/20181230033214/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2019-01-23T02:20:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190123022054/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      },
+      {
+        "datetime": "2019-01-23T02:20:54Z",
+        "uri": "http://web.archive.org/web/20190123022054/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-12T20:49:46Z",
+      "uri": "http://web.archive.org/web/20181212204946/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+    },
+    "last": {
+      "datetime": "2019-01-23T02:20:54Z",
+      "uri": "http://web.archive.org/web/20190123022054/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt",
+    "json_format": "http://localhost:1208/timemap/json/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt"
+}

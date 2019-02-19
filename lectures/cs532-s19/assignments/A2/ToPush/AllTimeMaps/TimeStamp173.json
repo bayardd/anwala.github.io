@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T02:33:39Z",
+        "uri": "http://web.archive.org/web/20190213023339/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882"
+      },
+      {
+        "datetime": "2019-02-13T04:57:40Z",
+        "uri": "http://web.archive.org/web/20190213045740/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882"
+      },
+      {
+        "datetime": "2019-02-13T13:23:14Z",
+        "uri": "http://web.archive.org/web/20190213132314/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882"
+      },
+      {
+        "datetime": "2019-02-14T13:22:42Z",
+        "uri": "http://web.archive.org/web/20190214132242/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882"
+      },
+      {
+        "datetime": "2019-02-15T02:21:50Z",
+        "uri": "http://web.archive.org/web/20190215022150/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T02:33:39Z",
+      "uri": "http://web.archive.org/web/20190213023339/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882"
+    },
+    "last": {
+      "datetime": "2019-02-15T02:21:50Z",
+      "uri": "http://web.archive.org/web/20190215022150/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882%0A"
+}

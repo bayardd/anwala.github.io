@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/",
+  "self": "http://localhost:1208/timemap/json/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-03T20:20:17Z",
+        "uri": "http://web.archive.org/web/20190203202017/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-03T20:20:17Z",
+      "uri": "http://web.archive.org/web/20190203202017/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/"
+    },
+    "last": {
+      "datetime": "2019-02-03T20:20:17Z",
+      "uri": "http://web.archive.org/web/20190203202017/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/"
+}

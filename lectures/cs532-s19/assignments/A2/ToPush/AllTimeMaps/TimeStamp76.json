@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/",
+  "self": "http://localhost:1208/timemap/json/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:11:25Z",
+        "uri": "http://web.archive.org/web/20190215011125/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+      },
+      {
+        "datetime": "2019-02-15T01:19:36Z",
+        "uri": "http://web.archive.org/web/20190215011936/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+      },
+      {
+        "datetime": "2019-02-15T01:40:02Z",
+        "uri": "http://web.archive.org/web/20190215014002/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+      },
+      {
+        "datetime": "2019-02-15T17:48:24Z",
+        "uri": "http://web.archive.org/web/20190215174824/http://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+      },
+      {
+        "datetime": "2019-02-15T17:48:27Z",
+        "uri": "http://web.archive.org/web/20190215174827/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+      },
+      {
+        "datetime": "2019-02-15T18:42:55Z",
+        "uri": "http://web.archive.org/web/20190215184255/http://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+      },
+      {
+        "datetime": "2019-02-15T18:42:56Z",
+        "uri": "http://web.archive.org/web/20190215184256/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:11:25Z",
+      "uri": "http://web.archive.org/web/20190215011125/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+    },
+    "last": {
+      "datetime": "2019-02-15T18:42:56Z",
+      "uri": "http://web.archive.org/web/20190215184256/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/"
+}

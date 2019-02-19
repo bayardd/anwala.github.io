@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/",
+  "self": "http://localhost:1208/timemap/json/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T02:42:55Z",
+        "uri": "http://web.archive.org/web/20190214024255/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/"
+      },
+      {
+        "datetime": "2019-02-14T12:23:10Z",
+        "uri": "http://web.archive.org/web/20190214122310/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T02:42:55Z",
+      "uri": "http://web.archive.org/web/20190214024255/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-14T12:23:10Z",
+      "uri": "http://web.archive.org/web/20190214122310/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/",
+    "json_format": "http://localhost:1208/timemap/json/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/"
+}

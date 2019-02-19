@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T15:04:27Z",
+        "uri": "http://web.archive.org/web/20190214150427/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723/"
+      },
+      {
+        "datetime": "2019-02-14T17:51:37Z",
+        "uri": "http://web.archive.org/web/20190214175137/http://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723"
+      },
+      {
+        "datetime": "2019-02-14T19:37:10Z",
+        "uri": "http://web.archive.org/web/20190214193710/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T15:04:27Z",
+      "uri": "http://web.archive.org/web/20190214150427/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723/"
+    },
+    "last": {
+      "datetime": "2019-02-14T19:37:10Z",
+      "uri": "http://web.archive.org/web/20190214193710/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723%0A"
+}

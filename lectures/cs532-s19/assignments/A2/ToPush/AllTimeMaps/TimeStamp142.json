@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/",
+  "self": "http://localhost:1208/timemap/json/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-09T19:54:53Z",
+        "uri": "http://wayback.archive-it.org/all/20190209195453/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+      },
+      {
+        "datetime": "2019-02-09T19:54:53Z",
+        "uri": "http://web.archive.org/web/20190209195453/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+      },
+      {
+        "datetime": "2019-02-10T09:31:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190210093144/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+      },
+      {
+        "datetime": "2019-02-10T09:31:44Z",
+        "uri": "http://web.archive.org/web/20190210093144/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+      },
+      {
+        "datetime": "2019-02-13T00:51:42Z",
+        "uri": "http://web.archive.org/web/20190213005142/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-09T19:54:53Z",
+      "uri": "http://wayback.archive-it.org/all/20190209195453/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+    },
+    "last": {
+      "datetime": "2019-02-13T00:51:42Z",
+      "uri": "http://web.archive.org/web/20190213005142/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/",
+    "json_format": "http://localhost:1208/timemap/json/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/"
+}

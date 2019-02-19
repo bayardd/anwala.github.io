@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T09:15:10Z",
+        "uri": "https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T09:15:10Z",
+      "uri": "https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html"
+    },
+    "last": {
+      "datetime": "2019-02-12T09:15:10Z",
+      "uri": "https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html%0A"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html",
+  "self": "http://localhost:1208/timemap/json/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:36:15Z",
+        "uri": "http://web.archive.org/web/20190215013615/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:36:15Z",
+      "uri": "http://web.archive.org/web/20190215013615/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T01:36:15Z",
+      "uri": "http://web.archive.org/web/20190215013615/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html",
+  "self": "http://localhost:1208/timemap/json/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:11:13Z",
+        "uri": "http://web.archive.org/web/20190215121113/http://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html"
+      },
+      {
+        "datetime": "2019-02-15T13:57:20Z",
+        "uri": "http://web.archive.org/web/20190215135720/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html"
+      },
+      {
+        "datetime": "2019-02-15T19:23:47Z",
+        "uri": "http://web.archive.org/web/20190215192347/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:11:13Z",
+      "uri": "http://web.archive.org/web/20190215121113/http://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T19:23:47Z",
+      "uri": "http://web.archive.org/web/20190215192347/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html"
+}

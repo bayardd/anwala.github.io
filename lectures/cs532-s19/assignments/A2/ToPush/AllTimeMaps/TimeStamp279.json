@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T09:51:49Z",
+        "uri": "http://web.archive.org/web/20190215095149/http://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html"
+      },
+      {
+        "datetime": "2019-02-15T12:01:12Z",
+        "uri": "http://web.archive.org/web/20190215120112/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html"
+      },
+      {
+        "datetime": "2019-02-15T13:07:56Z",
+        "uri": "http://web.archive.org/web/20190215130756/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T09:51:49Z",
+      "uri": "http://web.archive.org/web/20190215095149/http://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:07:56Z",
+      "uri": "http://web.archive.org/web/20190215130756/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html"
+}

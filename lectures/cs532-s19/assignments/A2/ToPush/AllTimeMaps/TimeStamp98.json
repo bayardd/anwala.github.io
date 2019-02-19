@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing",
+  "self": "http://localhost:1208/timemap/json/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T22:03:35Z",
+        "uri": "http://web.archive.org/web/20190213220335/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing"
+      },
+      {
+        "datetime": "2019-02-14T14:33:49Z",
+        "uri": "http://web.archive.org/web/20190214143349/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T22:03:35Z",
+      "uri": "http://web.archive.org/web/20190213220335/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing"
+    },
+    "last": {
+      "datetime": "2019-02-14T14:33:49Z",
+      "uri": "http://web.archive.org/web/20190214143349/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing",
+    "json_format": "http://localhost:1208/timemap/json/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing"
+}

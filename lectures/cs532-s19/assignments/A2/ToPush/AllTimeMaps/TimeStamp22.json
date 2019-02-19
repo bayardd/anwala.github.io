@@ -1,0 +1,34 @@
+{
+  "original_uri": "http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/%0A/",
+  "self": "http://localhost:1208/timemap/json/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/%0A/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-10T05:11:28Z",
+        "uri": "http://web.archive.org/web/20190110051128/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/"
+      },
+      {
+        "datetime": "2019-01-18T06:15:19Z",
+        "uri": "http://web.archive.org/web/20190118061519/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/"
+      },
+      {
+        "datetime": "2019-02-03T07:15:01Z",
+        "uri": "http://web.archive.org/web/20190203071501/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-10T05:11:28Z",
+      "uri": "http://web.archive.org/web/20190110051128/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/"
+    },
+    "last": {
+      "datetime": "2019-02-03T07:15:01Z",
+      "uri": "http://web.archive.org/web/20190203071501/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/%0A/",
+    "json_format": "http://localhost:1208/timemap/json/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/%0A/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/%0A/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/%0A/"
+}

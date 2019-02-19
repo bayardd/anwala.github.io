@@ -1,0 +1,70 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T01:46:49Z",
+        "uri": "http://web.archive.org/web/20190214014649/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-14T02:22:41Z",
+        "uri": "http://web.archive.org/web/20190214022241/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-14T06:09:47Z",
+        "uri": "http://web.archive.org/web/20190214060947/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-14T11:10:22Z",
+        "uri": "http://web.archive.org/web/20190214111022/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-14T15:06:04Z",
+        "uri": "http://web.archive.org/web/20190214150604/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-14T16:03:30Z",
+        "uri": "http://web.archive.org/web/20190214160330/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-15T00:08:42Z",
+        "uri": "http://web.archive.org/web/20190215000842/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-15T03:24:01Z",
+        "uri": "http://web.archive.org/web/20190215032401/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-15T05:45:04Z",
+        "uri": "http://web.archive.org/web/20190215054504/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-15T12:07:43Z",
+        "uri": "http://web.archive.org/web/20190215120743/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-15T14:39:11Z",
+        "uri": "http://web.archive.org/web/20190215143911/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-15T21:08:36Z",
+        "uri": "http://web.archive.org/web/20190215210836/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T01:46:49Z",
+      "uri": "http://web.archive.org/web/20190214014649/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:08:36Z",
+      "uri": "http://web.archive.org/web/20190215210836/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html%0A"
+}

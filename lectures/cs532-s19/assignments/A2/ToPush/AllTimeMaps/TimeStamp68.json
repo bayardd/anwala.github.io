@@ -1,0 +1,146 @@
+{
+  "original_uri": "https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds",
+  "self": "http://localhost:1208/timemap/json/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-02T20:13:59Z",
+        "uri": "http://web.archive.org/web/20190102201359/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-03T20:45:18Z",
+        "uri": "http://web.archive.org/web/20190103204518/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-04T01:21:46Z",
+        "uri": "http://web.archive.org/web/20190104012146/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-04T23:27:10Z",
+        "uri": "http://web.archive.org/web/20190104232710/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-06T00:16:53Z",
+        "uri": "http://web.archive.org/web/20190106001653/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-07T00:42:49Z",
+        "uri": "http://web.archive.org/web/20190107004249/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-09T04:09:40Z",
+        "uri": "http://web.archive.org/web/20190109040940/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-10T02:54:25Z",
+        "uri": "http://web.archive.org/web/20190110025425/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-11T03:38:06Z",
+        "uri": "http://web.archive.org/web/20190111033806/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-12T23:26:27Z",
+        "uri": "http://web.archive.org/web/20190112232627/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-13T23:52:11Z",
+        "uri": "http://web.archive.org/web/20190113235211/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-15T00:35:02Z",
+        "uri": "http://web.archive.org/web/20190115003502/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-16T02:50:24Z",
+        "uri": "http://web.archive.org/web/20190116025024/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-17T07:13:48Z",
+        "uri": "http://web.archive.org/web/20190117071348/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-18T07:29:00Z",
+        "uri": "http://web.archive.org/web/20190118072900/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-19T08:51:45Z",
+        "uri": "http://web.archive.org/web/20190119085145/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-20T09:10:09Z",
+        "uri": "http://web.archive.org/web/20190120091009/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-21T09:40:41Z",
+        "uri": "http://web.archive.org/web/20190121094041/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-22T09:39:36Z",
+        "uri": "http://web.archive.org/web/20190122093936/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-23T10:06:24Z",
+        "uri": "http://web.archive.org/web/20190123100624/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-24T13:28:30Z",
+        "uri": "http://web.archive.org/web/20190124132830/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-25T14:55:19Z",
+        "uri": "http://web.archive.org/web/20190125145519/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-26T14:46:46Z",
+        "uri": "http://web.archive.org/web/20190126144646/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-27T15:46:02Z",
+        "uri": "http://web.archive.org/web/20190127154602/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-28T16:52:53Z",
+        "uri": "http://web.archive.org/web/20190128165253/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-29T15:53:14Z",
+        "uri": "http://web.archive.org/web/20190129155314/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-01-30T16:37:41Z",
+        "uri": "http://web.archive.org/web/20190130163741/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-02-01T06:14:36Z",
+        "uri": "http://web.archive.org/web/20190201061436/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-02-03T14:51:23Z",
+        "uri": "http://web.archive.org/web/20190203145123/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-02-13T04:21:27Z",
+        "uri": "http://web.archive.org/web/20190213042127/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      },
+      {
+        "datetime": "2019-02-14T07:02:35Z",
+        "uri": "http://web.archive.org/web/20190214070235/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-02T20:13:59Z",
+      "uri": "http://web.archive.org/web/20190102201359/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+    },
+    "last": {
+      "datetime": "2019-02-14T07:02:35Z",
+      "uri": "http://web.archive.org/web/20190214070235/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds",
+    "json_format": "http://localhost:1208/timemap/json/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds"
+}

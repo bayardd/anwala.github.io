@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:50:30Z",
+        "uri": "http://web.archive.org/web/20190215135030/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:50:30Z",
+      "uri": "http://web.archive.org/web/20190215135030/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:50:30Z",
+      "uri": "http://web.archive.org/web/20190215135030/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001%0A"
+}

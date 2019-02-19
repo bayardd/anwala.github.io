@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093",
+  "self": "http://localhost:1208/timemap/json/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T10:07:48Z",
+        "uri": "http://web.archive.org/web/20190215100748/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T10:07:48Z",
+      "uri": "http://web.archive.org/web/20190215100748/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093"
+    },
+    "last": {
+      "datetime": "2019-02-15T10:07:48Z",
+      "uri": "http://web.archive.org/web/20190215100748/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093",
+    "json_format": "http://localhost:1208/timemap/json/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093"
+}

@@ -1,0 +1,1306 @@
+{
+  "original_uri": "https://survivalpulse.com",
+  "self": "http://localhost:1208/timemap/json/https://survivalpulse.com",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2013-02-08T05:46:10Z",
+        "uri": "http://web.archive.org/web/20130208054610/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-02-22T02:56:12Z",
+        "uri": "http://web.archive.org/web/20130222025612/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-02-23T03:10:43Z",
+        "uri": "http://web.archive.org/web/20130223031043/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-03-10T02:33:11Z",
+        "uri": "http://web.archive.org/web/20130310023311/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-03-17T00:55:27Z",
+        "uri": "http://web.archive.org/web/20130317005527/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-03-27T18:19:45Z",
+        "uri": "http://web.archive.org/web/20130327181945/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-04-13T04:12:36Z",
+        "uri": "http://web.archive.org/web/20130413041236/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-05-01T05:32:02Z",
+        "uri": "http://web.archive.org/web/20130501053202/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-05-01T15:52:04Z",
+        "uri": "http://web.archive.org/web/20130501155204/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-05-18T22:53:25Z",
+        "uri": "http://web.archive.org/web/20130518225325/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-06-18T22:32:24Z",
+        "uri": "http://web.archive.org/web/20130618223224/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-06-25T16:36:12Z",
+        "uri": "http://web.archive.org/web/20130625163612/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-07-12T07:09:23Z",
+        "uri": "http://web.archive.org/web/20130712070923/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-07-21T10:52:48Z",
+        "uri": "http://web.archive.org/web/20130721105248/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-07-29T08:21:41Z",
+        "uri": "http://web.archive.org/web/20130729082141/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-08-11T22:36:15Z",
+        "uri": "http://web.archive.org/web/20130811223615/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-08-25T09:25:17Z",
+        "uri": "http://web.archive.org/web/20130825092517/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-09-06T12:46:22Z",
+        "uri": "http://web.archive.org/web/20130906124622/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-09-14T21:26:24Z",
+        "uri": "http://web.archive.org/web/20130914212624/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-09-22T03:10:53Z",
+        "uri": "http://web.archive.org/web/20130922031053/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-09-23T06:11:20Z",
+        "uri": "http://web.archive.org/web/20130923061120/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-10-01T03:47:28Z",
+        "uri": "http://web.archive.org/web/20131001034728/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-10-03T14:59:17Z",
+        "uri": "http://web.archive.org/web/20131003145917/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2013-10-05T19:13:12Z",
+        "uri": "http://web.archive.org/web/20131005191312/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-09T06:26:56Z",
+        "uri": "http://web.archive.org/web/20131009062656/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-09T08:11:21Z",
+        "uri": "http://web.archive.org/web/20131009081121/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-10-09T22:34:31Z",
+        "uri": "http://web.archive.org/web/20131009223431/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-18T14:18:10Z",
+        "uri": "http://web.archive.org/web/20131018141810/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-10-21T12:01:13Z",
+        "uri": "http://web.archive.org/web/20131021120113/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-21T14:05:49Z",
+        "uri": "http://web.archive.org/web/20131021140549/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-24T03:05:57Z",
+        "uri": "http://web.archive.org/web/20131024030557/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-25T01:27:30Z",
+        "uri": "http://wayback.archive-it.org/all/20131025012730/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-25T01:27:30Z",
+        "uri": "http://web.archive.org/web/20131025012730/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-25T01:27:37Z",
+        "uri": "http://wayback.archive-it.org/all/20131025012737/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-25T01:27:37Z",
+        "uri": "http://web.archive.org/web/20131025012737/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-10-26T14:39:18Z",
+        "uri": "http://web.archive.org/web/20131026143918/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-10-28T00:21:38Z",
+        "uri": "http://web.archive.org/web/20131028002138/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-11-03T21:08:58Z",
+        "uri": "http://web.archive.org/web/20131103210858/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2013-11-04T07:35:56Z",
+        "uri": "http://web.archive.org/web/20131104073556/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-11-09T16:04:00Z",
+        "uri": "http://webarchive.loc.gov/all/20131109160400/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-11-14T11:10:07Z",
+        "uri": "http://web.archive.org/web/20131114111007/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-11-15T23:40:55Z",
+        "uri": "http://archive.md/20131115234055/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-11-17T03:14:59Z",
+        "uri": "http://webarchive.loc.gov/all/20131117031459/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-11-21T16:02:15Z",
+        "uri": "http://webarchive.loc.gov/all/20131121160215/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-11-22T00:20:46Z",
+        "uri": "http://webarchive.loc.gov/all/20131122002046/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-11-27T10:35:02Z",
+        "uri": "http://web.archive.org/web/20131127103502/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-11-28T06:40:53Z",
+        "uri": "http://web.archive.org/web/20131128064053/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-11-28T06:40:56Z",
+        "uri": "http://web.archive.org/web/20131128064056/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-11-29T09:49:25Z",
+        "uri": "http://webarchive.loc.gov/all/20131129094925/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-04T05:03:27Z",
+        "uri": "http://web.archive.org/web/20131204050327/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-04T05:03:30Z",
+        "uri": "http://web.archive.org/web/20131204050330/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-04T23:13:49Z",
+        "uri": "http://web.archive.org/web/20131204231349/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2013-12-09T16:13:25Z",
+        "uri": "http://web.archive.org/web/20131209161325/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-12-09T19:40:47Z",
+        "uri": "http://wayback.archive-it.org/all/20131209194047/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-09T19:40:47Z",
+        "uri": "http://web.archive.org/web/20131209194047/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-09T19:40:50Z",
+        "uri": "http://wayback.archive-it.org/all/20131209194050/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-09T19:40:50Z",
+        "uri": "http://web.archive.org/web/20131209194050/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-13T22:28:35Z",
+        "uri": "http://webarchive.loc.gov/all/20131213222835/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2013-12-21T17:09:18Z",
+        "uri": "http://web.archive.org/web/20131221170918/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-12-22T19:13:25Z",
+        "uri": "http://web.archive.org/web/20131222191325/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2013-12-28T02:59:59Z",
+        "uri": "http://web.archive.org/web/20131228025959/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-01-03T10:17:12Z",
+        "uri": "http://webarchive.loc.gov/all/20140103101712/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-01-04T19:24:02Z",
+        "uri": "http://web.archive.org/web/20140104192402/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2014-01-05T22:14:45Z",
+        "uri": "http://web.archive.org/web/20140105221445/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-01-07T23:46:17Z",
+        "uri": "http://web.archive.org/web/20140107234617/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-01-10T09:15:37Z",
+        "uri": "http://webarchive.loc.gov/all/20140110091537/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-01-21T23:32:22Z",
+        "uri": "http://web.archive.org/web/20140121233222/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-01-25T15:41:53Z",
+        "uri": "http://web.archive.org/web/20140125154153/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-02-04T20:00:02Z",
+        "uri": "http://web.archive.org/web/20140204200002/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2014-02-07T00:30:01Z",
+        "uri": "http://web.archive.org/web/20140207003001/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-02-08T01:42:45Z",
+        "uri": "http://web.archive.org/web/20140208014245/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-02-08T06:21:19Z",
+        "uri": "http://web.archive.org/web/20140208062119/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-02-26T19:45:01Z",
+        "uri": "http://web.archive.org/web/20140226194501/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-03-10T12:28:33Z",
+        "uri": "http://web.archive.org/web/20140310122833/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-03-11T15:00:16Z",
+        "uri": "http://web.archive.org/web/20140311150016/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-03-25T00:07:59Z",
+        "uri": "http://web.archive.org/web/20140325000759/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-04-07T11:02:48Z",
+        "uri": "http://web.archive.org/web/20140407110248/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-04-18T10:18:46Z",
+        "uri": "http://web.archive.org/web/20140418101846/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-05-01T05:26:48Z",
+        "uri": "http://web.archive.org/web/20140501052648/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-05-11T00:24:51Z",
+        "uri": "http://web.archive.org/web/20140511002451/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-05-16T07:10:58Z",
+        "uri": "http://web.archive.org/web/20140516071058/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-05-17T10:54:43Z",
+        "uri": "http://web.archive.org/web/20140517105443/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-06-06T00:51:58Z",
+        "uri": "http://web.archive.org/web/20140606005158/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-06-25T12:21:47Z",
+        "uri": "http://web.archive.org/web/20140625122147/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-06-26T21:21:38Z",
+        "uri": "http://web.archive.org/web/20140626212138/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-07-15T10:10:48Z",
+        "uri": "http://web.archive.org/web/20140715101048/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-09-01T14:09:29Z",
+        "uri": "http://web.archive.org/web/20140901140929/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-09-13T15:27:20Z",
+        "uri": "http://web.archive.org/web/20140913152720/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-09-21T02:31:28Z",
+        "uri": "http://web.archive.org/web/20140921023128/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-09-28T12:09:42Z",
+        "uri": "http://web.archive.org/web/20140928120942/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-10-11T13:45:24Z",
+        "uri": "http://web.archive.org/web/20141011134524/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-10-21T11:50:07Z",
+        "uri": "http://web.archive.org/web/20141021115007/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-10-22T16:00:45Z",
+        "uri": "http://web.archive.org/web/20141022160045/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-11-03T08:55:38Z",
+        "uri": "http://web.archive.org/web/20141103085538/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-11-13T11:01:22Z",
+        "uri": "http://web.archive.org/web/20141113110122/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-11-16T17:06:37Z",
+        "uri": "http://web.archive.org/web/20141116170637/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-11-25T13:05:03Z",
+        "uri": "http://web.archive.org/web/20141125130503/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-12-04T07:39:03Z",
+        "uri": "http://web.archive.org/web/20141204073903/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-12-14T13:10:58Z",
+        "uri": "http://web.archive.org/web/20141214131058/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2014-12-18T09:45:44Z",
+        "uri": "http://web.archive.org/web/20141218094544/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2014-12-26T17:10:32Z",
+        "uri": "http://web.archive.org/web/20141226171032/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-01-05T22:52:46Z",
+        "uri": "http://web.archive.org/web/20150105225246/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-01-14T06:36:33Z",
+        "uri": "http://web.archive.org/web/20150114063633/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-01-23T16:09:56Z",
+        "uri": "http://web.archive.org/web/20150123160956/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-02-02T11:55:34Z",
+        "uri": "http://web.archive.org/web/20150202115534/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-02-05T23:26:19Z",
+        "uri": "http://web.archive.org/web/20150205232619/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-02-06T23:52:46Z",
+        "uri": "http://web.archive.org/web/20150206235246/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-02-14T08:09:23Z",
+        "uri": "http://web.archive.org/web/20150214080923/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-02-19T15:28:48Z",
+        "uri": "http://web.archive.org/web/20150219152848/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-02-21T10:07:09Z",
+        "uri": "http://web.archive.org/web/20150221100709/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-02-27T04:05:41Z",
+        "uri": "http://web.archive.org/web/20150227040541/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-03-05T10:26:40Z",
+        "uri": "http://web.archive.org/web/20150305102640/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-03-11T20:21:52Z",
+        "uri": "http://web.archive.org/web/20150311202152/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-03-14T20:26:27Z",
+        "uri": "http://web.archive.org/web/20150314202627/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-03-15T01:10:55Z",
+        "uri": "http://web.archive.org/web/20150315011055/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-03-18T04:33:32Z",
+        "uri": "http://web.archive.org/web/20150318043332/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-03-23T03:51:57Z",
+        "uri": "http://web.archive.org/web/20150323035157/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-03-25T00:43:10Z",
+        "uri": "http://web.archive.org/web/20150325004310/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-04-01T03:06:39Z",
+        "uri": "http://web.archive.org/web/20150401030639/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-04-09T06:21:05Z",
+        "uri": "http://web.archive.org/web/20150409062105/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-04-17T04:04:48Z",
+        "uri": "http://web.archive.org/web/20150417040448/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-04-18T12:43:41Z",
+        "uri": "http://web.archive.org/web/20150418124341/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-04-22T17:30:34Z",
+        "uri": "http://web.archive.org/web/20150422173034/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-04-25T07:31:47Z",
+        "uri": "http://web.archive.org/web/20150425073147/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-04-25T14:57:19Z",
+        "uri": "http://web.archive.org/web/20150425145719/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-05-03T05:23:03Z",
+        "uri": "http://web.archive.org/web/20150503052303/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-05-10T10:25:00Z",
+        "uri": "http://web.archive.org/web/20150510102500/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-05-19T03:30:49Z",
+        "uri": "http://web.archive.org/web/20150519033049/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-05-23T06:16:21Z",
+        "uri": "http://web.archive.org/web/20150523061621/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-05-26T04:06:17Z",
+        "uri": "http://web.archive.org/web/20150526040617/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-06-02T05:01:44Z",
+        "uri": "http://web.archive.org/web/20150602050144/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-06-10T03:32:24Z",
+        "uri": "http://web.archive.org/web/20150610033224/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-06-10T05:32:12Z",
+        "uri": "http://web.archive.org/web/20150610053212/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-06-18T03:53:41Z",
+        "uri": "http://web.archive.org/web/20150618035341/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-06-23T01:07:43Z",
+        "uri": "http://web.archive.org/web/20150623010743/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-06-26T03:07:50Z",
+        "uri": "http://web.archive.org/web/20150626030750/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-07-03T04:25:57Z",
+        "uri": "http://web.archive.org/web/20150703042557/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-07-06T18:13:19Z",
+        "uri": "http://wayback.archive-it.org/all/20150706181319/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-07-06T18:13:19Z",
+        "uri": "http://web.archive.org/web/20150706181319/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-07-10T03:15:04Z",
+        "uri": "http://web.archive.org/web/20150710031504/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-07-17T07:20:27Z",
+        "uri": "http://web.archive.org/web/20150717072027/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-07-22T17:28:15Z",
+        "uri": "http://web.archive.org/web/20150722172815/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-07-24T21:00:17Z",
+        "uri": "http://web.archive.org/web/20150724210017/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-07-24T21:01:38Z",
+        "uri": "http://web.archive.org/web/20150724210138/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-08-01T07:09:42Z",
+        "uri": "http://web.archive.org/web/20150801070942/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-08-03T03:13:42Z",
+        "uri": "http://web.archive.org/web/20150803031342/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-08-09T04:59:54Z",
+        "uri": "http://web.archive.org/web/20150809045954/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-08-16T08:13:56Z",
+        "uri": "http://web.archive.org/web/20150816081356/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-08-22T22:01:55Z",
+        "uri": "http://web.archive.org/web/20150822220155/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-08-27T05:57:56Z",
+        "uri": "http://web.archive.org/web/20150827055756/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-08-29T11:18:33Z",
+        "uri": "http://web.archive.org/web/20150829111833/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-09-05T01:09:12Z",
+        "uri": "http://web.archive.org/web/20150905010912/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-09-06T12:24:14Z",
+        "uri": "http://web.archive.org/web/20150906122414/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2015-09-12T03:43:53Z",
+        "uri": "http://web.archive.org/web/20150912034353/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-09-19T11:20:31Z",
+        "uri": "http://web.archive.org/web/20150919112031/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-09-27T07:17:27Z",
+        "uri": "http://web.archive.org/web/20150927071727/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-09-28T07:36:48Z",
+        "uri": "http://web.archive.org/web/20150928073648/http://survivalpulse.com:80/?"
+      },
+      {
+        "datetime": "2015-10-05T12:25:49Z",
+        "uri": "http://web.archive.org/web/20151005122549/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-10-12T23:04:48Z",
+        "uri": "http://web.archive.org/web/20151012230448/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-10-21T01:18:18Z",
+        "uri": "http://web.archive.org/web/20151021011818/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-10-28T21:26:12Z",
+        "uri": "http://web.archive.org/web/20151028212612/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-11-05T06:19:28Z",
+        "uri": "http://web.archive.org/web/20151105061928/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-11-12T09:25:30Z",
+        "uri": "http://web.archive.org/web/20151112092530/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-11-20T23:09:29Z",
+        "uri": "http://web.archive.org/web/20151120230929/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-11-28T19:36:54Z",
+        "uri": "http://web.archive.org/web/20151128193654/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-12-08T05:41:29Z",
+        "uri": "http://web.archive.org/web/20151208054129/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-12-16T23:04:48Z",
+        "uri": "http://web.archive.org/web/20151216230448/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2015-12-25T02:03:56Z",
+        "uri": "http://web.archive.org/web/20151225020356/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-01-02T08:06:09Z",
+        "uri": "http://web.archive.org/web/20160102080609/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-01-11T11:07:07Z",
+        "uri": "http://web.archive.org/web/20160111110707/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-01-12T05:02:27Z",
+        "uri": "http://web.archive.org/web/20160112050227/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-01-16T09:18:08Z",
+        "uri": "http://web.archive.org/web/20160116091808/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-01-20T01:06:04Z",
+        "uri": "http://web.archive.org/web/20160120010604/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-01-27T20:36:09Z",
+        "uri": "http://web.archive.org/web/20160127203609/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-01-29T13:19:45Z",
+        "uri": "http://web.archive.org/web/20160129131945/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-02-01T06:30:10Z",
+        "uri": "http://web.archive.org/web/20160201063010/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-02-05T18:33:15Z",
+        "uri": "http://web.archive.org/web/20160205183315/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-02-05T21:09:59Z",
+        "uri": "http://web.archive.org/web/20160205210959/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-02-06T14:35:07Z",
+        "uri": "http://web.archive.org/web/20160206143507/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-02-14T12:25:07Z",
+        "uri": "http://web.archive.org/web/20160214122507/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-02-23T08:40:51Z",
+        "uri": "http://web.archive.org/web/20160223084051/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-03-02T15:30:06Z",
+        "uri": "http://web.archive.org/web/20160302153006/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-03-10T16:19:41Z",
+        "uri": "http://web.archive.org/web/20160310161941/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-03-11T15:11:09Z",
+        "uri": "http://web.archive.org/web/20160311151109/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-03-12T15:27:04Z",
+        "uri": "http://web.archive.org/web/20160312152704/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-03-13T08:35:20Z",
+        "uri": "http://web.archive.org/web/20160313083520/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-03-20T04:15:08Z",
+        "uri": "http://web.archive.org/web/20160320041508/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-03-22T01:34:06Z",
+        "uri": "http://web.archive.org/web/20160322013406/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-03-29T10:11:19Z",
+        "uri": "http://web.archive.org/web/20160329101119/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-04-06T04:19:03Z",
+        "uri": "http://web.archive.org/web/20160406041903/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-04-14T02:28:39Z",
+        "uri": "http://web.archive.org/web/20160414022839/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-04-21T13:01:22Z",
+        "uri": "http://web.archive.org/web/20160421130122/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-04-24T04:27:31Z",
+        "uri": "http://web.archive.org/web/20160424042731/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-04-30T01:52:08Z",
+        "uri": "http://web.archive.org/web/20160430015208/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-05-07T22:18:59Z",
+        "uri": "http://web.archive.org/web/20160507221859/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-05-15T03:50:23Z",
+        "uri": "http://web.archive.org/web/20160515035023/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-05-23T15:30:27Z",
+        "uri": "http://web.archive.org/web/20160523153027/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-05-31T19:43:56Z",
+        "uri": "http://web.archive.org/web/20160531194356/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-06-08T05:34:46Z",
+        "uri": "http://web.archive.org/web/20160608053446/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-06-16T22:03:31Z",
+        "uri": "http://web.archive.org/web/20160616220331/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-06-17T11:50:59Z",
+        "uri": "http://web.archive.org/web/20160617115059/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-06-25T19:46:25Z",
+        "uri": "http://web.archive.org/web/20160625194625/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-07-03T20:40:02Z",
+        "uri": "http://web.archive.org/web/20160703204002/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-07-09T05:39:11Z",
+        "uri": "http://web.archive.org/web/20160709053911/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-07-12T20:46:22Z",
+        "uri": "http://web.archive.org/web/20160712204622/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-07-15T16:19:42Z",
+        "uri": "http://web.archive.org/web/20160715161942/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-07-22T00:41:38Z",
+        "uri": "http://web.archive.org/web/20160722004138/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-07-30T21:56:14Z",
+        "uri": "http://web.archive.org/web/20160730215614/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-08-07T23:08:46Z",
+        "uri": "http://web.archive.org/web/20160807230846/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-08-16T21:40:47Z",
+        "uri": "http://web.archive.org/web/20160816214047/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-08-24T21:38:51Z",
+        "uri": "http://web.archive.org/web/20160824213851/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-08-26T00:07:52Z",
+        "uri": "http://web.archive.org/web/20160826000752/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-09-03T00:36:36Z",
+        "uri": "http://web.archive.org/web/20160903003636/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-09-04T05:49:33Z",
+        "uri": "http://web.archive.org/web/20160904054933/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-09-14T08:19:00Z",
+        "uri": "http://web.archive.org/web/20160914081900/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-09-25T06:42:41Z",
+        "uri": "http://web.archive.org/web/20160925064241/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-10-07T23:44:33Z",
+        "uri": "http://web.archive.org/web/20161007234433/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-10-09T08:42:41Z",
+        "uri": "http://web.archive.org/web/20161009084241/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2016-10-24T02:35:01Z",
+        "uri": "http://web.archive.org/web/20161024023501/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-11-22T18:56:22Z",
+        "uri": "http://web.archive.org/web/20161122185622/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2016-12-06T01:54:44Z",
+        "uri": "http://web.archive.org/web/20161206015444/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-01-20T07:58:25Z",
+        "uri": "http://web.archive.org/web/20170120075825/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-01-24T02:58:03Z",
+        "uri": "http://web.archive.org/web/20170124025803/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-02-04T17:54:34Z",
+        "uri": "http://web.archive.org/web/20170204175434/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-03-23T11:10:17Z",
+        "uri": "http://web.archive.org/web/20170323111017/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-04-21T18:49:24Z",
+        "uri": "http://web.archive.org/web/20170421184924/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-04-25T20:29:50Z",
+        "uri": "http://web.archive.org/web/20170425202950/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-04-28T14:34:44Z",
+        "uri": "http://web.archive.org/web/20170428143444/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-05-02T17:35:34Z",
+        "uri": "http://web.archive.org/web/20170502173534/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-05-17T04:39:14Z",
+        "uri": "http://web.archive.org/web/20170517043914/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-05-28T01:43:29Z",
+        "uri": "http://web.archive.org/web/20170528014329/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-06-06T15:02:25Z",
+        "uri": "http://web.archive.org/web/20170606150225/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-06-13T21:01:35Z",
+        "uri": "http://web.archive.org/web/20170613210135/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-06-16T04:09:08Z",
+        "uri": "http://web.archive.org/web/20170616040908/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-06-28T02:22:42Z",
+        "uri": "http://web.archive.org/web/20170628022242/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-07-07T16:46:16Z",
+        "uri": "http://web.archive.org/web/20170707164616/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-07-11T11:05:27Z",
+        "uri": "http://web.archive.org/web/20170711110527/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-07-11T17:20:59Z",
+        "uri": "http://web.archive.org/web/20170711172059/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-07-24T16:20:26Z",
+        "uri": "http://web.archive.org/web/20170724162026/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-07-28T18:15:37Z",
+        "uri": "http://web.archive.org/web/20170728181537/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-07-29T08:50:13Z",
+        "uri": "http://web.archive.org/web/20170729085013/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-08-03T03:07:41Z",
+        "uri": "http://web.archive.org/web/20170803030741/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-08-28T05:51:02Z",
+        "uri": "http://web.archive.org/web/20170828055102/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-09-02T19:11:30Z",
+        "uri": "http://web.archive.org/web/20170902191130/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-09-04T04:20:13Z",
+        "uri": "http://web.archive.org/web/20170904042013/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-09-11T05:17:36Z",
+        "uri": "http://web.archive.org/web/20170911051736/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-09-12T05:12:13Z",
+        "uri": "http://web.archive.org/web/20170912051213/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-09-12T18:25:57Z",
+        "uri": "http://web.archive.org/web/20170912182557/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-09-28T05:59:40Z",
+        "uri": "http://web.archive.org/web/20170928055940/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-09-30T01:16:50Z",
+        "uri": "http://web.archive.org/web/20170930011650/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-10-04T11:05:15Z",
+        "uri": "http://web.archive.org/web/20171004110515/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-10-04T15:51:49Z",
+        "uri": "http://web.archive.org/web/20171004155149/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-10-22T19:59:47Z",
+        "uri": "http://web.archive.org/web/20171022195947/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-10-28T23:55:50Z",
+        "uri": "http://web.archive.org/web/20171028235550/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-10-30T20:29:17Z",
+        "uri": "http://web.archive.org/web/20171030202917/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-11-04T00:03:01Z",
+        "uri": "http://web.archive.org/web/20171104000301/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-11-19T16:11:07Z",
+        "uri": "http://web.archive.org/web/20171119161107/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-11-28T21:17:23Z",
+        "uri": "http://web.archive.org/web/20171128211723/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-12-04T21:25:36Z",
+        "uri": "http://web.archive.org/web/20171204212536/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2017-12-12T00:36:14Z",
+        "uri": "http://web.archive.org/web/20171212003614/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2017-12-29T22:27:32Z",
+        "uri": "http://web.archive.org/web/20171229222732/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-01-04T17:53:44Z",
+        "uri": "http://web.archive.org/web/20180104175344/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-01-27T04:03:24Z",
+        "uri": "http://web.archive.org/web/20180127040324/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-02-02T10:29:59Z",
+        "uri": "http://web.archive.org/web/20180202102959/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-02-04T09:29:53Z",
+        "uri": "http://web.archive.org/web/20180204092953/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-03-01T18:34:18Z",
+        "uri": "http://web.archive.org/web/20180301183418/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-03-06T17:44:37Z",
+        "uri": "http://web.archive.org/web/20180306174437/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-03-07T06:03:38Z",
+        "uri": "http://web.archive.org/web/20180307060338/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-03-07T11:03:47Z",
+        "uri": "http://web.archive.org/web/20180307110347/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-03-08T21:13:38Z",
+        "uri": "http://web.archive.org/web/20180308211338/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-03-09T05:29:14Z",
+        "uri": "http://web.archive.org/web/20180309052914/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-03-31T12:18:50Z",
+        "uri": "http://web.archive.org/web/20180331121850/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-04-06T07:54:32Z",
+        "uri": "http://web.archive.org/web/20180406075432/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-04-07T06:32:33Z",
+        "uri": "http://web.archive.org/web/20180407063233/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-04-21T08:44:05Z",
+        "uri": "http://web.archive.org/web/20180421084405/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-04-28T06:29:22Z",
+        "uri": "http://web.archive.org/web/20180428062922/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-05-01T12:55:26Z",
+        "uri": "http://web.archive.org/web/20180501125526/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-05-05T13:35:47Z",
+        "uri": "http://web.archive.org/web/20180505133547/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-05-12T08:09:56Z",
+        "uri": "http://web.archive.org/web/20180512080956/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-05-19T23:55:29Z",
+        "uri": "http://web.archive.org/web/20180519235529/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-06-06T15:48:39Z",
+        "uri": "http://web.archive.org/web/20180606154839/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-06-30T02:06:51Z",
+        "uri": "http://web.archive.org/web/20180630020651/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-07-01T15:55:44Z",
+        "uri": "http://web.archive.org/web/20180701155544/http://survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-07-07T02:24:05Z",
+        "uri": "http://web.archive.org/web/20180707022405/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-07-08T07:52:34Z",
+        "uri": "http://web.archive.org/web/20180708075234/http://www.survivalpulse.com:80/"
+      },
+      {
+        "datetime": "2018-07-18T09:49:26Z",
+        "uri": "http://web.archive.org/web/20180718094926/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-07-27T19:37:23Z",
+        "uri": "http://web.archive.org/web/20180727193723/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-03T23:58:24Z",
+        "uri": "http://web.archive.org/web/20180803235824/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-04T19:30:28Z",
+        "uri": "http://web.archive.org/web/20180804193028/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-05T20:19:50Z",
+        "uri": "http://web.archive.org/web/20180805201950/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-06T20:00:19Z",
+        "uri": "http://web.archive.org/web/20180806200019/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-10T23:45:07Z",
+        "uri": "http://web.archive.org/web/20180810234507/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-16T01:17:39Z",
+        "uri": "http://web.archive.org/web/20180816011739/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-18T10:20:55Z",
+        "uri": "http://web.archive.org/web/20180818102055/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-25T07:32:31Z",
+        "uri": "http://web.archive.org/web/20180825073231/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-08-26T09:21:19Z",
+        "uri": "http://web.archive.org/web/20180826092119/http://www.survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-09-01T02:25:47Z",
+        "uri": "http://web.archive.org/web/20180901022547/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-09-08T04:51:58Z",
+        "uri": "http://web.archive.org/web/20180908045158/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-09-14T22:36:17Z",
+        "uri": "http://web.archive.org/web/20180914223617/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-09-28T23:13:21Z",
+        "uri": "http://web.archive.org/web/20180928231321/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-09-29T19:21:00Z",
+        "uri": "http://web.archive.org/web/20180929192100/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-10-06T21:49:16Z",
+        "uri": "http://web.archive.org/web/20181006214916/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-10-12T20:54:00Z",
+        "uri": "http://web.archive.org/web/20181012205400/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-10-19T18:58:50Z",
+        "uri": "http://web.archive.org/web/20181019185850/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-10-19T22:01:45Z",
+        "uri": "http://web.archive.org/web/20181019220145/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-10-26T19:46:22Z",
+        "uri": "http://web.archive.org/web/20181026194622/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-03T04:10:27Z",
+        "uri": "http://web.archive.org/web/20181103041027/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-10T15:07:54Z",
+        "uri": "http://web.archive.org/web/20181110150754/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-23T16:02:40Z",
+        "uri": "http://web.archive.org/web/20181123160240/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-29T21:52:54Z",
+        "uri": "http://wayback.archive-it.org/all/20181129215254/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-29T21:52:54Z",
+        "uri": "http://web.archive.org/web/20181129215254/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-29T22:01:06Z",
+        "uri": "http://wayback.archive-it.org/all/20181129220106/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-29T22:01:06Z",
+        "uri": "http://web.archive.org/web/20181129220106/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-11-30T21:38:11Z",
+        "uri": "http://web.archive.org/web/20181130213811/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-12-07T23:16:44Z",
+        "uri": "http://web.archive.org/web/20181207231644/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-12-21T14:55:49Z",
+        "uri": "http://web.archive.org/web/20181221145549/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2018-12-28T22:51:54Z",
+        "uri": "http://web.archive.org/web/20181228225154/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2019-01-11T14:27:01Z",
+        "uri": "http://web.archive.org/web/20190111142701/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2019-01-18T21:23:08Z",
+        "uri": "http://web.archive.org/web/20190118212308/http://survivalpulse.com/"
+      },
+      {
+        "datetime": "2019-01-26T07:03:54Z",
+        "uri": "http://web.archive.org/web/20190126070354/https://survivalpulse.com/"
+      },
+      {
+        "datetime": "2019-02-08T15:50:47Z",
+        "uri": "http://web.archive.org/web/20190208155047/http://survivalpulse.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2013-02-08T05:46:10Z",
+      "uri": "http://web.archive.org/web/20130208054610/http://survivalpulse.com:80/"
+    },
+    "last": {
+      "datetime": "2019-02-08T15:50:47Z",
+      "uri": "http://web.archive.org/web/20190208155047/http://survivalpulse.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://survivalpulse.com",
+    "json_format": "http://localhost:1208/timemap/json/https://survivalpulse.com",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://survivalpulse.com"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://survivalpulse.com"
+}

@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/",
+  "self": "http://localhost:1208/timemap/json/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-11T21:58:15Z",
+        "uri": "http://web.archive.org/web/20190211215815/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+      },
+      {
+        "datetime": "2019-02-12T03:12:07Z",
+        "uri": "http://web.archive.org/web/20190212031207/http://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+      },
+      {
+        "datetime": "2019-02-12T17:37:40Z",
+        "uri": "http://web.archive.org/web/20190212173740/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+      },
+      {
+        "datetime": "2019-02-12T20:23:55Z",
+        "uri": "http://web.archive.org/web/20190212202355/http://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+      },
+      {
+        "datetime": "2019-02-13T05:45:24Z",
+        "uri": "http://web.archive.org/web/20190213054524/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+      },
+      {
+        "datetime": "2019-02-13T05:45:28Z",
+        "uri": "http://web.archive.org/web/20190213054528/http://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-11T21:58:15Z",
+      "uri": "http://web.archive.org/web/20190211215815/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+    },
+    "last": {
+      "datetime": "2019-02-13T05:45:28Z",
+      "uri": "http://web.archive.org/web/20190213054528/http://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/",
+    "json_format": "http://localhost:1208/timemap/json/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/"
+}

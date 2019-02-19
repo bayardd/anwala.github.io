@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thehill.com/homenews/senate/430076-senate-approves-border-bill",
+  "self": "http://localhost:1208/timemap/json/https://thehill.com/homenews/senate/430076-senate-approves-border-bill",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T02:59:27Z",
+        "uri": "http://web.archive.org/web/20190215025927/https://thehill.com/homenews/senate/430076-senate-approves-border-bill"
+      },
+      {
+        "datetime": "2019-02-15T13:42:51Z",
+        "uri": "http://web.archive.org/web/20190215134251/https://thehill.com/homenews/senate/430076-senate-approves-border-bill"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T02:59:27Z",
+      "uri": "http://web.archive.org/web/20190215025927/https://thehill.com/homenews/senate/430076-senate-approves-border-bill"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:42:51Z",
+      "uri": "http://web.archive.org/web/20190215134251/https://thehill.com/homenews/senate/430076-senate-approves-border-bill"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thehill.com/homenews/senate/430076-senate-approves-border-bill",
+    "json_format": "http://localhost:1208/timemap/json/https://thehill.com/homenews/senate/430076-senate-approves-border-bill",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thehill.com/homenews/senate/430076-senate-approves-border-bill"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thehill.com/homenews/senate/430076-senate-approves-border-bill"
+}

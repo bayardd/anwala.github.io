@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump",
+  "self": "http://localhost:1208/timemap/json/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T09:15:18Z",
+        "uri": "http://web.archive.org/web/20190214091518/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump"
+      },
+      {
+        "datetime": "2019-02-14T14:25:43Z",
+        "uri": "http://web.archive.org/web/20190214142543/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump"
+      },
+      {
+        "datetime": "2019-02-15T10:46:03Z",
+        "uri": "http://web.archive.org/web/20190215104603/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T09:15:18Z",
+      "uri": "http://web.archive.org/web/20190214091518/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump"
+    },
+    "last": {
+      "datetime": "2019-02-15T10:46:03Z",
+      "uri": "http://web.archive.org/web/20190215104603/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump",
+    "json_format": "http://localhost:1208/timemap/json/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump"
+}

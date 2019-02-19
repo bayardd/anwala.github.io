@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T16:56:42Z",
+        "uri": "http://web.archive.org/web/20190214165642/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+      },
+      {
+        "datetime": "2019-02-15T02:19:14Z",
+        "uri": "http://web.archive.org/web/20190215021914/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+      },
+      {
+        "datetime": "2019-02-15T13:47:19Z",
+        "uri": "http://web.archive.org/web/20190215134719/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+      },
+      {
+        "datetime": "2019-02-15T15:12:53Z",
+        "uri": "http://web.archive.org/web/20190215151253/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T16:56:42Z",
+      "uri": "http://web.archive.org/web/20190214165642/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:12:53Z",
+      "uri": "http://web.archive.org/web/20190215151253/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T06:42:01Z",
+        "uri": "http://web.archive.org/web/20190213064201/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+      },
+      {
+        "datetime": "2019-02-13T07:02:50Z",
+        "uri": "http://web.archive.org/web/20190213070250/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+      },
+      {
+        "datetime": "2019-02-13T07:53:03Z",
+        "uri": "http://web.archive.org/web/20190213075303/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+      },
+      {
+        "datetime": "2019-02-13T14:54:14Z",
+        "uri": "http://web.archive.org/web/20190213145414/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T06:42:01Z",
+      "uri": "http://web.archive.org/web/20190213064201/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+    },
+    "last": {
+      "datetime": "2019-02-13T14:54:14Z",
+      "uri": "http://web.archive.org/web/20190213145414/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/"
+}

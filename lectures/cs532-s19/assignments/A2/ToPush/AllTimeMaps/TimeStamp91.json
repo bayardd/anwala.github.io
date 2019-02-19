@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T00:13:19Z",
+        "uri": "http://web.archive.org/web/20190215001319/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006"
+      },
+      {
+        "datetime": "2019-02-15T01:14:23Z",
+        "uri": "http://web.archive.org/web/20190215011423/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006"
+      },
+      {
+        "datetime": "2019-02-15T01:27:20Z",
+        "uri": "http://web.archive.org/web/20190215012720/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006"
+      },
+      {
+        "datetime": "2019-02-15T11:47:25Z",
+        "uri": "http://web.archive.org/web/20190215114725/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T00:13:19Z",
+      "uri": "http://web.archive.org/web/20190215001319/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:47:25Z",
+      "uri": "http://web.archive.org/web/20190215114725/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006%0A"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill",
+  "self": "http://localhost:1208/timemap/json/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:38:33Z",
+        "uri": "http://web.archive.org/web/20190215123833/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill"
+      },
+      {
+        "datetime": "2019-02-15T21:32:38Z",
+        "uri": "http://web.archive.org/web/20190215213238/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:38:33Z",
+      "uri": "http://web.archive.org/web/20190215123833/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:32:38Z",
+      "uri": "http://web.archive.org/web/20190215213238/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill",
+    "json_format": "http://localhost:1208/timemap/json/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T00:02:16Z",
+        "uri": "http://web.archive.org/web/20190213000216/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T00:02:16Z",
+      "uri": "http://web.archive.org/web/20190213000216/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs"
+    },
+    "last": {
+      "datetime": "2019-02-13T00:02:16Z",
+      "uri": "http://web.archive.org/web/20190213000216/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs%0A"
+}

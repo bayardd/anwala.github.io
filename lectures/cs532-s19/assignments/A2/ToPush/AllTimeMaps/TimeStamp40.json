@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer",
+  "self": "http://localhost:1208/timemap/json/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-05T05:37:12Z",
+        "uri": "http://web.archive.org/web/20190205053712/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-05T05:37:12Z",
+      "uri": "http://web.archive.org/web/20190205053712/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer"
+    },
+    "last": {
+      "datetime": "2019-02-05T05:37:12Z",
+      "uri": "http://web.archive.org/web/20190205053712/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer",
+    "json_format": "http://localhost:1208/timemap/json/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer"
+}

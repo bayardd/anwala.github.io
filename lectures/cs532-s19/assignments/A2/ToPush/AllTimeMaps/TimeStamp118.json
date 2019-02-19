@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/",
+  "self": "http://localhost:1208/timemap/json/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:50:19Z",
+        "uri": "http://web.archive.org/web/20190215015019/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:50:19Z",
+      "uri": "http://web.archive.org/web/20190215015019/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/"
+    },
+    "last": {
+      "datetime": "2019-02-15T01:50:19Z",
+      "uri": "http://web.archive.org/web/20190215015019/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/",
+    "json_format": "http://localhost:1208/timemap/json/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/"
+}

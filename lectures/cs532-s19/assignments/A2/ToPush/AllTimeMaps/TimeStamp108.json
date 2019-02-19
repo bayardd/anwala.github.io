@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown",
+  "self": "http://localhost:1208/timemap/json/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T07:52:03Z",
+        "uri": "http://web.archive.org/web/20190214075203/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+      },
+      {
+        "datetime": "2019-02-14T11:58:12Z",
+        "uri": "http://web.archive.org/web/20190214115812/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+      },
+      {
+        "datetime": "2019-02-14T12:18:52Z",
+        "uri": "http://web.archive.org/web/20190214121852/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+      },
+      {
+        "datetime": "2019-02-15T14:23:20Z",
+        "uri": "http://web.archive.org/web/20190215142320/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T07:52:03Z",
+      "uri": "http://web.archive.org/web/20190214075203/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:23:20Z",
+      "uri": "http://web.archive.org/web/20190215142320/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown",
+    "json_format": "http://localhost:1208/timemap/json/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown"
+}

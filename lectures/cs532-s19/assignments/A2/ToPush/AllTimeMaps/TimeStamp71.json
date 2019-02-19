@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay",
+  "self": "http://localhost:1208/timemap/json/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:35:40Z",
+        "uri": "http://web.archive.org/web/20190215123540/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:35:40Z",
+      "uri": "http://web.archive.org/web/20190215123540/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:35:40Z",
+      "uri": "http://web.archive.org/web/20190215123540/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay",
+    "json_format": "http://localhost:1208/timemap/json/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay"
+}

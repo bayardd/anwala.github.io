@@ -1,0 +1,102 @@
+{
+  "original_uri": "http://icecoldd.blogspot.com/",
+  "self": "http://localhost:1208/timemap/json/http://icecoldd.blogspot.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2013-05-04T18:55:06Z",
+        "uri": "http://web.archive.org/web/20130504185506/http://icecoldd.blogspot.com"
+      },
+      {
+        "datetime": "2014-05-29T00:23:15Z",
+        "uri": "http://web.archive.org/web/20140529002315/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-01-08T06:44:17Z",
+        "uri": "http://wayback.archive-it.org/all/20150108064417/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-01-08T06:44:17Z",
+        "uri": "http://wayback.archive-it.org/all/20150108064417/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-01-08T06:44:17Z",
+        "uri": "http://web.archive.org/web/20150108064417/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-01-10T16:46:25Z",
+        "uri": "http://wayback.archive-it.org/all/20150110164625/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-01-10T16:46:25Z",
+        "uri": "http://wayback.archive-it.org/all/20150110164625/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-01-10T16:46:25Z",
+        "uri": "http://web.archive.org/web/20150110164625/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-02-14T22:46:04Z",
+        "uri": "http://web.archive.org/web/20150214224604/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-04-02T12:11:20Z",
+        "uri": "http://wayback.archive-it.org/all/20150402121120/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2015-04-02T12:11:20Z",
+        "uri": "http://web.archive.org/web/20150402121120/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2016-01-24T20:27:16Z",
+        "uri": "http://web.archive.org/web/20160124202716/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2016-10-25T17:46:47Z",
+        "uri": "http://web.archive.org/web/20161025174647/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2017-09-14T21:29:25Z",
+        "uri": "http://web.archive.org/web/20170914212925/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2018-01-27T22:54:25Z",
+        "uri": "http://web.archive.org/web/20180127225425/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2018-01-31T20:48:08Z",
+        "uri": "http://web.archive.org/web/20180131204808/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2018-02-24T06:40:26Z",
+        "uri": "http://web.archive.org/web/20180224064026/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2018-06-04T20:28:39Z",
+        "uri": "http://web.archive.org/web/20180604202839/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2018-11-11T23:03:05Z",
+        "uri": "http://web.archive.org/web/20181111230305/http://icecoldd.blogspot.com/"
+      },
+      {
+        "datetime": "2018-11-28T07:31:51Z",
+        "uri": "http://web.archive.org/web/20181128073151/http://icecoldd.blogspot.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2013-05-04T18:55:06Z",
+      "uri": "http://web.archive.org/web/20130504185506/http://icecoldd.blogspot.com"
+    },
+    "last": {
+      "datetime": "2018-11-28T07:31:51Z",
+      "uri": "http://web.archive.org/web/20181128073151/http://icecoldd.blogspot.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://icecoldd.blogspot.com/",
+    "json_format": "http://localhost:1208/timemap/json/http://icecoldd.blogspot.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://icecoldd.blogspot.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://icecoldd.blogspot.com/"
+}

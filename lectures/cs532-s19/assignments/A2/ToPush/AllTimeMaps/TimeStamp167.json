@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829%0A",
+  "self": "http://localhost:1208/timemap/json/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:01:40Z",
+        "uri": "http://web.archive.org/web/20190215030140/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829"
+      },
+      {
+        "datetime": "2019-02-15T11:52:23Z",
+        "uri": "http://web.archive.org/web/20190215115223/http://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829"
+      },
+      {
+        "datetime": "2019-02-15T15:23:26Z",
+        "uri": "http://web.archive.org/web/20190215152326/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:01:40Z",
+      "uri": "http://web.archive.org/web/20190215030140/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:23:26Z",
+      "uri": "http://web.archive.org/web/20190215152326/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829%0A"
+}

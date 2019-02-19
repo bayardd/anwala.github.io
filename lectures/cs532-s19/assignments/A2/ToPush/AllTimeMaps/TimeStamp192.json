@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/",
+  "self": "http://localhost:1208/timemap/json/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-11T07:46:06Z",
+        "uri": "http://web.archive.org/web/20190211074606/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-11T07:46:06Z",
+      "uri": "http://web.archive.org/web/20190211074606/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/"
+    },
+    "last": {
+      "datetime": "2019-02-11T07:46:06Z",
+      "uri": "http://web.archive.org/web/20190211074606/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/"
+}

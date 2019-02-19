@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/",
+  "self": "http://localhost:1208/timemap/json/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T20:15:36Z",
+        "uri": "http://web.archive.org/web/20190212201536/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T20:15:36Z",
+      "uri": "http://web.archive.org/web/20190212201536/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/"
+    },
+    "last": {
+      "datetime": "2019-02-12T20:15:36Z",
+      "uri": "http://web.archive.org/web/20190212201536/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/"
+}

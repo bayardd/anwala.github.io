@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T20:16:05Z",
+        "uri": "http://web.archive.org/web/20190212201605/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+      },
+      {
+        "datetime": "2019-02-12T21:59:40Z",
+        "uri": "http://web.archive.org/web/20190212215940/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+      },
+      {
+        "datetime": "2019-02-12T22:07:00Z",
+        "uri": "http://web.archive.org/web/20190212220700/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+      },
+      {
+        "datetime": "2019-02-13T02:36:46Z",
+        "uri": "http://web.archive.org/web/20190213023646/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+      },
+      {
+        "datetime": "2019-02-13T13:08:47Z",
+        "uri": "http://web.archive.org/web/20190213130847/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+      },
+      {
+        "datetime": "2019-02-13T19:13:59Z",
+        "uri": "http://web.archive.org/web/20190213191359/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+      },
+      {
+        "datetime": "2019-02-14T19:14:27Z",
+        "uri": "http://web.archive.org/web/20190214191427/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T20:16:05Z",
+      "uri": "http://web.archive.org/web/20190212201605/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+    },
+    "last": {
+      "datetime": "2019-02-14T19:14:27Z",
+      "uri": "http://web.archive.org/web/20190214191427/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766%0A"
+}

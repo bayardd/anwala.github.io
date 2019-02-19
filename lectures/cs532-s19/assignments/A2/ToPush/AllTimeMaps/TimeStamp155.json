@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more",
+  "self": "http://localhost:1208/timemap/json/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:15:08Z",
+        "uri": "http://web.archive.org/web/20190215031508/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:15:08Z",
+      "uri": "http://web.archive.org/web/20190215031508/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more"
+    },
+    "last": {
+      "datetime": "2019-02-15T03:15:08Z",
+      "uri": "http://web.archive.org/web/20190215031508/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more",
+    "json_format": "http://localhost:1208/timemap/json/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:10:20Z",
+        "uri": "http://web.archive.org/web/20190215031020/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:10:20Z",
+      "uri": "http://web.archive.org/web/20190215031020/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown"
+    },
+    "last": {
+      "datetime": "2019-02-15T03:10:20Z",
+      "uri": "http://web.archive.org/web/20190215031020/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown%0A"
+}

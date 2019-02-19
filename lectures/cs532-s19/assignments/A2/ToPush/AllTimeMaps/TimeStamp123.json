@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/",
+  "self": "http://localhost:1208/timemap/json/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:12:11Z",
+        "uri": "http://web.archive.org/web/20190215031211/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/"
+      },
+      {
+        "datetime": "2019-02-15T14:21:39Z",
+        "uri": "http://web.archive.org/web/20190215142139/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:12:11Z",
+      "uri": "http://web.archive.org/web/20190215031211/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:21:39Z",
+      "uri": "http://web.archive.org/web/20190215142139/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/",
+    "json_format": "http://localhost:1208/timemap/json/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/"
+}

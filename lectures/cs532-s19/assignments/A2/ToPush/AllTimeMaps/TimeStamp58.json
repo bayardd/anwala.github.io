@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509",
+  "self": "http://localhost:1208/timemap/json/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:04:36Z",
+        "uri": "http://web.archive.org/web/20190215010436/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509"
+      },
+      {
+        "datetime": "2019-02-15T13:41:40Z",
+        "uri": "http://web.archive.org/web/20190215134140/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:04:36Z",
+      "uri": "http://web.archive.org/web/20190215010436/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:41:40Z",
+      "uri": "http://web.archive.org/web/20190215134140/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509",
+    "json_format": "http://localhost:1208/timemap/json/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509"
+}

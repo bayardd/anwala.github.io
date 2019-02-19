@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/%0A/",
+  "self": "http://localhost:1208/timemap/json/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/%0A/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:59:27Z",
+        "uri": "http://web.archive.org/web/20190215055927/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/"
+      },
+      {
+        "datetime": "2019-02-15T13:41:52Z",
+        "uri": "http://web.archive.org/web/20190215134152/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:59:27Z",
+      "uri": "http://web.archive.org/web/20190215055927/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:41:52Z",
+      "uri": "http://web.archive.org/web/20190215134152/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/%0A/",
+    "json_format": "http://localhost:1208/timemap/json/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/%0A/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/%0A/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/%0A/"
+}

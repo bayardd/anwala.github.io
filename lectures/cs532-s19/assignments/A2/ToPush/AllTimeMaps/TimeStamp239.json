@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/",
+  "self": "http://localhost:1208/timemap/json/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T23:19:51Z",
+        "uri": "http://web.archive.org/web/20190213231951/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+      },
+      {
+        "datetime": "2019-02-14T10:48:27Z",
+        "uri": "http://web.archive.org/web/20190214104827/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+      },
+      {
+        "datetime": "2019-02-14T12:31:48Z",
+        "uri": "http://web.archive.org/web/20190214123148/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+      },
+      {
+        "datetime": "2019-02-14T23:57:00Z",
+        "uri": "http://web.archive.org/web/20190214235700/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T23:19:51Z",
+      "uri": "http://web.archive.org/web/20190213231951/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+    },
+    "last": {
+      "datetime": "2019-02-14T23:57:00Z",
+      "uri": "http://web.archive.org/web/20190214235700/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/"
+}

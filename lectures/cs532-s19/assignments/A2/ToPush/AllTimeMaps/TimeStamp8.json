@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/",
+  "self": "http://localhost:1208/timemap/json/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:21:14Z",
+        "uri": "http://web.archive.org/web/20190215012114/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+      },
+      {
+        "datetime": "2019-02-15T11:45:10Z",
+        "uri": "http://web.archive.org/web/20190215114510/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+      },
+      {
+        "datetime": "2019-02-15T18:22:19Z",
+        "uri": "http://web.archive.org/web/20190215182219/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+      },
+      {
+        "datetime": "2019-02-15T18:22:19Z",
+        "uri": "http://web.archive.org/web/20190215182219/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+      },
+      {
+        "datetime": "2019-02-15T18:23:02Z",
+        "uri": "http://web.archive.org/web/20190215182302/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+      },
+      {
+        "datetime": "2019-02-15T18:23:02Z",
+        "uri": "http://web.archive.org/web/20190215182302/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:21:14Z",
+      "uri": "http://web.archive.org/web/20190215012114/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+    },
+    "last": {
+      "datetime": "2019-02-15T18:23:02Z",
+      "uri": "http://web.archive.org/web/20190215182302/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/",
+    "json_format": "http://localhost:1208/timemap/json/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/"
+}

@@ -1,0 +1,42 @@
+{
+  "original_uri": "http://sportsradioamerica.airtime.pro/",
+  "self": "http://localhost:1208/timemap/json/http://sportsradioamerica.airtime.pro/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-11-19T02:44:24Z",
+        "uri": "http://web.archive.org/web/20171119024424/http://sportsradioamerica.airtime.pro/"
+      },
+      {
+        "datetime": "2018-03-08T06:34:02Z",
+        "uri": "http://web.archive.org/web/20180308063402/http://sportsradioamerica.airtime.pro/"
+      },
+      {
+        "datetime": "2018-03-09T05:28:44Z",
+        "uri": "http://web.archive.org/web/20180309052844/http://sportsradioamerica.airtime.pro/"
+      },
+      {
+        "datetime": "2018-11-11T20:49:15Z",
+        "uri": "http://web.archive.org/web/20181111204915/http://sportsradioamerica.airtime.pro/"
+      },
+      {
+        "datetime": "2018-11-29T09:15:24Z",
+        "uri": "http://web.archive.org/web/20181129091524/http://sportsradioamerica.airtime.pro/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-11-19T02:44:24Z",
+      "uri": "http://web.archive.org/web/20171119024424/http://sportsradioamerica.airtime.pro/"
+    },
+    "last": {
+      "datetime": "2018-11-29T09:15:24Z",
+      "uri": "http://web.archive.org/web/20181129091524/http://sportsradioamerica.airtime.pro/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://sportsradioamerica.airtime.pro/",
+    "json_format": "http://localhost:1208/timemap/json/http://sportsradioamerica.airtime.pro/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://sportsradioamerica.airtime.pro/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://sportsradioamerica.airtime.pro/"
+}

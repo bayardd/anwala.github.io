@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T16:17:55Z",
+        "uri": "http://web.archive.org/web/20190215161755/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/"
+      },
+      {
+        "datetime": "2019-02-15T21:03:06Z",
+        "uri": "http://web.archive.org/web/20190215210306/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T16:17:55Z",
+      "uri": "http://web.archive.org/web/20190215161755/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:03:06Z",
+      "uri": "http://web.archive.org/web/20190215210306/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/%0A"
+}

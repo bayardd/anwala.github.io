@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/",
+  "self": "http://localhost:1208/timemap/json/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-31T01:29:55Z",
+        "uri": "http://web.archive.org/web/20190131012955/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/"
+      },
+      {
+        "datetime": "2019-02-05T03:43:44Z",
+        "uri": "http://web.archive.org/web/20190205034344/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-31T01:29:55Z",
+      "uri": "http://web.archive.org/web/20190131012955/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/"
+    },
+    "last": {
+      "datetime": "2019-02-05T03:43:44Z",
+      "uri": "http://web.archive.org/web/20190205034344/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/",
+    "json_format": "http://localhost:1208/timemap/json/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/",
+  "self": "http://localhost:1208/timemap/json/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:26:25Z",
+        "uri": "http://web.archive.org/web/20190215012625/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+      },
+      {
+        "datetime": "2019-02-15T10:01:00Z",
+        "uri": "http://web.archive.org/web/20190215100100/http://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+      },
+      {
+        "datetime": "2019-02-15T14:25:02Z",
+        "uri": "http://web.archive.org/web/20190215142502/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+      },
+      {
+        "datetime": "2019-02-15T17:50:49Z",
+        "uri": "http://web.archive.org/web/20190215175049/http://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:26:25Z",
+      "uri": "http://web.archive.org/web/20190215012625/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+    },
+    "last": {
+      "datetime": "2019-02-15T17:50:49Z",
+      "uri": "http://web.archive.org/web/20190215175049/http://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/",
+    "json_format": "http://localhost:1208/timemap/json/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/"
+}

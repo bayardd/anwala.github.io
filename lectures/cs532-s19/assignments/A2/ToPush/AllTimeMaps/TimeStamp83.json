@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/",
+  "self": "http://localhost:1208/timemap/json/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T02:57:52Z",
+        "uri": "http://web.archive.org/web/20190214025752/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T02:57:52Z",
+      "uri": "http://web.archive.org/web/20190214025752/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/"
+    },
+    "last": {
+      "datetime": "2019-02-14T02:57:52Z",
+      "uri": "http://web.archive.org/web/20190214025752/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/"
+}

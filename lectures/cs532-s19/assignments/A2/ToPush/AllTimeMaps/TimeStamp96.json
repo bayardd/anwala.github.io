@@ -1,0 +1,110 @@
+{
+  "original_uri": "https://immigrationandmigration.com/schengen-visas/",
+  "self": "http://localhost:1208/timemap/json/https://immigrationandmigration.com/schengen-visas/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-07-06T18:19:34Z",
+        "uri": "http://web.archive.org/web/20150706181934/http://immigrationandmigration.com:80/schengen-visas/"
+      },
+      {
+        "datetime": "2015-09-05T15:19:21Z",
+        "uri": "http://web.archive.org/web/20150905151921/http://immigrationandmigration.com:80/schengen-visas/"
+      },
+      {
+        "datetime": "2016-04-05T10:08:07Z",
+        "uri": "http://web.archive.org/web/20160405100807/http://immigrationandmigration.com/schengen-visas/"
+      },
+      {
+        "datetime": "2016-05-15T16:09:10Z",
+        "uri": "http://web.archive.org/web/20160515160910/http://immigrationandmigration.com:80/schengen-visas/"
+      },
+      {
+        "datetime": "2017-02-13T03:18:28Z",
+        "uri": "http://web.archive.org/web/20170213031828/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2017-05-11T12:26:30Z",
+        "uri": "http://web.archive.org/web/20170511122630/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2017-05-15T03:42:56Z",
+        "uri": "http://web.archive.org/web/20170515034256/http://immigrationandmigration.com:80/schengen-visas/"
+      },
+      {
+        "datetime": "2017-05-30T04:01:48Z",
+        "uri": "http://web.archive.org/web/20170530040148/http://immigrationandmigration.com:80/schengen-visas/"
+      },
+      {
+        "datetime": "2017-06-01T02:25:26Z",
+        "uri": "http://web.archive.org/web/20170601022526/http://immigrationandmigration.com:80/schengen-visas/"
+      },
+      {
+        "datetime": "2017-06-19T15:17:49Z",
+        "uri": "http://web.archive.org/web/20170619151749/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2017-07-29T16:01:28Z",
+        "uri": "http://web.archive.org/web/20170729160128/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2017-08-29T16:31:08Z",
+        "uri": "http://web.archive.org/web/20170829163108/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2017-09-28T21:56:20Z",
+        "uri": "http://webarchive.loc.gov/all/20170928215620/https://immigrationandmigration.com/schengen-visas/"
+      },
+      {
+        "datetime": "2017-09-30T07:30:56Z",
+        "uri": "http://web.archive.org/web/20170930073056/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2017-10-31T18:25:47Z",
+        "uri": "http://web.archive.org/web/20171031182547/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2017-12-01T21:48:53Z",
+        "uri": "http://web.archive.org/web/20171201214853/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2018-01-01T21:59:48Z",
+        "uri": "http://web.archive.org/web/20180101215948/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2018-02-01T19:21:39Z",
+        "uri": "http://web.archive.org/web/20180201192139/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2018-03-06T02:07:28Z",
+        "uri": "http://web.archive.org/web/20180306020728/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2018-04-07T22:35:45Z",
+        "uri": "http://web.archive.org/web/20180407223545/http://immigrationandmigration.com:80/schengen-visas/?"
+      },
+      {
+        "datetime": "2018-06-04T02:09:54Z",
+        "uri": "http://web.archive.org/web/20180604020954/http://immigrationandmigration.com:80/schengen-visas"
+      },
+      {
+        "datetime": "2018-07-06T05:51:32Z",
+        "uri": "http://web.archive.org/web/20180706055132/http://immigrationandmigration.com:80/schengen-visas"
+      }
+    ],
+    "first": {
+      "datetime": "2015-07-06T18:19:34Z",
+      "uri": "http://web.archive.org/web/20150706181934/http://immigrationandmigration.com:80/schengen-visas/"
+    },
+    "last": {
+      "datetime": "2018-07-06T05:51:32Z",
+      "uri": "http://web.archive.org/web/20180706055132/http://immigrationandmigration.com:80/schengen-visas"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://immigrationandmigration.com/schengen-visas/",
+    "json_format": "http://localhost:1208/timemap/json/https://immigrationandmigration.com/schengen-visas/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://immigrationandmigration.com/schengen-visas/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://immigrationandmigration.com/schengen-visas/"
+}

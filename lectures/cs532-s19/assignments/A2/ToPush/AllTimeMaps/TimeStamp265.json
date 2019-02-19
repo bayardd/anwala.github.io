@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html",
+  "self": "http://localhost:1208/timemap/json/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T09:18:19Z",
+        "uri": "http://web.archive.org/web/20190215091819/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T09:18:19Z",
+      "uri": "http://web.archive.org/web/20190215091819/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T09:18:19Z",
+      "uri": "http://web.archive.org/web/20190215091819/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html"
+}

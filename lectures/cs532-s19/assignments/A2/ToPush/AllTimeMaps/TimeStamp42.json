@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY",
+  "self": "http://localhost:1208/timemap/json/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:04:01Z",
+        "uri": "http://web.archive.org/web/20190215030401/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+      },
+      {
+        "datetime": "2019-02-15T03:12:47Z",
+        "uri": "http://web.archive.org/web/20190215031247/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+      },
+      {
+        "datetime": "2019-02-15T09:40:32Z",
+        "uri": "http://web.archive.org/web/20190215094032/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+      },
+      {
+        "datetime": "2019-02-15T14:39:43Z",
+        "uri": "http://web.archive.org/web/20190215143943/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:04:01Z",
+      "uri": "http://web.archive.org/web/20190215030401/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:39:43Z",
+      "uri": "http://web.archive.org/web/20190215143943/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY",
+    "json_format": "http://localhost:1208/timemap/json/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/",
+  "self": "http://localhost:1208/timemap/json/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T12:59:19Z",
+        "uri": "http://web.archive.org/web/20190214125919/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T12:59:19Z",
+      "uri": "http://web.archive.org/web/20190214125919/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/"
+    },
+    "last": {
+      "datetime": "2019-02-14T12:59:19Z",
+      "uri": "http://web.archive.org/web/20190214125919/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/"
+}

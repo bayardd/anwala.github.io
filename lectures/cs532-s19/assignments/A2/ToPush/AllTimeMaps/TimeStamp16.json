@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html",
+  "self": "http://localhost:1208/timemap/json/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T22:01:10Z",
+        "uri": "http://web.archive.org/web/20190214220110/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html"
+      },
+      {
+        "datetime": "2019-02-15T11:44:16Z",
+        "uri": "http://web.archive.org/web/20190215114416/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T22:01:10Z",
+      "uri": "http://web.archive.org/web/20190214220110/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:44:16Z",
+      "uri": "http://web.archive.org/web/20190215114416/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html",
+    "json_format": "http://localhost:1208/timemap/json/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html"
+}

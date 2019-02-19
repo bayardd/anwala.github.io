@@ -1,0 +1,646 @@
+{
+  "original_uri": "https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2014-11-20T16:27:34Z",
+        "uri": "http://web.archive.org/web/20141120162734/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-20T16:27:40Z",
+        "uri": "http://web.archive.org/web/20141120162740/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-20T16:27:44Z",
+        "uri": "http://web.archive.org/web/20141120162744/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-20T17:00:29Z",
+        "uri": "http://web.archive.org/web/20141120170029/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-20T20:44:36Z",
+        "uri": "http://web.archive.org/web/20141120204436/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T04:42:42Z",
+        "uri": "http://web.archive.org/web/20141121044242/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T06:21:11Z",
+        "uri": "http://archive.md/20141121062111/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T08:12:38Z",
+        "uri": "http://web.archive.org/web/20141121081238/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T13:11:40Z",
+        "uri": "http://wayback.archive-it.org/all/20141121131140/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T13:11:40Z",
+        "uri": "http://web.archive.org/web/20141121131140/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T13:26:31Z",
+        "uri": "http://wayback.archive-it.org/all/20141121132631/http://www.nytimes.com//2014//11//21//us//obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T13:26:31Z",
+        "uri": "http://web.archive.org/web/20141121132631/http://www.nytimes.com//2014//11//21//us//obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-21T16:21:26Z",
+        "uri": "http://web.archive.org/web/20141121162126/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-22T05:08:03Z",
+        "uri": "http://web.archive.org/web/20141122050803/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-22T08:47:32Z",
+        "uri": "http://web.archive.org/web/20141122084732/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-22T17:36:23Z",
+        "uri": "http://web.archive.org/web/20141122173623/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-23T04:34:35Z",
+        "uri": "http://wayback.archive-it.org/all/20141123043435/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-23T04:34:35Z",
+        "uri": "http://wayback.archive-it.org/all/20141123043435/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-23T04:34:35Z",
+        "uri": "http://web.archive.org/web/20141123043435/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-23T08:25:33Z",
+        "uri": "http://web.archive.org/web/20141123082533/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-23T13:21:14Z",
+        "uri": "http://web.archive.org/web/20141123132114/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-23T14:46:27Z",
+        "uri": "http://web.archive.org/web/20141123144627/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-23T14:46:32Z",
+        "uri": "http://web.archive.org/web/20141123144632/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html?"
+      },
+      {
+        "datetime": "2014-11-23T21:03:15Z",
+        "uri": "http://web.archive.org/web/20141123210315/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-24T04:56:04Z",
+        "uri": "http://wayback.archive-it.org/all/20141124045604/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-24T04:56:04Z",
+        "uri": "http://wayback.archive-it.org/all/20141124045604/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-24T04:56:04Z",
+        "uri": "http://web.archive.org/web/20141124045604/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-24T10:50:04Z",
+        "uri": "http://web.archive.org/web/20141124105004/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-24T22:01:19Z",
+        "uri": "http://web.archive.org/web/20141124220119/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-25T00:27:34Z",
+        "uri": "http://web.archive.org/web/20141125002734/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html?"
+      },
+      {
+        "datetime": "2014-11-25T01:48:26Z",
+        "uri": "http://web.archive.org/web/20141125014826/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-25T12:34:46Z",
+        "uri": "http://web.archive.org/web/20141125123446/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-26T02:23:07Z",
+        "uri": "http://web.archive.org/web/20141126022307/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-26T14:21:38Z",
+        "uri": "http://web.archive.org/web/20141126142138/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-27T02:28:47Z",
+        "uri": "http://web.archive.org/web/20141127022847/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-27T06:07:09Z",
+        "uri": "http://wayback.archive-it.org/all/20141127060709/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-27T06:07:09Z",
+        "uri": "http://wayback.archive-it.org/all/20141127060709/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-27T06:07:09Z",
+        "uri": "http://web.archive.org/web/20141127060709/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-27T15:25:58Z",
+        "uri": "http://web.archive.org/web/20141127152558/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-29T16:05:03Z",
+        "uri": "http://web.archive.org/web/20141129160503/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-30T01:34:22Z",
+        "uri": "http://wayback.archive-it.org/all/20141130013422/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-30T01:34:22Z",
+        "uri": "http://wayback.archive-it.org/all/20141130013422/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-11-30T01:34:22Z",
+        "uri": "http://web.archive.org/web/20141130013422/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-04T06:43:23Z",
+        "uri": "http://web.archive.org/web/20141204064323/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-05T08:10:32Z",
+        "uri": "http://web.archive.org/web/20141205081032/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-07T10:37:37Z",
+        "uri": "http://wayback.archive-it.org/all/20141207103737/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-07T10:37:37Z",
+        "uri": "http://wayback.archive-it.org/all/20141207103737/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-07T10:37:37Z",
+        "uri": "http://web.archive.org/web/20141207103737/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-09T21:39:07Z",
+        "uri": "http://web.archive.org/web/20141209213907/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-21T15:09:18Z",
+        "uri": "http://web.archive.org/web/20141221150918/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-22T02:59:42Z",
+        "uri": "http://wayback.archive-it.org/all/20141222025942/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-22T02:59:42Z",
+        "uri": "http://wayback.archive-it.org/all/20141222025942/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2014-12-22T02:59:42Z",
+        "uri": "http://web.archive.org/web/20141222025942/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-07T22:56:06Z",
+        "uri": "http://web.archive.org/web/20150107225606/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-07T23:42:00Z",
+        "uri": "http://web.archive.org/web/20150107234200/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-08T02:33:33Z",
+        "uri": "http://wayback.archive-it.org/all/20150108023333/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-08T02:33:33Z",
+        "uri": "http://wayback.archive-it.org/all/20150108023333/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-08T02:33:33Z",
+        "uri": "http://web.archive.org/web/20150108023333/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-09T01:48:06Z",
+        "uri": "http://web.archive.org/web/20150109014806/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-11T05:30:26Z",
+        "uri": "http://wayback.archive-it.org/all/20150111053026/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-11T05:30:26Z",
+        "uri": "http://wayback.archive-it.org/all/20150111053026/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-11T05:30:26Z",
+        "uri": "http://web.archive.org/web/20150111053026/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-25T05:58:47Z",
+        "uri": "http://wayback.archive-it.org/all/20150125055847/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-25T05:58:47Z",
+        "uri": "http://wayback.archive-it.org/all/20150125055847/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-25T05:58:47Z",
+        "uri": "http://web.archive.org/web/20150125055847/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-01-26T06:11:24Z",
+        "uri": "http://web.archive.org/web/20150126061124/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-02-19T15:58:57Z",
+        "uri": "http://web.archive.org/web/20150219155857/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-02-24T07:38:43Z",
+        "uri": "http://web.archive.org/web/20150224073843/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html?"
+      },
+      {
+        "datetime": "2015-03-04T23:34:58Z",
+        "uri": "http://web.archive.org/web/20150304233458/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-05T23:09:22Z",
+        "uri": "http://web.archive.org/web/20150305230922/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-07T00:00:34Z",
+        "uri": "http://web.archive.org/web/20150307000034/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-08T00:05:47Z",
+        "uri": "http://web.archive.org/web/20150308000547/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-08T05:57:41Z",
+        "uri": "http://wayback.archive-it.org/all/20150308055741/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-08T05:57:41Z",
+        "uri": "http://wayback.archive-it.org/all/20150308055741/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-08T05:57:41Z",
+        "uri": "http://web.archive.org/web/20150308055741/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-09T00:28:19Z",
+        "uri": "http://web.archive.org/web/20150309002819/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-16T09:19:57Z",
+        "uri": "http://web.archive.org/web/20150316091957/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-24T23:52:55Z",
+        "uri": "http://web.archive.org/web/20150324235255/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-03-29T04:19:18Z",
+        "uri": "http://web.archive.org/web/20150329041918/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-04-14T12:45:39Z",
+        "uri": "http://web.archive.org/web/20150414124539/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-04-25T19:25:45Z",
+        "uri": "https://perma-archives.org/warc/20150425192545/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-04-25T23:41:34Z",
+        "uri": "https://perma-archives.org/warc/20150425234134/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-06-26T13:04:37Z",
+        "uri": "http://web.archive.org/web/20150626130437/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-07-09T02:10:48Z",
+        "uri": "http://web.archive.org/web/20150709021048/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-07-18T16:27:38Z",
+        "uri": "http://wayback.archive-it.org/all/20150718162738/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-07-18T16:27:38Z",
+        "uri": "http://web.archive.org/web/20150718162738/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-07-19T16:34:23Z",
+        "uri": "http://wayback.archive-it.org/all/20150719163423/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-07-19T16:34:23Z",
+        "uri": "http://web.archive.org/web/20150719163423/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-09-04T16:43:21Z",
+        "uri": "http://web.archive.org/web/20150904164321/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-09-06T19:16:35Z",
+        "uri": "http://web.archive.org/web/20150906191635/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-09-06T23:01:04Z",
+        "uri": "https://perma-archives.org/warc/20150906230104/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-09-20T07:25:11Z",
+        "uri": "http://wayback.archive-it.org/all/20150920072511/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-09-20T07:25:11Z",
+        "uri": "http://web.archive.org/web/20150920072511/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-10-02T23:23:42Z",
+        "uri": "https://perma-archives.org/warc/20151002232342/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-11-14T21:01:16Z",
+        "uri": "https://perma-archives.org/warc/20151114210116/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-11-24T00:13:04Z",
+        "uri": "http://web.archive.org/web/20151124001304/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-12-15T22:47:42Z",
+        "uri": "http://wayback.archive-it.org/all/20151215224742/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-12-15T22:47:42Z",
+        "uri": "http://web.archive.org/web/20151215224742/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-12-26T17:47:26Z",
+        "uri": "http://web.archive.org/web/20151226174726/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2015-12-30T16:14:31Z",
+        "uri": "http://web.archive.org/web/20151230161431/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-01-07T23:02:41Z",
+        "uri": "http://web.archive.org/web/20160107230241/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-01-16T20:57:25Z",
+        "uri": "http://wayback.archive-it.org/all/20160116205725/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-01-16T20:57:25Z",
+        "uri": "http://web.archive.org/web/20160116205725/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-01-20T23:49:32Z",
+        "uri": "http://web.archive.org/web/20160120234932/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-02-08T04:07:16Z",
+        "uri": "http://web.archive.org/web/20160208040716/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-03-06T21:05:01Z",
+        "uri": "http://web.archive.org/web/20160306210501/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-03-20T05:26:00Z",
+        "uri": "http://web.archive.org/web/20160320052600/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-03-25T22:45:31Z",
+        "uri": "http://web.archive.org/web/20160325224531/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-04-19T21:11:04Z",
+        "uri": "http://web.archive.org/web/20160419211104/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-04-21T21:06:22Z",
+        "uri": "http://web.archive.org/web/20160421210622/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html?"
+      },
+      {
+        "datetime": "2016-04-24T05:30:11Z",
+        "uri": "http://wayback.archive-it.org/all/20160424053011/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-04-24T05:30:11Z",
+        "uri": "http://web.archive.org/web/20160424053011/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-05-24T00:10:32Z",
+        "uri": "http://web.archive.org/web/20160524001032/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html?"
+      },
+      {
+        "datetime": "2016-07-07T14:49:16Z",
+        "uri": "http://web.archive.org/web/20160707144916/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-07-19T11:07:12Z",
+        "uri": "http://web.archive.org/web/20160719110712/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-07-21T04:36:17Z",
+        "uri": "http://web.archive.org/web/20160721043617/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-07-24T03:12:38Z",
+        "uri": "http://web.archive.org/web/20160724031238/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-10-06T20:40:16Z",
+        "uri": "http://web.archive.org/web/20161006204016/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-10-10T00:14:51Z",
+        "uri": "http://web.archive.org/web/20161010001451/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-10-17T04:06:46Z",
+        "uri": "http://wayback.archive-it.org/all/20161017040646/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-10-17T04:06:46Z",
+        "uri": "http://web.archive.org/web/20161017040646/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-11-16T11:46:59Z",
+        "uri": "http://web.archive.org/web/20161116114659/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-11-20T14:21:49Z",
+        "uri": "http://web.archive.org/web/20161120142149/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-11-20T15:00:56Z",
+        "uri": "http://web.archive.org/web/20161120150056/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-11-23T18:29:03Z",
+        "uri": "http://wayback.archive-it.org/all/20161123182903/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-11-23T18:29:03Z",
+        "uri": "http://web.archive.org/web/20161123182903/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-12-17T16:53:33Z",
+        "uri": "http://web.archive.org/web/20161217165333/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2016-12-17T16:53:34Z",
+        "uri": "http://web.archive.org/web/20161217165334/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-01-11T18:53:54Z",
+        "uri": "http://web.archive.org/web/20170111185354/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-01-11T18:53:55Z",
+        "uri": "http://web.archive.org/web/20170111185355/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-08T03:52:42Z",
+        "uri": "http://web.archive.org/web/20170208035242/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-08T03:52:50Z",
+        "uri": "http://web.archive.org/web/20170208035250/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-14T19:12:57Z",
+        "uri": "https://perma-archives.org/warc/20170214191257/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-14T19:12:57Z",
+        "uri": "http://web.archive.org/web/20170214191257/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-17T08:17:50Z",
+        "uri": "http://web.archive.org/web/20170217081750/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-17T15:56:39Z",
+        "uri": "http://web.archive.org/web/20170217155639/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-23T05:17:13Z",
+        "uri": "http://web.archive.org/web/20170223051713/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-23T05:17:14Z",
+        "uri": "http://web.archive.org/web/20170223051714/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-26T17:11:51Z",
+        "uri": "http://web.archive.org/web/20170226171151/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-27T02:25:06Z",
+        "uri": "http://web.archive.org/web/20170227022506/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-02-27T02:25:30Z",
+        "uri": "http://web.archive.org/web/20170227022530/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-06-12T07:13:54Z",
+        "uri": "http://web.archive.org/web/20170612071354/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-07-21T13:48:50Z",
+        "uri": "http://web.archive.org/web/20170721134850/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-07-21T13:48:51Z",
+        "uri": "http://web.archive.org/web/20170721134851/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-09-02T23:06:09Z",
+        "uri": "http://web.archive.org/web/20170902230609/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-09-02T23:06:10Z",
+        "uri": "http://web.archive.org/web/20170902230610/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-09-03T16:31:20Z",
+        "uri": "http://web.archive.org/web/20170903163120/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-11-23T02:56:39Z",
+        "uri": "http://web.archive.org/web/20171123025639/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2017-12-14T15:27:23Z",
+        "uri": "http://web.archive.org/web/20171214152723/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2018-01-06T06:46:00Z",
+        "uri": "http://web.archive.org/web/20180106064600/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2018-02-08T06:49:58Z",
+        "uri": "http://web.archive.org/web/20180208064958/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2018-04-30T09:44:37Z",
+        "uri": "http://web.archive.org/web/20180430094437/http://www.nytimes.com:80/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2018-06-25T16:11:39Z",
+        "uri": "http://web.archive.org/web/20180625161139/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2018-07-14T09:46:53Z",
+        "uri": "http://web.archive.org/web/20180714094653/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2018-08-08T03:44:55Z",
+        "uri": "http://web.archive.org/web/20180808034455/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      },
+      {
+        "datetime": "2018-08-08T03:44:57Z",
+        "uri": "http://web.archive.org/web/20180808034457/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+      }
+    ],
+    "first": {
+      "datetime": "2014-11-20T16:27:34Z",
+      "uri": "http://web.archive.org/web/20141120162734/http://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+    },
+    "last": {
+      "datetime": "2018-08-08T03:44:57Z",
+      "uri": "http://web.archive.org/web/20180808034457/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html"
+}

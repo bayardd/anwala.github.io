@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:00:23Z",
+        "uri": "http://web.archive.org/web/20190215010023/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/"
+      },
+      {
+        "datetime": "2019-02-15T20:01:25Z",
+        "uri": "http://web.archive.org/web/20190215200125/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:00:23Z",
+      "uri": "http://web.archive.org/web/20190215010023/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/"
+    },
+    "last": {
+      "datetime": "2019-02-15T20:01:25Z",
+      "uri": "http://web.archive.org/web/20190215200125/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/%0A"
+}

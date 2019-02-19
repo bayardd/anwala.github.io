@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/",
+  "self": "http://localhost:1208/timemap/json/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T12:06:12Z",
+        "uri": "http://web.archive.org/web/20190214120612/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+      },
+      {
+        "datetime": "2019-02-14T13:06:47Z",
+        "uri": "http://web.archive.org/web/20190214130647/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+      },
+      {
+        "datetime": "2019-02-14T22:50:29Z",
+        "uri": "http://web.archive.org/web/20190214225029/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+      },
+      {
+        "datetime": "2019-02-15T12:35:13Z",
+        "uri": "http://web.archive.org/web/20190215123513/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T12:06:12Z",
+      "uri": "http://web.archive.org/web/20190214120612/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:35:13Z",
+      "uri": "http://web.archive.org/web/20190215123513/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/",
+  "self": "http://localhost:1208/timemap/json/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:54:43Z",
+        "uri": "http://web.archive.org/web/20190215015443/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+      },
+      {
+        "datetime": "2019-02-15T07:57:13Z",
+        "uri": "http://web.archive.org/web/20190215075713/http://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+      },
+      {
+        "datetime": "2019-02-15T13:37:50Z",
+        "uri": "http://web.archive.org/web/20190215133750/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+      },
+      {
+        "datetime": "2019-02-15T17:58:32Z",
+        "uri": "http://web.archive.org/web/20190215175832/http://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:54:43Z",
+      "uri": "http://web.archive.org/web/20190215015443/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+    },
+    "last": {
+      "datetime": "2019-02-15T17:58:32Z",
+      "uri": "http://web.archive.org/web/20190215175832/http://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/",
+    "json_format": "http://localhost:1208/timemap/json/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/"
+}

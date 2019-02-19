@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall",
+  "self": "http://localhost:1208/timemap/json/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-29T22:16:02Z",
+        "uri": "http://web.archive.org/web/20190129221602/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-29T22:16:02Z",
+      "uri": "http://web.archive.org/web/20190129221602/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall"
+    },
+    "last": {
+      "datetime": "2019-01-29T22:16:02Z",
+      "uri": "http://web.archive.org/web/20190129221602/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall",
+    "json_format": "http://localhost:1208/timemap/json/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall"
+}

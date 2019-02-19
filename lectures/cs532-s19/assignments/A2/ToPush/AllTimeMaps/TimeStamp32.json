@@ -1,0 +1,202 @@
+{
+  "original_uri": "https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration",
+  "self": "http://localhost:1208/timemap/json/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-07-24T17:18:24Z",
+        "uri": "http://web.archive.org/web/20180724171824/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-25T01:40:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180725014047/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-25T01:40:47Z",
+        "uri": "http://web.archive.org/web/20180725014047/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-25T11:29:07Z",
+        "uri": "http://web.archive.org/web/20180725112907/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-26T02:46:19Z",
+        "uri": "http://web.archive.org/web/20180726024619/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-26T03:48:04Z",
+        "uri": "http://web.archive.org/web/20180726034804/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-27T03:29:54Z",
+        "uri": "http://web.archive.org/web/20180727032954/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-27T04:03:01Z",
+        "uri": "http://web.archive.org/web/20180727040301/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-28T03:48:00Z",
+        "uri": "http://web.archive.org/web/20180728034800/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-28T04:18:46Z",
+        "uri": "http://web.archive.org/web/20180728041846/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-29T04:43:39Z",
+        "uri": "http://web.archive.org/web/20180729044339/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-29T05:07:57Z",
+        "uri": "http://web.archive.org/web/20180729050757/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-30T05:20:33Z",
+        "uri": "http://web.archive.org/web/20180730052033/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-30T05:52:37Z",
+        "uri": "http://web.archive.org/web/20180730055237/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-31T05:36:39Z",
+        "uri": "http://web.archive.org/web/20180731053639/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-07-31T06:17:52Z",
+        "uri": "http://web.archive.org/web/20180731061752/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-01T06:18:51Z",
+        "uri": "http://web.archive.org/web/20180801061851/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-01T06:57:47Z",
+        "uri": "http://web.archive.org/web/20180801065747/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-02T07:15:46Z",
+        "uri": "http://web.archive.org/web/20180802071546/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-02T07:47:34Z",
+        "uri": "http://web.archive.org/web/20180802074734/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-03T08:26:18Z",
+        "uri": "http://web.archive.org/web/20180803082618/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-04T08:58:07Z",
+        "uri": "http://web.archive.org/web/20180804085807/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-04T09:12:25Z",
+        "uri": "http://web.archive.org/web/20180804091225/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-05T09:34:55Z",
+        "uri": "http://web.archive.org/web/20180805093455/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-05T09:54:21Z",
+        "uri": "http://web.archive.org/web/20180805095421/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-06T10:08:23Z",
+        "uri": "http://web.archive.org/web/20180806100823/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-06T10:26:14Z",
+        "uri": "http://web.archive.org/web/20180806102614/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-07T10:39:28Z",
+        "uri": "http://web.archive.org/web/20180807103928/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-07T11:09:22Z",
+        "uri": "http://web.archive.org/web/20180807110922/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-08T11:13:36Z",
+        "uri": "http://web.archive.org/web/20180808111336/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-08T11:41:48Z",
+        "uri": "http://web.archive.org/web/20180808114148/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-09T12:16:46Z",
+        "uri": "http://web.archive.org/web/20180809121646/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-09T12:31:36Z",
+        "uri": "http://web.archive.org/web/20180809123136/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-17T12:28:25Z",
+        "uri": "http://web.archive.org/web/20180817122825/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-17T12:28:30Z",
+        "uri": "http://web.archive.org/web/20180817122830/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-18T12:44:04Z",
+        "uri": "http://web.archive.org/web/20180818124404/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-18T12:44:04Z",
+        "uri": "http://web.archive.org/web/20180818124404/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-19T12:54:20Z",
+        "uri": "http://web.archive.org/web/20180819125420/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-19T13:10:12Z",
+        "uri": "http://web.archive.org/web/20180819131012/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-20T11:36:34Z",
+        "uri": "http://web.archive.org/web/20180820113634/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-08-20T11:36:34Z",
+        "uri": "http://web.archive.org/web/20180820113634/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-10-21T14:57:48Z",
+        "uri": "http://web.archive.org/web/20181021145748/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-10-22T00:03:52Z",
+        "uri": "http://web.archive.org/web/20181022000352/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2018-11-20T11:41:59Z",
+        "uri": "http://web.archive.org/web/20181120114159/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      },
+      {
+        "datetime": "2019-01-17T08:23:01Z",
+        "uri": "http://web.archive.org/web/20190117082301/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+      }
+    ],
+    "first": {
+      "datetime": "2018-07-24T17:18:24Z",
+      "uri": "http://web.archive.org/web/20180724171824/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+    },
+    "last": {
+      "datetime": "2019-01-17T08:23:01Z",
+      "uri": "http://web.archive.org/web/20190117082301/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration",
+    "json_format": "http://localhost:1208/timemap/json/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration"
+}

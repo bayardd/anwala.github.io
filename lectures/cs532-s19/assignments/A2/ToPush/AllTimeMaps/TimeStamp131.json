@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown",
+  "self": "http://localhost:1208/timemap/json/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T13:33:00Z",
+        "uri": "http://web.archive.org/web/20190213133300/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      },
+      {
+        "datetime": "2019-02-13T15:01:34Z",
+        "uri": "http://web.archive.org/web/20190213150134/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      },
+      {
+        "datetime": "2019-02-13T23:57:27Z",
+        "uri": "http://web.archive.org/web/20190213235727/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      },
+      {
+        "datetime": "2019-02-14T00:12:54Z",
+        "uri": "http://web.archive.org/web/20190214001254/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      },
+      {
+        "datetime": "2019-02-14T10:49:25Z",
+        "uri": "http://web.archive.org/web/20190214104925/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      },
+      {
+        "datetime": "2019-02-14T14:47:43Z",
+        "uri": "http://web.archive.org/web/20190214144743/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      },
+      {
+        "datetime": "2019-02-15T00:21:40Z",
+        "uri": "http://web.archive.org/web/20190215002140/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      },
+      {
+        "datetime": "2019-02-15T12:08:42Z",
+        "uri": "http://web.archive.org/web/20190215120842/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T13:33:00Z",
+      "uri": "http://web.archive.org/web/20190213133300/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:08:42Z",
+      "uri": "http://web.archive.org/web/20190215120842/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown",
+    "json_format": "http://localhost:1208/timemap/json/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown"
+}

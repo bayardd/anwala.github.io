@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/",
+  "self": "http://localhost:1208/timemap/json/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T22:17:32Z",
+        "uri": "http://web.archive.org/web/20190212221732/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      },
+      {
+        "datetime": "2019-02-12T23:54:50Z",
+        "uri": "http://web.archive.org/web/20190212235450/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      },
+      {
+        "datetime": "2019-02-13T00:55:06Z",
+        "uri": "http://web.archive.org/web/20190213005506/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      },
+      {
+        "datetime": "2019-02-13T10:57:14Z",
+        "uri": "http://web.archive.org/web/20190213105714/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      },
+      {
+        "datetime": "2019-02-13T22:05:26Z",
+        "uri": "http://web.archive.org/web/20190213220526/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      },
+      {
+        "datetime": "2019-02-14T00:03:37Z",
+        "uri": "http://web.archive.org/web/20190214000337/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      },
+      {
+        "datetime": "2019-02-14T11:49:00Z",
+        "uri": "http://web.archive.org/web/20190214114900/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      },
+      {
+        "datetime": "2019-02-15T13:49:13Z",
+        "uri": "http://web.archive.org/web/20190215134913/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T22:17:32Z",
+      "uri": "http://web.archive.org/web/20190212221732/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:49:13Z",
+      "uri": "http://web.archive.org/web/20190215134913/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/"
+}

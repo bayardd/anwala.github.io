@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government%0A",
+  "self": "http://localhost:1208/timemap/json/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T14:23:51Z",
+        "uri": "http://web.archive.org/web/20190214142351/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T14:23:51Z",
+      "uri": "http://web.archive.org/web/20190214142351/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government"
+    },
+    "last": {
+      "datetime": "2019-02-14T14:23:51Z",
+      "uri": "http://web.archive.org/web/20190214142351/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government%0A"
+}

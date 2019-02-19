@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/",
+  "self": "http://localhost:1208/timemap/json/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T19:17:17Z",
+        "uri": "http://web.archive.org/web/20190214191717/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+      },
+      {
+        "datetime": "2019-02-14T21:12:40Z",
+        "uri": "http://web.archive.org/web/20190214211240/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+      },
+      {
+        "datetime": "2019-02-14T22:09:00Z",
+        "uri": "http://web.archive.org/web/20190214220900/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+      },
+      {
+        "datetime": "2019-02-14T23:40:15Z",
+        "uri": "http://web.archive.org/web/20190214234015/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+      },
+      {
+        "datetime": "2019-02-15T11:14:33Z",
+        "uri": "http://web.archive.org/web/20190215111433/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T19:17:17Z",
+      "uri": "http://web.archive.org/web/20190214191717/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:14:33Z",
+      "uri": "http://web.archive.org/web/20190215111433/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/"
+}

@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/",
+  "self": "http://localhost:1208/timemap/json/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T19:17:17Z",
+        "uri": "http://web.archive.org/web/20190214191717/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+      },
+      {
+        "datetime": "2019-02-14T21:38:56Z",
+        "uri": "http://web.archive.org/web/20190214213856/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+      },
+      {
+        "datetime": "2019-02-14T23:58:49Z",
+        "uri": "http://web.archive.org/web/20190214235849/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+      },
+      {
+        "datetime": "2019-02-15T00:30:18Z",
+        "uri": "http://web.archive.org/web/20190215003018/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+      },
+      {
+        "datetime": "2019-02-15T11:28:27Z",
+        "uri": "http://web.archive.org/web/20190215112827/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+      },
+      {
+        "datetime": "2019-02-15T14:52:49Z",
+        "uri": "http://archive.md/20190215145249/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T19:17:17Z",
+      "uri": "http://web.archive.org/web/20190214191717/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:52:49Z",
+      "uri": "http://archive.md/20190215145249/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing",
+  "self": "http://localhost:1208/timemap/json/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T06:11:11Z",
+        "uri": "http://web.archive.org/web/20190214061111/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T06:11:11Z",
+      "uri": "http://web.archive.org/web/20190214061111/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing"
+    },
+    "last": {
+      "datetime": "2019-02-14T06:11:11Z",
+      "uri": "http://web.archive.org/web/20190214061111/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing"
+}

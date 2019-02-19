@@ -1,0 +1,298 @@
+{
+  "original_uri": "https://kids.yahoo.co.jp/games/sports/013.html",
+  "self": "http://localhost:1208/timemap/json/https://kids.yahoo.co.jp/games/sports/013.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-03-31T10:20:37Z",
+        "uri": "http://web.archive.org/web/20170331102037/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-04-07T11:14:24Z",
+        "uri": "http://web.archive.org/web/20170407111424/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-04-14T20:28:41Z",
+        "uri": "http://web.archive.org/web/20170414202841/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-04-14T22:56:33Z",
+        "uri": "http://web.archive.org/web/20170414225633/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-04-19T01:45:59Z",
+        "uri": "http://web.archive.org/web/20170419014559/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-04-20T00:29:27Z",
+        "uri": "http://web.archive.org/web/20170420002927/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-04-21T13:27:44Z",
+        "uri": "http://web.archive.org/web/20170421132744/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-04-29T05:51:29Z",
+        "uri": "http://web.archive.org/web/20170429055129/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-05-06T08:41:13Z",
+        "uri": "http://web.archive.org/web/20170506084113/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-05-13T07:33:38Z",
+        "uri": "http://web.archive.org/web/20170513073338/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-05-27T11:54:05Z",
+        "uri": "http://web.archive.org/web/20170527115405/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-06-03T08:24:54Z",
+        "uri": "http://web.archive.org/web/20170603082454/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-06-08T20:54:36Z",
+        "uri": "http://web.archive.org/web/20170608205436/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-06-10T08:51:32Z",
+        "uri": "http://web.archive.org/web/20170610085132/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-06-17T13:21:08Z",
+        "uri": "http://web.archive.org/web/20170617132108/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-06-20T15:28:07Z",
+        "uri": "http://web.archive.org/web/20170620152807/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-06-24T11:11:24Z",
+        "uri": "http://web.archive.org/web/20170624111124/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-07-01T11:48:17Z",
+        "uri": "http://web.archive.org/web/20170701114817/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-07-08T09:07:30Z",
+        "uri": "http://web.archive.org/web/20170708090730/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-07-15T13:31:02Z",
+        "uri": "http://web.archive.org/web/20170715133102/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-08-23T22:55:09Z",
+        "uri": "http://web.archive.org/web/20170823225509/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-08-28T23:48:10Z",
+        "uri": "http://web.archive.org/web/20170828234810/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-09-03T09:13:21Z",
+        "uri": "http://web.archive.org/web/20170903091321/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-09-14T06:12:12Z",
+        "uri": "http://web.archive.org/web/20170914061212/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-10-02T01:59:03Z",
+        "uri": "http://web.archive.org/web/20171002015903/http://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-10-11T03:37:42Z",
+        "uri": "http://web.archive.org/web/20171011033742/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-10-11T07:00:12Z",
+        "uri": "http://web.archive.org/web/20171011070012/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-10-18T06:39:07Z",
+        "uri": "http://web.archive.org/web/20171018063907/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-10-25T04:03:58Z",
+        "uri": "http://web.archive.org/web/20171025040358/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-11-02T01:06:50Z",
+        "uri": "http://web.archive.org/web/20171102010650/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-11-10T04:37:19Z",
+        "uri": "http://web.archive.org/web/20171110043719/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-11-12T15:51:55Z",
+        "uri": "http://web.archive.org/web/20171112155155/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-11-17T11:46:54Z",
+        "uri": "http://web.archive.org/web/20171117114654/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-11-19T14:57:22Z",
+        "uri": "http://web.archive.org/web/20171119145722/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-11-21T07:06:40Z",
+        "uri": "http://archive.md/20171121070640/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-12-02T19:23:55Z",
+        "uri": "http://wayback.archive-it.org/all/20171202192355/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-12-02T19:23:55Z",
+        "uri": "http://web.archive.org/web/20171202192355/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-12-06T07:54:57Z",
+        "uri": "http://web.archive.org/web/20171206075457/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-12-13T01:35:18Z",
+        "uri": "http://web.archive.org/web/20171213013518/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-12-20T05:58:15Z",
+        "uri": "http://web.archive.org/web/20171220055815/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-12-21T04:09:04Z",
+        "uri": "http://webarchive.loc.gov/all/20171221040904/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2017-12-27T01:27:28Z",
+        "uri": "http://web.archive.org/web/20171227012728/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-01-03T03:05:06Z",
+        "uri": "http://web.archive.org/web/20180103030506/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-01-03T10:15:41Z",
+        "uri": "http://web.archive.org/web/20180103101541/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-01-03T10:36:25Z",
+        "uri": "http://web.archive.org/web/20180103103625/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-01-13T03:18:49Z",
+        "uri": "http://web.archive.org/web/20180113031849/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-01-14T10:01:34Z",
+        "uri": "http://web.archive.org/web/20180114100134/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-01-14T11:55:07Z",
+        "uri": "http://web.archive.org/web/20180114115507/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-01-14T13:16:01Z",
+        "uri": "http://web.archive.org/web/20180114131601/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-02-04T03:55:58Z",
+        "uri": "http://web.archive.org/web/20180204035558/http://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-02-08T00:57:40Z",
+        "uri": "http://web.archive.org/web/20180208005740/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-02-13T17:23:54Z",
+        "uri": "http://web.archive.org/web/20180213172354/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-02-14T23:51:07Z",
+        "uri": "http://web.archive.org/web/20180214235107/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-03-07T08:43:27Z",
+        "uri": "http://web.archive.org/web/20180307084327/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-03-09T06:30:56Z",
+        "uri": "http://web.archive.org/web/20180309063056/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-03-11T03:39:30Z",
+        "uri": "http://web.archive.org/web/20180311033930/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-03-13T06:16:19Z",
+        "uri": "http://web.archive.org/web/20180313061619/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-03-14T19:27:34Z",
+        "uri": "http://web.archive.org/web/20180314192734/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-03-16T00:06:54Z",
+        "uri": "http://web.archive.org/web/20180316000654/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-04-06T10:04:10Z",
+        "uri": "http://web.archive.org/web/20180406100410/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-05-01T18:40:01Z",
+        "uri": "http://web.archive.org/web/20180501184001/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-05-27T11:56:52Z",
+        "uri": "http://web.archive.org/web/20180527115652/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-05-31T17:04:27Z",
+        "uri": "http://web.archive.org/web/20180531170427/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-06-01T17:38:23Z",
+        "uri": "http://web.archive.org/web/20180601173823/http://kids.yahoo.co.jp:80/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-10-08T05:22:06Z",
+        "uri": "http://web.archive.org/web/20181008052206/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-12-31T00:37:30Z",
+        "uri": "http://web.archive.org/web/20181231003730/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-12-31T06:06:36Z",
+        "uri": "http://web.archive.org/web/20181231060636/http://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2018-12-31T06:06:37Z",
+        "uri": "http://web.archive.org/web/20181231060637/https://kids.yahoo.co.jp/games/sports/013.html"
+      },
+      {
+        "datetime": "2019-01-14T02:49:10Z",
+        "uri": "http://web.archive.org/web/20190114024910/https://kids.yahoo.co.jp/games/sports/013.html"
+      }
+    ],
+    "first": {
+      "datetime": "2017-03-31T10:20:37Z",
+      "uri": "http://web.archive.org/web/20170331102037/https://kids.yahoo.co.jp/games/sports/013.html"
+    },
+    "last": {
+      "datetime": "2019-01-14T02:49:10Z",
+      "uri": "http://web.archive.org/web/20190114024910/https://kids.yahoo.co.jp/games/sports/013.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://kids.yahoo.co.jp/games/sports/013.html",
+    "json_format": "http://localhost:1208/timemap/json/https://kids.yahoo.co.jp/games/sports/013.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://kids.yahoo.co.jp/games/sports/013.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://kids.yahoo.co.jp/games/sports/013.html"
+}

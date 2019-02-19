@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T19:39:15Z",
+        "uri": "http://web.archive.org/web/20190214193915/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+      },
+      {
+        "datetime": "2019-02-14T19:41:03Z",
+        "uri": "http://archive.md/20190214194103/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+      },
+      {
+        "datetime": "2019-02-15T01:13:37Z",
+        "uri": "http://web.archive.org/web/20190215011337/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+      },
+      {
+        "datetime": "2019-02-15T11:45:36Z",
+        "uri": "http://web.archive.org/web/20190215114536/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+      },
+      {
+        "datetime": "2019-02-15T21:39:01Z",
+        "uri": "http://web.archive.org/web/20190215213901/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T19:39:15Z",
+      "uri": "http://web.archive.org/web/20190214193915/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:39:01Z",
+      "uri": "http://web.archive.org/web/20190215213901/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455"
+}

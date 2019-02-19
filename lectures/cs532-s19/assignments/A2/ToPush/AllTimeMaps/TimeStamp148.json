@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020",
+  "self": "http://localhost:1208/timemap/json/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T00:51:14Z",
+        "uri": "http://web.archive.org/web/20190215005114/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T00:51:14Z",
+      "uri": "http://web.archive.org/web/20190215005114/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020"
+    },
+    "last": {
+      "datetime": "2019-02-15T00:51:14Z",
+      "uri": "http://web.archive.org/web/20190215005114/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020",
+    "json_format": "http://localhost:1208/timemap/json/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020"
+}

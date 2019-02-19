@@ -1,0 +1,34 @@
+{
+  "original_uri": "http://www.informationliberation.com/?id=59786",
+  "self": "http://localhost:1208/timemap/json/http://www.informationliberation.com/?id=59786",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-08T01:32:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190208013243/http://www.informationliberation.com/?id=59786"
+      },
+      {
+        "datetime": "2019-02-08T01:32:43Z",
+        "uri": "http://web.archive.org/web/20190208013243/http://www.informationliberation.com/?id=59786"
+      },
+      {
+        "datetime": "2019-02-12T21:42:39Z",
+        "uri": "http://web.archive.org/web/20190212214239/http://www.informationliberation.com/?id=59786"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-08T01:32:43Z",
+      "uri": "http://wayback.archive-it.org/all/20190208013243/http://www.informationliberation.com/?id=59786"
+    },
+    "last": {
+      "datetime": "2019-02-12T21:42:39Z",
+      "uri": "http://web.archive.org/web/20190212214239/http://www.informationliberation.com/?id=59786"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.informationliberation.com/?id=59786",
+    "json_format": "http://localhost:1208/timemap/json/http://www.informationliberation.com/?id=59786",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.informationliberation.com/?id=59786"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.informationliberation.com/?id=59786"
+}

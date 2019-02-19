@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://thesource.com/2019/02/14/trump-21-savage/",
+  "self": "http://localhost:1208/timemap/json/http://thesource.com/2019/02/14/trump-21-savage/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T00:52:25Z",
+        "uri": "http://web.archive.org/web/20190215005225/http://thesource.com/2019/02/14/trump-21-savage/"
+      },
+      {
+        "datetime": "2019-02-15T13:29:56Z",
+        "uri": "http://web.archive.org/web/20190215132956/http://thesource.com/2019/02/14/trump-21-savage/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T00:52:25Z",
+      "uri": "http://web.archive.org/web/20190215005225/http://thesource.com/2019/02/14/trump-21-savage/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:29:56Z",
+      "uri": "http://web.archive.org/web/20190215132956/http://thesource.com/2019/02/14/trump-21-savage/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://thesource.com/2019/02/14/trump-21-savage/",
+    "json_format": "http://localhost:1208/timemap/json/http://thesource.com/2019/02/14/trump-21-savage/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://thesource.com/2019/02/14/trump-21-savage/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://thesource.com/2019/02/14/trump-21-savage/"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/",
+  "self": "http://localhost:1208/timemap/json/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T11:55:33Z",
+        "uri": "http://web.archive.org/web/20190215115533/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T11:55:33Z",
+      "uri": "http://web.archive.org/web/20190215115533/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:55:33Z",
+      "uri": "http://web.archive.org/web/20190215115533/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/",
+    "json_format": "http://localhost:1208/timemap/json/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/"
+}

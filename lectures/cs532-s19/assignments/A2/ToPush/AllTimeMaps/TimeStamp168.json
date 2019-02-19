@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:02:17Z",
+        "uri": "http://web.archive.org/web/20190215030217/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:02:17Z",
+      "uri": "http://web.archive.org/web/20190215030217/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house"
+    },
+    "last": {
+      "datetime": "2019-02-15T03:02:17Z",
+      "uri": "http://web.archive.org/web/20190215030217/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A"
+}

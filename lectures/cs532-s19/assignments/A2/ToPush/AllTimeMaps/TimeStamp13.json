@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T11:02:01Z",
+        "uri": "http://web.archive.org/web/20190214110201/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2"
+      },
+      {
+        "datetime": "2019-02-14T13:15:53Z",
+        "uri": "http://web.archive.org/web/20190214131553/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2"
+      },
+      {
+        "datetime": "2019-02-14T15:16:04Z",
+        "uri": "http://web.archive.org/web/20190214151604/http://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2"
+      },
+      {
+        "datetime": "2019-02-15T13:39:00Z",
+        "uri": "http://web.archive.org/web/20190215133900/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2"
+      },
+      {
+        "datetime": "2019-02-15T17:04:14Z",
+        "uri": "http://web.archive.org/web/20190215170414/http://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T11:02:01Z",
+      "uri": "http://web.archive.org/web/20190214110201/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2"
+    },
+    "last": {
+      "datetime": "2019-02-15T17:04:14Z",
+      "uri": "http://web.archive.org/web/20190215170414/http://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2%0A"
+}

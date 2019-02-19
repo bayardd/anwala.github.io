@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://fivethirtyeight.com/features/trump-border-wall-national-emergency/",
+  "self": "http://localhost:1208/timemap/json/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T00:55:34Z",
+        "uri": "http://archive.md/20190215005534/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+      },
+      {
+        "datetime": "2019-02-15T01:23:23Z",
+        "uri": "http://web.archive.org/web/20190215012323/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+      },
+      {
+        "datetime": "2019-02-15T11:46:30Z",
+        "uri": "http://web.archive.org/web/20190215114630/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+      },
+      {
+        "datetime": "2019-02-15T13:35:34Z",
+        "uri": "http://web.archive.org/web/20190215133534/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T00:55:34Z",
+      "uri": "http://archive.md/20190215005534/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:35:34Z",
+      "uri": "http://web.archive.org/web/20190215133534/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/",
+    "json_format": "http://localhost:1208/timemap/json/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://fivethirtyeight.com/features/trump-border-wall-national-emergency/"
+}

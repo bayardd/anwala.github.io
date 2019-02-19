@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:35:04Z",
+        "uri": "http://web.archive.org/web/20190215013504/http://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T03:05:52Z",
+        "uri": "http://web.archive.org/web/20190215030552/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T11:03:16Z",
+        "uri": "http://web.archive.org/web/20190215110316/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T20:21:25Z",
+        "uri": "http://web.archive.org/web/20190215202125/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:35:04Z",
+      "uri": "http://web.archive.org/web/20190215013504/http://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T20:21:25Z",
+      "uri": "http://web.archive.org/web/20190215202125/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html"
+}

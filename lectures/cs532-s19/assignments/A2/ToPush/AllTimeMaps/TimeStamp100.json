@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T21:54:24Z",
+        "uri": "http://web.archive.org/web/20190212215424/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+      },
+      {
+        "datetime": "2019-02-13T01:28:41Z",
+        "uri": "http://wayback.archive-it.org/all/20190213012841/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+      },
+      {
+        "datetime": "2019-02-13T01:28:41Z",
+        "uri": "http://web.archive.org/web/20190213012841/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+      },
+      {
+        "datetime": "2019-02-13T04:27:28Z",
+        "uri": "http://web.archive.org/web/20190213042728/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+      },
+      {
+        "datetime": "2019-02-13T07:17:21Z",
+        "uri": "http://web.archive.org/web/20190213071721/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+      },
+      {
+        "datetime": "2019-02-15T02:19:11Z",
+        "uri": "http://web.archive.org/web/20190215021911/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T21:54:24Z",
+      "uri": "http://web.archive.org/web/20190212215424/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T02:19:11Z",
+      "uri": "http://web.archive.org/web/20190215021911/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/"
+}

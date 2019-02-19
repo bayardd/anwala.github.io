@@ -1,0 +1,610 @@
+{
+  "original_uri": "https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-03-14T21:26:10Z",
+        "uri": "http://web.archive.org/web/20180314212610/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-15T01:23:37Z",
+        "uri": "http://web.archive.org/web/20180315012337/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-16T02:51:17Z",
+        "uri": "http://web.archive.org/web/20180316025117/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-16T23:47:35Z",
+        "uri": "http://web.archive.org/web/20180316234735/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-17T03:15:56Z",
+        "uri": "http://web.archive.org/web/20180317031556/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-17T17:02:44Z",
+        "uri": "http://web.archive.org/web/20180317170244/http://www.chicagotribune.com:80/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-18T02:56:50Z",
+        "uri": "http://web.archive.org/web/20180318025650/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-19T03:54:34Z",
+        "uri": "http://web.archive.org/web/20180319035434/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-20T03:56:24Z",
+        "uri": "http://web.archive.org/web/20180320035624/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-21T11:34:09Z",
+        "uri": "http://web.archive.org/web/20180321113409/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-22T04:46:12Z",
+        "uri": "http://web.archive.org/web/20180322044612/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-23T05:34:08Z",
+        "uri": "http://web.archive.org/web/20180323053408/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-24T06:07:46Z",
+        "uri": "http://web.archive.org/web/20180324060746/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-25T06:16:31Z",
+        "uri": "http://web.archive.org/web/20180325061631/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-26T10:23:06Z",
+        "uri": "http://web.archive.org/web/20180326102306/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-27T14:55:09Z",
+        "uri": "http://web.archive.org/web/20180327145509/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-28T08:11:06Z",
+        "uri": "http://web.archive.org/web/20180328081106/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-29T12:33:41Z",
+        "uri": "http://web.archive.org/web/20180329123341/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-03-31T00:09:10Z",
+        "uri": "http://web.archive.org/web/20180331000910/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-02T16:46:27Z",
+        "uri": "http://web.archive.org/web/20180402164627/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-03T17:38:35Z",
+        "uri": "http://web.archive.org/web/20180403173835/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-05T04:10:50Z",
+        "uri": "http://web.archive.org/web/20180405041050/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-08T07:15:18Z",
+        "uri": "http://web.archive.org/web/20180408071518/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-09T08:40:32Z",
+        "uri": "http://web.archive.org/web/20180409084032/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-12T06:56:01Z",
+        "uri": "http://web.archive.org/web/20180412065601/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-15T08:06:04Z",
+        "uri": "http://web.archive.org/web/20180415080604/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-18T07:27:02Z",
+        "uri": "http://web.archive.org/web/20180418072702/http://www.chicagotribune.com:80/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-21T11:27:14Z",
+        "uri": "http://web.archive.org/web/20180421112714/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-22T12:30:24Z",
+        "uri": "http://web.archive.org/web/20180422123024/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-04-23T15:33:02Z",
+        "uri": "http://web.archive.org/web/20180423153302/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-09T17:45:10Z",
+        "uri": "http://web.archive.org/web/20180509174510/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-14T23:01:10Z",
+        "uri": "http://web.archive.org/web/20180514230110/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-20T11:43:53Z",
+        "uri": "http://web.archive.org/web/20180520114353/http://www.chicagotribune.com:80/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-22T03:05:02Z",
+        "uri": "http://web.archive.org/web/20180522030502/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-23T02:32:47Z",
+        "uri": "http://web.archive.org/web/20180523023247/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-25T08:31:11Z",
+        "uri": "http://web.archive.org/web/20180525083111/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-29T09:23:18Z",
+        "uri": "http://web.archive.org/web/20180529092318/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-05-30T10:00:02Z",
+        "uri": "http://web.archive.org/web/20180530100002/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-06-01T08:20:32Z",
+        "uri": "http://web.archive.org/web/20180601082032/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-06-05T13:40:33Z",
+        "uri": "http://web.archive.org/web/20180605134033/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-06-07T14:09:56Z",
+        "uri": "http://web.archive.org/web/20180607140956/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-06-13T16:51:54Z",
+        "uri": "http://web.archive.org/web/20180613165154/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-06-18T17:03:27Z",
+        "uri": "http://web.archive.org/web/20180618170327/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-06-21T05:09:27Z",
+        "uri": "http://web.archive.org/web/20180621050927/http://www.chicagotribune.com:80/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-12-29T03:55:52Z",
+        "uri": "http://wayback.archive-it.org/all/20181229035552/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-12-29T03:55:52Z",
+        "uri": "http://web.archive.org/web/20181229035552/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-12-30T03:32:14Z",
+        "uri": "http://wayback.archive-it.org/all/20181230033214/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-12-30T03:32:14Z",
+        "uri": "http://web.archive.org/web/20181230033214/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-12-31T02:40:23Z",
+        "uri": "http://wayback.archive-it.org/all/20181231024023/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2018-12-31T02:40:23Z",
+        "uri": "http://web.archive.org/web/20181231024023/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-01T07:12:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190101071256/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-01T07:12:56Z",
+        "uri": "http://web.archive.org/web/20190101071256/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-02T07:05:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190102070523/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-02T07:05:23Z",
+        "uri": "http://web.archive.org/web/20190102070523/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-05T03:51:12Z",
+        "uri": "http://wayback.archive-it.org/all/20190105035112/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-05T03:51:12Z",
+        "uri": "http://web.archive.org/web/20190105035112/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-06T01:35:11Z",
+        "uri": "http://wayback.archive-it.org/all/20190106013511/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-06T01:35:11Z",
+        "uri": "http://web.archive.org/web/20190106013511/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-07T02:28:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190107022834/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-07T02:28:34Z",
+        "uri": "http://web.archive.org/web/20190107022834/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-07T20:01:45Z",
+        "uri": "http://wayback.archive-it.org/all/20190107200145/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-07T20:01:45Z",
+        "uri": "http://web.archive.org/web/20190107200145/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-08T20:14:37Z",
+        "uri": "http://wayback.archive-it.org/all/20190108201437/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-08T20:14:37Z",
+        "uri": "http://web.archive.org/web/20190108201437/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-09T20:14:04Z",
+        "uri": "http://wayback.archive-it.org/all/20190109201404/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-09T20:14:04Z",
+        "uri": "http://web.archive.org/web/20190109201404/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-11T20:20:50Z",
+        "uri": "http://wayback.archive-it.org/all/20190111202050/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-11T20:20:50Z",
+        "uri": "http://web.archive.org/web/20190111202050/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-12T18:30:25Z",
+        "uri": "http://wayback.archive-it.org/all/20190112183025/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-12T18:30:25Z",
+        "uri": "http://web.archive.org/web/20190112183025/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-13T20:33:19Z",
+        "uri": "http://wayback.archive-it.org/all/20190113203319/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-13T20:33:19Z",
+        "uri": "http://web.archive.org/web/20190113203319/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-14T20:58:40Z",
+        "uri": "http://wayback.archive-it.org/all/20190114205840/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-14T20:58:40Z",
+        "uri": "http://web.archive.org/web/20190114205840/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-15T20:29:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190115202924/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-15T20:29:24Z",
+        "uri": "http://web.archive.org/web/20190115202924/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-16T20:27:35Z",
+        "uri": "http://wayback.archive-it.org/all/20190116202735/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-16T20:27:35Z",
+        "uri": "http://web.archive.org/web/20190116202735/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-17T20:16:20Z",
+        "uri": "http://wayback.archive-it.org/all/20190117201620/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-17T20:16:20Z",
+        "uri": "http://web.archive.org/web/20190117201620/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-18T22:14:08Z",
+        "uri": "http://wayback.archive-it.org/all/20190118221408/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-18T22:14:08Z",
+        "uri": "http://web.archive.org/web/20190118221408/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-19T21:59:01Z",
+        "uri": "http://wayback.archive-it.org/all/20190119215901/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-19T21:59:01Z",
+        "uri": "http://web.archive.org/web/20190119215901/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-20T21:49:52Z",
+        "uri": "http://wayback.archive-it.org/all/20190120214952/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-20T21:49:52Z",
+        "uri": "http://web.archive.org/web/20190120214952/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-21T22:29:12Z",
+        "uri": "http://wayback.archive-it.org/all/20190121222912/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-21T22:29:12Z",
+        "uri": "http://web.archive.org/web/20190121222912/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-22T23:57:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190122235702/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-22T23:57:02Z",
+        "uri": "http://web.archive.org/web/20190122235702/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-23T23:16:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190123231656/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-23T23:16:56Z",
+        "uri": "http://web.archive.org/web/20190123231656/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-24T22:50:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190124225048/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-24T22:50:48Z",
+        "uri": "http://web.archive.org/web/20190124225048/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-25T22:37:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190125223723/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-25T22:37:23Z",
+        "uri": "http://web.archive.org/web/20190125223723/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-26T23:19:10Z",
+        "uri": "http://wayback.archive-it.org/all/20190126231910/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-26T23:19:10Z",
+        "uri": "http://web.archive.org/web/20190126231910/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-27T23:20:42Z",
+        "uri": "http://wayback.archive-it.org/all/20190127232042/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-27T23:20:42Z",
+        "uri": "http://web.archive.org/web/20190127232042/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-28T23:16:30Z",
+        "uri": "http://wayback.archive-it.org/all/20190128231630/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-28T23:16:30Z",
+        "uri": "http://web.archive.org/web/20190128231630/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-29T23:39:30Z",
+        "uri": "http://wayback.archive-it.org/all/20190129233930/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-29T23:39:30Z",
+        "uri": "http://web.archive.org/web/20190129233930/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-30T21:35:58Z",
+        "uri": "http://wayback.archive-it.org/all/20190130213558/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-30T21:35:58Z",
+        "uri": "http://web.archive.org/web/20190130213558/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-31T22:04:51Z",
+        "uri": "http://wayback.archive-it.org/all/20190131220451/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-01-31T22:04:51Z",
+        "uri": "http://web.archive.org/web/20190131220451/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-02T00:36:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190202003644/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-02T00:36:44Z",
+        "uri": "http://web.archive.org/web/20190202003644/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-02T00:52:55Z",
+        "uri": "http://web.archive.org/web/20190202005255/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-02T21:06:44Z",
+        "uri": "http://wayback.archive-it.org/all/20190202210644/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-02T21:06:44Z",
+        "uri": "http://web.archive.org/web/20190202210644/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-03T08:43:56Z",
+        "uri": "http://web.archive.org/web/20190203084356/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-03T23:18:53Z",
+        "uri": "http://wayback.archive-it.org/all/20190203231853/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-03T23:18:53Z",
+        "uri": "http://web.archive.org/web/20190203231853/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-04T02:03:22Z",
+        "uri": "http://web.archive.org/web/20190204020322/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-04T22:25:39Z",
+        "uri": "http://wayback.archive-it.org/all/20190204222539/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-04T22:25:39Z",
+        "uri": "http://web.archive.org/web/20190204222539/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-05T04:53:32Z",
+        "uri": "http://web.archive.org/web/20190205045332/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-06T00:38:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190206003823/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-06T00:38:23Z",
+        "uri": "http://web.archive.org/web/20190206003823/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-06T10:44:25Z",
+        "uri": "http://web.archive.org/web/20190206104425/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-06T23:15:31Z",
+        "uri": "http://wayback.archive-it.org/all/20190206231531/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-06T23:15:31Z",
+        "uri": "http://web.archive.org/web/20190206231531/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-07T09:42:10Z",
+        "uri": "http://web.archive.org/web/20190207094210/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-08T00:51:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190208005124/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-08T00:51:24Z",
+        "uri": "http://web.archive.org/web/20190208005124/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-08T13:14:35Z",
+        "uri": "http://web.archive.org/web/20190208131435/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-08T22:58:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190208225847/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-08T22:58:47Z",
+        "uri": "http://web.archive.org/web/20190208225847/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-10T01:50:11Z",
+        "uri": "http://wayback.archive-it.org/all/20190210015011/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-10T01:50:11Z",
+        "uri": "http://web.archive.org/web/20190210015011/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-11T02:27:32Z",
+        "uri": "http://wayback.archive-it.org/all/20190211022732/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-11T02:27:32Z",
+        "uri": "http://web.archive.org/web/20190211022732/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-11T08:18:29Z",
+        "uri": "http://web.archive.org/web/20190211081829/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T03:24:54Z",
+        "uri": "http://wayback.archive-it.org/all/20190212032454/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T03:24:54Z",
+        "uri": "http://web.archive.org/web/20190212032454/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T14:53:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190212145302/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T14:53:02Z",
+        "uri": "http://web.archive.org/web/20190212145302/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T22:33:43Z",
+        "uri": "http://wayback.archive-it.org/all/20190212223343/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T22:33:43Z",
+        "uri": "http://web.archive.org/web/20190212223343/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T22:33:49Z",
+        "uri": "http://wayback.archive-it.org/all/20190212223349/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-12T22:33:49Z",
+        "uri": "http://web.archive.org/web/20190212223349/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-13T22:19:57Z",
+        "uri": "http://web.archive.org/web/20190213221957/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-14T22:57:13Z",
+        "uri": "http://web.archive.org/web/20190214225713/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      },
+      {
+        "datetime": "2019-02-15T23:04:19Z",
+        "uri": "http://web.archive.org/web/20190215230419/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2018-03-14T21:26:10Z",
+      "uri": "http://web.archive.org/web/20180314212610/http://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T23:04:19Z",
+      "uri": "http://web.archive.org/web/20190215230419/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html"
+}

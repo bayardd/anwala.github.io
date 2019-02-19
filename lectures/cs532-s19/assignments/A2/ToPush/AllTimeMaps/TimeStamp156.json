@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/",
+  "self": "http://localhost:1208/timemap/json/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T06:00:52Z",
+        "uri": "http://web.archive.org/web/20190215060052/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+      },
+      {
+        "datetime": "2019-02-15T11:44:54Z",
+        "uri": "http://web.archive.org/web/20190215114454/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819"
+      },
+      {
+        "datetime": "2019-02-15T16:05:32Z",
+        "uri": "http://web.archive.org/web/20190215160532/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+      },
+      {
+        "datetime": "2019-02-15T19:59:29Z",
+        "uri": "http://web.archive.org/web/20190215195929/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+      },
+      {
+        "datetime": "2019-02-15T19:59:29Z",
+        "uri": "http://web.archive.org/web/20190215195929/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T06:00:52Z",
+      "uri": "http://web.archive.org/web/20190215060052/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+    },
+    "last": {
+      "datetime": "2019-02-15T19:59:29Z",
+      "uri": "http://web.archive.org/web/20190215195929/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/"
+}

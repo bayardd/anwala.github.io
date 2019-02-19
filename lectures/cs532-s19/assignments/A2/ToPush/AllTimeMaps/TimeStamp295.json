@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330",
+  "self": "http://localhost:1208/timemap/json/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T14:33:59Z",
+        "uri": "http://web.archive.org/web/20190214143359/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T14:33:59Z",
+      "uri": "http://web.archive.org/web/20190214143359/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330"
+    },
+    "last": {
+      "datetime": "2019-02-14T14:33:59Z",
+      "uri": "http://web.archive.org/web/20190214143359/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330",
+    "json_format": "http://localhost:1208/timemap/json/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916",
+  "self": "http://localhost:1208/timemap/json/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T06:30:22Z",
+        "uri": "http://web.archive.org/web/20190215063022/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T06:30:22Z",
+      "uri": "http://web.archive.org/web/20190215063022/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916"
+    },
+    "last": {
+      "datetime": "2019-02-15T06:30:22Z",
+      "uri": "http://web.archive.org/web/20190215063022/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916",
+    "json_format": "http://localhost:1208/timemap/json/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916"
+}

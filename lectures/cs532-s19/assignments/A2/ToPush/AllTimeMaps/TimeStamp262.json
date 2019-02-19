@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results",
+  "self": "http://localhost:1208/timemap/json/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:45:54Z",
+        "uri": "http://web.archive.org/web/20190215134554/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:45:54Z",
+      "uri": "http://web.archive.org/web/20190215134554/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:45:54Z",
+      "uri": "http://web.archive.org/web/20190215134554/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results",
+    "json_format": "http://localhost:1208/timemap/json/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results"
+}

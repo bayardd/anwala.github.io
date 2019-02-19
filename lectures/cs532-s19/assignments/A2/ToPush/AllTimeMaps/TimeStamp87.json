@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T16:03:27Z",
+        "uri": "http://web.archive.org/web/20190214160327/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html"
+      },
+      {
+        "datetime": "2019-02-14T19:44:14Z",
+        "uri": "http://web.archive.org/web/20190214194414/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html"
+      },
+      {
+        "datetime": "2019-02-15T12:10:45Z",
+        "uri": "http://web.archive.org/web/20190215121045/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html"
+      },
+      {
+        "datetime": "2019-02-15T14:20:23Z",
+        "uri": "http://web.archive.org/web/20190215142023/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html"
+      },
+      {
+        "datetime": "2019-02-15T21:39:11Z",
+        "uri": "http://web.archive.org/web/20190215213911/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T16:03:27Z",
+      "uri": "http://web.archive.org/web/20190214160327/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:39:11Z",
+      "uri": "http://web.archive.org/web/20190215213911/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html%0A"
+}

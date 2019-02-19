@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html",
+  "self": "http://localhost:1208/timemap/json/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:36:29Z",
+        "uri": "http://web.archive.org/web/20190215133629/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:36:29Z",
+      "uri": "http://web.archive.org/web/20190215133629/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:36:29Z",
+      "uri": "http://web.archive.org/web/20190215133629/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html",
+    "json_format": "http://localhost:1208/timemap/json/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html"
+}

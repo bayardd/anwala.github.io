@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/",
+  "self": "http://localhost:1208/timemap/json/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:46:57Z",
+        "uri": "http://web.archive.org/web/20190215054657/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:46:57Z",
+      "uri": "http://web.archive.org/web/20190215054657/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/"
+    },
+    "last": {
+      "datetime": "2019-02-15T05:46:57Z",
+      "uri": "http://web.archive.org/web/20190215054657/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/",
+    "json_format": "http://localhost:1208/timemap/json/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/"
+}

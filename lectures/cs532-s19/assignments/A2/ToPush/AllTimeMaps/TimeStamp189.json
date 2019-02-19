@@ -1,0 +1,34 @@
+{
+  "original_uri": "http://time.com/5530075/senate-passes-border-deal/%0A/",
+  "self": "http://localhost:1208/timemap/json/http://time.com/5530075/senate-passes-border-deal/%0A/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T06:32:18Z",
+        "uri": "http://web.archive.org/web/20190215063218/http://time.com/5530075/senate-passes-border-deal/"
+      },
+      {
+        "datetime": "2019-02-15T13:15:48Z",
+        "uri": "http://web.archive.org/web/20190215131548/http://time.com/5530075/senate-passes-border-deal/"
+      },
+      {
+        "datetime": "2019-02-15T17:43:08Z",
+        "uri": "http://web.archive.org/web/20190215174308/http://time.com/5530075/senate-passes-border-deal/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T06:32:18Z",
+      "uri": "http://web.archive.org/web/20190215063218/http://time.com/5530075/senate-passes-border-deal/"
+    },
+    "last": {
+      "datetime": "2019-02-15T17:43:08Z",
+      "uri": "http://web.archive.org/web/20190215174308/http://time.com/5530075/senate-passes-border-deal/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://time.com/5530075/senate-passes-border-deal/%0A/",
+    "json_format": "http://localhost:1208/timemap/json/http://time.com/5530075/senate-passes-border-deal/%0A/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://time.com/5530075/senate-passes-border-deal/%0A/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://time.com/5530075/senate-passes-border-deal/%0A/"
+}

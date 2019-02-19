@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T12:48:52Z",
+        "uri": "http://web.archive.org/web/20190214124852/http://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+      },
+      {
+        "datetime": "2019-02-14T12:49:16Z",
+        "uri": "http://web.archive.org/web/20190214124916/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+      },
+      {
+        "datetime": "2019-02-15T13:50:59Z",
+        "uri": "http://web.archive.org/web/20190215135059/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+      },
+      {
+        "datetime": "2019-02-15T17:59:27Z",
+        "uri": "http://web.archive.org/web/20190215175927/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+      },
+      {
+        "datetime": "2019-02-15T20:29:46Z",
+        "uri": "http://web.archive.org/web/20190215202946/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+      },
+      {
+        "datetime": "2019-02-15T20:29:46Z",
+        "uri": "http://web.archive.org/web/20190215202946/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T12:48:52Z",
+      "uri": "http://web.archive.org/web/20190214124852/http://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+    },
+    "last": {
+      "datetime": "2019-02-15T20:29:46Z",
+      "uri": "http://web.archive.org/web/20190215202946/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/%0A"
+}

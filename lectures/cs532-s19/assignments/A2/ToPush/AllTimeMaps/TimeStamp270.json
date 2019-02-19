@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing",
+  "self": "http://localhost:1208/timemap/json/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T11:46:03Z",
+        "uri": "http://web.archive.org/web/20190215114603/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T11:46:03Z",
+      "uri": "http://web.archive.org/web/20190215114603/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:46:03Z",
+      "uri": "http://web.archive.org/web/20190215114603/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing",
+    "json_format": "http://localhost:1208/timemap/json/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing"
+}

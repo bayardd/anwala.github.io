@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T14:30:16Z",
+        "uri": "http://web.archive.org/web/20190215143016/http://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T16:19:14Z",
+        "uri": "http://web.archive.org/web/20190215161914/https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T14:30:16Z",
+      "uri": "http://web.archive.org/web/20190215143016/http://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:19:14Z",
+      "uri": "http://web.archive.org/web/20190215161914/https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html%0A"
+}

@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts",
+  "self": "http://localhost:1208/timemap/json/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T15:32:11Z",
+        "uri": "http://web.archive.org/web/20190215153211/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts"
+      },
+      {
+        "datetime": "2019-02-15T17:02:39Z",
+        "uri": "http://web.archive.org/web/20190215170239/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts"
+      },
+      {
+        "datetime": "2019-02-15T17:02:39Z",
+        "uri": "http://web.archive.org/web/20190215170239/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T15:32:11Z",
+      "uri": "http://web.archive.org/web/20190215153211/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts"
+    },
+    "last": {
+      "datetime": "2019-02-15T17:02:39Z",
+      "uri": "http://web.archive.org/web/20190215170239/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts",
+    "json_format": "http://localhost:1208/timemap/json/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts"
+}

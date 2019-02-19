@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://therevelator.org/shutdown-wildlife-diseases/%0A",
+  "self": "http://localhost:1208/timemap/json/https://therevelator.org/shutdown-wildlife-diseases/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-17T12:06:27Z",
+        "uri": "http://web.archive.org/web/20190117120627/https://therevelator.org/shutdown-wildlife-diseases/"
+      },
+      {
+        "datetime": "2019-01-30T06:47:57Z",
+        "uri": "http://web.archive.org/web/20190130064757/https://therevelator.org/shutdown-wildlife-diseases/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-17T12:06:27Z",
+      "uri": "http://web.archive.org/web/20190117120627/https://therevelator.org/shutdown-wildlife-diseases/"
+    },
+    "last": {
+      "datetime": "2019-01-30T06:47:57Z",
+      "uri": "http://web.archive.org/web/20190130064757/https://therevelator.org/shutdown-wildlife-diseases/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://therevelator.org/shutdown-wildlife-diseases/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://therevelator.org/shutdown-wildlife-diseases/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://therevelator.org/shutdown-wildlife-diseases/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://therevelator.org/shutdown-wildlife-diseases/%0A"
+}

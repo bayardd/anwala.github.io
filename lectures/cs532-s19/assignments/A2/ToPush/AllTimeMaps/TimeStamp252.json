@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T22:51:06Z",
+        "uri": "http://web.archive.org/web/20190212225106/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+      },
+      {
+        "datetime": "2019-02-13T03:59:44Z",
+        "uri": "http://web.archive.org/web/20190213035944/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+      },
+      {
+        "datetime": "2019-02-13T13:00:45Z",
+        "uri": "http://web.archive.org/web/20190213130045/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+      },
+      {
+        "datetime": "2019-02-13T15:22:48Z",
+        "uri": "http://web.archive.org/web/20190213152248/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T22:51:06Z",
+      "uri": "http://web.archive.org/web/20190212225106/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+    },
+    "last": {
+      "datetime": "2019-02-13T15:22:48Z",
+      "uri": "http://web.archive.org/web/20190213152248/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/"
+}

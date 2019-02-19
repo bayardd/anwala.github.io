@@ -1,0 +1,90 @@
+{
+  "original_uri": "https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal%0A",
+  "self": "http://localhost:1208/timemap/json/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T14:41:40Z",
+        "uri": "http://web.archive.org/web/20190214144140/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T15:20:08Z",
+        "uri": "http://web.archive.org/web/20190214152008/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T15:58:44Z",
+        "uri": "http://web.archive.org/web/20190214155844/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T16:37:27Z",
+        "uri": "http://web.archive.org/web/20190214163727/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T17:00:27Z",
+        "uri": "http://web.archive.org/web/20190214170027/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T17:15:58Z",
+        "uri": "http://web.archive.org/web/20190214171558/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T17:54:46Z",
+        "uri": "http://web.archive.org/web/20190214175446/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T18:33:14Z",
+        "uri": "http://web.archive.org/web/20190214183314/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T19:10:47Z",
+        "uri": "http://web.archive.org/web/20190214191047/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T19:11:54Z",
+        "uri": "http://web.archive.org/web/20190214191154/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T19:50:29Z",
+        "uri": "http://web.archive.org/web/20190214195029/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T20:30:34Z",
+        "uri": "http://web.archive.org/web/20190214203034/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T21:50:28Z",
+        "uri": "http://web.archive.org/web/20190214215028/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T22:28:42Z",
+        "uri": "http://web.archive.org/web/20190214222842/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-14T23:07:06Z",
+        "uri": "http://web.archive.org/web/20190214230706/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-15T07:21:31Z",
+        "uri": "http://web.archive.org/web/20190215072131/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      },
+      {
+        "datetime": "2019-02-15T12:39:49Z",
+        "uri": "http://web.archive.org/web/20190215123949/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T14:41:40Z",
+      "uri": "http://web.archive.org/web/20190214144140/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:39:49Z",
+      "uri": "http://web.archive.org/web/20190215123949/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal%0A"
+}

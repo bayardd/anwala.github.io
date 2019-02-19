@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A",
+  "self": "http://localhost:1208/timemap/json/http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:55:43Z",
+        "uri": "http://web.archive.org/web/20190215015543/https://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that"
+      },
+      {
+        "datetime": "2019-02-15T10:01:34Z",
+        "uri": "http://web.archive.org/web/20190215100134/http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that"
+      },
+      {
+        "datetime": "2019-02-15T13:48:00Z",
+        "uri": "http://web.archive.org/web/20190215134800/http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that"
+      },
+      {
+        "datetime": "2019-02-15T15:28:48Z",
+        "uri": "http://web.archive.org/web/20190215152848/https://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:55:43Z",
+      "uri": "http://web.archive.org/web/20190215015543/https://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:28:48Z",
+      "uri": "http://web.archive.org/web/20190215152848/https://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A",
+    "json_format": "http://localhost:1208/timemap/json/http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A"
+}

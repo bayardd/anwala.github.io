@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/",
+  "self": "http://localhost:1208/timemap/json/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T00:58:48Z",
+        "uri": "http://web.archive.org/web/20190215005848/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T00:58:48Z",
+      "uri": "http://web.archive.org/web/20190215005848/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/"
+    },
+    "last": {
+      "datetime": "2019-02-15T00:58:48Z",
+      "uri": "http://web.archive.org/web/20190215005848/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/"
+}

@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/",
+  "self": "http://localhost:1208/timemap/json/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:07:46Z",
+        "uri": "http://web.archive.org/web/20190215030746/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+      },
+      {
+        "datetime": "2019-02-15T05:58:01Z",
+        "uri": "http://web.archive.org/web/20190215055801/http://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+      },
+      {
+        "datetime": "2019-02-15T13:35:44Z",
+        "uri": "http://web.archive.org/web/20190215133544/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+      },
+      {
+        "datetime": "2019-02-15T15:32:31Z",
+        "uri": "http://web.archive.org/web/20190215153231/http://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+      },
+      {
+        "datetime": "2019-02-15T22:20:30Z",
+        "uri": "http://archive.md/20190215222030/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:07:46Z",
+      "uri": "http://web.archive.org/web/20190215030746/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+    },
+    "last": {
+      "datetime": "2019-02-15T22:20:30Z",
+      "uri": "http://archive.md/20190215222030/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/",
+    "json_format": "http://localhost:1208/timemap/json/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/"
+}

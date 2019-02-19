@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T06:14:13Z",
+        "uri": "http://web.archive.org/web/20190215061413/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T06:14:13Z",
+      "uri": "http://web.archive.org/web/20190215061413/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency"
+    },
+    "last": {
+      "datetime": "2019-02-15T06:14:13Z",
+      "uri": "http://web.archive.org/web/20190215061413/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency"
+}

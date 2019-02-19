@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/",
+  "self": "http://localhost:1208/timemap/json/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T15:31:24Z",
+        "uri": "http://web.archive.org/web/20190215153124/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T15:31:24Z",
+      "uri": "http://web.archive.org/web/20190215153124/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:31:24Z",
+      "uri": "http://web.archive.org/web/20190215153124/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/"
+}

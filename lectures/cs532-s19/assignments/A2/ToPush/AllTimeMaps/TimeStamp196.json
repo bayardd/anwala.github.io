@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/",
+  "self": "http://localhost:1208/timemap/json/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-02T22:34:33Z",
+        "uri": "http://web.archive.org/web/20190202223433/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+      },
+      {
+        "datetime": "2019-02-06T17:51:09Z",
+        "uri": "http://web.archive.org/web/20190206175109/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+      },
+      {
+        "datetime": "2019-02-06T17:52:40Z",
+        "uri": "http://archive.md/20190206175240/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+      },
+      {
+        "datetime": "2019-02-09T23:31:20Z",
+        "uri": "http://web.archive.org/web/20190209233120/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-02T22:34:33Z",
+      "uri": "http://web.archive.org/web/20190202223433/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+    },
+    "last": {
+      "datetime": "2019-02-09T23:31:20Z",
+      "uri": "http://web.archive.org/web/20190209233120/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/"
+}

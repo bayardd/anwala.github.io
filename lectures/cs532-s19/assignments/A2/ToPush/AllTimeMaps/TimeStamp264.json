@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T18:01:10Z",
+        "uri": "http://web.archive.org/web/20190215180110/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T18:01:10Z",
+      "uri": "http://web.archive.org/web/20190215180110/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T18:01:10Z",
+      "uri": "http://web.archive.org/web/20190215180110/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html"
+}

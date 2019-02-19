@@ -1,0 +1,34 @@
+{
+  "original_uri": "http://jbbs.shitaraba.net/sports/41131/",
+  "self": "http://localhost:1208/timemap/json/http://jbbs.shitaraba.net/sports/41131/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-09-13T02:10:18Z",
+        "uri": "http://web.archive.org/web/20170913021018/http://jbbs.shitaraba.net/sports/41131/"
+      },
+      {
+        "datetime": "2018-01-21T06:30:55Z",
+        "uri": "http://web.archive.org/web/20180121063055/http://jbbs.shitaraba.net/sports/41131/"
+      },
+      {
+        "datetime": "2018-03-01T07:28:15Z",
+        "uri": "http://web.archive.org/web/20180301072815/http://jbbs.shitaraba.net/sports/41131/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-09-13T02:10:18Z",
+      "uri": "http://web.archive.org/web/20170913021018/http://jbbs.shitaraba.net/sports/41131/"
+    },
+    "last": {
+      "datetime": "2018-03-01T07:28:15Z",
+      "uri": "http://web.archive.org/web/20180301072815/http://jbbs.shitaraba.net/sports/41131/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://jbbs.shitaraba.net/sports/41131/",
+    "json_format": "http://localhost:1208/timemap/json/http://jbbs.shitaraba.net/sports/41131/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://jbbs.shitaraba.net/sports/41131/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://jbbs.shitaraba.net/sports/41131/"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such",
+  "self": "http://localhost:1208/timemap/json/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T04:36:55Z",
+        "uri": "http://web.archive.org/web/20190215043655/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T04:36:55Z",
+      "uri": "http://web.archive.org/web/20190215043655/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such"
+    },
+    "last": {
+      "datetime": "2019-02-15T04:36:55Z",
+      "uri": "http://web.archive.org/web/20190215043655/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such",
+    "json_format": "http://localhost:1208/timemap/json/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such"
+}

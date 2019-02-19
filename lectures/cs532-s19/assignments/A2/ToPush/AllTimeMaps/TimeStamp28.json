@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/",
+  "self": "http://localhost:1208/timemap/json/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T21:54:38Z",
+        "uri": "http://web.archive.org/web/20190214215438/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+      },
+      {
+        "datetime": "2019-02-15T14:36:36Z",
+        "uri": "http://web.archive.org/web/20190215143636/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+      },
+      {
+        "datetime": "2019-02-15T15:13:50Z",
+        "uri": "http://web.archive.org/web/20190215151350/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+      },
+      {
+        "datetime": "2019-02-15T15:13:50Z",
+        "uri": "http://web.archive.org/web/20190215151350/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T21:54:38Z",
+      "uri": "http://web.archive.org/web/20190214215438/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:13:50Z",
+      "uri": "http://web.archive.org/web/20190215151350/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/"
+}

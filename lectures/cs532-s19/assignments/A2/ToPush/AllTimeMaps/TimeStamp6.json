@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html",
+  "self": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T22:45:20Z",
+        "uri": "http://web.archive.org/web/20190214224520/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-14T23:05:10Z",
+        "uri": "http://web.archive.org/web/20190214230510/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-15T00:06:50Z",
+        "uri": "http://web.archive.org/web/20190215000650/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-15T05:11:19Z",
+        "uri": "http://web.archive.org/web/20190215051119/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-15T05:52:35Z",
+        "uri": "http://web.archive.org/web/20190215055235/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-15T06:13:40Z",
+        "uri": "http://web.archive.org/web/20190215061340/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-15T12:30:10Z",
+        "uri": "http://web.archive.org/web/20190215123010/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-15T18:02:38Z",
+        "uri": "http://web.archive.org/web/20190215180238/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      },
+      {
+        "datetime": "2019-02-15T18:08:53Z",
+        "uri": "http://web.archive.org/web/20190215180853/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T22:45:20Z",
+      "uri": "http://web.archive.org/web/20190214224520/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T18:08:53Z",
+      "uri": "http://web.archive.org/web/20190215180853/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html"
+}

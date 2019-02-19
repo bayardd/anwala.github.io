@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T21:47:59Z",
+        "uri": "http://web.archive.org/web/20190214214759/http://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T01:33:33Z",
+        "uri": "http://web.archive.org/web/20190215013333/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T16:56:29Z",
+        "uri": "http://web.archive.org/web/20190215165629/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T21:47:59Z",
+      "uri": "http://web.archive.org/web/20190214214759/http://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:56:29Z",
+      "uri": "http://web.archive.org/web/20190215165629/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html"
+}

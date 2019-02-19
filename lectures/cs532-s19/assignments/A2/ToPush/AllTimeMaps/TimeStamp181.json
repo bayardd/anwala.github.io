@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/",
+  "self": "http://localhost:1208/timemap/json/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-17T11:57:21Z",
+        "uri": "http://web.archive.org/web/20181217115721/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/"
+      },
+      {
+        "datetime": "2018-12-18T15:19:19Z",
+        "uri": "http://web.archive.org/web/20181218151919/http://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/"
+      },
+      {
+        "datetime": "2018-12-18T17:45:53Z",
+        "uri": "http://web.archive.org/web/20181218174553/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-17T11:57:21Z",
+      "uri": "http://web.archive.org/web/20181217115721/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/"
+    },
+    "last": {
+      "datetime": "2018-12-18T17:45:53Z",
+      "uri": "http://web.archive.org/web/20181218174553/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/",
+    "json_format": "http://localhost:1208/timemap/json/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/"
+}

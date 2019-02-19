@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/",
+  "self": "http://localhost:1208/timemap/json/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T14:39:03Z",
+        "uri": "http://web.archive.org/web/20190214143903/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T14:39:03Z",
+      "uri": "http://web.archive.org/web/20190214143903/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-14T14:39:03Z",
+      "uri": "http://web.archive.org/web/20190214143903/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/",
+    "json_format": "http://localhost:1208/timemap/json/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/"
+}

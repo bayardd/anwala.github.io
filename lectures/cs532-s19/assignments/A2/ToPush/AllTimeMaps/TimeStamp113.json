@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/",
+  "self": "http://localhost:1208/timemap/json/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T19:17:17Z",
+        "uri": "http://web.archive.org/web/20190214191717/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+      },
+      {
+        "datetime": "2019-02-14T21:16:24Z",
+        "uri": "http://web.archive.org/web/20190214211624/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+      },
+      {
+        "datetime": "2019-02-14T23:48:28Z",
+        "uri": "http://web.archive.org/web/20190214234828/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+      },
+      {
+        "datetime": "2019-02-15T00:51:00Z",
+        "uri": "http://web.archive.org/web/20190215005100/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+      },
+      {
+        "datetime": "2019-02-15T11:16:55Z",
+        "uri": "http://web.archive.org/web/20190215111655/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T19:17:17Z",
+      "uri": "http://web.archive.org/web/20190214191717/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:16:55Z",
+      "uri": "http://web.archive.org/web/20190215111655/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/"
+}

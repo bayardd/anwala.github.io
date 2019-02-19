@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:08:22Z",
+        "uri": "http://web.archive.org/web/20190215050822/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T05:36:51Z",
+        "uri": "http://web.archive.org/web/20190215053651/http://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T05:44:43Z",
+        "uri": "http://web.archive.org/web/20190215054443/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T16:55:32Z",
+        "uri": "http://web.archive.org/web/20190215165532/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:08:22Z",
+      "uri": "http://web.archive.org/web/20190215050822/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:55:32Z",
+      "uri": "http://web.archive.org/web/20190215165532/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html"
+}

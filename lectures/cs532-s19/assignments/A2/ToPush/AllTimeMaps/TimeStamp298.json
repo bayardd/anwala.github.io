@@ -1,0 +1,354 @@
+{
+  "original_uri": "http://play.wdeportes.com/",
+  "self": "http://localhost:1208/timemap/json/http://play.wdeportes.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-04-12T09:30:57Z",
+        "uri": "http://web.archive.org/web/20170412093057/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-04-20T09:35:38Z",
+        "uri": "http://web.archive.org/web/20170420093538/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-05-23T00:58:30Z",
+        "uri": "http://web.archive.org/web/20170523005830/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-06-06T13:09:47Z",
+        "uri": "http://web.archive.org/web/20170606130947/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-06-17T16:13:58Z",
+        "uri": "http://web.archive.org/web/20170617161358/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-07-03T16:46:47Z",
+        "uri": "http://web.archive.org/web/20170703164647/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-07-22T01:41:21Z",
+        "uri": "http://web.archive.org/web/20170722014121/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-08-10T03:40:02Z",
+        "uri": "http://web.archive.org/web/20170810034002/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-08-22T18:27:58Z",
+        "uri": "http://web.archive.org/web/20170822182758/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-08-23T11:21:49Z",
+        "uri": "http://web.archive.org/web/20170823112149/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2017-08-24T10:10:20Z",
+        "uri": "http://web.archive.org/web/20170824101020/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-09-06T01:27:24Z",
+        "uri": "http://web.archive.org/web/20170906012724/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-09-07T08:20:07Z",
+        "uri": "http://web.archive.org/web/20170907082007/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-09-09T14:18:56Z",
+        "uri": "http://web.archive.org/web/20170909141856/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-09-29T11:56:32Z",
+        "uri": "http://web.archive.org/web/20170929115632/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2017-10-23T00:28:11Z",
+        "uri": "http://web.archive.org/web/20171023002811/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-10-23T12:56:33Z",
+        "uri": "http://web.archive.org/web/20171023125633/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-11-16T17:17:09Z",
+        "uri": "http://web.archive.org/web/20171116171709/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2017-11-23T10:51:35Z",
+        "uri": "http://web.archive.org/web/20171123105135/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-11-24T23:42:42Z",
+        "uri": "http://web.archive.org/web/20171124234242/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2017-11-25T11:02:57Z",
+        "uri": "http://web.archive.org/web/20171125110257/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-12-03T20:09:42Z",
+        "uri": "http://web.archive.org/web/20171203200942/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2017-12-26T05:39:53Z",
+        "uri": "http://web.archive.org/web/20171226053953/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2017-12-30T23:52:41Z",
+        "uri": "http://web.archive.org/web/20171230235241/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-01-01T22:53:35Z",
+        "uri": "http://web.archive.org/web/20180101225335/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-02-01T03:57:34Z",
+        "uri": "http://web.archive.org/web/20180201035734/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2018-03-03T22:47:09Z",
+        "uri": "http://web.archive.org/web/20180303224709/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2018-03-08T20:52:46Z",
+        "uri": "http://web.archive.org/web/20180308205246/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2018-03-19T23:32:52Z",
+        "uri": "http://web.archive.org/web/20180319233252/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-03-29T22:45:18Z",
+        "uri": "http://web.archive.org/web/20180329224518/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-04-05T01:30:13Z",
+        "uri": "http://web.archive.org/web/20180405013013/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2018-04-05T08:42:23Z",
+        "uri": "http://web.archive.org/web/20180405084223/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-04-10T07:43:45Z",
+        "uri": "http://web.archive.org/web/20180410074345/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2018-04-14T05:55:07Z",
+        "uri": "http://web.archive.org/web/20180414055507/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-04-19T10:09:50Z",
+        "uri": "http://web.archive.org/web/20180419100950/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-04-26T09:12:22Z",
+        "uri": "http://web.archive.org/web/20180426091222/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-05-03T15:17:10Z",
+        "uri": "http://web.archive.org/web/20180503151710/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-05-10T04:51:42Z",
+        "uri": "http://web.archive.org/web/20180510045142/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-05-16T03:48:32Z",
+        "uri": "http://web.archive.org/web/20180516034832/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2018-05-16T03:51:42Z",
+        "uri": "http://web.archive.org/web/20180516035142/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2018-05-17T19:18:07Z",
+        "uri": "http://web.archive.org/web/20180517191807/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-05-25T13:47:45Z",
+        "uri": "http://web.archive.org/web/20180525134745/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-06-01T07:59:08Z",
+        "uri": "http://web.archive.org/web/20180601075908/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-06-16T01:29:57Z",
+        "uri": "http://web.archive.org/web/20180616012957/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-06-21T03:54:41Z",
+        "uri": "http://web.archive.org/web/20180621035441/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-06-21T07:08:08Z",
+        "uri": "http://web.archive.org/web/20180621070808/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-06-28T03:00:16Z",
+        "uri": "http://web.archive.org/web/20180628030016/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-07-01T01:07:38Z",
+        "uri": "http://web.archive.org/web/20180701010738/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2018-07-01T01:46:59Z",
+        "uri": "http://web.archive.org/web/20180701014659/http://play.wdeportes.com:80/?"
+      },
+      {
+        "datetime": "2018-07-04T20:23:57Z",
+        "uri": "http://web.archive.org/web/20180704202357/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-07-05T05:14:23Z",
+        "uri": "http://web.archive.org/web/20180705051423/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-07-08T11:06:50Z",
+        "uri": "http://web.archive.org/web/20180708110650/http://play.wdeportes.com:80/"
+      },
+      {
+        "datetime": "2018-07-25T23:10:27Z",
+        "uri": "http://web.archive.org/web/20180725231027/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-08-02T04:51:46Z",
+        "uri": "http://web.archive.org/web/20180802045146/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-08-09T05:27:41Z",
+        "uri": "http://web.archive.org/web/20180809052741/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-08-16T07:30:37Z",
+        "uri": "http://web.archive.org/web/20180816073037/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-08-23T08:04:31Z",
+        "uri": "http://web.archive.org/web/20180823080431/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-08-30T06:28:18Z",
+        "uri": "http://web.archive.org/web/20180830062818/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-09-06T08:16:00Z",
+        "uri": "http://web.archive.org/web/20180906081600/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-09-13T04:01:05Z",
+        "uri": "http://web.archive.org/web/20180913040105/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-09-20T02:32:53Z",
+        "uri": "http://web.archive.org/web/20180920023253/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-09-28T00:03:41Z",
+        "uri": "http://web.archive.org/web/20180928000341/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-10-05T04:23:40Z",
+        "uri": "http://web.archive.org/web/20181005042340/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-10-11T02:18:41Z",
+        "uri": "http://web.archive.org/web/20181011021841/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-10-18T03:13:14Z",
+        "uri": "http://web.archive.org/web/20181018031314/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-10-25T03:06:11Z",
+        "uri": "http://web.archive.org/web/20181025030611/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-11-01T03:39:44Z",
+        "uri": "http://web.archive.org/web/20181101033944/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-11-08T21:32:36Z",
+        "uri": "http://web.archive.org/web/20181108213236/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-11-17T00:30:00Z",
+        "uri": "http://web.archive.org/web/20181117003000/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-11-21T22:40:36Z",
+        "uri": "http://web.archive.org/web/20181121224036/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-11-29T03:41:36Z",
+        "uri": "http://web.archive.org/web/20181129034136/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-12-06T03:20:30Z",
+        "uri": "http://web.archive.org/web/20181206032030/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-12-19T20:10:33Z",
+        "uri": "http://web.archive.org/web/20181219201033/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-12-22T05:14:14Z",
+        "uri": "http://web.archive.org/web/20181222051414/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2018-12-28T09:24:25Z",
+        "uri": "http://web.archive.org/web/20181228092425/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-01-02T22:23:20Z",
+        "uri": "http://web.archive.org/web/20190102222320/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-01-09T20:21:17Z",
+        "uri": "http://web.archive.org/web/20190109202117/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-01-17T02:06:11Z",
+        "uri": "http://web.archive.org/web/20190117020611/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-01-18T04:12:45Z",
+        "uri": "http://web.archive.org/web/20190118041245/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-01-25T06:57:02Z",
+        "uri": "http://web.archive.org/web/20190125065702/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-02-05T03:15:44Z",
+        "uri": "http://web.archive.org/web/20190205031544/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-02-06T20:54:44Z",
+        "uri": "http://web.archive.org/web/20190206205444/http://play.wdeportes.com/"
+      },
+      {
+        "datetime": "2019-02-14T04:40:48Z",
+        "uri": "http://web.archive.org/web/20190214044048/http://play.wdeportes.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-04-12T09:30:57Z",
+      "uri": "http://web.archive.org/web/20170412093057/http://play.wdeportes.com:80/?"
+    },
+    "last": {
+      "datetime": "2019-02-14T04:40:48Z",
+      "uri": "http://web.archive.org/web/20190214044048/http://play.wdeportes.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://play.wdeportes.com/",
+    "json_format": "http://localhost:1208/timemap/json/http://play.wdeportes.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://play.wdeportes.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://play.wdeportes.com/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html",
+  "self": "http://localhost:1208/timemap/json/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-08T19:53:11Z",
+        "uri": "http://web.archive.org/web/20190108195311/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+      },
+      {
+        "datetime": "2019-01-10T01:25:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190110012548/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+      },
+      {
+        "datetime": "2019-01-10T01:25:48Z",
+        "uri": "http://web.archive.org/web/20190110012548/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+      },
+      {
+        "datetime": "2019-02-03T03:39:45Z",
+        "uri": "http://web.archive.org/web/20190203033945/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-08T19:53:11Z",
+      "uri": "http://web.archive.org/web/20190108195311/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+    },
+    "last": {
+      "datetime": "2019-02-03T03:39:45Z",
+      "uri": "http://web.archive.org/web/20190203033945/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html"
+}

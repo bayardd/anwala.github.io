@@ -1,0 +1,206 @@
+{
+  "original_uri": "http://energycreme.com/",
+  "self": "http://localhost:1208/timemap/json/http://energycreme.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-03-30T19:20:31Z",
+        "uri": "http://web.archive.org/web/20170330192031/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-03-31T05:57:13Z",
+        "uri": "http://web.archive.org/web/20170331055713/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-04-07T05:36:27Z",
+        "uri": "http://web.archive.org/web/20170407053627/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-04-12T10:49:09Z",
+        "uri": "http://web.archive.org/web/20170412104909/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-04-21T08:19:48Z",
+        "uri": "http://web.archive.org/web/20170421081948/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-04-29T00:31:54Z",
+        "uri": "http://web.archive.org/web/20170429003154/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-05-06T00:46:34Z",
+        "uri": "http://web.archive.org/web/20170506004634/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-05-09T08:41:06Z",
+        "uri": "http://web.archive.org/web/20170509084106/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-05-13T05:35:53Z",
+        "uri": "http://web.archive.org/web/20170513053553/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-05-14T18:26:02Z",
+        "uri": "http://web.archive.org/web/20170514182602/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-05-20T06:20:50Z",
+        "uri": "http://web.archive.org/web/20170520062050/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-05-27T06:59:06Z",
+        "uri": "http://web.archive.org/web/20170527065906/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-06-01T05:26:52Z",
+        "uri": "http://web.archive.org/web/20170601052652/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-06-03T09:37:03Z",
+        "uri": "http://web.archive.org/web/20170603093703/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-06-10T14:49:17Z",
+        "uri": "http://web.archive.org/web/20170610144917/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-06-25T22:09:47Z",
+        "uri": "http://web.archive.org/web/20170625220947/http://www.energycreme.com/"
+      },
+      {
+        "datetime": "2017-07-01T09:13:50Z",
+        "uri": "http://web.archive.org/web/20170701091350/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-07-02T06:34:09Z",
+        "uri": "http://web.archive.org/web/20170702063409/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-07-07T02:09:46Z",
+        "uri": "http://web.archive.org/web/20170707020946/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-07-08T09:12:16Z",
+        "uri": "http://web.archive.org/web/20170708091216/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-07-27T17:57:28Z",
+        "uri": "http://web.archive.org/web/20170727175728/http://energycreme.com/"
+      },
+      {
+        "datetime": "2017-08-10T02:17:24Z",
+        "uri": "http://web.archive.org/web/20170810021724/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-09-10T21:52:47Z",
+        "uri": "http://web.archive.org/web/20170910215247/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-09-25T02:35:48Z",
+        "uri": "http://web.archive.org/web/20170925023548/http://www.energycreme.com/"
+      },
+      {
+        "datetime": "2017-10-03T05:01:10Z",
+        "uri": "http://web.archive.org/web/20171003050110/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-10-08T07:34:51Z",
+        "uri": "http://web.archive.org/web/20171008073451/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-10-15T17:14:48Z",
+        "uri": "http://web.archive.org/web/20171015171448/http://www.energycreme.com/"
+      },
+      {
+        "datetime": "2017-11-09T11:33:49Z",
+        "uri": "http://web.archive.org/web/20171109113349/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-11-10T02:03:00Z",
+        "uri": "http://web.archive.org/web/20171110020300/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-12-17T10:24:50Z",
+        "uri": "http://web.archive.org/web/20171217102450/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-12-17T11:22:58Z",
+        "uri": "http://web.archive.org/web/20171217112258/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-12-18T21:46:05Z",
+        "uri": "http://web.archive.org/web/20171218214605/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2017-12-18T23:39:31Z",
+        "uri": "http://web.archive.org/web/20171218233931/http://www.energycreme.com:80/"
+      },
+      {
+        "datetime": "2018-01-04T21:42:00Z",
+        "uri": "http://web.archive.org/web/20180104214200/http://energycreme.com/"
+      },
+      {
+        "datetime": "2018-01-07T08:52:15Z",
+        "uri": "http://web.archive.org/web/20180107085215/http://energycreme.com/"
+      },
+      {
+        "datetime": "2018-01-21T08:25:34Z",
+        "uri": "http://web.archive.org/web/20180121082534/http://energycreme.com/"
+      },
+      {
+        "datetime": "2018-03-19T01:26:38Z",
+        "uri": "http://web.archive.org/web/20180319012638/http://energycreme.com/"
+      },
+      {
+        "datetime": "2018-04-06T15:37:47Z",
+        "uri": "http://web.archive.org/web/20180406153747/http://www.energycreme.com/"
+      },
+      {
+        "datetime": "2018-06-21T13:00:06Z",
+        "uri": "http://web.archive.org/web/20180621130006/http://energycreme.com/"
+      },
+      {
+        "datetime": "2018-06-22T04:05:02Z",
+        "uri": "http://web.archive.org/web/20180622040502/http://www.energycreme.com/"
+      },
+      {
+        "datetime": "2018-07-08T02:46:36Z",
+        "uri": "http://web.archive.org/web/20180708024636/http://energycreme.com:80/"
+      },
+      {
+        "datetime": "2018-07-29T20:00:02Z",
+        "uri": "http://web.archive.org/web/20180729200002/http://www.energycreme.com/"
+      },
+      {
+        "datetime": "2018-08-09T16:52:28Z",
+        "uri": "http://web.archive.org/web/20180809165228/http://www.energycreme.com/"
+      },
+      {
+        "datetime": "2018-08-10T00:05:53Z",
+        "uri": "http://web.archive.org/web/20180810000553/http://energycreme.com/"
+      },
+      {
+        "datetime": "2018-08-10T04:12:13Z",
+        "uri": "http://web.archive.org/web/20180810041213/http://energycreme.com/"
+      },
+      {
+        "datetime": "2018-09-30T18:56:14Z",
+        "uri": "http://web.archive.org/web/20180930185614/http://www.energycreme.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-03-30T19:20:31Z",
+      "uri": "http://web.archive.org/web/20170330192031/http://energycreme.com:80/"
+    },
+    "last": {
+      "datetime": "2018-09-30T18:56:14Z",
+      "uri": "http://web.archive.org/web/20180930185614/http://www.energycreme.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://energycreme.com/",
+    "json_format": "http://localhost:1208/timemap/json/http://energycreme.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://energycreme.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://energycreme.com/"
+}

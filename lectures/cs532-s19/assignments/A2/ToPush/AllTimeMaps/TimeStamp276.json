@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion",
+  "self": "http://localhost:1208/timemap/json/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T11:44:09Z",
+        "uri": "http://web.archive.org/web/20190215114409/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T11:44:09Z",
+      "uri": "http://web.archive.org/web/20190215114409/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:44:09Z",
+      "uri": "http://web.archive.org/web/20190215114409/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion",
+    "json_format": "http://localhost:1208/timemap/json/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion"
+}

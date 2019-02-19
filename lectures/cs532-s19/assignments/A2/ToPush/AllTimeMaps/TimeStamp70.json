@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:10:41Z",
+        "uri": "http://web.archive.org/web/20190215011041/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T03:31:28Z",
+        "uri": "http://web.archive.org/web/20190215033128/http://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T07:55:56Z",
+        "uri": "http://web.archive.org/web/20190215075556/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T12:35:05Z",
+        "uri": "http://web.archive.org/web/20190215123505/http://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T12:44:05Z",
+        "uri": "http://web.archive.org/web/20190215124405/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T16:18:36Z",
+        "uri": "http://web.archive.org/web/20190215161836/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:10:41Z",
+      "uri": "http://web.archive.org/web/20190215011041/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:18:36Z",
+      "uri": "http://web.archive.org/web/20190215161836/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html%0A"
+}

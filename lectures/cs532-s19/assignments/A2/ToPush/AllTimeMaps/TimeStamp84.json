@@ -1,0 +1,106 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T13:07:12Z",
+        "uri": "http://web.archive.org/web/20190212130712/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-12T14:17:04Z",
+        "uri": "http://web.archive.org/web/20190212141704/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-12T20:08:06Z",
+        "uri": "http://web.archive.org/web/20190212200806/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-12T20:15:53Z",
+        "uri": "http://web.archive.org/web/20190212201553/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-12T23:17:03Z",
+        "uri": "http://web.archive.org/web/20190212231703/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T00:22:40Z",
+        "uri": "http://web.archive.org/web/20190213002240/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T01:17:44Z",
+        "uri": "http://web.archive.org/web/20190213011744/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T07:37:41Z",
+        "uri": "http://web.archive.org/web/20190213073741/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T08:02:08Z",
+        "uri": "http://web.archive.org/web/20190213080208/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T09:44:15Z",
+        "uri": "http://web.archive.org/web/20190213094415/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T19:13:21Z",
+        "uri": "http://web.archive.org/web/20190213191321/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T21:41:49Z",
+        "uri": "http://web.archive.org/web/20190213214149/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-13T22:11:27Z",
+        "uri": "http://web.archive.org/web/20190213221127/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-14T01:24:47Z",
+        "uri": "http://web.archive.org/web/20190214012447/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-14T11:33:33Z",
+        "uri": "http://web.archive.org/web/20190214113333/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-14T19:15:10Z",
+        "uri": "http://web.archive.org/web/20190214191510/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-15T00:10:49Z",
+        "uri": "http://web.archive.org/web/20190215001049/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-15T00:18:02Z",
+        "uri": "http://web.archive.org/web/20190215001802/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-15T12:27:06Z",
+        "uri": "http://web.archive.org/web/20190215122706/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-15T12:31:59Z",
+        "uri": "http://web.archive.org/web/20190215123159/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      },
+      {
+        "datetime": "2019-02-15T21:39:10Z",
+        "uri": "http://web.archive.org/web/20190215213910/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T13:07:12Z",
+      "uri": "http://web.archive.org/web/20190212130712/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:39:10Z",
+      "uri": "http://web.archive.org/web/20190215213910/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html%0A"
+}

@@ -1,0 +1,130 @@
+{
+  "original_uri": "https://partnerwith.theultimatesystem.com/%0A",
+  "self": "http://localhost:1208/timemap/json/https://partnerwith.theultimatesystem.com/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2011-02-06T11:06:25Z",
+        "uri": "http://web.archive.org/web/20110206110625/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2011-02-15T02:41:55Z",
+        "uri": "http://web.archive.org/web/20110215024155/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2011-03-18T18:10:47Z",
+        "uri": "http://web.archive.org/web/20110318181047/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2011-03-19T18:23:58Z",
+        "uri": "http://web.archive.org/web/20110319182358/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2011-10-27T23:17:18Z",
+        "uri": "http://web.archive.org/web/20111027231718/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2011-11-27T15:27:06Z",
+        "uri": "http://web.archive.org/web/20111127152706/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2011-12-28T01:22:43Z",
+        "uri": "http://web.archive.org/web/20111228012243/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2012-02-27T16:58:23Z",
+        "uri": "http://web.archive.org/web/20120227165823/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2012-04-14T12:55:14Z",
+        "uri": "http://web.archive.org/web/20120414125514/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2012-06-12T12:04:32Z",
+        "uri": "http://web.archive.org/web/20120612120432/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2012-06-12T16:12:49Z",
+        "uri": "http://web.archive.org/web/20120612161249/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2012-06-13T12:09:12Z",
+        "uri": "http://web.archive.org/web/20120613120912/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2012-07-26T10:35:43Z",
+        "uri": "http://webarchive.loc.gov/all/20120726103543/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2013-01-08T13:47:22Z",
+        "uri": "http://webarchive.loc.gov/all/20130108134722/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2013-09-21T03:07:53Z",
+        "uri": "http://web.archive.org/web/20130921030753/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2015-01-07T19:01:07Z",
+        "uri": "http://web.archive.org/web/20150107190107/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2016-03-09T08:54:51Z",
+        "uri": "http://web.archive.org/web/20160309085451/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2016-10-21T10:10:47Z",
+        "uri": "http://web.archive.org/web/20161021101047/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2017-04-29T15:25:12Z",
+        "uri": "http://web.archive.org/web/20170429152512/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2017-06-04T17:15:20Z",
+        "uri": "http://web.archive.org/web/20170604171520/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2017-07-09T14:42:45Z",
+        "uri": "http://web.archive.org/web/20170709144245/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2017-08-09T16:05:48Z",
+        "uri": "http://web.archive.org/web/20170809160548/http://partnerwith.theultimatesystem.com:80/"
+      },
+      {
+        "datetime": "2017-09-02T03:28:36Z",
+        "uri": "http://web.archive.org/web/20170902032836/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2018-02-04T08:57:09Z",
+        "uri": "http://web.archive.org/web/20180204085709/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2018-03-16T18:08:13Z",
+        "uri": "http://web.archive.org/web/20180316180813/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2018-03-27T14:12:22Z",
+        "uri": "http://web.archive.org/web/20180327141222/http://partnerwith.theultimatesystem.com/"
+      },
+      {
+        "datetime": "2018-11-29T19:02:22Z",
+        "uri": "http://web.archive.org/web/20181129190222/http://partnerwith.theultimatesystem.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2011-02-06T11:06:25Z",
+      "uri": "http://web.archive.org/web/20110206110625/http://partnerwith.theultimatesystem.com:80/"
+    },
+    "last": {
+      "datetime": "2018-11-29T19:02:22Z",
+      "uri": "http://web.archive.org/web/20181129190222/http://partnerwith.theultimatesystem.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://partnerwith.theultimatesystem.com/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://partnerwith.theultimatesystem.com/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://partnerwith.theultimatesystem.com/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://partnerwith.theultimatesystem.com/%0A"
+}

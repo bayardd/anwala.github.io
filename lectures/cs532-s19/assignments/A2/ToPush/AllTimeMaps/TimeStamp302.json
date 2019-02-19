@@ -1,0 +1,742 @@
+{
+  "original_uri": "https://sports.abs-cbn.com/livestream/uaap",
+  "self": "http://localhost:1208/timemap/json/https://sports.abs-cbn.com/livestream/uaap",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-01-22T21:49:11Z",
+        "uri": "http://web.archive.org/web/20150122214911/http://sports.abs-cbn.com/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-01-24T08:44:42Z",
+        "uri": "http://web.archive.org/web/20150124084442/http://sports.abs-cbn.com:80/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-01-24T08:44:42Z",
+        "uri": "http://web.archive.org/web/20150124084442/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-01-29T00:56:57Z",
+        "uri": "http://web.archive.org/web/20150129005657/http://sports.abs-cbn.com:80/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-02-25T04:38:26Z",
+        "uri": "http://web.archive.org/web/20150225043826/http://sports.abs-cbn.com:80/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-02-27T05:13:55Z",
+        "uri": "http://web.archive.org/web/20150227051355/http://sports.abs-cbn.com:80/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-02-27T05:13:55Z",
+        "uri": "http://web.archive.org/web/20150227051355/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-03-16T13:59:44Z",
+        "uri": "http://web.archive.org/web/20150316135944/http://sports.abs-cbn.com/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-04-04T07:48:41Z",
+        "uri": "http://web.archive.org/web/20150404074841/http://sports.abs-cbn.com:80/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-04-04T07:48:41Z",
+        "uri": "http://web.archive.org/web/20150404074841/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-04-28T00:28:20Z",
+        "uri": "http://web.archive.org/web/20150428002820/http://sports.abs-cbn.com:80/livestream/uaap/"
+      },
+      {
+        "datetime": "2015-05-06T05:20:27Z",
+        "uri": "http://web.archive.org/web/20150506052027/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-09-30T12:33:13Z",
+        "uri": "http://web.archive.org/web/20150930123313/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2015-10-06T11:44:28Z",
+        "uri": "http://web.archive.org/web/20151006114428/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-10-15T06:00:46Z",
+        "uri": "http://web.archive.org/web/20151015060046/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-10-25T04:24:34Z",
+        "uri": "http://web.archive.org/web/20151025042434/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-10-30T09:10:29Z",
+        "uri": "http://web.archive.org/web/20151030091029/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2015-11-05T00:41:53Z",
+        "uri": "http://web.archive.org/web/20151105004153/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-11-18T07:49:19Z",
+        "uri": "http://web.archive.org/web/20151118074919/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-12-04T23:15:43Z",
+        "uri": "http://web.archive.org/web/20151204231543/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2015-12-20T17:22:04Z",
+        "uri": "http://web.archive.org/web/20151220172204/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-01-11T00:10:39Z",
+        "uri": "http://web.archive.org/web/20160111001039/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-01-15T17:16:34Z",
+        "uri": "http://web.archive.org/web/20160115171634/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2016-02-04T00:21:49Z",
+        "uri": "http://web.archive.org/web/20160204002149/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-02-16T00:56:25Z",
+        "uri": "http://web.archive.org/web/20160216005625/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2016-02-24T03:10:11Z",
+        "uri": "http://web.archive.org/web/20160224031011/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-03T23:49:42Z",
+        "uri": "http://web.archive.org/web/20160303234942/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-06T08:00:52Z",
+        "uri": "http://web.archive.org/web/20160306080052/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-09T01:45:49Z",
+        "uri": "http://web.archive.org/web/20160309014549/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-12T14:47:10Z",
+        "uri": "http://web.archive.org/web/20160312144710/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-15T22:01:52Z",
+        "uri": "http://web.archive.org/web/20160315220152/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-19T17:53:25Z",
+        "uri": "http://web.archive.org/web/20160319175325/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-22T23:47:33Z",
+        "uri": "http://web.archive.org/web/20160322234733/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-25T01:01:35Z",
+        "uri": "http://web.archive.org/web/20160325010135/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2016-03-26T23:32:55Z",
+        "uri": "http://web.archive.org/web/20160326233255/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-04-03T16:52:29Z",
+        "uri": "http://web.archive.org/web/20160403165229/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-04-12T15:18:05Z",
+        "uri": "http://web.archive.org/web/20160412151805/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-04-19T05:32:04Z",
+        "uri": "http://web.archive.org/web/20160419053204/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-04-24T19:26:59Z",
+        "uri": "http://web.archive.org/web/20160424192659/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-04-30T15:19:16Z",
+        "uri": "http://web.archive.org/web/20160430151916/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-05-04T22:35:17Z",
+        "uri": "http://web.archive.org/web/20160504223517/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-05-10T02:52:26Z",
+        "uri": "http://web.archive.org/web/20160510025226/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-05-14T08:52:26Z",
+        "uri": "http://web.archive.org/web/20160514085226/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-05-19T04:11:04Z",
+        "uri": "http://web.archive.org/web/20160519041104/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-05-24T09:33:53Z",
+        "uri": "http://web.archive.org/web/20160524093353/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-05-30T04:58:03Z",
+        "uri": "http://web.archive.org/web/20160530045803/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-06-05T01:41:16Z",
+        "uri": "http://web.archive.org/web/20160605014116/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-06-11T20:35:05Z",
+        "uri": "http://web.archive.org/web/20160611203505/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-06-19T06:02:04Z",
+        "uri": "http://web.archive.org/web/20160619060204/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-06-27T19:22:35Z",
+        "uri": "http://web.archive.org/web/20160627192235/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-07-07T14:49:20Z",
+        "uri": "http://web.archive.org/web/20160707144920/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-07-08T18:24:10Z",
+        "uri": "http://web.archive.org/web/20160708182410/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-07-21T02:27:40Z",
+        "uri": "http://web.archive.org/web/20160721022740/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-08-07T18:16:36Z",
+        "uri": "http://web.archive.org/web/20160807181636/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-08-30T03:44:37Z",
+        "uri": "http://web.archive.org/web/20160830034437/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-09-06T14:08:14Z",
+        "uri": "http://web.archive.org/web/20160906140814/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2016-09-07T14:32:42Z",
+        "uri": "http://web.archive.org/web/20160907143242/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2016-09-13T17:18:34Z",
+        "uri": "http://web.archive.org/web/20160913171834/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-09-22T14:42:34Z",
+        "uri": "http://web.archive.org/web/20160922144234/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-09-30T22:28:03Z",
+        "uri": "http://web.archive.org/web/20160930222803/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-10-08T09:50:56Z",
+        "uri": "http://web.archive.org/web/20161008095056/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-10-09T03:04:16Z",
+        "uri": "http://web.archive.org/web/20161009030416/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2016-10-15T15:58:45Z",
+        "uri": "http://web.archive.org/web/20161015155845/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-10-25T14:06:24Z",
+        "uri": "http://web.archive.org/web/20161025140624/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-11-04T06:37:14Z",
+        "uri": "http://web.archive.org/web/20161104063714/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-11-10T19:21:57Z",
+        "uri": "http://web.archive.org/web/20161110192157/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2016-11-12T01:47:16Z",
+        "uri": "http://web.archive.org/web/20161112014716/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2016-11-14T03:04:13Z",
+        "uri": "http://web.archive.org/web/20161114030413/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-11-15T13:55:56Z",
+        "uri": "http://web.archive.org/web/20161115135556/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-11-18T21:19:34Z",
+        "uri": "http://web.archive.org/web/20161118211934/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2016-12-02T10:16:23Z",
+        "uri": "http://web.archive.org/web/20161202101623/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-01-29T23:48:48Z",
+        "uri": "http://web.archive.org/web/20170129234848/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2017-03-05T08:57:21Z",
+        "uri": "http://web.archive.org/web/20170305085721/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2017-03-27T17:32:34Z",
+        "uri": "http://web.archive.org/web/20170327173234/http://sports.abs-cbn.com:80/livestream/UAAP?"
+      },
+      {
+        "datetime": "2017-03-28T00:41:29Z",
+        "uri": "http://web.archive.org/web/20170328004129/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2017-05-07T23:59:54Z",
+        "uri": "http://web.archive.org/web/20170507235954/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-05-19T18:10:21Z",
+        "uri": "http://web.archive.org/web/20170519181021/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-05-19T18:55:08Z",
+        "uri": "http://web.archive.org/web/20170519185508/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-05-21T02:41:24Z",
+        "uri": "http://web.archive.org/web/20170521024124/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-05-21T03:03:14Z",
+        "uri": "http://web.archive.org/web/20170521030314/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-05-24T18:50:58Z",
+        "uri": "http://web.archive.org/web/20170524185058/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-05-27T21:36:50Z",
+        "uri": "http://web.archive.org/web/20170527213650/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-05-29T03:42:32Z",
+        "uri": "http://web.archive.org/web/20170529034232/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-06-03T01:25:00Z",
+        "uri": "http://web.archive.org/web/20170603012500/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-06-03T02:09:21Z",
+        "uri": "http://web.archive.org/web/20170603020921/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-06-06T05:28:44Z",
+        "uri": "http://web.archive.org/web/20170606052844/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2017-06-07T23:00:25Z",
+        "uri": "http://web.archive.org/web/20170607230025/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-06-09T03:41:10Z",
+        "uri": "http://web.archive.org/web/20170609034110/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-06-20T08:07:21Z",
+        "uri": "http://web.archive.org/web/20170620080721/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-06-23T15:02:12Z",
+        "uri": "http://web.archive.org/web/20170623150212/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-07-02T05:01:54Z",
+        "uri": "http://web.archive.org/web/20170702050154/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-07-04T14:43:24Z",
+        "uri": "http://web.archive.org/web/20170704144324/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2017-07-20T03:53:39Z",
+        "uri": "http://web.archive.org/web/20170720035339/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-07-25T12:57:31Z",
+        "uri": "http://web.archive.org/web/20170725125731/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-08-12T12:05:28Z",
+        "uri": "http://web.archive.org/web/20170812120528/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-08-24T17:08:14Z",
+        "uri": "http://web.archive.org/web/20170824170814/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-08-25T05:50:44Z",
+        "uri": "http://web.archive.org/web/20170825055044/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-09-02T12:36:25Z",
+        "uri": "http://web.archive.org/web/20170902123625/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2017-09-10T06:11:46Z",
+        "uri": "http://web.archive.org/web/20170910061146/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-09-17T21:20:12Z",
+        "uri": "http://web.archive.org/web/20170917212012/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-09-23T04:32:44Z",
+        "uri": "http://web.archive.org/web/20170923043244/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-09-28T02:45:35Z",
+        "uri": "http://web.archive.org/web/20170928024535/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-02T22:24:22Z",
+        "uri": "http://web.archive.org/web/20171002222422/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2017-10-04T10:16:25Z",
+        "uri": "http://web.archive.org/web/20171004101625/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-05T16:55:17Z",
+        "uri": "http://web.archive.org/web/20171005165517/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-05T16:55:22Z",
+        "uri": "http://web.archive.org/web/20171005165522/http://sports.abs-cbn.com:80/livestream/uaap/?"
+      },
+      {
+        "datetime": "2017-10-07T01:52:45Z",
+        "uri": "http://web.archive.org/web/20171007015245/http://sports.abs-cbn.com:80/livestream/uaap/?"
+      },
+      {
+        "datetime": "2017-10-10T22:17:01Z",
+        "uri": "http://web.archive.org/web/20171010221701/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-16T14:06:26Z",
+        "uri": "http://web.archive.org/web/20171016140626/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-21T13:06:08Z",
+        "uri": "http://web.archive.org/web/20171021130608/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-10-25T18:48:06Z",
+        "uri": "http://web.archive.org/web/20171025184806/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-30T18:17:35Z",
+        "uri": "http://web.archive.org/web/20171030181735/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-30T21:09:26Z",
+        "uri": "http://web.archive.org/web/20171030210926/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2017-10-31T09:00:41Z",
+        "uri": "http://web.archive.org/web/20171031090041/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-11-03T17:23:50Z",
+        "uri": "http://web.archive.org/web/20171103172350/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2017-11-07T11:45:25Z",
+        "uri": "http://web.archive.org/web/20171107114525/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-11-07T11:45:30Z",
+        "uri": "http://web.archive.org/web/20171107114530/http://sports.abs-cbn.com:80/livestream/uaap/?"
+      },
+      {
+        "datetime": "2017-11-14T08:22:22Z",
+        "uri": "http://web.archive.org/web/20171114082222/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-11-22T06:19:10Z",
+        "uri": "http://web.archive.org/web/20171122061910/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2017-11-28T03:20:17Z",
+        "uri": "http://web.archive.org/web/20171128032017/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-12-05T05:48:27Z",
+        "uri": "http://web.archive.org/web/20171205054827/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2017-12-05T20:17:45Z",
+        "uri": "http://web.archive.org/web/20171205201745/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-12-14T02:20:17Z",
+        "uri": "http://web.archive.org/web/20171214022017/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-12-25T13:01:51Z",
+        "uri": "http://web.archive.org/web/20171225130151/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2017-12-26T15:08:27Z",
+        "uri": "http://web.archive.org/web/20171226150827/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2018-01-09T21:54:41Z",
+        "uri": "http://web.archive.org/web/20180109215441/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2018-01-10T05:10:28Z",
+        "uri": "http://web.archive.org/web/20180110051028/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2018-01-23T05:30:22Z",
+        "uri": "http://web.archive.org/web/20180123053022/https://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-01-23T08:32:00Z",
+        "uri": "http://web.archive.org/web/20180123083200/https://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-01-29T23:37:37Z",
+        "uri": "http://web.archive.org/web/20180129233737/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2018-02-13T23:50:25Z",
+        "uri": "http://web.archive.org/web/20180213235025/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2018-02-14T03:16:32Z",
+        "uri": "http://web.archive.org/web/20180214031632/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2018-03-03T20:25:13Z",
+        "uri": "http://web.archive.org/web/20180303202513/http://sports.abs-cbn.com:80/livestream/UAAP"
+      },
+      {
+        "datetime": "2018-03-29T11:32:04Z",
+        "uri": "http://web.archive.org/web/20180329113204/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-03-30T13:13:40Z",
+        "uri": "http://web.archive.org/web/20180330131340/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2018-04-05T07:05:31Z",
+        "uri": "http://web.archive.org/web/20180405070531/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-04-12T17:40:47Z",
+        "uri": "http://web.archive.org/web/20180412174047/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2018-04-14T04:29:16Z",
+        "uri": "http://web.archive.org/web/20180414042916/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-04-19T08:40:24Z",
+        "uri": "http://web.archive.org/web/20180419084024/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-04-26T07:49:26Z",
+        "uri": "http://web.archive.org/web/20180426074926/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-05-03T13:35:11Z",
+        "uri": "http://web.archive.org/web/20180503133511/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-05-04T20:38:38Z",
+        "uri": "http://web.archive.org/web/20180504203838/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2018-05-10T03:28:18Z",
+        "uri": "http://web.archive.org/web/20180510032818/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-05-17T17:40:43Z",
+        "uri": "http://web.archive.org/web/20180517174043/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-05-25T12:20:31Z",
+        "uri": "http://web.archive.org/web/20180525122031/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-06-01T06:34:28Z",
+        "uri": "http://web.archive.org/web/20180601063428/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-06-05T17:58:04Z",
+        "uri": "http://web.archive.org/web/20180605175804/http://sports.abs-cbn.com:80/livestream/uaap?"
+      },
+      {
+        "datetime": "2018-06-13T14:06:26Z",
+        "uri": "http://web.archive.org/web/20180613140626/http://sports.abs-cbn.com:80/livestream/uaap"
+      },
+      {
+        "datetime": "2018-06-21T05:38:49Z",
+        "uri": "http://web.archive.org/web/20180621053849/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-06-28T01:34:39Z",
+        "uri": "http://web.archive.org/web/20180628013439/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-07-05T03:52:33Z",
+        "uri": "http://web.archive.org/web/20180705035233/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-07-25T21:41:35Z",
+        "uri": "http://web.archive.org/web/20180725214135/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-08-02T03:28:52Z",
+        "uri": "http://web.archive.org/web/20180802032852/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-08-09T03:54:45Z",
+        "uri": "http://web.archive.org/web/20180809035445/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-08-16T05:50:52Z",
+        "uri": "http://web.archive.org/web/20180816055052/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-08-23T06:29:54Z",
+        "uri": "http://web.archive.org/web/20180823062954/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-08-30T04:58:22Z",
+        "uri": "http://web.archive.org/web/20180830045822/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-09-06T06:29:57Z",
+        "uri": "http://web.archive.org/web/20180906062957/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-09-13T02:32:49Z",
+        "uri": "http://web.archive.org/web/20180913023249/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-09-20T01:09:32Z",
+        "uri": "http://web.archive.org/web/20180920010932/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-09-27T22:39:50Z",
+        "uri": "http://web.archive.org/web/20180927223950/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-10-05T02:54:13Z",
+        "uri": "http://web.archive.org/web/20181005025413/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-10-11T00:55:08Z",
+        "uri": "http://web.archive.org/web/20181011005508/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-10-18T01:48:02Z",
+        "uri": "http://web.archive.org/web/20181018014802/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-10-22T14:04:52Z",
+        "uri": "http://web.archive.org/web/20181022140452/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-10-25T01:43:47Z",
+        "uri": "http://web.archive.org/web/20181025014347/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-11-01T02:19:19Z",
+        "uri": "http://web.archive.org/web/20181101021919/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-11-08T20:08:17Z",
+        "uri": "http://web.archive.org/web/20181108200817/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-11-16T23:11:12Z",
+        "uri": "http://web.archive.org/web/20181116231112/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-11-21T21:17:33Z",
+        "uri": "http://web.archive.org/web/20181121211733/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-11-29T02:15:32Z",
+        "uri": "http://web.archive.org/web/20181129021532/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-12-06T01:54:30Z",
+        "uri": "http://web.archive.org/web/20181206015430/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-12-19T18:46:15Z",
+        "uri": "http://web.archive.org/web/20181219184615/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2018-12-28T08:02:46Z",
+        "uri": "http://web.archive.org/web/20181228080246/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2019-01-02T21:03:55Z",
+        "uri": "http://web.archive.org/web/20190102210355/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2019-01-09T18:57:57Z",
+        "uri": "http://web.archive.org/web/20190109185757/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2019-01-17T00:43:27Z",
+        "uri": "http://web.archive.org/web/20190117004327/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2019-01-25T05:34:04Z",
+        "uri": "http://web.archive.org/web/20190125053404/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2019-02-06T19:26:11Z",
+        "uri": "http://web.archive.org/web/20190206192611/http://sports.abs-cbn.com/livestream/uaap"
+      },
+      {
+        "datetime": "2019-02-14T03:14:55Z",
+        "uri": "http://web.archive.org/web/20190214031455/http://sports.abs-cbn.com/livestream/uaap"
+      }
+    ],
+    "first": {
+      "datetime": "2015-01-22T21:49:11Z",
+      "uri": "http://web.archive.org/web/20150122214911/http://sports.abs-cbn.com/livestream/uaap/"
+    },
+    "last": {
+      "datetime": "2019-02-14T03:14:55Z",
+      "uri": "http://web.archive.org/web/20190214031455/http://sports.abs-cbn.com/livestream/uaap"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://sports.abs-cbn.com/livestream/uaap",
+    "json_format": "http://localhost:1208/timemap/json/https://sports.abs-cbn.com/livestream/uaap",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://sports.abs-cbn.com/livestream/uaap"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://sports.abs-cbn.com/livestream/uaap"
+}

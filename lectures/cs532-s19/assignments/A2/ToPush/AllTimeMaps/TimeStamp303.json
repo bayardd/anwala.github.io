@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://america-seikatsu.com/sports/sawft-wwe/",
+  "self": "http://localhost:1208/timemap/json/http://america-seikatsu.com/sports/sawft-wwe/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-08-18T12:01:34Z",
+        "uri": "http://web.archive.org/web/20160818120134/http://america-seikatsu.com/sports/sawft-wwe/"
+      },
+      {
+        "datetime": "2016-10-16T19:48:04Z",
+        "uri": "http://web.archive.org/web/20161016194804/http://america-seikatsu.com/sports/sawft-wwe/"
+      },
+      {
+        "datetime": "2017-06-18T05:59:08Z",
+        "uri": "http://web.archive.org/web/20170618055908/http://america-seikatsu.com/sports/sawft-wwe/"
+      },
+      {
+        "datetime": "2019-02-10T23:02:41Z",
+        "uri": "http://web.archive.org/web/20190210230241/http://america-seikatsu.com/sports/sawft-wwe/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-08-18T12:01:34Z",
+      "uri": "http://web.archive.org/web/20160818120134/http://america-seikatsu.com/sports/sawft-wwe/"
+    },
+    "last": {
+      "datetime": "2019-02-10T23:02:41Z",
+      "uri": "http://web.archive.org/web/20190210230241/http://america-seikatsu.com/sports/sawft-wwe/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://america-seikatsu.com/sports/sawft-wwe/",
+    "json_format": "http://localhost:1208/timemap/json/http://america-seikatsu.com/sports/sawft-wwe/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://america-seikatsu.com/sports/sawft-wwe/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://america-seikatsu.com/sports/sawft-wwe/"
+}

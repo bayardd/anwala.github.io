@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://immigrationandmigration.com/british-passport/",
+  "self": "http://localhost:1208/timemap/json/https://immigrationandmigration.com/british-passport/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-01-20T13:55:28Z",
+        "uri": "http://web.archive.org/web/20170120135528/http://immigrationandmigration.com:80/british-passport/?"
+      },
+      {
+        "datetime": "2017-03-05T09:37:08Z",
+        "uri": "http://web.archive.org/web/20170305093708/http://immigrationandmigration.com:80/british-passport/"
+      },
+      {
+        "datetime": "2017-03-05T09:37:08Z",
+        "uri": "http://web.archive.org/web/20170305093708/http://immigrationandmigration.com:80/british-passport"
+      },
+      {
+        "datetime": "2017-06-08T10:13:19Z",
+        "uri": "http://web.archive.org/web/20170608101319/http://immigrationandmigration.com:80/british-passport/?"
+      },
+      {
+        "datetime": "2017-10-26T23:32:11Z",
+        "uri": "http://web.archive.org/web/20171026233211/http://immigrationandmigration.com/british-passport/"
+      },
+      {
+        "datetime": "2018-04-29T08:01:43Z",
+        "uri": "http://web.archive.org/web/20180429080143/http://immigrationandmigration.com:80/british-passport/"
+      },
+      {
+        "datetime": "2019-02-14T13:01:43Z",
+        "uri": "http://web.archive.org/web/20190214130143/https://immigrationandmigration.com/british-passport/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-01-20T13:55:28Z",
+      "uri": "http://web.archive.org/web/20170120135528/http://immigrationandmigration.com:80/british-passport/?"
+    },
+    "last": {
+      "datetime": "2019-02-14T13:01:43Z",
+      "uri": "http://web.archive.org/web/20190214130143/https://immigrationandmigration.com/british-passport/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://immigrationandmigration.com/british-passport/",
+    "json_format": "http://localhost:1208/timemap/json/https://immigrationandmigration.com/british-passport/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://immigrationandmigration.com/british-passport/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://immigrationandmigration.com/british-passport/"
+}

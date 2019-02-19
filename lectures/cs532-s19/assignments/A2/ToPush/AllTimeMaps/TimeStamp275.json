@@ -1,0 +1,582 @@
+{
+  "original_uri": "http://www.illininews.com/",
+  "self": "http://localhost:1208/timemap/json/http://www.illininews.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2002-06-02T16:46:11Z",
+        "uri": "http://web.archive.org/web/20020602164611/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2002-08-03T21:12:25Z",
+        "uri": "http://web.archive.org/web/20020803211225/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2002-09-29T13:28:18Z",
+        "uri": "http://web.archive.org/web/20020929132818/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2002-10-16T23:01:14Z",
+        "uri": "http://web.archive.org/web/20021016230114/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2002-11-22T01:56:33Z",
+        "uri": "http://web.archive.org/web/20021122015633/http://illininews.com:80/"
+      },
+      {
+        "datetime": "2002-11-22T20:54:36Z",
+        "uri": "http://web.archive.org/web/20021122205436/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2002-11-25T12:40:05Z",
+        "uri": "http://web.archive.org/web/20021125124005/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-01-25T00:25:27Z",
+        "uri": "http://web.archive.org/web/20030125002527/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-02-18T07:39:25Z",
+        "uri": "http://web.archive.org/web/20030218073925/http://illininews.com:80/"
+      },
+      {
+        "datetime": "2003-03-23T01:34:17Z",
+        "uri": "http://web.archive.org/web/20030323013417/http://illininews.com:80/"
+      },
+      {
+        "datetime": "2003-03-26T05:12:15Z",
+        "uri": "http://web.archive.org/web/20030326051215/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-04-07T09:43:19Z",
+        "uri": "http://web.archive.org/web/20030407094319/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-04-19T18:01:33Z",
+        "uri": "http://web.archive.org/web/20030419180133/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-06-09T08:30:12Z",
+        "uri": "http://web.archive.org/web/20030609083012/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-06-11T02:58:40Z",
+        "uri": "http://web.archive.org/web/20030611025840/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-06-20T12:54:04Z",
+        "uri": "http://web.archive.org/web/20030620125404/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-07-28T08:39:07Z",
+        "uri": "http://web.archive.org/web/20030728083907/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-10-27T16:23:10Z",
+        "uri": "http://web.archive.org/web/20031027162310/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-11-19T03:21:35Z",
+        "uri": "http://web.archive.org/web/20031119032135/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2003-11-24T10:45:53Z",
+        "uri": "http://web.archive.org/web/20031124104553/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-03-25T09:10:57Z",
+        "uri": "http://web.archive.org/web/20040325091057/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-05-09T09:40:45Z",
+        "uri": "http://web.archive.org/web/20040509094045/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-06-04T14:56:23Z",
+        "uri": "http://web.archive.org/web/20040604145623/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-06-07T02:23:18Z",
+        "uri": "http://web.archive.org/web/20040607022318/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-06-14T08:00:44Z",
+        "uri": "http://web.archive.org/web/20040614080044/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-08-26T20:06:58Z",
+        "uri": "http://web.archive.org/web/20040826200658/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-08-29T09:08:20Z",
+        "uri": "http://web.archive.org/web/20040829090820/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-09-24T07:05:27Z",
+        "uri": "http://web.archive.org/web/20040924070527/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-11-29T21:50:41Z",
+        "uri": "http://web.archive.org/web/20041129215041/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2004-12-29T21:44:01Z",
+        "uri": "http://web.archive.org/web/20041229214401/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2005-01-09T01:28:48Z",
+        "uri": "http://web.archive.org/web/20050109012848/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2005-02-04T13:29:02Z",
+        "uri": "http://web.archive.org/web/20050204132902/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2005-02-06T04:45:44Z",
+        "uri": "http://web.archive.org/web/20050206044544/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2005-02-10T13:22:27Z",
+        "uri": "http://web.archive.org/web/20050210132227/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2005-03-04T14:09:18Z",
+        "uri": "http://web.archive.org/web/20050304140918/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2005-04-06T21:56:11Z",
+        "uri": "http://web.archive.org/web/20050406215611/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2005-08-28T11:03:30Z",
+        "uri": "http://web.archive.org/web/20050828110330/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2006-09-05T04:26:32Z",
+        "uri": "http://web.archive.org/web/20060905042632/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2006-10-27T23:41:20Z",
+        "uri": "http://web.archive.org/web/20061027234120/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2006-12-14T13:07:20Z",
+        "uri": "http://web.archive.org/web/20061214130720/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2007-02-10T07:40:12Z",
+        "uri": "http://web.archive.org/web/20070210074012/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2007-04-21T02:33:43Z",
+        "uri": "http://web.archive.org/web/20070421023343/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2007-06-30T11:05:23Z",
+        "uri": "http://web.archive.org/web/20070630110523/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2008-06-12T14:56:20Z",
+        "uri": "http://web.archive.org/web/20080612145620/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2008-07-05T10:27:51Z",
+        "uri": "http://web.archive.org/web/20080705102751/http://www.illininews.com/"
+      },
+      {
+        "datetime": "2009-01-31T19:41:26Z",
+        "uri": "http://web.archive.org/web/20090131194126/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2011-10-26T09:49:09Z",
+        "uri": "http://web.archive.org/web/20111026094909/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2011-11-21T21:34:30Z",
+        "uri": "http://web.archive.org/web/20111121213430/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2011-12-22T16:23:36Z",
+        "uri": "http://web.archive.org/web/20111222162336/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-01-22T08:04:45Z",
+        "uri": "http://web.archive.org/web/20120122080445/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-05-20T02:10:10Z",
+        "uri": "http://web.archive.org/web/20120520021010/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-06-05T10:24:22Z",
+        "uri": "http://web.archive.org/web/20120605102422/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-06-20T02:48:21Z",
+        "uri": "http://web.archive.org/web/20120620024821/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-07-01T04:04:50Z",
+        "uri": "http://web.archive.org/web/20120701040450/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-07-18T05:00:06Z",
+        "uri": "http://web.archive.org/web/20120718050006/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-07-31T06:31:58Z",
+        "uri": "http://web.archive.org/web/20120731063158/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-08-20T02:47:09Z",
+        "uri": "http://web.archive.org/web/20120820024709/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-09-20T05:02:23Z",
+        "uri": "http://web.archive.org/web/20120920050223/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2012-10-21T22:50:14Z",
+        "uri": "http://web.archive.org/web/20121021225014/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2013-01-02T12:40:04Z",
+        "uri": "http://web.archive.org/web/20130102124004/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2013-06-10T20:50:27Z",
+        "uri": "http://web.archive.org/web/20130610205027/http://illininews.com/"
+      },
+      {
+        "datetime": "2013-10-02T23:53:33Z",
+        "uri": "http://web.archive.org/web/20131002235333/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2013-11-03T19:56:41Z",
+        "uri": "http://web.archive.org/web/20131103195641/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2013-12-05T09:38:13Z",
+        "uri": "http://web.archive.org/web/20131205093813/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2013-12-31T06:35:02Z",
+        "uri": "http://web.archive.org/web/20131231063502/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-01-21T12:30:23Z",
+        "uri": "http://web.archive.org/web/20140121123023/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-02-21T11:43:11Z",
+        "uri": "http://web.archive.org/web/20140221114311/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-03-24T09:37:39Z",
+        "uri": "http://web.archive.org/web/20140324093739/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-04-24T09:21:54Z",
+        "uri": "http://web.archive.org/web/20140424092154/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-05-17T10:18:58Z",
+        "uri": "http://web.archive.org/web/20140517101858/http://illininews.com/"
+      },
+      {
+        "datetime": "2014-05-25T17:25:15Z",
+        "uri": "http://web.archive.org/web/20140525172515/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-06-27T00:06:18Z",
+        "uri": "http://web.archive.org/web/20140627000618/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-07-28T03:49:04Z",
+        "uri": "http://web.archive.org/web/20140728034904/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-08-28T13:37:28Z",
+        "uri": "http://web.archive.org/web/20140828133728/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-09-28T19:30:15Z",
+        "uri": "http://web.archive.org/web/20140928193015/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-11-04T15:58:29Z",
+        "uri": "http://web.archive.org/web/20141104155829/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-12-02T23:47:24Z",
+        "uri": "http://web.archive.org/web/20141202234724/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2014-12-17T14:11:01Z",
+        "uri": "http://web.archive.org/web/20141217141101/http://illininews.com/"
+      },
+      {
+        "datetime": "2014-12-20T10:07:58Z",
+        "uri": "http://web.archive.org/web/20141220100758/http://www.illininews.com/"
+      },
+      {
+        "datetime": "2014-12-20T22:47:14Z",
+        "uri": "http://web.archive.org/web/20141220224714/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2015-01-21T01:00:37Z",
+        "uri": "http://web.archive.org/web/20150121010037/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2015-07-06T04:13:55Z",
+        "uri": "http://web.archive.org/web/20150706041355/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2015-08-01T14:23:39Z",
+        "uri": "http://web.archive.org/web/20150801142339/http://illininews.com/"
+      },
+      {
+        "datetime": "2015-09-09T04:49:51Z",
+        "uri": "http://web.archive.org/web/20150909044951/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2015-10-10T02:06:06Z",
+        "uri": "http://web.archive.org/web/20151010020606/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2015-11-09T21:53:11Z",
+        "uri": "http://web.archive.org/web/20151109215311/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2015-11-16T17:41:04Z",
+        "uri": "http://web.archive.org/web/20151116174104/http://illininews.com/"
+      },
+      {
+        "datetime": "2015-12-14T21:56:26Z",
+        "uri": "http://web.archive.org/web/20151214215626/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-01-14T17:56:05Z",
+        "uri": "http://web.archive.org/web/20160114175605/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-03-12T23:22:16Z",
+        "uri": "http://web.archive.org/web/20160312232216/http://illininews.com/"
+      },
+      {
+        "datetime": "2016-03-15T07:11:12Z",
+        "uri": "http://web.archive.org/web/20160315071112/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-04-15T13:17:57Z",
+        "uri": "http://web.archive.org/web/20160415131757/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-05-17T02:21:35Z",
+        "uri": "http://web.archive.org/web/20160517022135/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-05-18T03:01:55Z",
+        "uri": "http://web.archive.org/web/20160518030155/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-06-18T17:13:25Z",
+        "uri": "http://web.archive.org/web/20160618171325/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-07-20T14:44:24Z",
+        "uri": "http://web.archive.org/web/20160720144424/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2016-10-02T10:01:29Z",
+        "uri": "http://web.archive.org/web/20161002100129/http://illininews.com/"
+      },
+      {
+        "datetime": "2017-03-25T00:26:53Z",
+        "uri": "http://web.archive.org/web/20170325002653/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2017-05-07T07:46:03Z",
+        "uri": "http://web.archive.org/web/20170507074603/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2017-05-17T01:24:11Z",
+        "uri": "http://web.archive.org/web/20170517012411/http://illininews.com/"
+      },
+      {
+        "datetime": "2017-06-07T01:54:07Z",
+        "uri": "http://web.archive.org/web/20170607015407/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2017-07-07T23:46:27Z",
+        "uri": "http://web.archive.org/web/20170707234627/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2017-08-08T05:53:34Z",
+        "uri": "http://web.archive.org/web/20170808055334/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2017-09-05T13:09:35Z",
+        "uri": "http://web.archive.org/web/20170905130935/http://illininews.com/"
+      },
+      {
+        "datetime": "2017-09-13T10:38:35Z",
+        "uri": "http://web.archive.org/web/20170913103835/http://illininews.com/"
+      },
+      {
+        "datetime": "2017-11-08T22:29:39Z",
+        "uri": "http://web.archive.org/web/20171108222939/http://illininews.com/"
+      },
+      {
+        "datetime": "2017-12-02T18:26:56Z",
+        "uri": "http://web.archive.org/web/20171202182656/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2017-12-03T20:38:01Z",
+        "uri": "http://web.archive.org/web/20171203203801/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2018-01-04T08:43:13Z",
+        "uri": "http://web.archive.org/web/20180104084313/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2018-02-04T17:59:54Z",
+        "uri": "http://web.archive.org/web/20180204175954/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2018-03-08T09:03:45Z",
+        "uri": "http://web.archive.org/web/20180308090345/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2018-03-17T05:15:10Z",
+        "uri": "http://web.archive.org/web/20180317051510/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-03-18T11:37:42Z",
+        "uri": "http://web.archive.org/web/20180318113742/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-03-24T15:37:59Z",
+        "uri": "http://web.archive.org/web/20180324153759/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-04-07T21:28:56Z",
+        "uri": "http://web.archive.org/web/20180407212856/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-04-08T22:09:30Z",
+        "uri": "http://web.archive.org/web/20180408220930/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2018-04-21T23:43:02Z",
+        "uri": "http://web.archive.org/web/20180421234302/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-04-28T21:34:53Z",
+        "uri": "http://web.archive.org/web/20180428213453/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-05-10T06:37:44Z",
+        "uri": "http://web.archive.org/web/20180510063744/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2018-06-11T01:24:28Z",
+        "uri": "http://web.archive.org/web/20180611012428/http://www.illininews.com:80/"
+      },
+      {
+        "datetime": "2018-06-30T19:14:54Z",
+        "uri": "http://web.archive.org/web/20180630191454/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-07-28T09:33:28Z",
+        "uri": "http://web.archive.org/web/20180728093328/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-08-04T13:18:06Z",
+        "uri": "http://web.archive.org/web/20180804131806/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-08-05T19:15:20Z",
+        "uri": "http://web.archive.org/web/20180805191520/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-08-11T14:17:44Z",
+        "uri": "http://web.archive.org/web/20180811141744/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-08-25T21:40:10Z",
+        "uri": "http://web.archive.org/web/20180825214010/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-09-01T16:38:31Z",
+        "uri": "http://web.archive.org/web/20180901163831/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-09-08T19:34:19Z",
+        "uri": "http://web.archive.org/web/20180908193419/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-09-15T12:02:08Z",
+        "uri": "http://web.archive.org/web/20180915120208/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-10-13T10:28:52Z",
+        "uri": "http://web.archive.org/web/20181013102852/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-10-20T11:29:47Z",
+        "uri": "http://web.archive.org/web/20181020112947/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-10-27T08:59:46Z",
+        "uri": "http://web.archive.org/web/20181027085946/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-11-03T20:28:06Z",
+        "uri": "http://web.archive.org/web/20181103202806/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-11-24T06:28:57Z",
+        "uri": "http://web.archive.org/web/20181124062857/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-12-01T10:59:25Z",
+        "uri": "http://web.archive.org/web/20181201105925/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-12-08T13:00:26Z",
+        "uri": "http://web.archive.org/web/20181208130026/http://illininews.com/"
+      },
+      {
+        "datetime": "2018-12-22T05:35:55Z",
+        "uri": "http://web.archive.org/web/20181222053555/http://illininews.com/"
+      },
+      {
+        "datetime": "2019-01-12T04:07:38Z",
+        "uri": "http://web.archive.org/web/20190112040738/http://illininews.com/"
+      },
+      {
+        "datetime": "2019-01-19T10:57:39Z",
+        "uri": "http://web.archive.org/web/20190119105739/http://illininews.com/"
+      },
+      {
+        "datetime": "2019-02-09T07:09:44Z",
+        "uri": "http://web.archive.org/web/20190209070944/http://illininews.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2002-06-02T16:46:11Z",
+      "uri": "http://web.archive.org/web/20020602164611/http://www.illininews.com:80/"
+    },
+    "last": {
+      "datetime": "2019-02-09T07:09:44Z",
+      "uri": "http://web.archive.org/web/20190209070944/http://illininews.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.illininews.com/",
+    "json_format": "http://localhost:1208/timemap/json/http://www.illininews.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.illininews.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.illininews.com/"
+}

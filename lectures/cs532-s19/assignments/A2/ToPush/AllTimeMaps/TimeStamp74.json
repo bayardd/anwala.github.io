@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite",
+  "self": "http://localhost:1208/timemap/json/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-21T02:42:07Z",
+        "uri": "http://wayback.archive-it.org/all/20180621024207/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+      },
+      {
+        "datetime": "2018-06-21T02:42:07Z",
+        "uri": "http://web.archive.org/web/20180621024207/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+      },
+      {
+        "datetime": "2018-08-13T21:17:32Z",
+        "uri": "http://wayback.archive-it.org/all/20180813211732/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+      },
+      {
+        "datetime": "2018-08-13T21:17:32Z",
+        "uri": "http://web.archive.org/web/20180813211732/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+      },
+      {
+        "datetime": "2018-12-05T20:49:55Z",
+        "uri": "http://wayback.archive-it.org/all/20181205204955/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+      },
+      {
+        "datetime": "2018-12-05T20:49:55Z",
+        "uri": "http://web.archive.org/web/20181205204955/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+      },
+      {
+        "datetime": "2019-02-14T14:31:11Z",
+        "uri": "http://web.archive.org/web/20190214143111/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-21T02:42:07Z",
+      "uri": "http://wayback.archive-it.org/all/20180621024207/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+    },
+    "last": {
+      "datetime": "2019-02-14T14:31:11Z",
+      "uri": "http://web.archive.org/web/20190214143111/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite",
+    "json_format": "http://localhost:1208/timemap/json/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite"
+}

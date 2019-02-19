@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/",
+  "self": "http://localhost:1208/timemap/json/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:14:37Z",
+        "uri": "http://web.archive.org/web/20190215121437/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:14:37Z",
+      "uri": "http://web.archive.org/web/20190215121437/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:14:37Z",
+      "uri": "http://web.archive.org/web/20190215121437/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/",
+    "json_format": "http://localhost:1208/timemap/json/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/"
+}

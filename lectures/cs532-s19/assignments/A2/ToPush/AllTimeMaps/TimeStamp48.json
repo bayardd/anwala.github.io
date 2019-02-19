@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php",
+  "self": "http://localhost:1208/timemap/json/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T22:56:49Z",
+        "uri": "http://web.archive.org/web/20190214225649/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php"
+      },
+      {
+        "datetime": "2019-02-15T01:52:48Z",
+        "uri": "http://web.archive.org/web/20190215015248/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php"
+      },
+      {
+        "datetime": "2019-02-15T11:44:33Z",
+        "uri": "http://web.archive.org/web/20190215114433/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T22:56:49Z",
+      "uri": "http://web.archive.org/web/20190214225649/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:44:33Z",
+      "uri": "http://web.archive.org/web/20190215114433/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php",
+    "json_format": "http://localhost:1208/timemap/json/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php"
+}

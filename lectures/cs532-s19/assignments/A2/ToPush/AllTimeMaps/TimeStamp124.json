@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/",
+  "self": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T02:58:55Z",
+        "uri": "http://web.archive.org/web/20190215025855/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/"
+      },
+      {
+        "datetime": "2019-02-15T06:04:15Z",
+        "uri": "http://web.archive.org/web/20190215060415/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/"
+      },
+      {
+        "datetime": "2019-02-15T11:48:48Z",
+        "uri": "http://web.archive.org/web/20190215114848/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T02:58:55Z",
+      "uri": "http://web.archive.org/web/20190215025855/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:48:48Z",
+      "uri": "http://web.archive.org/web/20190215114848/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/"
+}

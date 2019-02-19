@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363",
+  "self": "http://localhost:1208/timemap/json/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T19:38:42Z",
+        "uri": "http://web.archive.org/web/20190214193842/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T19:38:42Z",
+      "uri": "http://web.archive.org/web/20190214193842/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363"
+    },
+    "last": {
+      "datetime": "2019-02-14T19:38:42Z",
+      "uri": "http://web.archive.org/web/20190214193842/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363"
+}

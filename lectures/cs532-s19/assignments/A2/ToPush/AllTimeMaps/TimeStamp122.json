@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:13:31Z",
+        "uri": "http://web.archive.org/web/20190215011331/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html"
+      },
+      {
+        "datetime": "2019-02-15T09:58:45Z",
+        "uri": "http://web.archive.org/web/20190215095845/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html"
+      },
+      {
+        "datetime": "2019-02-15T12:07:26Z",
+        "uri": "http://web.archive.org/web/20190215120726/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html"
+      },
+      {
+        "datetime": "2019-02-15T14:58:57Z",
+        "uri": "http://web.archive.org/web/20190215145857/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html"
+      },
+      {
+        "datetime": "2019-02-15T21:08:24Z",
+        "uri": "http://web.archive.org/web/20190215210824/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:13:31Z",
+      "uri": "http://web.archive.org/web/20190215011331/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:08:24Z",
+      "uri": "http://web.archive.org/web/20190215210824/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html%0A"
+}

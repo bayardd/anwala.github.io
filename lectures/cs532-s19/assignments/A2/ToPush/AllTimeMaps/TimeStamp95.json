@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019",
+  "self": "http://localhost:1208/timemap/json/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:34:50Z",
+        "uri": "http://web.archive.org/web/20190215123450/https://www.lexisnexis.com/legalnewsroom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:34:50Z",
+      "uri": "http://web.archive.org/web/20190215123450/https://www.lexisnexis.com/legalnewsroom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:34:50Z",
+      "uri": "http://web.archive.org/web/20190215123450/https://www.lexisnexis.com/legalnewsroom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019",
+    "json_format": "http://localhost:1208/timemap/json/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019"
+}

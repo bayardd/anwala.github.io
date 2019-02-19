@@ -1,0 +1,30 @@
+{
+  "original_uri": "http://www.dailykos.com/stories/1834707%0A",
+  "self": "http://localhost:1208/timemap/json/http://www.dailykos.com/stories/1834707%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:41:25Z",
+        "uri": "http://web.archive.org/web/20190215124125/http://www.dailykos.com/stories/1834707"
+      },
+      {
+        "datetime": "2019-02-15T14:38:15Z",
+        "uri": "http://web.archive.org/web/20190215143815/https://www.dailykos.com/stories/1834707"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:41:25Z",
+      "uri": "http://web.archive.org/web/20190215124125/http://www.dailykos.com/stories/1834707"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:38:15Z",
+      "uri": "http://web.archive.org/web/20190215143815/https://www.dailykos.com/stories/1834707"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.dailykos.com/stories/1834707%0A",
+    "json_format": "http://localhost:1208/timemap/json/http://www.dailykos.com/stories/1834707%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.dailykos.com/stories/1834707%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.dailykos.com/stories/1834707%0A"
+}

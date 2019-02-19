@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066",
+  "self": "http://localhost:1208/timemap/json/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T22:10:44Z",
+        "uri": "http://web.archive.org/web/20190214221044/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066"
+      },
+      {
+        "datetime": "2019-02-15T02:18:41Z",
+        "uri": "http://web.archive.org/web/20190215021841/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T22:10:44Z",
+      "uri": "http://web.archive.org/web/20190214221044/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066"
+    },
+    "last": {
+      "datetime": "2019-02-15T02:18:41Z",
+      "uri": "http://web.archive.org/web/20190215021841/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066"
+}

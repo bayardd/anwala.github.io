@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators",
+  "self": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T08:21:04Z",
+        "uri": "http://web.archive.org/web/20190215082104/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators"
+      },
+      {
+        "datetime": "2019-02-15T08:21:06Z",
+        "uri": "http://web.archive.org/web/20190215082106/http://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T08:21:04Z",
+      "uri": "http://web.archive.org/web/20190215082104/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators"
+    },
+    "last": {
+      "datetime": "2019-02-15T08:21:06Z",
+      "uri": "http://web.archive.org/web/20190215082106/http://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators",
+    "json_format": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators"
+}

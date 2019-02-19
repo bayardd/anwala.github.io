@@ -1,0 +1,1515 @@
+URI: https://www.businessinsider.com/trump-national-emergency-declaration-border-wall-shutdown-2019-1%0A
+TimeMapFileName: TimeStamp1.json
+Mementos: 4
+
+
+URI: https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/
+TimeMapFileName: TimeStamp2.json
+Mementos: 2
+
+
+URI: https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/
+TimeMapFileName: TimeStamp3.json
+Mementos: 2
+
+
+URI: https://potomaclocal.com/2019/02/14/after-revenue-losses-during-the-shutdown-omniride-aims-to-be-more-nimble/
+TimeMapFileName: TimeStamp4.json
+Mementos: 1
+
+
+URI: http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/%0A/
+TimeMapFileName: TimeStamp5.json
+Mementos: 4
+
+
+URI: https://www.cnn.com/2019/02/14/politics/national-emergency-immigration/index.html
+TimeMapFileName: TimeStamp6.json
+Mementos: 9
+
+
+URI: https://kplr11.com/2019/02/14/senate-approves-deal-to-avert-shutdown-sends-measure-to-house/
+TimeMapFileName: TimeStamp7.json
+Mementos: 4
+
+
+URI: https://variety.com/2019/digital/news/machinima-rooster-teeth-inside-gaming-1203136988/#utm_medium=social&utm_source=twitter&utm_campaign=social_bar&utm_content=bottom&utm_id=1203136988%0A
+TimeMapFileName: TimeStamp8.json
+Mementos: 6
+
+
+URI: https://shareblue.com/gop-senator-chuck-grassley-trump-shutdown-prayer/
+TimeMapFileName: TimeStamp9.json
+Mementos: 1
+
+
+URI: https://www.govexec.com/management/2019/02/congress-approves-bill-fund-government-trump-prepares-national-emergency/154905/
+TimeMapFileName: TimeStamp10.json
+Mementos: 2
+
+
+URI: https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824%0A
+TimeMapFileName: TimeStamp11.json
+Mementos: 9
+
+
+URI: https://www.chicagotribune.com/suburbs/post-tribune/opinion/ct-ptb-cepeda-immigration-column-st-0506-story.html
+TimeMapFileName: TimeStamp12.json
+Mementos: 44
+
+
+URI: https://www.businessinsider.com/new-budget-bill-to-avoid-government-shutdown-summary-details-2019-2%0A
+TimeMapFileName: TimeStamp13.json
+Mementos: 5
+
+
+URI: https://www.abc15.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A
+TimeMapFileName: TimeStamp14.json
+Mementos: 1
+
+
+URI: https://pjmedia.com/davidsteinberg/address-records-show-rep-ilhan-omar-d-mn-still-lived-with-her-first-husband-throughout-her-second-marriage/
+TimeMapFileName: TimeStamp15.json
+Mementos: 344
+
+
+URI: https://lexpansion.lexpress.fr/actualites/1/actualite-economique/tous-les-regards-tournes-vers-trump-pour-eviter-un-nouveau-shutdown_2062344.html
+TimeMapFileName: TimeStamp16.json
+Mementos: 2
+
+
+URI: https://www.newsy.com/stories/what-we-know-about-that-agreement-in-principle/%0A
+TimeMapFileName: TimeStamp17.json
+Mementos: 1
+
+
+URI: https://www.news.com.au/finance/work/leaders/donald-trump-to-declare-national-emergency-on-the-border/news-story/c4b4a7cde3e2ab41c360ec6166b9937c%0A
+TimeMapFileName: TimeStamp18.json
+Mementos: 4
+
+
+URI: https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/
+TimeMapFileName: TimeStamp19.json
+Mementos: 2
+
+
+URI: https://www.express.co.uk/news/world/1087502/trump-sign-funding-bill-mexico-border-wall-us-national-emergency-us-government-shutdown%0A
+TimeMapFileName: TimeStamp20.json
+Mementos: 2
+
+
+URI: https://www.rand.org/blog/2019/02/what-the-shutdown-revealed-about-the-fragility-of-american.html%0A
+TimeMapFileName: TimeStamp21.json
+Mementos: 1
+
+
+URI: http://fortune.com/2019/01/09/govt-shutdown-2019-costs-billions/%0A/
+TimeMapFileName: TimeStamp22.json
+Mementos: 3
+
+
+URI: https://www.sandiegouniontribune.com/opinion/letters-to-the-editor/sd-shutdown-trump-border-security-utak-20190214-story.html
+TimeMapFileName: TimeStamp23.json
+Mementos: 2
+
+
+URI: https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html
+TimeMapFileName: TimeStamp24.json
+Mementos: 43
+
+
+URI: https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html
+TimeMapFileName: TimeStamp25.json
+Mementos: 39
+
+
+URI: https://buffalonews.com/2019/02/14/former-danaher-plant-in-amherst-facing-shutdown/
+TimeMapFileName: TimeStamp26.json
+Mementos: 1
+
+
+URI: https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/#.XGW5xj1st34.twitter%0A
+TimeMapFileName: TimeStamp27.json
+Mementos: 7
+
+
+URI: https://www.theatlantic.com/ideas/archive/2019/02/trumps-shutdown-fold-was-totally-predictable/582817/
+TimeMapFileName: TimeStamp28.json
+Mementos: 4
+
+
+URI: https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp
+TimeMapFileName: TimeStamp29.json
+Mementos: 1
+
+
+URI: https://www.nytimes.com/2019/02/14/arts/television/stephen-colbert-government-shutdown-trump.html%0A
+TimeMapFileName: TimeStamp30.json
+Mementos: 5
+
+
+URI: https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/#252f5c12260e%0A
+TimeMapFileName: TimeStamp31.json
+Mementos: 7
+
+
+URI: https://www.theguardian.com/us-news/2018/jul/24/canada-vermont-illegal-border-crossings-immigration
+TimeMapFileName: TimeStamp32.json
+Mementos: 45
+
+
+URI: https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys%0A
+TimeMapFileName: TimeStamp33.json
+Mementos: 1
+
+
+URI: https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-2014-president-shouldnt-use-executive-authority/2875541002/
+TimeMapFileName: TimeStamp34.json
+Mementos: 7
+
+
+URI: https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/#3682b0f233fb
+TimeMapFileName: TimeStamp35.json
+Mementos: 11
+
+
+URI: https://www.cuinsight.com/credit-unions-nationwide-step-up-during-government-shutdown.html%0A
+TimeMapFileName: TimeStamp36.json
+Mementos: 1
+
+
+URI: https://www.weaselzippers.us/411048-immigration-hawks-sound-alarm-on-congressional-border-deal/
+TimeMapFileName: TimeStamp37.json
+Mementos: 1
+
+
+URI: https://www.vox.com/policy-and-politics/2019/1/8/18172749/trump-national-emergency-government-shutdown-wall
+TimeMapFileName: TimeStamp38.json
+Mementos: 48
+
+
+URI: https://apnews.com/18b632a262634e31918344f2c74a8e32
+TimeMapFileName: TimeStamp39.json
+Mementos: 2
+
+
+URI: https://www.thedailybeast.com/guess-who-called-out-the-unconstitutional-emergency-immigration-powers-trumps-eyeing-trump-and-his-personal-lawyer
+TimeMapFileName: TimeStamp40.json
+Mementos: 1
+
+
+URI: https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/
+TimeMapFileName: TimeStamp41.json
+Mementos: 1
+
+
+URI: https://www.reuters.com/article/us-usa-immigration/u-s-sends-first-families-to-mexico-to-await-asylum-rights-groups-sue-idUSKCN1Q32VY
+TimeMapFileName: TimeStamp42.json
+Mementos: 4
+
+
+URI: https://www.bignewsnetwork.com/news/259518323/trump-says-shutdown-would-be-a-terrible-thing
+TimeMapFileName: TimeStamp43.json
+Mementos: 1
+
+
+URI: https://www.ukrepeater.net/my_repeater.php?id=884%0A
+TimeMapFileName: TimeStamp44.json
+Mementos: 1
+
+
+URI: https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/#1c94908250fc%0A
+TimeMapFileName: TimeStamp45.json
+Mementos: 5
+
+
+URI: https://www.dailymail.co.uk/news/article-6706337/Muslim-parents-lead-group-300-protest-outside-school-gates-against-equality-lessons.html
+TimeMapFileName: TimeStamp46.json
+Mementos: 4
+
+
+URI: https://www.nydailynews.com/news/politics/ny-pol-trump-bill-emergency-wall-20190214-story.html%0A
+TimeMapFileName: TimeStamp47.json
+Mementos: 2
+
+
+URI: https://www.lapresse.ca/international/etats-unis/201902/14/01-5214746-le-senat-americain-approuve-laccord-budgetaire-pour-eviter-un-shutdown.php
+TimeMapFileName: TimeStamp48.json
+Mementos: 3
+
+
+URI: https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/
+TimeMapFileName: TimeStamp49.json
+Mementos: 1
+
+
+URI: https://www.latimes.com/opinion/enterthefray/la-ol-trump-border-wall-shutdown-20190128-story.html%0A
+TimeMapFileName: TimeStamp50.json
+Mementos: 25
+
+
+URI: https://www.natlawreview.com/article/congress-prepares-action-to-avoid-government-shutdown-and-fund-vital-programs-such
+TimeMapFileName: TimeStamp51.json
+Mementos: 1
+
+
+URI: https://www.breitbart.com/economy/2019/02/14/border-security-bill-provides-aid-buses-legal-shields-migrants/
+TimeMapFileName: TimeStamp52.json
+Mementos: 5
+
+
+URI: https://www.orlandosentinel.com/business/space/go-for-launch/os-bz-contractor-back-pay-dead-20190214-story.html
+TimeMapFileName: TimeStamp53.json
+Mementos: 4
+
+
+URI: https://foreignpolicy.com/2019/02/11/security-brief-shutdown-rinse-and-repeat-acting-secdef-lands-in-afghanistan/
+TimeMapFileName: TimeStamp54.json
+Mementos: 6
+
+
+URI: https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html%0A
+TimeMapFileName: TimeStamp55.json
+Mementos: 47
+
+
+URI: https://www.pressherald.com/2019/02/14/mcconnell-trump-will-sign-border-compromise-then-declare-national-emergency/
+TimeMapFileName: TimeStamp56.json
+Mementos: 2
+
+
+URI: https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html%0A
+TimeMapFileName: TimeStamp57.json
+Mementos: 3
+
+
+URI: https://townhall.com/tipsheet/iansnively/2019/02/14/how-immigration-impacts-population-and-jobs-n2541509
+TimeMapFileName: TimeStamp58.json
+Mementos: 2
+
+
+URI: https://qz.com/1550708/the-word-wall-does-not-appear-once-in-the-house-bill-to-keep-the-government-open/
+TimeMapFileName: TimeStamp59.json
+Mementos: 2
+
+
+URI: https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/
+TimeMapFileName: TimeStamp60.json
+Mementos: 3
+
+
+URI: https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/
+TimeMapFileName: TimeStamp61.json
+Mementos: 2
+
+
+URI: https://www.thecouponplanet.com/windows-10-online-course-from-go-groopie//
+TimeMapFileName: TimeStamp62.json
+Mementos: 3
+
+
+URI: https://fivethirtyeight.com/features/trump-border-wall-national-emergency/
+TimeMapFileName: TimeStamp63.json
+Mementos: 4
+
+
+URI: http://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A
+TimeMapFileName: TimeStamp64.json
+Mementos: 4
+
+
+URI: https://thehill.com/opinion/immigration/427421-crisis-at-our-southern-border-is-real-and-growing-worse-without-the-wall
+TimeMapFileName: TimeStamp65.json
+Mementos: 1
+
+
+URI: https://www.mynews13.com/fl/orlando/government-shutdown/2019/02/14/government-funding-bill-national-emergency-border-trump%0A
+TimeMapFileName: TimeStamp66.json
+Mementos: 3
+
+
+URI: http://www.mywebtimes.com/
+TimeMapFileName: TimeStamp67.json
+Mementos: 991
+
+
+URI: https://www.vox.com/policy-and-politics/2019/1/2/18165139/government-shutdown-2019-tax-returns-refunds
+TimeMapFileName: TimeStamp68.json
+Mementos: 31
+
+
+URI: https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455
+TimeMapFileName: TimeStamp69.json
+Mementos: 5
+
+
+URI: https://www.latimes.com/politics/la-na-pol-congress-shutdown-vote-20190214-story.html%0A
+TimeMapFileName: TimeStamp70.json
+Mementos: 6
+
+
+URI: https://www.vox.com/2019/2/14/18224420/contractors-government-shutdown-back-pay
+TimeMapFileName: TimeStamp71.json
+Mementos: 1
+
+
+URI: https://www.chicagotribune.com/business/ct-biz-valentines-flowers-inspectors-government-shutdown-20190213-story.html
+TimeMapFileName: TimeStamp72.json
+Mementos: 4
+
+
+URI: http://revolutionradio.org/2019/02/14/russia-readies-own-web-to-survive-global-internet-shutdown/
+TimeMapFileName: TimeStamp73.json
+Mementos: 1
+
+
+URI: https://www.immicompliance.com/?utm_source=socialmedia&utm_medium=bitly&utm_campaign=hootsuite
+TimeMapFileName: TimeStamp74.json
+Mementos: 7
+
+
+URI: https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737#.XGXyUvHHHB8.twitter%0A
+TimeMapFileName: TimeStamp75.json
+Mementos: 2
+
+
+URI: https://www.cbsnews.com/news/asylum-seekers-aclu-splc-sue-kirstjen-nielsen-department-of-homeland-security-remain-in-mexico-2019-02-14-live-updates/
+TimeMapFileName: TimeStamp76.json
+Mementos: 7
+
+
+URI: https://www.dailykos.com/stories/2019/2/14/1834707/-Federal-contract-workers-won-t-get-back-pay-after-shutdown-The-president-won-t-sign-that%0A
+TimeMapFileName: TimeStamp77.json
+Mementos: 4
+
+
+URI: https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/%0A
+TimeMapFileName: TimeStamp78.json
+Mementos: 2
+
+
+URI: http://fortune.com/2019/02/14/sarah-sanders-tweet-trump-national-emergency-twitter-iphone-notes-app/%0A/
+TimeMapFileName: TimeStamp79.json
+Mementos: 2
+
+
+URI: https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/#disqus_thread%0A
+TimeMapFileName: TimeStamp80.json
+Mementos: 6
+
+
+URI: https://fox8.com/2019/02/14/senate-passes-border-security-plan-to-avert-shutdown-sends-measure-to-house/
+TimeMapFileName: TimeStamp81.json
+Mementos: 4
+
+
+URI: https://arstechnica.com/science/2019/01/investigation-of-noaa-climate-scientists-finds-bupkis/
+TimeMapFileName: TimeStamp82.json
+Mementos: 16
+
+
+URI: https://www.govexec.com/pay-benefits/2019/02/shutdown-avoiding-spending-package-includes-19-percent-pay-raise-2019/154873/
+TimeMapFileName: TimeStamp83.json
+Mementos: 1
+
+
+URI: https://www.nytimes.com/2019/02/11/us/politics/shutdown-deal.html%0A
+TimeMapFileName: TimeStamp84.json
+Mementos: 21
+
+
+URI: https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365%0A
+TimeMapFileName: TimeStamp85.json
+Mementos: 1
+
+
+URI: http://tweetedtimes.com/veronicahurray6%0A
+TimeMapFileName: TimeStamp86.json
+Mementos: 3
+
+
+URI: https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html%0A
+TimeMapFileName: TimeStamp87.json
+Mementos: 5
+
+
+URI: https://www.humanite.fr/immigration-dans-les-hautes-alpes-la-chasse-aux-etrangers-fait-un-mort-667762
+TimeMapFileName: TimeStamp88.json
+Mementos: 3
+
+
+URI: https://www.texastribune.org/2019/02/14/government-shutdown-deal-includes-protections-south-texas-landmarks/%0A
+TimeMapFileName: TimeStamp89.json
+Mementos: 1
+
+
+URI: https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r%0A
+TimeMapFileName: TimeStamp90.json
+Mementos: 1
+
+
+URI: https://www.politico.com/story/2019/02/14/spending-bill-vote-government-shutdown-1170006%0A
+TimeMapFileName: TimeStamp91.json
+Mementos: 4
+
+
+URI: https://www.cpapracticeadvisor.com/news/12441461/taxpayer-advocate-urges-it-modernization-discusses-impact-of-shutdown-on-irs%0A
+TimeMapFileName: TimeStamp92.json
+Mementos: 1
+
+
+URI: https://www.nbcnews.com/news/us-news/william-barr-was-confirmed-u-s-attorney-general-here-s-n971066
+TimeMapFileName: TimeStamp93.json
+Mementos: 2
+
+
+URI: https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/
+TimeMapFileName: TimeStamp94.json
+Mementos: 1
+
+
+URI: https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/migratory-notes-102-feb-14-2019
+TimeMapFileName: TimeStamp95.json
+Mementos: 1
+
+
+URI: https://immigrationandmigration.com/schengen-visas/
+TimeMapFileName: TimeStamp96.json
+Mementos: 22
+
+
+URI: https://www.catholicnewsagency.com/news/border-security-compromise-may-prevent-new-shutdown-63723%0A
+TimeMapFileName: TimeStamp97.json
+Mementos: 3
+
+
+URI: https://thehill.com/homenews/administration/429828-trump-shutdown-would-be-a-terrible-thing#.XGWhgjNjemk.twitter%0A
+TimeMapFileName: TimeStamp98.json
+Mementos: 2
+
+
+URI: https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat
+TimeMapFileName: TimeStamp99.json
+Mementos: 3
+
+
+URI: https://www.usatoday.com/story/money/2019/02/12/government-shutdown-2019-update-irs-hampered-frozen-tax-refunds/2845309002/
+TimeMapFileName: TimeStamp100.json
+Mementos: 6
+
+
+URI: https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/
+TimeMapFileName: TimeStamp101.json
+Mementos: 1
+
+
+URI: https://www.cnbc.com/2019/01/08/despite-trumps-claims-most-illegal-immigration-is-not-at-the-southern-border.html
+TimeMapFileName: TimeStamp102.json
+Mementos: 4
+
+
+URI: https://fox59.com/2019/02/14/trump-expected-to-sign-bill-to-avert-shutdown-declare-national-emergency-on-border/
+TimeMapFileName: TimeStamp103.json
+Mementos: 3
+
+
+URI: https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers
+TimeMapFileName: TimeStamp104.json
+Mementos: 406
+
+
+URI: https://theweek.com/speedreads/823788/trump-reportedly-calling-fox-hosts-defend-shutdown-deal%0A
+TimeMapFileName: TimeStamp105.json
+Mementos: 17
+
+
+URI: https://www.nationalreview.com/2015/10/visa-overstays-todays-immigration-crisis-mark-krikorian/
+TimeMapFileName: TimeStamp106.json
+Mementos: 7
+
+
+URI: https://www.sandiegouniontribune.com/news/us-politics/la-na-pol-congress-shutdown-vote-20190214-story.html
+TimeMapFileName: TimeStamp107.json
+Mementos: 2
+
+
+URI: https://thehill.com/blogs/floor-action/house/429953-bill-introduced-to-fund-government-prevent-shutdown#.XGW-Q8RTwtk.facebook%0A
+TimeMapFileName: TimeStamp108.json
+Mementos: 4
+
+
+URI: https://www.politico.com/story/2019/02/14/funding-bill-limits-trump-immigration-1175455%0A
+TimeMapFileName: TimeStamp109.json
+Mementos: 4
+
+
+URI: https://therevelator.org/shutdown-wildlife-diseases/%0A
+TimeMapFileName: TimeStamp110.json
+Mementos: 2
+
+
+URI: https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law
+TimeMapFileName: TimeStamp111.json
+Mementos: 1
+
+
+URI: https://thehill.com/homenews/senate/430076-senate-approves-border-bill#.XGXsWRvBByQ.twitter%0A
+TimeMapFileName: TimeStamp112.json
+Mementos: 2
+
+
+URI: https://www.breitbart.com/immigration/2019/02/14/dhs-spending-plan-stigmatizes-chokes-ice-enforcement/
+TimeMapFileName: TimeStamp113.json
+Mementos: 5
+
+
+URI: https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border
+TimeMapFileName: TimeStamp114.json
+Mementos: 3
+
+
+URI: http://www.pewresearch.org/fact-tank/2018/11/30/key-findings-about-u-s-immigrants/
+TimeMapFileName: TimeStamp115.json
+Mementos: 85
+
+
+URI: https://www.bbc.com/news/world-us-canada-47247726%0A
+TimeMapFileName: TimeStamp116.json
+Mementos: 2
+
+
+URI: https://www.pbs.org/newshour/politics/schumer-pulls-back-offer-of-25-billion-for-trumps-wall-as-immigration-fight-continuse
+TimeMapFileName: TimeStamp117.json
+Mementos: 75
+
+
+URI: http://www.oc-breeze.com/2019/02/14/134867_nocccd-to-host-free-lecture-series-on-immigration-and-immigration-rights-and-advocacy-on-february-22-2019/
+TimeMapFileName: TimeStamp118.json
+Mementos: 1
+
+
+URI: https://hotair.com/archives/2019/02/13/gallup-trumps-job-approval-bounces-back-44-decline-shutdown/
+TimeMapFileName: TimeStamp119.json
+Mementos: 2
+
+
+URI: http://www.informationliberation.com/?id=59786
+TimeMapFileName: TimeStamp120.json
+Mementos: 3
+
+
+URI: https://www.marketwatch.com/story/retail-sales-sink-12-in-december-to-mark-biggest-drop-since-2009-as-holiday-season-fizzles-out-2019-02-14
+TimeMapFileName: TimeStamp121.json
+Mementos: 19
+
+
+URI: https://www.nytimes.com/interactive/2019/02/14/us/politics/shutdown-border-senate-vote.html%0A
+TimeMapFileName: TimeStamp122.json
+Mementos: 5
+
+
+URI: https://hotair.com/archives/2019/02/14/todays-hot-topics-mccabes-coup-shutdown-ii-barrs-whew-gnd-tour-movie-reviews/
+TimeMapFileName: TimeStamp123.json
+Mementos: 2
+
+
+URI: https://www.forbes.com/sites/andyjsemotiuk/2019/02/14/will-trumps-wall-solve-our-immigration-problems/
+TimeMapFileName: TimeStamp124.json
+Mementos: 3
+
+
+URI: https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261
+TimeMapFileName: TimeStamp125.json
+Mementos: 3
+
+
+URI: https://www.usatoday.com/story/opinion/nation-now/2018/05/25/immigration-children-separated-families-lost-column/643793002/
+TimeMapFileName: TimeStamp126.json
+Mementos: 451
+
+
+URI: https://survivalpulse.com
+TimeMapFileName: TimeStamp127.json
+Mementos: 321
+
+
+URI: https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/
+TimeMapFileName: TimeStamp128.json
+Mementos: 6
+
+
+URI: https://www.brookings.edu/blog/the-avenue/2019/01/14/shutdown-watch-how-the-u-s-pays-for-trumps-border-wall-may-leave-a-costly-legacy/
+TimeMapFileName: TimeStamp129.json
+Mementos: 1
+
+
+URI: https://thehill.com/opinion/immigration/414653-to-be-clear-seeking-asylum-at-the-border-is-not-illegal
+TimeMapFileName: TimeStamp130.json
+Mementos: 46
+
+
+URI: https://www.propublica.org/article/hud-system-for-processing-public-records-requests-died-during-the-shutdown#157882%0A
+TimeMapFileName: TimeStamp131.json
+Mementos: 8
+
+
+URI: https://www.intellihub.com/russia-readies-own-web-to-survive-global-internet-shutdown/
+TimeMapFileName: TimeStamp132.json
+Mementos: 1
+
+
+URI: https://www.executivegov.com/2019/02/wayne-monteith-govt-shutdown-delayed-faas-release-of-proposed-commercial-launch-regulations/
+TimeMapFileName: TimeStamp133.json
+Mementos: 1
+
+
+URI: https://video.foxnews.com/v/5988105671001/%0A
+TimeMapFileName: TimeStamp134.json
+Mementos: 116
+
+
+URI: https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-2019-gop-sen-grassley-prays-trump-sign-deal/2869092002/
+TimeMapFileName: TimeStamp135.json
+Mementos: 3
+
+
+URI: https://www.kevinmd.com/blog/2019/02/the-crippling-health-effects-of-another-government-shutdown.html%0A
+TimeMapFileName: TimeStamp136.json
+Mementos: 1
+
+
+URI: https://www.nytimes.com/2019/02/10/us/politics/trump-border-wall.html%0A
+TimeMapFileName: TimeStamp137.json
+Mementos: 19
+
+
+URI: https://www.bbc.com/news/av/world-us-canada-47234062/mcconnell-trump-will-declare-a-national-emergency
+TimeMapFileName: TimeStamp138.json
+Mementos: 1
+
+
+URI: https://www.usatoday.com/story/news/politics/2019/02/12/government-shutdown-mcconnell-says-congress-could-vote-soon-deal/2846552002/
+TimeMapFileName: TimeStamp139.json
+Mementos: 4
+
+
+URI: https://www.chicagotribune.com/news/local/breaking/ct-biz-will-county-bridge-problems-20190214-story.html
+TimeMapFileName: TimeStamp140.json
+Mementos: 4
+
+
+URI: http://www.people-press.org/2019/01/16/most-border-wall-opponents-supporters-say-shutdown-concessions-are-unacceptable/
+TimeMapFileName: TimeStamp141.json
+Mementos: 75
+
+
+URI: https://thinkprogress.org/reeling-from-the-shutdown-and-trumps-tax-law-americans-see-8-4-drop-in-average-tax-refunds-ed030fe859fd/
+TimeMapFileName: TimeStamp142.json
+Mementos: 5
+
+
+URI: https://cis.org/North/SomaliaBorn-Candidate-Congress-Accused-ImmigrationMarriage-Fraud
+TimeMapFileName: TimeStamp143.json
+Mementos: 13
+
+
+URI: https://crooksandliars.com/2019/02/shutdown-glimpse-drowned-government%0A
+TimeMapFileName: TimeStamp144.json
+Mementos: 1
+
+
+URI: https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/%0A
+TimeMapFileName: TimeStamp145.json
+Mementos: 2
+
+
+URI: https://www.nikkei.com/article/DGXMZO41304340V10C19A2000000/%0A
+TimeMapFileName: TimeStamp146.json
+Mementos: 2
+
+
+URI: https://myhoustonmajic.com/3327057/government-shutdown-trump-to-sign-funding-bill-declare-national-emergency-on-border-security/
+TimeMapFileName: TimeStamp147.json
+Mementos: 2
+
+
+URI: https://thehill.com/homenews/1230-report/430008-andrew-mccabe-interview-25th-amendment-dating-app-valentines-day-breach-peppa-pig-british-accent-effect-amazon-nyc-biden-2020#.XGW-F_TiPGI.twitter%0A
+TimeMapFileName: TimeStamp148.json
+Mementos: 1
+
+
+URI: https://www.infowars.com/russia-readies-own-web-to-survive-global-internet-shutdown/
+TimeMapFileName: TimeStamp149.json
+Mementos: 2
+
+
+URI: https://apnews.com/207d2dc156ba40318bd84010070ba4ce
+TimeMapFileName: TimeStamp150.json
+Mementos: 3
+
+
+URI: https://partnerwith.theultimatesystem.com/%0A
+TimeMapFileName: TimeStamp151.json
+Mementos: 27
+
+
+URI: https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says
+TimeMapFileName: TimeStamp152.json
+Mementos: 2
+
+
+URI: https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss%2Fcnn_latest+%28RSS%3A+CNN+-+Most+Recent%29
+TimeMapFileName: TimeStamp153.json
+Mementos: 1
+
+
+URI: https://www.bbc.com/news/world-us-canada-44319094%0A
+TimeMapFileName: TimeStamp154.json
+Mementos: 7
+
+
+URI: http://www.cpr.org/news/story/colorado-sens-cory-gardner-and-michael-bennet-talk-shutdown-political-futures-and-more#.XGXpomniLkw.twitter%0A
+TimeMapFileName: TimeStamp155.json
+Mementos: 1
+
+
+URI: https://www.newsmax.com/newsfront/border-wall-immigration-donald-trump/2019/02/14/id/902819/
+TimeMapFileName: TimeStamp156.json
+Mementos: 5
+
+
+URI: https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781
+TimeMapFileName: TimeStamp157.json
+Mementos: 1
+
+
+URI: https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/
+TimeMapFileName: TimeStamp158.json
+Mementos: 4
+
+
+URI: http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php%0A
+TimeMapFileName: TimeStamp159.json
+Mementos: 1
+
+
+URI: https://www.theguardian.com/world/2014/aug/04/us-immigration-obama-executive-order-options-deportation
+TimeMapFileName: TimeStamp160.json
+Mementos: 29
+
+
+URI: https://www.nytimes.com/2019/02/13/us/politics/deal-government-shutdown.html%0A
+TimeMapFileName: TimeStamp161.json
+Mementos: 12
+
+
+URI: https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php
+TimeMapFileName: TimeStamp162.json
+Mementos: 3
+
+
+URI: https://www.politico.com/story/2019/02/12/trump-says-hes-not-happy-with-bipartisan-deal-to-avert-shutdown-1165766%0A
+TimeMapFileName: TimeStamp163.json
+Mementos: 7
+
+
+URI: https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/
+TimeMapFileName: TimeStamp164.json
+Mementos: 2
+
+
+URI: https://www.philly.com/news/judge-elizabeth-beckley-wedding-ice-aclu-immigration-20190214.html
+TimeMapFileName: TimeStamp165.json
+Mementos: 1
+
+
+URI: https://www.bloomberg.co.jp/news/articles/2019-02-14/PMXAJJ6TTDS001%0A
+TimeMapFileName: TimeStamp166.json
+Mementos: 1
+
+
+URI: https://elcomercio.pe/mundo/eeuu/senado-estados-unidos-aprueba-acuerdo-evitar-cierre-gobierno-noticia-607829%0A
+TimeMapFileName: TimeStamp167.json
+Mementos: 3
+
+
+URI: https://www.wcpo.com/news/national/senate-approves-deal-to-avert-shutdown-sends-measure-to-house%0A
+TimeMapFileName: TimeStamp168.json
+Mementos: 1
+
+
+URI: https://www.tmz.com/2019/02/14/21-savage-donald-trump-deported-immigration-ice-arrest/
+TimeMapFileName: TimeStamp169.json
+Mementos: 4
+
+
+URI: https://thehill.com/blogs/pundits-blog/crime/329589-the-truth-about-crime-illegal-immigrants-and-sanctuary-cities
+TimeMapFileName: TimeStamp170.json
+Mementos: 257
+
+
+URI: http://www.shtfplan.com/headline-news/russia-readies-own-web-to-survive-global-internet-shutdown_02142019%0A
+TimeMapFileName: TimeStamp171.json
+Mementos: 1
+
+
+URI: https://www.bostonherald.com/2019/02/14/voices-of-victims-of-illegal-immigration-must-be-heard/
+TimeMapFileName: TimeStamp172.json
+Mementos: 1
+
+
+URI: https://www.politico.com/story/2019/02/12/trump-government-shutdown-1166882%0A
+TimeMapFileName: TimeStamp173.json
+Mementos: 5
+
+
+URI: https://www.govexec.com/management/2019/02/shutdown-caused-real-harm-irs-and-taxpayers-advocate-argues/154865/
+TimeMapFileName: TimeStamp174.json
+Mementos: 1
+
+
+URI: https://www.vanityfair.com/news/2019/02/federal-contractors-shutdown-backpay/amp#click=https://t.co/qxDeJ5Ekgc%0A
+TimeMapFileName: TimeStamp175.json
+Mementos: 1
+
+
+URI: https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148
+TimeMapFileName: TimeStamp176.json
+Mementos: 125
+
+
+URI: http://www.dailykos.com/stories/1834707%0A
+TimeMapFileName: TimeStamp177.json
+Mementos: 2
+
+
+URI: https://www.alllaw.com/articles/nolo/us-immigration/who-eligible-asylum-refugee-protection.html
+TimeMapFileName: TimeStamp178.json
+Mementos: 45
+
+
+URI: https://www.theguardian.com/us-news/2019/feb/12/trump-el-paso-family-separations-migrants-immigration
+TimeMapFileName: TimeStamp179.json
+Mementos: 13
+
+
+URI: https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution
+TimeMapFileName: TimeStamp180.json
+Mementos: 1
+
+
+URI: https://thetyee.ca/News/2018/12/17/Indigenous-Communities-Immigration-Policies/
+TimeMapFileName: TimeStamp181.json
+Mementos: 3
+
+
+URI: https://www.wsbtv.com/news/local/exclusive-good-morning-america-speaks-to-21-savage-about-his-immigration-arrest/920153363
+TimeMapFileName: TimeStamp182.json
+Mementos: 1
+
+
+URI: https://www.oann.com/border-negotiations-resume-as-the-threat-of-another-government-shutdown-looms/
+TimeMapFileName: TimeStamp183.json
+Mementos: 1
+
+
+URI: http://www.msnbc.com/rachel-maddow-show/the-immigration-deal-trump-shouldve-taken-didnt
+TimeMapFileName: TimeStamp184.json
+Mementos: 9
+
+
+URI: http://tweetedtimes.com/marcantoineandr%0A
+TimeMapFileName: TimeStamp185.json
+Mementos: 4
+
+
+URI: https://dailycaller.com/2019/02/14/immigration-restrictionists-border-wall-deal-land-mines/
+TimeMapFileName: TimeStamp186.json
+Mementos: 2
+
+
+URI: https://www.desertsun.com/story/news/2019/02/13/joshua-tree-damage-assessed-shortchanged-staff-get-10-000-back-pay/2861507002/
+TimeMapFileName: TimeStamp187.json
+Mementos: 1
+
+
+URI: https://www.sandiegouniontribune.com/news/immigration/sd-me-families-returned-20190214-story.html
+TimeMapFileName: TimeStamp188.json
+Mementos: 3
+
+
+URI: http://time.com/5530075/senate-passes-border-deal/%0A/
+TimeMapFileName: TimeStamp189.json
+Mementos: 3
+
+
+URI: https://www.latimes.com/opinion/op-ed/la-oe-goldberg-trump-pelosi-shutdown-20190129-story.html%0A
+TimeMapFileName: TimeStamp190.json
+Mementos: 22
+
+
+URI: https://www.breitbart.com/crime/2019/02/12/ice-arrest-200-after-north-carolina-counties-cut-ties-immigration-officials/
+TimeMapFileName: TimeStamp191.json
+Mementos: 8
+
+
+URI: https://www.americanprogress.org/issues/immigration/reports/2019/02/11/466022/ending-tps-will-hurt-u-s-citizen-children/
+TimeMapFileName: TimeStamp192.json
+Mementos: 1
+
+
+URI: https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense
+TimeMapFileName: TimeStamp193.json
+Mementos: 3
+
+
+URI: http://thesource.com/2019/02/14/trump-21-savage/
+TimeMapFileName: TimeStamp194.json
+Mementos: 2
+
+
+URI: https://www.unitedway.org/government-shutdown%0A
+TimeMapFileName: TimeStamp195.json
+Mementos: 1
+
+
+URI: https://www.citylab.com/equity/2019/01/refugee-admissions-resettlement-trump-immigration/580318/
+TimeMapFileName: TimeStamp196.json
+Mementos: 4
+
+
+URI: https://morningconsult.com/2019/01/30/most-voters-oppose-another-shutdown-national-emergency-for-trumps-wall/
+TimeMapFileName: TimeStamp197.json
+Mementos: 2
+
+
+URI: https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/
+TimeMapFileName: TimeStamp198.json
+Mementos: 4
+
+
+URI: https://thehill.com/homenews/senate/429592-schumer-trump-should-sign-deal-to-prevent-shutdown#.XGXtuw_M7uw.twitter%0A
+TimeMapFileName: TimeStamp199.json
+Mementos: 4
+
+
+URI: https://www.dailywire.com/news/43435/gallup-trump-job-approval-rating-seven-points-josh-hammer%0A
+TimeMapFileName: TimeStamp200.json
+Mementos: 1
+
+
+URI: https://thehill.com/blogs/pundits-blog/immigration/348871-obamas-pen-and-phone-have-been-trumped-when-it-comes-to-daca
+TimeMapFileName: TimeStamp201.json
+Mementos: 23
+
+
+URI: https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212%0A
+TimeMapFileName: TimeStamp202.json
+Mementos: 2
+
+
+URI: https://www.mediamatters.org/blog/2018/09/20/looming-fox-news-government-shutdown/221385
+TimeMapFileName: TimeStamp203.json
+Mementos: 5
+
+
+URI: https://www.nytimes.com/2014/11/21/us/obama-immigration-speech.html
+TimeMapFileName: TimeStamp204.json
+Mementos: 156
+
+
+URI: https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-lawmakers-argue-over-what-wall-and-isnt/2859497002/
+TimeMapFileName: TimeStamp205.json
+Mementos: 4
+
+
+URI: https://www.usatoday.com/story/news/politics/2019/01/16/government-shutdown-2019-furloughed-workers-receive-back-pay/2596671002/
+TimeMapFileName: TimeStamp206.json
+Mementos: 14
+
+
+URI: https://www.texastribune.org/2019/02/14/trump-national-emergency-border-spending-bill/%0A
+TimeMapFileName: TimeStamp207.json
+Mementos: 2
+
+
+URI: https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261
+TimeMapFileName: TimeStamp208.json
+Mementos: 6
+
+
+URI: https://www.travelpulse.com/news/features/travel-industry-reacts-as-a-second-government-shutdown-now-unlikely.html#.XGXUA_vlkuU.twitter%20via%20@TravelPulse%0A
+TimeMapFileName: TimeStamp209.json
+Mementos: 1
+
+
+URI: https://www.nationalgeographic.com/magazine/2019/03/el-salvador-immigrants-lives-threatened-by-immigration-law-change/
+TimeMapFileName: TimeStamp210.json
+Mementos: 1
+
+
+URI: http://www.pewresearch.org/fact-tank/2018/11/28/5-facts-about-illegal-immigration-in-the-u-s/
+TimeMapFileName: TimeStamp211.json
+Mementos: 212
+
+
+URI: http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown%0A
+TimeMapFileName: TimeStamp212.json
+Mementos: 4
+
+
+URI: https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html
+TimeMapFileName: TimeStamp213.json
+Mementos: 2
+
+
+URI: https://www.breitbart.com/politics/2019/02/14/congress-reveals-details-of-border-compromise-to-avoid-shutdown/
+TimeMapFileName: TimeStamp214.json
+Mementos: 6
+
+
+URI: https://www.politico.com/story/2019/02/13/congress-border-security-spending-deal-1168292%0A
+TimeMapFileName: TimeStamp215.json
+Mementos: 3
+
+
+URI: https://www.dhs.gov/news/2018/12/20/secretary-nielsen-announces-historic-action-confront-illegal-immigration
+TimeMapFileName: TimeStamp216.json
+Mementos: 60
+
+
+URI: https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401%0A
+TimeMapFileName: TimeStamp217.json
+Mementos: 5
+
+
+URI: https://foreignpolicy.com/2019/02/14/trump-may-have-21-billion-in-military-funds-available-for-the-wall-pentagon-federal-spending-government-shutdown-mexico-border-migration-immigration/
+TimeMapFileName: TimeStamp218.json
+Mementos: 5
+
+
+URI: https://www.buzzfeednews.com/article/hamedaleaziz/immigration-policy-judge-resign-trump
+TimeMapFileName: TimeStamp219.json
+Mementos: 3
+
+
+URI: https://www.washingtontimes.com/news/2019/feb/14/senate-approves-spending-bill-avert-shutdown/%0A
+TimeMapFileName: TimeStamp220.json
+Mementos: 1
+
+
+URI: https://www.newsy.com/stories/federal-workers-uncertain-of-their-financial-future/%0A
+TimeMapFileName: TimeStamp221.json
+Mementos: 1
+
+
+URI: https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/
+TimeMapFileName: TimeStamp222.json
+Mementos: 4
+
+
+URI: https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/
+TimeMapFileName: TimeStamp223.json
+Mementos: 2
+
+
+URI: https://www.youtube.com/watch?v=6zVVGrj3EA0
+TimeMapFileName: TimeStamp224.json
+Mementos: 5
+
+
+URI: https://us.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/index.html
+TimeMapFileName: TimeStamp225.json
+Mementos: 2
+
+
+URI: https://www.politifact.com/truth-o-meter/article/2018/jul/05/fact-checking-immigration-meme-s-been-circulating-/
+TimeMapFileName: TimeStamp226.json
+Mementos: 32
+
+
+URI: https://thesewaneepurple.org/2019/02/14/shutdown-story-2/
+TimeMapFileName: TimeStamp227.json
+Mementos: 1
+
+
+URI: https://www.washingtontimes.com/news/2019/feb/14/spending-bill-details-released-ahead-shutdown-dead/%0A
+TimeMapFileName: TimeStamp228.json
+Mementos: 6
+
+
+URI: https://www.youtube.com/watch?v=cVuuzTJBE5Y&feature=youtu.be
+TimeMapFileName: TimeStamp229.json
+Mementos: 2
+
+
+URI: https://www.latimes.com/local/california/la-me-villanueva-immigration-20190214-story.html
+TimeMapFileName: TimeStamp230.json
+Mementos: 9
+
+
+URI: https://www.usatoday.com/story/news/politics/2019/02/14/donald-trump-border-security-bill-limits-wall-immigration-practices/2871733002/
+TimeMapFileName: TimeStamp231.json
+Mementos: 1
+
+
+URI: https://immigrationandmigration.com/british-passport/
+TimeMapFileName: TimeStamp232.json
+Mementos: 7
+
+
+URI: https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/
+TimeMapFileName: TimeStamp233.json
+Mementos: 1
+
+
+URI: https://philadelphia.cbslocal.com/2019/02/14/pennsylvania-judge-sued-after-calling-immigration-on-couples-wedding-day/#.XGYXhgZzZ1Q.twitter
+TimeMapFileName: TimeStamp234.json
+Mementos: 3
+
+
+URI: https://therevelator.org/shutdown-oil-gas/%0A
+TimeMapFileName: TimeStamp235.json
+Mementos: 1
+
+
+URI: https://www.4pawshop.com/shop/
+TimeMapFileName: TimeStamp236.json
+Mementos: 12
+
+
+URI: https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html
+TimeMapFileName: TimeStamp237.json
+Mementos: 6
+
+
+URI: https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html
+TimeMapFileName: TimeStamp238.json
+Mementos: 8
+
+
+URI: https://www.salon.com/2019/02/13/50000-state-of-the-art-golf-simulator-installed-at-white-house-during-government-shutdown_partner/#.XGX1334JPfp.twitter%0A
+TimeMapFileName: TimeStamp239.json
+Mementos: 4
+
+
+URI: https://www.vox.com/2018/8/1/17561014/immigration-social-security
+TimeMapFileName: TimeStamp240.json
+Mementos: 10
+
+
+URI: https://cis.org/Krikorian/Immigration-Landmines-Funding-Bill
+TimeMapFileName: TimeStamp241.json
+Mementos: 2
+
+
+URI: https://www.chicagotribune.com/news/ct-perspec-chapman-trump-wall-mexico-immigration-20180314-story.html
+TimeMapFileName: TimeStamp242.json
+Mementos: 147
+
+
+URI: https://www.noticiasaominuto.com/mundo/1199266/senado-norte-americano-aprova-acordo-orcamental-para-evitar-shutdown%0A
+TimeMapFileName: TimeStamp243.json
+Mementos: 1
+
+
+URI: https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306
+TimeMapFileName: TimeStamp244.json
+Mementos: 5
+
+
+URI: https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284%0A
+TimeMapFileName: TimeStamp245.json
+Mementos: 3
+
+
+URI: https://theintercept.com/2019/02/13/border-deal-immigration-detention-trump/
+TimeMapFileName: TimeStamp246.json
+Mementos: 9
+
+
+URI: https://www.breitbart.com/politics/2019/02/10/study-ending-all-legal-immigration-40-years-maintains-u-s-workforce/
+TimeMapFileName: TimeStamp247.json
+Mementos: 10
+
+
+URI: https://cis.org/Camarota/Enforcing-Immigration-Law-Cost-Effective
+TimeMapFileName: TimeStamp248.json
+Mementos: 2
+
+
+URI: https://whyy.org/npr_story_post/trump-will-sign-border-compromise-to-avert-shutdown-along-with-emergency-declaration/
+TimeMapFileName: TimeStamp249.json
+Mementos: 1
+
+
+URI: https://www.lifezette.com/2019/02/senate-passes-budget-compromise-in-hopes-of-avoiding-shutdown/
+TimeMapFileName: TimeStamp250.json
+Mementos: 1
+
+
+URI: https://www.waynedupree.com/trump-to-declare-a-national-emergency/
+TimeMapFileName: TimeStamp251.json
+Mementos: 1
+
+
+URI: https://www.usatoday.com/story/sports/nfl/columnist/2019/02/12/nfl-giving-kareem-hunt-another-chance-but-not-colin-kaepernick/2845305002/
+TimeMapFileName: TimeStamp252.json
+Mementos: 4
+
+
+URI: https://www.tahoedailytribune.com/news/sports/hogans-goal-keys-victory-over-incline/
+TimeMapFileName: TimeStamp253.json
+Mementos: 2
+
+
+URI: https://www.tokyo-sports.co.jp/entame/entertainment/1281337/
+TimeMapFileName: TimeStamp254.json
+Mementos: 2
+
+
+URI: https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville
+TimeMapFileName: TimeStamp255.json
+Mementos: 3
+
+
+URI: https://www.sports.ru/tribuna/blogs/epiphany/2349226.html
+TimeMapFileName: TimeStamp256.json
+Mementos: 2
+
+
+URI: https://researchmaniacs.com/Sports/QA/Where/Professional-Sports-Team-Locations.html
+TimeMapFileName: TimeStamp257.json
+Mementos: 5
+
+
+URI: https://www.caller.com/story/sports/high-school/baseball/2019/02/14/gregory-portland-baseball-team-ready-chance-playoffs/2872421002/
+TimeMapFileName: TimeStamp258.json
+Mementos: 1
+
+
+URI: https://www.inforum.com/sports/basketball/970583-VIDEO-Bison-men-take-the-3-point-route-to-defeat-Oral-Roberts
+TimeMapFileName: TimeStamp259.json
+Mementos: 3
+
+
+URI: http://www.sports.org.nz/
+TimeMapFileName: TimeStamp260.json
+Mementos: 109
+
+
+URI: https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens
+TimeMapFileName: TimeStamp261.json
+Mementos: 2
+
+
+URI: https://www.inforum.com/sports/970184-First-day-North-Dakota-Class-A-wrestling-results
+TimeMapFileName: TimeStamp262.json
+Mementos: 1
+
+
+URI: http://www3.nhk.or.jp/news/html/20190215/k10011816161000.html
+TimeMapFileName: TimeStamp263.json
+Mementos: 18
+
+
+URI: https://www.latimes.com/socal/la-canada-valley-sun/sports/tn-vsl-sp-cif-20190221-story.html
+TimeMapFileName: TimeStamp264.json
+Mementos: 1
+
+
+URI: https://www.latimes.com/socal/daily-pilot/sports/tn-dpt-sp-nb-sage-hill-yeshiva-basketball-photogallery.html
+TimeMapFileName: TimeStamp265.json
+Mementos: 1
+
+
+URI: https://kids.yahoo.co.jp/games/sports/013.html
+TimeMapFileName: TimeStamp266.json
+Mementos: 69
+
+
+URI: https://aajtak.intoday.in/sports/story/south-africa-vs-sri-lanka-1st-test-kingsmead-durban-sri-lanka-tour-of-south-africa-2019-tspo-1-1061645.html
+TimeMapFileName: TimeStamp267.json
+Mementos: 1
+
+
+URI: https://lacrossetribune.com/
+TimeMapFileName: TimeStamp268.json
+Mementos: 4317
+
+
+URI: https://www.sankei.com/sports/news/190214/spo1902140029-n1.html
+TimeMapFileName: TimeStamp269.json
+Mementos: 8
+
+
+URI: https://www.inforum.com/sports/970563-Moorheads-Lee-finishes-in-top-half-of-field-at-state-Nordic-skiing
+TimeMapFileName: TimeStamp270.json
+Mementos: 1
+
+
+URI: http://www.wbtv.com/2019/02/15/spectrum-center-ready-shine-nba-all-star-weekend/
+TimeMapFileName: TimeStamp271.json
+Mementos: 1
+
+
+URI: https://www.cbc.ca/sports/shattered-trust-ottawa-moves-to-combat-abuse-in-amateur-sport-1.5018382
+TimeMapFileName: TimeStamp272.json
+Mementos: 3
+
+
+URI: http://sportsradioamerica.airtime.pro/
+TimeMapFileName: TimeStamp273.json
+Mementos: 5
+
+
+URI: http://energycreme.com/
+TimeMapFileName: TimeStamp274.json
+Mementos: 46
+
+
+URI: http://www.illininews.com/
+TimeMapFileName: TimeStamp275.json
+Mementos: 140
+
+
+URI: https://www.brainerddispatch.com/sports/baseball/4571540-twins-put-new-spring-training-format-motion
+TimeMapFileName: TimeStamp276.json
+Mementos: 1
+
+
+URI: http://tv5.espn.com/tennis/story/_/id/25869316/inside-novak-djokovic-making-case-men-tennis-goat
+TimeMapFileName: TimeStamp277.json
+Mementos: 1
+
+
+URI: https://www.nation.co.ke/sports/football/Julen-Lopetegui-on-Spain-Real-Madrid-sacking/1102-4982856-9ht5uuz/index.html
+TimeMapFileName: TimeStamp278.json
+Mementos: 3
+
+
+URI: https://www.latimes.com/sports/more/la-sp-twin-150-daytona-20190213-story.html
+TimeMapFileName: TimeStamp279.json
+Mementos: 3
+
+
+URI: https://www.tsn.ca/blues-beat-coyotes-to-stretch-win-streak-to-8-1.1258093
+TimeMapFileName: TimeStamp280.json
+Mementos: 1
+
+
+URI: https://sports.ndtv.com/cricket/virat-kohli-cricket-fraternity-condemn-pulwama-attack-1993916
+TimeMapFileName: TimeStamp281.json
+Mementos: 1
+
+
+URI: https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415
+TimeMapFileName: TimeStamp282.json
+Mementos: 1
+
+
+URI: https://www.usatoday.com/story/sports/highschool/2019/02/14/students-taunt-basketball-star-jalen-johnson-blackface-like-image/2873116002/
+TimeMapFileName: TimeStamp283.json
+Mementos: 2
+
+
+URI: https://vine.co/v/hLDXdJrH2DE
+TimeMapFileName: TimeStamp284.json
+Mementos: 4
+
+
+URI: https://www.freep.com/story/sports/columnists/shawn-windsor/2019/02/14/bryce-harper-free-agency-detroit-tigers/2868561002/
+TimeMapFileName: TimeStamp285.json
+Mementos: 1
+
+
+URI: https://www.footballfancast.com/
+TimeMapFileName: TimeStamp286.json
+Mementos: 1066
+
+
+URI: http://www3.nhk.or.jp/news/html/20190215/k10011816171000.html
+TimeMapFileName: TimeStamp287.json
+Mementos: 22
+
+
+URI: http://icecoldd.blogspot.com/
+TimeMapFileName: TimeStamp288.json
+Mementos: 20
+
+
+URI: https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/about-last-night-rinne-stymies-canadiens-again
+TimeMapFileName: TimeStamp289.json
+Mementos: 2
+
+
+URI: https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/in-the-habs-room-canadiens-show-some-rust-in-3-1-loss-to-predators
+TimeMapFileName: TimeStamp290.json
+Mementos: 2
+
+
+URI: http://www.tokyo-np.co.jp/article/sports/list/201902/CK2019021502000276.html
+TimeMapFileName: TimeStamp291.json
+Mementos: 1
+
+
+URI: http://jbbs.shitaraba.net/sports/41131/
+TimeMapFileName: TimeStamp292.json
+Mementos: 3
+
+
+URI: https://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html
+TimeMapFileName: TimeStamp293.json
+Mementos: 4
+
+
+URI: https://www.latimes.com/sports/lakers/la-sp-lakers-walton-plaschke-20190214-story.html
+TimeMapFileName: TimeStamp294.json
+Mementos: 7
+
+
+URI: https://www.yardbarker.com/nfl/articles/cbs_sports_steelers_wont_trade_antonio_brown_to_the_patriots/s1_12680_28424330
+TimeMapFileName: TimeStamp295.json
+Mementos: 1
+
+
+URI: https://bleacherreport.com/articles/2820895-russell-westbrook-drops-44-thunder-fall-to-pelicans-after-anthony-davis-injury
+TimeMapFileName: TimeStamp296.json
+Mementos: 1
+
+
+URI: https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/
+TimeMapFileName: TimeStamp297.json
+Mementos: 3
+
+
+URI: http://play.wdeportes.com/
+TimeMapFileName: TimeStamp298.json
+Mementos: 83
+
+
+URI: https://www.nytimes.com/2019/02/13/sports/rantanen-laine-finland.html
+TimeMapFileName: TimeStamp299.json
+Mementos: 4
+
+
+URI: https://www.wtva.com/
+TimeMapFileName: TimeStamp300.json
+Mementos: 1765
+
+
+URI: https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/power-play-would-have-helped-canadiens-against-predators
+TimeMapFileName: TimeStamp301.json
+Mementos: 2
+
+
+URI: https://sports.abs-cbn.com/livestream/uaap
+TimeMapFileName: TimeStamp302.json
+Mementos: 180
+
+
+URI: http://america-seikatsu.com/sports/sawft-wwe/
+TimeMapFileName: TimeStamp303.json
+Mementos: 4
+
+

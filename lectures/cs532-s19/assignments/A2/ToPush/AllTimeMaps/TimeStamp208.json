@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261",
+  "self": "http://localhost:1208/timemap/json/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T17:58:05Z",
+        "uri": "http://web.archive.org/web/20190214175805/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+      },
+      {
+        "datetime": "2019-02-14T20:09:30Z",
+        "uri": "http://web.archive.org/web/20190214200930/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+      },
+      {
+        "datetime": "2019-02-14T20:30:19Z",
+        "uri": "http://web.archive.org/web/20190214203019/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+      },
+      {
+        "datetime": "2019-02-14T21:20:31Z",
+        "uri": "http://web.archive.org/web/20190214212031/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+      },
+      {
+        "datetime": "2019-02-15T06:29:18Z",
+        "uri": "http://web.archive.org/web/20190215062918/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+      },
+      {
+        "datetime": "2019-02-15T16:28:32Z",
+        "uri": "http://web.archive.org/web/20190215162832/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T17:58:05Z",
+      "uri": "http://web.archive.org/web/20190214175805/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:28:32Z",
+      "uri": "http://web.archive.org/web/20190215162832/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261",
+    "json_format": "http://localhost:1208/timemap/json/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.reuters.com/article/us-usa-immigration-children/first-stop-for-migrant-kids-for-profit-detention-center-idUSKCN1Q3261"
+}

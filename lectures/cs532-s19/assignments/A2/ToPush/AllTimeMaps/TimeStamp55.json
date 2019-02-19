@@ -1,0 +1,210 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-03T18:03:15Z",
+        "uri": "http://web.archive.org/web/20190103180315/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T18:15:14Z",
+        "uri": "http://web.archive.org/web/20190103181514/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T18:30:10Z",
+        "uri": "http://web.archive.org/web/20190103183010/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T18:45:10Z",
+        "uri": "http://web.archive.org/web/20190103184510/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T19:30:52Z",
+        "uri": "http://web.archive.org/web/20190103193052/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T19:46:24Z",
+        "uri": "http://web.archive.org/web/20190103194624/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T20:01:19Z",
+        "uri": "http://web.archive.org/web/20190103200119/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T20:16:49Z",
+        "uri": "http://web.archive.org/web/20190103201649/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T20:31:04Z",
+        "uri": "http://web.archive.org/web/20190103203104/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T20:46:18Z",
+        "uri": "http://web.archive.org/web/20190103204618/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T21:02:05Z",
+        "uri": "http://web.archive.org/web/20190103210205/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T21:18:11Z",
+        "uri": "http://web.archive.org/web/20190103211811/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T21:31:36Z",
+        "uri": "http://web.archive.org/web/20190103213136/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T21:46:56Z",
+        "uri": "http://web.archive.org/web/20190103214656/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T21:50:31Z",
+        "uri": "http://web.archive.org/web/20190103215031/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T22:01:26Z",
+        "uri": "http://web.archive.org/web/20190103220126/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T22:16:08Z",
+        "uri": "http://web.archive.org/web/20190103221608/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T22:31:33Z",
+        "uri": "http://web.archive.org/web/20190103223133/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T22:46:16Z",
+        "uri": "http://web.archive.org/web/20190103224616/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T22:49:57Z",
+        "uri": "http://web.archive.org/web/20190103224957/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T23:01:08Z",
+        "uri": "http://web.archive.org/web/20190103230108/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T23:16:26Z",
+        "uri": "http://web.archive.org/web/20190103231626/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T23:26:48Z",
+        "uri": "http://web.archive.org/web/20190103232648/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T23:31:50Z",
+        "uri": "http://web.archive.org/web/20190103233150/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-03T23:46:51Z",
+        "uri": "http://web.archive.org/web/20190103234651/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-04T00:01:29Z",
+        "uri": "http://web.archive.org/web/20190104000129/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-04T01:20:39Z",
+        "uri": "http://web.archive.org/web/20190104012039/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-04T02:17:43Z",
+        "uri": "http://web.archive.org/web/20190104021743/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-04T04:24:29Z",
+        "uri": "http://web.archive.org/web/20190104042429/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-04T10:15:07Z",
+        "uri": "http://web.archive.org/web/20190104101507/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-05T00:50:08Z",
+        "uri": "http://web.archive.org/web/20190105005008/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-05T01:16:26Z",
+        "uri": "http://web.archive.org/web/20190105011626/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-05T01:36:39Z",
+        "uri": "http://web.archive.org/web/20190105013639/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-05T10:24:51Z",
+        "uri": "http://web.archive.org/web/20190105102451/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-06T02:38:59Z",
+        "uri": "http://web.archive.org/web/20190106023859/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-06T08:07:28Z",
+        "uri": "http://web.archive.org/web/20190106080728/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-06T09:47:45Z",
+        "uri": "http://web.archive.org/web/20190106094745/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-07T11:23:30Z",
+        "uri": "http://web.archive.org/web/20190107112330/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-08T10:08:47Z",
+        "uri": "http://web.archive.org/web/20190108100847/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-09T04:28:40Z",
+        "uri": "http://web.archive.org/web/20190109042840/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-10T06:05:15Z",
+        "uri": "http://web.archive.org/web/20190110060515/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-21T08:57:25Z",
+        "uri": "http://web.archive.org/web/20190121085725/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-01-30T16:33:46Z",
+        "uri": "http://web.archive.org/web/20190130163346/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-02T23:01:36Z",
+        "uri": "http://web.archive.org/web/20190202230136/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-03T01:34:54Z",
+        "uri": "http://web.archive.org/web/20190203013454/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-06T05:40:08Z",
+        "uri": "http://web.archive.org/web/20190206054008/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-08T21:30:00Z",
+        "uri": "http://web.archive.org/web/20190208213000/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-03T18:03:15Z",
+      "uri": "http://web.archive.org/web/20190103180315/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+    },
+    "last": {
+      "datetime": "2019-02-08T21:30:00Z",
+      "uri": "http://web.archive.org/web/20190208213000/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/2019/01/03/nyregion/l-train-shutdown.html%0A"
+}

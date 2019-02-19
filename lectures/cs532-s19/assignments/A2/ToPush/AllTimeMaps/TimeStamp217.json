@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T14:46:57Z",
+        "uri": "http://web.archive.org/web/20190213144657/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401"
+      },
+      {
+        "datetime": "2019-02-14T12:39:30Z",
+        "uri": "http://web.archive.org/web/20190214123930/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401"
+      },
+      {
+        "datetime": "2019-02-14T20:29:12Z",
+        "uri": "http://web.archive.org/web/20190214202912/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401"
+      },
+      {
+        "datetime": "2019-02-15T05:45:01Z",
+        "uri": "http://web.archive.org/web/20190215054501/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401"
+      },
+      {
+        "datetime": "2019-02-15T14:39:09Z",
+        "uri": "http://web.archive.org/web/20190215143909/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T14:46:57Z",
+      "uri": "http://web.archive.org/web/20190213144657/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:39:09Z",
+      "uri": "http://web.archive.org/web/20190215143909/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/02/13/poll-voters-shutdown-border-wall-1166401%0A"
+}

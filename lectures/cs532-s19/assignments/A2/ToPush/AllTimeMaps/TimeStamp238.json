@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html",
+  "self": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T19:03:30Z",
+        "uri": "http://web.archive.org/web/20190214190330/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      },
+      {
+        "datetime": "2019-02-14T22:12:05Z",
+        "uri": "http://web.archive.org/web/20190214221205/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      },
+      {
+        "datetime": "2019-02-15T01:46:46Z",
+        "uri": "http://web.archive.org/web/20190215014646/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      },
+      {
+        "datetime": "2019-02-15T03:10:38Z",
+        "uri": "http://web.archive.org/web/20190215031038/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      },
+      {
+        "datetime": "2019-02-15T08:48:23Z",
+        "uri": "http://web.archive.org/web/20190215084823/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      },
+      {
+        "datetime": "2019-02-15T12:29:50Z",
+        "uri": "http://web.archive.org/web/20190215122950/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      },
+      {
+        "datetime": "2019-02-15T15:52:21Z",
+        "uri": "http://web.archive.org/web/20190215155221/http://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      },
+      {
+        "datetime": "2019-02-15T18:09:25Z",
+        "uri": "http://web.archive.org/web/20190215180925/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T19:03:30Z",
+      "uri": "http://web.archive.org/web/20190214190330/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T18:09:25Z",
+      "uri": "http://web.archive.org/web/20190215180925/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnn.com/2019/02/14/politics/immigration-spending-bill-wall-ice/index.html"
+}

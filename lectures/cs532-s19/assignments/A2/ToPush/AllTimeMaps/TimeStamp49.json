@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/",
+  "self": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:38:54Z",
+        "uri": "http://web.archive.org/web/20190215053854/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:38:54Z",
+      "uri": "http://web.archive.org/web/20190215053854/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/"
+    },
+    "last": {
+      "datetime": "2019-02-15T05:38:54Z",
+      "uri": "http://web.archive.org/web/20190215053854/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnn.com/2019/02/14/politics/kfile-trump-immigration-executive-action-2014/"
+}

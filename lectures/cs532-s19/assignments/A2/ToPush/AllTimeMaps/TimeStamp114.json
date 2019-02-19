@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border",
+  "self": "http://localhost:1208/timemap/json/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T09:16:37Z",
+        "uri": "http://web.archive.org/web/20190214091637/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border"
+      },
+      {
+        "datetime": "2019-02-14T12:31:29Z",
+        "uri": "http://web.archive.org/web/20190214123129/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border"
+      },
+      {
+        "datetime": "2019-02-15T10:13:38Z",
+        "uri": "http://web.archive.org/web/20190215101338/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T09:16:37Z",
+      "uri": "http://web.archive.org/web/20190214091637/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border"
+    },
+    "last": {
+      "datetime": "2019-02-15T10:13:38Z",
+      "uri": "http://web.archive.org/web/20190215101338/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border",
+    "json_format": "http://localhost:1208/timemap/json/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.buzzfeednews.com/article/adolfoflores/children-unaccompanied-asylum-immigration-mexico-border"
+}

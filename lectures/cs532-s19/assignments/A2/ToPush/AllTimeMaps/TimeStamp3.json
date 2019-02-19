@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/",
+  "self": "http://localhost:1208/timemap/json/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T20:24:04Z",
+        "uri": "http://web.archive.org/web/20190213202404/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/"
+      },
+      {
+        "datetime": "2019-02-14T12:37:34Z",
+        "uri": "http://web.archive.org/web/20190214123734/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T20:24:04Z",
+      "uri": "http://web.archive.org/web/20190213202404/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/"
+    },
+    "last": {
+      "datetime": "2019-02-14T12:37:34Z",
+      "uri": "http://web.archive.org/web/20190214123734/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.conservativereview.com/news/money-politics-ilhan-omar-will-fly-la-fundraiser-terror-tied-cair/"
+}

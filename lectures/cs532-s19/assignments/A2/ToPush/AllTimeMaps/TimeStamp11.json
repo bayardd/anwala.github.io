@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-11T22:05:10Z",
+        "uri": "http://web.archive.org/web/20190211220510/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-12T02:38:45Z",
+        "uri": "http://web.archive.org/web/20190212023845/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-12T02:38:48Z",
+        "uri": "http://web.archive.org/web/20190212023848/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-12T07:19:34Z",
+        "uri": "http://web.archive.org/web/20190212071934/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-12T20:15:53Z",
+        "uri": "http://web.archive.org/web/20190212201553/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-13T12:19:04Z",
+        "uri": "http://web.archive.org/web/20190213121904/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-13T19:13:22Z",
+        "uri": "http://web.archive.org/web/20190213191322/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-13T22:11:28Z",
+        "uri": "http://web.archive.org/web/20190213221128/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      },
+      {
+        "datetime": "2019-02-14T19:14:26Z",
+        "uri": "http://web.archive.org/web/20190214191426/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-11T22:05:10Z",
+      "uri": "http://web.archive.org/web/20190211220510/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+    },
+    "last": {
+      "datetime": "2019-02-14T19:14:26Z",
+      "uri": "http://web.archive.org/web/20190214191426/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/02/11/shutdown-congress-border-security-1163824%0A"
+}

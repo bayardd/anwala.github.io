@@ -1,0 +1,178 @@
+{
+  "original_uri": "https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-01T08:13:09Z",
+        "uri": "http://web.archive.org/web/20190201081309/http://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-01T08:26:09Z",
+        "uri": "http://web.archive.org/web/20190201082609/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-01T11:43:41Z",
+        "uri": "http://web.archive.org/web/20190201114341/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-01T14:24:31Z",
+        "uri": "http://web.archive.org/web/20190201142431/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-01T22:44:19Z",
+        "uri": "http://web.archive.org/web/20190201224419/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-02T23:10:04Z",
+        "uri": "http://web.archive.org/web/20190202231004/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-03T12:44:52Z",
+        "uri": "http://web.archive.org/web/20190203124452/http://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-03T23:51:25Z",
+        "uri": "http://web.archive.org/web/20190203235125/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-04T20:47:40Z",
+        "uri": "http://wayback.archive-it.org/all/20190204204740/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-04T20:47:40Z",
+        "uri": "http://web.archive.org/web/20190204204740/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-05T22:13:59Z",
+        "uri": "http://web.archive.org/web/20190205221359/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-06T20:59:34Z",
+        "uri": "http://web.archive.org/web/20190206205934/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-06T21:16:15Z",
+        "uri": "http://wayback.archive-it.org/all/20190206211615/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-06T21:16:15Z",
+        "uri": "http://web.archive.org/web/20190206211615/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-07T00:19:36Z",
+        "uri": "http://web.archive.org/web/20190207001936/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-07T15:02:05Z",
+        "uri": "http://web.archive.org/web/20190207150205/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-08T13:20:57Z",
+        "uri": "http://wayback.archive-it.org/all/20190208132057/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-08T13:20:57Z",
+        "uri": "http://web.archive.org/web/20190208132057/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-08T16:02:18Z",
+        "uri": "http://web.archive.org/web/20190208160218/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-09T11:55:26Z",
+        "uri": "http://wayback.archive-it.org/all/20190209115526/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-09T11:55:26Z",
+        "uri": "http://web.archive.org/web/20190209115526/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-09T16:09:46Z",
+        "uri": "http://web.archive.org/web/20190209160946/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-10T16:14:39Z",
+        "uri": "http://web.archive.org/web/20190210161439/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-11T10:43:49Z",
+        "uri": "http://wayback.archive-it.org/all/20190211104349/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-11T10:43:49Z",
+        "uri": "http://web.archive.org/web/20190211104349/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-11T18:09:24Z",
+        "uri": "http://web.archive.org/web/20190211180924/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-12T08:13:36Z",
+        "uri": "http://wayback.archive-it.org/all/20190212081336/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-12T08:13:36Z",
+        "uri": "http://web.archive.org/web/20190212081336/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-12T10:58:04Z",
+        "uri": "http://web.archive.org/web/20190212105804/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-12T20:36:35Z",
+        "uri": "http://web.archive.org/web/20190212203635/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-13T08:10:14Z",
+        "uri": "http://wayback.archive-it.org/all/20190213081014/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-13T08:10:14Z",
+        "uri": "http://web.archive.org/web/20190213081014/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-13T10:44:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190213104423/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-13T10:44:23Z",
+        "uri": "http://web.archive.org/web/20190213104423/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-13T13:37:34Z",
+        "uri": "http://web.archive.org/web/20190213133734/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-13T23:27:24Z",
+        "uri": "http://web.archive.org/web/20190213232724/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-14T16:29:35Z",
+        "uri": "http://web.archive.org/web/20190214162935/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-15T08:57:26Z",
+        "uri": "http://web.archive.org/web/20190215085726/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      },
+      {
+        "datetime": "2019-02-15T21:49:31Z",
+        "uri": "http://web.archive.org/web/20190215214931/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-01T08:13:09Z",
+      "uri": "http://web.archive.org/web/20190201081309/http://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T21:49:31Z",
+      "uri": "http://web.archive.org/web/20190215214931/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.latimes.com/politics/la-pol-ca-gavin-newsom-immigration-funds-20190131-story.html"
+}

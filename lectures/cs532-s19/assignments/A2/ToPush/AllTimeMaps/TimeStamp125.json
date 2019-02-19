@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261",
+  "self": "http://localhost:1208/timemap/json/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:45:37Z",
+        "uri": "http://web.archive.org/web/20190215014537/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261"
+      },
+      {
+        "datetime": "2019-02-15T12:16:34Z",
+        "uri": "http://web.archive.org/web/20190215121634/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261"
+      },
+      {
+        "datetime": "2019-02-15T16:06:58Z",
+        "uri": "http://web.archive.org/web/20190215160658/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:45:37Z",
+      "uri": "http://web.archive.org/web/20190215014537/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:06:58Z",
+      "uri": "http://web.archive.org/web/20190215160658/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261",
+    "json_format": "http://localhost:1208/timemap/json/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.reuters.com/article/us-usa-immigration-children-idUSKCN1Q3261"
+}

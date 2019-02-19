@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/",
+  "self": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-30T21:43:57Z",
+        "uri": "http://wayback.archive-it.org/all/20190130214357/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+      },
+      {
+        "datetime": "2019-01-30T21:43:57Z",
+        "uri": "http://web.archive.org/web/20190130214357/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+      },
+      {
+        "datetime": "2019-01-30T23:33:07Z",
+        "uri": "http://web.archive.org/web/20190130233307/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+      },
+      {
+        "datetime": "2019-01-31T14:16:25Z",
+        "uri": "http://web.archive.org/web/20190131141625/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+      },
+      {
+        "datetime": "2019-02-03T18:08:56Z",
+        "uri": "http://web.archive.org/web/20190203180856/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+      },
+      {
+        "datetime": "2019-02-04T13:42:21Z",
+        "uri": "http://wayback.archive-it.org/all/20190204134221/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+      },
+      {
+        "datetime": "2019-02-04T13:42:21Z",
+        "uri": "http://web.archive.org/web/20190204134221/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-30T21:43:57Z",
+      "uri": "http://wayback.archive-it.org/all/20190130214357/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+    },
+    "last": {
+      "datetime": "2019-02-04T13:42:21Z",
+      "uri": "http://web.archive.org/web/20190204134221/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.forbes.com/sites/niallmccarthy/2019/01/30/the-government-shutdown-cost-the-u-s-economy-11-billion-infographic/"
+}

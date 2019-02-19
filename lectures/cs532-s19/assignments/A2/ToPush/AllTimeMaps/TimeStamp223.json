@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/",
+  "self": "http://localhost:1208/timemap/json/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:38:54Z",
+        "uri": "http://web.archive.org/web/20190215053854/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/"
+      },
+      {
+        "datetime": "2019-02-15T18:22:13Z",
+        "uri": "http://web.archive.org/web/20190215182213/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:38:54Z",
+      "uri": "http://web.archive.org/web/20190215053854/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/"
+    },
+    "last": {
+      "datetime": "2019-02-15T18:22:13Z",
+      "uri": "http://web.archive.org/web/20190215182213/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/",
+    "json_format": "http://localhost:1208/timemap/json/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://abc7.com/trump-will-sign-border-bill-mcconnell-says-and-declare-national-emergency/5136771/"
+}

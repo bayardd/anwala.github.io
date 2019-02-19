@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/",
+  "self": "http://localhost:1208/timemap/json/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T16:42:47Z",
+        "uri": "http://web.archive.org/web/20190214164247/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-15T01:22:19Z",
+        "uri": "http://web.archive.org/web/20190215012219/http://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-15T14:40:29Z",
+        "uri": "http://web.archive.org/web/20190215144029/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T16:42:47Z",
+      "uri": "http://web.archive.org/web/20190214164247/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:40:29Z",
+      "uri": "http://web.archive.org/web/20190215144029/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/",
+    "json_format": "http://localhost:1208/timemap/json/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://wtkr.com/2019/02/14/congress-expected-to-vote-thursday-on-deal-to-avert-shutdown/"
+}

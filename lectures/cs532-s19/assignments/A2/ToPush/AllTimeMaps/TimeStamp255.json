@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville",
+  "self": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T08:31:00Z",
+        "uri": "http://web.archive.org/web/20190215083100/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville"
+      },
+      {
+        "datetime": "2019-02-15T08:31:05Z",
+        "uri": "http://web.archive.org/web/20190215083105/http://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville"
+      },
+      {
+        "datetime": "2019-02-15T13:43:13Z",
+        "uri": "http://web.archive.org/web/20190215134313/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T08:31:00Z",
+      "uri": "http://web.archive.org/web/20190215083100/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:43:13Z",
+      "uri": "http://web.archive.org/web/20190215134313/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville",
+    "json_format": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/stu-cowan-habs-captain-preds-goalie-were-joined-at-hip-in-nashville"
+}

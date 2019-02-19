@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/",
+  "self": "http://localhost:1208/timemap/json/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-25T05:54:57Z",
+        "uri": "http://web.archive.org/web/20190125055457/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+      },
+      {
+        "datetime": "2019-01-26T04:20:11Z",
+        "uri": "http://web.archive.org/web/20190126042011/http://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+      },
+      {
+        "datetime": "2019-02-05T03:57:04Z",
+        "uri": "http://web.archive.org/web/20190205035704/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+      },
+      {
+        "datetime": "2019-02-08T16:49:37Z",
+        "uri": "http://web.archive.org/web/20190208164937/http://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-25T05:54:57Z",
+      "uri": "http://web.archive.org/web/20190125055457/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+    },
+    "last": {
+      "datetime": "2019-02-08T16:49:37Z",
+      "uri": "http://web.archive.org/web/20190208164937/http://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/",
+    "json_format": "http://localhost:1208/timemap/json/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://ktla.com/2019/01/23/protesters-arrested-outside-mitch-mcconnells-office-during-shutdown-sit-in/"
+}

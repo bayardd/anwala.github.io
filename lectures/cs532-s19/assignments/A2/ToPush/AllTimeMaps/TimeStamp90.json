@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T22:03:56Z",
+        "uri": "http://web.archive.org/web/20190214220356/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T22:03:56Z",
+      "uri": "http://web.archive.org/web/20190214220356/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r"
+    },
+    "last": {
+      "datetime": "2019-02-14T22:03:56Z",
+      "uri": "http://web.archive.org/web/20190214220356/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.benzinga.com/news/19/02/13177419/todays-pickup-toys-r-us-shutdown-marks-the-beginning-of-the-end-of-traditional-r%0A"
+}

@@ -1,0 +1,4286 @@
+{
+  "original_uri": "https://www.footballfancast.com/",
+  "self": "http://localhost:1208/timemap/json/https://www.footballfancast.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2007-01-09T15:41:15Z",
+        "uri": "http://web.archive.org/web/20070109154115/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-01-14T16:48:02Z",
+        "uri": "http://web.archive.org/web/20070114164802/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-01-17T10:53:05Z",
+        "uri": "http://web.archive.org/web/20070117105305/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-01-19T14:27:52Z",
+        "uri": "http://web.archive.org/web/20070119142752/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-01-24T18:27:07Z",
+        "uri": "http://web.archive.org/web/20070124182707/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-02-09T05:17:48Z",
+        "uri": "http://web.archive.org/web/20070209051748/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-02-13T00:27:22Z",
+        "uri": "http://web.archive.org/web/20070213002722/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-02-16T20:54:06Z",
+        "uri": "http://web.archive.org/web/20070216205406/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-02-24T17:48:05Z",
+        "uri": "http://web.archive.org/web/20070224174805/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-03-07T15:06:05Z",
+        "uri": "http://web.archive.org/web/20070307150605/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-04-22T23:17:39Z",
+        "uri": "http://web.archive.org/web/20070422231739/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-04-23T07:45:49Z",
+        "uri": "http://web.archive.org/web/20070423074549/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-05-31T20:46:49Z",
+        "uri": "http://web.archive.org/web/20070531204649/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-07-02T06:25:12Z",
+        "uri": "http://web.archive.org/web/20070702062512/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-08-12T05:20:43Z",
+        "uri": "http://web.archive.org/web/20070812052043/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-09-01T04:15:28Z",
+        "uri": "http://web.archive.org/web/20070901041528/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-10-12T20:23:55Z",
+        "uri": "http://web.archive.org/web/20071012202355/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-10-23T06:12:46Z",
+        "uri": "http://web.archive.org/web/20071023061246/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-12-17T10:12:49Z",
+        "uri": "http://web.archive.org/web/20071217101249/http://www.footballfancast.com:80/#panels-mini-1-1"
+      },
+      {
+        "datetime": "2007-12-20T18:58:01Z",
+        "uri": "http://web.archive.org/web/20071220185801/http://www.footballfancast.com:80/#panels-mini-1-2"
+      },
+      {
+        "datetime": "2007-12-21T23:22:32Z",
+        "uri": "http://web.archive.org/web/20071221232232/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2007-12-24T17:45:29Z",
+        "uri": "http://web.archive.org/web/20071224174529/http://www.footballfancast.com:80/#panels-mini-1-3"
+      },
+      {
+        "datetime": "2007-12-29T04:13:33Z",
+        "uri": "http://web.archive.org/web/20071229041333/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-01-06T23:42:35Z",
+        "uri": "http://web.archive.org/web/20080106234235/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-01-16T13:46:34Z",
+        "uri": "http://web.archive.org/web/20080116134634/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-01-20T03:00:52Z",
+        "uri": "http://web.archive.org/web/20080120030052/http://www.footballfancast.com:80/#panels-mini-1-1"
+      },
+      {
+        "datetime": "2008-01-22T04:24:16Z",
+        "uri": "http://web.archive.org/web/20080122042416/http://www.footballfancast.com:80/#panels-mini-1-2"
+      },
+      {
+        "datetime": "2008-01-24T07:47:54Z",
+        "uri": "http://web.archive.org/web/20080124074754/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-01-24T07:47:59Z",
+        "uri": "http://web.archive.org/web/20080124074759/http://www.footballfancast.com:80/#panels-mini-1-3"
+      },
+      {
+        "datetime": "2008-01-31T23:54:08Z",
+        "uri": "http://web.archive.org/web/20080131235408/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-02-08T17:29:42Z",
+        "uri": "http://web.archive.org/web/20080208172942/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-02-16T07:52:06Z",
+        "uri": "http://web.archive.org/web/20080216075206/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-02-28T03:32:08Z",
+        "uri": "http://web.archive.org/web/20080228033208/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-03-08T13:12:41Z",
+        "uri": "http://web.archive.org/web/20080308131241/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-04-11T01:08:59Z",
+        "uri": "http://web.archive.org/web/20080411010859/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-04-30T13:07:13Z",
+        "uri": "http://web.archive.org/web/20080430130713/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-05-01T16:01:46Z",
+        "uri": "http://web.archive.org/web/20080501160146/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-05-09T18:36:54Z",
+        "uri": "http://web.archive.org/web/20080509183654/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2008-05-12T00:04:52Z",
+        "uri": "http://web.archive.org/web/20080512000452/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2008-05-29T01:50:23Z",
+        "uri": "http://web.archive.org/web/20080529015023/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-06-09T01:12:22Z",
+        "uri": "http://web.archive.org/web/20080609011222/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-06-24T08:59:07Z",
+        "uri": "http://web.archive.org/web/20080624085907/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-01T04:51:22Z",
+        "uri": "http://web.archive.org/web/20080701045122/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-02T09:17:18Z",
+        "uri": "http://web.archive.org/web/20080702091718/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-04T01:14:53Z",
+        "uri": "http://web.archive.org/web/20080704011453/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-05T01:31:10Z",
+        "uri": "http://web.archive.org/web/20080705013110/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-06T02:50:36Z",
+        "uri": "http://web.archive.org/web/20080706025036/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-07T03:43:39Z",
+        "uri": "http://web.archive.org/web/20080707034339/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-08T19:15:35Z",
+        "uri": "http://web.archive.org/web/20080708191535/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-10T20:11:30Z",
+        "uri": "http://web.archive.org/web/20080710201130/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-12T01:22:19Z",
+        "uri": "http://web.archive.org/web/20080712012219/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-13T01:32:00Z",
+        "uri": "http://web.archive.org/web/20080713013200/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-14T03:33:25Z",
+        "uri": "http://web.archive.org/web/20080714033325/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-15T05:30:51Z",
+        "uri": "http://web.archive.org/web/20080715053051/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-16T05:42:13Z",
+        "uri": "http://web.archive.org/web/20080716054213/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-18T07:19:56Z",
+        "uri": "http://web.archive.org/web/20080718071956/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-19T09:07:57Z",
+        "uri": "http://web.archive.org/web/20080719090757/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-20T18:06:09Z",
+        "uri": "http://web.archive.org/web/20080720180609/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-21T22:58:38Z",
+        "uri": "http://web.archive.org/web/20080721225838/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-22T23:52:04Z",
+        "uri": "http://web.archive.org/web/20080722235204/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-24T00:22:35Z",
+        "uri": "http://web.archive.org/web/20080724002235/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-25T01:58:39Z",
+        "uri": "http://web.archive.org/web/20080725015839/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-26T02:40:30Z",
+        "uri": "http://web.archive.org/web/20080726024030/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-27T04:45:16Z",
+        "uri": "http://web.archive.org/web/20080727044516/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-28T07:40:40Z",
+        "uri": "http://web.archive.org/web/20080728074040/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-29T07:57:51Z",
+        "uri": "http://web.archive.org/web/20080729075751/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-07-30T23:39:22Z",
+        "uri": "http://web.archive.org/web/20080730233922/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-04T20:26:17Z",
+        "uri": "http://web.archive.org/web/20080804202617/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-05T21:36:08Z",
+        "uri": "http://web.archive.org/web/20080805213608/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-06T22:35:39Z",
+        "uri": "http://web.archive.org/web/20080806223539/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-07T22:52:30Z",
+        "uri": "http://web.archive.org/web/20080807225230/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-09T05:55:59Z",
+        "uri": "http://web.archive.org/web/20080809055559/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-11T01:11:16Z",
+        "uri": "http://web.archive.org/web/20080811011116/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-12T02:46:38Z",
+        "uri": "http://web.archive.org/web/20080812024638/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-15T08:54:48Z",
+        "uri": "http://web.archive.org/web/20080815085448/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-21T03:22:05Z",
+        "uri": "http://web.archive.org/web/20080821032205/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-22T08:14:08Z",
+        "uri": "http://web.archive.org/web/20080822081408/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-23T08:32:57Z",
+        "uri": "http://web.archive.org/web/20080823083257/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-24T08:44:47Z",
+        "uri": "http://web.archive.org/web/20080824084447/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-24T23:17:48Z",
+        "uri": "http://web.archive.org/web/20080824231748/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2008-08-25T21:49:33Z",
+        "uri": "http://web.archive.org/web/20080825214933/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-08-28T06:46:03Z",
+        "uri": "http://web.archive.org/web/20080828064603/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-01T04:33:42Z",
+        "uri": "http://web.archive.org/web/20080901043342/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-02T23:29:18Z",
+        "uri": "http://web.archive.org/web/20080902232918/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-04T04:43:32Z",
+        "uri": "http://web.archive.org/web/20080904044332/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-06T22:41:07Z",
+        "uri": "http://web.archive.org/web/20080906224107/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-07T23:45:27Z",
+        "uri": "http://web.archive.org/web/20080907234527/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-09T18:11:17Z",
+        "uri": "http://web.archive.org/web/20080909181117/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-10T19:09:20Z",
+        "uri": "http://web.archive.org/web/20080910190920/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-11T23:32:16Z",
+        "uri": "http://web.archive.org/web/20080911233216/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-13T01:08:45Z",
+        "uri": "http://web.archive.org/web/20080913010845/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-09-25T13:12:09Z",
+        "uri": "http://web.archive.org/web/20080925131209/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-10-08T07:23:14Z",
+        "uri": "http://web.archive.org/web/20081008072314/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-10-16T22:29:35Z",
+        "uri": "http://web.archive.org/web/20081016222935/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-10-26T08:44:39Z",
+        "uri": "http://web.archive.org/web/20081026084439/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-11-06T10:51:19Z",
+        "uri": "http://web.archive.org/web/20081106105119/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-12-07T03:44:31Z",
+        "uri": "http://web.archive.org/web/20081207034431/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-12-16T02:08:49Z",
+        "uri": "http://web.archive.org/web/20081216020849/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2008-12-17T01:33:41Z",
+        "uri": "http://web.archive.org/web/20081217013341/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-01-16T09:17:46Z",
+        "uri": "http://web.archive.org/web/20090116091746/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-01-29T19:29:10Z",
+        "uri": "http://web.archive.org/web/20090129192910/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-02-10T05:08:36Z",
+        "uri": "http://web.archive.org/web/20090210050836/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-02-25T00:42:34Z",
+        "uri": "http://web.archive.org/web/20090225004234/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-03-07T21:13:38Z",
+        "uri": "http://web.archive.org/web/20090307211338/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-03-18T05:55:28Z",
+        "uri": "http://web.archive.org/web/20090318055528/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-04-15T01:35:16Z",
+        "uri": "http://web.archive.org/web/20090415013516/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-10-31T08:59:03Z",
+        "uri": "http://web.archive.org/web/20091031085903/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2009-11-01T13:03:00Z",
+        "uri": "http://web.archive.org/web/20091101130300/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2009-12-30T22:54:53Z",
+        "uri": "http://web.archive.org/web/20091230225453/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2010-01-04T12:43:53Z",
+        "uri": "http://web.archive.org/web/20100104124353/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2010-02-12T20:29:58Z",
+        "uri": "http://web.archive.org/web/20100212202958/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2010-09-22T14:07:12Z",
+        "uri": "http://web.archive.org/web/20100922140712/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2010-10-20T22:37:24Z",
+        "uri": "http://web.archive.org/web/20101020223724/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2010-11-22T06:24:25Z",
+        "uri": "http://web.archive.org/web/20101122062425/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2010-12-15T18:56:20Z",
+        "uri": "http://web.archive.org/web/20101215185620/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2010-12-30T21:35:34Z",
+        "uri": "http://web.archive.org/web/20101230213534/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-01-31T12:51:37Z",
+        "uri": "http://web.archive.org/web/20110131125137/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-02T19:55:12Z",
+        "uri": "http://web.archive.org/web/20110202195512/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-02T20:22:25Z",
+        "uri": "http://web.archive.org/web/20110202202225/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-03T04:35:30Z",
+        "uri": "http://web.archive.org/web/20110203043530/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-03T07:46:26Z",
+        "uri": "http://web.archive.org/web/20110203074626/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-03T10:03:47Z",
+        "uri": "http://web.archive.org/web/20110203100347/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-08T00:48:50Z",
+        "uri": "http://web.archive.org/web/20110208004850/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-24T03:23:15Z",
+        "uri": "http://web.archive.org/web/20110224032315/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-25T06:28:45Z",
+        "uri": "http://web.archive.org/web/20110225062845/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-02-26T19:39:41Z",
+        "uri": "http://web.archive.org/web/20110226193941/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-03-03T09:00:54Z",
+        "uri": "http://web.archive.org/web/20110303090054/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-03-04T21:09:30Z",
+        "uri": "http://web.archive.org/web/20110304210930/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2011-03-09T02:13:32Z",
+        "uri": "http://web.archive.org/web/20110309021332/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2011-03-18T04:24:39Z",
+        "uri": "http://web.archive.org/web/20110318042439/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2011-04-15T09:31:20Z",
+        "uri": "http://web.archive.org/web/20110415093120/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2011-04-18T02:14:02Z",
+        "uri": "http://web.archive.org/web/20110418021402/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2011-04-21T07:36:52Z",
+        "uri": "http://web.archive.org/web/20110421073652/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2011-04-25T02:02:55Z",
+        "uri": "http://web.archive.org/web/20110425020255/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2011-04-29T16:58:33Z",
+        "uri": "http://web.archive.org/web/20110429165833/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-05-11T06:39:43Z",
+        "uri": "http://web.archive.org/web/20110511063943/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2011-07-11T02:06:32Z",
+        "uri": "http://web.archive.org/web/20110711020632/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-09-05T21:18:56Z",
+        "uri": "http://web.archive.org/web/20110905211856/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-10-06T14:39:32Z",
+        "uri": "http://web.archive.org/web/20111006143932/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-10-07T05:33:39Z",
+        "uri": "http://web.archive.org/web/20111007053339/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2011-10-09T09:07:15Z",
+        "uri": "http://web.archive.org/web/20111009090715/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2011-10-25T01:15:07Z",
+        "uri": "http://web.archive.org/web/20111025011507/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-03T09:28:15Z",
+        "uri": "http://web.archive.org/web/20120103092815/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-03T15:09:14Z",
+        "uri": "http://web.archive.org/web/20120103150914/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-04T01:07:55Z",
+        "uri": "http://web.archive.org/web/20120104010755/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-04T03:03:57Z",
+        "uri": "http://web.archive.org/web/20120104030357/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-04T09:01:14Z",
+        "uri": "http://web.archive.org/web/20120104090114/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-13T08:05:22Z",
+        "uri": "http://web.archive.org/web/20120113080522/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-13T09:53:03Z",
+        "uri": "http://web.archive.org/web/20120113095303/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-13T11:56:47Z",
+        "uri": "http://web.archive.org/web/20120113115647/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-13T17:18:37Z",
+        "uri": "http://web.archive.org/web/20120113171837/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-17T20:41:12Z",
+        "uri": "http://web.archive.org/web/20120117204112/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-19T07:33:02Z",
+        "uri": "http://web.archive.org/web/20120119073302/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-01-27T04:22:48Z",
+        "uri": "https://arquivo.pt/wayback/20120127042248/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-02-11T02:57:26Z",
+        "uri": "http://wayback.archive-it.org/all/20120211025726/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-02-11T02:57:26Z",
+        "uri": "http://web.archive.org/web/20120211025726/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-05-01T04:35:35Z",
+        "uri": "http://web.archive.org/web/20120501043535/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-05-09T07:19:26Z",
+        "uri": "http://web.archive.org/web/20120509071926/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-05-23T19:08:23Z",
+        "uri": "http://web.archive.org/web/20120523190823/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-14T16:26:08Z",
+        "uri": "http://web.archive.org/web/20120614162608/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2012-06-18T12:02:12Z",
+        "uri": "http://web.archive.org/web/20120618120212/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-18T20:23:05Z",
+        "uri": "http://web.archive.org/web/20120618202305/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-18T22:53:10Z",
+        "uri": "http://web.archive.org/web/20120618225310/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-30T14:23:13Z",
+        "uri": "http://wayback.archive-it.org/all/20120630142313/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-30T14:23:13Z",
+        "uri": "http://web.archive.org/web/20120630142313/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-30T14:23:19Z",
+        "uri": "http://wayback.archive-it.org/all/20120630142319/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-30T14:23:19Z",
+        "uri": "http://web.archive.org/web/20120630142319/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-06-30T14:23:19Z",
+        "uri": "http://web.archive.org/web/20120630142319/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-07-04T17:33:53Z",
+        "uri": "http://web.archive.org/web/20120704173353/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-07-12T07:10:32Z",
+        "uri": "http://web.archive.org/web/20120712071032/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-07-18T23:11:22Z",
+        "uri": "http://web.archive.org/web/20120718231122/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-07-21T16:36:34Z",
+        "uri": "http://web.archive.org/web/20120721163634/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-07-25T23:16:35Z",
+        "uri": "http://webarchive.loc.gov/all/20120725231635/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-07-26T18:38:35Z",
+        "uri": "http://web.archive.org/web/20120726183835/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-07-31T06:54:12Z",
+        "uri": "http://web.archive.org/web/20120731065412/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-08-01T21:35:42Z",
+        "uri": "http://web.archive.org/web/20120801213542/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-08-18T04:13:02Z",
+        "uri": "http://web.archive.org/web/20120818041302/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2012-08-21T11:47:45Z",
+        "uri": "http://web.archive.org/web/20120821114745/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-08-26T03:23:55Z",
+        "uri": "http://web.archive.org/web/20120826032355/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-04T20:43:43Z",
+        "uri": "http://web.archive.org/web/20120904204343/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-07T16:02:26Z",
+        "uri": "http://web.archive.org/web/20120907160226/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-14T16:23:43Z",
+        "uri": "http://web.archive.org/web/20120914162343/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-19T07:49:58Z",
+        "uri": "http://web.archive.org/web/20120919074958/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-19T10:01:16Z",
+        "uri": "http://web.archive.org/web/20120919100116/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-19T19:25:04Z",
+        "uri": "http://web.archive.org/web/20120919192504/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-19T22:44:50Z",
+        "uri": "http://web.archive.org/web/20120919224450/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T01:14:11Z",
+        "uri": "http://web.archive.org/web/20120920011411/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T03:55:46Z",
+        "uri": "http://web.archive.org/web/20120920035546/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T05:35:36Z",
+        "uri": "http://web.archive.org/web/20120920053536/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T10:13:09Z",
+        "uri": "http://web.archive.org/web/20120920101309/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T11:12:53Z",
+        "uri": "http://web.archive.org/web/20120920111253/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T12:59:08Z",
+        "uri": "http://web.archive.org/web/20120920125908/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T15:14:05Z",
+        "uri": "http://web.archive.org/web/20120920151405/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T17:19:15Z",
+        "uri": "http://web.archive.org/web/20120920171915/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T19:59:16Z",
+        "uri": "http://web.archive.org/web/20120920195916/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T20:00:16Z",
+        "uri": "http://web.archive.org/web/20120920200016/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-20T23:31:33Z",
+        "uri": "http://web.archive.org/web/20120920233133/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T01:54:14Z",
+        "uri": "http://web.archive.org/web/20120921015414/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T02:58:16Z",
+        "uri": "http://web.archive.org/web/20120921025816/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T04:33:12Z",
+        "uri": "http://web.archive.org/web/20120921043312/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T05:34:59Z",
+        "uri": "http://web.archive.org/web/20120921053459/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T12:56:33Z",
+        "uri": "http://web.archive.org/web/20120921125633/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T14:23:26Z",
+        "uri": "http://web.archive.org/web/20120921142326/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T17:33:07Z",
+        "uri": "http://web.archive.org/web/20120921173307/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-21T21:34:28Z",
+        "uri": "http://web.archive.org/web/20120921213428/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-22T04:09:02Z",
+        "uri": "http://web.archive.org/web/20120922040902/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-22T08:12:18Z",
+        "uri": "http://web.archive.org/web/20120922081218/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-22T12:04:03Z",
+        "uri": "http://web.archive.org/web/20120922120403/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-22T14:30:50Z",
+        "uri": "http://web.archive.org/web/20120922143050/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-22T18:46:54Z",
+        "uri": "http://web.archive.org/web/20120922184654/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-22T22:29:46Z",
+        "uri": "http://web.archive.org/web/20120922222946/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T00:45:07Z",
+        "uri": "http://web.archive.org/web/20120923004507/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T06:00:22Z",
+        "uri": "http://web.archive.org/web/20120923060022/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T08:32:06Z",
+        "uri": "http://web.archive.org/web/20120923083206/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T12:58:49Z",
+        "uri": "http://web.archive.org/web/20120923125849/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T13:45:02Z",
+        "uri": "http://web.archive.org/web/20120923134502/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T17:25:03Z",
+        "uri": "http://web.archive.org/web/20120923172503/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T22:46:59Z",
+        "uri": "http://web.archive.org/web/20120923224659/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-23T23:27:09Z",
+        "uri": "http://web.archive.org/web/20120923232709/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-24T02:23:37Z",
+        "uri": "http://web.archive.org/web/20120924022337/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-24T06:14:00Z",
+        "uri": "http://web.archive.org/web/20120924061400/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-24T10:43:22Z",
+        "uri": "http://web.archive.org/web/20120924104322/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-24T15:24:13Z",
+        "uri": "http://web.archive.org/web/20120924152413/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-24T18:39:43Z",
+        "uri": "http://web.archive.org/web/20120924183943/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-25T04:01:42Z",
+        "uri": "http://web.archive.org/web/20120925040142/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-25T11:47:44Z",
+        "uri": "http://web.archive.org/web/20120925114744/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-25T17:12:17Z",
+        "uri": "http://web.archive.org/web/20120925171217/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-25T23:24:38Z",
+        "uri": "http://web.archive.org/web/20120925232438/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-26T03:15:30Z",
+        "uri": "http://web.archive.org/web/20120926031530/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-26T04:44:22Z",
+        "uri": "http://web.archive.org/web/20120926044422/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-26T08:08:26Z",
+        "uri": "http://web.archive.org/web/20120926080826/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-26T10:54:13Z",
+        "uri": "http://web.archive.org/web/20120926105413/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-26T12:50:36Z",
+        "uri": "http://web.archive.org/web/20120926125036/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-26T16:11:26Z",
+        "uri": "http://web.archive.org/web/20120926161126/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-26T19:23:25Z",
+        "uri": "http://web.archive.org/web/20120926192325/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-27T13:27:57Z",
+        "uri": "http://web.archive.org/web/20120927132757/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-29T02:32:53Z",
+        "uri": "http://web.archive.org/web/20120929023253/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-29T08:11:17Z",
+        "uri": "http://web.archive.org/web/20120929081117/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-29T13:34:09Z",
+        "uri": "http://web.archive.org/web/20120929133409/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-29T20:01:23Z",
+        "uri": "http://web.archive.org/web/20120929200123/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-30T01:35:11Z",
+        "uri": "http://web.archive.org/web/20120930013511/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-30T10:32:20Z",
+        "uri": "http://web.archive.org/web/20120930103220/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-09-30T17:54:08Z",
+        "uri": "http://web.archive.org/web/20120930175408/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-01T03:59:35Z",
+        "uri": "http://web.archive.org/web/20121001035935/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-01T13:32:47Z",
+        "uri": "http://web.archive.org/web/20121001133247/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-01T15:20:35Z",
+        "uri": "http://web.archive.org/web/20121001152035/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-01T17:17:06Z",
+        "uri": "http://web.archive.org/web/20121001171706/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-02T00:46:45Z",
+        "uri": "http://web.archive.org/web/20121002004645/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-02T09:21:29Z",
+        "uri": "http://web.archive.org/web/20121002092129/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-02T19:12:52Z",
+        "uri": "http://web.archive.org/web/20121002191252/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-04T23:15:11Z",
+        "uri": "http://web.archive.org/web/20121004231511/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-10-05T00:26:44Z",
+        "uri": "http://web.archive.org/web/20121005002644/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-12-07T02:46:26Z",
+        "uri": "http://web.archive.org/web/20121207024626/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2012-12-15T03:00:40Z",
+        "uri": "http://webarchive.loc.gov/all/20121215030040/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-01-14T21:42:51Z",
+        "uri": "http://web.archive.org/web/20130114214251/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-01-14T22:29:04Z",
+        "uri": "http://web.archive.org/web/20130114222904/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-01-15T11:18:20Z",
+        "uri": "http://web.archive.org/web/20130115111820/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-01-15T11:18:24Z",
+        "uri": "http://web.archive.org/web/20130115111824/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-01-17T02:45:29Z",
+        "uri": "http://web.archive.org/web/20130117024529/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-01-19T04:34:59Z",
+        "uri": "http://web.archive.org/web/20130119043459/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-01-21T12:36:44Z",
+        "uri": "http://web.archive.org/web/20130121123644/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-01-31T04:09:57Z",
+        "uri": "http://web.archive.org/web/20130131040957/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-03-02T01:12:23Z",
+        "uri": "http://web.archive.org/web/20130302011223/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-03-02T03:39:33Z",
+        "uri": "http://web.archive.org/web/20130302033933/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-03-14T06:43:26Z",
+        "uri": "http://web.archive.org/web/20130314064326/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-03-17T01:07:27Z",
+        "uri": "http://web.archive.org/web/20130317010727/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-03-20T19:35:48Z",
+        "uri": "http://web.archive.org/web/20130320193548/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-03-27T22:44:24Z",
+        "uri": "http://web.archive.org/web/20130327224424/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-03-28T15:15:52Z",
+        "uri": "http://web.archive.org/web/20130328151552/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-03-30T02:34:13Z",
+        "uri": "http://web.archive.org/web/20130330023413/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-03-31T08:25:26Z",
+        "uri": "http://web.archive.org/web/20130331082526/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-01T04:34:47Z",
+        "uri": "http://web.archive.org/web/20130401043447/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-02T04:41:45Z",
+        "uri": "http://web.archive.org/web/20130402044145/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-02T17:51:34Z",
+        "uri": "http://web.archive.org/web/20130402175134/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-03T16:30:51Z",
+        "uri": "http://web.archive.org/web/20130403163051/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-07T20:02:11Z",
+        "uri": "http://web.archive.org/web/20130407200211/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-07T20:02:20Z",
+        "uri": "http://web.archive.org/web/20130407200220/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-20T04:54:01Z",
+        "uri": "http://web.archive.org/web/20130420045401/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-20T05:25:52Z",
+        "uri": "http://web.archive.org/web/20130420052552/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-21T06:48:21Z",
+        "uri": "http://web.archive.org/web/20130421064821/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-04-30T02:52:24Z",
+        "uri": "http://web.archive.org/web/20130430025224/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-01T15:01:31Z",
+        "uri": "http://web.archive.org/web/20130501150131/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-02T10:44:54Z",
+        "uri": "http://web.archive.org/web/20130502104454/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-04T23:09:02Z",
+        "uri": "http://archive.md/20130504230902/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-15T08:02:39Z",
+        "uri": "http://web.archive.org/web/20130515080239/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-05-20T15:04:04Z",
+        "uri": "http://web.archive.org/web/20130520150404/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-22T18:36:00Z",
+        "uri": "http://web.archive.org/web/20130522183600/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-27T11:54:57Z",
+        "uri": "http://web.archive.org/web/20130527115457/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-28T17:46:33Z",
+        "uri": "http://web.archive.org/web/20130528174633/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-05-31T13:30:50Z",
+        "uri": "http://web.archive.org/web/20130531133050/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-06-02T19:15:07Z",
+        "uri": "http://web.archive.org/web/20130602191507/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-06-14T02:28:21Z",
+        "uri": "http://web.archive.org/web/20130614022821/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-06-17T09:32:35Z",
+        "uri": "http://web.archive.org/web/20130617093235/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-06-18T16:30:14Z",
+        "uri": "http://web.archive.org/web/20130618163014/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-07-08T00:37:52Z",
+        "uri": "http://web.archive.org/web/20130708003752/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-07-08T14:39:39Z",
+        "uri": "http://web.archive.org/web/20130708143939/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-07-22T13:00:14Z",
+        "uri": "http://web.archive.org/web/20130722130014/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-07-23T23:10:31Z",
+        "uri": "http://web.archive.org/web/20130723231031/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-07-31T02:00:09Z",
+        "uri": "http://web.archive.org/web/20130731020009/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-08-05T06:22:19Z",
+        "uri": "http://web.archive.org/web/20130805062219/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-08-05T10:11:49Z",
+        "uri": "http://web.archive.org/web/20130805101149/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-08-06T04:17:05Z",
+        "uri": "http://web.archive.org/web/20130806041705/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-08-12T13:10:14Z",
+        "uri": "http://web.archive.org/web/20130812131014/http://footballfancast.com"
+      },
+      {
+        "datetime": "2013-09-12T23:57:49Z",
+        "uri": "http://web.archive.org/web/20130912235749/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-09-14T02:06:35Z",
+        "uri": "http://web.archive.org/web/20130914020635/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-09-15T07:37:42Z",
+        "uri": "http://web.archive.org/web/20130915073742/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-09-16T15:39:43Z",
+        "uri": "http://web.archive.org/web/20130916153943/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-09-17T17:21:48Z",
+        "uri": "http://web.archive.org/web/20130917172148/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-09-19T08:30:26Z",
+        "uri": "http://web.archive.org/web/20130919083026/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-09-20T09:02:57Z",
+        "uri": "http://web.archive.org/web/20130920090257/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-10-03T02:21:06Z",
+        "uri": "http://web.archive.org/web/20131003022106/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-04T15:01:40Z",
+        "uri": "http://web.archive.org/web/20131004150140/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-19T21:57:24Z",
+        "uri": "http://wayback.archive-it.org/all/20131019215724/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-19T21:57:24Z",
+        "uri": "http://web.archive.org/web/20131019215724/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-19T21:57:54Z",
+        "uri": "http://wayback.archive-it.org/all/20131019215754/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-19T21:57:54Z",
+        "uri": "http://web.archive.org/web/20131019215754/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T10:17:28Z",
+        "uri": "http://wayback.archive-it.org/all/20131020101728/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T10:17:28Z",
+        "uri": "http://web.archive.org/web/20131020101728/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T10:17:30Z",
+        "uri": "http://wayback.archive-it.org/all/20131020101730/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T10:17:30Z",
+        "uri": "http://web.archive.org/web/20131020101730/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T21:38:13Z",
+        "uri": "http://wayback.archive-it.org/all/20131020213813/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T21:38:13Z",
+        "uri": "http://web.archive.org/web/20131020213813/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T21:38:19Z",
+        "uri": "http://wayback.archive-it.org/all/20131020213819/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-20T21:38:19Z",
+        "uri": "http://web.archive.org/web/20131020213819/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-25T02:04:06Z",
+        "uri": "http://wayback.archive-it.org/all/20131025020406/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-25T02:04:06Z",
+        "uri": "http://web.archive.org/web/20131025020406/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-25T02:04:12Z",
+        "uri": "http://wayback.archive-it.org/all/20131025020412/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-25T02:04:12Z",
+        "uri": "http://web.archive.org/web/20131025020412/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-10-31T04:04:53Z",
+        "uri": "http://web.archive.org/web/20131031040453/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-11-12T22:43:36Z",
+        "uri": "http://web.archive.org/web/20131112224336/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2013-11-21T20:29:25Z",
+        "uri": "http://web.archive.org/web/20131121202925/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-11-21T20:29:35Z",
+        "uri": "http://web.archive.org/web/20131121202935/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-11-27T19:58:00Z",
+        "uri": "http://web.archive.org/web/20131127195800/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-11-27T19:58:06Z",
+        "uri": "http://web.archive.org/web/20131127195806/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-12-09T19:07:46Z",
+        "uri": "http://wayback.archive-it.org/all/20131209190746/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-12-09T19:07:46Z",
+        "uri": "http://web.archive.org/web/20131209190746/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-12-09T19:07:53Z",
+        "uri": "http://wayback.archive-it.org/all/20131209190753/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-12-09T19:07:53Z",
+        "uri": "http://web.archive.org/web/20131209190753/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2013-12-24T16:15:39Z",
+        "uri": "http://web.archive.org/web/20131224161539/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2013-12-24T17:59:42Z",
+        "uri": "http://web.archive.org/web/20131224175942/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-01T23:39:54Z",
+        "uri": "http://web.archive.org/web/20140101233954/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-02T11:58:53Z",
+        "uri": "http://web.archive.org/web/20140102115853/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-02T14:27:03Z",
+        "uri": "http://web.archive.org/web/20140102142703/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-02T14:28:27Z",
+        "uri": "http://web.archive.org/web/20140102142827/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-02T15:22:38Z",
+        "uri": "http://web.archive.org/web/20140102152238/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-04T05:32:14Z",
+        "uri": "http://web.archive.org/web/20140104053214/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-09T07:23:58Z",
+        "uri": "http://web.archive.org/web/20140109072358/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-09T21:57:18Z",
+        "uri": "http://web.archive.org/web/20140109215718/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-12T12:56:20Z",
+        "uri": "http://web.archive.org/web/20140112125620/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-12T12:56:27Z",
+        "uri": "http://web.archive.org/web/20140112125627/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-12T18:21:34Z",
+        "uri": "http://web.archive.org/web/20140112182134/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-01-22T08:56:38Z",
+        "uri": "http://web.archive.org/web/20140122085638/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-01-22T08:56:43Z",
+        "uri": "http://web.archive.org/web/20140122085643/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-02-08T02:52:05Z",
+        "uri": "http://web.archive.org/web/20140208025205/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-02-09T05:40:57Z",
+        "uri": "http://web.archive.org/web/20140209054057/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-02-15T02:06:46Z",
+        "uri": "http://web.archive.org/web/20140215020646/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-02-18T14:28:38Z",
+        "uri": "http://webarchive.loc.gov/all/20140218142838/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-02-18T14:28:41Z",
+        "uri": "http://webarchive.loc.gov/all/20140218142841/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-03-14T16:28:45Z",
+        "uri": "http://web.archive.org/web/20140314162845/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-05-14T09:56:05Z",
+        "uri": "http://web.archive.org/web/20140514095605/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-05-16T21:36:30Z",
+        "uri": "http://web.archive.org/web/20140516213630/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-05-17T10:17:27Z",
+        "uri": "http://web.archive.org/web/20140517101727/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-05-17T14:58:23Z",
+        "uri": "http://web.archive.org/web/20140517145823/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-05-17T16:50:06Z",
+        "uri": "http://web.archive.org/web/20140517165006/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-05-17T20:23:19Z",
+        "uri": "http://web.archive.org/web/20140517202319/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-06-09T17:13:36Z",
+        "uri": "http://wayback.archive-it.org/all/20140609171336/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-06-09T17:13:36Z",
+        "uri": "http://web.archive.org/web/20140609171336/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-06-10T05:01:49Z",
+        "uri": "http://web.archive.org/web/20140610050149/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-06-10T06:24:48Z",
+        "uri": "http://web.archive.org/web/20140610062448/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-06-25T03:57:34Z",
+        "uri": "http://web.archive.org/web/20140625035734/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-06-25T11:08:02Z",
+        "uri": "http://web.archive.org/web/20140625110802/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-06-26T10:09:18Z",
+        "uri": "http://web.archive.org/web/20140626100918/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-07-01T11:29:42Z",
+        "uri": "http://wayback.archive-it.org/all/20140701112942/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-07-01T11:29:42Z",
+        "uri": "http://wayback.archive-it.org/all/20140701112942/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-07-01T11:29:42Z",
+        "uri": "http://web.archive.org/web/20140701112942/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-07-01T11:29:45Z",
+        "uri": "http://wayback.archive-it.org/all/20140701112945/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-07-01T11:29:45Z",
+        "uri": "http://wayback.archive-it.org/all/20140701112945/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-07-01T11:29:45Z",
+        "uri": "http://web.archive.org/web/20140701112945/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-07-14T01:47:33Z",
+        "uri": "http://web.archive.org/web/20140714014733/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-07-15T20:43:44Z",
+        "uri": "http://web.archive.org/web/20140715204344/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-08-31T16:26:34Z",
+        "uri": "http://web.archive.org/web/20140831162634/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-09-09T04:48:29Z",
+        "uri": "http://web.archive.org/web/20140909044829/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-09-12T22:31:21Z",
+        "uri": "http://web.archive.org/web/20140912223121/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-09-20T20:33:26Z",
+        "uri": "http://web.archive.org/web/20140920203326/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-09-26T15:31:38Z",
+        "uri": "http://web.archive.org/web/20140926153138/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-10-01T08:18:22Z",
+        "uri": "http://web.archive.org/web/20141001081822/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-10-09T18:20:17Z",
+        "uri": "http://web.archive.org/web/20141009182017/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-10-10T12:05:35Z",
+        "uri": "http://web.archive.org/web/20141010120535/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-10-13T04:17:29Z",
+        "uri": "http://web.archive.org/web/20141013041729/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-10-18T03:12:25Z",
+        "uri": "http://web.archive.org/web/20141018031225/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-10-27T04:50:08Z",
+        "uri": "http://web.archive.org/web/20141027045008/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-11-02T21:54:18Z",
+        "uri": "http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-11-04T01:10:55Z",
+        "uri": "http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-11-05T14:39:20Z",
+        "uri": "http://web.archive.org/web/20141105143920/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-11-16T18:38:14Z",
+        "uri": "http://web.archive.org/web/20141116183814/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-11-20T09:49:57Z",
+        "uri": "http://web.archive.org/web/20141120094957/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-12-02T10:49:27Z",
+        "uri": "http://web.archive.org/web/20141202104927/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-12-04T19:22:09Z",
+        "uri": "http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-16T21:30:31Z",
+        "uri": "http://web.archive.org/web/20141216213031/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-17T06:34:21Z",
+        "uri": "http://web.archive.org/web/20141217063421/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-17T07:16:53Z",
+        "uri": "http://web.archive.org/web/20141217071653/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-17T09:49:05Z",
+        "uri": "http://web.archive.org/web/20141217094905/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-17T11:31:54Z",
+        "uri": "http://web.archive.org/web/20141217113154/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-18T05:04:16Z",
+        "uri": "http://web.archive.org/web/20141218050416/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-18T13:46:28Z",
+        "uri": "http://web.archive.org/web/20141218134628/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2014-12-18T14:52:41Z",
+        "uri": "http://web.archive.org/web/20141218145241/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2014-12-19T03:08:13Z",
+        "uri": "http://web.archive.org/web/20141219030813/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-01-02T14:19:02Z",
+        "uri": "http://web.archive.org/web/20150102141902/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-01-06T07:36:23Z",
+        "uri": "http://web.archive.org/web/20150106073623/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-01-06T07:36:28Z",
+        "uri": "http://web.archive.org/web/20150106073628/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-01-15T02:12:56Z",
+        "uri": "http://web.archive.org/web/20150115021256/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2015-01-15T02:12:56Z",
+        "uri": "http://web.archive.org/web/20150115021256/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-01-19T23:21:58Z",
+        "uri": "http://web.archive.org/web/20150119232158/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-02-05T22:12:37Z",
+        "uri": "http://web.archive.org/web/20150205221237/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-02-05T22:12:37Z",
+        "uri": "http://web.archive.org/web/20150205221237/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-02-06T23:51:28Z",
+        "uri": "http://web.archive.org/web/20150206235128/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-02-06T23:51:28Z",
+        "uri": "http://web.archive.org/web/20150206235128/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-02-07T10:10:38Z",
+        "uri": "http://web.archive.org/web/20150207101038/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2015-02-15T22:02:18Z",
+        "uri": "http://web.archive.org/web/20150215220218/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-02-27T07:21:02Z",
+        "uri": "http://web.archive.org/web/20150227072102/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-02-28T10:25:15Z",
+        "uri": "http://web.archive.org/web/20150228102515/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-02-28T10:25:18Z",
+        "uri": "http://web.archive.org/web/20150228102518/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-03-09T02:42:27Z",
+        "uri": "http://web.archive.org/web/20150309024227/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-03-10T06:55:01Z",
+        "uri": "http://web.archive.org/web/20150310065501/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-03-10T12:54:49Z",
+        "uri": "http://web.archive.org/web/20150310125449/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2015-03-14T19:57:32Z",
+        "uri": "http://web.archive.org/web/20150314195732/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-03-14T21:04:01Z",
+        "uri": "http://web.archive.org/web/20150314210401/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-03-14T22:46:29Z",
+        "uri": "http://web.archive.org/web/20150314224629/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-03-22T00:15:33Z",
+        "uri": "http://web.archive.org/web/20150322001533/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-03-31T07:44:40Z",
+        "uri": "http://web.archive.org/web/20150331074440/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-04-08T07:00:36Z",
+        "uri": "http://web.archive.org/web/20150408070036/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-04-09T07:43:51Z",
+        "uri": "https://arquivo.pt/wayback/20150409074351/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-04-09T20:11:59Z",
+        "uri": "https://arquivo.pt/wayback/20150409201159/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-04-21T04:54:04Z",
+        "uri": "http://web.archive.org/web/20150421045404/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-04-23T07:04:06Z",
+        "uri": "http://web.archive.org/web/20150423070406/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2015-04-23T07:04:06Z",
+        "uri": "http://web.archive.org/web/20150423070406/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-05-02T07:59:28Z",
+        "uri": "http://web.archive.org/web/20150502075928/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-05-11T08:24:23Z",
+        "uri": "http://web.archive.org/web/20150511082423/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-06-07T18:46:40Z",
+        "uri": "http://web.archive.org/web/20150607184640/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-06-29T01:23:58Z",
+        "uri": "http://web.archive.org/web/20150629012358/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-07-01T04:39:47Z",
+        "uri": "http://web.archive.org/web/20150701043947/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-07-08T07:11:10Z",
+        "uri": "http://web.archive.org/web/20150708071110/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-07-09T08:08:25Z",
+        "uri": "http://web.archive.org/web/20150709080825/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-07-09T09:34:53Z",
+        "uri": "http://web.archive.org/web/20150709093453/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2015-07-17T06:09:42Z",
+        "uri": "http://web.archive.org/web/20150717060942/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-08-01T01:05:35Z",
+        "uri": "http://web.archive.org/web/20150801010535/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-01T10:33:13Z",
+        "uri": "http://web.archive.org/web/20150801103313/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-01T14:07:21Z",
+        "uri": "http://web.archive.org/web/20150801140721/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-01T15:05:00Z",
+        "uri": "http://web.archive.org/web/20150801150500/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-01T22:27:45Z",
+        "uri": "http://web.archive.org/web/20150801222745/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-12T13:20:31Z",
+        "uri": "http://web.archive.org/web/20150812132031/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-14T01:51:00Z",
+        "uri": "http://web.archive.org/web/20150814015100/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-14T03:50:55Z",
+        "uri": "http://web.archive.org/web/20150814035055/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-14T03:50:59Z",
+        "uri": "http://web.archive.org/web/20150814035059/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-08-22T20:41:25Z",
+        "uri": "http://web.archive.org/web/20150822204125/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-09-07T07:46:14Z",
+        "uri": "http://web.archive.org/web/20150907074614/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-09-07T17:37:49Z",
+        "uri": "http://web.archive.org/web/20150907173749/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-10-06T02:00:53Z",
+        "uri": "http://web.archive.org/web/20151006020053/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-10-12T05:51:24Z",
+        "uri": "http://web.archive.org/web/20151012055124/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-10-19T00:29:32Z",
+        "uri": "http://web.archive.org/web/20151019002932/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-10-25T08:31:37Z",
+        "uri": "http://web.archive.org/web/20151025083137/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-11-01T02:30:31Z",
+        "uri": "http://web.archive.org/web/20151101023031/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-11-07T05:28:42Z",
+        "uri": "http://web.archive.org/web/20151107052842/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2015-11-07T05:28:42Z",
+        "uri": "http://web.archive.org/web/20151107052842/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-11-14T07:40:47Z",
+        "uri": "http://web.archive.org/web/20151114074047/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-11-19T00:24:47Z",
+        "uri": "http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-11-19T00:32:48Z",
+        "uri": "http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-11-19T00:36:57Z",
+        "uri": "http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-11-19T00:48:29Z",
+        "uri": "http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-11-19T01:05:34Z",
+        "uri": "http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-11-21T05:57:40Z",
+        "uri": "http://web.archive.org/web/20151121055740/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-12-01T02:12:42Z",
+        "uri": "http://web.archive.org/web/20151201021242/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-12-01T19:29:13Z",
+        "uri": "http://web.archive.org/web/20151201192913/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-12-04T02:43:33Z",
+        "uri": "http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-12-04T02:43:48Z",
+        "uri": "http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-12-04T02:43:51Z",
+        "uri": "http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-12-04T02:43:54Z",
+        "uri": "http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-12-04T02:44:21Z",
+        "uri": "http://footballfancast.com/"
+      },
+      {
+        "datetime": "2015-12-08T10:18:24Z",
+        "uri": "http://web.archive.org/web/20151208101824/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2015-12-08T10:18:24Z",
+        "uri": "http://web.archive.org/web/20151208101824/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-12-18T00:20:57Z",
+        "uri": "http://web.archive.org/web/20151218002057/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2015-12-20T21:02:07Z",
+        "uri": "http://web.archive.org/web/20151220210207/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2015-12-26T09:25:19Z",
+        "uri": "http://web.archive.org/web/20151226092519/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-01-01T20:23:38Z",
+        "uri": "http://web.archive.org/web/20160101202338/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-01T20:23:50Z",
+        "uri": "http://web.archive.org/web/20160101202350/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-02T12:40:20Z",
+        "uri": "http://web.archive.org/web/20160102124020/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-02T12:40:27Z",
+        "uri": "http://web.archive.org/web/20160102124027/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-03T18:20:55Z",
+        "uri": "http://web.archive.org/web/20160103182055/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-03T18:20:59Z",
+        "uri": "http://web.archive.org/web/20160103182059/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-04T14:59:57Z",
+        "uri": "http://web.archive.org/web/20160104145957/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-04T15:00:03Z",
+        "uri": "http://web.archive.org/web/20160104150003/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-04T21:24:01Z",
+        "uri": "http://web.archive.org/web/20160104212401/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-06T14:42:29Z",
+        "uri": "http://web.archive.org/web/20160106144229/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-01-08T18:36:03Z",
+        "uri": "http://web.archive.org/web/20160108183603/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-08T18:36:23Z",
+        "uri": "http://web.archive.org/web/20160108183623/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-09T06:48:16Z",
+        "uri": "http://web.archive.org/web/20160109064816/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-09T19:21:26Z",
+        "uri": "http://web.archive.org/web/20160109192126/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-09T21:04:04Z",
+        "uri": "http://web.archive.org/web/20160109210404/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-10T00:16:22Z",
+        "uri": "http://web.archive.org/web/20160110001622/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-10T13:43:13Z",
+        "uri": "http://web.archive.org/web/20160110134313/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-11T09:56:33Z",
+        "uri": "http://web.archive.org/web/20160111095633/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-11T21:26:03Z",
+        "uri": "http://web.archive.org/web/20160111212603/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-12T04:52:16Z",
+        "uri": "http://web.archive.org/web/20160112045216/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-13T16:58:55Z",
+        "uri": "http://web.archive.org/web/20160113165855/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-14T03:25:25Z",
+        "uri": "http://web.archive.org/web/20160114032525/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-15T12:39:00Z",
+        "uri": "http://web.archive.org/web/20160115123900/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-01-16T08:53:31Z",
+        "uri": "http://web.archive.org/web/20160116085331/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-23T16:43:26Z",
+        "uri": "http://web.archive.org/web/20160123164326/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-01-25T01:09:30Z",
+        "uri": "http://web.archive.org/web/20160125010930/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-28T23:11:49Z",
+        "uri": "http://web.archive.org/web/20160128231149/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-01-31T13:37:56Z",
+        "uri": "http://web.archive.org/web/20160131133756/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-02-05T04:48:59Z",
+        "uri": "http://web.archive.org/web/20160205044859/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-05T04:49:04Z",
+        "uri": "http://web.archive.org/web/20160205044904/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-05T05:09:58Z",
+        "uri": "http://web.archive.org/web/20160205050958/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-05T05:10:04Z",
+        "uri": "http://web.archive.org/web/20160205051004/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-05T05:10:08Z",
+        "uri": "http://web.archive.org/web/20160205051008/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-09T21:56:19Z",
+        "uri": "http://web.archive.org/web/20160209215619/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-09T21:56:25Z",
+        "uri": "http://web.archive.org/web/20160209215625/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-11T23:30:21Z",
+        "uri": "http://web.archive.org/web/20160211233021/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-02-13T16:32:31Z",
+        "uri": "http://web.archive.org/web/20160213163231/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-15T17:12:59Z",
+        "uri": "http://web.archive.org/web/20160215171259/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-02-19T09:14:54Z",
+        "uri": "http://web.archive.org/web/20160219091454/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-20T08:32:50Z",
+        "uri": "http://web.archive.org/web/20160220083250/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-02-22T23:58:24Z",
+        "uri": "http://web.archive.org/web/20160222235824/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-22T23:58:33Z",
+        "uri": "http://web.archive.org/web/20160222235833/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-02-29T00:29:49Z",
+        "uri": "http://web.archive.org/web/20160229002949/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-02-29T22:45:09Z",
+        "uri": "http://web.archive.org/web/20160229224509/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-04T17:33:41Z",
+        "uri": "http://web.archive.org/web/20160304173341/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-04T17:51:09Z",
+        "uri": "http://web.archive.org/web/20160304175109/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-06T07:24:13Z",
+        "uri": "http://web.archive.org/web/20160306072413/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-08T16:18:35Z",
+        "uri": "http://web.archive.org/web/20160308161835/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-03-11T02:49:08Z",
+        "uri": "http://web.archive.org/web/20160311024908/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-12T05:16:27Z",
+        "uri": "http://web.archive.org/web/20160312051627/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-12T12:24:58Z",
+        "uri": "http://web.archive.org/web/20160312122458/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-12T15:19:12Z",
+        "uri": "http://web.archive.org/web/20160312151912/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-12T15:19:19Z",
+        "uri": "http://web.archive.org/web/20160312151919/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-12T16:36:53Z",
+        "uri": "http://web.archive.org/web/20160312163653/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-12T16:36:57Z",
+        "uri": "http://web.archive.org/web/20160312163657/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-12T22:26:57Z",
+        "uri": "http://web.archive.org/web/20160312222657/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-13T04:48:35Z",
+        "uri": "http://web.archive.org/web/20160313044835/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-14T09:26:47Z",
+        "uri": "http://web.archive.org/web/20160314092647/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-14T16:04:31Z",
+        "uri": "http://web.archive.org/web/20160314160431/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-14T22:23:45Z",
+        "uri": "http://web.archive.org/web/20160314222345/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-17T11:42:43Z",
+        "uri": "http://web.archive.org/web/20160317114243/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-03-17T18:46:43Z",
+        "uri": "http://web.archive.org/web/20160317184643/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-03-21T21:31:08Z",
+        "uri": "http://web.archive.org/web/20160321213108/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-23T12:47:01Z",
+        "uri": "http://web.archive.org/web/20160323124701/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-03-24T23:23:55Z",
+        "uri": "http://web.archive.org/web/20160324232355/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-04-01T16:15:10Z",
+        "uri": "http://web.archive.org/web/20160401161510/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-01T17:58:20Z",
+        "uri": "http://web.archive.org/web/20160401175820/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-04-02T18:09:20Z",
+        "uri": "http://web.archive.org/web/20160402180920/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-02T21:09:57Z",
+        "uri": "http://web.archive.org/web/20160402210957/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-03T12:37:03Z",
+        "uri": "http://web.archive.org/web/20160403123703/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-08T17:55:04Z",
+        "uri": "http://web.archive.org/web/20160408175504/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-04-14T08:37:52Z",
+        "uri": "http://web.archive.org/web/20160414083752/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-15T00:26:09Z",
+        "uri": "http://web.archive.org/web/20160415002609/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-04-15T13:04:33Z",
+        "uri": "http://web.archive.org/web/20160415130433/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-16T21:27:33Z",
+        "uri": "http://web.archive.org/web/20160416212733/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-16T21:27:41Z",
+        "uri": "http://web.archive.org/web/20160416212741/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-16T23:25:15Z",
+        "uri": "http://web.archive.org/web/20160416232515/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-18T08:14:55Z",
+        "uri": "http://web.archive.org/web/20160418081455/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-19T03:21:11Z",
+        "uri": "http://web.archive.org/web/20160419032111/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-04-21T03:32:01Z",
+        "uri": "http://web.archive.org/web/20160421033201/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-04-22T09:19:23Z",
+        "uri": "http://web.archive.org/web/20160422091923/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-22T11:16:47Z",
+        "uri": "http://web.archive.org/web/20160422111647/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-04-27T09:41:53Z",
+        "uri": "http://web.archive.org/web/20160427094153/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-05-04T03:36:51Z",
+        "uri": "http://web.archive.org/web/20160504033651/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-05-07T16:31:38Z",
+        "uri": "http://web.archive.org/web/20160507163138/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-05-10T16:56:37Z",
+        "uri": "http://web.archive.org/web/20160510165637/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-05-17T15:24:59Z",
+        "uri": "http://web.archive.org/web/20160517152459/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-05-18T14:45:59Z",
+        "uri": "https://arquivo.pt/wayback/20160518144559/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-05-20T11:54:32Z",
+        "uri": "http://web.archive.org/web/20160520115432/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-05-24T08:38:59Z",
+        "uri": "http://web.archive.org/web/20160524083859/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-05-31T03:18:39Z",
+        "uri": "http://web.archive.org/web/20160531031839/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-06-02T10:08:19Z",
+        "uri": "http://web.archive.org/web/20160602100819/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-02T23:24:53Z",
+        "uri": "http://web.archive.org/web/20160602232453/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-03T01:22:10Z",
+        "uri": "http://web.archive.org/web/20160603012210/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-04T10:42:49Z",
+        "uri": "http://web.archive.org/web/20160604104249/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-04T12:40:05Z",
+        "uri": "http://web.archive.org/web/20160604124005/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-05T18:00:19Z",
+        "uri": "http://web.archive.org/web/20160605180019/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-05T19:57:35Z",
+        "uri": "http://web.archive.org/web/20160605195735/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-07T04:28:53Z",
+        "uri": "http://web.archive.org/web/20160607042853/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-08T01:11:40Z",
+        "uri": "http://web.archive.org/web/20160608011140/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-06-08T13:52:56Z",
+        "uri": "http://web.archive.org/web/20160608135256/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-10T04:51:07Z",
+        "uri": "http://web.archive.org/web/20160610045107/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-10T06:48:23Z",
+        "uri": "http://web.archive.org/web/20160610064823/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-11T15:19:26Z",
+        "uri": "http://web.archive.org/web/20160611151926/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-12T23:50:34Z",
+        "uri": "http://web.archive.org/web/20160612235034/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-12T23:50:36Z",
+        "uri": "http://web.archive.org/web/20160612235036/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-14T08:08:40Z",
+        "uri": "http://web.archive.org/web/20160614080840/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-14T21:01:48Z",
+        "uri": "http://web.archive.org/web/20160614210148/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-06-15T17:50:52Z",
+        "uri": "http://web.archive.org/web/20160615175052/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-16T18:51:42Z",
+        "uri": "http://web.archive.org/web/20160616185142/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-16T22:09:42Z",
+        "uri": "http://web.archive.org/web/20160616220942/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-16T22:49:49Z",
+        "uri": "http://web.archive.org/web/20160616224949/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-18T05:13:10Z",
+        "uri": "http://wayback.archive-it.org/all/20160618051310/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-18T05:13:10Z",
+        "uri": "http://web.archive.org/web/20160618051310/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-18T05:13:13Z",
+        "uri": "http://wayback.archive-it.org/all/20160618051313/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-18T05:13:13Z",
+        "uri": "http://web.archive.org/web/20160618051313/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-18T13:56:59Z",
+        "uri": "http://web.archive.org/web/20160618135659/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-06-20T21:48:26Z",
+        "uri": "http://web.archive.org/web/20160620214826/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-06-22T14:26:36Z",
+        "uri": "http://web.archive.org/web/20160622142636/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-06-30T01:37:19Z",
+        "uri": "http://web.archive.org/web/20160630013719/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-07-07T12:03:50Z",
+        "uri": "http://web.archive.org/web/20160707120350/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-07-08T10:52:01Z",
+        "uri": "http://web.archive.org/web/20160708105201/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-07-08T14:45:41Z",
+        "uri": "http://web.archive.org/web/20160708144541/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-07-15T13:14:00Z",
+        "uri": "http://web.archive.org/web/20160715131400/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-07-16T08:10:00Z",
+        "uri": "http://web.archive.org/web/20160716081000/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-07-17T11:51:51Z",
+        "uri": "http://web.archive.org/web/20160717115151/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-07-23T02:20:23Z",
+        "uri": "http://web.archive.org/web/20160723022023/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-07-24T21:40:51Z",
+        "uri": "http://web.archive.org/web/20160724214051/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-07-25T08:45:08Z",
+        "uri": "http://web.archive.org/web/20160725084508/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-07-29T20:23:10Z",
+        "uri": "http://web.archive.org/web/20160729202310/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-01T10:33:23Z",
+        "uri": "http://web.archive.org/web/20160801103323/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-08-08T03:12:31Z",
+        "uri": "http://web.archive.org/web/20160808031231/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-08-12T02:17:16Z",
+        "uri": "http://web.archive.org/web/20160812021716/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-12T02:17:22Z",
+        "uri": "http://web.archive.org/web/20160812021722/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-12T19:04:32Z",
+        "uri": "http://web.archive.org/web/20160812190432/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-12T19:04:46Z",
+        "uri": "http://web.archive.org/web/20160812190446/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-12T20:05:36Z",
+        "uri": "http://web.archive.org/web/20160812200536/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-12T22:02:50Z",
+        "uri": "http://web.archive.org/web/20160812220250/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-13T00:38:43Z",
+        "uri": "http://web.archive.org/web/20160813003843/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-13T00:38:48Z",
+        "uri": "http://web.archive.org/web/20160813003848/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-14T01:59:19Z",
+        "uri": "http://web.archive.org/web/20160814015919/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-14T01:59:22Z",
+        "uri": "http://web.archive.org/web/20160814015922/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-14T05:31:11Z",
+        "uri": "http://web.archive.org/web/20160814053111/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-14T07:28:26Z",
+        "uri": "http://web.archive.org/web/20160814072826/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-15T03:07:00Z",
+        "uri": "http://web.archive.org/web/20160815030700/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-15T03:07:08Z",
+        "uri": "http://web.archive.org/web/20160815030708/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-15T08:15:28Z",
+        "uri": "http://web.archive.org/web/20160815081528/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-08-15T16:30:48Z",
+        "uri": "http://web.archive.org/web/20160815163048/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-15T18:28:04Z",
+        "uri": "http://web.archive.org/web/20160815182804/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-17T01:08:02Z",
+        "uri": "http://web.archive.org/web/20160817010802/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-17T03:05:23Z",
+        "uri": "http://web.archive.org/web/20160817030523/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T00:08:46Z",
+        "uri": "http://web.archive.org/web/20160819000846/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T00:08:55Z",
+        "uri": "http://web.archive.org/web/20160819000855/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T02:51:53Z",
+        "uri": "http://web.archive.org/web/20160819025153/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T02:51:59Z",
+        "uri": "http://web.archive.org/web/20160819025159/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T04:24:07Z",
+        "uri": "http://web.archive.org/web/20160819042407/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T04:24:15Z",
+        "uri": "http://web.archive.org/web/20160819042415/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T20:23:04Z",
+        "uri": "http://web.archive.org/web/20160819202304/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-19T20:23:09Z",
+        "uri": "http://web.archive.org/web/20160819202309/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-20T07:03:46Z",
+        "uri": "http://web.archive.org/web/20160820070346/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-20T07:03:53Z",
+        "uri": "http://web.archive.org/web/20160820070353/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-22T02:17:09Z",
+        "uri": "http://web.archive.org/web/20160822021709/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-08-22T06:02:13Z",
+        "uri": "http://web.archive.org/web/20160822060213/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-22T07:59:30Z",
+        "uri": "http://web.archive.org/web/20160822075930/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-23T15:48:33Z",
+        "uri": "http://web.archive.org/web/20160823154833/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-23T17:45:47Z",
+        "uri": "http://web.archive.org/web/20160823174547/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-25T03:54:14Z",
+        "uri": "http://web.archive.org/web/20160825035414/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-08-26T14:08:16Z",
+        "uri": "http://web.archive.org/web/20160826140816/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-26T16:05:38Z",
+        "uri": "http://web.archive.org/web/20160826160538/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-08-30T00:26:42Z",
+        "uri": "http://web.archive.org/web/20160830002642/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-09-01T16:30:01Z",
+        "uri": "http://web.archive.org/web/20160901163001/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-01T20:59:38Z",
+        "uri": "http://web.archive.org/web/20160901205938/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-01T22:56:53Z",
+        "uri": "http://web.archive.org/web/20160901225653/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-03T10:37:19Z",
+        "uri": "http://web.archive.org/web/20160903103719/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-04T17:05:33Z",
+        "uri": "http://web.archive.org/web/20160904170533/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-04T17:05:37Z",
+        "uri": "http://web.archive.org/web/20160904170537/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-04T19:58:52Z",
+        "uri": "http://web.archive.org/web/20160904195852/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-04T21:56:04Z",
+        "uri": "http://web.archive.org/web/20160904215604/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-06T05:07:55Z",
+        "uri": "http://web.archive.org/web/20160906050755/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-06T05:18:24Z",
+        "uri": "http://web.archive.org/web/20160906051824/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-09-06T07:05:06Z",
+        "uri": "http://web.archive.org/web/20160906070506/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-07T18:58:12Z",
+        "uri": "http://web.archive.org/web/20160907185812/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-11T00:15:42Z",
+        "uri": "http://web.archive.org/web/20160911001542/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-11T02:13:04Z",
+        "uri": "http://web.archive.org/web/20160911021304/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-12T22:29:42Z",
+        "uri": "http://web.archive.org/web/20160912222942/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-13T00:27:07Z",
+        "uri": "http://web.archive.org/web/20160913002707/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-13T14:16:11Z",
+        "uri": "http://web.archive.org/web/20160913141611/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-09-14T11:20:03Z",
+        "uri": "http://web.archive.org/web/20160914112003/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-14T12:37:33Z",
+        "uri": "http://web.archive.org/web/20160914123733/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-14T12:37:38Z",
+        "uri": "http://web.archive.org/web/20160914123738/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-15T16:02:28Z",
+        "uri": "http://web.archive.org/web/20160915160228/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-15T17:59:39Z",
+        "uri": "http://web.archive.org/web/20160915175939/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-17T02:53:53Z",
+        "uri": "http://web.archive.org/web/20160917025353/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-17T04:51:10Z",
+        "uri": "http://web.archive.org/web/20160917045110/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-18T21:35:01Z",
+        "uri": "http://web.archive.org/web/20160918213501/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-18T21:35:08Z",
+        "uri": "http://web.archive.org/web/20160918213508/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-20T21:25:36Z",
+        "uri": "http://web.archive.org/web/20160920212536/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-09-21T17:38:55Z",
+        "uri": "http://web.archive.org/web/20160921173855/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-21T19:36:09Z",
+        "uri": "http://web.archive.org/web/20160921193609/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-23T06:22:23Z",
+        "uri": "http://web.archive.org/web/20160923062223/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-23T06:22:25Z",
+        "uri": "http://web.archive.org/web/20160923062225/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-24T11:32:22Z",
+        "uri": "http://web.archive.org/web/20160924113222/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-24T13:29:38Z",
+        "uri": "http://web.archive.org/web/20160924132938/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-25T12:53:41Z",
+        "uri": "http://web.archive.org/web/20160925125341/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-25T14:50:59Z",
+        "uri": "http://web.archive.org/web/20160925145059/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-26T09:58:05Z",
+        "uri": "http://web.archive.org/web/20160926095805/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-26T11:55:22Z",
+        "uri": "http://web.archive.org/web/20160926115522/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-09-27T07:35:42Z",
+        "uri": "http://web.archive.org/web/20160927073542/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-09-28T03:54:22Z",
+        "uri": "http://web.archive.org/web/20160928035422/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-10-01T15:58:57Z",
+        "uri": "http://web.archive.org/web/20161001155857/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-02T04:14:06Z",
+        "uri": "http://web.archive.org/web/20161002041406/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-02T09:33:37Z",
+        "uri": "http://web.archive.org/web/20161002093337/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-02T10:18:51Z",
+        "uri": "http://web.archive.org/web/20161002101851/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-02T11:30:52Z",
+        "uri": "http://web.archive.org/web/20161002113052/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-03T03:49:28Z",
+        "uri": "http://web.archive.org/web/20161003034928/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-03T14:09:21Z",
+        "uri": "http://web.archive.org/web/20161003140921/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-03T14:09:24Z",
+        "uri": "http://web.archive.org/web/20161003140924/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-04T14:13:08Z",
+        "uri": "http://web.archive.org/web/20161004141308/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-05T12:20:18Z",
+        "uri": "http://web.archive.org/web/20161005122018/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-10-06T08:30:05Z",
+        "uri": "http://web.archive.org/web/20161006083005/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-06T08:56:35Z",
+        "uri": "http://web.archive.org/web/20161006085635/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-07T01:10:06Z",
+        "uri": "http://web.archive.org/web/20161007011006/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-08T14:14:01Z",
+        "uri": "http://web.archive.org/web/20161008141401/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-08T16:11:21Z",
+        "uri": "http://web.archive.org/web/20161008161121/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-09T06:02:40Z",
+        "uri": "http://web.archive.org/web/20161009060240/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-12T03:04:00Z",
+        "uri": "http://wayback.archive-it.org/all/20161012030400/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-12T03:04:00Z",
+        "uri": "http://web.archive.org/web/20161012030400/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-12T20:37:06Z",
+        "uri": "http://web.archive.org/web/20161012203706/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-13T01:06:17Z",
+        "uri": "http://web.archive.org/web/20161013010617/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-10-13T22:02:57Z",
+        "uri": "http://web.archive.org/web/20161013220257/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-14T03:40:57Z",
+        "uri": "http://web.archive.org/web/20161014034057/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-10-15T05:05:00Z",
+        "uri": "http://web.archive.org/web/20161015050500/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-15T10:27:14Z",
+        "uri": "http://web.archive.org/web/20161015102714/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-16T11:48:25Z",
+        "uri": "http://web.archive.org/web/20161016114825/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-17T03:40:37Z",
+        "uri": "http://web.archive.org/web/20161017034037/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-17T05:37:51Z",
+        "uri": "http://web.archive.org/web/20161017053751/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-18T06:10:04Z",
+        "uri": "http://web.archive.org/web/20161018061004/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-21T18:34:59Z",
+        "uri": "http://web.archive.org/web/20161021183459/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-10-27T16:45:30Z",
+        "uri": "http://web.archive.org/web/20161027164530/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-27T21:51:10Z",
+        "uri": "http://web.archive.org/web/20161027215110/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-10-29T21:10:32Z",
+        "uri": "http://web.archive.org/web/20161029211032/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2016-10-29T21:21:29Z",
+        "uri": "http://web.archive.org/web/20161029212129/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-11-04T21:49:52Z",
+        "uri": "http://web.archive.org/web/20161104214952/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-06T08:24:53Z",
+        "uri": "http://web.archive.org/web/20161106082453/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-11-08T03:08:02Z",
+        "uri": "http://web.archive.org/web/20161108030802/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-08T04:44:55Z",
+        "uri": "http://web.archive.org/web/20161108044455/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-13T23:25:14Z",
+        "uri": "http://web.archive.org/web/20161113232514/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-11-16T04:26:57Z",
+        "uri": "http://web.archive.org/web/20161116042657/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-17T06:54:53Z",
+        "uri": "http://web.archive.org/web/20161117065453/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-19T02:55:25Z",
+        "uri": "http://web.archive.org/web/20161119025525/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-11-20T11:17:16Z",
+        "uri": "http://web.archive.org/web/20161120111716/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-11-20T11:17:16Z",
+        "uri": "http://web.archive.org/web/20161120111716/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2016-11-23T00:36:17Z",
+        "uri": "http://web.archive.org/web/20161123003617/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-23T02:33:34Z",
+        "uri": "http://web.archive.org/web/20161123023334/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-24T03:09:21Z",
+        "uri": "http://web.archive.org/web/20161124030921/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-24T09:29:49Z",
+        "uri": "http://web.archive.org/web/20161124092949/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-25T02:04:34Z",
+        "uri": "http://web.archive.org/web/20161125020434/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-25T04:01:49Z",
+        "uri": "http://web.archive.org/web/20161125040149/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-29T08:19:17Z",
+        "uri": "http://web.archive.org/web/20161129081917/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2016-11-29T08:19:18Z",
+        "uri": "http://web.archive.org/web/20161129081918/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-01-02T21:41:44Z",
+        "uri": "http://web.archive.org/web/20170102214144/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2017-01-13T00:32:44Z",
+        "uri": "http://web.archive.org/web/20170113003244/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-01-13T00:49:07Z",
+        "uri": "http://web.archive.org/web/20170113004907/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-01-20T05:08:18Z",
+        "uri": "http://web.archive.org/web/20170120050818/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-01-29T10:37:09Z",
+        "uri": "http://web.archive.org/web/20170129103709/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-01-29T11:18:19Z",
+        "uri": "http://web.archive.org/web/20170129111819/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-03-18T13:46:13Z",
+        "uri": "http://web.archive.org/web/20170318134613/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-03-25T08:29:31Z",
+        "uri": "http://web.archive.org/web/20170325082931/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-03-26T12:51:27Z",
+        "uri": "http://web.archive.org/web/20170326125127/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-03-29T20:35:14Z",
+        "uri": "http://web.archive.org/web/20170329203514/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-04-04T00:22:52Z",
+        "uri": "http://web.archive.org/web/20170404002252/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-04-12T16:31:36Z",
+        "uri": "http://web.archive.org/web/20170412163136/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-04-18T12:37:01Z",
+        "uri": "http://web.archive.org/web/20170418123701/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-04-22T13:31:56Z",
+        "uri": "http://web.archive.org/web/20170422133156/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-05-07T17:59:15Z",
+        "uri": "http://web.archive.org/web/20170507175915/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-05-17T01:40:41Z",
+        "uri": "http://web.archive.org/web/20170517014041/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-05-17T03:45:16Z",
+        "uri": "http://web.archive.org/web/20170517034516/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2017-05-18T10:32:39Z",
+        "uri": "http://web.archive.org/web/20170518103239/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2017-05-26T19:11:34Z",
+        "uri": "http://web.archive.org/web/20170526191134/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-05-27T16:04:40Z",
+        "uri": "http://web.archive.org/web/20170527160440/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-05-28T15:13:15Z",
+        "uri": "http://web.archive.org/web/20170528151315/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-01T13:13:18Z",
+        "uri": "http://web.archive.org/web/20170601131318/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-02T04:24:15Z",
+        "uri": "http://web.archive.org/web/20170602042415/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-03T00:45:34Z",
+        "uri": "http://web.archive.org/web/20170603004534/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-03T00:53:46Z",
+        "uri": "http://web.archive.org/web/20170603005346/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-03T00:58:45Z",
+        "uri": "http://web.archive.org/web/20170603005845/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-03T01:09:01Z",
+        "uri": "http://web.archive.org/web/20170603010901/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-04T04:59:24Z",
+        "uri": "http://web.archive.org/web/20170604045924/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-06T08:06:53Z",
+        "uri": "http://web.archive.org/web/20170606080653/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-06T12:11:06Z",
+        "uri": "http://web.archive.org/web/20170606121106/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-06-09T05:50:11Z",
+        "uri": "http://web.archive.org/web/20170609055011/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-06-19T10:01:47Z",
+        "uri": "http://web.archive.org/web/20170619100147/http://www.footballfancast.com:80/?"
+      },
+      {
+        "datetime": "2017-06-24T09:01:45Z",
+        "uri": "http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-06-24T09:01:48Z",
+        "uri": "https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-02T00:48:10Z",
+        "uri": "http://wayback.archive-it.org/all/20170702004810/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-02T00:48:10Z",
+        "uri": "http://web.archive.org/web/20170702004810/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-02T06:57:35Z",
+        "uri": "http://wayback.archive-it.org/all/20170702065735/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-02T06:57:35Z",
+        "uri": "http://web.archive.org/web/20170702065735/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-02T08:09:33Z",
+        "uri": "http://wayback.archive-it.org/all/20170702080933/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-02T08:09:33Z",
+        "uri": "http://web.archive.org/web/20170702080933/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-04T01:23:20Z",
+        "uri": "http://web.archive.org/web/20170704012320/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-09T06:37:30Z",
+        "uri": "http://wayback.archive-it.org/all/20170709063730/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-09T06:37:30Z",
+        "uri": "http://web.archive.org/web/20170709063730/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-09T06:37:33Z",
+        "uri": "http://wayback.archive-it.org/all/20170709063733/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-09T06:37:33Z",
+        "uri": "http://web.archive.org/web/20170709063733/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-09T06:37:34Z",
+        "uri": "http://wayback.archive-it.org/all/20170709063734/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-09T06:37:34Z",
+        "uri": "http://web.archive.org/web/20170709063734/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-09T10:32:52Z",
+        "uri": "http://web.archive.org/web/20170709103252/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-10T22:41:28Z",
+        "uri": "http://wayback.archive-it.org/all/20170710224128/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-10T22:41:28Z",
+        "uri": "http://web.archive.org/web/20170710224128/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-13T19:06:53Z",
+        "uri": "http://web.archive.org/web/20170713190653/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-07-15T17:35:09Z",
+        "uri": "http://web.archive.org/web/20170715173509/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-15T17:35:13Z",
+        "uri": "http://web.archive.org/web/20170715173513/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-16T06:15:49Z",
+        "uri": "http://wayback.archive-it.org/all/20170716061549/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-16T06:15:49Z",
+        "uri": "http://web.archive.org/web/20170716061549/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-16T06:15:53Z",
+        "uri": "http://wayback.archive-it.org/all/20170716061553/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-16T06:15:53Z",
+        "uri": "http://web.archive.org/web/20170716061553/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-16T06:16:08Z",
+        "uri": "http://wayback.archive-it.org/all/20170716061608/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-16T06:16:08Z",
+        "uri": "http://web.archive.org/web/20170716061608/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-07-17T02:58:28Z",
+        "uri": "http://web.archive.org/web/20170717025828/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-07-26T11:05:06Z",
+        "uri": "http://web.archive.org/web/20170726110506/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-08-01T22:39:35Z",
+        "uri": "http://wayback.archive-it.org/all/20170801223935/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-01T22:39:35Z",
+        "uri": "http://web.archive.org/web/20170801223935/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-01T22:39:39Z",
+        "uri": "http://wayback.archive-it.org/all/20170801223939/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-01T22:39:39Z",
+        "uri": "http://web.archive.org/web/20170801223939/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-02T05:00:07Z",
+        "uri": "http://wayback.archive-it.org/all/20170802050007/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-02T05:00:07Z",
+        "uri": "http://web.archive.org/web/20170802050007/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-06T07:09:46Z",
+        "uri": "http://wayback.archive-it.org/all/20170806070946/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-06T07:09:46Z",
+        "uri": "http://web.archive.org/web/20170806070946/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-06T07:09:49Z",
+        "uri": "http://wayback.archive-it.org/all/20170806070949/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-06T07:09:49Z",
+        "uri": "http://web.archive.org/web/20170806070949/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-06T07:09:52Z",
+        "uri": "http://wayback.archive-it.org/all/20170806070952/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-06T07:09:52Z",
+        "uri": "http://web.archive.org/web/20170806070952/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-07T15:12:44Z",
+        "uri": "http://wayback.archive-it.org/all/20170807151244/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-07T15:12:44Z",
+        "uri": "http://web.archive.org/web/20170807151244/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-07T15:12:46Z",
+        "uri": "http://wayback.archive-it.org/all/20170807151246/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-07T15:12:46Z",
+        "uri": "http://web.archive.org/web/20170807151246/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-07T15:17:41Z",
+        "uri": "http://wayback.archive-it.org/all/20170807151741/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-07T15:17:41Z",
+        "uri": "http://web.archive.org/web/20170807151741/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-17T01:02:24Z",
+        "uri": "http://web.archive.org/web/20170817010224/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-08-20T06:10:55Z",
+        "uri": "http://wayback.archive-it.org/all/20170820061055/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-20T06:10:55Z",
+        "uri": "http://web.archive.org/web/20170820061055/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-20T06:11:08Z",
+        "uri": "http://wayback.archive-it.org/all/20170820061108/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-20T06:11:08Z",
+        "uri": "http://web.archive.org/web/20170820061108/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-20T06:11:10Z",
+        "uri": "http://wayback.archive-it.org/all/20170820061110/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-20T06:11:10Z",
+        "uri": "http://web.archive.org/web/20170820061110/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-22T23:09:33Z",
+        "uri": "http://web.archive.org/web/20170822230933/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-23T00:21:32Z",
+        "uri": "http://web.archive.org/web/20170823002132/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-23T09:53:05Z",
+        "uri": "http://web.archive.org/web/20170823095305/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-27T06:19:54Z",
+        "uri": "http://wayback.archive-it.org/all/20170827061954/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-27T06:19:54Z",
+        "uri": "http://web.archive.org/web/20170827061954/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-27T06:19:57Z",
+        "uri": "http://wayback.archive-it.org/all/20170827061957/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-27T06:19:57Z",
+        "uri": "http://web.archive.org/web/20170827061957/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-27T06:19:59Z",
+        "uri": "http://wayback.archive-it.org/all/20170827061959/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-27T06:19:59Z",
+        "uri": "http://web.archive.org/web/20170827061959/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-08-30T04:57:13Z",
+        "uri": "http://web.archive.org/web/20170830045713/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-02T01:28:09Z",
+        "uri": "http://web.archive.org/web/20170902012809/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-10T05:46:58Z",
+        "uri": "http://wayback.archive-it.org/all/20170910054658/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-10T05:46:58Z",
+        "uri": "http://web.archive.org/web/20170910054658/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-10T05:47:01Z",
+        "uri": "http://wayback.archive-it.org/all/20170910054701/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-10T05:47:01Z",
+        "uri": "http://web.archive.org/web/20170910054701/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-10T05:47:03Z",
+        "uri": "http://wayback.archive-it.org/all/20170910054703/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-10T05:47:03Z",
+        "uri": "http://web.archive.org/web/20170910054703/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-10T05:53:21Z",
+        "uri": "http://web.archive.org/web/20170910055321/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-13T10:50:16Z",
+        "uri": "http://web.archive.org/web/20170913105016/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-13T23:11:00Z",
+        "uri": "http://web.archive.org/web/20170913231100/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-13T23:11:04Z",
+        "uri": "http://web.archive.org/web/20170913231104/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-13T23:11:06Z",
+        "uri": "http://web.archive.org/web/20170913231106/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-17T20:20:42Z",
+        "uri": "http://web.archive.org/web/20170917202042/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-09-20T07:57:25Z",
+        "uri": "http://web.archive.org/web/20170920075725/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-24T08:02:11Z",
+        "uri": "http://wayback.archive-it.org/all/20170924080211/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-24T08:02:11Z",
+        "uri": "http://web.archive.org/web/20170924080211/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-24T08:02:14Z",
+        "uri": "http://wayback.archive-it.org/all/20170924080214/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-24T08:02:14Z",
+        "uri": "http://web.archive.org/web/20170924080214/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-24T08:02:20Z",
+        "uri": "http://wayback.archive-it.org/all/20170924080220/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-24T08:02:20Z",
+        "uri": "http://web.archive.org/web/20170924080220/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-09-25T03:15:39Z",
+        "uri": "http://web.archive.org/web/20170925031539/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-10-01T23:21:22Z",
+        "uri": "http://web.archive.org/web/20171001232122/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-10-18T22:11:17Z",
+        "uri": "http://web.archive.org/web/20171018221117/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-11-09T20:23:42Z",
+        "uri": "http://web.archive.org/web/20171109202342/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-11-09T20:23:51Z",
+        "uri": "http://web.archive.org/web/20171109202351/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-11-09T20:23:52Z",
+        "uri": "http://web.archive.org/web/20171109202352/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-11-11T08:46:42Z",
+        "uri": "http://web.archive.org/web/20171111084642/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-11-11T08:46:47Z",
+        "uri": "http://web.archive.org/web/20171111084647/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-11-11T08:46:48Z",
+        "uri": "http://web.archive.org/web/20171111084648/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-11-19T17:49:52Z",
+        "uri": "http://web.archive.org/web/20171119174952/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-11-19T21:18:31Z",
+        "uri": "http://web.archive.org/web/20171119211831/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-11-24T22:01:01Z",
+        "uri": "http://web.archive.org/web/20171124220101/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2017-12-06T16:22:27Z",
+        "uri": "http://web.archive.org/web/20171206162227/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-12-06T16:22:33Z",
+        "uri": "http://web.archive.org/web/20171206162233/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-12-06T16:22:33Z",
+        "uri": "http://web.archive.org/web/20171206162233/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-12-15T10:23:53Z",
+        "uri": "http://web.archive.org/web/20171215102353/http://FootballFanCast.com"
+      },
+      {
+        "datetime": "2017-12-15T10:24:08Z",
+        "uri": "http://web.archive.org/web/20171215102408/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2017-12-15T10:24:11Z",
+        "uri": "http://web.archive.org/web/20171215102411/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2017-12-21T05:16:31Z",
+        "uri": "http://web.archive.org/web/20171221051631/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-01-21T08:04:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180121080453/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-01-21T08:04:53Z",
+        "uri": "http://web.archive.org/web/20180121080453/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-01-21T08:04:56Z",
+        "uri": "http://wayback.archive-it.org/all/20180121080456/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-01-21T08:04:56Z",
+        "uri": "http://web.archive.org/web/20180121080456/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-01-21T08:04:57Z",
+        "uri": "http://wayback.archive-it.org/all/20180121080457/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-01-21T08:04:57Z",
+        "uri": "http://web.archive.org/web/20180121080457/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-01-21T08:19:25Z",
+        "uri": "http://web.archive.org/web/20180121081925/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-01-25T10:37:41Z",
+        "uri": "http://web.archive.org/web/20180125103741/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-01-26T00:35:37Z",
+        "uri": "http://web.archive.org/web/20180126003537/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-01-30T04:35:20Z",
+        "uri": "http://web.archive.org/web/20180130043520/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-02T04:23:29Z",
+        "uri": "http://web.archive.org/web/20180202042329/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-03T20:41:48Z",
+        "uri": "http://web.archive.org/web/20180203204148/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-03T20:41:49Z",
+        "uri": "http://web.archive.org/web/20180203204149/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-03T20:41:55Z",
+        "uri": "http://web.archive.org/web/20180203204155/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-21T20:38:32Z",
+        "uri": "http://web.archive.org/web/20180221203832/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-21T20:38:38Z",
+        "uri": "http://web.archive.org/web/20180221203838/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-21T20:38:44Z",
+        "uri": "http://web.archive.org/web/20180221203844/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-23T21:29:01Z",
+        "uri": "http://web.archive.org/web/20180223212901/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-02-24T03:06:38Z",
+        "uri": "http://web.archive.org/web/20180224030638/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-24T04:18:21Z",
+        "uri": "http://web.archive.org/web/20180224041821/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-02-24T10:00:10Z",
+        "uri": "http://web.archive.org/web/20180224100010/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-04T08:17:47Z",
+        "uri": "http://wayback.archive-it.org/all/20180304081747/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-04T08:17:47Z",
+        "uri": "http://web.archive.org/web/20180304081747/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-04T08:17:50Z",
+        "uri": "http://wayback.archive-it.org/all/20180304081750/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-04T08:17:50Z",
+        "uri": "http://web.archive.org/web/20180304081750/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-04T08:17:53Z",
+        "uri": "http://wayback.archive-it.org/all/20180304081753/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-04T08:17:53Z",
+        "uri": "http://web.archive.org/web/20180304081753/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-18T03:23:11Z",
+        "uri": "http://web.archive.org/web/20180318032311/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-18T10:14:51Z",
+        "uri": "http://web.archive.org/web/20180318101451/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-25T03:47:53Z",
+        "uri": "http://web.archive.org/web/20180325034753/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-25T10:39:02Z",
+        "uri": "http://web.archive.org/web/20180325103902/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-03-27T04:18:45Z",
+        "uri": "http://web.archive.org/web/20180327041845/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-03-27T17:40:25Z",
+        "uri": "http://web.archive.org/web/20180327174025/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-04-01T03:49:55Z",
+        "uri": "http://web.archive.org/web/20180401034955/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-01T10:41:10Z",
+        "uri": "http://web.archive.org/web/20180401104110/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-08T03:30:30Z",
+        "uri": "http://web.archive.org/web/20180408033030/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-08T10:22:06Z",
+        "uri": "http://web.archive.org/web/20180408102206/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T07:22:25Z",
+        "uri": "http://wayback.archive-it.org/all/20180415072225/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T07:22:25Z",
+        "uri": "http://web.archive.org/web/20180415072225/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T07:22:28Z",
+        "uri": "http://wayback.archive-it.org/all/20180415072228/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T07:22:28Z",
+        "uri": "http://web.archive.org/web/20180415072228/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T07:22:39Z",
+        "uri": "http://wayback.archive-it.org/all/20180415072239/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T07:22:39Z",
+        "uri": "http://web.archive.org/web/20180415072239/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T10:29:50Z",
+        "uri": "http://web.archive.org/web/20180415102950/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-15T10:39:01Z",
+        "uri": "http://web.archive.org/web/20180415103901/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-22T10:23:34Z",
+        "uri": "http://web.archive.org/web/20180422102334/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-22T10:33:20Z",
+        "uri": "http://web.archive.org/web/20180422103320/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-29T10:35:01Z",
+        "uri": "http://web.archive.org/web/20180429103501/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-29T10:44:25Z",
+        "uri": "http://web.archive.org/web/20180429104425/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-04-29T17:55:18Z",
+        "uri": "http://web.archive.org/web/20180429175518/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-04-30T20:31:31Z",
+        "uri": "http://web.archive.org/web/20180430203131/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-05-06T03:48:16Z",
+        "uri": "http://web.archive.org/web/20180506034816/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-06T10:39:34Z",
+        "uri": "http://web.archive.org/web/20180506103934/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-11T13:10:50Z",
+        "uri": "http://web.archive.org/web/20180511131050/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-13T11:07:08Z",
+        "uri": "http://web.archive.org/web/20180513110708/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-13T11:15:45Z",
+        "uri": "http://web.archive.org/web/20180513111545/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-20T13:26:59Z",
+        "uri": "http://web.archive.org/web/20180520132659/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-20T13:36:00Z",
+        "uri": "http://web.archive.org/web/20180520133600/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-23T09:32:55Z",
+        "uri": "http://web.archive.org/web/20180523093255/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-23T09:33:00Z",
+        "uri": "http://web.archive.org/web/20180523093300/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-23T09:33:04Z",
+        "uri": "http://web.archive.org/web/20180523093304/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-27T10:42:24Z",
+        "uri": "http://web.archive.org/web/20180527104224/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-27T10:51:41Z",
+        "uri": "http://web.archive.org/web/20180527105141/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-05-27T20:43:42Z",
+        "uri": "http://web.archive.org/web/20180527204342/http://footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-06-02T10:09:36Z",
+        "uri": "http://web.archive.org/web/20180602100936/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-06-03T03:37:57Z",
+        "uri": "http://web.archive.org/web/20180603033757/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-03T03:54:19Z",
+        "uri": "http://web.archive.org/web/20180603035419/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-16T04:43:49Z",
+        "uri": "http://web.archive.org/web/20180616044349/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-16T11:33:39Z",
+        "uri": "http://web.archive.org/web/20180616113339/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-17T03:25:34Z",
+        "uri": "http://web.archive.org/web/20180617032534/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-17T03:34:42Z",
+        "uri": "http://web.archive.org/web/20180617033442/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-23T00:49:22Z",
+        "uri": "http://web.archive.org/web/20180623004922/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-23T00:59:27Z",
+        "uri": "http://web.archive.org/web/20180623005927/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-24T03:35:49Z",
+        "uri": "http://web.archive.org/web/20180624033549/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-24T03:44:51Z",
+        "uri": "http://web.archive.org/web/20180624034451/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-06-26T13:52:17Z",
+        "uri": "http://web.archive.org/web/20180626135217/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-01T03:31:08Z",
+        "uri": "http://web.archive.org/web/20180701033108/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-01T10:22:16Z",
+        "uri": "http://web.archive.org/web/20180701102216/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-03T13:50:29Z",
+        "uri": "http://web.archive.org/web/20180703135029/http://www.footballfancast.com:80/"
+      },
+      {
+        "datetime": "2018-07-06T14:51:27Z",
+        "uri": "http://web.archive.org/web/20180706145127/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T08:24:05Z",
+        "uri": "http://wayback.archive-it.org/all/20180708082405/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T08:24:05Z",
+        "uri": "http://web.archive.org/web/20180708082405/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T08:24:09Z",
+        "uri": "http://wayback.archive-it.org/all/20180708082409/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T08:24:09Z",
+        "uri": "http://web.archive.org/web/20180708082409/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T08:24:18Z",
+        "uri": "http://wayback.archive-it.org/all/20180708082418/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T08:24:18Z",
+        "uri": "http://web.archive.org/web/20180708082418/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T10:19:31Z",
+        "uri": "http://web.archive.org/web/20180708101931/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-08T10:29:52Z",
+        "uri": "http://web.archive.org/web/20180708102952/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-12T05:44:33Z",
+        "uri": "http://web.archive.org/web/20180712054433/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-12T05:44:33Z",
+        "uri": "http://web.archive.org/web/20180712054433/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-13T04:41:48Z",
+        "uri": "http://web.archive.org/web/20180713044148/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-13T04:41:49Z",
+        "uri": "http://web.archive.org/web/20180713044149/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-15T04:28:28Z",
+        "uri": "http://web.archive.org/web/20180715042828/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-15T04:28:32Z",
+        "uri": "http://web.archive.org/web/20180715042832/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-19T14:53:43Z",
+        "uri": "http://web.archive.org/web/20180719145343/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-19T15:04:28Z",
+        "uri": "http://web.archive.org/web/20180719150428/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-22T03:48:07Z",
+        "uri": "http://web.archive.org/web/20180722034807/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-22T10:39:30Z",
+        "uri": "http://web.archive.org/web/20180722103930/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-29T03:45:04Z",
+        "uri": "http://web.archive.org/web/20180729034504/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-29T10:55:25Z",
+        "uri": "http://web.archive.org/web/20180729105525/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-07-31T09:09:30Z",
+        "uri": "http://web.archive.org/web/20180731090930/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-04T19:04:06Z",
+        "uri": "http://web.archive.org/web/20180804190406/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-04T19:19:19Z",
+        "uri": "http://web.archive.org/web/20180804191919/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-04T19:24:44Z",
+        "uri": "http://web.archive.org/web/20180804192444/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-04T19:24:46Z",
+        "uri": "http://web.archive.org/web/20180804192446/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-04T20:22:26Z",
+        "uri": "http://web.archive.org/web/20180804202226/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-05T10:44:03Z",
+        "uri": "http://web.archive.org/web/20180805104403/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-05T13:11:03Z",
+        "uri": "http://web.archive.org/web/20180805131103/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-05T19:54:20Z",
+        "uri": "http://web.archive.org/web/20180805195420/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-06T04:18:29Z",
+        "uri": "http://web.archive.org/web/20180806041829/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-08T00:23:36Z",
+        "uri": "http://web.archive.org/web/20180808002336/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-08T05:14:23Z",
+        "uri": "http://web.archive.org/web/20180808051423/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-08T05:14:24Z",
+        "uri": "http://web.archive.org/web/20180808051424/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-08T20:02:38Z",
+        "uri": "http://web.archive.org/web/20180808200238/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-08T20:02:40Z",
+        "uri": "http://web.archive.org/web/20180808200240/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-11T19:34:27Z",
+        "uri": "http://web.archive.org/web/20180811193427/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-11T19:34:35Z",
+        "uri": "http://web.archive.org/web/20180811193435/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-12T10:32:06Z",
+        "uri": "http://web.archive.org/web/20180812103206/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-12T13:53:33Z",
+        "uri": "http://web.archive.org/web/20180812135333/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-16T01:02:21Z",
+        "uri": "http://web.archive.org/web/20180816010221/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-16T01:24:20Z",
+        "uri": "http://web.archive.org/web/20180816012420/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-19T10:54:08Z",
+        "uri": "http://web.archive.org/web/20180819105408/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-19T11:04:00Z",
+        "uri": "http://web.archive.org/web/20180819110400/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-19T11:57:13Z",
+        "uri": "http://web.archive.org/web/20180819115713/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-20T08:45:31Z",
+        "uri": "http://web.archive.org/web/20180820084531/https://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-26T04:15:44Z",
+        "uri": "http://web.archive.org/web/20180826041544/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-26T08:34:05Z",
+        "uri": "http://web.archive.org/web/20180826083405/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-08-26T11:05:50Z",
+        "uri": "http://web.archive.org/web/20180826110550/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-02T04:01:54Z",
+        "uri": "http://web.archive.org/web/20180902040154/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-02T10:51:13Z",
+        "uri": "http://web.archive.org/web/20180902105113/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-05T08:04:45Z",
+        "uri": "http://web.archive.org/web/20180905080445/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-09T10:48:11Z",
+        "uri": "http://web.archive.org/web/20180909104811/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-09T10:58:18Z",
+        "uri": "http://web.archive.org/web/20180909105818/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-16T03:12:59Z",
+        "uri": "http://web.archive.org/web/20180916031259/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-16T11:31:25Z",
+        "uri": "http://web.archive.org/web/20180916113125/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-23T21:02:43Z",
+        "uri": "http://web.archive.org/web/20180923210243/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-24T03:53:00Z",
+        "uri": "http://web.archive.org/web/20180924035300/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-30T03:55:16Z",
+        "uri": "http://web.archive.org/web/20180930035516/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-09-30T13:32:32Z",
+        "uri": "http://web.archive.org/web/20180930133232/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-07T10:45:19Z",
+        "uri": "http://web.archive.org/web/20181007104519/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-07T10:55:10Z",
+        "uri": "http://web.archive.org/web/20181007105510/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-14T10:36:16Z",
+        "uri": "http://web.archive.org/web/20181014103616/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-14T10:45:14Z",
+        "uri": "http://web.archive.org/web/20181014104514/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-21T10:25:56Z",
+        "uri": "http://web.archive.org/web/20181021102556/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-21T11:12:10Z",
+        "uri": "http://web.archive.org/web/20181021111210/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-28T10:33:11Z",
+        "uri": "http://web.archive.org/web/20181028103311/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-10-28T10:43:01Z",
+        "uri": "http://web.archive.org/web/20181028104301/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-04T11:23:01Z",
+        "uri": "http://web.archive.org/web/20181104112301/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-04T11:35:04Z",
+        "uri": "http://web.archive.org/web/20181104113504/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-11T10:51:25Z",
+        "uri": "http://web.archive.org/web/20181111105125/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-11T11:01:50Z",
+        "uri": "http://web.archive.org/web/20181111110150/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-12T13:14:15Z",
+        "uri": "http://web.archive.org/web/20181112131415/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-13T12:30:29Z",
+        "uri": "http://web.archive.org/web/20181113123029/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-15T16:53:12Z",
+        "uri": "http://web.archive.org/web/20181115165312/https://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-18T10:04:06Z",
+        "uri": "http://web.archive.org/web/20181118100406/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-18T10:12:31Z",
+        "uri": "http://web.archive.org/web/20181118101231/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-25T10:33:48Z",
+        "uri": "http://web.archive.org/web/20181125103348/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-11-25T10:39:56Z",
+        "uri": "http://web.archive.org/web/20181125103956/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-02T10:26:37Z",
+        "uri": "http://web.archive.org/web/20181202102637/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-02T11:03:55Z",
+        "uri": "http://web.archive.org/web/20181202110355/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-09T09:20:22Z",
+        "uri": "http://web.archive.org/web/20181209092022/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-09T10:55:13Z",
+        "uri": "http://web.archive.org/web/20181209105513/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-13T09:27:13Z",
+        "uri": "http://web.archive.org/web/20181213092713/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-13T09:39:30Z",
+        "uri": "http://web.archive.org/web/20181213093930/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-16T10:11:24Z",
+        "uri": "http://web.archive.org/web/20181216101124/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-16T10:20:20Z",
+        "uri": "http://web.archive.org/web/20181216102020/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-23T10:47:45Z",
+        "uri": "http://web.archive.org/web/20181223104745/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-23T10:57:32Z",
+        "uri": "http://web.archive.org/web/20181223105732/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-24T20:35:56Z",
+        "uri": "http://web.archive.org/web/20181224203556/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-24T20:45:07Z",
+        "uri": "http://web.archive.org/web/20181224204507/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-30T10:04:29Z",
+        "uri": "http://web.archive.org/web/20181230100429/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2018-12-30T10:13:39Z",
+        "uri": "http://web.archive.org/web/20181230101339/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-04T06:03:25Z",
+        "uri": "http://web.archive.org/web/20190104060325/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-04T06:13:56Z",
+        "uri": "http://web.archive.org/web/20190104061356/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-06T10:15:04Z",
+        "uri": "http://web.archive.org/web/20190106101504/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-06T10:23:32Z",
+        "uri": "http://web.archive.org/web/20190106102332/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-13T10:23:55Z",
+        "uri": "http://web.archive.org/web/20190113102355/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-13T10:33:21Z",
+        "uri": "http://web.archive.org/web/20190113103321/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-21T00:30:41Z",
+        "uri": "http://web.archive.org/web/20190121003041/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-21T00:43:32Z",
+        "uri": "http://web.archive.org/web/20190121004332/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-27T03:42:27Z",
+        "uri": "http://web.archive.org/web/20190127034227/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-27T03:51:34Z",
+        "uri": "http://web.archive.org/web/20190127035134/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-31T18:23:43Z",
+        "uri": "http://web.archive.org/web/20190131182343/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-01-31T18:32:42Z",
+        "uri": "http://web.archive.org/web/20190131183242/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-02-03T03:13:56Z",
+        "uri": "http://web.archive.org/web/20190203031356/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-02-03T03:23:02Z",
+        "uri": "http://web.archive.org/web/20190203032302/http://www.footballfancast.com/"
+      },
+      {
+        "datetime": "2019-02-10T03:37:31Z",
+        "uri": "http://web.archive.org/web/20190210033731/http://footballfancast.com/"
+      },
+      {
+        "datetime": "2019-02-10T03:47:39Z",
+        "uri": "http://web.archive.org/web/20190210034739/http://www.footballfancast.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2007-01-09T15:41:15Z",
+      "uri": "http://web.archive.org/web/20070109154115/http://www.footballfancast.com:80/"
+    },
+    "last": {
+      "datetime": "2019-02-10T03:47:39Z",
+      "uri": "http://web.archive.org/web/20190210034739/http://www.footballfancast.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.footballfancast.com/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.footballfancast.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.footballfancast.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.footballfancast.com/"
+}

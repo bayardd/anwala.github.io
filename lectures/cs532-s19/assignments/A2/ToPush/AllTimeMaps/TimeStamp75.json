@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737",
+  "self": "http://localhost:1208/timemap/json/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:47:38Z",
+        "uri": "http://web.archive.org/web/20190215054738/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737"
+      },
+      {
+        "datetime": "2019-02-15T14:32:50Z",
+        "uri": "http://web.archive.org/web/20190215143250/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:47:38Z",
+      "uri": "http://web.archive.org/web/20190215054738/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:32:50Z",
+      "uri": "http://web.archive.org/web/20190215143250/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737",
+    "json_format": "http://localhost:1208/timemap/json/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.stripes.com/news/us/what-s-in-the-1-169-page-border-security-bill-to-avert-a-government-shutdown-1.568737"
+}

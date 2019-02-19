@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/",
+  "self": "http://localhost:1208/timemap/json/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T02:56:02Z",
+        "uri": "http://web.archive.org/web/20190215025602/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T02:56:02Z",
+      "uri": "http://web.archive.org/web/20190215025602/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/"
+    },
+    "last": {
+      "datetime": "2019-02-15T02:56:02Z",
+      "uri": "http://web.archive.org/web/20190215025602/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/",
+    "json_format": "http://localhost:1208/timemap/json/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://abc7news.com/politics/pres-trump-to-sign-bill-averting-shutdown-declare-national-emergency/5138972/"
+}

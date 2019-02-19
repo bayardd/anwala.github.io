@@ -1,0 +1,26 @@
+{
+  "original_uri": "http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php%0A",
+  "self": "http://localhost:1208/timemap/json/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-11T22:15:50Z",
+        "uri": "http://web.archive.org/web/20190211221550/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-11T22:15:50Z",
+      "uri": "http://web.archive.org/web/20190211221550/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php"
+    },
+    "last": {
+      "datetime": "2019-02-11T22:15:50Z",
+      "uri": "http://web.archive.org/web/20190211221550/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php%0A",
+    "json_format": "http://localhost:1208/timemap/json/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.gamasutra.com/view/news/336381/Activision_offers_to_refund_some_Guitar_Hero_Live_players_following_GHTV_shutdown.php%0A"
+}

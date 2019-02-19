@@ -1,0 +1,522 @@
+{
+  "original_uri": "https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148",
+  "self": "http://localhost:1208/timemap/json/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-06-28T05:21:09Z",
+        "uri": "http://web.archive.org/web/20180628052109/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-06-28T18:44:40Z",
+        "uri": "http://wayback.archive-it.org/all/20180628184440/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-06-28T18:44:40Z",
+        "uri": "http://web.archive.org/web/20180628184440/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-06-29T22:46:08Z",
+        "uri": "http://wayback.archive-it.org/all/20180629224608/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-06-29T22:46:08Z",
+        "uri": "http://web.archive.org/web/20180629224608/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-01T11:35:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180701113503/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-01T11:35:03Z",
+        "uri": "http://web.archive.org/web/20180701113503/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-01T23:28:02Z",
+        "uri": "http://wayback.archive-it.org/all/20180701232802/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-01T23:28:02Z",
+        "uri": "http://web.archive.org/web/20180701232802/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-02T00:30:08Z",
+        "uri": "http://web.archive.org/web/20180702003008/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-02T23:14:15Z",
+        "uri": "http://wayback.archive-it.org/all/20180702231415/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-02T23:14:15Z",
+        "uri": "http://web.archive.org/web/20180702231415/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-03T22:44:03Z",
+        "uri": "http://wayback.archive-it.org/all/20180703224403/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-03T22:44:03Z",
+        "uri": "http://web.archive.org/web/20180703224403/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-07-12T19:49:58Z",
+        "uri": "http://web.archive.org/web/20180712194958/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-08-13T21:56:20Z",
+        "uri": "http://wayback.archive-it.org/all/20180813215620/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-08-13T21:56:20Z",
+        "uri": "http://web.archive.org/web/20180813215620/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-08-16T18:31:21Z",
+        "uri": "http://web.archive.org/web/20180816183121/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-08-19T04:45:10Z",
+        "uri": "http://web.archive.org/web/20180819044510/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-08-31T01:47:27Z",
+        "uri": "http://wayback.archive-it.org/all/20180831014727/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-08-31T01:47:27Z",
+        "uri": "http://web.archive.org/web/20180831014727/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-09-11T13:59:11Z",
+        "uri": "http://wayback.archive-it.org/all/20180911135911/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-09-11T13:59:11Z",
+        "uri": "http://web.archive.org/web/20180911135911/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-09-21T11:54:52Z",
+        "uri": "http://web.archive.org/web/20180921115452/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-10-23T08:31:14Z",
+        "uri": "http://archive.md/20181023083114/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-10-24T19:00:27Z",
+        "uri": "http://web.archive.org/web/20181024190027/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-10-25T20:23:37Z",
+        "uri": "http://web.archive.org/web/20181025202337/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-10-28T07:10:21Z",
+        "uri": "http://wayback.archive-it.org/all/20181028071021/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-10-28T07:10:21Z",
+        "uri": "http://web.archive.org/web/20181028071021/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-11-02T16:35:06Z",
+        "uri": "http://web.archive.org/web/20181102163506/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-11-27T04:28:51Z",
+        "uri": "http://wayback.archive-it.org/all/20181127042851/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-11-27T04:28:51Z",
+        "uri": "http://web.archive.org/web/20181127042851/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-11-29T19:31:38Z",
+        "uri": "http://web.archive.org/web/20181129193138/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-01T08:37:08Z",
+        "uri": "http://wayback.archive-it.org/all/20181201083708/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-01T08:37:08Z",
+        "uri": "http://web.archive.org/web/20181201083708/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-04T11:34:18Z",
+        "uri": "http://wayback.archive-it.org/all/20181204113418/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-04T11:34:18Z",
+        "uri": "http://web.archive.org/web/20181204113418/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-05T19:44:00Z",
+        "uri": "http://wayback.archive-it.org/all/20181205194400/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-05T19:44:00Z",
+        "uri": "http://web.archive.org/web/20181205194400/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-05T22:03:27Z",
+        "uri": "http://wayback.archive-it.org/all/20181205220327/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-05T22:03:27Z",
+        "uri": "http://web.archive.org/web/20181205220327/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-06T12:40:43Z",
+        "uri": "http://wayback.archive-it.org/all/20181206124043/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-06T12:40:43Z",
+        "uri": "http://web.archive.org/web/20181206124043/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-12T02:20:37Z",
+        "uri": "http://web.archive.org/web/20181212022037/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-13T05:48:01Z",
+        "uri": "http://wayback.archive-it.org/all/20181213054801/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-13T05:48:01Z",
+        "uri": "http://web.archive.org/web/20181213054801/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-19T06:13:45Z",
+        "uri": "http://wayback.archive-it.org/all/20181219061345/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-19T06:13:45Z",
+        "uri": "http://web.archive.org/web/20181219061345/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-20T09:35:32Z",
+        "uri": "http://wayback.archive-it.org/all/20181220093532/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-20T09:35:32Z",
+        "uri": "http://web.archive.org/web/20181220093532/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-21T06:21:03Z",
+        "uri": "http://wayback.archive-it.org/all/20181221062103/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-21T06:21:03Z",
+        "uri": "http://web.archive.org/web/20181221062103/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-21T12:04:42Z",
+        "uri": "http://web.archive.org/web/20181221120442/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-29T17:12:24Z",
+        "uri": "http://wayback.archive-it.org/all/20181229171224/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2018-12-29T17:12:24Z",
+        "uri": "http://web.archive.org/web/20181229171224/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-05T01:26:22Z",
+        "uri": "http://web.archive.org/web/20190105012622/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-08T02:51:42Z",
+        "uri": "http://web.archive.org/web/20190108025142/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-12T01:18:53Z",
+        "uri": "http://web.archive.org/web/20190112011853/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-12T02:32:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190112023247/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-12T02:32:47Z",
+        "uri": "http://web.archive.org/web/20190112023247/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-16T16:13:49Z",
+        "uri": "http://wayback.archive-it.org/all/20190116161349/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-16T16:13:49Z",
+        "uri": "http://web.archive.org/web/20190116161349/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-18T02:06:41Z",
+        "uri": "http://web.archive.org/web/20190118020641/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-18T02:06:50Z",
+        "uri": "http://web.archive.org/web/20190118020650/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-18T22:13:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190118221324/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-18T22:13:24Z",
+        "uri": "http://web.archive.org/web/20190118221324/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-19T21:58:22Z",
+        "uri": "http://wayback.archive-it.org/all/20190119215822/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-19T21:58:22Z",
+        "uri": "http://web.archive.org/web/20190119215822/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-20T21:49:11Z",
+        "uri": "http://wayback.archive-it.org/all/20190120214911/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-20T21:49:11Z",
+        "uri": "http://web.archive.org/web/20190120214911/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-21T22:28:39Z",
+        "uri": "http://wayback.archive-it.org/all/20190121222839/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-21T22:28:39Z",
+        "uri": "http://web.archive.org/web/20190121222839/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-22T23:56:30Z",
+        "uri": "http://wayback.archive-it.org/all/20190122235630/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-22T23:56:30Z",
+        "uri": "http://web.archive.org/web/20190122235630/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-23T23:15:23Z",
+        "uri": "http://wayback.archive-it.org/all/20190123231523/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-23T23:15:23Z",
+        "uri": "http://web.archive.org/web/20190123231523/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-24T12:08:54Z",
+        "uri": "http://web.archive.org/web/20190124120854/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-24T22:50:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190124225046/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-24T22:50:46Z",
+        "uri": "http://web.archive.org/web/20190124225046/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-25T21:31:08Z",
+        "uri": "http://wayback.archive-it.org/all/20190125213108/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-25T21:31:08Z",
+        "uri": "http://web.archive.org/web/20190125213108/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-26T22:18:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190126221847/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-26T22:18:47Z",
+        "uri": "http://web.archive.org/web/20190126221847/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-27T22:11:45Z",
+        "uri": "http://wayback.archive-it.org/all/20190127221145/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-27T22:11:45Z",
+        "uri": "http://web.archive.org/web/20190127221145/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-28T23:15:55Z",
+        "uri": "http://wayback.archive-it.org/all/20190128231555/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-28T23:15:55Z",
+        "uri": "http://web.archive.org/web/20190128231555/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-29T20:50:15Z",
+        "uri": "http://wayback.archive-it.org/all/20190129205015/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-29T20:50:15Z",
+        "uri": "http://web.archive.org/web/20190129205015/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-30T22:39:24Z",
+        "uri": "http://wayback.archive-it.org/all/20190130223924/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-30T22:39:24Z",
+        "uri": "http://web.archive.org/web/20190130223924/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-31T23:20:50Z",
+        "uri": "http://wayback.archive-it.org/all/20190131232050/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-01-31T23:20:50Z",
+        "uri": "http://web.archive.org/web/20190131232050/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-01T10:52:19Z",
+        "uri": "http://web.archive.org/web/20190201105219/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-02T00:36:31Z",
+        "uri": "http://wayback.archive-it.org/all/20190202003631/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-02T00:36:31Z",
+        "uri": "http://web.archive.org/web/20190202003631/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-02T22:30:38Z",
+        "uri": "http://wayback.archive-it.org/all/20190202223038/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-02T22:30:38Z",
+        "uri": "http://web.archive.org/web/20190202223038/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-03T23:16:45Z",
+        "uri": "http://wayback.archive-it.org/all/20190203231645/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-03T23:16:45Z",
+        "uri": "http://web.archive.org/web/20190203231645/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-04T22:24:34Z",
+        "uri": "http://wayback.archive-it.org/all/20190204222434/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-04T22:24:34Z",
+        "uri": "http://web.archive.org/web/20190204222434/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-06T00:22:39Z",
+        "uri": "http://wayback.archive-it.org/all/20190206002239/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-06T00:22:39Z",
+        "uri": "http://web.archive.org/web/20190206002239/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-06T22:50:58Z",
+        "uri": "http://wayback.archive-it.org/all/20190206225058/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-06T22:50:58Z",
+        "uri": "http://web.archive.org/web/20190206225058/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-07T21:53:27Z",
+        "uri": "http://wayback.archive-it.org/all/20190207215327/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-07T21:53:27Z",
+        "uri": "http://web.archive.org/web/20190207215327/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-08T22:48:53Z",
+        "uri": "http://wayback.archive-it.org/all/20190208224853/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-08T22:48:53Z",
+        "uri": "http://web.archive.org/web/20190208224853/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-09T22:17:02Z",
+        "uri": "http://wayback.archive-it.org/all/20190209221702/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-09T22:17:02Z",
+        "uri": "http://web.archive.org/web/20190209221702/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-10T22:24:48Z",
+        "uri": "http://wayback.archive-it.org/all/20190210222448/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-10T22:24:48Z",
+        "uri": "http://web.archive.org/web/20190210222448/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-11T22:48:55Z",
+        "uri": "http://wayback.archive-it.org/all/20190211224855/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-11T22:48:55Z",
+        "uri": "http://web.archive.org/web/20190211224855/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-12T11:36:57Z",
+        "uri": "http://wayback.archive-it.org/all/20190212113657/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-12T11:36:57Z",
+        "uri": "http://web.archive.org/web/20190212113657/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-12T22:10:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190212221046/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-12T22:10:46Z",
+        "uri": "http://wayback.archive-it.org/all/20190212221046/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-12T22:10:46Z",
+        "uri": "http://web.archive.org/web/20190212221046/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-12T22:10:46Z",
+        "uri": "http://web.archive.org/web/20190212221046/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-13T22:14:25Z",
+        "uri": "http://web.archive.org/web/20190213221425/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-14T22:38:59Z",
+        "uri": "http://web.archive.org/web/20190214223859/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      },
+      {
+        "datetime": "2019-02-15T22:44:52Z",
+        "uri": "http://web.archive.org/web/20190215224452/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+      }
+    ],
+    "first": {
+      "datetime": "2018-06-28T05:21:09Z",
+      "uri": "http://web.archive.org/web/20180628052109/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+    },
+    "last": {
+      "datetime": "2019-02-15T22:44:52Z",
+      "uri": "http://web.archive.org/web/20190215224452/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148",
+    "json_format": "http://localhost:1208/timemap/json/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://medium.com/s/story/timeline-us-intervention-central-america-a9bea9ebc148"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html",
+  "self": "http://localhost:1208/timemap/json/https://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:37:24Z",
+        "uri": "http://web.archive.org/web/20190215123724/https://deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+      },
+      {
+        "datetime": "2019-02-15T12:48:18Z",
+        "uri": "http://web.archive.org/web/20190215124818/http://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+      },
+      {
+        "datetime": "2019-02-15T14:42:34Z",
+        "uri": "http://web.archive.org/web/20190215144234/https://deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+      },
+      {
+        "datetime": "2019-02-15T14:43:57Z",
+        "uri": "http://web.archive.org/web/20190215144357/http://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:37:24Z",
+      "uri": "http://web.archive.org/web/20190215123724/https://deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:43:57Z",
+      "uri": "http://web.archive.org/web/20190215144357/http://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.deccanchronicle.com/sports/badminton/150219/saina-nehwal-parupalli-kashyap-pv-sindhu-senior-national-championships.html"
+}

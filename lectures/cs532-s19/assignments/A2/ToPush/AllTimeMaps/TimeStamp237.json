@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T10:15:34Z",
+        "uri": "http://web.archive.org/web/20190214101534/http://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+      },
+      {
+        "datetime": "2019-02-14T10:52:03Z",
+        "uri": "http://web.archive.org/web/20190214105203/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+      },
+      {
+        "datetime": "2019-02-14T16:00:47Z",
+        "uri": "http://web.archive.org/web/20190214160047/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+      },
+      {
+        "datetime": "2019-02-14T16:25:00Z",
+        "uri": "http://web.archive.org/web/20190214162500/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+      },
+      {
+        "datetime": "2019-02-15T08:35:22Z",
+        "uri": "http://web.archive.org/web/20190215083522/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+      },
+      {
+        "datetime": "2019-02-15T11:45:25Z",
+        "uri": "http://web.archive.org/web/20190215114525/http://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T10:15:34Z",
+      "uri": "http://web.archive.org/web/20190214101534/http://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:45:25Z",
+      "uri": "http://web.archive.org/web/20190215114525/http://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sandiegouniontribune.com/news/immigration/sd-me-ice-arrests-20190213-story.html"
+}

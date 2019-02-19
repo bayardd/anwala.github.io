@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat",
+  "self": "http://localhost:1208/timemap/json/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T00:13:20Z",
+        "uri": "http://web.archive.org/web/20190215001320/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat"
+      },
+      {
+        "datetime": "2019-02-15T03:14:17Z",
+        "uri": "http://web.archive.org/web/20190215031417/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat"
+      },
+      {
+        "datetime": "2019-02-15T12:37:36Z",
+        "uri": "http://web.archive.org/web/20190215123736/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T00:13:20Z",
+      "uri": "http://web.archive.org/web/20190215001320/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:37:36Z",
+      "uri": "http://web.archive.org/web/20190215123736/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat",
+    "json_format": "http://localhost:1208/timemap/json/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.vox.com/2019/2/14/18225379/pelosi-national-emergency-wall-gun-control-democrat"
+}

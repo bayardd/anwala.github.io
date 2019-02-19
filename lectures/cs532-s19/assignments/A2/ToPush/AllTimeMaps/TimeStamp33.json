@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T21:57:52Z",
+        "uri": "http://web.archive.org/web/20190214215752/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T21:57:52Z",
+      "uri": "http://web.archive.org/web/20190214215752/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys"
+    },
+    "last": {
+      "datetime": "2019-02-14T21:57:52Z",
+      "uri": "http://web.archive.org/web/20190214215752/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.dl-online.com/news/crime-and-courts/4571138-overnight-incident-causes-brief-shutdown-essentia-st-marys%0A"
+}

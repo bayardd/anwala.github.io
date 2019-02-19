@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thesewaneepurple.org/2019/02/14/shutdown-story-2/",
+  "self": "http://localhost:1208/timemap/json/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:50:54Z",
+        "uri": "http://web.archive.org/web/20190215035054/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:50:54Z",
+      "uri": "http://web.archive.org/web/20190215035054/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/"
+    },
+    "last": {
+      "datetime": "2019-02-15T03:50:54Z",
+      "uri": "http://web.archive.org/web/20190215035054/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/",
+    "json_format": "http://localhost:1208/timemap/json/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thesewaneepurple.org/2019/02/14/shutdown-story-2/"
+}

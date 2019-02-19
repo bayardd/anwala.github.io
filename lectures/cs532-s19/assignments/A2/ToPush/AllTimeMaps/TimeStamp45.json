@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/",
+  "self": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-14T01:24:12Z",
+        "uri": "http://wayback.archive-it.org/all/20190114012412/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+      },
+      {
+        "datetime": "2019-01-14T01:24:12Z",
+        "uri": "http://web.archive.org/web/20190114012412/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+      },
+      {
+        "datetime": "2019-01-14T02:44:30Z",
+        "uri": "http://web.archive.org/web/20190114024430/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+      },
+      {
+        "datetime": "2019-01-15T03:24:18Z",
+        "uri": "http://web.archive.org/web/20190115032418/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+      },
+      {
+        "datetime": "2019-02-03T10:11:47Z",
+        "uri": "http://web.archive.org/web/20190203101147/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-14T01:24:12Z",
+      "uri": "http://wayback.archive-it.org/all/20190114012412/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+    },
+    "last": {
+      "datetime": "2019-02-03T10:11:47Z",
+      "uri": "http://web.archive.org/web/20190203101147/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.forbes.com/sites/stevedenning/2019/01/13/how-the-shutdown-is-a-win-for-trumps-authoritarian-agenda/"
+}

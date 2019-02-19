@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T09:28:35Z",
+        "uri": "http://web.archive.org/web/20190212092835/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-12T10:54:32Z",
+        "uri": "http://web.archive.org/web/20190212105432/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html"
+      },
+      {
+        "datetime": "2019-02-13T13:27:51Z",
+        "uri": "http://web.archive.org/web/20190213132751/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T09:28:35Z",
+      "uri": "http://web.archive.org/web/20190212092835/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html"
+    },
+    "last": {
+      "datetime": "2019-02-13T13:27:51Z",
+      "uri": "http://web.archive.org/web/20190213132751/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nytimes.com/2019/02/12/us/politics/on-politics-deal-shutdown.html%0A"
+}

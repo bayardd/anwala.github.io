@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.thecouponplanet.com/windows-10-online-course-from-go-groopie//",
+  "self": "http://localhost:1208/timemap/json/https://www.thecouponplanet.com/windows-10-online-course-from-go-groopie//",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-08-17T09:56:54Z",
+        "uri": "http://web.archive.org/web/20160817095654/http://www.thecouponplanet.com/windows-10-online-course-from-go-groopie/"
+      },
+      {
+        "datetime": "2017-09-01T21:59:17Z",
+        "uri": "http://web.archive.org/web/20170901215917/http://www.thecouponplanet.com/windows-10-online-course-from-go-groopie/"
+      },
+      {
+        "datetime": "2019-02-11T01:15:03Z",
+        "uri": "http://web.archive.org/web/20190211011503/http://www.thecouponplanet.com/windows-10-online-course-from-go-groopie/"
+      }
+    ],
+    "first": {
+      "datetime": "2016-08-17T09:56:54Z",
+      "uri": "http://web.archive.org/web/20160817095654/http://www.thecouponplanet.com/windows-10-online-course-from-go-groopie/"
+    },
+    "last": {
+      "datetime": "2019-02-11T01:15:03Z",
+      "uri": "http://web.archive.org/web/20190211011503/http://www.thecouponplanet.com/windows-10-online-course-from-go-groopie/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.thecouponplanet.com/windows-10-online-course-from-go-groopie//",
+    "json_format": "http://localhost:1208/timemap/json/https://www.thecouponplanet.com/windows-10-online-course-from-go-groopie//",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.thecouponplanet.com/windows-10-online-course-from-go-groopie//"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.thecouponplanet.com/windows-10-online-course-from-go-groopie//"
+}

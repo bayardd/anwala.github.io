@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/",
+  "self": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-17T09:52:31Z",
+        "uri": "http://web.archive.org/web/20190117095231/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-22T19:37:30Z",
+        "uri": "http://wayback.archive-it.org/all/20190122193730/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-22T19:37:30Z",
+        "uri": "http://web.archive.org/web/20190122193730/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-23T09:30:09Z",
+        "uri": "http://web.archive.org/web/20190123093009/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-23T22:22:27Z",
+        "uri": "http://wayback.archive-it.org/all/20190123222227/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-23T22:22:27Z",
+        "uri": "http://web.archive.org/web/20190123222227/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-27T01:30:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190127013056/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-27T01:30:56Z",
+        "uri": "http://web.archive.org/web/20190127013056/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-01-28T12:45:29Z",
+        "uri": "http://web.archive.org/web/20190128124529/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-02-03T09:18:02Z",
+        "uri": "http://web.archive.org/web/20190203091802/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      },
+      {
+        "datetime": "2019-02-09T00:06:00Z",
+        "uri": "http://archive.md/20190209000600/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-17T09:52:31Z",
+      "uri": "http://web.archive.org/web/20190117095231/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+    },
+    "last": {
+      "datetime": "2019-02-09T00:06:00Z",
+      "uri": "http://archive.md/20190209000600/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.forbes.com/sites/stuartanderson/2019/01/17/falling-illegal-immigration-numbers-confirm-no-border-crisis/"
+}

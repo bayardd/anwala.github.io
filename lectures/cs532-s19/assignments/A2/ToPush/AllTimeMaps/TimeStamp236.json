@@ -1,0 +1,70 @@
+{
+  "original_uri": "https://www.4pawshop.com/shop/",
+  "self": "http://localhost:1208/timemap/json/https://www.4pawshop.com/shop/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2017-10-28T07:20:03Z",
+        "uri": "http://web.archive.org/web/20171028072003/http://www.4pawshop.com:80/shop/"
+      },
+      {
+        "datetime": "2017-10-28T12:27:04Z",
+        "uri": "http://web.archive.org/web/20171028122704/http://www.4pawshop.com:80/shop/"
+      },
+      {
+        "datetime": "2017-10-28T12:27:04Z",
+        "uri": "http://web.archive.org/web/20171028122704/http://www.4pawshop.com:80/shop"
+      },
+      {
+        "datetime": "2017-11-28T06:27:39Z",
+        "uri": "http://web.archive.org/web/20171128062739/http://www.4pawshop.com:80/shop/"
+      },
+      {
+        "datetime": "2017-11-28T06:27:39Z",
+        "uri": "http://web.archive.org/web/20171128062739/http://www.4pawshop.com:80/shop"
+      },
+      {
+        "datetime": "2017-12-28T13:23:24Z",
+        "uri": "http://web.archive.org/web/20171228132324/http://www.4pawshop.com:80/shop/"
+      },
+      {
+        "datetime": "2018-07-08T18:26:22Z",
+        "uri": "http://web.archive.org/web/20180708182622/https://www.4pawshop.com/shop/"
+      },
+      {
+        "datetime": "2018-07-19T11:55:27Z",
+        "uri": "http://web.archive.org/web/20180719115527/https://www.4pawshop.com/shop/"
+      },
+      {
+        "datetime": "2018-07-21T11:00:17Z",
+        "uri": "http://web.archive.org/web/20180721110017/https://www.4pawshop.com/shop/"
+      },
+      {
+        "datetime": "2018-08-22T15:26:22Z",
+        "uri": "http://web.archive.org/web/20180822152622/https://www.4pawshop.com/shop/"
+      },
+      {
+        "datetime": "2018-08-22T15:26:22Z",
+        "uri": "http://web.archive.org/web/20180822152622/https://www.4pawshop.com/shop/"
+      },
+      {
+        "datetime": "2019-01-07T20:42:55Z",
+        "uri": "http://web.archive.org/web/20190107204255/https://www.4pawshop.com/shop/"
+      }
+    ],
+    "first": {
+      "datetime": "2017-10-28T07:20:03Z",
+      "uri": "http://web.archive.org/web/20171028072003/http://www.4pawshop.com:80/shop/"
+    },
+    "last": {
+      "datetime": "2019-01-07T20:42:55Z",
+      "uri": "http://web.archive.org/web/20190107204255/https://www.4pawshop.com/shop/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.4pawshop.com/shop/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.4pawshop.com/shop/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.4pawshop.com/shop/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.4pawshop.com/shop/"
+}

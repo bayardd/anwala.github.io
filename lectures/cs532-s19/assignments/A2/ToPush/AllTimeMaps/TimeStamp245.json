@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-18T00:34:31Z",
+        "uri": "http://web.archive.org/web/20190118003431/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284"
+      },
+      {
+        "datetime": "2019-01-23T01:06:21Z",
+        "uri": "http://web.archive.org/web/20190123010621/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284"
+      },
+      {
+        "datetime": "2019-02-03T09:57:31Z",
+        "uri": "http://web.archive.org/web/20190203095731/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-18T00:34:31Z",
+      "uri": "http://web.archive.org/web/20190118003431/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284"
+    },
+    "last": {
+      "datetime": "2019-02-03T09:57:31Z",
+      "uri": "http://web.archive.org/web/20190203095731/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politico.com/story/2019/01/17/lindsey-graham-pelosi-trump-shutdown-1110284%0A"
+}

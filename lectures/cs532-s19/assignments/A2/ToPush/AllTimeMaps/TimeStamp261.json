@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens",
+  "self": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T08:30:33Z",
+        "uri": "http://web.archive.org/web/20190215083033/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens"
+      },
+      {
+        "datetime": "2019-02-15T08:30:38Z",
+        "uri": "http://web.archive.org/web/20190215083038/http://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T08:30:33Z",
+      "uri": "http://web.archive.org/web/20190215083033/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens"
+    },
+    "last": {
+      "datetime": "2019-02-15T08:30:38Z",
+      "uri": "http://web.archive.org/web/20190215083038/http://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens",
+    "json_format": "http://localhost:1208/timemap/json/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://montrealgazette.com/sports/hockey/nhl/hockey-inside-out/veteran-centre-nate-thompson-thrilled-about-joining-canadiens"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/",
+  "self": "http://localhost:1208/timemap/json/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T01:08:56Z",
+        "uri": "http://web.archive.org/web/20190215010856/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/"
+      },
+      {
+        "datetime": "2019-02-15T14:21:52Z",
+        "uri": "http://web.archive.org/web/20190215142152/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T01:08:56Z",
+      "uri": "http://web.archive.org/web/20190215010856/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/"
+    },
+    "last": {
+      "datetime": "2019-02-15T14:21:52Z",
+      "uri": "http://web.archive.org/web/20190215142152/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/",
+    "json_format": "http://localhost:1208/timemap/json/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://abc13.com/politics/white-house-says-pres-trump-will-sign-bill-averting-shutdown/5139001/"
+}

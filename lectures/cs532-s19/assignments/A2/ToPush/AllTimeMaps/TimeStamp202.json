@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T04:58:39Z",
+        "uri": "http://web.archive.org/web/20190213045839/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212"
+      },
+      {
+        "datetime": "2019-02-13T07:56:59Z",
+        "uri": "http://web.archive.org/web/20190213075659/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T04:58:39Z",
+      "uri": "http://web.archive.org/web/20190213045839/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212"
+    },
+    "last": {
+      "datetime": "2019-02-13T07:56:59Z",
+      "uri": "http://web.archive.org/web/20190213075659/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212%0A"
+}

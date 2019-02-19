@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/%0A/",
+  "self": "http://localhost:1208/timemap/json/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/%0A/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-30T18:22:46Z",
+        "uri": "http://web.archive.org/web/20190130182246/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/"
+      },
+      {
+        "datetime": "2019-02-03T23:20:49Z",
+        "uri": "http://web.archive.org/web/20190203232049/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/"
+      },
+      {
+        "datetime": "2019-02-04T08:23:16Z",
+        "uri": "http://web.archive.org/web/20190204082316/https://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/"
+      },
+      {
+        "datetime": "2019-02-04T09:33:33Z",
+        "uri": "http://web.archive.org/web/20190204093333/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-30T18:22:46Z",
+      "uri": "http://web.archive.org/web/20190130182246/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/"
+    },
+    "last": {
+      "datetime": "2019-02-04T09:33:33Z",
+      "uri": "http://web.archive.org/web/20190204093333/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/%0A/",
+    "json_format": "http://localhost:1208/timemap/json/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/%0A/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/%0A/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://fortune.com/2019/01/29/shutdown-food-stamps-snap-benefits-february-march-2019/%0A/"
+}

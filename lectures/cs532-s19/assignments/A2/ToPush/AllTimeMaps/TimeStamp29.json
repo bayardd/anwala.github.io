@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp",
+  "self": "http://localhost:1208/timemap/json/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-12-10T13:19:02Z",
+        "uri": "http://web.archive.org/web/20181210131902/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp"
+      }
+    ],
+    "first": {
+      "datetime": "2018-12-10T13:19:02Z",
+      "uri": "http://web.archive.org/web/20181210131902/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp"
+    },
+    "last": {
+      "datetime": "2018-12-10T13:19:02Z",
+      "uri": "http://web.archive.org/web/20181210131902/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp",
+    "json_format": "http://localhost:1208/timemap/json/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://fee.org/articles/does-the-federal-government-have-the-power-to-regulate-immigration-thomas-jefferson-and-james-madison-said-no//amp"
+}

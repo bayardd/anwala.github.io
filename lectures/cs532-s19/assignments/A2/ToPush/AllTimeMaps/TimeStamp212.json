@@ -1,0 +1,38 @@
+{
+  "original_uri": "http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown%0A",
+  "self": "http://localhost:1208/timemap/json/http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T21:49:18Z",
+        "uri": "http://web.archive.org/web/20190214214918/https://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown"
+      },
+      {
+        "datetime": "2019-02-15T06:13:08Z",
+        "uri": "http://web.archive.org/web/20190215061308/http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown"
+      },
+      {
+        "datetime": "2019-02-15T13:33:30Z",
+        "uri": "http://web.archive.org/web/20190215133330/http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown"
+      },
+      {
+        "datetime": "2019-02-15T15:20:45Z",
+        "uri": "http://web.archive.org/web/20190215152045/https://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T21:49:18Z",
+      "uri": "http://web.archive.org/web/20190214214918/https://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown"
+    },
+    "last": {
+      "datetime": "2019-02-15T15:20:45Z",
+      "uri": "http://web.archive.org/web/20190215152045/https://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown%0A",
+    "json_format": "http://localhost:1208/timemap/json/http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.dailykos.com/stories/2019/2/14/1834665/--A-shutdown-would-be-a-terrible-thing-Trump-says-after-taking-blame-for-last-shutdown%0A"
+}

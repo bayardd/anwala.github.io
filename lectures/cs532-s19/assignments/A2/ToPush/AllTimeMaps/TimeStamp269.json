@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.sankei.com/sports/news/190214/spo1902140029-n1.html",
+  "self": "http://localhost:1208/timemap/json/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T22:19:33Z",
+        "uri": "http://archive.md/20190214221933/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      },
+      {
+        "datetime": "2019-02-15T18:17:24Z",
+        "uri": "http://archive.md/20190215181724/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      },
+      {
+        "datetime": "2019-02-15T18:17:43Z",
+        "uri": "http://web.archive.org/web/20190215181743/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      },
+      {
+        "datetime": "2019-02-15T18:17:43Z",
+        "uri": "http://web.archive.org/web/20190215181743/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      },
+      {
+        "datetime": "2019-02-15T18:17:50Z",
+        "uri": "http://web.archive.org/web/20190215181750/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      },
+      {
+        "datetime": "2019-02-15T18:17:50Z",
+        "uri": "http://web.archive.org/web/20190215181750/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      },
+      {
+        "datetime": "2019-02-15T18:18:02Z",
+        "uri": "http://web.archive.org/web/20190215181802/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      },
+      {
+        "datetime": "2019-02-15T18:18:02Z",
+        "uri": "http://web.archive.org/web/20190215181802/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T22:19:33Z",
+      "uri": "http://archive.md/20190214221933/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T18:18:02Z",
+      "uri": "http://web.archive.org/web/20190215181802/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sankei.com/sports/news/190214/spo1902140029-n1.html"
+}

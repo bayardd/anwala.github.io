@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/",
+  "self": "http://localhost:1208/timemap/json/https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:50:15Z",
+        "uri": "http://web.archive.org/web/20190215055015/https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/"
+      },
+      {
+        "datetime": "2019-02-15T11:52:02Z",
+        "uri": "http://web.archive.org/web/20190215115202/http://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:50:15Z",
+      "uri": "http://web.archive.org/web/20190215055015/https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:52:02Z",
+      "uri": "http://web.archive.org/web/20190215115202/http://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/",
+    "json_format": "http://localhost:1208/timemap/json/https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://fox61.com/2019/02/14/white-house-confirms-trump-to-sign-bill-averting-shutdown-take-executive-action-in-effort-to-keep-border-wall-pledge/"
+}

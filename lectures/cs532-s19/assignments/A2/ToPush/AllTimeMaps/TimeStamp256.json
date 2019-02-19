@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.sports.ru/tribuna/blogs/epiphany/2349226.html",
+  "self": "http://localhost:1208/timemap/json/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T03:03:20Z",
+        "uri": "http://archive.md/20190215030320/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html"
+      },
+      {
+        "datetime": "2019-02-15T12:27:57Z",
+        "uri": "http://archive.md/20190215122757/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T03:03:20Z",
+      "uri": "http://archive.md/20190215030320/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:27:57Z",
+      "uri": "http://archive.md/20190215122757/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sports.ru/tribuna/blogs/epiphany/2349226.html"
+}

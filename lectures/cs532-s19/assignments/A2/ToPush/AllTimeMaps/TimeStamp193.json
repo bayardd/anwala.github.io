@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense",
+  "self": "http://localhost:1208/timemap/json/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T21:40:26Z",
+        "uri": "http://web.archive.org/web/20190214214026/http://foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense"
+      },
+      {
+        "datetime": "2019-02-14T21:42:16Z",
+        "uri": "http://web.archive.org/web/20190214214216/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense"
+      },
+      {
+        "datetime": "2019-02-15T01:29:53Z",
+        "uri": "http://web.archive.org/web/20190215012953/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T21:40:26Z",
+      "uri": "http://web.archive.org/web/20190214214026/http://foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense"
+    },
+    "last": {
+      "datetime": "2019-02-15T01:29:53Z",
+      "uri": "http://web.archive.org/web/20190215012953/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense",
+    "json_format": "http://localhost:1208/timemap/json/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.foxbusiness.com/economy/increasing-legal-immigration-in-us-makes-economic-sense"
+}

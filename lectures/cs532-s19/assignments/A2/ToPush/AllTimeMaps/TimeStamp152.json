@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says",
+  "self": "http://localhost:1208/timemap/json/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T06:02:12Z",
+        "uri": "http://web.archive.org/web/20190215060212/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says"
+      },
+      {
+        "datetime": "2019-02-15T08:51:05Z",
+        "uri": "http://archive.md/20190215085105/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T06:02:12Z",
+      "uri": "http://web.archive.org/web/20190215060212/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says"
+    },
+    "last": {
+      "datetime": "2019-02-15T08:51:05Z",
+      "uri": "http://archive.md/20190215085105/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says",
+    "json_format": "http://localhost:1208/timemap/json/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://montrealgazette.com/news/quebec/quebecs-new-immigration-application-system-already-popular-ministry-says"
+}

@@ -1,0 +1,486 @@
+{
+  "original_uri": "https://video.foxnews.com/v/5988105671001/%0A",
+  "self": "http://localhost:1208/timemap/json/https://video.foxnews.com/v/5988105671001/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-01-11T02:24:19Z",
+        "uri": "http://web.archive.org/web/20190111022419/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-11T02:33:22Z",
+        "uri": "http://web.archive.org/web/20190111023322/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-11T13:12:26Z",
+        "uri": "http://web.archive.org/web/20190111131226/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-11T13:20:29Z",
+        "uri": "http://web.archive.org/web/20190111132029/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-11T13:23:42Z",
+        "uri": "http://web.archive.org/web/20190111132342/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-11T13:28:23Z",
+        "uri": "http://web.archive.org/web/20190111132823/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-12T03:43:13Z",
+        "uri": "http://web.archive.org/web/20190112034313/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-12T03:43:35Z",
+        "uri": "http://web.archive.org/web/20190112034335/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-12T03:52:54Z",
+        "uri": "http://web.archive.org/web/20190112035254/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-12T03:52:55Z",
+        "uri": "http://web.archive.org/web/20190112035255/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-13T06:21:01Z",
+        "uri": "http://web.archive.org/web/20190113062101/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-13T06:21:18Z",
+        "uri": "http://web.archive.org/web/20190113062118/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-13T06:30:11Z",
+        "uri": "http://web.archive.org/web/20190113063011/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-13T06:30:15Z",
+        "uri": "http://web.archive.org/web/20190113063015/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-13T14:38:12Z",
+        "uri": "http://web.archive.org/web/20190113143812/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-13T14:41:16Z",
+        "uri": "http://web.archive.org/web/20190113144116/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-13T14:51:42Z",
+        "uri": "http://web.archive.org/web/20190113145142/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-13T14:51:44Z",
+        "uri": "http://web.archive.org/web/20190113145144/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-14T06:13:36Z",
+        "uri": "http://web.archive.org/web/20190114061336/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-14T06:13:39Z",
+        "uri": "http://web.archive.org/web/20190114061339/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-14T06:13:48Z",
+        "uri": "http://web.archive.org/web/20190114061348/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-14T06:13:49Z",
+        "uri": "http://web.archive.org/web/20190114061349/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-15T06:02:47Z",
+        "uri": "http://web.archive.org/web/20190115060247/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-15T06:02:50Z",
+        "uri": "http://web.archive.org/web/20190115060250/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-15T06:03:05Z",
+        "uri": "http://web.archive.org/web/20190115060305/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-15T06:03:06Z",
+        "uri": "http://web.archive.org/web/20190115060306/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-16T07:31:47Z",
+        "uri": "http://web.archive.org/web/20190116073147/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-16T07:31:52Z",
+        "uri": "http://web.archive.org/web/20190116073152/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-16T07:31:58Z",
+        "uri": "http://web.archive.org/web/20190116073158/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-16T07:31:59Z",
+        "uri": "http://web.archive.org/web/20190116073159/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-17T08:36:01Z",
+        "uri": "http://web.archive.org/web/20190117083601/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-17T08:36:03Z",
+        "uri": "http://web.archive.org/web/20190117083603/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-17T08:36:07Z",
+        "uri": "http://web.archive.org/web/20190117083607/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-17T08:36:08Z",
+        "uri": "http://web.archive.org/web/20190117083608/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-18T08:15:46Z",
+        "uri": "http://web.archive.org/web/20190118081546/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-18T08:15:50Z",
+        "uri": "http://web.archive.org/web/20190118081550/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-18T08:16:02Z",
+        "uri": "http://web.archive.org/web/20190118081602/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-18T08:16:03Z",
+        "uri": "http://web.archive.org/web/20190118081603/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-19T12:44:52Z",
+        "uri": "http://web.archive.org/web/20190119124452/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-19T12:44:53Z",
+        "uri": "http://web.archive.org/web/20190119124453/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-19T12:44:54Z",
+        "uri": "http://web.archive.org/web/20190119124454/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-19T12:44:55Z",
+        "uri": "http://web.archive.org/web/20190119124455/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-20T16:26:33Z",
+        "uri": "http://web.archive.org/web/20190120162633/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-20T16:26:34Z",
+        "uri": "http://web.archive.org/web/20190120162634/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-20T16:26:35Z",
+        "uri": "http://web.archive.org/web/20190120162635/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-20T16:26:36Z",
+        "uri": "http://web.archive.org/web/20190120162636/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-21T15:36:33Z",
+        "uri": "http://web.archive.org/web/20190121153633/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-21T15:36:35Z",
+        "uri": "http://web.archive.org/web/20190121153635/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-21T15:36:39Z",
+        "uri": "http://web.archive.org/web/20190121153639/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-21T15:36:40Z",
+        "uri": "http://web.archive.org/web/20190121153640/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-22T17:06:34Z",
+        "uri": "http://web.archive.org/web/20190122170634/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-22T17:06:36Z",
+        "uri": "http://web.archive.org/web/20190122170636/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-22T17:06:40Z",
+        "uri": "http://web.archive.org/web/20190122170640/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-22T17:06:41Z",
+        "uri": "http://web.archive.org/web/20190122170641/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-23T17:24:40Z",
+        "uri": "http://web.archive.org/web/20190123172440/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-23T17:24:41Z",
+        "uri": "http://web.archive.org/web/20190123172441/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-23T17:24:42Z",
+        "uri": "http://web.archive.org/web/20190123172442/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-23T17:24:43Z",
+        "uri": "http://web.archive.org/web/20190123172443/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-24T19:02:06Z",
+        "uri": "http://web.archive.org/web/20190124190206/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-24T19:02:08Z",
+        "uri": "http://web.archive.org/web/20190124190208/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-24T19:02:09Z",
+        "uri": "http://web.archive.org/web/20190124190209/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-24T19:02:10Z",
+        "uri": "http://web.archive.org/web/20190124190210/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-25T19:20:43Z",
+        "uri": "http://web.archive.org/web/20190125192043/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-25T19:20:44Z",
+        "uri": "http://web.archive.org/web/20190125192044/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-25T19:20:46Z",
+        "uri": "http://web.archive.org/web/20190125192046/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-25T19:20:47Z",
+        "uri": "http://web.archive.org/web/20190125192047/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-26T21:40:30Z",
+        "uri": "http://web.archive.org/web/20190126214030/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-26T21:40:31Z",
+        "uri": "http://web.archive.org/web/20190126214031/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-26T21:40:32Z",
+        "uri": "http://web.archive.org/web/20190126214032/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-26T21:40:33Z",
+        "uri": "http://web.archive.org/web/20190126214033/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-28T00:01:41Z",
+        "uri": "http://web.archive.org/web/20190128000141/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-28T00:01:42Z",
+        "uri": "http://web.archive.org/web/20190128000142/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-28T00:01:44Z",
+        "uri": "http://web.archive.org/web/20190128000144/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-28T00:01:45Z",
+        "uri": "http://web.archive.org/web/20190128000145/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-28T17:29:52Z",
+        "uri": "http://web.archive.org/web/20190128172952/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-28T17:30:03Z",
+        "uri": "http://web.archive.org/web/20190128173003/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-28T17:30:30Z",
+        "uri": "http://web.archive.org/web/20190128173030/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-28T17:30:31Z",
+        "uri": "http://web.archive.org/web/20190128173031/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-29T22:34:00Z",
+        "uri": "http://web.archive.org/web/20190129223400/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-29T22:34:02Z",
+        "uri": "http://web.archive.org/web/20190129223402/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-29T22:34:09Z",
+        "uri": "http://web.archive.org/web/20190129223409/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-29T22:34:10Z",
+        "uri": "http://web.archive.org/web/20190129223410/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-30T23:55:32Z",
+        "uri": "http://web.archive.org/web/20190130235532/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-30T23:55:37Z",
+        "uri": "http://web.archive.org/web/20190130235537/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-30T23:57:30Z",
+        "uri": "http://web.archive.org/web/20190130235730/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-30T23:57:31Z",
+        "uri": "http://web.archive.org/web/20190130235731/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-31T18:53:05Z",
+        "uri": "http://web.archive.org/web/20190131185305/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-31T18:53:06Z",
+        "uri": "http://web.archive.org/web/20190131185306/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-01-31T18:53:16Z",
+        "uri": "http://web.archive.org/web/20190131185316/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-01-31T18:53:17Z",
+        "uri": "http://web.archive.org/web/20190131185317/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-02T09:48:28Z",
+        "uri": "http://web.archive.org/web/20190202094828/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-02T09:48:29Z",
+        "uri": "http://web.archive.org/web/20190202094829/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-02T09:48:31Z",
+        "uri": "http://web.archive.org/web/20190202094831/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-02T09:48:32Z",
+        "uri": "http://web.archive.org/web/20190202094832/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-03T11:14:31Z",
+        "uri": "http://web.archive.org/web/20190203111431/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-03T11:14:34Z",
+        "uri": "http://web.archive.org/web/20190203111434/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-03T11:14:40Z",
+        "uri": "http://web.archive.org/web/20190203111440/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-03T11:14:41Z",
+        "uri": "http://web.archive.org/web/20190203111441/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-05T05:24:39Z",
+        "uri": "http://web.archive.org/web/20190205052439/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-05T05:24:40Z",
+        "uri": "http://web.archive.org/web/20190205052440/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-05T05:24:42Z",
+        "uri": "http://web.archive.org/web/20190205052442/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-05T05:24:46Z",
+        "uri": "http://web.archive.org/web/20190205052446/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-08T13:47:20Z",
+        "uri": "http://web.archive.org/web/20190208134720/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-09T01:07:00Z",
+        "uri": "http://web.archive.org/web/20190209010700/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-13T17:35:42Z",
+        "uri": "http://web.archive.org/web/20190213173542/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-13T17:35:43Z",
+        "uri": "http://web.archive.org/web/20190213173543/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-13T17:35:45Z",
+        "uri": "http://web.archive.org/web/20190213173545/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-13T17:35:46Z",
+        "uri": "http://web.archive.org/web/20190213173546/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-14T15:29:49Z",
+        "uri": "http://web.archive.org/web/20190214152949/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-14T15:29:50Z",
+        "uri": "http://web.archive.org/web/20190214152950/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-14T15:29:52Z",
+        "uri": "http://web.archive.org/web/20190214152952/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-14T15:29:55Z",
+        "uri": "http://web.archive.org/web/20190214152955/https://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-15T16:13:06Z",
+        "uri": "http://web.archive.org/web/20190215161306/http://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-15T16:13:09Z",
+        "uri": "http://web.archive.org/web/20190215161309/https://video.foxnews.com/v/5988105671001"
+      },
+      {
+        "datetime": "2019-02-15T16:13:18Z",
+        "uri": "http://web.archive.org/web/20190215161318/http://video.foxnews.com/v/5988105671001/"
+      },
+      {
+        "datetime": "2019-02-15T16:13:27Z",
+        "uri": "http://web.archive.org/web/20190215161327/https://video.foxnews.com/v/5988105671001/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-01-11T02:24:19Z",
+      "uri": "http://web.archive.org/web/20190111022419/https://video.foxnews.com/v/5988105671001/"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:13:27Z",
+      "uri": "http://web.archive.org/web/20190215161327/https://video.foxnews.com/v/5988105671001/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://video.foxnews.com/v/5988105671001/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://video.foxnews.com/v/5988105671001/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://video.foxnews.com/v/5988105671001/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://video.foxnews.com/v/5988105671001/%0A"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T21:48:49Z",
+        "uri": "http://web.archive.org/web/20190214214849/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/"
+      },
+      {
+        "datetime": "2019-02-15T12:35:10Z",
+        "uri": "http://web.archive.org/web/20190215123510/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T21:48:49Z",
+      "uri": "http://web.archive.org/web/20190214214849/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:35:10Z",
+      "uri": "http://web.archive.org/web/20190215123510/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.groundup.org.za/article/nehawu-begins-nationwide-shutdown-colleges/%0A"
+}

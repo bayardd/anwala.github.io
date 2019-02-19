@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415",
+  "self": "http://localhost:1208/timemap/json/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T05:21:52Z",
+        "uri": "http://web.archive.org/web/20190215052152/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T05:21:52Z",
+      "uri": "http://web.archive.org/web/20190215052152/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415"
+    },
+    "last": {
+      "datetime": "2019-02-15T05:21:52Z",
+      "uri": "http://web.archive.org/web/20190215052152/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415",
+    "json_format": "http://localhost:1208/timemap/json/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.irishtimes.com/sport/other-sports/dickson-and-waddilove-joint-winners-of-irish-sailor-of-the-year-award-1.3794415"
+}

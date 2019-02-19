@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution",
+  "self": "http://localhost:1208/timemap/json/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:34:35Z",
+        "uri": "http://web.archive.org/web/20190215133435/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:34:35Z",
+      "uri": "http://web.archive.org/web/20190215133435/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:34:35Z",
+      "uri": "http://web.archive.org/web/20190215133435/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution",
+    "json_format": "http://localhost:1208/timemap/json/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.numbersusa.com/news/numbersusa-opposes-budget-deal-advocates-continuing-resolution"
+}

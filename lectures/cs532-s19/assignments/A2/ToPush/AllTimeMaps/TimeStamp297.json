@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T06:02:21Z",
+        "uri": "http://web.archive.org/web/20190215060221/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/"
+      },
+      {
+        "datetime": "2019-02-15T07:47:56Z",
+        "uri": "http://web.archive.org/web/20190215074756/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/"
+      },
+      {
+        "datetime": "2019-02-15T12:08:35Z",
+        "uri": "http://web.archive.org/web/20190215120835/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T06:02:21Z",
+      "uri": "http://web.archive.org/web/20190215060221/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T12:08:35Z",
+      "uri": "http://web.archive.org/web/20190215120835/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/sports/nfl/2019/02/14/alliance-american-football-new-league-colin-kaepernick/2876865002/"
+}

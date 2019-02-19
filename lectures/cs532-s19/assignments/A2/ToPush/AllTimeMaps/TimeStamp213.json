@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html",
+  "self": "http://localhost:1208/timemap/json/https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T12:34:43Z",
+        "uri": "http://web.archive.org/web/20190215123443/http://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html"
+      },
+      {
+        "datetime": "2019-02-15T16:09:07Z",
+        "uri": "http://web.archive.org/web/20190215160907/https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T12:34:43Z",
+      "uri": "http://web.archive.org/web/20190215123443/http://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html"
+    },
+    "last": {
+      "datetime": "2019-02-15T16:09:07Z",
+      "uri": "http://web.archive.org/web/20190215160907/https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nydailynews.com/news/ny-metro-allan-wernick-immigration-20190214-story.html"
+}

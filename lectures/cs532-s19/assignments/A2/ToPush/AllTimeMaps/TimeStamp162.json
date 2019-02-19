@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php",
+  "self": "http://localhost:1208/timemap/json/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T21:59:43Z",
+        "uri": "http://web.archive.org/web/20190214215943/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php"
+      },
+      {
+        "datetime": "2019-02-15T01:43:14Z",
+        "uri": "http://web.archive.org/web/20190215014314/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php"
+      },
+      {
+        "datetime": "2019-02-15T11:44:44Z",
+        "uri": "http://web.archive.org/web/20190215114444/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T21:59:43Z",
+      "uri": "http://web.archive.org/web/20190214215943/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:44:44Z",
+      "uri": "http://web.archive.org/web/20190215114444/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php",
+    "json_format": "http://localhost:1208/timemap/json/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.lapresse.ca/actualites/politique/politique-quebecoise/201902/14/01-5214774-immigration-quebec-a-deja-recu-plus-de-91-000-declarations-dinteret.php"
+}

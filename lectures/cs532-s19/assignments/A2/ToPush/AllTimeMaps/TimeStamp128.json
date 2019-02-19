@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T14:16:42Z",
+        "uri": "http://web.archive.org/web/20190212141642/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+      },
+      {
+        "datetime": "2019-02-13T01:37:24Z",
+        "uri": "http://web.archive.org/web/20190213013724/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+      },
+      {
+        "datetime": "2019-02-13T08:49:08Z",
+        "uri": "http://web.archive.org/web/20190213084908/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+      },
+      {
+        "datetime": "2019-02-14T14:35:53Z",
+        "uri": "http://web.archive.org/web/20190214143553/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+      },
+      {
+        "datetime": "2019-02-15T02:19:08Z",
+        "uri": "http://web.archive.org/web/20190215021908/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+      },
+      {
+        "datetime": "2019-02-15T09:47:57Z",
+        "uri": "http://web.archive.org/web/20190215094757/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T14:16:42Z",
+      "uri": "http://web.archive.org/web/20190212141642/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T09:47:57Z",
+      "uri": "http://web.archive.org/web/20190215094757/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/money/2019/02/12/government-shutdown-looms-federal-workers-still-hurting-financially/2840443002/"
+}

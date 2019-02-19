@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/",
+  "self": "http://localhost:1208/timemap/json/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T05:45:17Z",
+        "uri": "http://web.archive.org/web/20190214054517/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/"
+      },
+      {
+        "datetime": "2019-02-14T15:56:30Z",
+        "uri": "http://web.archive.org/web/20190214155630/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T05:45:17Z",
+      "uri": "http://web.archive.org/web/20190214054517/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/"
+    },
+    "last": {
+      "datetime": "2019-02-14T15:56:30Z",
+      "uri": "http://web.archive.org/web/20190214155630/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/",
+    "json_format": "http://localhost:1208/timemap/json/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/"
+}

@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/",
+  "self": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T10:18:49Z",
+        "uri": "http://web.archive.org/web/20190214101849/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+      },
+      {
+        "datetime": "2019-02-14T10:49:32Z",
+        "uri": "http://web.archive.org/web/20190214104932/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+      },
+      {
+        "datetime": "2019-02-15T02:17:39Z",
+        "uri": "http://web.archive.org/web/20190215021739/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+      },
+      {
+        "datetime": "2019-02-15T05:58:25Z",
+        "uri": "http://web.archive.org/web/20190215055825/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T10:18:49Z",
+      "uri": "http://web.archive.org/web/20190214101849/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+    },
+    "last": {
+      "datetime": "2019-02-15T05:58:25Z",
+      "uri": "http://web.archive.org/web/20190215055825/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.usatoday.com/story/news/politics/2019/02/14/government-shutdown-border-security-measure-expected-clear-congress/2859363002/"
+}

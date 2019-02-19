@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:11:54Z",
+        "uri": "http://web.archive.org/web/20190215131154/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/"
+      },
+      {
+        "datetime": "2019-02-15T13:46:08Z",
+        "uri": "http://web.archive.org/web/20190215134608/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:11:54Z",
+      "uri": "http://web.archive.org/web/20190215131154/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:46:08Z",
+      "uri": "http://web.archive.org/web/20190215134608/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.washingtontimes.com/news/2019/feb/14/2020-democrats-split-spending-bill-half-vote-shutd/%0A"
+}

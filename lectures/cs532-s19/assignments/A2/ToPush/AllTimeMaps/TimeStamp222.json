@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/",
+  "self": "http://localhost:1208/timemap/json/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-14T23:10:53Z",
+        "uri": "http://web.archive.org/web/20190214231053/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+      },
+      {
+        "datetime": "2019-02-14T23:19:45Z",
+        "uri": "http://web.archive.org/web/20190214231945/http://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+      },
+      {
+        "datetime": "2019-02-15T01:47:51Z",
+        "uri": "http://web.archive.org/web/20190215014751/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+      },
+      {
+        "datetime": "2019-02-15T06:02:30Z",
+        "uri": "http://web.archive.org/web/20190215060230/http://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-14T23:10:53Z",
+      "uri": "http://web.archive.org/web/20190214231053/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+    },
+    "last": {
+      "datetime": "2019-02-15T06:02:30Z",
+      "uri": "http://web.archive.org/web/20190215060230/http://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/",
+    "json_format": "http://localhost:1208/timemap/json/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://globalnews.ca/news/4962265/donald-trump-national-emergency-border-wall/"
+}

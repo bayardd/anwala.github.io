@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law",
+  "self": "http://localhost:1208/timemap/json/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T11:46:19Z",
+        "uri": "http://web.archive.org/web/20190215114619/https://www.lexisnexis.com/legalnewsroom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T11:46:19Z",
+      "uri": "http://web.archive.org/web/20190215114619/https://www.lexisnexis.com/legalnewsroom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:46:19Z",
+      "uri": "http://web.archive.org/web/20190215114619/https://www.lexisnexis.com/legalnewsroom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law",
+    "json_format": "http://localhost:1208/timemap/json/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.lexisnexis.com/LegalNewsRoom/immigration/b/outsidenews/posts/the-border-patrol-needs-to-brush-up-on-the-law"
+}

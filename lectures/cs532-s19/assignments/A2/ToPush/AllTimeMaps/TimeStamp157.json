@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781",
+  "self": "http://localhost:1208/timemap/json/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T02:27:46Z",
+        "uri": "http://web.archive.org/web/20190215022746/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T02:27:46Z",
+      "uri": "http://web.archive.org/web/20190215022746/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781"
+    },
+    "last": {
+      "datetime": "2019-02-15T02:27:46Z",
+      "uri": "http://web.archive.org/web/20190215022746/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nbcnews.com/politics/immigration/rights-groups-sue-trump-admin-making-asylum-seekers-wait-mexico-n971781"
+}

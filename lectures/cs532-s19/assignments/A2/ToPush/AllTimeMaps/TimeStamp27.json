@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/",
+  "self": "http://localhost:1208/timemap/json/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-12T22:10:24Z",
+        "uri": "http://web.archive.org/web/20190212221024/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-12T22:30:38Z",
+        "uri": "http://web.archive.org/web/20190212223038/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-13T07:15:56Z",
+        "uri": "http://web.archive.org/web/20190213071556/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-13T12:38:13Z",
+        "uri": "http://web.archive.org/web/20190213123813/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-13T23:28:10Z",
+        "uri": "http://web.archive.org/web/20190213232810/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-14T13:02:57Z",
+        "uri": "http://web.archive.org/web/20190214130257/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+      },
+      {
+        "datetime": "2019-02-15T00:06:01Z",
+        "uri": "http://web.archive.org/web/20190215000601/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-12T22:10:24Z",
+      "uri": "http://web.archive.org/web/20190212221024/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+    },
+    "last": {
+      "datetime": "2019-02-15T00:06:01Z",
+      "uri": "http://web.archive.org/web/20190215000601/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.salon.com/2019/02/12/fox-news-host-sean-hannity-slams-garbage-bipartisan-deal-reached-by-lawmakers-to-avert-shutdown/"
+}

@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306",
+  "self": "http://localhost:1208/timemap/json/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-09-06T14:36:19Z",
+        "uri": "http://web.archive.org/web/20150906143619/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+      },
+      {
+        "datetime": "2015-09-30T22:27:35Z",
+        "uri": "http://web.archive.org/web/20150930222735/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+      },
+      {
+        "datetime": "2016-01-09T05:12:22Z",
+        "uri": "http://web.archive.org/web/20160109051222/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+      },
+      {
+        "datetime": "2016-04-10T02:10:32Z",
+        "uri": "http://web.archive.org/web/20160410021032/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+      },
+      {
+        "datetime": "2018-05-16T17:09:31Z",
+        "uri": "http://web.archive.org/web/20180516170931/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+      }
+    ],
+    "first": {
+      "datetime": "2015-09-06T14:36:19Z",
+      "uri": "http://web.archive.org/web/20150906143619/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+    },
+    "last": {
+      "datetime": "2018-05-16T17:09:31Z",
+      "uri": "http://web.archive.org/web/20180516170931/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306",
+    "json_format": "http://localhost:1208/timemap/json/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306"
+}

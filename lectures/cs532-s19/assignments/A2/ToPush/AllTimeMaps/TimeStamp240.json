@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.vox.com/2018/8/1/17561014/immigration-social-security",
+  "self": "http://localhost:1208/timemap/json/https://www.vox.com/2018/8/1/17561014/immigration-social-security",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-01T23:06:04Z",
+        "uri": "http://web.archive.org/web/20180801230604/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2018-08-02T11:11:29Z",
+        "uri": "http://web.archive.org/web/20180802111129/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-01-01T14:31:47Z",
+        "uri": "http://wayback.archive-it.org/all/20190101143147/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-01-01T14:31:47Z",
+        "uri": "http://web.archive.org/web/20190101143147/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-01-05T09:15:56Z",
+        "uri": "http://wayback.archive-it.org/all/20190105091556/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-01-05T09:15:56Z",
+        "uri": "http://web.archive.org/web/20190105091556/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-01-17T22:47:51Z",
+        "uri": "http://web.archive.org/web/20190117224751/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-02-06T09:35:01Z",
+        "uri": "http://wayback.archive-it.org/all/20190206093501/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-02-06T09:35:01Z",
+        "uri": "http://web.archive.org/web/20190206093501/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      },
+      {
+        "datetime": "2019-02-12T15:02:48Z",
+        "uri": "http://web.archive.org/web/20190212150248/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-01T23:06:04Z",
+      "uri": "http://web.archive.org/web/20180801230604/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+    },
+    "last": {
+      "datetime": "2019-02-12T15:02:48Z",
+      "uri": "http://web.archive.org/web/20190212150248/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.vox.com/2018/8/1/17561014/immigration-social-security",
+    "json_format": "http://localhost:1208/timemap/json/https://www.vox.com/2018/8/1/17561014/immigration-social-security",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.vox.com/2018/8/1/17561014/immigration-social-security"
+}

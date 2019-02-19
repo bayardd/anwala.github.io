@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365%0A",
+  "self": "http://localhost:1208/timemap/json/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365%0A",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-13T20:31:29Z",
+        "uri": "http://web.archive.org/web/20190213203129/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-13T20:31:29Z",
+      "uri": "http://web.archive.org/web/20190213203129/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365"
+    },
+    "last": {
+      "datetime": "2019-02-13T20:31:29Z",
+      "uri": "http://web.archive.org/web/20190213203129/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365%0A",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365%0A",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365%0A"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wpxi.com/news/trending-now/trump-expected-to-sign-deal-to-keep-government-open-as-2nd-shutdown-looms/919479365%0A"
+}

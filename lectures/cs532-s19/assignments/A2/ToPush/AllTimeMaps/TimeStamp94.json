@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/",
+  "self": "http://localhost:1208/timemap/json/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T11:44:56Z",
+        "uri": "http://web.archive.org/web/20190215114456/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T11:44:56Z",
+      "uri": "http://web.archive.org/web/20190215114456/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/"
+    },
+    "last": {
+      "datetime": "2019-02-15T11:44:56Z",
+      "uri": "http://web.archive.org/web/20190215114456/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/",
+    "json_format": "http://localhost:1208/timemap/json/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thinkprogress.org/funding-bill-passes-trump-to-sign-776744cf9def/"
+}

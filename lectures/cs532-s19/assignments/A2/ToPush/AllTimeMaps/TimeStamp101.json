@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/",
+  "self": "http://localhost:1208/timemap/json/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-02-15T13:39:04Z",
+        "uri": "http://web.archive.org/web/20190215133904/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-02-15T13:39:04Z",
+      "uri": "http://web.archive.org/web/20190215133904/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/"
+    },
+    "last": {
+      "datetime": "2019-02-15T13:39:04Z",
+      "uri": "http://web.archive.org/web/20190215133904/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.waynedupree.com/jedediah-bila-shutdown-was-waste-of-time/"
+}
