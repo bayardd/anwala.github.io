@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="title" content="The Cost of Illegal Immigration to US Taxpayers | FAIR" />
+<link rel="canonical" href="https://www.fairus.org/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="description" content="FAIR estimates the economic impact of illegal immigrants to be over $115 billion annually. Learn how in this report." />
+<meta name="twitter:title" content="The Fiscal Burden of Illegal Immigration on United States Taxpayers | Federation for American Immigration Reform" />
+<meta name="twitter:description" content="At the federal, state, and local levels, taxpayers shell out approximately $134.9 billion to cover the costs incurred by the presence of more than 12.5 million illegal aliens and about 4.2 million citizen children of illegal aliens. That amounts to a tax burden of approximately $8,075 per illegal alien family member and a total of almost $116 Billion." />
+<meta name="twitter:image" content="https://www.fairus.org/sites/default/files/styles/og_image/public/images/Fiscal-Cost-US.jpg?h=eca34813&amp;amp;itok=eZ_JoGT2" />
+<meta property="og:image" content="https://www.fairus.org/sites/default/files/styles/og_image/public/images/Fiscal-Cost-US.jpg?h=eca34813&amp;amp;itok=eZ_JoGT2" />
+<meta property="article:author" content="Matt O&#039;Brien and Spencer Raley" />
+<meta property="article:published_time" content="2017-09-27" />
+<link rel="shortcut icon" href="/themes/custom/bwl/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/2561" />
+<link rel="revision" href="/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers" />
+<script src="/sites/default/files/google_tag/google_tag.script.js?pm1trx"></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>The Cost of Illegal Immigration to US Taxpayers | FAIR</title>
+    <link rel="stylesheet" href="/sites/default/files/css/css_QiNt_T0wJxdLMdvFtPPk4jkg0F_NVxE_2tyEB1s-amc.css?pm1trx" media="all" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Open+Sans+Condensed:300,700" media="all" />
+<link rel="stylesheet" href="/sites/default/files/css/css_UzV8R6NU3yvKNDLyg9qOrqzFiIzXjoal5POEGsgABQw.css?pm1trx" media="all" />
+<link rel="stylesheet" href="/sites/default/files/css/css_8u_phZaauR5gw3LxqG13ncfkcDtuoxer_zNfPUvA_5E.css?pm1trx" media="print" />
+
+    
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+
+    
+        <link rel="apple-touch-icon" href="https://www.fairus.org/themes/custom/bwl/images/apple-touch/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.fairus.org/themes/custom/bwl/images/apple-touch/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.fairus.org/themes/custom/bwl/images/apple-touch/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.fairus.org/themes/custom/bwl/images/apple-touch/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.fairus.org/themes/custom/bwl/images/apple-touch/apple-touch-icon-180x180.png" />
+  </head>
+          
+      <body class="page-issue-publications-resources-fiscal-burden-illegal-immigration-united-states-taxpayers section-issue page-node-2561 page-type-article role--anonymous with-subnav not-front no-sidebar">
+    <div id="skip">
+      <a href="#block-mainnavigation" class="visually-hidden focusable skip-link">
+        Skip to main navigation
+      </a>
+    </div>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZC7CMN" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+  <!-- ______________________ HEADER _______________________ -->
+
+  <div id="header">
+          <header>
+        <div class="container">
+            <div>
+    <div id="block-headerleft-2" class="header-left block block-block-group75653d6c-5c92-4388-83a3-58aa3d3000a1 block-label-header-left block-headerleft-2" data-block-plugin-id="block_group:75653d6c-5c92-4388-83a3-58aa3d3000a1">
+  
+    
+      <div id="block-sitebranding" data-block-plugin-id="system_branding_block" class="block-system-branding block block-system-branding-block block-label-site-branding block-sitebranding">
+  
+    
+        <a href="/" title="Home" rel="home" class="site-logo">
+      <img src="/sites/default/files/fair-40-logo.png" alt="Home" />
+    </a>
+      </div>
+
+  </div>
+<div id="block-headerright-2" class="header-right block block-block-group19bae7d6-91de-44aa-b7bf-269133eb6b8b block-label-header-right block-headerright-2" data-block-plugin-id="block_group:19bae7d6-91de-44aa-b7bf-269133eb6b8b">
+  
+    
+      <div id="block-donatetoday" class="donate block block-basic block-block-contentfa671843-b5c8-4212-b8cc-5a18e1a53632 block-label-donate-today block-donatetoday" data-block-plugin-id="block_content:fa671843-b5c8-4212-b8cc-5a18e1a53632">
+  
+    
+      
+            <div class="field field-name-body"><p><a class="button" href="https://fairus.org/donate" target="_blank">Donate Today</a></p>
+</div>
+      
+  </div>
+<div id="block-textresizeblocks" class="text-resize block block-textresize-block block-label-text-resize-blocks block-textresizeblocks" data-block-plugin-id="textresize_block">
+  
+    
+      
+
+<div class="text-resize-container">
+  <a href="#" class="text-resize-button">Text Resize</a>
+  <ul class="text-resize-options">
+    <li><a href="#" class="active" data-class="size-100">100%</a></li>
+    <li><a href="#" data-class="size-lg">LG</a></li>
+    <li><a href="#" data-class="size-xl">XL</a></li>
+    <li><a href="#" data-class="size-xxl">XXL</a></li>
+  </ul>
+</div>
+
+  </div>
+<div id="block-responsivemenumobileicon-2" data-block-plugin-id="responsive_menu_toggle" class="responsive-menu-toggle-wrapper responsive-menu-toggle block block-responsive-menu-toggle block-label-responsive-menu-mobile-icon block-responsivemenumobileicon-2">
+  
+    
+      <a id="toggle-icon" class="toggle responsive-menu-toggle-icon" title="Menu" href="#off-canvas">
+  <span class="icon"></span><span class="label">Menu</span>
+</a>
+  </div>
+<div class="views-exposed-form header-site-search closed block block-views-exposed-filter-blocksearch-page block-exposedformsearchpage" data-drupal-selector="views-exposed-form-search-page" id="block-exposedformsearchpage" data-block-plugin-id="views_exposed_filter_block:search-page">
+  
+    
+      <form action="/search" method="get" id="views-exposed-form-search-page" accept-charset="UTF-8">
+  <div class="ef-form">
+<div class="js-form-item form-item js-form-type-textfield form-item-keywords js-form-item-keywords">
+      <label for="edit-keywords">Keywords</label>
+        <input data-drupal-selector="edit-keywords" type="text" id="edit-keywords" name="keywords" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</div>
+</form>
+
+  </div>
+
+  </div>
+
+  </div>
+
+        </div>
+      </header>
+      </div>
+  
+  
+  <!-- ______________________ MAIN _______________________ -->
+
+  <div id="main">
+    <div class="container">
+      <section id="content">
+
+        <div id="content-header">
+
+          
+
+                      <div id="highlighted">  <div>
+    
+
+  </div>
+</div>
+          
+          
+
+          
+          
+          
+
+          
+          
+        </div><!-- /#content-header -->
+
+        <div id="content-area">
+            <div>
+    <node class="node node--type-article node--view-mode-full clearfix">
+  
+    
+
+  <div>
+    
+<div class="panel-top">
+  <div class="block-region-top"><div class="views-element-container block block-views-blockhero-content--block-1" data-block-plugin-id="views_block:hero_content_-block_1">
+  
+    
+      <div><div class="hero image-only js-view-dom-id-d291d69ccd056290e52ca797dcd497f7728f8e2aa2e6618a39805f21a037ec37">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/hero_basic_page_fullsize/public/images/cost-of-illegal-immigration.jpg?h=200f2b17&amp;itok=T-dNxu5j 1x" media="screen and (min-width: 1441px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/hero_basic_page_desktop/public/images/cost-of-illegal-immigration.jpg?h=200f2b17&amp;itok=zJEanHuk 1x" media="screen and (min-width: 1041px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/hero_basic_page_tablet/public/images/cost-of-illegal-immigration.jpg?h=200f2b17&amp;itok=JASd6a0n 1x" media="screen and (min-width: 641px)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/hero_basic_page_mobile/public/images/cost-of-illegal-immigration.jpg?h=200f2b17&amp;itok=XjeCRSKF 1x" media="screen and (min-width: 1px)" type="image/jpeg"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="/sites/default/files/styles/hero_basic_page_fullsize/public/images/cost-of-illegal-immigration.jpg?h=200f2b17&amp;itok=T-dNxu5j" alt="Cost of Illegal Immigration" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div data-block-plugin-id="system_breadcrumb_block" class="block block-system-breadcrumb-block block-label-breadcrumbs">
+  
+    
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+          <li>
+                  The Fiscal Burden of Illegal Immigration on United States Taxpayers
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+</div>
+</div>
+<div class="panel-column-wrapper two-col right-sidebar">
+  <article>
+    <div class="block-region-main"><div data-block-plugin-id="block_group:933d7cf9-e69a-4e8e-baf6-16eef87c4ea5" class="block block-block-group933d7cf9-e69a-4e8e-baf6-16eef87c4ea5 block-label-title-with-share">
+  
+    
+      <div class="views-element-container block block-views-blockpage-title-block-1 block-views-block-page-title-block-1" id="block-views-block-page-title-block-1" data-block-plugin-id="views_block:page_title-block_1">
+  
+    
+      <div><div class="js-view-dom-id-7bb5fd5945f347c2e4fbef158b0a3001b4f2a9119104da6daacf1dd0658ae580">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div class="views-field views-field-title"><h1 class="field-content">The Fiscal Burden of Illegal Immigration on United States Taxpayers</h1></div></div>
+
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div id="block-pagetitle" data-block-plugin-id="page_title_block" class="block block-page-title-block block-label-page-title block-pagetitle">
+  
+    
+      
+
+
+  </div>
+
+  </div>
+<div data-block-plugin-id="entity_field:node:body" class="block block-entity-fieldnodebody block-label-body">
+  
+    
+      
+            <div class="field field-name-body"><p>Report by Matt O'Brien and Spencer Raley | September 27, 2017 | <a class="pdf-link" href="/sites/default/files/2017-09/Fiscal-Burden-of-Illegal-Immigration-2017.pdf">View the Full Report (PDF)</a></p>
+
+<hr /><h2>Introduction</h2>
+
+<p>A continually growing population of illegal aliens, along with the federal government’s ineffective efforts to secure our borders, present significant national security and public safety threats to the United States. They also have a severely negative impact on the nation’s taxpayers at the local, state, and national levels. Illegal immigration costs Americans billions of dollars each year. Illegal aliens are net consumers of taxpayer-funded services and the limited taxes paid by some segments of the illegal alien population are, in no way, significant enough to offset the growing financial burdens imposed on U.S. taxpayers by massive numbers of uninvited guests. This study examines the fiscal impact of illegal aliens as reflected in both federal and state budgets.</p>
+
+<h2>The Number of Illegal Immigrants in the US</h2>
+
+<p>Estimating the fiscal burden of illegal immigration on the U.S. taxpayer depends on the size and characteristics of the illegal alien population. FAIR defines “illegal alien” as anyone who entered the United States without authorization and anyone who unlawfully remains once his/her authorization has expired. Unfortunately, the U.S. government has no central database containing information on the citizenship status of everyone lawfully present in the United States. The overall problem of estimating the illegal alien population is further complicated by the fact that the majority of available sources on immigration status rely on self-reported data. Given that illegal aliens have a motive to lie about their immigration status, in order to avoid discovery, the accuracy of these statistics is dubious, at best. All of the foregoing issues make it very difficult to assess the current illegal alien population of the United States.</p>
+
+<p>However, FAIR now estimates that there are approximately 12.5 million illegal alien residents. This number uses FAIR’s previous estimates but adjusts for suspected changes in levels of unlawful migration, based on information available from the Department of Homeland Security, data available from other federal and state government agencies, and other research studies completed by reliable think tanks, universities, and other research organizations.</p>
+
+<center><script src="//app-sj25.marketo.com/js/forms2/js/forms2.min.js"></script></center>
+
+<center><form id="mktoForm_1095"></form></center>
+
+<center><script>
+<!--//--><![CDATA[// ><!--
+
+<!--//--><![CDATA[// ><!--
+
+<!--//--><![CDATA[// ><!--
+MktoForms2.loadForm("//app-sj25.marketo.com", "554-LUH-167", 1095);
+//--><!]]]]]]><![CDATA[><![CDATA[>
+
+//--><!]]]]><![CDATA[>
+
+//--><!]]>
+</script></center>
+
+<h2>The Cost of Illegal Immigration to the United States</h2>
+
+<p>At the federal, state, and local levels, taxpayers shell out approximately $134.9 billion to cover the costs incurred by the presence of more than 12.5 million illegal aliens, and about 4.2 million citizen children of illegal aliens. That amounts to a tax burden of approximately $8,075 per illegal alien family member and a total of $115,894,597,664. The total cost of illegal immigration to U.S. taxpayers is both staggering and crippling. In 2013, FAIR estimated the total cost to be approximately $113 billion. So, in under four years, the cost has risen nearly $3 billion. This is a disturbing and unsustainable trend. The sections below will break down and further explain these numbers at the federal, state, and local levels.</p>
+
+<h2>Total Governmental Expenditures on Illegal Aliens</h2>
+
+<div class="embedded-entity align-center"><div>
+      
+              <img src="/sites/default/files/images/national-expenditures_0.jpg" width="1000" height="301" alt="Total national costs of undocumented immigrants" typeof="foaf:Image" /></div></div><h2>Total Tax Contributions by Illegal Aliens</h2>
+
+<div class="embedded-entity align-center"><div>
+      
+              <img src="/sites/default/files/images/tax-contributions-by-illegal-immigrants_0.jpg" width="1000" height="301" alt="Total taxes paid by illegal immigrants" typeof="foaf:Image" /></div></div><h2>Total Economic Impact of Illegal Immigration </h2>
+
+<div class="embedded-entity align-center"><div>
+      
+              <img src="/sites/default/files/images/economic-impact-illegal-immigrants_1.jpg" width="1000" height="317" alt="economic impact of illegal immigration" typeof="foaf:Image" /></div></div><p> </p>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:9924a850-a25e-4c4e-b44e-624a0e64e723" class="block block-basic block-block-content9924a850-a25e-4c4e-b44e-624a0e64e723 block-label-cost-of-illegal-immigration">
+  
+    
+      
+            <div class="field field-name-body"><h2 class="main-title-one-star text-align-center">Federal</h2>
+
+<p>The Federal government spends a net amount of $45.8 billion on illegal aliens and their U.S.-born children. This amount includes expenditures for public education, medical care, justice enforcement initiatives, welfare programs and other miscellaneous costs. It also factors in the meager amount illegal aliens pay to the federal government in income, social security, Medicare and excise taxes.</p>
+
+<p> </p>
+
+<h3 class="subheading text-align-center">Federal Spending</h3>
+
+<p>The approximately $46 billion in federal expenditures attributable to illegal aliens is staggering. Assuming an illegal alien population of approximately 12.5 million illegal aliens and 4.2 million U.S.-born children of illegal aliens, that amounts to roughly $2,746 per illegal alien, per year. For the sake of comparison, the average American college student receives only $4,800 in federal student loans each year.</p>
+
+<p>FAIR maintains that every concerned American citizen should be asking our government why, in a time of increasing costs and shrinking resources, is it spending such large amounts of money on individuals who have no right, nor authorization, to be in the United States? This is an especially important question in view of the fact that the illegal alien beneficiaries of American taxpayer largess offset very little of the enormous costs of their presence by the payment of taxes. Meanwhile, average Americans pay approximately 30% of their income in taxes.</p>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:fa6d53ad-5be2-4d10-94f2-016c000f7464" class="block block-block-contentfa6d53ad-5be2-4d10-94f2-016c000f7464 block-label-federal-costs-tables">
+  
+    
+      
+      <div class="field field-name-field-add-a-panel">
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Federal Education - $1.6 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Federal Educational Expenditures:</h2>
+
+<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px"><thead></thead><tbody><tr><td><strong>Primary and Secondary Education</strong></td>
+			<td>$943,200,000</td>
+		</tr><tr><td><strong>Limited English Proficiency (LEP) – Title III</strong></td>
+			<td>$541,694,040</td>
+		</tr><tr><td><strong>Migrant schooling (Title I C)</strong></td>
+			<td>$206,140,000</td>
+		</tr><tr><td><strong>Total</strong></td>
+			<td>$1,691,034,040</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Federal Medical Costs - $17.1 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Federal Medical Expenditures</h2>
+
+<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px;"><thead></thead><tbody><tr><td><strong>Uncompensated Hospital Expenditure</strong></td>
+			<td>$8,200,000,000</td>
+		</tr><tr><td><strong>Medicaid Births</strong></td>
+			<td>$1,242,990,372</td>
+		</tr><tr><td><strong>Medicaid Fraud</strong></td>
+			<td>$3,458,475,000</td>
+		</tr><tr><td><strong>Medicaid for U.S.-born Kids of Illegal Aliens</strong></td>
+			<td>$4,234,129,200</td>
+		</tr><tr><td><strong>Total</strong></td>
+			<td>$17,135,594,572</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Federal Justice Expenditures - $13.1 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Federal Justice Enforcement Expenditures</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 500px;"><thead></thead><tbody><tr><td><strong>Federal Incarceration </strong></td>
+			<td>$1,240,000,000</td>
+		</tr><tr><td><strong>Enforcement and Removals</strong> </td>
+			<td>$3,218,000,000</td>
+		</tr><tr><td><strong>Customs and Border Protection </strong></td>
+			<td>$5,968,729,360</td>
+		</tr><tr><td><strong>Other ICE Operations</strong></td>
+			<td>$1,126,840,000</td>
+		</tr><tr><td><strong>State Criminal Alien Assistance Program (SCAAP)</strong></td>
+			<td>$210,000,000</td>
+		</tr><tr><td><strong>Executive Office for Immigration Review (EOIR) </strong></td>
+			<td>$168,120,000</td>
+		</tr><tr><td><strong>Alien Minors </strong></td>
+			<td>$1,200,000,000</td>
+		</tr><tr><td><strong>Byrne grants </strong></td>
+			<td>$16,920,000</td>
+		</tr><tr><td><strong>Total</strong></td>
+			<td>$13,148,609,360</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Federal Welfare Programs - $5.8 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Federal Welfare Programs</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 500px;"><thead></thead><tbody><tr><td><strong>Meals in Schools </strong></td>
+			<td>$1,003,000,000</td>
+		</tr><tr><td><strong>Supplemental Nutrition Assistance Program</strong></td>
+			<td>$1,963,416,000</td>
+		</tr><tr><td><strong>Women Infants and Children </strong></td>
+			<td>$1,097,820,360</td>
+		</tr><tr><td><strong>Temporary Assistance for Needy Families </strong></td>
+			<td>$1,785,000,000</td>
+		</tr><tr><td><strong>Total</strong></td>
+			<td>$5,849,236,360</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Total Federal Expenditures - $45.8 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Federal Expenditures</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 500px;"><thead></thead><tbody><tr><td><strong>Educational Expenditures</strong></td>
+			<td>$1,691,034,040</td>
+		</tr><tr><td><strong>Medical Expenditures</strong></td>
+			<td>$17,135,594,572</td>
+		</tr><tr><td><strong>Law Enforcement</strong></td>
+			<td>$13,148,609,360</td>
+		</tr><tr><td><strong>Welfare Programs</strong></td>
+			<td>$5,849,236,360</td>
+		</tr><tr><td><strong>General Federal Expenditures</strong></td>
+			<td>$8,046,000,000</td>
+		</tr><tr><td><strong>Total</strong></td>
+			<td>$45,870,474,332</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+<div data-block-plugin-id="block_content:05d5b7db-bba6-4a37-bf8d-b1a2c18df654" class="block block-basic block-block-content05d5b7db-bba6-4a37-bf8d-b1a2c18df654 block-label-federal-taxes-for-cost-study-2017">
+  
+    
+      
+            <div class="field field-name-body"><h3 class="subheading text-align-center">Federal Taxes</h3>
+
+<p>Taxes collected from illegal aliens offset fiscal outlays and, therefore must be included in any examination of the cost of illegal immigration. However, illegal alien apologists frequently cite the allegedly large tax payments made by illegal aliens as a justification for their unlawful presence, and as a basis for offering them permanent legal status through a new amnesty, similar to the one enacted in 1986. That argument is nothing more than a red herring.</p>
+
+<p><meta charset="utf-8" /></p>
+
+<p>FAIR believes that most studies grossly overestimate both the taxes actually collected from illegal aliens and, more importantly, the amount of taxes actually paid by illegal aliens (i.e., the amount of money collected from illegal aliens and actually kept by the federal government). This belief is based on a number of factors: Since the 1990’s, the United States has focused on apprehending and removing criminal aliens. The majority of illegal aliens seeking employment in the United States have lived in an environment where they have little fear of deportation, even if discovered. This has created an environment where most illegal aliens are both able and willing to file tax returns. Because the vast majority of illegal aliens hold low-paying jobs, those who are subject to wage deductions actually wind up receiving a complete refund of all taxes paid, plus net payments made on the basis of tax credits.</p>
+
+<p>As a result, illegal aliens actually profit from filing a tax return and, therefore, have a strong interest in doing so.</p>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:6b15e854-d28c-4237-9fa5-e4c80ce683de" class="block block-block-content6b15e854-d28c-4237-9fa5-e4c80ce683de block-label-federal-taxes-panels-cost-study-2017">
+  
+    
+      
+      <div class="field field-name-field-add-a-panel">
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Federal Tax Receipts from Illegal Aliens - $22.1 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h4>Federal Receipts from Illegal Aliens</h4>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 500px;" summary="511"><thead></thead><tbody><tr><td><strong>Income Taxes </strong></td>
+			<td>$3,299,957,700</td>
+		</tr><tr><td><strong>Social Security and Medicare Taxes</strong></td>
+			<td>$18,490,000,000</td>
+		</tr><tr><td><strong>Excise taxes </strong></td>
+			<td>$401,140,000</td>
+		</tr><tr><td><strong>Total Receipts </strong></td>
+			<td>$22,191,097,700</td>
+		</tr></tbody></table><h4>Credits Given to Illegal Aliens</h4>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><thead></thead><tbody><tr><td><strong>ACTC </strong></td>
+			<td>$4,200,000,000</td>
+		</tr><tr><td><strong>EITC </strong></td>
+			<td>$2,543,200,000</td>
+		</tr><tr><td><strong>Total Credits </strong></td>
+			<td>$6,743,200,000</td>
+		</tr></tbody></table><h4>Net Federal Receipts from Illegal Aliens</h4>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><thead></thead><tbody><tr><td><strong>Total Receipts </strong></td>
+			<td>$22,191,097,700</td>
+		</tr><tr><td><strong>Total Credits</strong> </td>
+			<td>-$6,743,200,000</td>
+		</tr><tr><td><strong>Net Federal Receipts from Illegal Aliens </strong></td>
+			<td>$ 15,447,897,700</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+<div data-block-plugin-id="block_content:2993f15c-0363-4578-94c5-938a0463353b" class="block block-basic block-block-content2993f15c-0363-4578-94c5-938a0463353b block-label-net-federal-impact-cost-study-2017">
+  
+    
+      
+            <div class="field field-name-body"><h3 class="subheading text-align-center">Total Federal Economic Impact of Illegal Immigration</h3>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:77704155-8016-4d69-ab9a-46156517e342" class="block block-block-content77704155-8016-4d69-ab9a-46156517e342 block-label-net-federal-impact-cost-study-2017-panel">
+  
+    
+      
+      <div class="field field-name-field-add-a-panel">
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Net Federal Impact of Illegal Aliens - $30.4 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h4>Net Federal Impact of Illegal Aliens</h4>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 100%;"><thead></thead><tbody><tr><td><strong>Total Federal Outlays</strong> </td>
+			<td>$45,870,474,332</td>
+		</tr><tr><td><strong>Net Federal Receipts</strong> </td>
+			<td>$15,447,897,700</td>
+		</tr><tr><td><strong>Net Fiscal Impact</strong></td>
+			<td>$30,422,576,632</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+<div data-block-plugin-id="block_content:de689ba1-0009-4b5d-9ff2-47a55c8cab8a" class="block block-basic block-block-contentde689ba1-0009-4b5d-9ff2-47a55c8cab8a block-label-state-and-local-heading-cost-study">
+  
+    
+      
+            <div class="field field-name-body"><h2 class="main-title-one-star text-align-center">State and Local</h2>
+
+<p>Even though the costs of illegal immigration borne by taxpayers at the federal level are staggering, they only pale in comparison to the fiscal burden shouldered by taxpayers at the state level. Most government taxes and fees remitted to government by Americans are paid in forms other than income taxes submitted to the IRS on April 15th. There are city and state income taxes, fuel surcharges, sales and property taxes, etc…. States and localities also bear the main burden for costs associated with public education, city and county infrastructure, and local courts and jails.</p>
+
+<p>A further complication is the fact that, while barred from many federal benefits, state laws allow illegal aliens to access many state-funded social welfare programs. Because so little data is collected on the immigration status of individuals collecting benefits, it is difficult to determine the rate at which illegal aliens use welfare programs. However, based on the average income of illegal alien households, it appears they use these programs at a rate higher than lawfully present aliens or citizens.</p>
+
+<p> </p>
+
+<h3 class="subheading text-align-center">State and Local Spending</h3>
+
+<p>The combined total of state and local government general expenditures on illegal aliens is $18,571,428,571 billion. The services referenced in this section are supported directly by the payment of city and state taxes and related fees. At the state level, examples of general expenditures would be the costs of general governance, fire departments, garbage collection, street cleaning and maintenance, etc. The state, county or municipality — or even a special taxing district in some situations — may provide some of these services. In most cases, localities offer more services than the state. By FAIR’s estimate, there is approximately a 65 percent to 35 percent cost share between local and state governments.</p>
+
+<p>The estimate of general expenditure services received by illegal alien households, beyond the specific outlays mentioned in the sections above, excludes capital expenditures and debt servicing. The calculation for each state is based on the state’s annual operating budget, reduced by the amount covered by the federal government. That expenditure is then reduced further based on the relative size of the estimated population of illegal aliens and their U.S.-born minor children. As noted in our population estimate, this means states like California, Texas, Florida, New York, etc., with larger illegal alien cohorts, will bear larger shares of these costs.</p>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:b5b336e4-89ca-47fb-b647-339a59cac745" class="block block-block-contentb5b336e4-89ca-47fb-b647-339a59cac745 block-label-state-cost-panels">
+  
+    
+      
+      <div class="field field-name-field-add-a-panel">
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">State Educational Expenditures - $44.4 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total State Educational Expenditures</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 500px;"><thead></thead><tbody><tr><td><strong>Public School Expenditures </strong></td>
+			<td>$43,396,433,856</td>
+		</tr><tr><td><strong>Post-secondary tuition assistance </strong></td>
+			<td>$1,040,000,000</td>
+		</tr><tr><td><strong>Total Educational Expenditures</strong></td>
+			<td>$44,436,433,856</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">State Medical Expenditures - $12.1 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total State Medical Expenditures</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width: 500px;"><thead></thead><tbody><tr><td><strong>Medicaid births </strong></td>
+			<td>$730,010,218</td>
+		</tr><tr><td><strong>Uncompensated Medical Expense </strong></td>
+			<td>$6,930,000,000</td>
+		</tr><tr><td><strong>Improper Medicaid Payouts</strong> </td>
+			<td>$2,031,025,000</td>
+		</tr><tr><td><strong>Medicaid for Citizen Children of Illegal Alien </strong></td>
+			<td>$2,486,710,800</td>
+		</tr><tr><td><strong>Total Medical Expenditures</strong></td>
+			<td>$12,177,746,018</td>
+		</tr></tbody></table><p> </p>
+</div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">State Administration of Justice Expenditures - $10.8 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total State Administration of Justice Expenditures</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Policing</td>
+			<td>$4,727,322,000</td>
+		</tr><tr><td>Judicial</td>
+			<td>$2,227,368,973</td>
+		</tr><tr><td>Corrections</td>
+			<td>$3,622,579,000</td>
+		</tr><tr><td>State Border</td>
+			<td>$490,780,000</td>
+		</tr><tr><td>Total</td>
+			<td>$11,068,049,973</td>
+		</tr><tr><td>SCAAP funds from Federal Government</td>
+			<td>-$189,000,000</td>
+		</tr><tr><td>Net Justice Expenditures</td>
+			<td>10,879,049,981</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">State Welfare Expenditures - $2.9 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total State Welfare Expenditures</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Child Care and Development Fund</td>
+			<td>$657,320,000</td>
+		</tr><tr><td>Temporary Assistance to Needy Families</td>
+			<td>$321,000,000</td>
+		</tr><tr><td>Meals in Schools</td>
+			<td>$1,950,000,000</td>
+		</tr><tr><td>Total Welfare Expenditure</td>
+			<td>$2,928,322,607</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">State and Local Expenditures - $88 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total State and Local Expenditures</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Total Education Expenditures</td>
+			<td>$44,436,433,856</td>
+		</tr><tr><td>Total Medical Expenditures</td>
+			<td>$12,177,746,018</td>
+		</tr><tr><td>Total Administration of Justice Costs</td>
+			<td>$10,879,049,981</td>
+		</tr><tr><td>Total Welfare Expenditure</td>
+			<td>$2,928,322,607</td>
+		</tr><tr><td>General Expenditures</td>
+			<td>$18,571,428,571</td>
+		</tr><tr><td>State and Local Total</td>
+			<td>$88,992,981,032</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+<div data-block-plugin-id="block_content:a89a1ae8-8eed-4964-b86e-daa7b918eefa" class="block block-basic block-block-contenta89a1ae8-8eed-4964-b86e-daa7b918eefa block-label-state-and-local-taxes-cost-study">
+  
+    
+      
+            <div class="field field-name-body"><h3 class="subheading text-align-center">State and Local Taxes Collected</h3>
+
+<p><meta charset="utf-8" /></p>
+
+<p dir="ltr">Offsetting the fiscal costs of the illegal alien population are the taxes collected from them at the state and local level. Many proponents of illegal immigration argue that the taxes paid to the states render illegal aliens a net boon to state and local economies. However, this is a spurious argument. Evidence shows that the tax payments made by illegal aliens fail to cover the costs of the many services they consume.</p>
+
+<p dir="ltr">Illegal aliens are not typical taxpayers. First, as previously noted in this study, the large percentage of illegal aliens who work in the underground economy frequently avoid paying any income tax at all. (Many actually receive a net cash profit through refundable tax credit programs.) Second, and also previously noted, the average earnings of illegal alien households are considerably lower than both legal aliens and native-born workers.</p>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:79a2b47a-506b-418f-b91d-769802c86aa2" class="block block-block-content79a2b47a-506b-418f-b91d-769802c86aa2 block-label-state-and-local-taxes-panel-cost-study">
+  
+    
+      
+      <div class="field field-name-field-add-a-panel">
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">State Taxes Collected - $3.5 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h4>Net State Taxes Collected</h4>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Total State Tax Receipts</td>
+			<td>$918,000,000</td>
+		</tr><tr><td>Property Tax Receipts:</td>
+			<td>$1,049,760,000</td>
+		</tr><tr><td>Income Tax Receipts:</td>
+			<td>$598,600,000</td>
+		</tr><tr><td>Fuel/Transportation Sales Tax Receipts:</td>
+			<td>$1,000,000,000</td>
+		</tr><tr><td>Total State Taxes Paid:</td>
+			<td>$3,566,360,000</td>
+		</tr><tr><td>Earned Income Tax Credits</td>
+			<td>-$45,400,000</td>
+		</tr><tr><td>Net State Tax Receipts</td>
+			<td>$3,520,960,000</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+<div data-block-plugin-id="block_content:ffe57273-96c0-4b7e-a5f4-4f64185069d3" class="block block-basic block-block-contentffe57273-96c0-4b7e-a5f4-4f64185069d3 block-label-total-state-and-local-economic-impact-of-illegal-immigration">
+  
+    
+      
+            <div class="field field-name-body"><h3 class="subheading text-align-center">Total State and Local Economic Impact of Illegal Immigration</h3>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:7d110d78-2e1f-4b3a-bf13-25840d8133aa" class="block block-block-content7d110d78-2e1f-4b3a-bf13-25840d8133aa block-label-state-and-local-net-impact-panel-cost-study">
+  
+    
+      
+      <div class="field field-name-field-add-a-panel">
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Net State Impact - $85 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Total State and Local Expenditures</td>
+			<td>$88,992,981,032</td>
+		</tr><tr><td>Total State and Local Tax Receipts</td>
+			<td>-$3,520,960,000</td>
+		</tr><tr><td>Net State and Local Fiscal Impact</td>
+			<td>$85,472,021,032</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+<div data-block-plugin-id="block_content:c9a3e892-c48c-4949-a9f2-fe19917450a6" class="block block-basic block-block-contentc9a3e892-c48c-4949-a9f2-fe19917450a6 block-label-fiscal-costs-map">
+  
+    
+      
+            <div class="field field-name-body"><p><iframe id="datawrapper-chart-MAdVd" src="//datawrapper.dwcdn.net/MAdVd/7/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="1286"></iframe><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["MAdVd"]={},window.datawrapper["MAdVd"].embedDeltas={"100":1390,"200":1338,"300":1312,"400":1312,"500":1286,"700":1286,"800":1286,"900":1286,"1000":1286},window.datawrapper["MAdVd"].iframe=document.getElementById("datawrapper-chart-MAdVd"),window.datawrapper["MAdVd"].iframe.style.height=window.datawrapper["MAdVd"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["MAdVd"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("MAdVd"==b)window.datawrapper["MAdVd"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});
+//--><!]]>
+</script></p>
+</div>
+      
+  </div>
+<div data-block-plugin-id="block_content:4e9a3af3-ed65-4263-bee0-8944cad7bffb" class="block block-block-content4e9a3af3-ed65-4263-bee0-8944cad7bffb block-label-combined-federal-state-cost-tables">
+  
+      <h2>Combined Federal State Cost Tables</h2>
+    
+      
+      <div class="field field-name-field-add-a-panel">
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Federal and State Fiscal Outlays - $134 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Expenditures</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Total Federal Expenditures</td>
+			<td>$45,870,474,332</td>
+		</tr><tr><td>Total State and Local Expenditures</td>
+			<td>$88,992,981,032</td>
+		</tr><tr><td>Total National Expenditures</td>
+			<td>$134,863,455,364</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Federal and State Tax Contributions - $18 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Tax Contributions</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Total Federal Taxes Paid</td>
+			<td>$15,447,897,700</td>
+		</tr><tr><td>Total State and Local Taxes Paid</td>
+			<td>$3,520,960,000</td>
+		</tr><tr><td>Total Tax Contributions</td>
+			<td>$18,968,857,700</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--panels paragraph--view-mode--default">
+                      <div class="panel-heading"><a href="#">Net Cost of Illegal Immigration - $115 Billion</a></div>
+                  <div class="panel-content">
+        <div class="panel-content-inner"><h2>Total Cost of Illegal Immigration</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%;"><tbody><tr><td>Total National Expenditures</td>
+			<td>$134,863,455,364</td>
+		</tr><tr><td>Minus Total Tax Contributions</td>
+			<td>$18,968,857,700</td>
+		</tr><tr><td>Total Fiscal Cost of Illegal Aliens on Taxpayers:</td>
+			<td>$115,894,597,664</td>
+		</tr></tbody></table></div>
+      </div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+</div>
+  </article>
+  <aside>
+    <div class="block-region-sidebar"><nav role="navigation" aria-labelledby="-menu" data-block-plugin-id="system_menu_block:main" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/home" data-drupal-link-system-path="node/1">Home</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/about-fair" data-drupal-link-system-path="node/2331">About FAIR</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/issues" data-drupal-link-system-path="node/8">Issues</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/legislation" data-drupal-link-system-path="taxonomy/term/15">Legislation</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/news" data-drupal-link-system-path="node/1821">News</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/pressroom" data-drupal-link-system-path="node/1826">Pressroom</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/get-involved" title="Get Involved" data-drupal-link-system-path="node/2276">Get Involved</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us" data-drupal-link-system-path="node/2001">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div data-block-plugin-id="twitter_block" class="block block-twitter-block block-label-tweets">
+  
+      <h2>Tweets</h2>
+    
+      
+<div class="tweets">
+      <div class="tweet tweet-0">
+      <div class="tweet-inner">
+        <div class="twitter-date">
+          <strong>February 24, 2019</strong> | 11:00PM
+        </div>
+        <div class="twitter-message">
+          <p>Illegal Accused of Killing Tennessee Mom Added to ICE &#039;Most Wanted&#039; List <a href="https://t.co/W0h9Kr7oAW">https://t.co/W0h9Kr7oAW</a> via @BreitbartNews @JxhnBinder</p>
+
+        </div>
+      </div>
+      <div class="twitter-user">
+        <a class="twitter-follow-button" href="https://twitter.com/intent/follow?screen_name=FAIRImmigration"><span class="tweetsicon-twitter"></span> @FAIRImmigration</a>
+      </div>
+    </div>
+      <div class="tweet tweet-1">
+      <div class="tweet-inner">
+        <div class="twitter-date">
+          <strong>February 24, 2019</strong> | 9:00PM
+        </div>
+        <div class="twitter-message">
+          <p>Every year, millions unlawfully enter the U.S. with the hope of finding work. One of the keys to ending illegal imm… <a href="https://t.co/P19CX2E5vV">https://t.co/P19CX2E5vV</a></p>
+
+        </div>
+      </div>
+      <div class="twitter-user">
+        <a class="twitter-follow-button" href="https://twitter.com/intent/follow?screen_name=FAIRImmigration"><span class="tweetsicon-twitter"></span> @FAIRImmigration</a>
+      </div>
+    </div>
+  </div>
+  </div>
+<div data-block-plugin-id="block_content:bac35d05-6b14-4669-bb3a-ce5803b6d063" class="block block-block-contentbac35d05-6b14-4669-bb3a-ce5803b6d063 block-label-demo-cta-block">
+  
+    
+      
+<div class="field field--name-field-viewfield field--type-viewfield field--label-hidden">
+  
+    
+        
+<div class="field__item field__item-label-hidden">
+  
+    
+      <div class="views-element-container"><div class="js-view-dom-id-384713e52046b0d36c364a2c147af5e7f679be837d38808d286aaeb5e3d0095e">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row"><div class="cta-block"><a href="https://fairus.org/american-wages-campaign">
+<span class="img">  <img src="/sites/default/files/styles/staff_card_photo/public/images/bankruptcy-business-person-holding-an-empty-wallet-picture-id863577604.jpg?h=ba92f19b&amp;itok=nIFk89uC" width="446" height="334" alt="Labor Ad Image" typeof="Image" />
+
+
+</span>
+<span class="label">Join the Fight!</span>
+<div class="text">
+<h3 class="title">FAIR&#039;s New Campaign to Increase Wages by Decreasing Immigration</h3>
+<span class="button">Find Out More</span>
+</div>
+</a></div></div>
+
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+    </div>
+
+  </div>
+</div>
+  </aside>
+</div>
+  </div>
+</node>
+
+  </div>
+
+        </div>
+
+      </section><!-- /#content -->
+
+      
+          </div><!-- /.container -->
+  </div><!-- /#main -->
+
+  <!-- ______________________ FOOTER _______________________ -->
+
+      <footer id="footer">
+              <div class="footer-top">
+          <div class="container">
+              <div>
+    <div id="block-webform" data-block-plugin-id="webform_block" class="block block-webform-block block-label-webform block-webform">
+  
+    
+      <form class="webform-submission-form webform-submission-add-form webform-submission-stay-up-to-date-block-form webform-submission-stay-up-to-date-block-add-form webform-submission-stay-up-to-date-block-node-2561-form webform-submission-stay-up-to-date-block-node-2561-add-form js-webform-details-toggle webform-details-toggle" data-drupal-selector="webform-submission-stay-up-to-date-block-node-2561-add-form" action="/issue/publications-resources/fiscal-burden-illegal-immigration-united-states-taxpayers" method="post" id="webform-submission-stay-up-to-date-block-node-2561-add-form" accept-charset="UTF-8">
+  <h2>Stay Up-to-Date</h2>
+  
+  <div class="js-form-item form-item js-form-type-textfield form-item-first-name js-form-item-first-name">
+      <label for="edit-first-name" class="js-form-required form-required">First Name</label>
+        <input data-drupal-selector="edit-first-name" type="text" id="edit-first-name" name="first_name" value="" size="60" maxlength="255" placeholder="First Name" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-item-last-name js-form-item-last-name">
+      <label for="edit-last-name" class="js-form-required form-required">Last Name</label>
+        <input data-drupal-selector="edit-last-name" type="text" id="edit-last-name" name="last_name" value="" size="60" maxlength="255" placeholder="Last Name" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-email form-item-email js-form-item-email">
+      <label for="edit-email" class="js-form-required form-required">Email</label>
+        <input data-drupal-selector="edit-email" type="email" id="edit-email" name="email" value="" size="60" maxlength="254" placeholder="Your Email" class="form-email required" required="required" aria-required="true" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-cwxdnrvgzskqrdmhsqdecojnhmqpmgp6uiyhqfuuj4o" type="hidden" name="form_build_id" value="form-CWxDNrvGZskQRDMHsQDeCOjNhmqPMgP6uiYhQFuUJ4o" />
+<input data-drupal-selector="edit-webform-submission-stay-up-to-date-block-node-2561-add-form" type="hidden" name="form_id" value="webform_submission_stay_up_to_date_block_node_2561_add_form" />
+<input data-drupal-selector="edit-honeypot-time" type="hidden" name="honeypot_time" value="1mzy7YytP0V4V-Ete1rYDQ_4Fx4Phvzv3Mq-S0CwjeE" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="webform-button--submit button button--primary js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Submit" />
+
+</div>
+<div class="link-textfield js-form-wrapper form-wrapper" style="display: none !important;"><input autocomplete="off" data-drupal-selector="edit-link" type="text" id="edit-link" name="link" value="" size="20" maxlength="128" class="form-text" />
+</div>
+
+
+  
+</form>
+
+  </div>
+<div id="block-mysociallinksblock--3" class="social-links block block-mysociallinks-block block-label-stay-connected block-mysociallinksblock--3" data-block-plugin-id="mySocialLinks_block">
+  
+      <h2>Stay Connected</h2>
+    
+      
+
+
+<ul class="social-media-links">
+      
+                  
+          <li class="facebook"><a href="https://www.facebook.com/FAIRImmigration" target="_blank"><span class="social-icon msl-facebook"></span> <span class="label visually-hidden">Facebook</span></a></li>
+          
+                  
+          <li class="twitter"><a href="https://twitter.com/FAIRImmigration" target="_blank"><span class="social-icon msl-twitter"></span> <span class="label visually-hidden">Twitter</span></a></li>
+          
+                  
+          <li class="linkedin"><a href="https://www.linkedin.com/company/federation-for-american-immigration-reform" target="_blank"><span class="social-icon msl-linkedin"></span> <span class="label visually-hidden">LinkedIn</span></a></li>
+          
+                  
+          <li class="youtube"><a href="https://www.youtube.com/user/fairfederation" target="_blank"><span class="social-icon msl-youtube-play"></span> <span class="label visually-hidden">YouTube</span></a></li>
+          
+                  
+          <li class="instagram"><a href="https://www.instagram.com/fairimmigration/" target="_blank"><span class="social-icon msl-instagram"></span> <span class="label visually-hidden">Instagram</span></a></li>
+          
+                  
+          <li class="pinterest"><a href="https://www.pinterest.com/fairimmigration/" target="_blank"><span class="social-icon msl-pinterest"></span> <span class="label visually-hidden">Pinterest</span></a></li>
+      </ul>
+
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+                    <div class="footer-bottom">
+          <div class="container">
+              <div>
+    <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="footer-menu block block-menu navigation menu--footer" data-block-plugin-id="system_menu_block:footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                <li class="menu-item">
+        <a href="/privacy-policy" data-drupal-link-system-path="node/6">Privacy Policy</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us" title="Contact Us" data-drupal-link-system-path="node/2001">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-copyright-2--2" class="copyright block block-basic block-block-contentf6b89d67-1879-4a03-a8c2-bbe4dee79f8e block-label-copyright block-copyright-2--2" data-block-plugin-id="block_content:f6b89d67-1879-4a03-a8c2-bbe4dee79f8e">
+  
+    
+      
+            <div class="field field-name-body"><p><strong>© Copyright 2019 Federation for American Immigration Reform, All Rights Reserved</strong><br />
+25 Massachusetts Ave. NW Ste. 330, Washington, DC 20001<br />
+Phone: 1.877.627.3247    Fax: 202.387.3447</p>
+</div>
+      
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+          </footer><!-- /#footer -->
+  
+</div><!-- /.layout-container -->
+
+  </div>
+
+    <div class="off-canvas-wrapper"><div id="off-canvas">
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/home" data-drupal-link-system-path="node/1">Home</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/about-fair" data-drupal-link-system-path="node/2331">About FAIR</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/about-fair/our-impact" data-drupal-link-system-path="node/1846">Our Impact</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/about-fair/impact/our-campaigns" title="Our Campaigns" data-drupal-link-system-path="node/2156">Our Campaigns</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/impact/endorsements" data-drupal-link-system-path="node/1112">Endorsements</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/impact/past-appearances" title="Past Appearances" data-drupal-link-system-path="node/2151">Past Appearances</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/impact/congressional-testimony" data-drupal-link-system-path="node/430">Congressional Testimony</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/board-directors" data-drupal-link-system-path="node/1111">Board of Directors</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/fair-staff" data-drupal-link-system-path="node/12">FAIR Staff</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/career-opportunities" data-drupal-link-system-path="node/424">Career Opportunities</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/financials" data-drupal-link-system-path="node/1115">Financials</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/immigration-reform-law-institute" data-drupal-link-system-path="node/1117">The Immigration Reform Law Institute</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/issues" data-drupal-link-system-path="node/8">Issues</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/issues/amnesty" title="Amnesty" data-drupal-link-system-path="taxonomy/term/10">Amnesty</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/legal-immigration" title="Legal Immigration" data-drupal-link-system-path="taxonomy/term/8">Legal Immigration</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/illegal-immigration" title="Illegal Immigration " data-drupal-link-system-path="taxonomy/term/9">Illegal Immigration</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/national-security" title="National Security" data-drupal-link-system-path="taxonomy/term/11">National Security</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/workforce-and-economy" title="Workforce &amp; Economy" data-drupal-link-system-path="taxonomy/term/12">Workforce &amp; Economy</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/societal-impact" title="Societal Impact" data-drupal-link-system-path="taxonomy/term/13">Societal Impact</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/population-and-environment" title="Population &amp; Environment" data-drupal-link-system-path="taxonomy/term/14">Population &amp; Environment</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues/publications-and-resources" title="Publications &amp; Resources" data-drupal-link-system-path="taxonomy/term/16">Publications &amp; Resources</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/legislation" data-drupal-link-system-path="taxonomy/term/15">Legislation</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/legislation/presidential-administration" data-drupal-link-system-path="taxonomy/term/21">Presidential Administration</a>
+              </li>
+                <li class="menu-item">
+        <a href="/legislation/federal-legislation" data-drupal-link-system-path="taxonomy/term/22">Federal Legislation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/legislation/state-and-local-legislation" data-drupal-link-system-path="taxonomy/term/20">State &amp; Local Legislation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news/legislative-updates" title="Legislative Updates" data-drupal-link-system-path="taxonomy/term/6">Legislative Updates</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/legislation/reports-and-analysis" data-drupal-link-system-path="taxonomy/term/106">Reports &amp; Analysis</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/legislation/reports-and-analysis/immigration-reform-agendas-fair" title="Immigration Reform Agendas" data-drupal-link-system-path="node/2311">Immigration Reform Agendas</a>
+              </li>
+                <li class="menu-item">
+        <a href="/legislation/reports-and-analysis/voting-reports-fair" title="Voting Reports" data-drupal-link-system-path="node/2306">Voting Reports</a>
+              </li>
+                <li class="menu-item">
+        <a href="/legislation/reports-and-analysis/history-of-us-immigration-laws" data-drupal-link-system-path="node/2336">History of U.S. Immigration Laws</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/news" data-drupal-link-system-path="node/1821">News</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="http://immigrationreform.com/" title="Blog">Blog</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news/legislative-updates" data-drupal-link-system-path="taxonomy/term/6">Legislative Updates</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news/press-releases" data-drupal-link-system-path="taxonomy/term/7">Press Releases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news/newsletters" title="Newsletters" data-drupal-link-system-path="node/2171">Newsletters</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/pressroom" data-drupal-link-system-path="node/1826">Pressroom</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/pressroom/podcasts" title="Podcasts" data-drupal-link-system-path="node/2161">Podcasts</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news/press-releases" title="Press Releases" data-drupal-link-system-path="taxonomy/term/7">Press Releases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pressroom/published-opinion" data-drupal-link-system-path="node/2176">Published Opinion</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pressroom/videos" title="Videos" data-drupal-link-system-path="node/1861">Videos</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/public-appearances-fair-staff-and-spokespersons" data-drupal-link-system-path="node/1856">Public Appearances</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/pressroom/past-appearances/our-spokespeople" title="Our Spokespeople" data-drupal-link-system-path="node/2166">Our Spokespeople</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about-fair/impact/past-appearances" title="Past Appearances" data-drupal-link-system-path="node/2151">Past Appearances</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/pressroom/press-kits" title="Press Kits" data-drupal-link-system-path="node/1606">Press Kits</a>
+              </li>
+                <li class="menu-item">
+        <a href="/pressroom/media-inquiries" data-drupal-link-system-path="node/1931">Media Inquiries</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/get-involved" title="Get Involved" data-drupal-link-system-path="node/2276">Get Involved</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/get-involved/take-action" title="Take Action" data-drupal-link-system-path="node/2341">Take Action</a>
+              </li>
+                <li class="menu-item">
+        <a href="/get-involved/tell-your-story" data-drupal-link-system-path="node/2346">Tell Your Story</a>
+              </li>
+                <li class="menu-item">
+        <a href="/get-involved/how-report-illegal-immigrants" data-drupal-link-system-path="node/1886">How to Report Illegal Aliens</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/donate" data-drupal-link-system-path="node/2546">Donate</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/donate/planned-giving" data-drupal-link-system-path="node/2361">Planned Giving</a>
+              </li>
+                <li class="menu-item">
+        <a href="/donate/other-ways-support-fair" data-drupal-link-system-path="node/2356">Other Ways to Support FAIR</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/contact-us" data-drupal-link-system-path="node/2001">Contact Us</a>
+              </li>
+        </ul>
+  
+
+</div></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/2561","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","responsive_menu":{"position":"right","theme":"theme-black","pagedim":"pagedim","breakpoint":"(min-width: 960px)","extension_keyboard":true,"superfish":{"active":false,"delay":300,"speed":100,"speedOut":100}},"marketo_ma":{"track":true,"key":"554-LUH-167","initParams":[],"library":"\/\/munchkin.marketo.net\/munchkin.js"},"simple_popup_blocks":{"settings":[{"pid":"1","identifier":"block-givingtuesday","type":"0","css_selector":"1","layout":"5","visit_counts":"0","overlay":"1","escape":"1","trigger_method":"0","trigger_selector":"#custom-css-id","delay":"0","minimize":"0","close":"1","width":"400","status":"1"}]},"simpleResponsiveTable":{"maxWidth":"767","modulePath":"modules\/contrib\/simple_responsive_table"},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search":true},"ajax":[],"user":{"uid":0,"permissionsHash":"e11f2e3a0fd48ccc11912a0ae884df4ab6c42ae8d6836d88ef05c2dce0bc7820"}}</script>
+<script src="/core/assets/vendor/domready/ready.min.js?v=1.0.8"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.2.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.0"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=8.5.6"></script>
+<script src="/core/misc/drupal.js?v=8.5.6"></script>
+<script src="/core/misc/drupal.init.js?v=8.5.6"></script>
+<script src="/core/assets/vendor/picturefill/picturefill.min.js?v=3.0.1"></script>
+<script src="/libraries/mmenu/dist/jquery.mmenu.all.min.js?v=8.5.6"></script>
+<script src="/modules/contrib/responsive_menu/js/responsive_menu.config.js?v=8.5.6"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/modules/contrib/addtoany/js/addtoany.js?v=8.5.6"></script>
+<script src="/modules/contrib/marketo_ma/js/marketo_ma.js?v=1.x"></script>
+<script src="/modules/contrib/simple_popup_blocks/js/simple_popup_blocks.js?v=8.5.6"></script>
+<script src="/modules/contrib/simple_responsive_table/js/simple-responsive-table.js?v=1.x"></script>
+<script src="/core/assets/vendor/jquery-form/jquery.form.min.js?v=3.51"></script>
+<script src="/themes/custom/bwl/js/modernizr.js?v=8.5.6"></script>
+<script src="/themes/custom/bwl/js/jquery.colorList.min.js?v=8.5.6"></script>
+<script src="/themes/custom/bwl/js/jquery.fitvids.min.js?v=8.5.6"></script>
+<script src="/themes/custom/bwl/js/scripts.min.js?v=8.5.6"></script>
+<script src="/themes/custom/bwl/js/donation-tracking.min.js?v=8.5.6"></script>
+<script src="/core/assets/vendor/matchMedia/matchMedia.min.js?v=0.2.0"></script>
+<script src="/core/misc/states.js?v=8.5.6"></script>
+<script src="/modules/contrib/webform/js/webform.states.js?v=8.5.6"></script>
+<script src="/modules/contrib/webform/js/webform.form.js?v=8.5.6"></script>
+<script src="/core/misc/debounce.js?v=8.5.6"></script>
+<script src="/core/misc/announce.js?v=8.5.6"></script>
+<script src="/modules/contrib/webform/js/webform.element.details.toggle.js?v=8.5.6"></script>
+<script src="/modules/contrib/webform/js/webform.element.details.save.js?v=8.5.6"></script>
+<script src="/modules/custom/text_resize/js/text-resize.js?v=1.x"></script>
+
+          <!-- Twitter universal website tag code -->
+      <script>
+          !function(e,t,n,s,u,a){e.twq||(s=e.twq=function()
+          {s.exe?s.exe.apply(s,arguments):s.queue.push(arguments); }
+              ,s.version='1.1',s.queue=[],u=t.createElement,u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+              a=t.getElementsByTagName[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+          // Insert Twitter Pixel ID and Standard Event data below
+          twq('init','o0fwg');
+          twq('track','PageView');
+      </script>
+      <!-- End Twitter universal website tag code -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7219b2b954","applicationID":"55451602","transactionName":"YAZWZ0JYCBcDU0JaCVlMdVBEUAkKTXRERhZWD2hwX0sDOCRfRF46cQxGXnJMDwgGVUQeWEUGWldVSzYIA1NTWwlbB1FBdlYUCSNTQloJWQ==","queueTime":0,"applicationTime":601,"atts":"TEFVEQpCGxk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

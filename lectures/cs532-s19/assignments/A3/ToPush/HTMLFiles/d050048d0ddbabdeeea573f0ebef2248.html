@@ -1,0 +1,2312 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<head  profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script src="/cdn-cgi/apps/head/YGJKFMGqlQ5Gf7kTqaff5tKQarM.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQcEUFZRCxABVFhbBwAAXg=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name = "viewport" content = "initial-scale = 1.0, maximum-scale = 1.6, width = device-width">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"NewsArticle","headline":"Nauru\u2019s systemic dysfunction","url":"https:\/\/www.thesaturdaypaper.com.au\/news\/immigration\/2015\/08\/29\/naurus-systemic-dysfunction\/14407704002306","thumbnailUrl":"https:\/\/www.thesaturdaypaper.com.au\/sites\/default\/files\/styles\/media_thumbnail\/public\/images\/pg3_nauru_2015-08-27_at_1.26.29_pm.png?itok=JmJgYUH0","dateCreated":"2015-08-28 14:00:00","articleSection":"News","creator":"Martin McKenzie-Murray","keywords":["Immigration","Nauru","Alanna Maycock","detention centre","asylym seeker","David Isaacs","International Health and Medical Services","IHMS","Peter Law","Bruce Cowled","Sarah Hanson-Young","Jonathan Nichols"]}</script>
+<link rel="shortcut icon" href="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/favicon.ico" type="image/vnd.microsoft.icon" />
+<script type="text/javascript">(function(w) {
+        w.PARSELY = {
+        autotrack: false,
+        onReady: function() {
+            PARSELY.updateDefaults({
+            data: {
+                plan: ""
+            }
+            });
+            PARSELY.beacon.trackPageView();
+        }
+        };
+    })(window);</script>
+<meta name="description" content="With a new tender imminent for Nauru&#039;s detention centre operations, and a senate inquiry report still due, stories continue to emerge of mismanagement, dysfunction and extra-judicial governance." />
+<meta name="abstract" content="With a new tender imminent for Nauru&#039;s detention centre operations, and a senate inquiry report still due, stories continue to emerge of mismanagement, dysfunction and extra-judicial governance." />
+<meta name="robots" content="follow, index" />
+<link rel="image_src" href="https://www.thesaturdaypaper.com.au/sites/default/files/styles/article-full/public/images/https://www.thesaturdaypaper.com.au/sites/default/files/images/pg3_nauru_2015-08-27_at_1.26.29_pm.png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" />
+<link rel="shortlink" href="https://www.thesaturdaypaper.com.au/node/2306" />
+<meta property="og:site_name" content="The Saturday Paper" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Nauru&#039;s systemic dysfunction" />
+<meta property="og:url" content="https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" />
+<meta property="og:description" content="With a new tender imminent for Nauru&#039;s detention centre operations, and a senate inquiry report still due, stories continue to emerge of mismanagement, dysfunction and extra-judicial governance." />
+<meta property="og:updated_time" content="2015-08-30T10:42:46+10:00" />
+<meta property="og:image" content="https://www.thesaturdaypaper.com.au/sites/default/files/styles//public/" />
+<meta property="og:image" content="https://www.thesaturdaypaper.com.au/sites/default/files/share_1200_600.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@satpaper" />
+<meta name="twitter:site:id" content="4503599629184530" />
+<meta name="twitter:creator:id" content="4503599629184530" />
+<meta name="twitter:description" content="With a new tender imminent for Nauru&#039;s detention centre operations, and a senate inquiry report still due, stories continue to emerge of mismanagement, dysfunction and extra-judicial governance." />
+<meta name="twitter:title" content="Nauru&#039;s systemic dysfunction" />
+<meta name="twitter:url" content="https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" />
+<meta name="twitter:image:src" content="https://www.thesaturdaypaper.com.au/sites/default/files/styles//public/" />
+<meta name="twitter:image:width" content="1200" />
+<meta name="twitter:image:height" content="600" />
+<meta property="article:published_time" content="2015-08-29T00:00:00+10:00" />
+<meta property="article:modified_time" content="2015-08-30T10:42:46+10:00" />
+<meta name="dcterms.title" content="Nauru&#039;s systemic dysfunction" />
+<meta name="dcterms.creator" content="Martin McKenzie-Murray" />
+<meta name="dcterms.description" content="[TOC:ol In this story] Alanna Maycock was a nurse, employed briefly last year in the Nauruan detention camps. One day, her senior nursing colleague stood at the threshold of the waiting room and called for the next patient. She did so by referring to his boat number – each asylum seeker is assigned one. Maycock was shocked. “But what’s the patient’s name?” she asked, but the senior nurse repeated the number. Maycock was consulting this man also, and wanted to know his name before she met him. That much was standard. “No, can you tell me his name, please?”" />
+<meta name="dcterms.date" content="2015-08-29T00:00+10:00" />
+<meta name="dcterms.modified" content="2015-08-30T10:42+10:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.language" content="und" />
+
+
+    <title>Nauru's systemic dysfunction | The Saturday Paper</title>
+    <link type="text/css" rel="stylesheet" href="https://www.thesaturdaypaper.com.au/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.thesaturdaypaper.com.au/sites/default/files/css/css_emTfcHhKoTvn-6sUAFvMX43fvF40THA7RIpLvwaW0Cg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.thesaturdaypaper.com.au/sites/default/files/css/css_zGGeS_8pX47qMajsSgcui646tfDECL0E4fHkaCd6784.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.thesaturdaypaper.com.au/sites/default/files/css/css_OMg79NwRzSs5_dWKRTEakstNFZ5Zcyn-wd2SSKnlbtA.css" media="all" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    var $ = jQuery.noConflict();
+  </script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+  <script type='text/javascript'>
+  googletag.cmd.push(function() {
+  googletag.pubads().setTargeting("environment","live").setTargeting("tsp-type","news").setTargeting("tsp-nid","2306").setTargeting("TSP_Section", "news").setTargeting("TSP_Article", "true").setTargeting("site","tsp").setTargeting("TSP_Section","news").setTargeting("tsp-sbsec","immigration").setTargeting("SM_LoggedIn","No").setTargeting("TSP_Sub","None").setTargeting("TM_Sub","None").setTargeting("QE_Sub","None");    if(window.innerWidth > 900) {
+      // Desktop
+      googletag.defineSlot('/1042965/TSP_Billboard', [970, 250], 'div-gpt-ad-1489033871393-0').addService(googletag.pubads());
+      googletag.defineSlot('/1042965/TSP_Halfpage', [300, 600], 'div-gpt-ad-1489033871393-1').addService(googletag.pubads());
+      googletag.defineSlot('/1042965/TSP_TabletLeaderboard', [728, 90], 'div-gpt-ad-1489111909584-0').addService(googletag.pubads());
+   } else if(window.innerWidth <= 900 && window.innerWidth > 760) {
+      // Tablet
+      googletag.defineSlot('/1042965/TSP_Leaderboard', [728, 90], 'div-gpt-ad-1489033871393-2').addService(googletag.pubads());
+      googletag.defineSlot('/1042965/TSP_Halfpage', [300, 600], 'div-gpt-ad-1489033871393-1').addService(googletag.pubads());
+      googletag.defineSlot('/1042965/TSP_TabletLeaderboard', [728, 90], 'div-gpt-ad-1489111909584-0').addService(googletag.pubads());
+    } else {
+      // Mobile
+      googletag.defineSlot('/1042965/TSP_MobileTop', [320, 50], 'div-gpt-ad-1489033871393-5').addService(googletag.pubads());
+      googletag.defineSlot('/1042965/TSP_MobileMREC', [300, 250], 'div-gpt-ad-1489033871393-4').addService(googletag.pubads());
+      googletag.defineSlot('/1042965/TSP_MobileLocked', [320, 50], 'div-gpt-ad-1489033871393-3').addService(googletag.pubads()); 
+    }
+  
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+  </script>
+  <script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/misc/drupal.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/libraries/waypoints/jquery.waypoints.min.js?v=4.0.1"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/libraries/waypoints/shortcuts/sticky.min.js?v=4.0.1"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/ajax_links_api/ajax_links_api.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/custom/sma_custom/scripts/sma_subscription.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/toc_filter/toc_filter.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/apachesolr_autocomplete/apachesolr_autocomplete.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/apachesolr_autocomplete/jquery-autocomplete/jquery.autocomplete.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/custom/apple_news/apple_news.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/moment.min.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.min.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/custom/sm_social_links/js/mobileShareLinks.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/google_analytics/googleanalytics.js?pnczz8"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-44832800-1", {"cookieDomain":"auto"});ga("set", "dimension2", "news");ga("set", "dimension4", "anonymous user");ga('require', 'displayfeatures');ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/sticky-sidebar.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/article.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/libraries/scrollMonitor/scrollMonitor.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/modernizr.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/scripts.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/tips.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/sticky-nav.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/clipboard.min.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/search.js?pnczz8"></script>
+<script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/themes/saturday/js/picker.js?pnczz8"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"saturday","theme_token":"XBd9lvRcxlo5wxj0ITILz9WmaeccnOepMl3Ld0K3mwM","js":{"sites\/all\/modules\/contrib\/ajax_loader\/js\/ajax-loader.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/libraries\/waypoints\/jquery.waypoints.min.js":1,"sites\/all\/libraries\/waypoints\/shortcuts\/sticky.min.js":1,"sites\/all\/modules\/contrib\/ajax_links_api\/ajax_links_api.js":1,"sites\/all\/modules\/custom\/sma_custom\/scripts\/sma_subscription.js":1,"sites\/all\/modules\/contrib\/toc_filter\/toc_filter.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.js":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.js":1,"sites\/all\/modules\/custom\/apple_news\/apple_news.js":1,"sites\/all\/modules\/custom\/node_meter\/moment.min.js":1,"sites\/all\/modules\/custom\/node_meter\/pw.min.js":1,"sites\/all\/modules\/custom\/sm_social_links\/js\/mobileShareLinks.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/saturday\/js\/sticky-sidebar.js":1,"sites\/all\/themes\/saturday\/js\/article.js":1,"sites\/all\/libraries\/scrollMonitor\/scrollMonitor.js":1,"sites\/all\/themes\/saturday\/js\/modernizr.js":1,"sites\/all\/themes\/saturday\/js\/scripts.js":1,"sites\/all\/themes\/saturday\/js\/tips.js":1,"sites\/all\/themes\/saturday\/js\/sticky-nav.js":1,"sites\/all\/themes\/saturday\/js\/clipboard.min.js":1,"sites\/all\/themes\/saturday\/js\/search.js":1,"sites\/all\/themes\/saturday\/js\/picker.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/ajax_links_api\/ajax_links_api.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/contrib\/toc_filter\/toc_filter.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/apple_news\/apple_news.css":1,"sites\/all\/modules\/contrib\/ajax_loader\/css\/throbber-general.css":1,"sites\/all\/modules\/contrib\/ajax_loader\/css\/pulse.css":1,"sites\/all\/themes\/saturday\/css\/style.css":1,"sites\/all\/themes\/saturday\/liquidslider\/css\/animate.css":1,"sites\/all\/themes\/saturday\/liquidslider\/css\/liquid-slider.css":1}},"ajax_links_api":{"selector":"#content","trigger":".ajax-link","negative_triggers":"","html5":1,"vpager":1},"apachesolr_autocomplete":{"path":"\/apachesolr_autocomplete"},"toc_filter_smooth_scroll_duration":"","node_meter":{"nid":2306,"type":"news","anon_node_limit":"1","auth_node_limit":"1","role":"1","node_meter_lp_url_anon_locked":"https:\/\/schwartzmedia.leadpages.co\/tsp-paywall-november-2016\/","node_meter_lp_url_anon_read_limit":"https:\/\/schwartzmedia.leadpages.co\/tsp-paywall-november-2016\/","lpUrlConst":"node_meter_lp_url_anon_"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"sma_subscription":{"tm":{"expiry":false,"valid":false,"type":false,"type_id":false,"status":false},"tsp":{"expiry":false,"valid":false,"type":false,"type_id":false,"status":false},"qe":{"expiry":false,"valid":false,"type":false,"type_id":false,"status":false}},"is_user":false,"ajaxThrobber":{"markup":"\u003Cdiv class=\u0022ajax-throbber sk-spinner sk-spinner-pulse\u0022\u003E\u003C\/div\u003E","hideAjaxMessage":0}});
+//--><!]]>
+</script>
+  <link href='//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6498272/609626/css/fonts.css" />
+
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="/sites/all/themes/saturday/css/ie.css" />
+<![endif]-->
+
+ <!-- <link rel="stylesheet" type="text/css" href="https://public-office.info/sp/style.css" /> -->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2306 node-type-news news immigration 2015 08 29 naurus-systemic-dysfunction 14407704002306 role-anonymous-user" >
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MW5ZTG"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MW5ZTG');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+
+<div class="clearfix"></div>
+
+    <div class="wrapper">
+    <form class="searchbar" onsubmit="event.preventDefault(); return search_submit(this)">
+      <input id="searchbar__input" class="searchbar__input" type="search" placeholder="Search...">
+      <a href="#" class="searchbar__close-cover"></a>
+    </form>
+    <nav class="topnav">
+
+        <li class="topnav__left"><a href="https://www.thesaturdaypaper.com.au?utm_source=htsp&utm_medium=user_bar&utm_campaign=user_bar">The Saturday Paper</a></li>
+        <li class="topnav__left"><a href="https://www.themonthly.com.au?utm_source=htsp&utm_medium=user_bar&utm_campaign=user_bar">The Monthly</a></li>
+        <li class="topnav__left"><a href="https://www.quarterlyessay.com?utm_source=htsp&utm_medium=user_bar&utm_campaign=user_bar">Quarterly Essay</a></li>
+        <li class="topnav__left"><a href="https://www.australianforeignaffairs.com?utm_source=htsp&utm_medium=user_bar&utm_campaign=user_bar">Australian Foreign Affairs</a></li>
+        <li id="user-actions" class="topnav__right">
+            <a href="/subscribe" id="top-subscribe">Subscribe</a>&nbsp;<a href="/login" class="login_modal_open" id="top-login">Login</a>        </li>
+        <li class="topnav__right">
+            <a href="#" class="searchbar__link"><img src="/sites/all/themes/saturday/images/icon-search.svg" alt=""><span class="searchbar__text">SEARCH</span></a>
+        </li>
+    </nav>
+</div>
+
+  
+  <div id="page-wrapper"><div id="page" class="wrapper">
+
+  <div class="">
+
+  
+    <div id="header"><div class="clearfix">
+      
+            
+
+      <div class="sticky-nav">
+        <div class="wrapper">
+          <div class="search__wrapper">
+            <form class="searchbar" onsubmit="event.preventDefault(); return search_submit(this)">
+              <input class="searchbar__input" type="search" placeholder="Search...">
+              <a href="#" class="searchbar__close-cover"></a>
+            </form>
+          </div>
+          <div class="sticky-nav__inner">
+            <div class="sticky-nav__left">
+              <a href="#">
+                <img src="/sites/all/themes/saturday/images/logo.svg" alt="The Saturday Paper logo" />
+              </a>
+            </div>
+            <nav class="sticky-nav__nav">
+              <li>
+                <a href="/news">News</a>
+              </li>
+              <li>
+                <a href="/opinion">Opinion</a>
+              </li>
+              <li>
+                <a href="/culture">Culture</a>
+              </li>
+              <li>
+                <a href="/life">Life</a>
+              </li>
+              <li>
+                <a href="/sport">Sport</a>
+              </li>
+              <li>
+                <a href="/life/food">Food</a>
+              </li>
+              <li>
+                <a href="/quiz">Quiz</a>
+              </li>
+              <li>
+                <a href="/thebriefing">The Briefing</a>
+              </li>
+              <li>
+                <a href="/editions">Past Editions</a>
+              </li>
+            </nav>
+            <div class="sticky-nav__right">
+              <a href="#" class="searchbar__link"><img src="/sites/all/themes/saturday/images/icon-search.svg" alt=""><span class="searchbar__text">SEARCH</span></a>
+
+<a href="/subscribe" class="highlight">Subscribe</a><a href="/login" class="login_modal_open" id="top-login">Login</a>  <a class="sticky-nav__mobile-btn" href="#" onclick="document.body.classList.toggle('open--mobile-nav'); return false;"><img src="/sites/all/themes/saturday/images/ic_menu_black_48px.svg" alt=""></a>
+  </div>
+    <div class="issue-nav">
+  <p class="issue-nav__current">
+    <a href="/edition/2015/08/29">
+      <em>Edition No. 75 </em> August 29 – September 4, 2015    </a>
+  </p>
+  </div>
+    </div>
+  </div>
+      </div>
+
+      <header class="masthead">
+        <a href="/" class="masthead__logo">
+          <img src="/sites/all/themes/saturday/images/logo.svg" alt="The Saturday Paper logo" />
+        </a>
+      </header>
+
+            
+                         </div></div> <!-- /.section, /#header -->
+
+          <div id="navigation">
+          <nav class="masthead__nav">
+            <div class="masthead__nav__inner">
+                <div class="main_menu_wrapper">
+                  <div class="menu_centering">
+                    <ul id="main-menu" class="links inline clearfix"><li class="menu-2356 active-trail first"><a href="/news" class="active-trail">News</a></li>
+<li class="menu-2355"><a href="/opinion">Opinion</a></li>
+<li class="menu-2742"><a href="/culture">Culture</a></li>
+<li class="menu-2743"><a href="/life">Life</a></li>
+<li class="menu-2235"><a href="/food/latest">Food</a></li>
+<li class="menu-1610"><a href="/quiz" title="Quiz">Quiz</a></li>
+<li class="menu-2763"><a href="/sport">Sport</a></li>
+<li class="menu-2488"><a href="/thebriefing">The Briefing</a></li>
+<li class="menu-2781 last"><a href="/editions" title="View every edition">Past Editions</a></li>
+</ul>                  </div>
+                </div>
+            </div>
+          </nav>
+
+                  <div class="issue-nav">
+                          <p class="issue-nav__current">
+                <a href="/edition/2015/08/29">
+                   <em>Edition No. 75 </em> August 29 – September 4, 2015                </a>
+              </p>
+                      </div>
+        
+
+
+        <!--
+        	      <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/news" title="News">News</a></div></div>
+	    	    -->
+
+
+        </div>
+
+        <div class="tertiary_menu_wrapper"><div class="menu_centering"><div class="menu_centering_inner">
+
+		
+
+		
+		</div></div></div>
+
+
+      </div> <!-- /.section, /#navigation -->
+    
+          <div class="article article--briefing">
+        <div class="ad ad--billboard">
+          <div id="header_ad">
+  <!-- TSP_Billboard-->
+  <div id='div-gpt-ad-1489033871393-0' class="billboard">
+    <script type='text/javascript'>
+      if(window.innerWidth > 900){ // 970 //1396
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489033871393-0'); });
+      }
+    </script>
+  </div>
+  <!-- TSP_ROS_Header_ATF_Leaderboard_768x90 -->
+  <div id='div-gpt-ad-1489033871393-2' class="leaderboard">
+    <script type='text/javascript'>
+      if(window.innerWidth < 900 && window.innerWidth > 761){ // 970 and 728
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489033871393-2'); });
+      }
+    </script>
+  </div>
+
+  <!-- TSP_ROS_Leaderboard_Mobile_320x50 -->
+  <div id='div-gpt-ad-1489033871393-5' class="mobile_ad">
+    <script type='text/javascript'>
+      if (window.innerWidth <= 760) { // Mobile only
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489033871393-5'); });
+      }
+    </script>
+  </div>
+</div>        </div>
+      </div>
+    
+    	
+    <div id="main-wrapper"><div id="main" class="clearfix">
+
+      <div id="" class="">
+          <div class="">
+
+              
+
+        <a id="main-content"></a>
+                
+                <div class="tabs"></div>                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-2306" class="node node-news clearfix">
+
+  <div class="article-page">
+    <div class="article-page__header">
+      <div class="article-page__header__details">
+        <p class="category">
+         News        </p>
+        <div class="article__text">
+                  With a new tender imminent for Nauru's detention centre operations, and a senate inquiry report still due, stories continue to emerge of mismanagement, dysfunction and extra-judicial governance.          
+                          By <em>Martin McKenzie-Murray</em>.                      
+                </div>
+      </div>
+      <p class="article-page__title">
+        Nauru’s systemic dysfunction      </p>
+    </div>
+
+          <figure class="article-page__image">
+
+        <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/article_large/public/images/pg3_nauru_2015-08-27_at_1.26.29_pm.png?itok=Io7gNary" alt="" /> 
+
+                  <figcaption class="caption">
+            A satellite image of Nauru.             <div class="image_credit">
+              Credit: ARM Climate Research Facility            </div>
+          </figcaption>
+        
+      </figure>
+    
+    <div class="social-icons-article-top-container">
+  <div class="social-icons-article-top">
+      <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306%3Futm_source=tsp_website%26utm_campaign=social_mobile_facebook%26utm_medium=social_share" target="_blank">
+    <img src="/sites/all/themes/saturday/images/icon-facebook.svg" />
+</a> 
+<a href="https://twitter.com/share?text=Nauru’s systemic dysfunction&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306%3Futm_source=tsp_website%26utm_campaign=social_mobile_twitter%26utm_medium=social_share" target="_blank">
+    <img src="/sites/all/themes/saturday/images/icon-twitter.svg" />
+</a>
+<a href="/cdn-cgi/l/email-protection#526d212730383731266f1c33272027b0d2cb2172212b2126373f3b3172362b2134273c31263b3d3c74303d362b6f3a26262221687d7d2525257c263a37213326272036332b22332237207c313d3f7c33277d3c3725217d3b3f3f3b352033263b3d3c7d606263677d626a7d606b7d3c33272027217f212b2126373f3b317f362b2134273c31263b3d3c7d636666626565626662626061626477611427263f0d213d272031376f2621220d253730213b263777606427263f0d31333f22333b353c6f213d313b333e0d3f3d303b3e370d373f333b3e77606427263f0d3f37363b273f6f213d313b333e0d213a332037">
+    <img src="/sites/all/themes/saturday/images/icon-email.svg" />
+</a>
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306%3Futm_source=tsp_website%26utm_campaign=social_mobile_linkedin%26utm_medium=social_share&title=Nauru’s systemic dysfunction " target="_blank">
+    <img src="/sites/all/themes/saturday/images/icon-linkedin.svg" />
+</a>
+<a class="copylink" data-clipboard-text="https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306?utm_source=tsp_website&utm_campaign=social_mobile_copy_link&utm_medium=social_share">
+    <img src="/sites/all/themes/saturday/images/icon-copylink.svg" />
+</a>  </div>
+</div>
+
+<div class="article-page__content">
+  <div class="article-page__body">
+         
+
+<p>Alanna Maycock was a nurse, employed briefly last year in the Nauruan detention camps. One day, her senior nursing colleague stood at the threshold of the waiting room and called for the next patient. She did so by referring to his boat number – each asylum seeker is assigned one.</p>
+
+<p>Maycock was shocked. “But what’s the patient’s name?” she asked, but the senior nurse repeated the number.</p>
+
+<p>Maycock was consulting this man also, and wanted to know his name before she met him. That much was standard. “No, can you tell me his name, please?”</p>
+
+<p>“We call them by a boat number,” the senior nurse replied.</p>
+
+<p>“Why do you do that?”</p>
+
+<p>“Because there are too many Muhammads.”</p>
+
+<p>“Well, in Australia we get around that,” Maycock said. “There are quite a lot of Bens, but we try to find out a date of birth and a surname.”</p>
+
+<p>A few days later, another of Maycock’s colleagues – Professor David Isaacs, a paediatrician – gave a lecture to medical staff contracted by the Australian government. Its subject was compassion.</p>
+
+<p>Halfway through the speech, a nurse stood to register her disgust at Isaacs. She then implored all nurses in the audience to walk out with her. The next day, Isaacs asked the nurse what her objection was. She told him his lecture was offensive.</p>
+
+<p>It was the same nurse who had insisted to Maycock on the use of boat numbers for patients.</p>
+
+<p>Isaacs’ and Maycock’s contracts weren’t renewed after they filed their reports. They had also spoken to the media about the inadequate medical services they discovered. Giving evidence in the June hearings of the senate inquiry into the Nauru camps, Isaacs said that his employers, International Health and Medical Services (IHMS), would have “invited us back if we had not gone and blown the whistle”.</p>
+
+<p>To which the Liberal senator Linda Reynolds responded: “Maybe another way to put it is ‘breached a contract’.”</p>
+
+<p>Politically, our praise of nurses and doctors is malleable; their deference to the Hippocratic oath is not.</p>
+
+<h3>Judicial expulsions</h3>
+
+<p>The chief magistrate of Nauru was in his car when the local police found him. They signalled for him to pull over. Constable Bop left his vehicle and arrested an incredulous Peter Law, coaxing him into the police car. Law was no longer the chief magistrate but a state pariah, and he was driven home to pack his bags. He had just two hours to do so, he was ordered, before he would be forced to catch the next flight to Brisbane.</p>
+
+<p>Like so many senior officers in Nauru before him, Law was Australian. Since Nauru’s independence in 1968, Pacific countries have deployed judges, lawyers, police officers and bureaucrats to the island in what’s known diplomatically as “capacity building”. In 2013, the chief justice, magistrate and police commissioner were Australian – appointed to oversee the democratic and professional dispensation of justice.</p>
+
+<p>All would be expelled from the country.</p>
+
+<p>Law also served as the coroner. When the justice and immigration minister’s wife was burnt to death in her garden in 2013, Law responded to what he later described as a “scandalous” lack of investigation. He wrote to the Nauruan police, asking them to conduct interviews with the minister, his son and neighbours. It never happened. </p>
+
+<p>Months later, Law objected to the expulsion of two foreign residents. According to Law, they had not breached the conditions of their visa and their expulsions were illegal. Law later received a text message from the justice minister: “Don’t you realise I’m authorised by cabinet to make this decision?”</p>
+
+<p>He wasn’t.</p>
+
+<p>By now, slanderous rumours about Law were circulating the community and internet. While Constable Bop drove Law home, the police officer was apologetic. “I’m simply obeying orders,” he told his passenger.</p>
+
+<p>“Well, why don’t you obey court orders?” Law replied.</p>
+
+<p>“I can only obey my boss’s orders,” Bop said.</p>
+
+<p>He was referring to the head of police.</p>
+
+<p>The Australian high commissioner, Bruce Cowled, was notified of Law’s arrest. He went to Law’s house, where he saw officers “manhandling” the magistrate. Cowled suggested they allow Law to pack unmolested. This was summary justice on Nauru. Law had two hours. Then Constable Bop followed him to Brisbane.</p>
+
+<p>The next day, the Nauruan government passed a law that prevented the judicial review of the minister’s expulsion of residents.  </p>
+
+<p>“The independence of the prosecution service is absolutely essential to having a proper and competent justice sector,” Law said at the senate inquiry earlier this year. He was describing a deep and systemised contempt for the law.</p>
+
+<p>Released into this environment are refugees. “We only have to look at what has taken place this year, since January,” Law said. “There have been a number of reports about people who have been granted refugee status in Nauru who have been subject to assaults. That is a very sad fact.”</p>
+
+<p>Law’s evidence illuminates another’s – the secretary of the Department of Immigration and Border Protection, Mike Pezzullo. In June, the secretary emphasised matters of jurisdiction. “The Australian government does not run the Nauru regional processing centre. It is managed by the government of Nauru, under Nauruan law, with support from the Australian government,” Pezzullo said. “The government of Nauru assesses asylum claims and, where persons are found to be in need of protection, arranges settlement. The government of Nauru is specifically responsible for security and good order and the care and welfare of persons residing in the centre.”</p>
+
+<h3>Welfare workers' abandoned</h3>
+
+<p>Jane is back home in Australia now. She’s left Nauru for the last time. An aid worker, Jane – not her real name – feels guilty about what she describes as her abandonment of the children. “But then, that’s very egocentric – others can do my job; I’m replaceable.”</p>
+
+<p>There is also relief. Jane is reluctant to admit it, but she’s traumatised. A friend of hers in the camps attempted suicide, and her words tremble when she talks about it. Jane still dreams about her, dreams about the humidity and the wild dogs and the security guards. They startle her from her sleep.</p>
+
+<p>She received no counselling on Nauru. She was never asked if she would like such a service. She may speak to someone now she’s returned permanently. “It’s hell there,” she says. “You have no idea.”</p>
+
+<h3>Wilson Security secrecy</h3>
+
+<p>Rumours were the report from the senate inquiry would be released early, although it hasn’t been. The hearings have received bleak evidence from judges, magistrates, doctors, nurses, counsellors and security guards. There are patterns. Independent evidence has conjoined, and provided a picture of regulatory deficiency in the camps, and of corrupt opacity within the government responsible for its governance.</p>
+
+<p>The evidence of Wilson Security regarding the surveillance of Greens senator Sarah Hanson-Young while on Nauru has shifted under questioning. It is, at best, irresolute.</p>
+
+<p>It now appears – via multiple submissions from former employees – that a minimum of six Wilson employees were involved in the illicit stalking of the senator – and later boastfully shared their footage. Certainly, the evidence contradicts the original line suggesting a lone, regrettable rogue. “Their evidence has changed over time,” Hanson-Young tells me. “And I just don’t believe them.”</p>
+
+<p>Multiple whistleblowers have submitted evidence about Wilson’s secrecy – how opaque their procedures were, how the office’s document shredder was used so often it was referred to as File 13. Evidence has emerged of a guard framing an asylum seeker for assault, and of a hyper-masculine and immature culture. “There is a strong culture of what has often be referred to as RAR – Royal Australian Regiment,” Jonathan Nichols, a former Wilson Security guard, said in last week’s hearings. “A lot of the staff over there are ex-military, whether it be the New Zealand Defence Force or the Australian Defence Force, and a lot of them still harbour the hatred towards whom they perceive to be the enemy – which are the people that they are supposed to be providing care for.”</p>
+
+<p>We wait for the report, and news of the new successful bidder for garrison services. Transfield Services’ $1.2 billion contract expires in October. There are conflicting rumours of who will win these tenders. What’s certain is the length of the contracts – five to seven years. The federal government has no intention of closing these camps for some time.</p>
+          <div class="end-matter">
+        <p>
+          <em>
+            This article was first published in the print edition of The Saturday Paper on
+            Aug 29, 2015 as "Pacific breakdown".
+          </em>
+          <a href="/subscribe" class="highlight" >Subscribe here.</a>
+        </p>
+      </div>
+      
+        <div class="social-icons-article-bottom-container">
+      <div class="social-icons-article-bottom">
+         <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306%3Futm_source=tsp_website%26utm_campaign=social_mobile_facebook%26utm_medium=social_share" target="_blank">
+    <img src="/sites/all/themes/saturday/images/icon-facebook.svg" />
+</a> 
+<a href="https://twitter.com/share?text=Nauru’s systemic dysfunction&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306%3Futm_source=tsp_website%26utm_campaign=social_mobile_twitter%26utm_medium=social_share" target="_blank">
+    <img src="/sites/all/themes/saturday/images/icon-twitter.svg" />
+</a>
+<a href="/cdn-cgi/l/email-protection#4f703c3a2d252a2c3b72012e3a3d3aadcfd63c6f3c363c3b2a22262c6f2b363c293a212c3b262021692d202b3672273b3b3f3c756060383838613b272a3c2e3b3a3d2b2e363f2e3f2a3d612c2022612e3a60212a383c6026222226283d2e3b262021607d7f7e7a607f77607d7660212e3a3d3a3c623c363c3b2a22262c622b363c293a212c3b262021607e7b7b7f78787f7b7f7f7d7c7f796a7c093a3b22103c203a3d2c2a723b3c3f10382a2d3c263b2a6a7d793a3b22102c2e223f2e262821723c202c262e231022202d26232a102a222e26236a7d793a3b2210222a2b263a22723c202c262e23103c272e3d2a">
+    <img src="/sites/all/themes/saturday/images/icon-email.svg" />
+</a>
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306%3Futm_source=tsp_website%26utm_campaign=social_mobile_linkedin%26utm_medium=social_share&title=Nauru’s systemic dysfunction " target="_blank">
+    <img src="/sites/all/themes/saturday/images/icon-linkedin.svg" />
+</a>
+<a class="copylink" data-clipboard-text="https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306?utm_source=tsp_website&utm_campaign=social_mobile_copy_link&utm_medium=social_share">
+    <img src="/sites/all/themes/saturday/images/icon-copylink.svg" />
+</a>      </div>
+    </div>
+    
+  </div>
+
+  <!-- Article sidebar -->
+  <div class="article-page__sidebar">
+  <div class="article-page__sidebar__inner sidebar-sticky--author-social">
+    <div class="article-page__sidebar__inner__left">
+
+              <div class="article-page__author">
+          <div class="article-page__author__avatar">
+                          <img class="article-page__author__avatar" src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/author_image/public/contributors/untitled-1_0006_martin-m-m-raw-mono.png?itok=GvdOEclf" width="113" height="113" alt="" /> 
+                      </div>
+          <p class="article-page__author__details">
+            <span class="highlight">
+              <a href="/contributor/martin-mckenzie-murray">
+                Martin McKenzie-Murray              </a>
+            </span><br>
+            is <em>The Saturday Paper</em>’s chief correspondent.
+          </p>
+        </div>
+      
+      
+
+    </div>
+    <div class="article-page__sidebar__inner__right article-page__social-wrapper">
+      <div class="article-page__social">
+        <div class="h3 article-page__social__title">
+          Share
+        </div>
+        <div class="desktop article-page__social__icons">
+    <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" target="_blank">
+        <img src="/sites/all/themes/saturday/images/icon-facebook.svg" />
+    </a>
+    <a href="https://twitter.com/share?text=Nauru’s systemic dysfunction&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" target="_blank">
+        <img src="/sites/all/themes/saturday/images/icon-twitter.svg" />
+    </a>
+    <a href="/cdn-cgi/l/email-protection#053a7670676f606671384b64707770e7859c7625767c767160686c6625617c7663706b66716c6a6b23676a617c386d717175763f2a2a7272722b716d60766471707761647c75647560772b666a682b64702a6b6072762a6c68686c627764716c6a6b2a373534302a353d2a373c2a6b647077707628767c767160686c6628617c7663706b66716c6a6b2a3431313532323531353537363533">
+        <img src="/sites/all/themes/saturday/images/icon-email.svg" />
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" target="_blank">
+        <img src="/sites/all/themes/saturday/images/icon-linkedin.svg" />
+    </a>
+    <a class="copylink" data-clipboard-text="https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306">
+        <img src="/sites/all/themes/saturday/images/icon-copylink.svg" />
+    </a>
+</div>
+
+<div class="mobile article-page__social__icons">
+    <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" target="_blank">
+        <img src="/sites/all/themes/saturday/images/icon-facebook.svg" />
+    </a> 
+    <a href="https://twitter.com/share?text=Nauru’s systemic dysfunction&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" target="_blank">
+        <img src="/sites/all/themes/saturday/images/icon-twitter.svg" />
+    </a>
+    <a href="/cdn-cgi/l/email-protection#28175b5d4a424d4b5c1566495d5a5dcaa8b15b085b515b5c4d45414b084c515b4e5d464b5c4147460e4a474c5115405c5c585b1207075f5f5f065c404d5b495c5d5a4c49515849584d5a064b474506495d07464d5f5b07414545414f5a495c414746071a18191d071810071a110746495d5a5d5b055b515b5c4d45414b054c515b4e5d464b5c41474607191c1c181f1f181c18181a1b181e">
+        <img src="/sites/all/themes/saturday/images/icon-email.svg" />
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306" target="_blank">
+        <img src="/sites/all/themes/saturday/images/icon-linkedin.svg" />
+    </a>
+    <a class="copylink" data-clipboard-text="https://www.thesaturdaypaper.com.au/news/immigration/2015/08/29/naurus-systemic-dysfunction/14407704002306">
+        <img src="/sites/all/themes/saturday/images/icon-copylink.svg" />
+    </a>
+</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-page__sidebar__inner sidebar-sticky--briefing">
+    <div class="article-page__sidebar__inner__left"></div>
+    <div class="article-page__sidebar__inner__right">
+      <div class="signup-box-container has-border is-sidebar">
+        <p>The news you need.</p>
+        <p class="text-red">Delivered free to your inbox.</p>
+        
+<div class="cmSubscribeForm" data-form-location="Article Sidebar">
+  <form action="" method="post">
+
+    <label class="field">
+      <input name="email" required type="email" class="email required briefing-email-input-custom" value="" placeholder="Enter your email"/>
+    </label>
+
+    <div class="dropdown-for-form" style="display:none;">
+      <div class="checkbox-wrapper">
+
+        <label class="checkbox-styled">
+          <input class="list-checkbox checkbox-custom" type="checkbox" name="list[]" value="briefing" checked="checked" />
+          <span class="checkmark"></span>
+          <span class="input-text"><strong>The Briefing </strong> <br> Your daily source of news. 7am weekdays.</span> <br>
+        </label>
+            
+        <label  class="checkbox-styled">
+          <input class="list-checkbox checkbox-custom" type="checkbox" name="list[]" value="saturday" checked="checked" />
+          <span class="checkmark"></span>
+          <span class="input-text"><strong>The Saturday Briefing</strong> <br>Editor's picks from <em>The Saturday Paper</em>. Every Saturday.</span>
+        </label>
+  
+      </div>
+
+      <div class="messages error alert-message failure-cm-box" style="display:none;"></div>
+      <input class="briefing-submit-button" type="submit" value="Sign Up" />
+        
+    </div>
+  </form>
+
+  <div class="stage progress-cm-box" style="display:none;"><div class="ajax-throbber sk-spinner-pulse"></div></div>
+  <div class="stage alert-message success-cm-box" style="display:none;"></div>
+</div>      </div>
+    </div>
+  </div>
+
+
+  
+
+      <div class="article-page__sidebar__inner sidebar-sticky--ad">
+      <div class="article-page__sidebar__inner__left"></div>
+      <div class="article-page__sidebar__inner__right">
+        <div class="ad ad--halfpage">
+  <!-- TSP_ROS_HalfPage_300x600 -->
+  <div id='div-gpt-ad-1489033871393-1' class="desktop">
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+      if (window.innerWidth > 759) {
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489033871393-1'); });
+      }
+    </script>
+  </div>
+
+  <div id='div-gpt-ad-1489033871393-4' class="mobile_ad">
+    <script type='text/javascript'>
+      if (window.innerWidth < 760) {
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489033871393-4'); });
+      }
+    </script>
+  </div>
+</div>      </div>
+    </div>
+  </div></div>  </div>
+
+</div>
+
+  </div>
+</div>
+  </div>
+              </div></div> <!-- /.section, /#content -->
+
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+  </div><!-- /.centered -->
+    
+        <div class="paywall-container-outer">
+    
+      <div class="pw-button-ctonainer">
+          <a id="pw-continue-reading"  href="#" class="enter continue-reading-button hide-for-sub">Continue reading your one free article for the week</a>
+
+          <a id="pw-continue-subscribe"  target="_blank" href="/subscribe" class="enter continue-subscribe-button hide-for-sub">OR SUBSCRIBE FOR UNLIMITED QUALITY JOURNALISM.</a>
+    </div>
+    
+    <div class="paywall-container">
+      
+      <!-- Hard paywall Subscribe Area -->
+        <div class="show-for-sub subscribe-red-bar" style="display: none;">
+          <div class="subscribe-red-bar-internal-container">
+            <div class="center">
+              <!--<a href="/login" class="login-red login_modal_open"><i class="fa fa-lock"></i> Login</a> -->
+            </div>
+            <p>You have read your one free article for the week</p>
+          </div>
+        </div>
+        <div class="show-for-sub subscribe-container" style="display: none;">
+          
+          <div class="subscribe-inner-text-region">
+            <p class="h1 center">Get the whole story</p>
+            <p class="text center">Subscribe now and get complete online access to issue-defining journalism from Australia’s best writers – all for less than $2 a week</p>
+            
+        <div class="picker article__text">
+  <div class="header">
+    <a href="https://account.schwartzmedia.com.au/renew/tsp" target="_blank">
+ Renew a subscription 
+</a>or,
+    <h3>
+Select your subscription type
+</h3>
+  </div>
+  <div class="centered">
+    <div id="picker-option-12" class="picker-option-12 picker-option selected">
+        12 MONTH SUBSCRIPTION
+        <br/> $1.90 P/WEEK
+    </div>
+
+    <div id="picker-option-6" class="picker-option-6 picker-option">
+        6 MONTH SUBSCRIPTION
+        <br/> $2.65 P/WEEK
+    </div>
+  </div>
+
+  <div class="picker-body">
+    <ul>
+      <li>
+        Full website access
+      </li>
+      <li>
+        Access iPad & iPhone apps
+      </li>
+      <li>
+        Access Android app
+      </li>
+    </ul>
+
+    <div class="additions">
+      <div class="row small-header">
+        ADDITIONS
+      </div>
+      
+      <!-- <label for="picker-autorenew" class="autorenew-row row">
+        <div class="left">
+          <input id="picker-autorenew" class="picker-autorenew" type="checkbox" name="autorenew" value="autorenew" > Auto-renew subscription
+        </div>
+        <div class="right">
+          <strong>- $<span id="autorenew-price" class="autorenew-price">0.19</span></strong> p/week
+        </div>
+      </label> -->
+
+      <label for="picker-print" class="row">
+        <div class="left">
+          <input id="picker-print" class="picker-print" type="checkbox" name="print" value="print"> Print edition, home delivered
+        </div>
+        <div class="right">
+          <strong>+ $<span id="print-price" class="print-price">1.35</span></strong> p/week
+        </div>
+      </label>
+    </div>
+  
+    
+    <div class="total row">
+      <div class="left">
+        Total
+      </div>
+      <div class="right">
+        <strong>$ <span id="total-price" class="total-price">--</span></strong> p/week
+      </div>
+    </div>
+    
+    <div class="row">
+      <a id="picker-subscribe-link" class="picker-subscribe-link" href="" data="hard" target="_blank">
+        <div class="subscribe-button right">
+          SUBSCRIBE NOW
+        </div>
+      </a>
+    </div>
+    
+    <p class="row small-header">
+      OR GET IN TOUCH WITH ONE OF OUR TEAM
+    </p>
+    <p class="bottom-text">
+      Call 1800 077 514 or email <a href="/cdn-cgi/l/email-protection#1d6e687f6e7e6f747f785d6975786e7c69686f797c646d7c6d786f337e7270337c68"><span class="__cf_email__" data-cfemail="2053554253435249424560544845534154555244415950415045520e434f4d0e4155">[email&#160;protected]</span></a>.
+    </p>
+    <p class="bottom-text">
+      The subscriptions office is open from 8:30am to 5pm Monday to Thursday, 9am to 5pm on Friday.
+    </p>
+    
+  </div>
+  
+</div>
+            <!--<div class="subscribe-flex-grid">
+              <div class="subscribe-flex-child"><span class="subscribe-title">Intelligent news</span>The Saturday Paper is a remedy for the wane in quality journalism, offering the weekend’s best in news, culture and analysis.</div>
+              <div class="subscribe-flex-child"><span class="subscribe-title">Long form</span>Get long-form, in-depth accounts of the most important topics affecting Australia, written by the best writers in the country and abroad.</div>
+              <div class="subscribe-flex-child"><span class="subscribe-title">Access anywhere</span>All subscriptions to The Saturday Paper include full digital access, including the website as well as the iPhone, iPad and Android apps.</div>
+            </div>-->
+          </div>
+        </div>
+        <!-- END hard paywall area -->
+
+        <div id="pw-variant-0" style="display:none;">
+          <div class="paywall">
+  <!--<a href="/login" id="subscribe-login-black" class="login-black login_modal_open"><i class="fa fa-lock"></i> Login</a>
+  <a href="/login" id="subscribe-login-black-mobile" class="login-black-mobile login_modal_open"><i class="fa fa-lock"></i> Login</a> -->
+
+<p class="h1 hide-for-sub clear soft-paywall" style="display: none;">Or keep exploring the current edition</p>
+<p class="h1 show-for-sub clear hard-paywall">Subscribe now to read the current edition</p>
+
+  <div class="paywall__issue-meta">
+    <!-- <p>THE SATURDAY PAPER</p> -->
+    <p>
+      <span class="no-text-transform">
+        Edition No: 241&nbsp;&nbsp;      </span>
+      February 23 – March 1, 2019    </p>
+    <!-- <p class="hide-mobile">THESATURDAYPAPER.COM.AU</p> -->
+  </div>
+  <div class="paywall__grid">
+    <div class="paywall__contents">
+      <div id="paywall_toc_inner_id">
+      <p class="section">Contents</p>
+        
+  <p class="category">News  </p>
+
+          <p class="content-item">
+          <a href="/news/politics/2019/02/23/morrison-ignored-boat-security-advice/15508404007499" class="link-block"><span></span></a>
+          Morrison ignored boat security advice          <span class="author">
+            Karen Middleton          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/environment/2019/02/23/the-science-insect-population-collapse/15508404007500" class="link-block"><span></span></a>
+          The science of insect population collapse          <span class="author">
+            Alex McKinnon          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/politics/2019/02/23/australias-psychedelic-drug-trial/15508404007498" class="link-block"><span></span></a>
+          Australia’s psychedelic drug trial          <span class="author">
+            Jenny Valentish          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/health/2019/02/23/the-aged-care-royal-commission/15508404007496" class="link-block"><span></span></a>
+          The aged-care royal commission          <span class="author">
+            Royce Kurmelovs          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/politics/2019/02/23/cash-not-comment/15508404007494" class="link-block"><span></span></a>
+          Cash not for comment          <span class="author">
+            Mike Seccombe          </span>
+        </p>
+                <p class="content-item">
+          <a href="/world/north-america/2019/02/23/west-losing-its-grip-the-global-order/15508404007492" class="link-block"><span></span></a>
+          West losing its grip on the global order           <span class="author">
+            Jonathan Pearlman          </span>
+        </p>
+          <br>
+
+  <p class="category">Opinion  </p>
+
+          <p class="content-item">
+          <a href="/opinion/topic/2019/02/23/palace-letters-highlight-undemocratic-secrecy/15508404007497" class="link-block"><span></span></a>
+          Palace letters highlight undemocratic secrecy          <span class="author">
+            Jennifer Robinson          </span>
+        </p>
+                <p class="content-item">
+          <a href="/opinion/topic/2019/02/23/helloworld-this-free/15508404007484" class="link-block"><span></span></a>
+          Helloworld, this is free          <span class="author">
+            Paul Bongiorno          </span>
+        </p>
+                <p class="content-item">
+          <a href="/opinion/diary/2019/02/23/gadfly-making-another-run/15508404007478" class="link-block"><span></span></a>
+          Gadfly: Making another run﻿﻿﻿          <span class="author">
+            Richard Ackland          </span>
+        </p>
+          <br>
+
+  <p class="category">Letters & Editorial  </p>
+
+          <p class="content-item">
+          <a href="/opinion/poetry/2019/02/23/15508404007487" class="link-block"><span></span></a>
+          Bridge          <span class="author">
+            Maxine Beneba Clarke          </span>
+        </p>
+                <p class="content-item">
+          <a href="/opinion/editorial/2019/02/23/affairs-remember/15508404007485" class="link-block"><span></span></a>
+          Affairs to remember          <span class="author">
+                      </span>
+        </p>
+                <p class="content-item">
+          <a href="/2019/02/23/analysis-worth-the-effort/15508404007486" class="link-block"><span></span></a>
+          Analysis worth the effort          <span class="author">
+                      </span>
+        </p>
+          <br>
+
+  <p class="category">Culture  </p>
+
+          <p class="content-item">
+          <a href="/culture/books/2019/02/23/kristen-roupenian-short-stories-and-viral-success/15508404007493" class="link-block"><span></span></a>
+          Kristen Roupenian on short stories and viral success          <span class="author">
+            Katherine Gillespie          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/art/2019/02/23/just-not-australian/15508404007501" class="link-block"><span></span></a>
+          Just Not Australian          <span class="author">
+            Lauren Carroll Harris          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/music/2019/02/23/julia-jacklins-crushing/15508404007480" class="link-block"><span></span></a>
+          Julia Jacklin’s Crushing           <span class="author">
+            Shaad D’Souza          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/portrait/2019/02/23/filmmaker-elizabeth-pepin-silva/15508404007475" class="link-block"><span></span></a>
+          Filmmaker Elizabeth Pepin Silva          <span class="author">
+            Romy Ash          </span>
+        </p>
+          <br>
+
+  <p class="category">Books  </p>
+
+          <p class="content-item">
+          <a href="/culture/books/2019/02/28/the-year-the-beast/15508404007491" class="link-block"><span></span></a>
+          The Year of the Beast          <span class="author">
+            Reviewer: Luke Horton          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/books/2019/02/28/beside-myself/15508404007489" class="link-block"><span></span></a>
+          Beside Myself           <span class="author">
+            Reviewer: Catie McLeod          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/books/2019/02/28/brookings-the-noun/15508404007488" class="link-block"><span></span></a>
+          brookings: the noun          <span class="author">
+            Reviewer: Maria Takolander          </span>
+        </p>
+          <br>
+
+  <p class="category">  </p>
+
+    <br>
+
+  <p class="category">Life  </p>
+
+          <p class="content-item">
+          <a href="/2019/02/28/grilled-rockmelon-with-turmeric-fetta-and-mint/15508404007482" class="link-block"><span></span></a>
+          Grilled rockmelon with turmeric, fetta and mint          <span class="author">
+            David Moyle          </span>
+        </p>
+                <p class="content-item">
+          <a href="/life/fashion/2019/02/23/the-legacy-karl-lagerfeld/15508404007476" class="link-block"><span></span></a>
+          The legacy of Karl Lagerfeld          <span class="author">
+            Miriam Cosic          </span>
+        </p>
+                <p class="content-item">
+          <a href="/sport/racing/2019/02/23/darren-weir-and-integrity-racing/15508404007481" class="link-block"><span></span></a>
+          Darren Weir and integrity in racing          <span class="author">
+            Peter Hanlon          </span>
+        </p>
+          <br>
+
+  <p class="category">The Quiz  </p>
+
+          <p class="content-item">
+          <a href="/quiz/2019/02/23" class="link-block"><span></span></a>
+          Who won Album of the Year at the 2019 Grammys?          <span class="author">
+            Cindy MacDonald          </span>
+        </p>
+          <br>
+      </div>
+    </div>
+    <div class="paywall__articles" id="paywall_articles_id">
+      <p class="section this_week">This week</p>
+      <div class="article article--large">
+  
+            <p class="category">
+          <a href="/news/latest">
+            News          </a>
+        </p>
+                <p class="article__title">
+          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/morrison-ignored-boat-security-advice/15508404007499">
+            Morrison ignored boat security advice          </a>
+      </p>
+    
+    <div class="article__text">
+      <p>
+              <span class="article__author">
+          <a href="/contributor/karen-middleton">
+            Karen Middleton          </a>
+        </span>
+      The government ignored security agency advice on amendments to the medivac bill, allowing it to accuse Labor of undermining border security.Pezzullo’s Monday evidence suggests the government was alerted to the repatriation issue well before Labor’s amendments were drafted and it did not act.      </p>
+    </div>
+</div>
+<!--Image full width IF SET -->
+<div class="article article--large article--large-image">
+  <a href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/morrison-ignored-boat-security-advice/15508404007499" class="link-block"><span></span></a>
+    <div class="article__image">
+      <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/front_left_column/public/images/p1_scott_morrison_at_ph_done_0.jpg?itok=U1KGYooQ" alt="" />    </div>
+</div>
+
+
+
+
+
+<div class="article">
+        
+                <p class="category">
+            <a href="/news/latest">
+              News            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/environment/2019/02/23/the-science-insect-population-collapse/15508404007500">
+            The science of insect population collapse          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/alex-mckinnon-1">
+              Alex McKinnon            </a>
+          </span>
+        Amid recent warnings of the mass extinction of insects in the coming decades, the global lack of research into insect populations has come into focus.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/life/latest">
+              Life            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/australias-psychedelic-drug-trial/15508404007498">
+            Australia’s psychedelic drug trial          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/jenny-valentish">
+              Jenny Valentish            </a>
+          </span>
+        Advocates of psychedelic drug research are hoping the psilocybin trial for treating anxiety in the terminally ill, at Melbourne’s St Vincent’s Hospital, is the beginning of a new acceptance for the potential of the field.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/news/latest">
+              News            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/health/2019/02/23/the-aged-care-royal-commission/15508404007496">
+            The aged-care royal commission          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/royce-kurmelovs">
+              Royce Kurmelovs            </a>
+          </span>
+        While the royal commission into aged care has begun by exposing distressing cases of neglect, experts warn that it is the generations currently unaffected – and uninterested – who must become engaged in order for standards to improve.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/books/2019/02/23/kristen-roupenian-short-stories-and-viral-success/15508404007493">
+            Kristen Roupenian on short stories and viral success          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/katherine-gillespie">
+              Katherine Gillespie            </a>
+          </span>
+        Amid the spectacularly divisive response to Kristen Roupenian’s short story about a relationship gone wrong, the author’s conception of “Cat Person” as horror fiction was often overlooked. Here, she talks about reasserting her genre credentials with the release of her debut collection. “The temptation would be to turn the book into 11 stories about dating from the perspective of young women. So I was grateful that editors recognised it was a weird, dark collection of essentially horror stories. They let it be what it was.”        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/opinion/latest">
+              Opinion            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/topic/2019/02/23/palace-letters-highlight-undemocratic-secrecy/15508404007497">
+            Palace letters highlight undemocratic secrecy          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/node/7495">
+              Jennifer Robinson            </a>
+          </span>
+        Despite narrow legal grounds for concealing documents under our freedom of information laws, government agencies routinely refuse to release them. Appeals are long and costly. Final decisions may take years and challenging decisions to refuse access to documents &ndash; as in this case &ndash; can run to many, many thousands of dollars. The cost is too high for most, and so the information remains hidden and unpublished.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/opinion/latest">
+              Opinion            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/topic/2019/02/23/helloworld-this-free/15508404007484">
+            Helloworld, this is free          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/paul-bongiorno">
+              Paul Bongiorno            </a>
+          </span>
+        No longer confident it controls the parliament of Australia, the Morrison government has shut it down for the next six weeks. And no wonder: it is reeling from revelations of cronyism, incompetence and profligate, unaccountable spending. Scott Morrison’s only defence was to accuse Labor of having its head in the “chum bucket”. If he is right, the bucket is his and he will have to do a lot of hard work to expunge the stench before the May election.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/diary">
+              Diary            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/diary/2019/02/23/gadfly-making-another-run/15508404007478">
+            Gadfly: Making another run﻿﻿﻿          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/richard-ackland">
+              Richard Ackland            </a>
+          </span>
+        <p>Ladislaus Meissner, also known as <strong>Joe Meissner</strong>, of &ldquo;Love Boat&rdquo; notoriety has, after a decent interval, resurfaced. Joe has moved on from his days in the 1980s as secretary of the Enmore branch of the Labor Party and former world karate champion when his putt-putt, the <em>Kanzen</em>, hosted riotous onboard parties, where politicians mingled with even shadier figures.<strong> Virginia Perger</strong>, a sex worker, said she had slept with the adorable <strong>Graham Richardson</strong> on board the <em>Kanzen</em> only to withdraw her statement, after much thought.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/opinion/latest">
+              Opinion            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/editorial/2019/02/23/affairs-remember/15508404007485">
+            Affairs to remember          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+        <p>Perhaps once the Paladin contract story could have toppled a minister. This week, it was almost overshadowed by a parade of other scandals &ndash; the 2000 Centrelink robocall deaths; the Helloworld travel scandal; the revelation both Michael Keenan and Michaelia Cash refused to give witness statements to the Australian Federal Police over the Australian Workers&rsquo; Union raid tipoffs; the apparent leaking of security advice to The Australian, which was then misrepresented.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/news/latest">
+              News            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/cash-not-comment/15508404007494">
+            Cash not for comment          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/mike-seccombe">
+              Mike Seccombe            </a>
+          </span>
+        <p>As the Federal Court prepares to make a ruling on the AWU raids, and it emerges Michaelia Cash refused to give a statement to the federal police over her office&rsquo;s involvement, <em>The Saturday Paper </em>reviews the minister&rsquo;s position to date.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/world">
+              World            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/world/north-america/2019/02/23/west-losing-its-grip-the-global-order/15508404007492">
+            West losing its grip on the global order           </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/jonathan-pearlman">
+              Jonathan Pearlman            </a>
+          </span>
+        Merkel attacks new ‘home alone’ approach by US, while Pence warns Europe over purchasing Russian arms. China puts limits on Australian coal imports and rebukes New Zealand. UNHCR condemns arrest of Filipino journalist Maria Ressa. Shinzō Abe nominates Donald Trump for Nobel peace prize, at White House's request.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/art/2019/02/23/just-not-australian/15508404007501">
+            Just Not Australian          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/lauren-carroll-harris">
+              Lauren Carroll Harris            </a>
+          </span>
+        <p>Curated with an eye for slogans and messaging, the new Artspace exhibition <em>Just Not Australian</em> interrogates the mythic language of nationalism that continues to permeate the art world.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/music/2019/02/23/julia-jacklins-crushing/15508404007480">
+            Julia Jacklin’s Crushing           </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/shaad-dsouza">
+              Shaad D’Souza            </a>
+          </span>
+        <p>Julia Jacklin&rsquo;s new album <em>Crushing</em> has moments when her lyrical directness perfectly complements its dark folk-rock sound, which excuse some of the experimental missteps elsewhere.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/portrait/2019/02/23/filmmaker-elizabeth-pepin-silva/15508404007475">
+            Filmmaker Elizabeth Pepin Silva          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/romy-ash">
+              Romy Ash            </a>
+          </span>
+        Watching the waves with surfer, photographer and documentarian Elizabeth Pepin Silva.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/food/latest">
+              Food            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/2019/02/28/grilled-rockmelon-with-turmeric-fetta-and-mint/15508404007482">
+            Grilled rockmelon with turmeric, fetta and mint          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/david-moyle">
+              David Moyle            </a>
+          </span>
+                </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/life/latest">
+              Life            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/life/fashion/2019/02/23/the-legacy-karl-lagerfeld/15508404007476">
+            The legacy of Karl Lagerfeld          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/miriam-cosic">
+              Miriam Cosic            </a>
+          </span>
+        <p>During the &rsquo;90s there was barely a glossy magazine that didn&rsquo;t feature Karl Lagerfeld draped in supermodels. His death this week<em> </em>offers a chance to reflect on the fashion powerhouse&rsquo;s influence on design, style and feminine sophistication.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/sport/latest">
+              Sport            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/sport/racing/2019/02/23/darren-weir-and-integrity-racing/15508404007481">
+            Darren Weir and integrity in racing          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/node/7479">
+              Peter Hanlon            </a>
+          </span>
+        Trainer Darren Weir’s fall from grace over the possession of electronic shock devices has stunned horse-racing enthusiasts both here and overseas. But could it help efforts to clean up the sport?        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/quiz">
+              Quiz            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/quiz/2019/02/23">
+            Who won Album of the Year at the 2019 Grammys?          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/cindy-macdonald">
+              Cindy MacDonald            </a>
+          </span>
+        Test your general knowledge with our weekly quiz.        </p>
+      </div>
+</div>    </div>
+  </div>
+  <div class="soft-paywall">
+  <div class="picker article__text">
+  <div class="header">
+    <a href="https://account.schwartzmedia.com.au/renew/tsp" target="_blank">
+ Renew a subscription 
+</a>or,
+    <h3>
+Select your subscription type
+</h3>
+  </div>
+  <div class="centered">
+    <div id="picker-option-12" class="picker-option-12 picker-option selected">
+        12 MONTH SUBSCRIPTION
+        <br/> $1.90 P/WEEK
+    </div>
+
+    <div id="picker-option-6" class="picker-option-6 picker-option">
+        6 MONTH SUBSCRIPTION
+        <br/> $2.65 P/WEEK
+    </div>
+  </div>
+
+  <div class="picker-body">
+    <ul>
+      <li>
+        Full website access
+      </li>
+      <li>
+        Access iPad & iPhone apps
+      </li>
+      <li>
+        Access Android app
+      </li>
+    </ul>
+
+    <div class="additions">
+      <div class="row small-header">
+        ADDITIONS
+      </div>
+      
+      <!-- <label for="picker-autorenew" class="autorenew-row row">
+        <div class="left">
+          <input id="picker-autorenew" class="picker-autorenew" type="checkbox" name="autorenew" value="autorenew" > Auto-renew subscription
+        </div>
+        <div class="right">
+          <strong>- $<span id="autorenew-price" class="autorenew-price">0.19</span></strong> p/week
+        </div>
+      </label> -->
+
+      <label for="picker-print" class="row">
+        <div class="left">
+          <input id="picker-print" class="picker-print" type="checkbox" name="print" value="print"> Print edition, home delivered
+        </div>
+        <div class="right">
+          <strong>+ $<span id="print-price" class="print-price">1.35</span></strong> p/week
+        </div>
+      </label>
+    </div>
+  
+    
+    <div class="total row">
+      <div class="left">
+        Total
+      </div>
+      <div class="right">
+        <strong>$ <span id="total-price" class="total-price">--</span></strong> p/week
+      </div>
+    </div>
+    
+    <div class="row">
+      <a id="picker-subscribe-link" class="picker-subscribe-link" href="" data="soft" target="_blank">
+        <div class="subscribe-button right">
+          SUBSCRIBE NOW
+        </div>
+      </a>
+    </div>
+    
+    <p class="row small-header">
+      OR GET IN TOUCH WITH ONE OF OUR TEAM
+    </p>
+    <p class="bottom-text">
+      Call 1800 077 514 or email <a href="/cdn-cgi/l/email-protection#b0c3c5d2c3d3c2d9d2d5f0c4d8d5c3d1c4c5c2d4d1c9c0d1c0d5c29ed3dfdd9ed1c5"><span class="__cf_email__" data-cfemail="5e2d2b3c2d3d2c373c3b1e2a363b2d3f2a2b2c3a3f272e3f2e3b2c703d3133703f2b">[email&#160;protected]</span></a>.
+    </p>
+    <p class="bottom-text">
+      The subscriptions office is open from 8:30am to 5pm Monday to Thursday, 9am to 5pm on Friday.
+    </p>
+    
+  </div>
+  
+</div>
+      </div>
+</div>
+        </div>
+      </div>
+  </div><div class="readmore">
+    <div class="paywall-container-outer paywall-footer-special">
+    
+    
+    <div class="paywall-container">
+
+
+    <!--<a id="pw-continue-reading"  href="#" class="enter continue-reading-button hide-for-sub">Continue reading your one free article this week</a>-->
+<div class="show-for-sub subscribe-red-bar">
+          <div class="subscribe-red-bar-internal-container">
+            <div class="center">
+              <!--<a href="/login" class="login-red login_modal_open"><i class="fa fa-lock"></i> Login</a> -->
+            </div>
+            <p>You have read your one free article for the week</p>
+          </div>
+        </div>
+        <div class="show-for-sub subscribe-container">
+          
+          <div class="subscribe-inner-text-region">
+            <p class="h1 center">Get the whole story</p>
+          </div>
+        <div class="picker article__text">
+  <div class="header">
+    <a href="https://account.schwartzmedia.com.au/renew/tsp" target="_blank">
+ Renew a subscription 
+</a>or,
+    <h3>
+Select your subscription type
+</h3>
+  </div>
+  <div class="centered">
+    <div id="picker-option-12" class="picker-option-12 picker-option selected">
+        12 MONTH SUBSCRIPTION
+        <br/> $1.90 P/WEEK
+    </div>
+
+    <div id="picker-option-6" class="picker-option-6 picker-option">
+        6 MONTH SUBSCRIPTION
+        <br/> $2.65 P/WEEK
+    </div>
+  </div>
+
+  <div class="picker-body">
+    <ul>
+      <li>
+        Full website access
+      </li>
+      <li>
+        Access iPad & iPhone apps
+      </li>
+      <li>
+        Access Android app
+      </li>
+    </ul>
+
+    <div class="additions">
+      <div class="row small-header">
+        ADDITIONS
+      </div>
+      
+      <!-- <label for="picker-autorenew" class="autorenew-row row">
+        <div class="left">
+          <input id="picker-autorenew" class="picker-autorenew" type="checkbox" name="autorenew" value="autorenew" > Auto-renew subscription
+        </div>
+        <div class="right">
+          <strong>- $<span id="autorenew-price" class="autorenew-price">0.19</span></strong> p/week
+        </div>
+      </label> -->
+
+      <label for="picker-print" class="row">
+        <div class="left">
+          <input id="picker-print" class="picker-print" type="checkbox" name="print" value="print"> Print edition, home delivered
+        </div>
+        <div class="right">
+          <strong>+ $<span id="print-price" class="print-price">1.35</span></strong> p/week
+        </div>
+      </label>
+    </div>
+  
+    
+    <div class="total row">
+      <div class="left">
+        Total
+      </div>
+      <div class="right">
+        <strong>$ <span id="total-price" class="total-price">--</span></strong> p/week
+      </div>
+    </div>
+    
+    <div class="row">
+      <a id="picker-subscribe-link" class="picker-subscribe-link" href="" data="hard" target="_blank">
+        <div class="subscribe-button right">
+          SUBSCRIBE NOW
+        </div>
+      </a>
+    </div>
+    
+    <p class="row small-header">
+      OR GET IN TOUCH WITH ONE OF OUR TEAM
+    </p>
+    <p class="bottom-text">
+      Call 1800 077 514 or email <a href="/cdn-cgi/l/email-protection#a5d6d0c7d6c6d7ccc7c0e5d1cdc0d6c4d1d0d7c1c4dcd5c4d5c0d78bc6cac88bc4d0"><span class="__cf_email__" data-cfemail="3b484e5948584952595e7b4f535e485a4f4e495f5a424b5a4b5e4915585456155a4e">[email&#160;protected]</span></a>.
+    </p>
+    <p class="bottom-text">
+      The subscriptions office is open from 8:30am to 5pm Monday to Thursday, 9am to 5pm on Friday.
+    </p>
+    
+  </div>
+  
+</div>
+        </div>
+
+        <div id="pw-variant-0">
+          <div class="paywall">
+  <!--<a href="/login" id="subscribe-login-black" class="login-black login_modal_open"><i class="fa fa-lock"></i> Login</a>
+  <a href="/login" id="subscribe-login-black-mobile" class="login-black-mobile login_modal_open"><i class="fa fa-lock"></i> Login</a>-->
+
+  <p class="h1 show-for-sub clear">Subscribe now to read the current edition </p>  
+
+  <div class="paywall__issue-meta">
+    <p>
+      <span class="no-text-transform">
+        Edition No: 241&nbsp;&nbsp;      </span>
+      February 23 – March 1, 2019    </p>
+  </div>
+  <div class="paywall__grid">
+    <div class="paywall__contents">
+      <div id="paywall_toc_inner_id_footer">
+        <p class="section">Contents</p>
+          
+  <p class="category">News  </p>
+
+          <p class="content-item">
+          <a href="/news/politics/2019/02/23/morrison-ignored-boat-security-advice/15508404007499" class="link-block"><span></span></a>
+          Morrison ignored boat security advice          <span class="author">
+            Karen Middleton          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/environment/2019/02/23/the-science-insect-population-collapse/15508404007500" class="link-block"><span></span></a>
+          The science of insect population collapse          <span class="author">
+            Alex McKinnon          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/politics/2019/02/23/australias-psychedelic-drug-trial/15508404007498" class="link-block"><span></span></a>
+          Australia’s psychedelic drug trial          <span class="author">
+            Jenny Valentish          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/health/2019/02/23/the-aged-care-royal-commission/15508404007496" class="link-block"><span></span></a>
+          The aged-care royal commission          <span class="author">
+            Royce Kurmelovs          </span>
+        </p>
+                <p class="content-item">
+          <a href="/news/politics/2019/02/23/cash-not-comment/15508404007494" class="link-block"><span></span></a>
+          Cash not for comment          <span class="author">
+            Mike Seccombe          </span>
+        </p>
+                <p class="content-item">
+          <a href="/world/north-america/2019/02/23/west-losing-its-grip-the-global-order/15508404007492" class="link-block"><span></span></a>
+          West losing its grip on the global order           <span class="author">
+            Jonathan Pearlman          </span>
+        </p>
+          <br>
+
+  <p class="category">Opinion  </p>
+
+          <p class="content-item">
+          <a href="/opinion/topic/2019/02/23/palace-letters-highlight-undemocratic-secrecy/15508404007497" class="link-block"><span></span></a>
+          Palace letters highlight undemocratic secrecy          <span class="author">
+            Jennifer Robinson          </span>
+        </p>
+                <p class="content-item">
+          <a href="/opinion/topic/2019/02/23/helloworld-this-free/15508404007484" class="link-block"><span></span></a>
+          Helloworld, this is free          <span class="author">
+            Paul Bongiorno          </span>
+        </p>
+                <p class="content-item">
+          <a href="/opinion/diary/2019/02/23/gadfly-making-another-run/15508404007478" class="link-block"><span></span></a>
+          Gadfly: Making another run﻿﻿﻿          <span class="author">
+            Richard Ackland          </span>
+        </p>
+          <br>
+
+  <p class="category">Letters & Editorial  </p>
+
+          <p class="content-item">
+          <a href="/opinion/poetry/2019/02/23/15508404007487" class="link-block"><span></span></a>
+          Bridge          <span class="author">
+            Maxine Beneba Clarke          </span>
+        </p>
+                <p class="content-item">
+          <a href="/opinion/editorial/2019/02/23/affairs-remember/15508404007485" class="link-block"><span></span></a>
+          Affairs to remember          <span class="author">
+                      </span>
+        </p>
+                <p class="content-item">
+          <a href="/2019/02/23/analysis-worth-the-effort/15508404007486" class="link-block"><span></span></a>
+          Analysis worth the effort          <span class="author">
+                      </span>
+        </p>
+          <br>
+
+  <p class="category">Culture  </p>
+
+          <p class="content-item">
+          <a href="/culture/books/2019/02/23/kristen-roupenian-short-stories-and-viral-success/15508404007493" class="link-block"><span></span></a>
+          Kristen Roupenian on short stories and viral success          <span class="author">
+            Katherine Gillespie          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/art/2019/02/23/just-not-australian/15508404007501" class="link-block"><span></span></a>
+          Just Not Australian          <span class="author">
+            Lauren Carroll Harris          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/music/2019/02/23/julia-jacklins-crushing/15508404007480" class="link-block"><span></span></a>
+          Julia Jacklin’s Crushing           <span class="author">
+            Shaad D’Souza          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/portrait/2019/02/23/filmmaker-elizabeth-pepin-silva/15508404007475" class="link-block"><span></span></a>
+          Filmmaker Elizabeth Pepin Silva          <span class="author">
+            Romy Ash          </span>
+        </p>
+          <br>
+
+  <p class="category">Books  </p>
+
+          <p class="content-item">
+          <a href="/culture/books/2019/02/28/the-year-the-beast/15508404007491" class="link-block"><span></span></a>
+          The Year of the Beast          <span class="author">
+            Reviewer: Luke Horton          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/books/2019/02/28/beside-myself/15508404007489" class="link-block"><span></span></a>
+          Beside Myself           <span class="author">
+            Reviewer: Catie McLeod          </span>
+        </p>
+                <p class="content-item">
+          <a href="/culture/books/2019/02/28/brookings-the-noun/15508404007488" class="link-block"><span></span></a>
+          brookings: the noun          <span class="author">
+            Reviewer: Maria Takolander          </span>
+        </p>
+          <br>
+
+  <p class="category">  </p>
+
+    <br>
+
+  <p class="category">Life  </p>
+
+          <p class="content-item">
+          <a href="/2019/02/28/grilled-rockmelon-with-turmeric-fetta-and-mint/15508404007482" class="link-block"><span></span></a>
+          Grilled rockmelon with turmeric, fetta and mint          <span class="author">
+            David Moyle          </span>
+        </p>
+                <p class="content-item">
+          <a href="/life/fashion/2019/02/23/the-legacy-karl-lagerfeld/15508404007476" class="link-block"><span></span></a>
+          The legacy of Karl Lagerfeld          <span class="author">
+            Miriam Cosic          </span>
+        </p>
+                <p class="content-item">
+          <a href="/sport/racing/2019/02/23/darren-weir-and-integrity-racing/15508404007481" class="link-block"><span></span></a>
+          Darren Weir and integrity in racing          <span class="author">
+            Peter Hanlon          </span>
+        </p>
+          <br>
+
+  <p class="category">The Quiz  </p>
+
+          <p class="content-item">
+          <a href="/quiz/2019/02/23" class="link-block"><span></span></a>
+          Who won Album of the Year at the 2019 Grammys?          <span class="author">
+            Cindy MacDonald          </span>
+        </p>
+          <br>
+      </div>
+    </div>
+    <div class="paywall__articles" id="paywall_articles_id_footer">
+      <p class="section this_week">This week</p>
+      <div class="article article--large">
+  
+            <p class="category">
+          <a href="/news/latest">
+            News          </a>
+        </p>
+                <p class="article__title">
+          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/morrison-ignored-boat-security-advice/15508404007499">
+            Morrison ignored boat security advice          </a>
+      </p>
+    
+    <div class="article__text">
+      <p>
+              <span class="article__author">
+          <a href="/contributor/karen-middleton">
+            Karen Middleton          </a>
+        </span>
+      The government ignored security agency advice on amendments to the medivac bill, allowing it to accuse Labor of undermining border security.Pezzullo’s Monday evidence suggests the government was alerted to the repatriation issue well before Labor’s amendments were drafted and it did not act.      </p>
+    </div>
+</div>
+<!--Image full width IF SET -->
+<div class="article article--large article--large-image">
+  <a href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/morrison-ignored-boat-security-advice/15508404007499" class="link-block"><span></span></a>
+    <div class="article__image">
+      <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/front_left_column/public/images/p1_scott_morrison_at_ph_done_0.jpg?itok=U1KGYooQ" alt="" />    </div>
+</div>
+
+
+
+
+
+<div class="article">
+        
+                <p class="category">
+            <a href="/news/latest">
+              News            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/environment/2019/02/23/the-science-insect-population-collapse/15508404007500">
+            The science of insect population collapse          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/alex-mckinnon-1">
+              Alex McKinnon            </a>
+          </span>
+        Amid recent warnings of the mass extinction of insects in the coming decades, the global lack of research into insect populations has come into focus.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/life/latest">
+              Life            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/australias-psychedelic-drug-trial/15508404007498">
+            Australia’s psychedelic drug trial          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/jenny-valentish">
+              Jenny Valentish            </a>
+          </span>
+        Advocates of psychedelic drug research are hoping the psilocybin trial for treating anxiety in the terminally ill, at Melbourne’s St Vincent’s Hospital, is the beginning of a new acceptance for the potential of the field.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/news/latest">
+              News            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/health/2019/02/23/the-aged-care-royal-commission/15508404007496">
+            The aged-care royal commission          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/royce-kurmelovs">
+              Royce Kurmelovs            </a>
+          </span>
+        While the royal commission into aged care has begun by exposing distressing cases of neglect, experts warn that it is the generations currently unaffected – and uninterested – who must become engaged in order for standards to improve.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/books/2019/02/23/kristen-roupenian-short-stories-and-viral-success/15508404007493">
+            Kristen Roupenian on short stories and viral success          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/katherine-gillespie">
+              Katherine Gillespie            </a>
+          </span>
+        Amid the spectacularly divisive response to Kristen Roupenian’s short story about a relationship gone wrong, the author’s conception of “Cat Person” as horror fiction was often overlooked. Here, she talks about reasserting her genre credentials with the release of her debut collection. “The temptation would be to turn the book into 11 stories about dating from the perspective of young women. So I was grateful that editors recognised it was a weird, dark collection of essentially horror stories. They let it be what it was.”        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/opinion/latest">
+              Opinion            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/topic/2019/02/23/palace-letters-highlight-undemocratic-secrecy/15508404007497">
+            Palace letters highlight undemocratic secrecy          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/node/7495">
+              Jennifer Robinson            </a>
+          </span>
+        Despite narrow legal grounds for concealing documents under our freedom of information laws, government agencies routinely refuse to release them. Appeals are long and costly. Final decisions may take years and challenging decisions to refuse access to documents &ndash; as in this case &ndash; can run to many, many thousands of dollars. The cost is too high for most, and so the information remains hidden and unpublished.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/opinion/latest">
+              Opinion            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/topic/2019/02/23/helloworld-this-free/15508404007484">
+            Helloworld, this is free          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/paul-bongiorno">
+              Paul Bongiorno            </a>
+          </span>
+        No longer confident it controls the parliament of Australia, the Morrison government has shut it down for the next six weeks. And no wonder: it is reeling from revelations of cronyism, incompetence and profligate, unaccountable spending. Scott Morrison’s only defence was to accuse Labor of having its head in the “chum bucket”. If he is right, the bucket is his and he will have to do a lot of hard work to expunge the stench before the May election.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/diary">
+              Diary            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/diary/2019/02/23/gadfly-making-another-run/15508404007478">
+            Gadfly: Making another run﻿﻿﻿          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/richard-ackland">
+              Richard Ackland            </a>
+          </span>
+        <p>Ladislaus Meissner, also known as <strong>Joe Meissner</strong>, of &ldquo;Love Boat&rdquo; notoriety has, after a decent interval, resurfaced. Joe has moved on from his days in the 1980s as secretary of the Enmore branch of the Labor Party and former world karate champion when his putt-putt, the <em>Kanzen</em>, hosted riotous onboard parties, where politicians mingled with even shadier figures.<strong> Virginia Perger</strong>, a sex worker, said she had slept with the adorable <strong>Graham Richardson</strong> on board the <em>Kanzen</em> only to withdraw her statement, after much thought.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/opinion/latest">
+              Opinion            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/opinion/editorial/2019/02/23/affairs-remember/15508404007485">
+            Affairs to remember          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+        <p>Perhaps once the Paladin contract story could have toppled a minister. This week, it was almost overshadowed by a parade of other scandals &ndash; the 2000 Centrelink robocall deaths; the Helloworld travel scandal; the revelation both Michael Keenan and Michaelia Cash refused to give witness statements to the Australian Federal Police over the Australian Workers&rsquo; Union raid tipoffs; the apparent leaking of security advice to The Australian, which was then misrepresented.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/news/latest">
+              News            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/news/politics/2019/02/23/cash-not-comment/15508404007494">
+            Cash not for comment          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/mike-seccombe">
+              Mike Seccombe            </a>
+          </span>
+        <p>As the Federal Court prepares to make a ruling on the AWU raids, and it emerges Michaelia Cash refused to give a statement to the federal police over her office&rsquo;s involvement, <em>The Saturday Paper </em>reviews the minister&rsquo;s position to date.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/world">
+              World            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/world/north-america/2019/02/23/west-losing-its-grip-the-global-order/15508404007492">
+            West losing its grip on the global order           </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/jonathan-pearlman">
+              Jonathan Pearlman            </a>
+          </span>
+        Merkel attacks new ‘home alone’ approach by US, while Pence warns Europe over purchasing Russian arms. China puts limits on Australian coal imports and rebukes New Zealand. UNHCR condemns arrest of Filipino journalist Maria Ressa. Shinzō Abe nominates Donald Trump for Nobel peace prize, at White House's request.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/art/2019/02/23/just-not-australian/15508404007501">
+            Just Not Australian          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/lauren-carroll-harris">
+              Lauren Carroll Harris            </a>
+          </span>
+        <p>Curated with an eye for slogans and messaging, the new Artspace exhibition <em>Just Not Australian</em> interrogates the mythic language of nationalism that continues to permeate the art world.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/music/2019/02/23/julia-jacklins-crushing/15508404007480">
+            Julia Jacklin’s Crushing           </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/shaad-dsouza">
+              Shaad D’Souza            </a>
+          </span>
+        <p>Julia Jacklin&rsquo;s new album <em>Crushing</em> has moments when her lyrical directness perfectly complements its dark folk-rock sound, which excuse some of the experimental missteps elsewhere.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/culture/latest">
+              Culture            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/culture/portrait/2019/02/23/filmmaker-elizabeth-pepin-silva/15508404007475">
+            Filmmaker Elizabeth Pepin Silva          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/romy-ash">
+              Romy Ash            </a>
+          </span>
+        Watching the waves with surfer, photographer and documentarian Elizabeth Pepin Silva.        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/food/latest">
+              Food            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/2019/02/28/grilled-rockmelon-with-turmeric-fetta-and-mint/15508404007482">
+            Grilled rockmelon with turmeric, fetta and mint          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/david-moyle">
+              David Moyle            </a>
+          </span>
+                </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/life/latest">
+              Life            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/life/fashion/2019/02/23/the-legacy-karl-lagerfeld/15508404007476">
+            The legacy of Karl Lagerfeld          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/miriam-cosic">
+              Miriam Cosic            </a>
+          </span>
+        <p>During the &rsquo;90s there was barely a glossy magazine that didn&rsquo;t feature Karl Lagerfeld draped in supermodels. His death this week<em> </em>offers a chance to reflect on the fashion powerhouse&rsquo;s influence on design, style and feminine sophistication.</p>
+        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/sport/latest">
+              Sport            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/sport/racing/2019/02/23/darren-weir-and-integrity-racing/15508404007481">
+            Darren Weir and integrity in racing          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/node/7479">
+              Peter Hanlon            </a>
+          </span>
+        Trainer Darren Weir’s fall from grace over the possession of electronic shock devices has stunned horse-racing enthusiasts both here and overseas. But could it help efforts to clean up the sport?        </p>
+      </div>
+</div><div class="article">
+        
+                <p class="category">
+            <a href="/quiz">
+              Quiz            </a>
+          </p>
+      
+      <p class="article__title">          <a class="article__title_link" href="https://www.thesaturdaypaper.com.au/quiz/2019/02/23">
+            Who won Album of the Year at the 2019 Grammys?          </a>
+        </p>
+      
+      <div class="article__text">
+        <p>
+                  <span class="article__author">
+            <a href="/contributor/cindy-macdonald">
+              Cindy MacDonald            </a>
+          </span>
+        Test your general knowledge with our weekly quiz.        </p>
+      </div>
+</div>    </div>
+  </div>
+</div>
+        </div>
+      </div>
+      
+  </div></div>
+    <div id="footer">
+      
+      <div class="section">
+
+
+
+          <div class="edition-strap-wrapper wrapper">
+                          <p class="article__section-title">Past Editions</p>
+              <div class="edition-strap">
+      <div class="edition-strap-item" data-id="0">
+    
+      <a href="/edition/2019/02/23 ">
+        <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/puff_image/public/tsp_front_page_feb_23_2019.png?itok=G8i3XrOH" alt="" />      </a>
+    </div>
+      <div class="edition-strap-item" data-id="1">
+    
+      <a href="/edition/2019/02/16 ">
+        <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/puff_image/public/p1_screen_shot_2019-02-15_0.jpg?itok=KaVL4gYY" alt="" />      </a>
+    </div>
+      <div class="edition-strap-item" data-id="2">
+    
+      <a href="/edition/2019/02/09 ">
+        <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/puff_image/public/tsp_front_page_feb_9_2019.png?itok=HpRgRO1h" alt="" />      </a>
+    </div>
+      <div class="edition-strap-item" data-id="3">
+    
+      <a href="/edition/2019/02/02 ">
+        <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/puff_image/public/tsp_front_page_feb_2_2019.png?itok=1zfKZgg8" alt="" />      </a>
+    </div>
+      <div class="edition-strap-item" data-id="4">
+    
+      <a href="/edition/2019/01/26 ">
+        <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/puff_image/public/tsp_front_page_jan_26_2019.png?itok=vcnp4RyA" alt="" />      </a>
+    </div>
+      <div class="edition-strap-item" data-id="5">
+    
+      <a href="/edition/2018/12/22 ">
+        <img src="https://www.thesaturdaypaper.com.au/sites/default/files/styles/puff_image/public/screen_shot_2018-12-21_at_1.26.08_pm.png?itok=J0C-zM35" alt="" />      </a>
+    </div>
+  </div>              <p class="center category"><a href="/editions">View all editions</a></p>
+            
+                        <div class="signup-box-container has-border">
+              <p>The news you need.</p>
+              <p class="text-red">Delivered free to your inbox.</p>
+              
+<div class="cmSubscribeForm" data-form-location="Page Footer">
+  <form action="" method="post">
+
+    <label class="field">
+      <input name="email" required type="email" class="email required briefing-email-input-custom" value="" placeholder="Enter your email"/>
+    </label>
+
+    <div class="dropdown-for-form" style="display:none;">
+      <div class="checkbox-wrapper">
+
+        <label class="checkbox-styled">
+          <input class="list-checkbox checkbox-custom" type="checkbox" name="list[]" value="briefing" checked="checked" />
+          <span class="checkmark"></span>
+          <span class="input-text"><strong>The Briefing </strong> <br> Your daily source of news. 7am weekdays.</span> <br>
+        </label>
+            
+        <label  class="checkbox-styled">
+          <input class="list-checkbox checkbox-custom" type="checkbox" name="list[]" value="saturday" checked="checked" />
+          <span class="checkmark"></span>
+          <span class="input-text"><strong>The Saturday Briefing</strong> <br>Editor's picks from <em>The Saturday Paper</em>. Every Saturday.</span>
+        </label>
+  
+      </div>
+
+      <div class="messages error alert-message failure-cm-box" style="display:none;"></div>
+      <input class="briefing-submit-button" type="submit" value="Sign Up" />
+        
+    </div>
+  </form>
+
+  <div class="stage progress-cm-box" style="display:none;"><div class="ajax-throbber sk-spinner-pulse"></div></div>
+  <div class="stage alert-message success-cm-box" style="display:none;"></div>
+</div>            </div>
+
+            
+
+                      </div>
+
+
+    	    <div class="footer_top">
+
+              <div class="footer_links wrapper">
+
+                  <div class="article article--briefing">
+                    <div class="ad ad--leaderboard">
+    <!-- TSP_ROS_Footer_Leaderboard_728x90 -->
+    <div id='div-gpt-ad-1489111909584-0' style='width:728px; height:90px; margin: 0 auto;' class="desktop">
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+            if (window.innerWidth > 730) {
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489111909584-0'); });
+        }
+        </script>
+    </div>
+
+    <div id='div-gpt-ad-1489033871393-3' class="mobile_ad">
+    <script type='text/javascript'>
+      if (window.innerWidth < 600) {
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489033871393-3'); });
+      }
+    </script>
+  </div>
+</div>
+                  </div>
+
+
+                <hr class="full-width" />
+
+                <div class="links-footer">
+                      <div class="region region-footer-links-one">
+    <div id="block-menu-menu-footer-tsp" class="block block-menu">
+
+    <h2>The Saturday Paper</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/about">About</a></li>
+<li class="leaf"><a href="/contact">Contact</a></li>
+<li class="leaf"><a href="http://www.schwartzmedia.com.au/advertise/" target="_blank">Advertise</a></li>
+<li class="leaf"><a href="https://www.thesaturdaypaper.com.au/tips">News Tips</a></li>
+<li class="leaf"><a href="/editorial-guidelines">Editorial Guidelines</a></li>
+<li class="leaf"><a href="/subscribe">Subscribe</a></li>
+<li class="last leaf"><a href="https://account.schwartzmedia.com.au/forgot">Forgot Password</a></li>
+</ul>  </div>
+</div>
+  </div>
+                      <div class="region region-footer-links-two">
+    <div id="block-menu-menu-footer-editions" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="https://help.schwartzmedia.com.au/">FAQ</a></li>
+<li class="leaf"><a href="/find">Find a newsagency</a></li>
+<li class="leaf"><a href="http://www.thesaturdaypaper.com.au/terms-conditions">Terms &amp; Conditions</a></li>
+<li class="leaf"><a href="http://www.schwartzmedia.com.au/privacy-policy">Privacy Policy</a></li>
+<li class="leaf"><a href="https://www.schwartzmedia.com.au/careers">Careers</a></li>
+<li class="leaf"><a href="/cdn-cgi/l/email-protection#6a0c0f0f0e080b09012a1909021d0b181e10070f0e030b44090507440b1f">Feedback</a></li>
+<li class="last leaf"><a href="/awineservice">A Wine Service</a></li>
+</ul>  </div>
+</div>
+  </div>
+                      <div class="region region-footer-links-three">
+    <div id="block-menu-menu-footer-connect" class="block block-menu">
+
+    <h2>Connect</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="http://thesaturdaypaper.com.au/thesaturdaybriefing/">The Saturday Briefing</a></li>
+<li class="leaf"><a href="http://www.facebook.com/TheSaturdayPaper" target="_blank">Facebook</a></li>
+<li class="leaf"><a href="http://www.twitter.com/SatPaper" target="_blank">Twitter</a></li>
+<li class="last leaf"><a href="http://instagram.com/satpaper" target="_blank">Instagram</a></li>
+</ul>  </div>
+</div>
+  </div>
+                                                            
+                </div>
+
+                <div class="footer-text">
+                  <p>The Saturday Paper is a weekly newspaper, published 48 times a year by Schwartz Media.</p>
+          
+                  <p>For subscription enquiries call 1800 077 514 or email <a href="/cdn-cgi/l/email-protection#eb989e8998889982898eab9f838e988a9f9e998f8a929b8a9b8e99c5888486c58a9e"><span class="__cf_email__" data-cfemail="651610071606170c070025110d00160411101701041c15041500174b060a084b0410">[email&#160;protected]</span></a>.</p>
+
+                  <p>For editorial enquiries email <a href="/cdn-cgi/l/email-protection#482d26393d213a212d3b083c202d3b293c3d3a2c29313829382d3a662b272566293d"><span class="__cf_email__" data-cfemail="f99c97888c908b909c8ab98d919c8a988d8c8b9d98808998899c8bd79a9694d7988c">[email&#160;protected]</span></a>.</p>
+
+                  <p>©2019 The Saturday Paper. All rights reserved.</p>
+                </div>
+    	        </div>
+      </div>
+
+        <!-- Tips Section sub footer -->
+            </div> <!-- /.section, /#footer -->
+
+  </div></div> <!-- /#page, /#page-wrapper -->
+
+ 
+
+
+
+
+
+
+            <div class="modal-underlay" style="display:none;"></div><div class="loginModal" style="display:none;"><a class="login-modal-close">X</a><form action="/login" method="post" id="sma-login-login-form" accept-charset="UTF-8"><div>
+<div class="loginForm" id="signIn">
+    <div class="login_header">
+        <div class="login-header-logo"></div>
+    </div>
+    <div class="login_sma">
+        <div class="login_signin">
+            <span class="login-title">Sign in with your Schwartz Media account</span>
+            <a href="https://account.schwartzmedia.com.au/forgot?redirect=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Fnews%2Fimmigration%2F2015%2F08%2F29%2Fnaurus-systemic-dysfunction%2F14407704002306"
+               class="forgot-password-link" target="_blank">Forgot your
+                password?</a>
+            <div class="form-item form-type-textfield form-item-email">
+  <label for="edit-email">Email </label>
+ <input placeholder="Email" type="text" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text" />
+</div>
+            <div class="form-item form-type-password form-item-password">
+  <label for="edit-password">Password </label>
+ <input placeholder="Password" type="password" id="edit-password" name="password" size="60" maxlength="128" class="form-text" />
+</div>
+            <input type="submit" id="edit-submit--2" name="op" value="Log in" class="form-submit" />            <a href="https://account.schwartzmedia.com.au/register"
+               class="create-account" target="_blank">Create account</a>
+
+
+        </div>
+    </div>
+    <div class="login_social">
+
+        <div class="social-widget-wrapper">
+            <span class="login-title">Or sign in with your existing account from</span>
+
+            <div class="item-list">
+                <ul class="social-widget">
+                    <li class="first"><a
+                            href="https://account.schwartzmedia.com.au/auth/facebook?login_destination=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Fnews%2Fimmigration%2F2015%2F08%2F29%2Fnaurus-systemic-dysfunction%2F14407704002306&amp;destination_error=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Flogin&source=tm"
+                            title="Facebook"
+                            class="btn btn-block btn-facebook"
+                            rel="nofollow">
+                            <span class="icon"></span>Log in with Facebook</a></li>
+                    <li>
+                        <a href="https://account.schwartzmedia.com.au/auth/twitter?login_destination=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Fnews%2Fimmigration%2F2015%2F08%2F29%2Fnaurus-systemic-dysfunction%2F14407704002306&amp;destination_error=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Flogin&source=tm"
+                           title="Twitter"
+                           class="btn btn-block btn-twitter"
+                           rel="nofollow">
+                            <span class="icon"></span>Log in with Twitter</a></li>
+                    <li>
+                        <a href="https://account.schwartzmedia.com.au/auth/google?login_destination=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Fnews%2Fimmigration%2F2015%2F08%2F29%2Fnaurus-systemic-dysfunction%2F14407704002306&amp;destination_error=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Flogin&source=tm" title="Google"
+                           class="btn btn-block btn-google"
+                           rel="nofollow">
+                            <span class="icon"></span>Log in with Google</a></li>
+                    <li class="last"><a
+                            href="https://account.schwartzmedia.com.au/auth/linkedin?login_destination=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Fnews%2Fimmigration%2F2015%2F08%2F29%2Fnaurus-systemic-dysfunction%2F14407704002306&amp;destination_error=https%3A%2F%2Fwww.thesaturdaypaper.com.au%2Flogin&source=tm"
+                            title="LinkedIn"
+                            class="btn btn-block btn-linkedin"
+                            >
+                            <span class="icon"></span>Log in with LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="privacy-terms">
+        <p>By logging in you agree to our
+            <a href="https://www.schwartzmedia.com.au/terms-of-service" target="_blank">Terms of service</a> and
+            <a href="https://www.schwartzmedia.com.au/privacy-policy" target="_blank">Privacy policy</a>.</p>
+
+        <p class="activate-message">If you're an existing print subscriber,<br>
+            and you have never logged in, you may need
+            to <a href="https://account.schwartzmedia.com.au/activate">activate your Schwartz Media account</a>.</p>
+
+    </div>
+    <div id="sm-help">
+        <h4>Want some assistance?</h4>
+
+        <p>We're here to help.<br> Email us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="334046514050415a51567340505b44524147495e56575a521d505c5e1d5246">[email&#160;protected]</a> <br>
+            Freecall 1800 077 514 (Australia only)</p>
+        </p>
+    </div>
+    <input type="hidden" name="form_build_id" value="form-ZuO5HmhEdMlfP9drwvve1gJcFkYcRrS6yb571gG1b_Y" />
+<input type="hidden" name="form_id" value="sma_login_login_form" />
+
+</div>
+</div></form></div>    
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://www.thesaturdaypaper.com.au/sites/all/modules/contrib/ajax_loader/js/ajax-loader.js?pnczz8"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"025b7e875b","applicationID":"10990178","transactionName":"NFEHMBNVWEZZWxFaWw0bJAcVXVlbF1YKV1E8RAQDBGtAXF1P","queueTime":0,"applicationTime":784,"atts":"GBYERltPS0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

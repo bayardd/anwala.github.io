@@ -1,0 +1,3 @@
+TFIDF VS Page Rank Tau_b 	 0.25
+TFIDF VS Page Rank p val. 	 0.19
+

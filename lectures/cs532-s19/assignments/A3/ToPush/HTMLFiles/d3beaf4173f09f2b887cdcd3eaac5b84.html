@@ -1,0 +1,699 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <script src="http://ep00.epimg.net/js/pbs/pbs.slots.js"></script>
+
+
+    <script src="//assets.adobedtm.com/577c3689ea990d22d8d98c00c4aa568bec64a426/satelliteLib-47d297adadc3920e75678095411a3abe279dbbb1-staging.js"></script>
+    
+    <script src="/bundles/SimpleMediaPlayer?v=VNLdfr-V10jRBKrdbQdNpIie_C6ljebD4jBAK0dVZJY1"></script>
+
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>En Vivo | W Deportes en directo</title>
+    <meta name="title" content="En Vivo | W Deportes en directo" />
+    <meta name="description" content="Escucha en directo la emisi&#243;n  de Wdeportes a trav&#233;s de la radio online." />
+    <meta name="DC.title" lang="es" content="En Vivo| W Deportes en directo" />
+    <meta name="DC.publisher" content="W Deportes" />
+    <meta name="DC.description" lang="es" content="Escucha en directo la emisi&#243;n  de Wdeportes a trav&#233;s de la radio online." />
+    <meta name="DC.subject" lang="es" content="W Deportes,en directo,radio,online" />
+    <meta name="DC.language" scheme="RFC1766" content="es" />
+    <meta name="fb:app_id" property="fb:app_id" content="0a14cadd17a5ffb0dad59c031f19a8ac" />
+    <meta name="og:url" property="og:url" content="http://play.wdeportes.com/" />
+    <meta name="og:type" property="og:type" content="website" />
+    <meta name="og:title" property="og:title" content="En Vivo| W Deportes en directo" />
+    <meta name="og:description" property="og:description" content="Escucha en directo la emisi&#243;n  de Wdeportes a trav&#233;s de la radio online." />
+    <meta name="og:site_name" property="og:site_name" content="W Deportes" />
+    <meta name="og:image" property="og:image" content="http://www.wradio.com.co/img/logowradio.png" />
+    <meta name="article:publisher" property="article:publisher" content="https://www.facebook.com/DeportesWRADIO/" />
+    <meta name="og:locale" property="og:locale" content="es_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="deportesWRadio" />
+    <meta name="twitter:title" content="En Vivo| W Deportes en directo" />
+    <meta name="twitter:description" content="Escucha en directo la emisi&#243;n  de Wdeportes a trav&#233;s de la radio online." />
+    <meta name="twitter:image" content="http://www.wradio.com.co/img/logowradio.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="/bundles/playserweb/img/favicon.ico" />
+    <link rel="canonical" href="http://play.wdeportes.com/" /> 
+
+    <link rel="stylesheet" href="/Content/themes/site/acefe32.css" />
+
+
+
+    <script type="text/javascript">
+
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var PLAYER_SER = {
+            'player': '',
+            'index_url': '/',
+            'autoplay': function () {
+                var autoplay = getParameterByName("autoplay") || "";
+                return (autoplay == 'true');
+            },
+            'alternativa': function () {
+                return '';
+            },
+            'emisora': function () {
+                return ''.trim();
+            },
+            'idMedia': function () {
+                return ''.trim();
+            },
+            'domain': 'http://play.wdeportes.com/'.trim()
+
+        };
+    </script>
+
+    <!-- =====================.CAPA MARCACION DAX ==========-->
+    <!-- se invoca el script para streamsense -->
+    <script language="javascript" type="text/javascript" src="http://cr00.epimg.net/js/comun/dax/softclick.min.js"></script>
+    <script language="javascript" type="text/javascript" src="http://cr00.epimg.net/js/comun/dax/streamsense.min.js"></script>
+    <script language="javascript" type="text/javascript">
+        // lo inicializo. En comun.js disparo los eventos a la vez que voy creando los disparadores del player.
+        var idDAX = "6906622";
+        var streamSense = new ns_.StreamSense({}, 'http://b.scorecardresearch.com/p?c1=2&c2=' + idDAX);
+        streamSense.setLabel("ns_st_mp", "PlayerPep");
+        streamSense.setLabel("ns_st_mv", "0.67");
+        var nombrePaylist = "";
+        function MarcarStreamSense_DAX(tipo, position) {
+            var evType;
+            switch (tipo) {
+                case 0: // llenado de buffer
+                    evType = ns_.StreamSense.PlayerEvents.BUFFER;
+                    break;
+                case 1: // pausa
+                    evType = ns_.StreamSense.PlayerEvents.PAUSE;
+                    break;
+                case 2: // play (al comienzo o luego de una pausa)
+                    evType = ns_.StreamSense.PlayerEvents.PLAY;
+                    break;
+                case 3: // fin
+                    evType = ns_.StreamSense.PlayerEvents.END;
+                    break;
+            }
+            streamSense.notify(evType, {}, position);
+        }
+        // al iniciar una nueva reproducci?n debo finalizar la anterior.
+        // por definici?n en StreamSense, cada cancion o video es un playlist compuesto por sus pre-rolls, la pieza y el post-roll
+        function marcarPlaylist(nombreLista) {
+            if (nombrePlaylist != "") {
+                detenerPlaylist();
+                nombrePlaylist = "";
+            }
+            streamSense.setPlaylist({ ns_st_pl: nombreLista });
+        }
+        // informa que el playlist se detiene
+        function detenerPlaylist(nombreLista) {
+            var position = 0;
+            streamSense.notify(ns_.StreamSense.PlayerEvents.END, { ns_st_pe: 1 }, position);
+        }
+    </script>
+    <!-- =====================.FIN CAPA MARCACION DAX ==========-->
+
+    
+    <script src="/bundles/TopBundle?v=ZhhF0NdNUbjimynBanlxnlh3Yr6t_q4VmERzU3L_jDg1"></script>
+
+    <!-- Begin comScore Inline Tag 1.1302.13 -->
+    <script>
+        function udm_(e) { var t = "comScore=", n = document, r = n.cookie, i = "", s = "indexOf", o = "substring", u = "length", a = 2048, f, l = "&ns_", c = "&", h, p, d, v, m = window, g = m.encodeURIComponent || escape; if (r[s](t) + 1) for (d = 0, p = r.split(";"), v = p[u]; d < v; d++) h = p[d][s](t), h + 1 && (i = c + unescape(p[d][o](h + t[u]))); e += l + "_t=" + +(new Date) + l + "c=" + (n.characterSet || n.defaultCharset || "") + "&c8=" + g(n.title) + i + "&c7=" + g(n.URL) + "&c9=" + g(n.referrer), e[u] > a && e[s](c) > 0 && (f = e[o](0, a - 8).lastIndexOf(c), e = (e[o](0, f) + l + "cut=" + g(e[o](f + 1)))[o](0, a)), n.images ? (h = new Image, m.ns_p || (ns_p = h), h.src = e) : n.write("<", "p", "><", 'img src="', e, '" height="1" width="1" alt="*"', "><", "/p", ">") };
+    </script>
+    <!-- Begin comScore Inline Tag 1.1302.13 -->
+
+
+    <script type="text/javascript">
+
+        /*$( "#alacarta" ).click(function() {
+            $( ".directos-simple" ).css("display","none");
+            $( ".header-buscador" ).css("display","block");
+            $(".activo").removeClass("activo");
+            $("#alacarta").addClass("activo");
+        });*/
+        /* $( "#directo" ).click(function() {
+             //$( ".header-buscador" ).css("display","none");
+             //$( ".directos-simple" ).css("display","block");
+             $(".activo").removeClass("activo");
+             $("#directo").addClass("activo");
+         });     */
+        /*$( "#parrilla" ).click(function() {
+            $(".activo").removeClass("activo");
+            $("#parrilla").addClass("activo");
+        });*/
+        $(document).ready(function () {
+            var title = $('#doblecol').attr('data-title');
+            //Si es la portada el title ya se cambió con el marcado
+            if (title != 'undefined' && document.location.pathname != '/') {
+                document.title = title;
+            }
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="player-adds-bg" class="telon" style="visibility: hidden">
+        <div class="preroll">
+            <div id="player-ads" style='width:100%;height:100%; position:absolute; top:0; z-index:10000'></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="wrapper">
+
+        <div class="cabecera ">
+            <div id="index-cser_gpt-INTER" style="height:0px;"></div>
+            <div id="index-cser_gpt-SKIN"></div>
+            <div class="envoltorio_publi">
+                <div class="publi_luto_vertical" id="index-cser_gpt-LDB1"></div>
+				<div class="publi_luto_vertical" id="index-cser_gpt-MLDB1"></div>
+            </div>
+            <div class="cabecera">
+                <div class="inner">
+                    <a data-function="onSelectDirecto" data-ajax="global" href="/" class="logo" title="A la Carta" alt="A la Carta"></a>
+                    <ul class="aux">
+                        <li>
+                            <a data-ajax="global"
+                               href="/buscador/" title="Buscador"><span class="icon-lupa"></span></a>
+                        </li>
+                    </ul>
+                    <div class="nav-wrapper">
+                        <button class="menu" data-function="toggleNav"><span class="icon-menu"></span></button>
+                        <ul class="nav" id="main_navigation">
+                            <!--
+                            <li><a href='#' id="loadModalEmisoraId" data-toggle="modalOwn" data-remove="true" data-url="/ajax/emisoraseleccion.default" title="En directo" data-target="#doblecol">en directo</a></li>
+                            <li><a class="menuitem directo" href='#' id="loadModalEmisoraId"  data-toggle="modalOwn" data-remove="true" data-url="/ajax/emisoraseleccion.default">Directo</a></li>-->
+
+                            <li id="directo" class="activo">
+                                <a data-ajax="global" data-function="onSelectDirecto"
+                                   href="/" title="Directo">
+                                    En directo
+                                </a>
+                            </li>
+                            
+                            <li id="parrilla">
+                                <a data-ajax="global" data-function="onSelectParrilla"
+                                   href="/parrilla/" title="Parrilla">
+                                    Parrilla
+                                </a>
+                            </li>
+                           
+                            <li class="cadenaser">
+                                <a target="_blank" href="http://www.wdeportes.com/" alt="W Deportes" title="W Deportes"><span class="icon-flecha-right-bold"></span>W Deportes</a>
+                            </li>
+                           
+                           
+                            <li class="redes">
+                                <span>S&Iacute;GANOS:</span>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/DeportesWRADIO/"
+                                           title="Facebook de W Deportes" target="_blank">
+                                            <span class="icon-facebook"></span>
+                                        </a>
+                                    </li>
+                                                                        <li><a href="http://twitter.com/deportesWRadio" title="Twitter de W Deportes" target="_blank"><span class="icon-twitter"></span></a></li>
+                                                                        <li><a href="https://www.youtube.com/channel/UCwy3Pdzk6RMLtejVuz1tI6w" title="Canal de YouTube de W Deportes" target="_blank"><span class="icon-youtube"></span></a></li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				
+				
+						
+						
+						
+            </div>
+
+        </div>
+
+
+
+
+        <div id="main_container" class="contenedor cf">
+
+
+            
+
+
+
+<div class="comentarios-directos" data-url="/ajax/directos">
+    <div class="directos-simple">
+        <div class="directo-principal">
+            
+            <img src="http://www.wdeportes.com/dmz/programas/imagenes/500x500_3366674.png" alt="La Hora Nacional" class="img" onerror="$(this).hide();"/>
+            <div class="text">
+                <div class="alto_maximo">
+                    <span class="cintillo">ahora en DIRECTO</span>
+
+                    
+                    <a data-ajax="global" data-hash="#seccion"
+                       data-target="#doblecol"
+                       class="programa" title="Todos los audios de  La Hora Nacional">
+                        La Hora Nacional
+                    </a>
+
+                    <span class="presentador"></span>
+
+                    
+                </div>
+                <div class="btn btn-primary btnlistener">
+                    <a class="play" title="Escucha La Hora Nacional en directo" data-player-idmedia="wdeportes" data-player-mediatype="audio">
+                        <span class="btn-text">Escuchar ahora</span>
+                        <span class="icon-equalizer"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cf  p_en-directo "
+     id="doblecol"
+     data-content="document" data-publi-op="&#x7B;&quot;detalle&quot;&#x3A;&quot;&quot;&#x7D;"
+     data-title="En Vivo | W Deportes en directo">
+
+    <div class="main">
+
+        <div class="sin-comentarios">
+            <h2>&Uacute;ltimos Audios</h2>
+            <div class="contenido">
+
+
+<div id="conteiner_ajax_audios_programa" class="reproducciones">
+    
+        <ol class="listado">
+
+<li>
+    <a class="programa"
+       href="/audio/3866439/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Las Chatadas del &quot;Chato&quot; Ibarrar&#225;n
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            19-02-2019 | <em>07:02</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3866439/?titulo=las-chatadas-del-chato-ibarraran&ajax=global","hrefPretty":"\/audio\/3866439/?titulo=las-chatadas-del-chato-ibarraran"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3866439">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3863815/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Ra&#250;l Jim&#233;nez nunca jugar&#225; en las Chivas
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            13-02-2019 | <em>04:40</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3863815/?titulo=raul-jimenez-nunca-jugara-en-las-chivas&ajax=global","hrefPretty":"\/audio\/3863815/?titulo=raul-jimenez-nunca-jugara-en-las-chivas"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3863815">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3863597/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Ra&#250;l Jim&#233;nez nunca jugar&#225; en Chivas
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            13-02-2019 | <em>04:40</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3863597/?titulo=raul-jimenez-nunca-jugara-en-chivas&ajax=global","hrefPretty":"\/audio\/3863597/?titulo=raul-jimenez-nunca-jugara-en-chivas"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3863597">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3863306/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        El Am&#233;rica es el rival importante para Pumas: Santiago Ba&#241;os
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            12-02-2019 | <em>05:34</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3863306/?titulo=el-america-es-el-rival-importante-para-pumas-santiago-banos&ajax=global","hrefPretty":"\/audio\/3863306/?titulo=el-america-es-el-rival-importante-para-pumas-santiago-banos"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3863306">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3862999/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        &#161;Las Chatadas del Chato Ibarrar&#225;n!
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            12-02-2019 | <em>10:46</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3862999/?titulo=las-chatadas-del-chato-ibarraran&ajax=global","hrefPretty":"\/audio\/3862999/?titulo=las-chatadas-del-chato-ibarraran"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3862999">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3856762/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Las Chatadas del Chato Ibarrar&#225;n
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            29-01-2019 | <em>01:48</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3856762/?titulo=las-chatadas-del-chato-ibarraran&ajax=global","hrefPretty":"\/audio\/3856762/?titulo=las-chatadas-del-chato-ibarraran"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3856762">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3853571/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Las Chatadas del Chato Ibarrar&#225;n
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            22-01-2019 | <em>01:57</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3853571/?titulo=las-chatadas-del-chato-ibarraran&ajax=global","hrefPretty":"\/audio\/3853571/?titulo=las-chatadas-del-chato-ibarraran"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3853571">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3850490/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Las &quot;Chatadas&quot; del Chato Ibarrar&#225;n
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            15-01-2019 | <em>06:00</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3850490/?titulo=las-chatadas-del-chato-ibarraran&ajax=global","hrefPretty":"\/audio\/3850490/?titulo=las-chatadas-del-chato-ibarraran"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3850490">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3847193/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Las Chatadas del Chato Ibarrar&#225;n
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            08-01-2019 | <em>12:44</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3847193/?titulo=las-chatadas-del-chato-ibarraran&ajax=global","hrefPretty":"\/audio\/3847193/?titulo=las-chatadas-del-chato-ibarraran"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3847193">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>
+<li>
+    <a class="programa"
+       href="/audio/3833420/" data-player-mediatype="audio" data-ajax="global" data-target="#doblecol">
+        Las Chatadas del Chato Ibarrar&#225;n
+    </a>
+   
+    <span class="info">
+        <span class="presentador">W Deportes</span>
+        <span class="horario">
+            04-12-2018 | <em>02:09</em>
+            
+        </span>
+    </span>
+    
+    <div class="btn btnlistener">
+        <span class="txt">
+            <a data-preaction-do="redirect"
+               data-preaction-devices="{&quot;mobile&quot;:true,&quot;tablet&quot;:true}"
+               data-preaction-options='{"href":"\/audio\/3833420/?titulo=las-chatadas-del-chato-ibarraran&ajax=global","hrefPretty":"\/audio\/3833420/?titulo=las-chatadas-del-chato-ibarraran"}'
+               class="play"
+               data-player-action="playpause"
+               data-player-mediatype="audio"
+               data-player-idmedia="3833420">
+                Escuchar
+            </a>
+        </span>
+        <span class="icon-equalizer"></span>
+    </div>
+</li>            
+
+
+        </ol>
+    
+
+    <nav>
+        <a href="/ajax/ultimosaudiosemisora.default"></a>
+    </nav>
+</div>
+
+
+
+
+
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('#tabs').tabs()
+        </script>
+
+    </div>
+    <div class="sidebar">
+        <div class="envoltorio_publi">
+            <div class="publi_luto_horizontal" id="index-cser_gpt-MPU1desktop"></div>
+			<div class="publi_luto_horizontal" id="index-cser_gpt-MPU1mobile"></div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+        </div>
+
+
+
+
+
+            <div class="pie">
+                <div class="envoltorio_publi">
+                    <div class="publi_luto_vertical" id="index-cser_gpt-LDB2"></div>
+					<div class="publi_luto_vertical" id="index-cser_gpt-MLDB2"></div>
+                </div><div class="inner">
+                    <a href="http://www.wdeportes.com/" title="W Deportes" class="logo">W Deportes</a>
+                </div>
+                <div class="player-wrapper">
+                    <button class="switch" data-function="togglePlayer">
+                        <div class="ico_sonido on">
+                            <!-- animacion player on - puede ser on o off/nada -->
+                            <div class="mitad">
+                                <div class="barra b_1"></div>
+                                <div class="barra b_2"></div>
+                                <div class="barra b_3"></div>
+                                <div class="barra b_4"></div>
+                                <div class="barra b_5"></div>
+                                <div class="barra b_6"></div>
+                            </div>
+                            <div class="mitad inverso">
+                                <div class="barra b_1"></div>
+                                <div class="barra b_2"></div>
+                                <div class="barra b_3"></div>
+                                <div class="barra b_4"></div>
+                                <div class="barra b_5"></div>
+                                <div class="barra b_6"></div>
+                            </div>
+                        </div><!-- === .ico_sonido === -->
+                        <span class="icon-flecha-down"></span>
+                        <span class="icon-flecha-up"></span>
+                    </button>
+
+                    <div id="topPlayer">
+                        <div id="containerDirectos" data-load-emisora-change="true" data-url="/ajax/playerdirecto" data-load-first="true" data-load-time="60" data-load-query-selectors="&#x7B;&quot;from&quot;&#x3A;&#x5B;&quot;.containerAlternativos&quot;,&quot;.dummyx&quot;,&quot;.playerDirecto&quot;,&quot;&#x23;scriptPlayerDirecto&quot;&#x5D;,&quot;to&quot;&#x3A;&#x5B;&quot;.containerAlternativos&quot;,&quot;.dummyx&quot;,&quot;.playerDirecto&quot;,&quot;&#x23;scriptPlayerDirecto&quot;&#x5D;&#x7D;">
+
+                            <div class="directos">
+                                <div class="playerDirecto">
+                                    <div id="topui_container" data-toggle="playerpasivo" data-options-player='{"id_player":93,"dev":false,"media_type":"audio","id_cuenta":"wdeportes"}'></div>
+                                </div>
+                            </div>
+                            <script id="scriptPlayerDirecto"></script>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    <script type="text/javascript">
+        _satellite.pageBottom();
+    </script>
+</body>
+</html>

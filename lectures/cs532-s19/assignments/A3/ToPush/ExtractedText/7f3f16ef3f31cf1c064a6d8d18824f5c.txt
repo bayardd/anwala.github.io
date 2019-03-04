@@ -1,0 +1,20 @@
+Property
+You have cookies turned off
+To use this website, cookies must be enabled in your browser. To enable cookies, follow the instructions for your browser below.
+Facebook App: Open links in External Browser
+There is a specific issue with the Facebook in-app browser intermittently making requests to websites without cookies that had previously been set. This appears to be a defect in the browser which should be addressed soon. The simplest approach to avoid this problem is to continue to use the Facebook app but not use the in-app browser. This can be done through the following steps:
+Open the settings menu by clicking the hamburger menu in the top right
+Choose “App Settings” from the menu
+Turn on the option “Links Open Externally” (This will use the device’s default browser)
+Windows
+Enabling Cookies in Internet Explorer 9
+Open the Internet Browser
+Click Tools (or “gear” icon at top right hand corner) > Internet Options > Privacy > Advanced
+Check Override automatic cookie handling
+For First-party Cookies and Third-party Cookies click Accept
+Click OK and OK
+Enabling Cookies in Internet Explorer 10, 11
+Open the Internet Browser
+Click the Tools button, and then click Internet Options.
+Click the Privacy tab, and then, under Settings, move the slider to the bottom to allow all cookies, and then click OK.
+Click OK

@@ -1,0 +1,35 @@
+Lance Bellers - Fotolia
+Cloud data management, security top of mind for government
+Federal government data officers grapple with cloud data management, weighing lower cost and efficiencies against security threats and vendor lock-in.
+Share this item with your network:
+Dave Raffo
+Editorial Director
+WASHINGTON, D.C. -- With the government fully open again, its IT teams are back working on their data strategies for 2019. Issues at the top of the list include taking full advantage of the latest cloud technologies, better management and sharing of data, and keeping it all safe.
+Federal agency CIOs and other data officers discussed their agendas at Creating a Data Driven Government -- a one-day conference sponsored by data protection vendor Veritas -- here on Jan. 31. Some of the attendees looked forward to resuming operations after the 35-day partial federal government shutdown that ended Jan. 25.
+"Now that everyone's back from furlough, I'm antsy and ready to get going," said Maria Roat, CIO of the Small Business Administration (SBA). "I'm excited to have my team back."
+Cloud data management remains a big issue with government agencies, as with many enterprises. The federal government launched its Cloud First strategy in 2011 and renamed it Cloud Smart Strategy in 2018. Still, taking a smart approach to cloud data management takes a lot of planning. And with all the talk about cloud repatriation these days, it's also important to plan how to move data out of the cloud.
+Cloud data management starts with a plan
+Getting data onto the cloud "is not that easy," Roat said. "There are a lot of moving pieces that need to happen before you have a data strategy." Moving more data and applications to the cloud doesn't mean you can ignore infrastructure. IT is still responsible for access to data, she said.
+"We've done a huge amount of work the last couple of years upgrading our infrastructure," Roat said. "You can put all the data you want in the cloud, but if you have a crappy network, you're not going to get anywhere."
+The SBA has built out its Ethernet network across the entire agency, setting the stage for software-defined WAN and other capabilities, she said.
+"As we're shutting down our data center, moving things to the cloud, people can access what they need from wherever they are, faster," Roat said. "I'm moving SANs [storage area networks] and storage to the cloud, but I have to make sure it's accessible."
+The cloud can help reduce and improve infrastructure, while allowing organizations to take advantage of artificial intelligence and machine learning , said Tony Peralta, who handles data architecture for the Bureau of the Fiscal Service at the Department of Treasury.
+"Separation of compute from storage is a benefit that can help you adjust the scale of your infrastructure to meet your needs," he said. "To leverage technologies like machine learning, you can feed into automated DevOps in your cloud to adjust your compute and storage to become more efficient."
+The Department of Energy put its first commodity workloads in the cloud last year and is now realizing the benefits, as well as the challenges.
+People say, 'We can just take all our data and dump it into a data lake. Problem solved.' Well, those data lakes quickly become stagnant ponds if you don't have the governances, if you haven't thought ahead and don't have all the pieces.
+Max EverettCIO, Department of Energy
+"We're a little behind the eight ball, but we're catching up quickly," said Max Everett, CIO for the Department of Energy. "I don't think you can talk about data management today without talking about the cloud. It's not the right thing in every case, but it's a great place to go for a lot of workloads."
+Everett cited cloud data management advantages, such as improved availability, disaster recovery and collaboration for a distributed workforce. But the cloud also brings problems, he said.
+"Interoperability, lock-in, [and] lack of off-ramping are all challenges you have to think of before you move to the cloud. Access and change control management become much more important," he said.
+There are also misconceptions about the ease of cloud data management that concern Everett.
+"People say, 'We can just take all our data and dump it into a data lake . Problem solved.' Well, those data lakes quickly become stagnant ponds if you don't have the governances, if you haven't thought ahead and don't have all the pieces," he said.
+Cloud data security a top concern
+Security needs to be considered ahead of time as part of hidden costs, because data in the cloud has become a target for enemies, said Donna Roy, executive director of the Information Sharing and Services Office for Department of Homeland Security.
+"Storage is cheap, and initially getting into the cloud is cheap, although getting out isn't cheap," Roy said. "Sometimes, you decide to push everything to the cloud and deal with it later. But dealing with it later is pushing your problems downstream.
+"The longer you keep things, the longer you extend your liability and expose your agency," Roy said. "While scalability and cost of the cloud have matured, guess who is discovering that this is a big threat? Our cyber adversaries. They now focus on dark data in the cloud, because they know it's a treasure trove."
+The Bureau of the Fiscal Service's Peralta said securing data in the cloud is what keeps him up at night.
+"The cyberthreat is always out there," he said. "We have to ensure we're protecting the information we are entrusted with. We have to make sure we have strong encryption policies and update them constantly in real time. We establish policies on what things should be accessed and what things should not be accessed.
+"It's also important to make sure when we move into a data lake construct, it doesn't become a data swamp. Tools for cataloging, metadata and classification are crucial," Peralta said.
+Dorothy Aronson, CIO of the National Science Foundation, said she loves the cloud because it removes a number of concerns, but data security isn't one of them.
+"We don't have to worry about compute power; we don't have to worry about where we're putting our data. That takes worries off the plate," Aronson said. "What worries me is the people -- the people who are travelling, the people who have to take responsibility for their data. Currency is our data. Getting people to think in those terms is the hardest part."
+Related Resources

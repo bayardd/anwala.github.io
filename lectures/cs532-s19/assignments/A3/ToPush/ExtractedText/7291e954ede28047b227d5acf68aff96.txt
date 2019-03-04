@@ -1,0 +1,8 @@
+Chuck Schumer Speech Against Illegal Immigration in 2009
+Feb 14, 2019
+Look at what Chuck Schumer had to say in 2009 about Illegal Immigration, and it might shock you!
+ 
+{"position1": {"catalog_type": "station", "description": "", "id": 2823, "name": "Newsradio 970 WFLA", "station": {"call_letters": "WFLA-AM", "countries": "US", "description": "Tampa Bay\u0027s News, Traffic, \u0026 Weather", "id": 2823, "name": "Newsradio 970 WFLA"}, "stations": [{"call_letters": "WFLA-AM", "countries": "US", "description": "Tampa Bay\u0027s News, Traffic, \u0026 Weather", "id": 2823, "name": "Newsradio 970 WFLA"}], "type": "catalog"}}
+AM Tampa Bay
+Weekday mornings on 970WFLA Read more
+Contact

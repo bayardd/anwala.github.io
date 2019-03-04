@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Better walking, biking, and transit for the five boroughs">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://nyc.streetsblog.org/xmlrpc.php">
+<title>Cuomo&#8217;s New L-Train Shutdown Plan Is Basically As Bad As We Expected &#8211; Streetsblog New York City</title>
+<link rel='dns-prefetch' href='//nyc.streetsblog.org' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Streetsblog New York City &raquo; Feed" href="https://nyc.streetsblog.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Streetsblog New York City &raquo; Comments Feed" href="https://nyc.streetsblog.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Streetsblog New York City &raquo; Cuomo&#8217;s New L-Train Shutdown Plan Is Basically As Bad As We Expected Comments Feed" href="https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/nyc.streetsblog.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-polls-css'  href='https://nyc.streetsblog.org/wp-content/plugins/wp-polls/polls-css.css?ver=2.73.7' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('https://nyc.streetsblog.org/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='aft-screen-css'  href='https://nyc.streetsblog.org/wp-content/themes/streetsblog/static/css/global.css?ver=1.0.26' type='text/css' media='all' />
+<link rel='stylesheet' id='aft-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%7CPT+Serif%3A400%2C700&#038;ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://nyc.streetsblog.org/wp-content/plugins/jetpack/css/jetpack.css?ver=5.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='//www.google-analytics.com/analytics.js?ver=1.0.26'></script>
+<link rel='https://api.w.org/' href='https://nyc.streetsblog.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nyc.streetsblog.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://nyc.streetsblog.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Want to Restore Transit Ridership? Just Make the Service Better!' href='https://usa.streetsblog.org/2019/02/13/how-can-transit-agencies-win-back-their-riders/' />
+<link rel='next' title='Thursday Headlines: So, a Pigeon Gets on a Bus Edition' href='https://nyc.streetsblog.org/2019/02/14/thursday-headlines-so-a-pigeon-gets-on-a-bus-edition/' />
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel="canonical" href="https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" />
+<link rel='shortlink' href='https://nyc.streetsblog.org/?p=425715' />
+<link rel="alternate" type="application/json+oembed" href="https://nyc.streetsblog.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnyc.streetsblog.org%2F2019%2F02%2F13%2Fcuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://nyc.streetsblog.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnyc.streetsblog.org%2F2019%2F02%2F13%2Fcuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cuomo&#8217;s New L-Train Shutdown Plan Is Basically As Bad As We Expected" />
+<meta property="og:url" content="https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" />
+<meta property="og:description" content="The MTA confirmed its service plans for the overnight and weekend work that will take the place of the canceled L-train shutdown — and they&#8217;re as bad as Streetsblog predicted." />
+<meta property="article:published_time" content="2019-02-13T18:42:28+00:00" />
+<meta property="article:modified_time" content="2019-02-14T16:13:30+00:00" />
+<meta property="og:site_name" content="Streetsblog New York City" />
+<meta property="og:image" content="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=640&amp;crop=0%2C0px%2C100%2C425px&amp;ssl=1" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="425" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:image" content="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=640&#038;crop=0%2C0px%2C100%2C425px&#038;ssl=1" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2016/12/streetsblog-favicon.png?w=16&#038;crop=0%2C0px%2C100%2C16px&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2016/12/streetsblog-favicon.png?w=16&#038;crop=0%2C0px%2C100%2C16px&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2016/12/streetsblog-favicon.png?w=16&#038;crop=0%2C0px%2C100%2C16px&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2016/12/streetsblog-favicon.png?w=16&#038;crop=0%2C0px%2C100%2C16px&#038;ssl=1" />
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+	googletag.cmd.push(function() {
+
+			googletag.pubads().setTargeting('domain', 'nyc.streetsblog.org');
+	
+		googletag.defineSlot('/2855024/article_leaderboard_320x50', [320, 50], 'div-gpt-ad-1483999641429-0').addService(googletag.pubads());
+		googletag.defineSlot('/2855024/article_leaderboard_728x90', [728, 90], 'div-gpt-ad-1483999641429-1').addService(googletag.pubads());
+		googletag.defineSlot('/2855024/homepage_300x250', [300, 250], 'div-gpt-ad-1483999641429-2').addService(googletag.pubads());
+		googletag.defineSlot('/2855024/sidebar_top_300x250', [300, 250], 'div-gpt-ad-1483999641429-3').addService(googletag.pubads());
+		googletag.defineSlot('/2855024/sidebar_middle_300x250_300x600', [[300, 600], [300, 250]], 'div-gpt-ad-1483999641429-4').addService(googletag.pubads());
+		googletag.defineSlot('/2855024/sidebar_bottom_300x600', [[300, 600], [300, 250]], 'div-gpt-ad-1483999641429-5').addService(googletag.pubads());
+		googletag.pubads().enableSingleRequest();
+		googletag.pubads().collapseEmptyDivs();
+		googletag.enableServices();
+	});
+</script>
+</head>
+
+<body class="post-template-default single single-post postid-425715 single-format-standard sidebar-on sticky-share sb-city">
+		<svg width="0" height="0" style="position:absolute"><symbol viewBox="0 0 16 11" id="caret-down"><title>Path</title><path stroke="#FFF" stroke-width="3" d="M2 1.74L8 8l6.52-6.26" fill="none" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 16 11" id="caret-down-orange"><title>Path</title><path stroke="#FFCC53" stroke-width="3" d="M2 1.74L8 8l6.52-6.26" fill="none" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 32 21.3" id="icon-hamburger"><path d="M0 21.3h32v-3.6H0v3.6zm0-8.8h32V8.9H0v3.6zM0 0v3.6h32V0H0zm0 0"/></symbol><symbol viewBox="-95 85 32 32" id="icon-search"><path d="M-63.7 112.1l-7.7-7.7c1.2-1.9 1.8-4.1 1.8-6.5 0-6.9-6-12.9-12.9-12.9S-95 90.6-95 97.5s6 12.9 12.9 12.9c2.3 0 4.5-.6 6.3-1.7l7.7 7.7c.8.8 2 .8 2.7 0l1.9-1.9c.8-.7.5-1.7-.2-2.4zm-27.4-14.6c0-4.8 3.9-8.7 8.7-8.7s9.1 4.3 9.1 9.1-3.9 8.7-8.7 8.7-9.1-4.3-9.1-9.1z"/></symbol></svg>	<div id="wrap-site" class="wrap-site">
+		
+<nav class="mobile-nav">
+	<div class="main-menu"><ul id="menu-mobile-menu" class="menu"><li id="menu-item-380038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380038"><a href="https://nyc.streetsblog.org/about/">About</a></li>
+<li id="menu-item-380040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380040"><a href="https://nyc.streetsblog.org/contact/">Contact Streetsblog NYC</a></li>
+<li id="menu-item-380036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380036"><a href="https://nyc.streetsblog.org/about/staff-board/">Staff &amp; Board</a></li>
+<li id="menu-item-380037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380037"><a href="https://nyc.streetsblog.org/about/our-funders/">Our Funders</a></li>
+<li id="menu-item-380058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380058"><a href="https://nyc.streetsblog.org/about/comment-moderation-policy/">Comment Moderation Policy</a></li>
+</ul></div>		<ul class="social-nav context-header">
+		<span>Follow Us:</span>
+									<li>
+					<a class="icon icon-facebook" target="_blank" href="https://facebook.com/Streetsblog-304063367547">
+						<span class="label">Facebook</span>
+					</a>
+				</li>
+												<li>
+					<a class="icon icon-twitter" target="_blank" href="https://twitter.com/StreetsblogNYC">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+						</ul>
+</nav>
+		<div id="page" class="hfeed site pushable">
+
+			<div class="ad-header-wrapper">
+			
+
+<div id="div-gpt-ad-1483999641429-1" style="width:728px;" class="block advertisement ad-728x90 ad-header">
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1483999641429-1'); });
+	</script>
+</div><!-- #ad-## -->
+
+			</div>
+
+			<header id="masthead" class="header-site" role="banner">
+				<div class="header-top">
+					<div class="header-top-wrap content-area">
+						<div class="logo-top">
+							<a href="https://nyc.streetsblog.org/" rel="home">
+								<svg xmlns="http://www.w3.org/2000/svg" width="365" height="41" viewBox="1 9 365 41"><title>Streetsblog Logo</title><g fill="none"><path d="M348.2 28.1L365.6 28.1 365.7 36C365.7 41.7 364.6 45.4 362.5 47 360.3 48.7 355.5 49.5 348.1 49.5 341.3 49.5 336.7 48.4 334.5 46.2 332.3 44 331.2 39.5 331.2 32.7 331.2 24.1 331.6 18.6 332.5 16.3 333.6 13.6 335.3 11.7 337.5 10.7 339.8 9.8 343.6 9.3 348.9 9.3 356 9.3 360.5 10 362.5 11.5 364.6 13 365.6 16.3 365.6 21.5L358 21.5C357.9 18.9 357.3 17.3 356.3 16.6 355.3 16 352.8 15.7 348.8 15.7 344.5 15.7 341.7 16.2 340.6 17.3 339.4 18.4 338.8 20.9 338.8 24.9L338.8 28.9 338.9 34C338.9 37.9 339.4 40.4 340.6 41.4 341.8 42.5 344.4 43.1 348.6 43.1 352.7 43.1 355.3 42.6 356.4 41.7 357.6 40.8 358.1 38.6 358.1 35.3L358.1 33.6 348.2 33.6 348.2 28.1 348.2 28.1ZM310.1 15.7C305 15.7 302.1 16.3 301.2 17.6 300.4 18.9 300 23.4 300 31.1 300 36.7 300.5 40.2 301.4 41.3 302.4 42.5 305.4 43.1 310.2 43.1 314.9 43.1 317.7 42.4 318.6 41.1 319.5 39.8 320 35.8 320 29.2 320 22.6 319.5 18.7 318.7 17.5 317.8 16.3 314.9 15.7 310.1 15.7L310.1 15.7 310.1 15.7ZM310.6 9.3C317.8 9.3 322.4 10.5 324.5 12.8 326.6 15.2 327.6 20.6 327.6 28.8 327.6 37.9 326.6 43.6 324.5 45.9 322.4 48.3 317.4 49.5 309.4 49.5 302.2 49.5 297.6 48.3 295.5 46 293.4 43.7 292.3 38.5 292.3 30.6 292.3 21.2 293.4 15.3 295.4 12.9 297.5 10.5 302.6 9.3 310.6 9.3L310.6 9.3 310.6 9.3ZM271.9 9.6L271.9 42.4 290.4 42.4 290.4 49.1 264.4 49.1 264.4 9.6 271.9 9.6 271.9 9.6ZM234.3 42.8L242.5 42.8 245.2 42.8C247.7 42.8 249.4 42.4 250.2 41.7 251 41 251.4 39.5 251.4 37.2 251.4 34.8 250.9 33.3 250.1 32.7 249.3 32 247.2 31.7 243.9 31.7L234.3 31.7 234.3 42.8 234.3 42.8ZM234.3 26.2L243.5 26.2C246.5 26.2 248.4 25.9 249.2 25.2 250 24.6 250.4 23.1 250.4 20.7 250.4 17.5 248.6 15.9 245 15.9L234.3 15.9 234.3 26.2 234.3 26.2ZM226.8 49.1L226.8 9.6 246.2 9.6C250.8 9.6 253.9 10.3 255.5 11.8 257.2 13.3 258 16 258 20 258 24.9 256.1 27.8 252.2 28.7L252.2 28.8C256.7 29.5 259 32.6 259 38.2 259 42.3 258.1 45.1 256.4 46.7 254.6 48.3 251.6 49.1 247.3 49.1L226.8 49.1 226.8 49.1Z" fill="#FFF"/><path d="M30.9 20.3L26.4 20.3C26.4 17.1 25.9 15.1 24.8 14.3 23.8 13.4 21.3 13 17.3 13 12.7 13 9.7 13.4 8.3 14.2 7 15 6.3 16.9 6.3 19.7 6.3 22.9 6.8 24.8 7.9 25.5 8.9 26.2 12.1 26.7 17.3 26.9 23.5 27.2 27.4 28 29.1 29.3 30.7 30.6 31.6 33.5 31.6 38 31.6 42.8 30.6 46 28.7 47.4 26.8 48.8 22.5 49.5 16 49.5 10.3 49.5 6.5 48.8 4.6 47.4 2.7 45.9 1.8 43 1.8 38.7L1.8 36.9 6.2 36.9 6.2 37.9C6.2 41.4 6.7 43.6 7.8 44.5 8.9 45.3 11.7 45.8 16.1 45.8 21.2 45.8 24.4 45.3 25.6 44.5 26.7 43.6 27.3 41.3 27.3 37.6 27.3 35.2 26.9 33.6 26.1 32.8 25.3 32 23.6 31.5 21.1 31.4L16.5 31.1 12.1 30.9C5.4 30.4 2 27 2 20.5 2 16 3 13 4.9 11.5 6.9 10 10.8 9.2 16.6 9.2 22.5 9.2 26.4 9.9 28.2 11.3 30 12.7 30.9 15.7 30.9 20.3L30.9 20.3 30.9 20.3ZM50.7 13.8L50.7 49.1 46.3 49.1 46.3 13.8 33.4 13.8 33.4 9.6 63.5 9.6 63.5 13.8 50.7 13.8 50.7 13.8ZM67.4 49.1L67.4 9.6 86.3 9.6C90.5 9.6 93.5 10.5 95.2 12.1 97 13.8 97.8 16.7 97.8 20.9 97.8 24.5 97.4 27.1 96.4 28.5 95.5 29.9 93.7 30.9 91 31.3L91 31.4C95.2 31.7 97.3 34.2 97.3 39L97.3 49.1 92.8 49.1 92.8 40C92.8 35.4 90.8 33.1 86.8 33.1L85.4 33.1 71.9 33.1 71.9 49.1 67.4 49.1 67.4 49.1ZM71.9 29.4L84.8 29.4C88.2 29.4 90.5 28.8 91.7 27.8 93 26.8 93.6 24.8 93.6 22 93.6 18.4 93.1 16.1 92.2 15 91.3 13.9 89.3 13.4 86.3 13.4L71.9 13.4 71.9 29.4 71.9 29.4ZM107.2 13.4L107.2 26.8 127.3 26.8 127.3 30.6 107.2 30.6 107.2 45.4 128.2 45.4 128.2 49.1 102.8 49.1 102.8 9.6 128.2 9.6 128.2 13.4 107.2 13.4 107.2 13.4ZM136.8 13.4L136.8 26.8 156.8 26.8 156.8 30.6 136.8 30.6 136.8 45.4 157.7 45.4 157.7 49.1 132.3 49.1 132.3 9.6 157.7 9.6 157.7 13.4 136.8 13.4 136.8 13.4ZM177.2 13.8L177.2 49.1 172.7 49.1 172.7 13.8 159.9 13.8 159.9 9.6 190 9.6 190 13.8 177.2 13.8 177.2 13.8ZM221 20.3L216.6 20.3C216.6 17.1 216.1 15.1 215 14.3 213.9 13.4 211.4 13 207.5 13 202.8 13 199.8 13.4 198.5 14.2 197.1 15 196.4 16.9 196.4 19.7 196.4 22.9 197 24.8 198 25.5 199.1 26.2 202.3 26.7 207.5 26.9 213.7 27.2 217.6 28 219.2 29.3 220.9 30.6 221.7 33.5 221.7 38 221.7 42.8 220.8 46 218.9 47.4 216.9 48.8 212.7 49.5 206.1 49.5 200.5 49.5 196.7 48.8 194.8 47.4 192.9 45.9 192 43 192 38.7L191.9 36.9 196.4 36.9 196.4 37.9C196.4 41.4 196.9 43.6 198 44.5 199.1 45.3 201.8 45.8 206.3 45.8 211.4 45.8 214.5 45.3 215.7 44.5 216.9 43.6 217.5 41.3 217.5 37.6 217.5 35.2 217.1 33.6 216.3 32.8 215.5 32 213.8 31.5 211.3 31.4L206.6 31.1 202.2 30.9C195.5 30.4 192.2 27 192.2 20.5 192.2 16 193.2 13 195.1 11.5 197.1 10 201 9.2 206.8 9.2 212.7 9.2 216.5 9.9 218.3 11.3 220.1 12.7 221 15.7 221 20.3L221 20.3 221 20.3Z" fill="#FFB600"/></g></svg>
+							</a>
+						</div>
+						<div class="header-top-items">
+							<ul id="header-top-menu" class="items-header-top-nav">
+	<div class="select-dropdown">
+		<select name="streetsblog-cities" onchange="location = this.value;" class="header-dropdown">
+				<option selected>OUR SITES</option>
+										<option value="http://www.streetsblog.org">HOME</option>
+										<option value="http://usa.streetsblog.org">USA</option>
+										<option value="http://nyc.streetsblog.org">NYC</option>
+										<option value="http://la.streetsblog.org">LA</option>
+										<option value="http://chi.streetsblog.org">CHI</option>
+										<option value="http://sf.streetsblog.org">SF</option>
+										<option value="http://denver.streetsblog.org">DEN</option>
+										<option value="http://cal.streetsblog.org">CAL</option>
+										<option value="http://tex.streetsblog.org">TEX</option>
+						</select>
+	</div>
+	<li>
+		<ul class="menu-city">
+							<li class="menu-item site-home">
+					<a href="http://www.streetsblog.org">HOME</a>
+				</li>
+							<li class="menu-item site-usa">
+					<a href="http://usa.streetsblog.org">USA</a>
+				</li>
+							<li class="menu-item site-nyc current-site">
+					<a href="http://nyc.streetsblog.org">NYC</a>
+				</li>
+							<li class="menu-item site-la">
+					<a href="http://la.streetsblog.org">LA</a>
+				</li>
+							<li class="menu-item site-chi">
+					<a href="http://chi.streetsblog.org">CHI</a>
+				</li>
+							<li class="menu-item site-sf">
+					<a href="http://sf.streetsblog.org">SF</a>
+				</li>
+							<li class="menu-item site-den">
+					<a href="http://denver.streetsblog.org">DEN</a>
+				</li>
+							<li class="menu-item site-cal">
+					<a href="http://cal.streetsblog.org">CAL</a>
+				</li>
+							<li class="menu-item site-tex">
+					<a href="http://tex.streetsblog.org">TEX</a>
+				</li>
+					</ul>
+	</li>
+	<li>
+		<ul class="menu-items">
+			<li class="menu-item">
+				<a href="http://www.streetfilms.org/">STREET<strong>FILMS</strong></a>
+			</li>
+							<li class="menu-item">
+					<a href="https://openplans.secure.force.com/pmtx/cmpgn__Donations?id=701A0000000k5fe" class="donate">DONATE</a>
+				</li>
+					</ul>
+	</li>
+</ul>
+							<button class="search-button-top">
+								<svg>
+									<use xlink:href="#icon-search">
+								</svg>
+							</button>
+							<div class="header-top-search">
+								<form role="search" method="get" class="search-form-body" action="https://nyc.streetsblog.org/">
+									<input type="search" class="search-field" placeholder="Search" value="" name="s" />
+									<button class="search-button">SEARCH</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-primary">
+					<div class="header-items content-area">
+
+						<div class="branding">
+														<div class="title-site">
+								<a href="https://nyc.streetsblog.org/" rel="home">
+									<svg width="493" height="41" viewBox="0 0 493 41" xmlns="http://www.w3.org/2000/svg"><title>Streetsblog NYC Logo</title><g fill="none" fill-rule="evenodd"><path d="M29.9 11.3h-4.5c0-3.2-.5-5.2-1.6-6-1-.9-3.5-1.3-7.5-1.3-4.6 0-7.6.4-9 1.2-1.3.8-2 2.7-2 5.5 0 3.2.5 5.1 1.6 5.8 1 .7 4.2 1.2 9.4 1.4 6.2.3 10.1 1.1 11.8 2.4 1.6 1.3 2.5 4.2 2.5 8.7 0 4.8-1 8-2.9 9.4-1.9 1.4-6.2 2.1-12.7 2.1-5.7 0-9.5-.7-11.4-2.1C1.7 36.9.8 34 .8 29.7v-1.8h4.4v1c0 3.5.5 5.7 1.6 6.6 1.1.8 3.9 1.3 8.3 1.3 5.1 0 8.3-.5 9.5-1.3 1.1-.9 1.7-3.2 1.7-6.9 0-2.4-.4-4-1.2-4.8-.8-.8-2.5-1.3-5-1.4l-4.6-.3-4.4-.2C4.4 21.4 1 18 1 11.5 1 7 2 4 3.9 2.5 5.9 1 9.8.2 15.6.2c5.9 0 9.8.7 11.6 2.1 1.8 1.4 2.7 4.4 2.7 9zm19.8-6.5v35.3h-4.4V4.8H32.4V.6h30.1v4.2H49.7zm16.7 35.3V.6h18.9c4.2 0 7.2.9 8.9 2.5 1.8 1.7 2.6 4.6 2.6 8.8 0 3.6-.4 6.2-1.4 7.6-.9 1.4-2.7 2.4-5.4 2.8v.1c4.2.3 6.3 2.8 6.3 7.6v10.1h-4.5V31c0-4.6-2-6.9-6-6.9H70.9v16h-4.5zm4.5-19.7h12.9c3.4 0 5.7-.6 6.9-1.6 1.3-1 1.9-3 1.9-5.8 0-3.6-.5-5.9-1.4-7-.9-1.1-2.9-1.6-5.9-1.6H70.9v16zm35.3-16v13.4h20.1v3.8h-20.1v14.8h21v3.7h-25.4V.6h25.4v3.8h-21zm29.6 0v13.4h20v3.8h-20v14.8h20.9v3.7h-25.4V.6h25.4v3.8h-20.9zm40.4.4v35.3h-4.5V4.8h-12.8V.6H189v4.2h-12.8zm43.8 6.5h-4.4c0-3.2-.5-5.2-1.6-6-1.1-.9-3.6-1.3-7.5-1.3-4.7 0-7.7.4-9 1.2-1.4.8-2.1 2.7-2.1 5.5 0 3.2.6 5.1 1.6 5.8 1.1.7 4.3 1.2 9.5 1.4 6.2.3 10.1 1.1 11.7 2.4 1.7 1.3 2.5 4.2 2.5 8.7 0 4.8-.9 8-2.8 9.4-2 1.4-6.2 2.1-12.8 2.1-5.6 0-9.4-.7-11.3-2.1-1.9-1.5-2.8-4.4-2.8-8.7l-.1-1.8h4.5v1c0 3.5.5 5.7 1.6 6.6 1.1.8 3.8 1.3 8.3 1.3 5.1 0 8.2-.5 9.4-1.3 1.2-.9 1.8-3.2 1.8-6.9 0-2.4-.4-4-1.2-4.8-.8-.8-2.5-1.3-5-1.4l-4.7-.3-4.4-.2c-6.7-.5-10-3.9-10-10.4 0-4.5 1-7.5 2.9-9 2-1.5 5.9-2.3 11.7-2.3 5.9 0 9.7.7 11.5 2.1 1.8 1.4 2.7 4.4 2.7 9zm5.8 28.8V.6h19.4c4.6 0 7.7.7 9.3 2.2C256.2 4.3 257 7 257 11c0 4.9-1.9 7.8-5.8 8.7v.1c4.5.7 6.8 3.8 6.8 9.4 0 4.1-.9 6.9-2.6 8.5-1.8 1.6-4.8 2.4-9.1 2.4h-20.5zm7.5-22.9h9.2c3 0 4.9-.3 5.7-1 .8-.6 1.2-2.1 1.2-4.5 0-3.2-1.8-4.8-5.4-4.8h-10.7v10.3zm0 16.6H244.2c2.5 0 4.2-.4 5-1.1.8-.7 1.2-2.2 1.2-4.5 0-2.4-.5-3.9-1.3-4.5-.8-.7-2.9-1-6.2-1h-9.6v11.1zm37.6-.4h18.5v6.7h-26V.6h7.5v32.8zM309.6.3c7.2 0 11.8 1.2 13.9 3.5 2.1 2.4 3.1 7.8 3.1 16 0 9.1-1 14.8-3.1 17.1-2.1 2.4-7.1 3.6-15.1 3.6-7.2 0-11.8-1.2-13.9-3.5-2.1-2.3-3.2-7.5-3.2-15.4 0-9.4 1.1-15.3 3.1-17.7 2.1-2.4 7.2-3.6 15.2-3.6zm-.5 6.4c-5.1 0-8 .6-8.9 1.9-.8 1.3-1.2 5.8-1.2 13.5 0 5.6.5 9.1 1.4 10.2 1 1.2 4 1.8 8.8 1.8 4.7 0 7.5-.7 8.4-2 .9-1.3 1.4-5.3 1.4-11.9 0-6.6-.5-10.5-1.3-11.7-.9-1.2-3.8-1.8-8.6-1.8zm38.1 12.4h17.4l.1 7.9c0 5.7-1.1 9.4-3.2 11-2.2 1.7-7 2.5-14.4 2.5-6.8 0-11.4-1.1-13.6-3.3-2.2-2.2-3.3-6.7-3.3-13.5 0-8.6.4-14.1 1.3-16.4 1.1-2.7 2.8-4.6 5-5.6 2.3-.9 6.1-1.4 11.4-1.4 7.1 0 11.6.7 13.6 2.2 2.1 1.5 3.1 4.8 3.1 10H357c-.1-2.6-.7-4.2-1.7-4.9-1-.6-3.5-.9-7.5-.9-4.3 0-7.1.5-8.2 1.6-1.2 1.1-1.8 3.6-1.8 7.6v4l.1 5.1c0 3.9.5 6.4 1.7 7.4 1.2 1.1 3.8 1.7 8 1.7 4.1 0 6.7-.5 7.8-1.4 1.2-.9 1.7-3.1 1.7-6.4v-1.7h-9.9v-5.5z" fill="#393938"/><path d="M417.958 1.076V40.4H405.31l-11.235-21.578c-.557-1.075-1.43-2.957-2.62-5.646l-1.27-2.823-1.238-2.824h-.288l.114 2.592.087 2.564.058 5.157V40.4h-7.46V1.076h12.646l10.227 19.936c.904 1.767 1.95 3.908 3.14 6.424l1.5 3.198 1.497 3.226h.26l-.087-2.535-.086-2.535-.058-5.07V1.076h7.462zm39.496 0L442.877 25.39V40.4h-7.46V25.39L421.24 1.077h8.642l5.935 10.37c.325.578.882 1.643 1.67 3.2l.835 1.584.807 1.584h.2l.837-1.584.834-1.585c.71-1.42 1.278-2.487 1.7-3.198l5.992-10.37h8.758zm27.57 25.294h7.49v1.354c0 5.474-1 9.013-2.996 10.616-1.997 1.604-6.415 2.406-13.252 2.406-7.76 0-12.532-1.268-14.318-3.803-1.786-2.535-2.68-9.315-2.68-20.34 0-6.49 1.21-10.76 3.63-12.804 2.42-2.047 7.482-3.07 15.183-3.07 5.61 0 9.354.84 11.236 2.52 1.883 1.682 2.824 5.02 2.824 10.012l.028.893h-7.49v-1.008c0-2.574-.485-4.22-1.455-4.94-.97-.72-3.183-1.08-6.64-1.08-4.63 0-7.41.566-8.34 1.7-.932 1.132-1.397 4.493-1.397 10.082 0 7.527.417 11.983 1.253 13.366.834 1.383 3.538 2.074 8.108 2.074 3.707 0 6.113-.384 7.217-1.152 1.104-.768 1.657-2.458 1.657-5.07l-.058-1.758z" fill="#FFF"/></g></svg>
+								</a>
+							</div>
+						</div>
+						<div class="header-bottom">
+							<div class="header-primary-nav">
+								<ul id="header-primary-menu" class="items-header-primary-nav"><li id="menu-item-406084" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-406084"><a href="https://nyc.streetsblog.org/category/special-reports/l-train-shutdown/">L Train Shutdown</a></li>
+<li id="menu-item-380051" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-380051"><a href="https://nyc.streetsblog.org/category/transit/">Transit</a></li>
+<li id="menu-item-380050" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-380050"><a href="https://nyc.streetsblog.org/category/bicycling/">Bicycling</a></li>
+<li id="menu-item-421251" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-421251"><a href="https://nyc.streetsblog.org/category/issues-campaigns/congestion-pricing/">Congestion Pricing</a></li>
+<li id="menu-item-380056" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380056"><a href="https://nyc.streetsblog.org/calendar/">Calendar</a></li>
+</ul>							</div>
+							<div class="header-right">
+									<ul class="social-nav context-header">
+		<span>Follow Us:</span>
+									<li>
+					<a class="icon icon-facebook" target="_blank" href="https://facebook.com/Streetsblog-304063367547">
+						<span class="label">Facebook</span>
+					</a>
+				</li>
+												<li>
+					<a class="icon icon-twitter" target="_blank" href="https://twitter.com/StreetsblogNYC">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+						</ul>
+								<button class="search-button-top-mobile">
+									<svg>
+										<use xlink:href="#icon-search">
+									</svg>
+								</button>
+								<div class="menu-toggle-container">
+									<button class="menu-toggle">
+										<svg>
+											<use xlink:href="#icon-hamburger">
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="header-top-search-mobile">
+					<form role="search" method="get" class="search-form-body" action="https://nyc.streetsblog.org/">
+						<input type="search" class="search-field" placeholder="Search" value="" name="s" />
+						<button class="search-button">SEARCH</button>
+					</form>
+				</div>
+
+			</header><!-- #masthead -->
+
+			
+
+<div id="div-gpt-ad-1483999641429-0" style="width:320px;" class="block advertisement ad-320x50 ad-header">
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1483999641429-0'); });
+	</script>
+</div><!-- #ad-## -->
+
+
+			<div id="content" class="content-site">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-425715" class="post-425715 post type-post status-publish format-standard has-post-thumbnail hentry category-andrew-cuomo category-l-train-shutdown category-mta category-transportation-alternatives tag-promoted">
+	<div class="article-content">
+		
+<div class="entry-header single-header">
+		<h1 class="entry-title">Cuomo&#8217;s New L-Train Shutdown Plan Is Basically As Bad As We Expected</h1>
+	<h3 class="entry-subtitle">Inter-borough bus service, HOV3 on the Williamsburg Bridge, and the 14th Street busway are all off the table.</h3>
+</div>
+		<header class="entry-meta">
+			<ul class="entry-meta__list">
+				<li>
+					<span class="byline-meta">By <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/dmeyer/">David Meyer</a></span></span>				</li>
+				<li>
+					<span class="post-date"><a href="https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" rel="bookmark"><time class="entry-date published" datetime="2019-02-13T13:42:28+00:00">Feb 13, 2019</time></a></span>
+				</li>
+				<li>
+					<a href="#comments" class="comments-link entry-comments-number">
+						<i class="icon-comment"></i> 8					</a>
+				</li>
+			</ul>
+					</header><!-- .entry-meta -->
+		<div class="article-featured-image">
+				<figure class="entry-figure standard">
+		<div class="entry-thumbnail">
+			
+			<picture id="picture-425725" class="size-single-featured " data-id=425725"><source srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=800&#038;ssl=1" media="(min-width: 80em)" /><source srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=664&#038;ssl=1" media="(min-width: 64em) and (max-width: 80em)" /><source srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=728&#038;ssl=1" media="(min-width: 48em) and (max-width: 64em)" /><source srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=800&#038;ssl=1" media="(min-width: 32em) and (max-width: 48em)" /><source srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=480&#038;ssl=1" media="(max-width: 32em)" /><img srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/canarsie-tubes.jpg?w=800&amp;ssl=1" alt="The Canarsie Tunnel, pictured in 2012 just after Hurricane Sandy flooded and damaged its foundation. Photo: Flickr/MTA" ></picture>		</div>
+					<figcaption>The Canarsie Tunnel, pictured in 2012 just after Hurricane Sandy flooded and damaged its foundation. Photo: <a href="https://flic.kr/p/drN44g">Flickr/MTA</a></figcaption>
+			</figure>
+		</div>
+
+		
+<ul id="share" class="share">
+	<div class="share-tools-wrapper">
+		<li class="share-facebook"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" class="icon-facebook"><span class="label">Facebook</span></a></li>
+		<li class="share-twitter"><a target="_blank" href="https://twitter.com/intent/tweet/?text=Cuomo%27s%20New%20L-Train%20Shutdown%20Plan%20Is%20Basically%20As%20Bad%20As%20We%20Expected&#038;url=https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/&#038;via=StreetsblogNYC" class="icon-twitter"><span class="label">Twitter</span></a></li>
+		<li class="share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" class="icon-googleplus"><span class="label">Google Plus</span></a></li>
+		<li class="share-email"><a href="mailto:?body=Cuomo%27s%20New%20L-Train%20Shutdown%20Plan%20Is%20Basically%20As%20Bad%20As%20We%20Expected%0A%0Ahttps%3A%2F%2Fnyc.streetsblog.org%2F2019%2F02%2F13%2Fcuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected%2F" class="icon-email"><span class="label">Email</span></a></li>
+		<li class="share-print"><a href="javascript:window.print()" class="icon-print"><span class="label">print</span></a></li>
+	</div>
+	<li class="share-trigger"><a href="#" class="icon-share"><span class="label">Share</span></a></li>
+</ul>
+
+		<div class="entry-content">
+			<p>The MTA confirmed on Wednesday that L-train repair work endorsed by Gov. Cuomo will cause serious disruptions — undermining the agency&#8217;s denials that had been exposed in <a href="https://nyc.streetsblog.org/2019/01/23/exclusive-cuomos-l-train-plan-still-has-lots-of-pain/">Streetsblog&#8217;s earlier scoop</a>.</p>
+<p>The city and MTA will nix the inter-borough shuttle buses and surface-level improvements such as the 14th Street busway and Williamsburg Bridge HOV3 restriction that had been created for the now-scrubbed 15-month complete shutdown. The L train will keep running all day and night between Manhattan and Brooklyn — as the governor demanded — but service will be greatly diminished on weeknight and weekends as the MTA works to repair Hurricane Sandy damage in the Canarsie tunnel.</p>
+<p>On weeknights, service between Manhattan and Brooklyn will begin to slow just after the evening rush, at 8 p.m. Headways will grow to every 20 minutes after 10 p.m. — the current arrangement between 1:30 and 5 a.m. Weekend service will be significantly diminished, with 20 minute headways — up from as little as four minutes now. Trains east of Lorimer Street in Brooklyn will run with 10-minute headways all weekend and after 8 p.m. on weeknights. There will be additional service on the G train, but the train lengths will not be expanded.</p>
+<p>MTA Managing Director Ronnie Hakim told reporters that the agency is currently convinced that more night-and-weekend mitigation isn&#8217;t necessary because other subway lines will be sufficient to replace enough L train trips. But the MTA may change the plan after upcoming public meetings.</p>
+<p class="p1">“This is not a final plan. This is the evolving proposal,&#8221; Hakim said, adding later, &#8220;We’re going to look to see just what is the demand. Our theme for our customers has been: If the L doesn’t work for you, please find other subway service.&#8221;</p>
+<figure id="attachment_385628" style="width: 357px" class="wp-caption alignleft"><a href="http://nyc.streetsblog.org/wp-content/uploads/2017/03/transitDemand_model.jpg"><img class="wp-image-385628 " sizes="(min-width: 80em) 312px,(min-width: 64em) and (max-width: 80em) 312px,(min-width: 48em) and (max-width: 64em) 312px,(min-width: 32em) and (max-width: 64em) 312px,(min-width: 32em) and (max-width: 48em) 312px,(max-width: 32em) 312px,(max-width: 48em) 312px,312px" srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2017/03/transitDemand_model.jpg?w=312&amp;crop=0%2C0px%2C100%2C351px 312w" alt="Where the MTA expected displaced L train riders to travel. The thicker the line, the more additional passengers during the L train shutdown. Graphic: MTA" width="357" height="402" /></a><figcaption class="wp-caption-text">Where the MTA expected displaced L train riders to travel during the now-canceled shutdown. The thicker the line, the more additional passengers during the L train shutdown. Graphic: MTA</figcaption></figure>
+<p>Only one bus service improvement is certain: Hakim said 14th Street buses will run every three minutes on weekends, up from the current range of four-and-a-half minutes to seven-and-a-half minutes between buses. But the previously planned dedicated busway is no longer in the works, and the launch of M14 Select Bus Service, originally scheduled for April, has been delayed.</p>
+<p>The MTA may add more nighttime bus service on 14th Street, but will not be providing shuttle buses between the boroughs.</p>
+<p>&#8220;At this point, we don&#8217;t anticipate closing 14th Street to vehicles, but we do anticipate working with NYPD in making our bus lanes &#8230; work as efficiently as possible,&#8221; Hakim told reporters.</p>
+<p>Hakim did not confirm whether stations at First and Third avenue will become &#8220;exit-only&#8221; due to large crowds that are expected to gather on the platforms because of the extended headways. She said only that the MTA &#8220;may&#8221; make those stations exit only.</p>
+<p>To avoid crowding at and around the Bedford Avenue station, the MTA may provide shuttle bus service linking the Bedford Avenue L stop; the Lorimer/Metropolitan stop on the L and G; and the Marcy Avenue station on the J and M lines.</p>
+<p>Wednesday&#8217;s announcement matches up more or less with documents leaked to <a href="https://nyc.streetsblog.org/2019/01/23/exclusive-cuomos-l-train-plan-still-has-lots-of-pain/">Streetsblog</a> and <a href="http://gothamist.com/2019/01/24/cuomo_plan_l_train_massive_crowding.php">Gothamist</a> three weeks ago. At the time, transit officials claimed Streetsblog&#8217;s reporting was &#8220;irresponsible&#8221; because it was based on &#8220;draft and outdated reports.&#8221; The agency claimed the story did a &#8220;disservice to New Yorkers and our customers who need reliable, official information.&#8221; Then the MTA failed to invite Streetsblog to the conference call that basically confirmed the very reporting that it had publicly disputed.</p>
+<p>Tunnel repairs will begin at the end of April, as previously planned. The MTA has yet to determine how long those repairs will take. L train ridership remains high well into the night and early morning. Huge headways are likely to result in severe over-crowding, which may cause wealthier riders to opt for for-hire vehicles.</p>
+<p>The MTA could not provide any information on potential negative impacts on surface-level traffic. Activists blasted the news.</p>
+<p class="p1">&#8220;It is all of the impact of the full shutdown with none of the alternatives,&#8221; said Transportation Alternatives North Brooklyn Chairman Philip Leff, whose group spent three years advocating for effective service mitigations. &#8220;This is a catastrophe for North Brooklyn. This just further extends the extent of the disruption, and is a complete lack of recognition that many people work in an economy that is not 9 to 5 on a Friday.”</p>
+<p>Transportation Alternatives was more succinct.</p>
+<p>“Mayor de Blasio’s new plan on 14th Street could be summarized in one sentence: &#8216;City to bus riders: drop dead,&#8217;” the group&#8217;s advocacy director Tom DeVito said.</p>
+<p>&#8220;The MTA is right to run buses as frequently as every three minutes along 14th Street when L train service is severely reduced,&#8221; he added. &#8220;But these buses will plod along at walking speed if they’re forced to share 14th Street with space-hogging cars. Currently the M14 bus, which runs along 14th Street in mixed traffic, is among the slowest in the whole city, traveling at an average speed of 4 mph.&#8221;</p>
+<p><strong>Update (5:31 p.m.):</strong> In a statement provided to Streetsblog, de Blasio spokesperson Eric Phillips said the future of the 14th Street busway, HOV3 restrictions, and other street redesigns tied to the L-train shutdown is as-yet-undetermined.</p>
+<p>&#8220;The Mayor hasn’t decided what to do with the city-controlled mitigation plans on the bridge and on 14th Street,&#8221; Phillips said. &#8220;As we learn more and more detail every day from the MTA about its closure of the L train, we’ll continue to design efforts and review existing plans to help affected riders.&#8221;</p>
+
+			
+			<div class="share-bottom">
+				
+<ul id="share" class="share">
+	<div class="share-tools-wrapper">
+		<li class="share-facebook"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" class="icon-facebook"><span class="label">Facebook</span></a></li>
+		<li class="share-twitter"><a target="_blank" href="https://twitter.com/intent/tweet/?text=Cuomo%27s%20New%20L-Train%20Shutdown%20Plan%20Is%20Basically%20As%20Bad%20As%20We%20Expected&#038;url=https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/&#038;via=StreetsblogNYC" class="icon-twitter"><span class="label">Twitter</span></a></li>
+		<li class="share-googleplus"><a target="_blank" href="https://plus.google.com/share?url=https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" class="icon-googleplus"><span class="label">Google Plus</span></a></li>
+		<li class="share-email"><a href="mailto:?body=Cuomo%27s%20New%20L-Train%20Shutdown%20Plan%20Is%20Basically%20As%20Bad%20As%20We%20Expected%0A%0Ahttps%3A%2F%2Fnyc.streetsblog.org%2F2019%2F02%2F13%2Fcuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected%2F" class="icon-email"><span class="label">Email</span></a></li>
+		<li class="share-print"><a href="javascript:window.print()" class="icon-print"><span class="label">print</span></a></li>
+	</div>
+	<li class="share-trigger"><a href="#" class="icon-share"><span class="label">Share</span></a></li>
+</ul>
+			</div>
+		</div><!-- .entry-content -->
+
+					<footer class="entry-tags">
+				<p>Filed Under: <a href="https://nyc.streetsblog.org/category/people/andrew-cuomo/" rel="category tag">Andrew Cuomo</a>, <a href="https://nyc.streetsblog.org/category/special-reports/l-train-shutdown/" rel="category tag">L Train Shutdown</a>, <a href="https://nyc.streetsblog.org/category/government-organizations/mta/" rel="category tag">MTA</a>, <a href="https://nyc.streetsblog.org/category/community-organizations/transportation-alternatives/" rel="category tag">Transportation Alternatives</a>, <a href="https://nyc.streetsblog.org/tag/promoted/" rel="tag">Promoted</a></p>
+			</footer>
+		
+		
+	</div>
+
+		<div id="secondary" class="sidebar widget-area" role="complementary">
+		
+		
+	<form id="signup-in-sidebar-newsletter" class="signup in-sidebar" action="##">
+		<input type="hidden" id="_wpnonce" name="_wpnonce" value="2600706115" /><input type="hidden" name="_wp_http_referer" value="/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" />		<label for="signup-in-sidebar-newsletter-email">Subscribe to our <span>Daily Email Digest</span></label>
+		<div class="newsletter-input-wrap">
+			<input type="email" id="signup-in-sidebar-newsletter-email" name="email" placeholder="Enter Email" value="" required>
+			<button class="submit">Sign Up</button>
+		</div>
+
+						<div class="signup-lists">
+															<input type="hidden" id="signup-in-sidebar-newsletterlist_2845be4371" name="list_2845be4371" value="1">
+													</div>
+
+		<div class="response error" style="display:none" role="alert"><ul></ul></div>
+		<div class="response success" style="display:none" role="alert"><ul></ul></div>
+	</form>
+
+		
+
+<div id="div-gpt-ad-1483999641429-3" style="width:300px;" class="block advertisement ad-300x250">
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1483999641429-3'); });
+	</script>
+</div><!-- #ad-## -->
+
+		
+<aside id="jobsboard" class="">
+			<h2>Recently Posted Jobs</h2>
+		<ul>
+					<li>
+									<a href="https://jobs.streetsblog.org/jobs/transportation-specialist-shared-micro-mobility/" class="link-title">
+								Transportation Specialist – Shared Micro-Mobility									</a>
+													<span class="job-posted">2 days ago</span>
+							</li>
+					<li>
+									<a href="https://jobs.streetsblog.org/jobs/events-and-programs-coordinator/" class="link-title">
+								Events and Programs Coordinator									</a>
+													<span class="job-posted">5 days ago</span>
+							</li>
+					<li>
+									<a href="https://jobs.streetsblog.org/jobs/streetopia-uws-coordinator-open-plans-new-york/" class="link-title">
+								Streetopia UWS Coordinator, Open Plans, New York									</a>
+													<span class="job-posted">1 week ago</span>
+							</li>
+					<li>
+									<a href="https://jobs.streetsblog.org/jobs/executive-director-transportation-alternatives/" class="link-title">
+								Executive Director, Transportation Alternatives									</a>
+													<span class="job-posted">2 weeks ago</span>
+							</li>
+					<li>
+									<a href="https://jobs.streetsblog.org/jobs/development-director-6/" class="link-title">
+								Development Director									</a>
+													<span class="job-posted">2 weeks ago</span>
+							</li>
+			</ul>
+	<div class="job-links">
+		<a href="http://jobs.streetsblog.org/submit/" class="events-submit-link">Post a Job</a>
+		<a href="http://jobs.streetsblog.org/" class="events-view-link">See More Jobs</a>
+	</div>
+</aside>
+		<aside id="recent-posts" class="cbc-post-list cbc-list-view sidebar-links inset-links recent-posts blockcontainer">
+			<h2>Most Recent</h2>
+		<ul>
+		
+<li class="cbc-post-list-item block cbc-post-block link-item post-426039 post type-post status-publish format-standard has-post-thumbnail hentry category-carnage category-nypd">
+					<a href="https://nyc.streetsblog.org/2019/02/24/cops-finally-arrest-driver-who-killed-delivery-worker-in-brooklyn-last-year/" title="Cops Finally Arrest Driver Who Killed Delivery Worker in Brooklyn Last Year" class="link-thumbnail">
+	<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/12/md-rajon.png?resize=400%2C225px&#038;ssl=1 400w,https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/12/md-rajon.png?resize=800%2C450px&#038;ssl=1 800w,https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/12/md-rajon.png?resize=480%2C270px&#038;ssl=1 480w" alt="Victim MD Rajon in a photo obtained by Channel 7 News." >		</a>
+				<a href="https://nyc.streetsblog.org/2019/02/24/cops-finally-arrest-driver-who-killed-delivery-worker-in-brooklyn-last-year/" title="Cops Finally Arrest Driver Who Killed Delivery Worker in Brooklyn Last Year" class="link-title">
+			Cops Finally Arrest Driver Who Killed Delivery Worker in Brooklyn Last Year		</a>
+	</li>
+
+<li class="cbc-post-list-item block cbc-post-block link-item post-425971 post type-post status-publish format-standard hentry category-todays-headlines">
+					<a href="https://nyc.streetsblog.org/2019/02/22/fridays-headlines-you-get-a-car-and-you-get-a-car-edition/" title="Friday&#8217;s Headlines: &#8216;You Get a Car, And You Get a Car&#8230;&#8217; Edition" class="link-title">
+			Friday&#8217;s Headlines: &#8216;You Get a Car, And You Get a Car&#8230;&#8217; Edition		</a>
+	</li>
+
+<li class="cbc-post-list-item block cbc-post-block link-item post-425900 post type-post status-publish format-standard has-post-thumbnail hentry category-election-2018 category-public-advocate tag-promoted">
+					<a href="https://nyc.streetsblog.org/2019/02/22/the-race-for-public-advocate-ten-candidates-address-street-safety-transit/" title="The Race for Public Advocate: Ten Candidates Address Street Safety, Transit" class="link-thumbnail">
+	<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i1.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/advocate-montage.jpg?resize=400%2C225px&#038;ssl=1 400w,https://i1.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/advocate-montage.jpg?resize=800%2C450px&#038;ssl=1 800w,https://i1.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/advocate-montage.jpg?resize=480%2C270px&#038;ssl=1 480w" alt="Meet your would-be Public Advocates: (top row from left) Jumaane Williams, Rafael Espinal, Nomiki Konst. (second row, from left) Melissa Mark-Viverito, Ydanis Rodriguez, Danny O&#039;Donnell. (bottom row from left) Michael Blake, Ron Kim, Dawn Smalls" >		</a>
+				<a href="https://nyc.streetsblog.org/2019/02/22/the-race-for-public-advocate-ten-candidates-address-street-safety-transit/" title="The Race for Public Advocate: Ten Candidates Address Street Safety, Transit" class="link-title">
+			The Race for Public Advocate: Ten Candidates Address Street Safety, Transit		</a>
+	</li>
+
+<li class="cbc-post-list-item block cbc-post-block link-item post-425936 post type-post status-publish format-standard has-post-thumbnail hentry category-bill-de-blasio category-dot category-nypd category-parking-placards category-traffic-enforcement tag-promoted">
+					<a href="https://nyc.streetsblog.org/2019/02/21/de-blasios-placard-crackdown-is-actually-more-parking-perks-for-cops/" title="De Blasio&#8217;s Placard &#8216;Crackdown&#8217; Is Actually More Parking Perks for Cops!" class="link-thumbnail">
+	<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/de-blasio-placard-announcement-feb-2019.jpg?resize=400%2C225px&#038;ssl=1 400w,https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/de-blasio-placard-announcement-feb-2019.jpg?resize=800%2C450px&#038;ssl=1 800w,https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/de-blasio-placard-announcement-feb-2019.jpg?resize=480%2C270px&#038;ssl=1 480w" alt="The mayor shows off a sample of new barcode-adorned placards being piloted by DOT. Photo: Michael Appleton/Mayoral Photography Office" >		</a>
+				<a href="https://nyc.streetsblog.org/2019/02/21/de-blasios-placard-crackdown-is-actually-more-parking-perks-for-cops/" title="De Blasio&#8217;s Placard &#8216;Crackdown&#8217; Is Actually More Parking Perks for Cops!" class="link-title">
+			De Blasio&#8217;s Placard &#8216;Crackdown&#8217; Is Actually <i>More</i> Parking Perks for Cops!		</a>
+	</li>
+
+<li class="cbc-post-list-item block cbc-post-block link-item post-425939 post type-post status-publish format-standard has-post-thumbnail hentry category-congestion-pricing category-david-weprin category-seniors category-subways tag-promoted">
+					<a href="https://nyc.streetsblog.org/2019/02/21/aarp-backs-congestion-pricing-defying-pols-who-claim-seniors-would-be-hurt-by-tolls/" title="[ROWBACK!] AARP Backs Congestion Pricing — Defying Pols Who Claim Seniors Would be Hurt By Tolls" class="link-thumbnail">
+	<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/widelo-2.jpg?resize=400%2C225px&#038;ssl=1 400w,https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/widelo-2.jpg?resize=800%2C450px&#038;ssl=1 800w,https://i2.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/02/widelo-2.jpg?resize=480%2C270px&#038;ssl=1 480w" alt="Chris Widelo, associate director of AARP New York City, says the senior lobbying group supports congestion pricing, even though opponents of congestion pricing often cite seniors as their reason for opposing tolls. Photo: Ben Verde" >		</a>
+				<a href="https://nyc.streetsblog.org/2019/02/21/aarp-backs-congestion-pricing-defying-pols-who-claim-seniors-would-be-hurt-by-tolls/" title="[ROWBACK!] AARP Backs Congestion Pricing — Defying Pols Who Claim Seniors Would be Hurt By Tolls" class="link-title">
+			[ROWBACK!] AARP Backs Congestion Pricing — Defying Pols Who Claim Seniors Would be Hurt By Tolls		</a>
+	</li>
+	</ul>
+</aside>
+		
+
+<div id="div-gpt-ad-1483999641429-4" style="width:300px;" class="block advertisement ad-300x250">
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1483999641429-4'); });
+	</script>
+</div><!-- #ad-## -->
+
+		
+
+<div id="div-gpt-ad-1483999641429-5" style="width:300px;" class="block advertisement ad-300x250">
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1483999641429-5'); });
+	</script>
+</div><!-- #ad-## -->
+
+	</div><!-- #secondary -->
+
+</article><!-- #post-## -->
+
+			
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-418530">
+        <div id="dsq-comment-header-418530" class="dsq-comment-header">
+            <cite id="dsq-cite-418530">
+                <span id="dsq-author-user-418530">Joe R.</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418530" class="dsq-comment-body">
+            <div id="dsq-comment-message-418530" class="dsq-comment-message"><p>This has all the makings of being a FUBAR situation.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-418533">
+        <div id="dsq-comment-header-418533" class="dsq-comment-header">
+            <cite id="dsq-cite-418533">
+                <span id="dsq-author-user-418533">r</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418533" class="dsq-comment-body">
+            <div id="dsq-comment-message-418533" class="dsq-comment-message"><p>Gonna be awesome when de Blasio is at some meeting in Iowa talking about what a good manager he is and meanwhile 14th Street is wall-to-wall traffic and honking.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-418534">
+        <div id="dsq-comment-header-418534" class="dsq-comment-header">
+            <cite id="dsq-cite-418534">
+                <span id="dsq-author-user-418534">BKbusrider</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418534" class="dsq-comment-body">
+            <div id="dsq-comment-message-418534" class="dsq-comment-message"><p><i>“At this point, we don’t anticipate closing 14th Street to vehicles, but we do anticipate working with NYPD in making our bus lanes … work as efficiently as possible,” Hakim told reporters.</i></p>
+<p>There’s only a few small stretches of red on 14th st now. Is that what NYPD is supposed to enforce or is DOT going to expand those before April?</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-418537">
+        <div id="dsq-comment-header-418537" class="dsq-comment-header">
+            <cite id="dsq-cite-418537">
+                <span id="dsq-author-user-418537">AMH</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418537" class="dsq-comment-body">
+            <div id="dsq-comment-message-418537" class="dsq-comment-message"><p>&#8220;Trains east of Lorimer Street in Brooklyn will run with 10-minute headways&#8230;&#8221;</p>
+<p>This sounds like every other inbound train will discharge at Lorimer, likely flooding the station with riders. I guess the idea is that people will head to the G rather than wait for the next L train that will continue to Manhattan. Or will they avoid getting on that train in the first place, and wait for a Manhattan-bound train that they won&#8217;t possibly be able to squeeze into? Or maybe so many will be scared away that crowding won&#8217;t be an issue.</p>
+<p>Yeah, this will definitely be a disaster.  I just hope no one gets killed.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-418593">
+        <div id="dsq-comment-header-418593" class="dsq-comment-header">
+            <cite id="dsq-cite-418593">
+                <span id="dsq-author-user-418593">Ishamgirl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418593" class="dsq-comment-body">
+            <div id="dsq-comment-message-418593" class="dsq-comment-message"><p>Still whining over this? Waahhhhhhhh&#8230;&#8230;&#8230;hopefully the majority of the population will move back to Ohio and take their funny accents with them.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-418628">
+        <div id="dsq-comment-header-418628" class="dsq-comment-header">
+            <cite id="dsq-cite-418628">
+                <a id="dsq-author-user-418628" href="http://techdrom.blogspot.com" target="_blank" rel="nofollow">danbrotherston</a>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418628" class="dsq-comment-body">
+            <div id="dsq-comment-message-418628" class="dsq-comment-message"><p>It&#8217;s amazing how politicians will try to move the earth and the sea to avoid the slightest restriction on cars.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-418667">
+        <div id="dsq-comment-header-418667" class="dsq-comment-header">
+            <cite id="dsq-cite-418667">
+                <a id="dsq-author-user-418667" href="https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEdMTDFTcGNRVUtHRlpqT1NkT2NFeXp2MTRiUVBIRS11VzJfOGU5MU5UUDZAFM3VZAY04yMk9wNnVzVXo0cUpzY0ZAtRHhtWk50SFBuOHI2ZAWxfV1IzN05MeU1OM2pWY3dmdwZDZD/" target="_blank" rel="nofollow">Chris O&#8217;Leary</a>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418667" class="dsq-comment-body">
+            <div id="dsq-comment-message-418667" class="dsq-comment-message"><p>I&#8217;m sure the people who live in East New York and Canarsie and rely on the L Train appreciate you painting them as whining transplants, troll.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-418720">
+        <div id="dsq-comment-header-418720" class="dsq-comment-header">
+            <cite id="dsq-cite-418720">
+                <a id="dsq-author-user-418720" href="http://www.chekpeds.com" target="_blank" rel="nofollow">CHEKPEDS</a>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-418720" class="dsq-comment-body">
+            <div id="dsq-comment-message-418720" class="dsq-comment-message"><p>Most absurd is the delay in implementation of an SBS on 14 th street end to end . This was slated for April, it is standard treatment and would allow camera enforcement .  DOT , Why not ?</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'https://nyc.streetsblog.org/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/';
+var disqus_identifier = '425715 http://nyc.streetsblog.org/?p=425715';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'streetsblognyc';
+var disqus_title = "Cuomo&#8217;s New L-Train Shutdown Plan Is Basically As Bad As We Expected";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=425715';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+
+		
+		<div class="network-stories-wrapper"><header class="post-list-header">
+			<h1 class="header-title">ALSO ON STREETSBLOG</h1>
+	
+	</header><!-- .page-header -->
+<div id="related-posts-footer" class="post-list grid-view related-posts related-posts-footer blockcontainer">
+	
+<article id="post-425140" class="post-list-item block post-block post-425140 post type-post status-publish format-standard has-post-thumbnail hentry category-andrew-cuomo category-l-train-shutdown category-mta category-subways">
+			<div class="entry-thumbnail">
+					<a href="https://nyc.streetsblog.org/2019/01/23/exclusive-cuomos-l-train-plan-still-has-lots-of-pain/">
+		<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i1.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/02/cuomo-at-2nd-ave-2016_3.png?resize=400%2C225px&#038;ssl=1 400w,https://i1.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/02/cuomo-at-2nd-ave-2016_3.png?resize=800%2C450px&#038;ssl=1 800w,https://i1.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/02/cuomo-at-2nd-ave-2016_3.png?resize=480%2C270px&#038;ssl=1 480w" alt="Andrew Cuomo Photo: Flickr/NYS Governor&#039;s Office" >			</a>
+			</div>
+		<div class="list-item-content-container">
+		<div class="list-item-content">
+			<header class="entry-header">
+																					<h2 class="entry-title"><a href="https://nyc.streetsblog.org/2019/01/23/exclusive-cuomos-l-train-plan-still-has-lots-of-pain/" rel="bookmark">EXCLUSIVE: Cuomo&#8217;s L Train Plan Still Has Lots of Pain [Updated]</a></h2>
+																	<span class="byline-meta">By <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/gkuntzman/">Gersh Kuntzman</a></span> and <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/dmeyer/">David Meyer</a></span></span>													<span class="sep"> | </span>
+													<span class="post-date"><a href="https://nyc.streetsblog.org/2019/01/23/exclusive-cuomos-l-train-plan-still-has-lots-of-pain/" rel="bookmark"><time class="entry-date published" datetime="2019-01-23T16:54:07+00:00">Jan 23, 2019</time></a></span>
+							</header><!-- .entry-header -->
+							<div class="entry-excerpt">
+					Exit-only stations, massive crowds and scrubbed buses are part of the now overnight and weekend fix.				</div>
+					</div>
+	</div>
+</article><!-- #post-## -->
+
+<article id="post-424531" class="post-list-item block post-block post-424531 post type-post status-publish format-standard has-post-thumbnail hentry category-andrew-cohen category-antonio-reynoso category-bushwick category-carlina-rivera category-greenwich-village category-keith-powers category-l-train-shutdown category-rafael-espinal tag-promoted">
+			<div class="entry-thumbnail">
+					<a href="https://nyc.streetsblog.org/2019/01/03/council-bus-and-bike-improvements-should-stay-despite-cuomos-l-train-bombshell/">
+		<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/01/cuomo-L-announcement.jpg?resize=400%2C225px&#038;ssl=1 400w,https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/01/cuomo-L-announcement.jpg?resize=800%2C450px&#038;ssl=1 800w,https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2019/01/cuomo-L-announcement.jpg?resize=480%2C270px&#038;ssl=1 480w" alt="Gov. Andrew Cuomo (center with interim MTA board chairman Freddy Ferrer and Mary Boyce, Dean of Columbia Engineering) announced Thursday that he had decided that the L train didn&#039;t need to be repaired after all. Photo: NY Governor&#039;s Office" >			</a>
+			</div>
+		<div class="list-item-content-container">
+		<div class="list-item-content">
+			<header class="entry-header">
+																					<h2 class="entry-title"><a href="https://nyc.streetsblog.org/2019/01/03/council-bus-and-bike-improvements-should-stay-despite-cuomos-l-train-bombshell/" rel="bookmark">Council: Cuomo&#8217;s L-Train Bombshell Should Not Also Kill Bus and Bike Improvements</a></h2>
+																	<span class="byline-meta">By <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/dmeyer/">David Meyer</a></span></span>													<span class="sep"> | </span>
+													<span class="post-date"><a href="https://nyc.streetsblog.org/2019/01/03/council-bus-and-bike-improvements-should-stay-despite-cuomos-l-train-bombshell/" rel="bookmark"><time class="entry-date published" datetime="2019-01-03T18:50:43+00:00">Jan 3, 2019</time></a></span>
+							</header><!-- .entry-header -->
+							<div class="entry-excerpt">
+					Just because the governor bigfooted Andy Byford doesn't mean Brooklyn and Manhattan shouldn't get their bike lanes and their bus improvements!				</div>
+					</div>
+	</div>
+</article><!-- #post-## -->
+
+<article id="post-371422" class="post-list-item block post-block post-371422 post type-post status-publish format-standard hentry category-bill-de-blasio category-buses category-l-train-shutdown category-mta category-trains category-transit">
+				<div class="list-item-content-container">
+		<div class="list-item-content">
+			<header class="entry-header">
+																					<h2 class="entry-title"><a href="https://nyc.streetsblog.org/2016/07/25/mayor-de-blasio-needs-to-step-up-to-keep-l-train-passengers-moving/" rel="bookmark">Mayor de Blasio Needs to Step Up to Keep L Train Passengers Moving</a></h2>
+																	<span class="byline-meta">By <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/dmeyer/">David Meyer</a></span></span>													<span class="sep"> | </span>
+													<span class="post-date"><a href="https://nyc.streetsblog.org/2016/07/25/mayor-de-blasio-needs-to-step-up-to-keep-l-train-passengers-moving/" rel="bookmark"><time class="entry-date published" datetime="2016-07-25T17:18:54+00:00">Jul 25, 2016</time></a></span>
+							</header><!-- .entry-header -->
+							<div class="entry-excerpt">
+					This morning the MTA announced that starting in 2019, it will close the L train between Eighth Avenue and Bedford Avenue in Williamsburg for 18 months to repair damage caused by Superstorm Sandy &#8212; surprising no one who&#8217;s been paying attention. For several months now, it&#8217;s been obvious that the MTA and the de Blasio administration will [&hellip;]				</div>
+					</div>
+	</div>
+</article><!-- #post-## -->
+
+<article id="post-422447" class="post-list-item block post-block post-422447 post type-post status-publish format-standard has-post-thumbnail hentry category-l-train-shutdown tag-promoted">
+			<div class="entry-thumbnail">
+					<a href="https://nyc.streetsblog.org/2018/10/30/read-all-about-it-full-mtadot-l-train-update/">
+		<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/08/byford_trottenberg.jpg?resize=400%2C225px&#038;ssl=1 400w,https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/08/byford_trottenberg.jpg?resize=800%2C450px&#038;ssl=1 800w,https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2018/08/byford_trottenberg.jpg?resize=480%2C270px&#038;ssl=1 480w" alt="MTA&#039;s Andy Byford and DOT&#039;s Polly Trottenberg have already briefed reporters about the coming L train shutdown. Photo: David Meyer" >			</a>
+			</div>
+		<div class="list-item-content-container">
+		<div class="list-item-content">
+			<header class="entry-header">
+																					<h2 class="entry-title"><a href="https://nyc.streetsblog.org/2018/10/30/read-all-about-it-full-mtadot-l-train-update/" rel="bookmark">READ ALL ABOUT IT:  Full MTA/DOT L Train Update</a></h2>
+																	<span class="byline-meta">By <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/gkuntzman/">Gersh Kuntzman</a></span></span>													<span class="sep"> | </span>
+													<span class="post-date"><a href="https://nyc.streetsblog.org/2018/10/30/read-all-about-it-full-mtadot-l-train-update/" rel="bookmark"><time class="entry-date published" datetime="2018-10-30T13:55:07+00:00">Oct 30, 2018</time></a></span>
+							</header><!-- .entry-header -->
+							<div class="entry-excerpt">
+					Here we go, transit nerds: The full MTA/DOT L-train release!				</div>
+					</div>
+	</div>
+</article><!-- #post-## -->
+
+<article id="post-424542" class="post-list-item block post-block post-424542 post type-post status-publish format-standard has-post-thumbnail hentry category-andrew-cuomo category-john-raskin category-l-train-shutdown category-regional-plan-association">
+			<div class="entry-thumbnail">
+					<a href="https://nyc.streetsblog.org/2019/01/03/cuomos-l-train-bombshell-all-your-questions-answered/">
+		<img class="size-feature-thumb" sizes="(min-width: 80em) 400px,(min-width: 64em) and (max-width: 80em) 400px,(min-width: 48em) and (max-width: 64em) 400px,(min-width: 32em) and (max-width: 48em) 800px,(max-width: 32em) 480px,800px" srcset="https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2017/01/cuomo-2nd-ave-subway-2.png?resize=400%2C225px&#038;ssl=1 400w,https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2017/01/cuomo-2nd-ave-subway-2.png?resize=800%2C450px&#038;ssl=1 800w,https://i0.wp.com/nyc.streetsblog.org/wp-content/uploads/2017/01/cuomo-2nd-ave-subway-2.png?resize=480%2C270px&#038;ssl=1 480w" alt="Governor Cuomo raised lots of questions with his torpedoing of the L-train shutdown plan. Photo: Flickr/NYS Governor&#039;s Office" >			</a>
+			</div>
+		<div class="list-item-content-container">
+		<div class="list-item-content">
+			<header class="entry-header">
+																					<h2 class="entry-title"><a href="https://nyc.streetsblog.org/2019/01/03/cuomos-l-train-bombshell-all-your-questions-answered/" rel="bookmark">Cuomo&#8217;s L-Train Bombshell: All (OK, Not <i>ALL</i>) Your Questions Answered!</a></h2>
+																	<span class="byline-meta">By <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/gkuntzman/">Gersh Kuntzman</a></span></span>													<span class="sep"> | </span>
+													<span class="post-date"><a href="https://nyc.streetsblog.org/2019/01/03/cuomos-l-train-bombshell-all-your-questions-answered/" rel="bookmark"><time class="entry-date published" datetime="2019-01-03T21:15:38+00:00">Jan 3, 2019</time></a></span>
+							</header><!-- .entry-header -->
+							<div class="entry-excerpt">
+					The governor's announcement raised more questions than it answered. Let us try to help.				</div>
+					</div>
+	</div>
+</article><!-- #post-## -->
+
+<article id="post-367432" class="post-list-item block post-block post-367432 post type-post status-publish format-standard hentry category-chelsea category-dot category-east-village category-gale-brewer category-greenwich-village category-l-train-shutdown category-manhattan category-mta category-riders-alliance category-transit category-williamsburg">
+				<div class="list-item-content-container">
+		<div class="list-item-content">
+			<header class="entry-header">
+																					<h2 class="entry-title"><a href="https://nyc.streetsblog.org/2016/05/24/brewer-to-dot-start-looking-into-a-bus-only-14th-street/" rel="bookmark">Brewer to DOT: Start Looking Into a Bus-Only 14th Street</a></h2>
+																	<span class="byline-meta">By <span class="author vcard"><a class="url fn n" href="https://nyc.streetsblog.org/author/dmeyer/">David Meyer</a></span></span>													<span class="sep"> | </span>
+													<span class="post-date"><a href="https://nyc.streetsblog.org/2016/05/24/brewer-to-dot-start-looking-into-a-bus-only-14th-street/" rel="bookmark"><time class="entry-date published" datetime="2016-05-24T14:12:27+00:00">May 24, 2016</time></a></span>
+							</header><!-- .entry-header -->
+							<div class="entry-excerpt">
+					Manhattan Borough President Gale Brewer is calling on DOT to study making 14th Street a bus-only thoroughfare while L train service is disrupted during Sandy-related repairs. To allow for urgently-needed fixes to the L train tunnel, the MTA is considering either a full shutdown of service between Bedford Avenue and Eighth Avenue for 18 months, or a three-year [&hellip;]				</div>
+					</div>
+	</div>
+</article><!-- #post-## -->
+</div>
+</div>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+			</div><!-- #content -->
+
+			
+		
+	<form id="signup-inline-newsletter" class="signup inline" action="##">
+		<input type="hidden" id="_wpnonce" name="_wpnonce" value="2600706115" /><input type="hidden" name="_wp_http_referer" value="/2019/02/13/cuomos-new-l-train-shutdown-plan-is-as-bad-as-we-expected/" />		<label for="signup-inline-newsletter-email">Subscribe to our <span>Daily Email Digest</span></label>
+		<div class="newsletter-input-wrap">
+			<input type="email" id="signup-inline-newsletter-email" name="email" placeholder="Enter Email" value="" required>
+			<button class="submit">Sign Up</button>
+		</div>
+
+						<div class="signup-lists">
+															<input type="hidden" id="signup-inline-newsletterlist_2845be4371" name="list_2845be4371" value="1">
+													</div>
+
+		<div class="response error" style="display:none" role="alert"><ul></ul></div>
+		<div class="response success" style="display:none" role="alert"><ul></ul></div>
+	</form>
+
+
+			<footer id="colophon" class="footer-site" role="contentinfo">
+				<div class="content-area">
+					<div class="footer-top">
+						<div class="footer-items">
+							<ul id="footer-primary-menu" class="items-footer-primary-nav "><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380038"><a href="https://nyc.streetsblog.org/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380040"><a href="https://nyc.streetsblog.org/contact/">Contact Streetsblog NYC</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380036"><a href="https://nyc.streetsblog.org/about/staff-board/">Staff &amp; Board</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380037"><a href="https://nyc.streetsblog.org/about/our-funders/">Our Funders</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380058"><a href="https://nyc.streetsblog.org/about/comment-moderation-policy/">Comment Moderation Policy</a></li>
+</ul>								<ul class="social-nav context-footer">
+		<span>Follow Us:</span>
+									<li>
+					<a class="icon icon-facebook" target="_blank" href="https://facebook.com/Streetsblog-304063367547">
+						<span class="label">Facebook</span>
+					</a>
+				</li>
+												<li>
+					<a class="icon icon-twitter" target="_blank" href="https://twitter.com/StreetsblogNYC">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+						</ul>
+						</div>
+					</div>
+
+					<div class="footer-middle">
+						<div class="footer-items">
+							<a href="https://nyc.streetsblog.org/">
+								<svg width="493" height="41" viewBox="0 0 493 41" xmlns="http://www.w3.org/2000/svg"><title>Streetsblog NYC Logo</title><g fill="none" fill-rule="evenodd"><path d="M29.9 11.3h-4.5c0-3.2-.5-5.2-1.6-6-1-.9-3.5-1.3-7.5-1.3-4.6 0-7.6.4-9 1.2-1.3.8-2 2.7-2 5.5 0 3.2.5 5.1 1.6 5.8 1 .7 4.2 1.2 9.4 1.4 6.2.3 10.1 1.1 11.8 2.4 1.6 1.3 2.5 4.2 2.5 8.7 0 4.8-1 8-2.9 9.4-1.9 1.4-6.2 2.1-12.7 2.1-5.7 0-9.5-.7-11.4-2.1C1.7 36.9.8 34 .8 29.7v-1.8h4.4v1c0 3.5.5 5.7 1.6 6.6 1.1.8 3.9 1.3 8.3 1.3 5.1 0 8.3-.5 9.5-1.3 1.1-.9 1.7-3.2 1.7-6.9 0-2.4-.4-4-1.2-4.8-.8-.8-2.5-1.3-5-1.4l-4.6-.3-4.4-.2C4.4 21.4 1 18 1 11.5 1 7 2 4 3.9 2.5 5.9 1 9.8.2 15.6.2c5.9 0 9.8.7 11.6 2.1 1.8 1.4 2.7 4.4 2.7 9zm19.8-6.5v35.3h-4.4V4.8H32.4V.6h30.1v4.2H49.7zm16.7 35.3V.6h18.9c4.2 0 7.2.9 8.9 2.5 1.8 1.7 2.6 4.6 2.6 8.8 0 3.6-.4 6.2-1.4 7.6-.9 1.4-2.7 2.4-5.4 2.8v.1c4.2.3 6.3 2.8 6.3 7.6v10.1h-4.5V31c0-4.6-2-6.9-6-6.9H70.9v16h-4.5zm4.5-19.7h12.9c3.4 0 5.7-.6 6.9-1.6 1.3-1 1.9-3 1.9-5.8 0-3.6-.5-5.9-1.4-7-.9-1.1-2.9-1.6-5.9-1.6H70.9v16zm35.3-16v13.4h20.1v3.8h-20.1v14.8h21v3.7h-25.4V.6h25.4v3.8h-21zm29.6 0v13.4h20v3.8h-20v14.8h20.9v3.7h-25.4V.6h25.4v3.8h-20.9zm40.4.4v35.3h-4.5V4.8h-12.8V.6H189v4.2h-12.8zm43.8 6.5h-4.4c0-3.2-.5-5.2-1.6-6-1.1-.9-3.6-1.3-7.5-1.3-4.7 0-7.7.4-9 1.2-1.4.8-2.1 2.7-2.1 5.5 0 3.2.6 5.1 1.6 5.8 1.1.7 4.3 1.2 9.5 1.4 6.2.3 10.1 1.1 11.7 2.4 1.7 1.3 2.5 4.2 2.5 8.7 0 4.8-.9 8-2.8 9.4-2 1.4-6.2 2.1-12.8 2.1-5.6 0-9.4-.7-11.3-2.1-1.9-1.5-2.8-4.4-2.8-8.7l-.1-1.8h4.5v1c0 3.5.5 5.7 1.6 6.6 1.1.8 3.8 1.3 8.3 1.3 5.1 0 8.2-.5 9.4-1.3 1.2-.9 1.8-3.2 1.8-6.9 0-2.4-.4-4-1.2-4.8-.8-.8-2.5-1.3-5-1.4l-4.7-.3-4.4-.2c-6.7-.5-10-3.9-10-10.4 0-4.5 1-7.5 2.9-9 2-1.5 5.9-2.3 11.7-2.3 5.9 0 9.7.7 11.5 2.1 1.8 1.4 2.7 4.4 2.7 9zm5.8 28.8V.6h19.4c4.6 0 7.7.7 9.3 2.2C256.2 4.3 257 7 257 11c0 4.9-1.9 7.8-5.8 8.7v.1c4.5.7 6.8 3.8 6.8 9.4 0 4.1-.9 6.9-2.6 8.5-1.8 1.6-4.8 2.4-9.1 2.4h-20.5zm7.5-22.9h9.2c3 0 4.9-.3 5.7-1 .8-.6 1.2-2.1 1.2-4.5 0-3.2-1.8-4.8-5.4-4.8h-10.7v10.3zm0 16.6H244.2c2.5 0 4.2-.4 5-1.1.8-.7 1.2-2.2 1.2-4.5 0-2.4-.5-3.9-1.3-4.5-.8-.7-2.9-1-6.2-1h-9.6v11.1zm37.6-.4h18.5v6.7h-26V.6h7.5v32.8zM309.6.3c7.2 0 11.8 1.2 13.9 3.5 2.1 2.4 3.1 7.8 3.1 16 0 9.1-1 14.8-3.1 17.1-2.1 2.4-7.1 3.6-15.1 3.6-7.2 0-11.8-1.2-13.9-3.5-2.1-2.3-3.2-7.5-3.2-15.4 0-9.4 1.1-15.3 3.1-17.7 2.1-2.4 7.2-3.6 15.2-3.6zm-.5 6.4c-5.1 0-8 .6-8.9 1.9-.8 1.3-1.2 5.8-1.2 13.5 0 5.6.5 9.1 1.4 10.2 1 1.2 4 1.8 8.8 1.8 4.7 0 7.5-.7 8.4-2 .9-1.3 1.4-5.3 1.4-11.9 0-6.6-.5-10.5-1.3-11.7-.9-1.2-3.8-1.8-8.6-1.8zm38.1 12.4h17.4l.1 7.9c0 5.7-1.1 9.4-3.2 11-2.2 1.7-7 2.5-14.4 2.5-6.8 0-11.4-1.1-13.6-3.3-2.2-2.2-3.3-6.7-3.3-13.5 0-8.6.4-14.1 1.3-16.4 1.1-2.7 2.8-4.6 5-5.6 2.3-.9 6.1-1.4 11.4-1.4 7.1 0 11.6.7 13.6 2.2 2.1 1.5 3.1 4.8 3.1 10H357c-.1-2.6-.7-4.2-1.7-4.9-1-.6-3.5-.9-7.5-.9-4.3 0-7.1.5-8.2 1.6-1.2 1.1-1.8 3.6-1.8 7.6v4l.1 5.1c0 3.9.5 6.4 1.7 7.4 1.2 1.1 3.8 1.7 8 1.7 4.1 0 6.7-.5 7.8-1.4 1.2-.9 1.7-3.1 1.7-6.4v-1.7h-9.9v-5.5z" fill="#393938"/><path d="M417.958 1.076V40.4H405.31l-11.235-21.578c-.557-1.075-1.43-2.957-2.62-5.646l-1.27-2.823-1.238-2.824h-.288l.114 2.592.087 2.564.058 5.157V40.4h-7.46V1.076h12.646l10.227 19.936c.904 1.767 1.95 3.908 3.14 6.424l1.5 3.198 1.497 3.226h.26l-.087-2.535-.086-2.535-.058-5.07V1.076h7.462zm39.496 0L442.877 25.39V40.4h-7.46V25.39L421.24 1.077h8.642l5.935 10.37c.325.578.882 1.643 1.67 3.2l.835 1.584.807 1.584h.2l.837-1.584.834-1.585c.71-1.42 1.278-2.487 1.7-3.198l5.992-10.37h8.758zm27.57 25.294h7.49v1.354c0 5.474-1 9.013-2.996 10.616-1.997 1.604-6.415 2.406-13.252 2.406-7.76 0-12.532-1.268-14.318-3.803-1.786-2.535-2.68-9.315-2.68-20.34 0-6.49 1.21-10.76 3.63-12.804 2.42-2.047 7.482-3.07 15.183-3.07 5.61 0 9.354.84 11.236 2.52 1.883 1.682 2.824 5.02 2.824 10.012l.028.893h-7.49v-1.008c0-2.574-.485-4.22-1.455-4.94-.97-.72-3.183-1.08-6.64-1.08-4.63 0-7.41.566-8.34 1.7-.932 1.132-1.397 4.493-1.397 10.082 0 7.527.417 11.983 1.253 13.366.834 1.383 3.538 2.074 8.108 2.074 3.707 0 6.113-.384 7.217-1.152 1.104-.768 1.657-2.458 1.657-5.07l-.058-1.758z" fill="#FFF"/></g></svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="footer-bottom">
+						<div class="footer-items">
+													</div>
+					</div>
+				</div>
+
+			</footer><!-- #colophon -->
+
+		</div><!-- #page -->
+
+		
+		        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'streetsblognyc';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1 && nodes[i].parentNode.tagName == 'A') {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript' src='https://nyc.streetsblog.org/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/nyc.streetsblog.org\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-content/plugins/wp-polls/polls-js.js?ver=2.73.7'></script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-content/plugins/photonfill/vendor/picturefill.min.js?ver=2.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var adminAjaxUrl = "https:\/\/nyc.streetsblog.org\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-content/themes/streetsblog/static/js/lib.bundle.js?ver=1.0.26'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var aftBreakpoints = {"xl":"1280","l":"1024","m":"768","s":"512"};
+var trackingData = "{\"accounts\":{\"google_analytics\":\"UA-6717081-12\",\"omniture\":null}}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-content/themes/streetsblog/static/js/global.bundle.js?ver=1.0.26'></script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-content/themes/streetsblog/static/js/single.bundle.js?ver=1.0.26'></script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=2.9.8'></script>
+<script type='text/javascript' src='https://nyc.streetsblog.org/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201909.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.3',blog:'120322395',post:'425715',tz:'-5',srv:'nyc.streetsblog.org'} ]);
+	_stq.push([ 'clickTrackerInit', '120322395', '425715' ]);
+</script>
+	</div><!-- #wrap-site -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"eaeacc7daf","applicationID":"71631603","transactionName":"YlVUbEdRDEZRVhBZXFsfd1tBWQ1bH0YNXlRZVQ==","queueTime":0,"applicationTime":558,"atts":"ThJXGg9LH0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

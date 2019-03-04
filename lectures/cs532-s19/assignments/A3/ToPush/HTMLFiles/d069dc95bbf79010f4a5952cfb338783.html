@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+		<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- include the site title -->
+	<title>Credit unions nationwide step up during government shutdown - CUInsight</title>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PFBNKH');</script>
+	<!-- End Google Tag Manager -->
+	
+	<!-- include fonts -->
+	<link href='//fonts.googleapis.com/css?family=Oswald:400,300%7CSanchez:400italic%7CSource+Sans+Pro:400,300,600,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="https://www.cuinsight.com/wp-content/uploads/2017/08/CUIfavico.jpg" />
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10382357-2', 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<script type="text/javascript">
+var _userway_config = {
+// uncomment the following line to override default position
+// position: 2,
+// uncomment the following line to override default size (values: small, large)
+// size: 'small', 
+// uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)
+// language: null,
+// uncomment the following line to override color set via widget
+// color: 'null', 
+account: 'cv2RkKUSTB'
+};
+</script>
+<script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
+
+
+	<!-- Simple script to parse query_string for use in later scripts -->
+	<script>function getQueryParams(e){e=e.split("+").join(" ");for(var o,n={},r=/[?&]?([^=]+)=([^&]*)/g;o=r.exec(e);)n[decodeURIComponent(o[1])]=decodeURIComponent(o[2]);return n}var qsparams=getQueryParams(window.location.search);</script>
+	<!-- Simple script to get and set cookies. usage: getCookie('name'); setCookie('name', 'val', exp) -->
+	<script>function setCookie(e,t,n){var i="";if(n){var o=new Date;o.setTime(o.getTime()+24*n*60*60*1e3),i="; expires="+o.toUTCString()}document.cookie=e+"="+(t||"")+i+"; path=/"}function getCookie(e){for(var t=e+"=",n=document.cookie.split(";"),i=0;i<n.length;i++){for(var o=n[i];" "==o.charAt(0);)o=o.substring(1,o.length);if(0==o.indexOf(t))return o.substring(t.length,o.length)}return null}</script>
+	<script type="text/javascript">
+	window.theme_ajax_url = "https://www.cuinsight.com/?theme_ajax=1";
+	insight = {};
+	insight.ads = [];
+	insight.user = '';
+	insight.title = '';
+	insight.postID = '';
+	insight.partner = '';
+	insight.category = '';
+	insight.contentType = 'page';
+	insight.sponsoredContent = 'false';
+	if(typeof qsparams.u != 'undefined' && qsparams.u && qsparams.u.indexOf('@') > -1){insight.user = qsparams.u; setCookie('u',qsparams.u,1000);} else if(getCookie('u') && getCookie('u').indexOf('@') > -1){insight.user = getCookie('u');}
+	var addthis_share = {
+	    url_transforms : {
+	        clean: true,
+	        remove: ['u']
+	    }
+	};
+	</script>
+	
+<!-- This site is optimized with the Yoast SEO plugin v9.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.cuinsight.com/credit-unions-nationwide-step-up-during-government-shutdown.html" />
+<link rel="publisher" href="https://plus.google.com/u/1/b/108259308001317434730/dashboard/overview"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Credit unions nationwide step up during government shutdown - CUInsight" />
+<meta property="og:description" content="The 35-day government shutdown affected credit union members across the country. While they waited, wondering how long it would last, businesses and other organizations jumped in to assist with offers of free meals, services and other help. Within days of the shutdown, credit unions were doing what they do best, helping people. When members were &hellip;" />
+<meta property="og:url" content="https://www.cuinsight.com/credit-unions-nationwide-step-up-during-government-shutdown.html" />
+<meta property="og:site_name" content="CUInsight" />
+<meta property="article:publisher" content="https://www.facebook.com/CUinsight?fref=ts&amp;ref=br_tf" />
+<meta property="article:tag" content="Advocacy" />
+<meta property="article:tag" content="Community" />
+<meta property="article:tag" content="Government Shutdown 2019" />
+<meta property="article:tag" content="Leadership" />
+<meta property="article:tag" content="Management" />
+<meta property="article:tag" content="Scott Earl" />
+<meta property="article:section" content="Recovery" />
+<meta property="article:published_time" content="2019-02-14T08:00:17-05:00" />
+<meta property="article:modified_time" content="2019-02-14T13:26:31-05:00" />
+<meta property="og:updated_time" content="2019-02-14T13:26:31-05:00" />
+<meta property="og:image" content="https://www.cuinsight.com/wp-content/uploads/2019/02/image.jpg" />
+<meta property="og:image:secure_url" content="https://www.cuinsight.com/wp-content/uploads/2019/02/image.jpg" />
+<meta property="og:image" content="https://www.cuinsight.com/wp-content/uploads/2019/01/bigstock-Business-People-Joining-Hands-181864057.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The 35-day government shutdown affected credit union members across the country. While they waited, wondering how long it would last, businesses and other organizations jumped in to assist with offers of free meals, services and other help. Within days of the shutdown, credit unions were doing what they do best, helping people. When members were [&hellip;]" />
+<meta name="twitter:title" content="Credit unions nationwide step up during government shutdown - CUInsight" />
+<meta name="twitter:site" content="@CUinsight" />
+<meta name="twitter:image" content="https://www.cuinsight.com/wp-content/uploads/2019/02/image.jpg" />
+<meta name="twitter:creator" content="@CUinsight" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.cuinsight.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="CUInsight &raquo; Feed" href="https://www.cuinsight.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="CUInsight &raquo; Comments Feed" href="https://www.cuinsight.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="CUInsight &raquo; Credit unions nationwide step up during government shutdown Comments Feed" href="https://www.cuinsight.com/credit-unions-nationwide-step-up-during-government-shutdown.html/feed" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.cuinsight.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='css-rfnb-css'  href='https://www.cuinsight.com/wp-content/plugins/Feed-News-Blocks/css/rfnb.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jpibfi-style-css'  href='https://www.cuinsight.com/wp-content/plugins/jquery-pin-it-button-for-images/css/client.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mashsb-styles-css'  href='https://www.cuinsight.com/wp-content/plugins/mashsharer/assets/css/mashsb.min.css?ver=3.6.1' type='text/css' media='all' />
+<style id='mashsb-styles-inline-css' type='text/css'>
+.mashsb-count {color:#cccccc;}
+        [class^="mashicon-"], .onoffswitch-label, .onoffswitch2-label, .onoffswitch {
+            border-radius: 2px;
+        }@media only screen and (min-width:568px){.mashsb-buttons a {min-width: 90px;}}
+</style>
+<link rel='stylesheet' id='popupally-style-css'  href='https://www.cuinsight.com/wp-content/popupally-scripts/1-popupally-style.css?ver=2.0.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mashresp-styles-css'  href='https://www.cuinsight.com/wp-content/plugins/mashshare-responsive/assets/css/mashresp.min.css?ver=2.0.6' type='text/css' media='all' />
+<style id='mashresp-styles-inline-css' type='text/css'>
+
+        @media only screen and (max-width: 460px) {
+            .mashsb-box .mashsb-count {
+            display:none;}
+            }
+</style>
+<link rel='stylesheet' id='colorbox-css-css'  href='https://www.cuinsight.com/wp-content/themes/cu-insight/library/js/colorbox/colorbox.css?ver=1.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='stackicons-style-css'  href='https://www.cuinsight.com/wp-content/themes/cu-insight/library/css/stackicons-min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://www.cuinsight.com/wp-content/themes/cu-insight/style.css?ver=2.0.12' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://www.cuinsight.com/wp-content/themes/cu-insight-child/style.css?ver=2.0.5' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?ver=1.11.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var popupally_action_object = {"popup_param":{"1":{"id":1,"enable-exit-intent-popup":"true","cookie-duration":30,"priority":"0","popup-selector":"#popup-box-gfcr-1","popup-class":"popupally-opened-gfcr-1","cookie-name":"popupally-cookie-1","close-trigger":".popup-click-close-trigger-1"},"2":{"id":2,"cookie-duration":14,"priority":"0","popup-selector":"#popup-box-gfcr-2","popup-class":"popupally-opened-gfcr-2","cookie-name":"popupally-cookie-2","close-trigger":".popup-click-close-trigger-2"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/plugins/popupally/resource/frontend/popup.min.js?ver=2.0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"rest_api":"1","sampling_active":"0","sampling_rate":"5","ajax_url":"https:\/\/www.cuinsight.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts\/","action":"update_views_ajax","ID":"179127","token":"3c4cbc32bb","debug":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/plugins/wordpress-popular-posts/public/js/wpp-4.1.0.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/themes/cu-insight/library/js/jquery.main.js?ver=2.0'></script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/themes/cu-insight/library/js/func.js?ver=2.0.4'></script>
+<link rel='https://api.w.org/' href='https://www.cuinsight.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cuinsight.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.cuinsight.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<link rel='shortlink' href='https://www.cuinsight.com/?p=179127' />
+<link rel="alternate" type="application/json+oembed" href="https://www.cuinsight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.cuinsight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&#038;format=xml" />
+<style type="text/css">
+	a.pinit-button.custom span {
+		}
+
+	.pinit-hover {
+		opacity: 0.5 !important;
+		filter: alpha(opacity=50) !important;
+	}
+	a.pinit-button {
+	border-bottom: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+}
+a.pinit-button::after {
+    display: none;
+}</style>
+		<script type="text/javascript">document.documentElement.className += " js";</script>
+	<script>
+	// AJAX Infinite Scroll
+	infiniteScrollElements = [];
+	jQuery(document).ready(function($) {
+		window.ajaxLoading = false;
+		$('.load').hide();
+		var count = 2;
+		var ad_count = 3;
+		var total = 10000;
+		$(window).scroll(function(){
+		    if  ( ( ( $('body').hasClass('home') && ( $(window).scrollTop() > $(document).height() - ( $(window).height() * 2 ) ) ) || ( !$('body').hasClass('home') && ( $('.homepage-news').visible(true) ) ) ) && !window.ajaxLoading ){
+		        if (count > total){
+		            return false;
+		        }else{
+		        	if(infiniteScrollElements.length){
+		        		for (var i = 0; i < infiniteScrollElements.length; i++) {
+		        			window.ajaxLoading = true;
+		        			if(infiniteScrollElements[i][0]!=='trending'){
+		        				ad_count++;
+		        			}
+						    loadArticle(count, infiniteScrollElements[i][0], infiniteScrollElements[i][1], ad_count);
+						}
+		        	} else {
+		        		// console.log('No infiniteScrollElements');
+		        		return false;
+		        	}
+		        }
+		        count++;
+		    }
+		});
+
+		function loadArticle(pageNumber, loopFile, postsPerPage, ad_count){    
+			$('.load').show('fast');
+			$.ajax({
+				url: "https://www.cuinsight.com/wp-admin/admin-ajax.php",
+				type:'POST',
+				data: "action=infinite_scroll&page_no="+ pageNumber + '&loop_file=loop-'+loopFile+'&posts_per_page='+postsPerPage+'&ad_count='+ad_count+'&the_front_page=', 
+				success: function(html){
+					$('.load').hide('1000');
+					$("#"+loopFile).append(html);    // This will be the div where our content will be loaded
+					$("body").trigger('articles-loaded');
+					window.ajaxLoading = false;
+				}
+			});
+			return false;
+		}
+
+	});
+	</script>
+</head>
+<body id="top" class="post-template-default single single-post postid-179127 single-format-standard">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFBNKH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<!-- main container of all the page elements -->
+	<div id="wrapper">
+		<!-- header of the page -->
+		<header id="header">
+			<div class="header-top">
+				<div class="container">
+					<!-- logo of the page -->
+					<div class="logo">
+						<a href="https://www.cuinsight.com/">
+							<img src="https://www.cuinsight.com/wp-content/uploads/2017/06/cuinsight-logo-white-horizontal.png" height="74" width="62" alt="Credit Union Insight">
+						</a>
+					</div>
+					<a href="#" class="nav-opener"><i class="nav-ico-bar"><span></span></i></a>
+					<div class="menu-push">
+						<!-- main navigation of the page -->
+												<nav id="nav">
+							<ul>
+								<li class="active">
+									<a href="/">news</a>
+									<!-- nav drop down -->
+									<div class="nav-drop">
+										<div class="container">
+											<span class="nav-title">Latest by category</span>
+											<ul>
+																																																												 <li>
+													<a href="https://www.cuinsight.com/integration-options-for-member-onboarding.html">
+														<img src="https://www.cuinsight.com/wp-content/uploads/2018/07/bigstock-Hello-I-Am-Onboarding-New-Empl-246264797-198x114.jpg" width="198" height="114" alt="Integration options for member onboarding">
+														<div class="txt-wrap">
+															<span class="title">Technology</span>
+															<p>Integration options for member onboarding</p>
+														</div>
+													</a>
+												</li>  
+																																																																								 <li>
+													<a href="https://www.cuinsight.com/your-lending-culture-may-not-allow-you-to-attract-deposits-or-relationships.html">
+														<img src="https://www.cuinsight.com/wp-content/uploads/2018/01/bigstock-Businessman-s-hand-in-suit-tak-220987822-198x114.jpg" width="198" height="114" alt="Your lending culture may not allow you to attract deposits or relationships">
+														<div class="txt-wrap">
+															<span class="title">Lending</span>
+															<p>Your lending culture may not allow you to attract deposits or relationships</p>
+														</div>
+													</a>
+												</li>  
+																																																																								 <li>
+													<a href="https://www.cuinsight.com/8-characteristics-of-meaningful-conversations.html">
+														<img src="https://www.cuinsight.com/wp-content/uploads/2018/07/bigstock-218830597-198x114.jpg" width="198" height="114" alt="8 characteristics of meaningful conversations">
+														<div class="txt-wrap">
+															<span class="title">Management/Leadership</span>
+															<p>8 characteristics of meaningful conversations</p>
+														</div>
+													</a>
+												</li>  
+																																																																								 <li>
+													<a href="https://www.cuinsight.com/how-merchants-are-fueling-consumers-need-for-speed-and-convenience-via-mobile.html">
+														<img src="https://www.cuinsight.com/wp-content/uploads/2018/05/bigstock-204030226-198x114.jpg" width="198" height="114" alt="How merchants are fueling consumers’ need for speed (and convenience) via mobile">
+														<div class="txt-wrap">
+															<span class="title">Payments</span>
+															<p>How merchants are fueling consumers’ need for speed (and convenience) via mobile</p>
+														</div>
+													</a>
+												</li>  
+																																																																								 <li>
+													<a href="https://www.cuinsight.com/senate-committee-to-vote-on-hood-harper-nominations-on-feb-26.html">
+														<img src="https://www.cuinsight.com/wp-content/uploads/2017/09/NCUA-Sign-1000X500-198x114.jpg" width="198" height="114" alt="Senate Committee to Vote on Hood, Harper Nominations on Feb. 26">
+														<div class="txt-wrap">
+															<span class="title">Compliance/Regulation</span>
+															<p>Senate Committee to Vote on Hood, Harper Nominations on Feb. 26</p>
+														</div>
+													</a>
+												</li>  
+																																																																							</ul>
+										</div>
+									</div>
+								</li>
+								<li ><a href="/community.html">Community</a></li>
+								<li ><a href="/press.html">press</a></li>
+								<li ><a href="/jobs.html">jobs</a></li>
+								<li ><a href="/partners.html">partners</a></li>
+								<li class="single-col ">
+									<a href="#">more</a>
+									<!-- nav drop down -->
+									<div class="nav-drop">
+										<ul>
+											<!--<li ><a href="/media-center.html">Media Center</a></li>-->
+											<li ><a href="/events.html">events</a></li>
+											<li ><a href="/vendor-directory.html">Vendor directory</a></li>
+											<li ><a href="/contact.html">contact</a></li>
+											<li><a href="/contact.html?form_type=advertise">advertise</a></li>
+											<li ><a href="/about.html">about us</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<div class="header-right">
+							<div class="share">
+								<!-- social block -->
+								<div class="social-block">
+									<ul class="social">
+										<li><a href="https://www.facebook.com/CUinsight?ref=ts&fref=ts" class="facebook">Facebook</a></li>										<li><a href="https://twitter.com/CUinsight" class="twitter">twitter</a></li>									</ul>
+									<!-- social more -->
+									<div class="social-more">
+										<a href="#" class="opener">Opener</a>
+										<div class="drop">
+											<strong class="title">Connect with CUInsight</strong>
+											<ul class="social-networks">
+												<li><a href="https://www.facebook.com/CUinsight?ref=ts&fref=ts" class="facebook">facebook</a></li>												<li><a href="https://twitter.com/CUinsight" class="twitter">twitter</a></li>												<li><a href="http://www.linkedin.com/groups/Credit-Union-Insight-CUInsightcom-4279962?trk=my_groups-b-grp-v" class="linkedin">linkedin</a></li>												<li><a href="https://www.pinterest.com/cuinsight/" class="pinterest">pinterest</a></li>												<li><a href="https://instagram.com/cuinsight" class="instagram">Instagram</a></li>																								<li><a href="https://www.youtube.com/user/cuinsight" class="youtube">youtube</a></li>												<li><a href="https://plus.google.com/108259308001317434730/posts" class="gplus">Google+</a></li>												<li><a href="/contact.html?form_type=subscribe" class="email">email</a></li>											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="/contact.html?form_type=subscribe" class="subscribe">Subscribe</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- advertise -->
+						<script type="text/javascript">
+jQuery(document).ready(function($){
+	var a=null, b=null;
+a = {"id":178199,"title":"Visa Site-wide Leaderboard 2-19","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fvisa-site-wide-leaderboard-2-19","partner":"","enc_title":"Visa Site-wide Leaderboard 2-19","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/01\/CommunityIssuer_LandingPageMessage2_Idea1_785x90-1.jpg","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/01\/CommunityIssuer_LandingPageMessage2_Idea1_320x90-1.jpg","ad_url":"https%3A%2F%2Fusa.visa.com%2Fpartner-with-us%2Fcommunity-issuers.html","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php"};	if(a!==null){
+		insight.ads.push(a);
+		var timestamp = new Date().getTime();
+				var ptrn = '<a href="{1}" class="ad_redirect" target="_blank"><img src="{2}?timestamp='+timestamp+'" alt="" class="top-banners-left-img desktop-ad" width="785" height="90"/><img src="{3}?timestamp='+timestamp+'" alt="" class="top-banners-left-img mobile-ad" width="785" height="90"/></a>';
+		$("#header-ad-left").html(ptrn.format(a.id, a.link_url+"?redirect_to="+a.ad_url+"&url="+a.url+"&title="+a.enc_title+"&partner="+a.partner+"&pid="+a.id, a.image, a.mobile_image));
+				ga('send', 'event', {eventCategory: 'Ads', eventAction: 'Impression', eventLabel: a.title, eventValue: 1});
+		dataLayer.push({
+			'event':'ad_impression.insight'
+		});
+		$.get('https://track.cuinsight.com/track/?url='+a.url+'&q=&e_type=impression&c_type=ad&partner='+a.partner+'&cat=&sponsored=&pid='+a.id+'&title='+a.enc_title+'&u='+insight.user);
+	}
+	if(b!==null){
+		insight.ads.push(b);
+				var ptrn2 = '<a href="{1}" class="ad_redirect" target="_blank"><img src="{2}?timestamp='+timestamp+'" alt="" class="top-banners-right-img desktop-ad" width="210" height="90" /><img src="{3}?timestamp='+timestamp+'" alt="" class="top-banners-right-img mobile-ad" width="210" height="90" /></a>';
+		$("#header-ad-right").html(ptrn2.format(b.id, b.link_url+"?redirect_to="+b.ad_url+"&url="+b.url+"&title="+b.enc_title+"&pid="+b.id, b.image, b.mobile_image));
+				
+		ga('send', 'event', {eventCategory: 'Ads', eventAction: 'Impression', eventLabel: b.title, eventValue: 1});
+		dataLayer.push({
+			'event':'ad_impression.insight'
+		});
+		$.get('https://track.cuinsight.com/track/?url='+b.url+'&q=&e_type=impression&c_type=ad&partner='+b.partner+'&cat=&sponsored=&pid='+b.id+'&title='+b.enc_title+'&u='+insight.user);
+	}
+});
+</script>
+<div class="ad-hold fixed">
+	<div class="ad-block">
+		<span id="header-ad-left"></span>
+	</div>
+</div>					</header>	<script>
+	insight.title = "Credit+unions+nationwide+step+up+during+government+shutdown";
+	insight.postID = "179127";
+	insight.partner = "";
+	insight.category = "Recovery";
+	insight.contentType = "community";
+	insight.sponsoredContent = false;
+	</script>
+			<!-- contain main informative part of the site -->
+			<main id="main" role="main" class="container">
+				<div class="twocolumns">
+					<div id="content" class="content">
+						<header class="heading">
+							<h1 class="title">Credit unions nationwide step up during government shutdown</h1>
+														<div class="meta-info">
+								<div class="author-info">
+																											<div class="info">
+										<time datetime="2019-02-14T03:00:17-05:00">February 14, 2019</time>
+										<span class="author">by <a class=""  href="https://www.cuinsight.com/author/scott-earl">Scott Earl</a>, <a class=""  href="http://www.mwcua.com">Mountain West Credit Union Association</a></span>
+									</div>
+								</div>
+								<aside class="mashsb-container mashsb-main "><div class="mashsb-box"><div class="mashsb-buttons"><a  class="mashicon-facebook mash-large mashsb-noshadow" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share</span></a><a  class="mashicon-twitter mash-large mashsb-noshadow" href="https://twitter.com/intent/tweet?text=Credit%20unions%20nationwide%20step%20up%20during%20government%20shutdown&url=https://www.cuinsight.com/?p=179127" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share</span></a><a  class="mashicon-linkedin mash-large mashsb-noshadow" href="https://www.linkedin.com/shareArticle?trk=Credit+unions+nationwide+step+up+during+government+shutdown&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share</span></a><div class="onoffswitch mash-large mashsb-noshadow"></div><div class="secondary-shares" style="display:none;"><a  class="mashicon-print mash-large mashsb-noshadow" href="http://www.printfriendly.com/print/?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;item=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Print</span></a><a  class="mashicon-mail mash-large mashsb-noshadow" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this article: https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Mail</span></a><a  class="mashicon-google mash-large mashsb-noshadow" href="https://plus.google.com/share?text=Credit+unions+nationwide+step+up+during+government+shutdown&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Google</span></a><a  class="mashicon-pinterest mash-large mashsb-noshadow" href="#" data-mashsb-url="http://www.pinterest.com/pin/create/bookmarklet/?pinFave=1&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;media=&amp;description=The+35-day+government+shutdown+affected+credit+union+members+across+the+country.+While+they+waited%2C+wondering+how+long+it+would+last%2C+businesses+and+other+organizations+jumped+in+to+assist+with+offers+of+free+meals%2C+services+and+%E2%80%A6" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Pinterest</span></a><a  class="mashicon-digg mash-large mashsb-noshadow" href="http://digg.com/submit?phase=2%20&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;title=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Digg</span></a><a  class="mashicon-reddit mash-large mashsb-noshadow" href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;title=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Reddit</span></a><a  class="mashicon-stumbleupon mash-large mashsb-noshadow" href="http://www.stumbleupon.com/submit?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Stumbleupon</span></a><a  class="mashicon-delicious mash-large mashsb-noshadow" href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;title=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Delicious</span></a><a  class="mashicon-buffer mash-large mashsb-noshadow" href="https://bufferapp.com/add?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;text=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Buffer</span></a><a  class="mashicon-tumblr mash-large mashsb-noshadow" href="https://www.tumblr.com/share?v=3&amp;u=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;t=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Tumblr</span></a><div class="onoffswitch2 mash-large mashsb-noshadow" style="display:none;"></div></div></div></div>
+                    <div style="clear:both;"></div></aside>
+            <!-- Share buttons made by mashshare.net - Version: 3.6.1-->							</div>
+						</header>
+						<div class="content-body article-wrap">
+							<div class="article">
+																								<div class="img-wide">
+									<img src="https://www.cuinsight.com/wp-content/uploads/2019/01/bigstock-Business-People-Joining-Hands-181864057.jpg" alt="">
+																		<span class="img-caption"></span>
+																	</div>
+																								<input class="jpibfi" type="hidden"><p><span style="font-weight: 400;">The 35-day government shutdown affected credit union members across the country. While they waited, wondering how long it would last, businesses and other organizations jumped in to assist with offers of free meals, services and other help. </span></p>
+<p><span style="font-weight: 400;">Within days of the shutdown, credit unions were doing what they do best, helping people. When members were affected, credit unions throughout the United States began proactively announcing programs designed to ease the burden of not receiving a paycheck. </span></p>
+<p><span style="font-weight: 400;">In the true spirit of the CUNA-League system, we began looking at ways to help get the word out to members, media and government officials in order to make known what options credit unions were offering to assist. Associations and leagues used all available platforms to spread the word. Social media, traditional public relations outreach and direct contact with legislators were all employed. CUNA began collecting information from the states, creating a clearinghouse of information that listed credit unions and what they were able to offer to help their members survive the shutdown. That landing site became a vital source of information for communicating with government officials looking to tell constituents where to find help.</span></p>
+<p><span style="font-weight: 400;">Successful outreach stories started rolling in:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In the Mountain West Credit Union Association’s region (Arizona, Colorado and Wyoming), media releases were sent out detailing the programs implemented by the region’s credit unions. Those lists were picked up and included in stories on the news sites. From there, they got the attention of state legislators.</span></li>
+</ul>
+<p><img class="alignleft size-full wp-image-179128" src="https://www.cuinsight.com/wp-content/uploads/2019/02/image.jpg" alt="" width="530" height="206" srcset="https://www.cuinsight.com/wp-content/uploads/2019/02/image.jpg 530w, https://www.cuinsight.com/wp-content/uploads/2019/02/image-300x117.jpg 300w" sizes="(max-width: 530px) 100vw, 530px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://www.cuinsight.com/credit-unions-nationwide-step-up-during-government-shutdown.html" data-jpibfi-post-title="Credit unions nationwide step up during government shutdown" data-jpibfi-src="https://www.cuinsight.com/wp-content/uploads/2019/02/image.jpg" ></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The Credit Union Association of the Dakotas (CUAD) sent press releases and engaged social media outlining what credit unions were doing to help. Additionally, they issued a joint statement/press release with two North Dakota state bankers’ associations urging consumers to contact their local financial institution for assistance. CUAD CEO Jeff Olson testified on behalf of credit unions in the North Dakota State Legislature, which gave the opportunity to say firsthand what financial institutions were offering. In South Dakota, Olson and Jay Kruse, CUAD’s Chief Advocacy Officer, spent time on the floor educating lawmakers on the actions credit unions were taking to support their members.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The New Jersey Credit Union League reached out on multiple fronts. They used their existing communications vehicles and social media to run stories they generated. Additionally, they proactively encouraged their member credit unions to share their efforts in order to gather and promote them. Finally, the League included stories in their newsletter specifically targeted to lawmakers and reached out to elected officials as opportunities arose.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The Carolina’s Credit Union League’s Advocacy team injected the availability of credit union assistance into regular conversations with legislators.  They also tagged legislators on related social media posts which proved successful. For example, after posting about credit unions offering shutdown assistance on Facebook, their post was shared by SC Senate Majority Leader Shane Massey.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The Heartland Credit Union Association (Kansas and Missouri) heard directly from Congressman Emanuel Cleaver’s staff (D-MO District 5) when they reached out to the Association for help in highlighting how credit unions were helping in the Kansas City region. Together with Congresswoman Sharice Davids (D-KS District 3), Cleaver held a joint news conference promoting the groups that were helping government workers.  Credit union representatives joined the news conference and spoke about credit union assistance programs. The efforts garnered a lot of press coverage that helped get the word out.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The Maryland &amp; DC Credit Union Association (MDDCCUA) has strong relationships. That foundation gave them the platform to advise every member of the DC Council, Maryland General Assembly and our Congressional delegation of what credit unions were offering their constituents impacted by the shutdown. Because of their relationship with Congressman Anthony Brown (MD), the Association was invited to participate in a town hall for his constituents. The message spread from there, reaching other members of the delegation including Representatives Jamie Raskin and Dutch Ruppersberger.</span></li>
+</ul>
+<p><span style="font-weight: 400;">And these are just a few examples of league advocacy efforts yielding political support and promotion for credit unions nationwide!  If you’d like to know more about how your league advocated on your behalf during the shutdown, reach out to your league president, and I’m sure they will be more than happy to share.</span></p>
+<p><span style="font-weight: 400;">Credit unions across the nation rallied to do what is at the core of our movement, help members achieve financial stability. And our movement is poised to help yet again, should there be another need. It’s in our DNA. It’s what sets us apart. </span></p>
+																<div class="social-wrap inside">
+									<footer class="clearfix">
+									<aside class="mashsb-container mashsb-main "><div class="mashsb-box"><div class="mashsb-buttons"><a  class="mashicon-facebook mash-large mashsb-noshadow" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share</span></a><a  class="mashicon-twitter mash-large mashsb-noshadow" href="https://twitter.com/intent/tweet?text=Credit%20unions%20nationwide%20step%20up%20during%20government%20shutdown&url=https://www.cuinsight.com/?p=179127" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share</span></a><a  class="mashicon-linkedin mash-large mashsb-noshadow" href="https://www.linkedin.com/shareArticle?trk=Credit+unions+nationwide+step+up+during+government+shutdown&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share</span></a><div class="onoffswitch mash-large mashsb-noshadow"></div><div class="secondary-shares" style="display:none;"><a  class="mashicon-print mash-large mashsb-noshadow" href="http://www.printfriendly.com/print/?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;item=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Print</span></a><a  class="mashicon-mail mash-large mashsb-noshadow" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this article: https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Mail</span></a><a  class="mashicon-google mash-large mashsb-noshadow" href="https://plus.google.com/share?text=Credit+unions+nationwide+step+up+during+government+shutdown&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Google</span></a><a  class="mashicon-pinterest mash-large mashsb-noshadow" href="#" data-mashsb-url="http://www.pinterest.com/pin/create/bookmarklet/?pinFave=1&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;media=&amp;description=The+35-day+government+shutdown+affected+credit+union+members+across+the+country.+While+they+waited%2C+wondering+how+long+it+would+last%2C+businesses+and+other+organizations+jumped+in+to+assist+with+offers+of+free+meals%2C+services+and+%E2%80%A6" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Pinterest</span></a><a  class="mashicon-digg mash-large mashsb-noshadow" href="http://digg.com/submit?phase=2%20&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;title=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Digg</span></a><a  class="mashicon-reddit mash-large mashsb-noshadow" href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;title=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Reddit</span></a><a  class="mashicon-stumbleupon mash-large mashsb-noshadow" href="http://www.stumbleupon.com/submit?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Stumbleupon</span></a><a  class="mashicon-delicious mash-large mashsb-noshadow" href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;title=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Delicious</span></a><a  class="mashicon-buffer mash-large mashsb-noshadow" href="https://bufferapp.com/add?url=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;text=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Buffer</span></a><a  class="mashicon-tumblr mash-large mashsb-noshadow" href="https://www.tumblr.com/share?v=3&amp;u=https%3A%2F%2Fwww.cuinsight.com%2Fcredit-unions-nationwide-step-up-during-government-shutdown.html&amp;t=Credit+unions+nationwide+step+up+during+government+shutdown" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Tumblr</span></a><div class="onoffswitch2 mash-large mashsb-noshadow" style="display:none;"></div></div></div></div>
+                    <div style="clear:both;"></div></aside>
+            <!-- Share buttons made by mashshare.net - Version: 3.6.1-->									</footer>
+								</div>
+							</div>
+															<div class="contributor-details">
+								<div class="img"><a href="https://www.cuinsight.com/author/scott-earl"><img src="https://www.cuinsight.com/wp-content/uploads/2019/02/1-6-179x166.jpg" alt="Scott Earl"></a></div>
+								<div class="details">
+					<h3 class="name"><a href="https://www.cuinsight.com/author/scott-earl">Scott Earl</a></h3>
+					Scott Earl serves as the president and chief executive officer of the Mountain West Credit Union Association. This association is a combined entity comprising the Arizona Credit Union League, the ...										<em class="source">Web: <a href="http://www.mwcua.com">www.mwcua.com</a></em>
+										<a class="more" href="https://www.cuinsight.com/author/scott-earl"><span>Details</span></a>
+				</div>
+			</div>
+										</div>
+						<div class="related-articles add">
+							<div id="comments" class="comment-block">
+								<h4>Discussion</h4>
+								
+<div id="disqus_thread"></div>
+							</div>
+						</div>
+					</div>
+					<aside id="sidebar">
+						<h1 class="block-title ico-user">Recommended for you</h1>
+																																																						<article class="t-news">
+				<div class="img"><a title="8 characteristics of meaningful conversations" href="https://www.cuinsight.com/8-characteristics-of-meaningful-conversations.html"><img src="https://www.cuinsight.com/wp-content/uploads/2018/07/bigstock-218830597-353x167.jpg" alt="8 characteristics of meaningful conversations" width="353" height="167"></a>
+		</div>
+				<div class="body">
+			<div class="meta">
+				<time datetime="2019-02-22T09:00:07-05:00">February 22, 2019</time> – by B. Dan Berger, <a class=""  href="https://www.nafcu.org/berger-leadership-blog/8-characteristics-meaningful-conversations">Berger Leadership Blog</a>			</div>
+			<h2><a title="8 characteristics of meaningful conversations" href="https://www.cuinsight.com/8-characteristics-of-meaningful-conversations.html">8 characteristics of meaningful conversations</a></h2>
+		</div>
+	</article>
+		<div class="box-ad pop-up-1 advert"></div>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+var a = {"id":177944,"title":"PSCU Site-wide Pop-up (1) 2-19","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fpscu-site-wide-pop-up-1-2-19","partner":"PSCU","enc_title":"PSCU Site-wide Pop-up (1) 2-19","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/01\/1.png","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/01\/1.png","ad_url":"https%3A%2F%2Fwww.pscu.com%2Fmemberforum2019","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php"};insight.ads.push({"id":177944,"title":"PSCU Site-wide Pop-up (1) 2-19","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fpscu-site-wide-pop-up-1-2-19","partner":"PSCU","enc_title":"PSCU Site-wide Pop-up (1) 2-19","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/01\/1.png","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/01\/1.png","ad_url":"https%3A%2F%2Fwww.pscu.com%2Fmemberforum2019","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php"});	var timestamp = new Date().getTime();
+		var ptrn = '<a href="{1}" data-ad-type="pop-up-1" class="ad_redirect" target="_blank"><img src="{2}?timestamp='+timestamp+'" alt="" width="368" height="368" /></a>';
+	$(".box-ad.pop-up-1").html(ptrn.format(a.id, a.link_url+"?redirect_to="+a.ad_url+"&url="+a.url+"&title="+a.enc_title+"&partner="+a.partner+"&pid="+a.id, a.image));
+		ga('send', {'hitType': 'event', 'eventCategory': 'Ads', 'eventAction': 'Impression', 'eventLabel': a.title, 'eventValue': 1});
+	dataLayer.push({
+		'event':'ad_impression.insight'
+	});
+	$.get('https://track.cuinsight.com/track/?url='+a.url+'&q=&e_type=impression&c_type=ad&partner='+a.partner+'&cat=&sponsored=&pid='+a.id+'&title='+a.enc_title+'&u='+insight.user);
+});
+</script>
+									<article class="t-news">
+				<div class="img"><a title="Chief Marketing Officers looking for success and satisfaction, remember these 3 things" href="https://www.cuinsight.com/chief-marketing-officers-looking-for-success-and-satisfaction-remember-these-3-things.html"><img src="https://www.cuinsight.com/wp-content/uploads/2018/11/bigstock-124299773-353x167.jpg" alt="Chief Marketing Officers looking for success and satisfaction, remember these 3 things" width="353" height="167"></a>
+		</div>
+				<div class="body">
+			<div class="meta">
+				<time datetime="2019-02-22T03:30:12-05:00">February 22, 2019</time> – by <a class=""  href="https://www.cuinsight.com/author/greg-crandell">Greg Crandell</a>, <a class=""  href="http://queryconsultinggroup.com">Query Consulting Group</a>			</div>
+			<h2><a title="Chief Marketing Officers looking for success and satisfaction, remember these 3 things" href="https://www.cuinsight.com/chief-marketing-officers-looking-for-success-and-satisfaction-remember-these-3-things.html">Chief Marketing Officers looking for success and satisfaction, remember these 3 things</a></h2>
+		</div>
+	</article>
+			<div class="box-ad pop-up-2 advert"></div>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+var a = {"id":178203,"title":"CUNA Mutual Group Site-wide Pop-up (2) 2-19","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fcuna-mutual-group-site-wide-pop-up-2-2-19","partner":"CUNA Mutual Group","enc_title":"CUNA Mutual Group Site-wide Pop-up (2) 2-19","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0.jpg","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0.jpg","ad_url":"+https%3A%2F%2Fwww.cunamutual.com%2Flanding-pages%2Fcybersecurity-insights-gated%3Futm_source%3Dfinancialbrand%26utm_medium%3Ddigital+%26utm_campaign%3DCUP-Cyber_Inbound%26utm_content%3D300x288","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php"};insight.ads.push({"id":178203,"title":"CUNA Mutual Group Site-wide Pop-up (2) 2-19","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fcuna-mutual-group-site-wide-pop-up-2-2-19","partner":"CUNA Mutual Group","enc_title":"CUNA Mutual Group Site-wide Pop-up (2) 2-19","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0.jpg","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0.jpg","ad_url":"+https%3A%2F%2Fwww.cunamutual.com%2Flanding-pages%2Fcybersecurity-insights-gated%3Futm_source%3Dfinancialbrand%26utm_medium%3Ddigital+%26utm_campaign%3DCUP-Cyber_Inbound%26utm_content%3D300x288","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php"});	var timestamp = new Date().getTime();
+		var ptrn = '<a href="{1}" data-ad-type="pop-up-2" class="ad_redirect" target="_blank"><img src="{2}?timestamp='+timestamp+'" alt="" width="368" height="368" /></a>';
+	$(".box-ad.pop-up-2").html(ptrn.format(a.id, a.link_url+"?redirect_to="+a.ad_url+"&url="+a.url+"&title="+a.enc_title+"&partner="+a.partner+"&pid="+a.id, a.image));
+		ga('send', {'hitType': 'event', 'eventCategory': 'Ads', 'eventAction': 'Impression', 'eventLabel': a.title, 'eventValue': 1});
+	dataLayer.push({
+		'event':'ad_impression.insight'
+	});
+	$.get('https://track.cuinsight.com/track/?url='+a.url+'&q=&e_type=impression&c_type=ad&partner='+a.partner+'&cat=&sponsored=&pid='+a.id+'&title='+a.enc_title+'&u='+insight.user);
+});
+</script>
+								<article class="t-news">
+				<div class="img"><a title="Your lending culture may not allow you to attract deposits or relationships" href="https://www.cuinsight.com/your-lending-culture-may-not-allow-you-to-attract-deposits-or-relationships.html"><img src="https://www.cuinsight.com/wp-content/uploads/2018/01/bigstock-Businessman-s-hand-in-suit-tak-220987822-353x167.jpg" alt="Your lending culture may not allow you to attract deposits or relationships" width="353" height="167"></a>
+		</div>
+				<div class="body">
+			<div class="meta">
+				<time datetime="2019-02-22T03:15:55-05:00">February 22, 2019</time> – by <a class=""  href="https://www.cuinsight.com/author/paul-robert">Paul Robert</a>, <a class=""  href="http://fi-strategies.com">FI Strategies, LLC</a>			</div>
+			<h2><a title="Your lending culture may not allow you to attract deposits or relationships" href="https://www.cuinsight.com/your-lending-culture-may-not-allow-you-to-attract-deposits-or-relationships.html">Your lending culture may not allow you to attract deposits or relationships</a></h2>
+		</div>
+	</article>
+				<div class="box-ad pop-up-3 advert"></div>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+var a = {"id":178213,"title":"CUNA Site-wide Pop-up (3) 2-19","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fcuna-site-wide-pop-up-3-2-19","partner":"CUNA","enc_title":"CUNA Site-wide Pop-up (3) 2-19","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0-1-2.jpg","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0-1-2.jpg","ad_url":"http%3A%2F%2Fcuna.org%2Fescan%3Futm_source%3Dcu_insight%26utm_medium%3Dsw_pu3%28300x288%29%26utm_campaign%3Descan2019%26utm_content%3DMarch","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php"};insight.ads.push({"id":178213,"title":"CUNA Site-wide Pop-up (3) 2-19","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fcuna-site-wide-pop-up-3-2-19","partner":"CUNA","enc_title":"CUNA Site-wide Pop-up (3) 2-19","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0-1-2.jpg","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2019\/02\/0-1-2.jpg","ad_url":"http%3A%2F%2Fcuna.org%2Fescan%3Futm_source%3Dcu_insight%26utm_medium%3Dsw_pu3%28300x288%29%26utm_campaign%3Descan2019%26utm_content%3DMarch","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php"});	var timestamp = new Date().getTime();
+		var ptrn = '<a href="{1}" data-ad-type="pop-up-3" class="ad_redirect" target="_blank"><img src="{2}?timestamp='+timestamp+'" alt="" width="368" height="368" /></a>';
+	$(".box-ad.pop-up-3").html(ptrn.format(a.id, a.link_url+"?redirect_to="+a.ad_url+"&url="+a.url+"&title="+a.enc_title+"&partner="+a.partner+"&pid="+a.id, a.image));
+		ga('send', {'hitType': 'event', 'eventCategory': 'Ads', 'eventAction': 'Impression', 'eventLabel': a.title, 'eventValue': 1});
+	dataLayer.push({
+		'event':'ad_impression.insight'
+	});
+	$.get('https://track.cuinsight.com/track/?url='+a.url+'&q=&e_type=impression&c_type=ad&partner='+a.partner+'&cat=&sponsored=&pid='+a.id+'&title='+a.enc_title+'&u='+insight.user);
+});
+</script>
+							<article class="t-news">
+				<div class="img"><a title="Background videos are trendy in credit union website design. Should you get one?" href="https://www.cuinsight.com/background-videos-are-trendy-in-credit-union-website-design-should-you-get-one.html"><img src="https://www.cuinsight.com/wp-content/uploads/2019/02/1-2-1-353x167.jpg" alt="Background videos are trendy in credit union website design. Should you get one?" width="353" height="167"></a>
+		</div>
+				<div class="body">
+			<div class="meta">
+				<time datetime="2019-02-22T03:00:19-05:00">February 22, 2019</time> – by <a class=""  href="https://www.cuinsight.com/author/derik-krauss">Derik Krauss</a>, <a class=""  href="https://www.cuinsight.com/partner/bloomcu">BloomCU</a>			</div>
+			<h2><a title="Background videos are trendy in credit union website design. Should you get one?" href="https://www.cuinsight.com/background-videos-are-trendy-in-credit-union-website-design-should-you-get-one.html">Background videos are trendy in credit union website design. Should you get one?</a></h2>
+		</div>
+	</article>
+									<article class="t-news">
+				<div class="img"><a title="Creating value through leadership" href="https://www.cuinsight.com/creating-value-through-leadership.html"><img src="https://www.cuinsight.com/wp-content/uploads/2016/02/bigstock-Teamwork-Casual-Leadership-Bra-96626549-353x167.jpg" alt="Creating value through leadership" width="353" height="167"></a>
+		</div>
+				<div class="body">
+			<div class="meta">
+				<time datetime="2019-02-21T03:30:04-05:00">February 21, 2019</time> – by <a class=""  href="https://www.cuinsight.com/author/alisha-stair">Alisha Stair</a>, <a class=""  href="http://www.lscu.coop">League of Southeastern Credit Unions & Affiliates</a>			</div>
+			<h2><a title="Creating value through leadership" href="https://www.cuinsight.com/creating-value-through-leadership.html">Creating value through leadership</a></h2>
+		</div>
+	</article>
+										<div class="btn-wrap">
+							<a href="https://www.cuinsight.com/" class="btn">See all news</a>
+						</div>
+					</aside>
+				</div>
+												<div class="ad-hold fixed">
+	<div class="ad-block">
+		<span id="partner-banner-ad"></span>
+	</div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+var a = [{"id":157496,"title":"On the Mark Strategies Partner Leaderboard 2-18","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fmark-strategies-partner-leaderboard-2-18","partner":"On The Mark Strategies","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2018\/02\/otms_leaderboard_785x90.png","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2018\/02\/otms_partnermobile_320x90.png","ad_url":"http%3A%2F%2Fwww.markarnold.com%2Fstrategic-planning-tip-sheet%2F","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php","enc_title":"On the Mark Strategies Partner Leaderboard 2-18","ad_iframe_code":"","ad_mobile_iframe_code":""}];insight.ads.push([{"id":157496,"title":"On the Mark Strategies Partner Leaderboard 2-18","url":"https%3A%2F%2Fwww.cuinsight.com%2Fad%2Fmark-strategies-partner-leaderboard-2-18","partner":"On The Mark Strategies","image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2018\/02\/otms_leaderboard_785x90.png","mobile_image":"https:\/\/www.cuinsight.com\/wp-content\/uploads\/2018\/02\/otms_partnermobile_320x90.png","ad_url":"http%3A%2F%2Fwww.markarnold.com%2Fstrategic-planning-tip-sheet%2F","link_url":"https:\/\/www.cuinsight.com\/ad\/index.php","enc_title":"On the Mark Strategies Partner Leaderboard 2-18","ad_iframe_code":"","ad_mobile_iframe_code":""}]);	a = a[Math.floor((Math.random()*a.length))];
+	var timestamp = new Date().getTime();
+		var ptrn = '<a href="{1}" class="ad_redirect" target="_blank"><img src="{2}?timestamp='+timestamp+'" alt="" class="partner-banner-img desktop-ad" width="745" height="90" /><img src="{3}?timestamp='+timestamp+'" alt="" class="partner-banner-img mobile-ad" width="320" height="90" /></a>';
+	$("#partner-banner-ad").html(ptrn.format(a.id, a.link_url+"?redirect_to="+a.ad_url+"&url="+a.url+"&title="+a.enc_title+"&partner="+a.partner+"&pid="+a.id, a.image, a.mobile_image));
+		ga('send', 'event', {eventCategory: 'Ads', eventAction: 'Impression', eventLabel: a.title, eventValue: 1});
+	dataLayer.push({
+		'event':'ad_impression.insight'
+	});
+	$.get('https://track.cuinsight.com/track/?url='+a.url+'&q=&e_type=impression&c_type=ad&partner='+a.partner+'&cat=&sponsored=&pid='+a.id+'&title='+a.enc_title+'&u='+insight.user);
+});
+</script>				<div class="homepage-news">
+					<h3>More News</h3>
+					<div class="news-wrap">
+						<ul class="tabset home">
+	<li><a href="#the-latest" class="block-title ico-clock">Latest</a></li>
+	<li><a href="#trending" class="block-title ico-trend">trending</a></li>
+	<li class="active"><a href="#featured" class="block-title ico-star">featured</a></li>
+</ul>
+<div class="container tabcontent home">
+	<!-- sidebar of the page -->
+	<aside id="the-latest">
+		<section class="latest-post">
+			<header class="heading">
+				<h1 class="block-title ico-clock">The latest</h1>
+			</header>
+			<ul id="latest" class="news-list">
+							</ul>
+		</section>
+	</aside>
+	<!-- contain main informative part of the site -->
+	<div id="content">
+		<section class="trending" id="trending">
+			<h1 class="block-title ico-trend">What's trending</h1>
+					</section>
+		<section class="featured-news-wrap" id="featured">
+			<header>
+				<!-- <a href="#popup1" class="link-change lightbox">change source</a> -->
+				<h1 class="block-title ico-star">Featured</h1>
+			</header>
+					</section>
+	</div>
+	<script>
+		infiniteScrollElements.push(['featured', 2]);
+		infiniteScrollElements.push(['trending', 4]);
+		infiniteScrollElements.push(['latest', 11]);
+	</script>
+		<script type="text/javascript">
+		ga('send', 'pageview', '/?loaded_by_scroll');
+		dataLayer.push({
+			'event':'loaded_by_scroll.insight'
+		});
+	</script>
+	</div>					</div>
+				</div>
+			</main>
+		<div class="load"><span class="fa fa-circle-o-notch fa-spin"></span></div>
+		<!-- footer of the page -->
+				<footer id="footer">
+			<a href="#top" class="btn-top">Back to top</a>
+			<div class="container">
+				<div class="threecol">
+					<div class="col">
+						<!-- footer logo -->
+						<a class="footer-logo" href="https://www.cuinsight.com/">
+							<img src="https://www.cuinsight.com/wp-content/uploads/2017/06/cuinsight-logo-white-horizontal.png" alt="CUInsight">
+						</a>
+						<div class="text">
+							<h3>The Place For All Things Credit Union<sup>&trade;</sup></h3>
+							<span class="block"><a href="https://www.cuinsight.com/terms-of-service.html">Terms of Service</a> &nbsp; / &nbsp; <a href="https://www.cuinsight.com/copyright-use.html">Copyright</a></span>
+							<!-- copyright -->
+							<span class="block copyright">&copy; 2019 CUInsight. All Rights Reserved</span>
+							<!-- social networks -->
+							<ul class="social-networks">
+								<li><a href="https://www.facebook.com/CUinsight?ref=ts&fref=ts" class="fa fa-facebook" title="Facebook"></a></li>
+								<li><a href="https://twitter.com/CUinsight" class="fa fa-twitter" title="twitter"></a></li>
+								<li><a href="https://www.pinterest.com/cuinsight/" class="fa fa-pinterest" title="pinterest"></a></li>
+								<li><a href="https://plus.google.com/108259308001317434730/posts" class="fa fa-google-plus" title="google-plus"></a></li>
+								<li><a href="http://www.linkedin.com/groups/Credit-Union-Insight-CUInsightcom-4279962?trk=my_groups-b-grp-v" class="fa fa-linkedin" title="linkedin"></a></li>
+								<li><a href="https://instagram.com/cuinsight" class="fa fa-instagram" title="instagram"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col">
+						<h3>Get CUInsight delivered to your inbox.</h3>
+						<!-- newsletter form -->
+						<form method="GET" action="https://www.cuinsight.com/contact.html" class="newsletter-form">
+							<strong class="title">Pick your content. Pick your days. News...the way you want it.</strong>
+							<fieldset>
+								<div class="input-wrap">
+									<input type="submit" value="go">
+									<div class="input">
+										<input type="hidden" name="form_type" value="subscribe">
+										<input type="email" name="email" placeholder="Email address">
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<!-- footer nav -->
+					<nav class="col footer-nav">
+						<h3>More Info</h3>
+												<ul>
+							<li><a href="https://www.cuinsight.com/about.html">About</a></li>
+							<li><a href="https://www.cuinsight.com/contact.html?form_type=advertise">Advertise with us</a></li>
+							<li><a href="https://www.cuinsight.com/vendor-directory.html">Vendor Directory</a></li>
+							<li><a href="https://www.cuinsight.com/contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer-bottom">
+					<p>Powered by <a href="http://createlaunchlead.com" target="_blank">showcase marketing</a></p>
+				</div>
+			</div>
+		</footer>
+			</div>
+	<script>
+		jQuery(document).ready(function($){
+			$.get('https://track.cuinsight.com/track/?url=https%3A%2F%2Fwww.cuinsight.com'+encodeURIComponent(window.location.pathname)+'&q='+encodeURIComponent(window.location.search)+'&e_type=impression&c_type='+insight.contentType+'&partner='+insight.partner+'&cat='+insight.category+'&sponsored='+insight.sponsoredContent+'&pid='+insight.postID+'&title='+encodeURIComponent(insight.title)+'&u='+insight.user);
+		});
+	</script>
+		<div id="popup-box-gfcr-1" class="popupally-overlay-gfcr-1 popup-click-close-trigger-1"><div class="popupally-outer-gfcr-1"><div class="popupally-inner-gfcr-1"><div class="popupally-center-gfcr"><div class="desc-gfcr">Enter your name and email and <br />get the weekly newsletter... it's FREE!<p> </p></div><div class="logo-row-gfcr"><div class="clear-gfcr"></div><img class="logo-img-gfcr" src="" alt=""><div class="logo-text-gfcr"></div><div class="clear-gfcr"></div></div><form action="//cuinsight.us2.list-manage.com/subscribe/post?u=545376ea6f6579ed99b5e6e1b&amp;id=601789497f" popupally-popup="1" class="popupally-signup-form-ishdye content-gfcr" method="post"><input type="hidden" name="b_545376ea6f6579ed99b5e6e1b_601789497f" value=""/><input type="text" name="FNAME" class="field-gfcr" placeholder="Enter your first name here"/><input type="email"  name="EMAIL" class="field-gfcr" placeholder="Enter a valid email here"/><input type="submit" class="popupally-form-submit submit-gfcr" value="SUBSCRIBE" /></form><div class="privacy-gfcr">Your information will <b>NEVER</b> be shared or sold to a 3rd party.</div></div></div><div title="Close" class="popupally-close-gfcr popup-click-close-trigger-1"></div></div></div><script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"cuinsight"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.16"},"disqusIdentifier":"179127 https:\/\/www.cuinsight.com\/?p=179127","disqusShortname":"cuinsight","disqusTitle":"Credit unions nationwide step up during government shutdown","disqusUrl":"https:\/\/www.cuinsight.com\/credit-unions-nationwide-step-up-during-government-shutdown.html","postId":"179127"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jpibfi_options = {"hover":{"siteTitle":"CUInsight","image_selector":".jpibfi_container img","disabled_classes":"nopin;wp-smiley","enabled_classes":"","min_image_height":0,"min_image_height_small":0,"min_image_width":0,"min_image_width_small":0,"show_on":"[single]","disable_on":"122534,123126,139958,157302,157291,157303,157392,158885,158864,158886,158894,158895","show_button":"hover","button_margin_bottom":20,"button_margin_top":20,"button_margin_left":20,"button_margin_right":20,"button_position":"top-left","description_option":["img_title","img_alt","post_title"],"transparency_value":0.5,"pin_image":"old_default","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"","scale_pin_image":false,"pin_linked_url":true,"pinLinkedImages":true,"pinImageWidth":65,"pinImageHeight":41,"scroll_selector":"","support_srcset":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/plugins/jquery-pin-it-button-for-images/js/jpibfi.client.js?ver=3.0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashsb = {"shares":"0","round_shares":"1","animate_shares":"1","dynamic_buttons":"0","share_url":"https:\/\/www.cuinsight.com\/credit-unions-nationwide-step-up-during-government-shutdown.html","title":"Credit+unions+nationwide+step+up+during+government+shutdown","image":null,"desc":"The 35-day government shutdown affected credit union members across the country. While they waited, wondering how long it would last, businesses and other organizations jumped in to assist with offers of free meals, services and \u2026","hashtag":"","subscribe":"link","subscribe_url":"\/contact.html?form_type=subscribe","activestatus":"1","singular":"1","twitter_popup":"1","refresh":"1","nonce":"b153508185","postid":"179127","servertime":"1551068163","ajaxurl":"https:\/\/www.cuinsight.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/plugins/mashsharer/assets/js/mashsb.min.js?ver=3.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashnet = {"body":"Check out this article: ","subject":"I wanted you to see this site"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/plugins/mashshare-networks/assets/js/mashnet.min.js?ver=2.1.9'></script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-content/themes/cu-insight/library/js/colorbox/jquery.colorbox.min.js?ver=1.6.1'></script>
+<script type='text/javascript' src='https://www.cuinsight.com/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+	<script>window.jQuery || document.write('<script src="https://www.cuinsight.com/wp-content/themes/cu-insight/library/js/jquery-1.11.2.min.js"><\/script>')</script>
+	<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c72aa80101458dd"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6dc8c27d24","applicationID":"121519841","transactionName":"NFxUYhFRCkEAVEYIXA0Wd1UXWQtcTkRbD1QPXA==","queueTime":0,"applicationTime":516,"atts":"GBtXFFlLGU8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using redis 
+Database Caching 66/80 queries in 0.096 seconds using redis
+Application Monitoring using New Relic
+
+Served from: cuinsight.com @ 2019-02-24 18:16:03 by W3 Total Cache
+-->

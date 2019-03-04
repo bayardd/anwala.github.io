@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en" xml:lang="en"> <!--<![endif]-->
+   <head><script type="text/javascript">//<!--
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+//--></script><base href="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/" />
+      <meta charset="utf-8" />
+
+      <title>The Government Shutdown Put Thousands at Risk for Eviction by Amanda Abrams — YES! Magazine</title>
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+
+      <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1" />
+
+      <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+      <link rel="shortcut icon" type="image/x-icon" href="/++theme++yes.diazotheme/favicon.ico" />
+
+      <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+      
+      <script id="page_url"></script> 
+      
+      <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+      More info: h5bp.com/b/378 -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">
+
+	var disqus_url = "http://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/";
+
+</script><link rel="stylesheet" type="text/css" href="https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/collective.js.jqueryui.custom.min-cachekey-586fc469e804b9fe7d97d7606d84bce6.css" media="all" /><style type="text/css" media="all">@import url(https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/authoring-cachekey-b5db0c1d5d7b2d147441588950d534ff.css);</style><style type="text/css" media="all">@import url(https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/invisibles-cachekey-923331e0ef343ebf62bd8d4361e977a3.css);</style><style type="text/css">@import url(https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/contentlicensing-cachekey-2f998ed7cdae2102f7d50ed8c4b61c3c.css);</style><link rel="stylesheet" type="text/css" href="https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/++theme++yes.diazotheme/bootstrap/css/bootstrap.min.css" media="all" /><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700italic,700,600,600italic" media="all" /><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic" media="all" /><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all" /><link rel="stylesheet" type="text/css" href="https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/themeyes.diazothemecsspublic-cachekey-1e89edfe19ab1b7f75248a1b913dba93.css" media="all" /><link rel="stylesheet" type="text/css" href="https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/++theme++yes.diazotheme/css/yes.css" media="all" /><style type="text/css">@import url(https://www.yesmagazine.org/portal_css/YES%21%20Magazine%20Diazo%20theme/orderablereference-cachekey-218b09a7eb26b648b7dbc1eb89683946.css);</style><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/resourceplone.app.jquery-cachekey-83cde9b74ebe04d2c00317fb3e28ecf6.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/jquery-integration-cachekey-3c99369217659115e0675923a61f6a7e.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/resourcecarousel-cachekey-70e5c790fda0bd3f1b430411c01df9c7.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/resourceanalytics_config-cachekey-1cb4eca13977ad3502a50c14b8c7bb37.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/resourcesimplesocial-cachekey-31657d694e4b1cd5e36dba2bcaf35dcf.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/themeyes.diazothemejslibsmodernizr-2.0.6.min-cachekey-6ced813b2a98e7cd1c574e9aed772cb8.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/themeyes.diazothemejslibsjquery.twbsPagination.min-cachekey-45092c887ff37aad2cc6e72512798717.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/themeyes.diazothemejslibsSocialShare-cachekey-eabb5010acbe4b6f5595ac95622631cb.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/themeyes.diazothemejsscript-cachekey-865ba5f2c2a51b046b6d6253434570e3.js"></script><script type="text/javascript" src="https://www.yesmagazine.org/portal_javascripts/YES%21%20Magazine%20Diazo%20theme/orderablereference-cachekey-2cc9f617b7e693555c400da3b1e0c9ac.js"></script><meta name="DC.creator" content="Amanda Abrams" /><meta name="DC.format" content="text/html" /><meta name="DC.language" content="en" /><meta name="DC.date.modified" content="2019-02-15T11:12:26-08:00" /><meta name="DC.date.created" content="2019-02-06T13:13:06-08:00" /><meta name="DC.type" content="Article" /><meta name="DC.distribution" content="Global" /><meta name="description" content="Officials worried about the loss of trust after the longest shutdown in U.S. history put 1.1 million low-income households at risk of eviction." /><meta name="robots" content="ALL" /><meta name="distribution" content="Global" /><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@yesmagazine" /><meta property="og:url" content="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212" /><meta property="og:site_name" content="YES! Magazine" /><meta property="og:type" content="article" /><meta property="og:description" content="Officials worried about the loss of trust after the longest shutdown in U.S. history put 1.1 million low-income households at risk of eviction." /><meta property="og:title" content="The Government Shutdown Put Thousands at Risk for Eviction" /><meta property="fb:app_id" content="168677949836292" /><meta property="og:image" content="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/trustinpublichousing.jpg/@@images/image/feature" /><script type="application/ld+json">
+            {
+ "@context": "http://schema.org", 
+ "@type": "NewsArticle", 
+ "articleSection": "ECONOMY", 
+ "creator": [
+  "Amanda Abrams"
+ ], 
+ "datePublished": "2019-02-12T23:15:00Z", 
+ "headline": "The Government Shutdown Put Thousands at Risk for Eviction", 
+ "keywords": [
+  "ECONOMY", 
+  "Affordable Housing"
+ ], 
+ "thumbnailUrl": "https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/trustinpublichousing.jpg/@@images/image/preview", 
+ "url": "https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212"
+}
+        </script><script type="text/javascript"><!--
+              (function(i,s,o,g,r,a,m){
+              i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+              ga('set', 'anonymizeIp', true);
+              ga('create', 'UA-345401-6', 'auto');
+              ga('require', 'linkid', 'linkid.js');
+              ga('send', 'pageview');
+        --></script><script type="text/javascript">
+    /*<![CDATA[*/
+    jq(function() {
+        jq('a[href^="mailto"]').click(function () {
+            var email = jq(this).attr('href').replace('mailto:', '');
+        // universal analytics - E-mail
+            ga('send', 'event', 'External', 'E-mail', email);
+        });
+    });
+    /*]]>*/
+</script><script type="text/javascript">
+    /*<![CDATA[*/
+    // universal analytics - external
+    jq.expr[':'].external  = function(obj) {
+      return !obj.href.match(/^mailto:/) && !obj.href.match(/^javascript:/) && (obj.hostname != document.location.hostname);
+    };
+    jq(function() {
+        jq('a:external').click(function(){
+          ga('send', 'event', 'External', 'Link', jq(this).attr('href'));
+        });
+    });
+    /*]]>*/
+</script><script type="text/javascript">
+    /*<![CDATA[*/
+// universal analytics - download
+    jq(function() {
+        var extensions = ["avi", "css", "doc", "docx", "dmg", "eps", "exe", "jpg", "js", "mov", "mp3", "msi", "pdf", "png", "ppt", "pptx", "rar", "svg", "txt", "vsd", "vxd", "wma", "wmv", "xls", "xlsx", "zip"];
+        var extensionsPattern = new RegExp('\\.((' + extensions.join(')|(') + '))$$', 'g');
+        jq('a').filter(function () {
+            return this.href.match(extensionsPattern) || this.href.match(/\/at_download\//g);
+        }).click(function () {
+            ga('send', 'event', 'File', 'Download', jq(this).attr('href'));
+        });
+    });
+    /*]]>*/
+</script><script type="text/javascript">
+    jq(function() {
+        var sharePath = window.location.pathname.replace(/\/$/,'');
+        sharePath += '?icl=ShareBar_Art_UR&amp;ica=';
+        jq('#like-email').live('click', function() {
+            ga('send', 'pageview', sharePath + 'Share');
+        });
+        SimpleSocial.queue.push(function () {
+            FB.Event.subscribe('edge.create', function(response) {
+                ga('send', 'pageview', sharePath + 'FB_Like');
+            });
+            FB.Event.subscribe('edge.remove', function(response) {
+                ga('send', 'pageview', sharePath + 'FB_Unlike');
+            });
+        });
+    });
+</script><link rel="canonical" href="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212" /><link rel="shortcut icon" type="image/x-icon" href="https://www.yesmagazine.org/favicon.ico" /><link rel="apple-touch-icon" href="https://www.yesmagazine.org/touch_icon.png" /><script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+            }
+        });
+        </script><link rel="alternate" href="" title="RSS 1.0" type="application/rss+xml" /><link rel="alternate" href="https://feeds.feedburner.com/yes/most-recent-articles" title="Most Recent" type="application/rss+xml" /><link rel="alternate" href="https://feeds.feedburner.com/yes/peace-justice" title="Peace &amp; Justice" type="application/rss+xml" /><link rel="alternate" href="https://feeds.feedburner.com/yes/planet" title="Planet" type="application/rss+xml" /><link rel="alternate" href="https://feeds.feedburner.com/yes/new-economy" title="New Economy" type="application/rss+xml" /><link rel="alternate" href="https://feeds.feedburner.com/yes/people-power" title="People Power" type="application/rss+xml" /><link rel="alternate" href="https://feeds.feedburner.com/yes/happiness" title="Happiness" type="application/rss+xml" /><link rel="search" href="https://www.yesmagazine.org/@@search" title="Search this site" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" /><meta name="generator" content="Plone - http://plone.org" /><meta name="google-site-verification" content="D-swTPHf3ceP43dYgvW7wJATjR6OZ_Z--Y-wm7kQ2TY" /><meta name="msvalidate.01" content="DA355B70C969236324D132B644A05C20" /><meta name="y_key" content="f980e223a84dbfbc" />      
+      
+      <!-- js from Plone gets inserted here -->
+
+      </head>
+
+      <body data-responsejs="{ &#10;        &quot;create&quot;: [{ &#10;          &quot;prop&quot;: &quot;width&quot;,&#10;          &quot;prefix&quot;: &quot;min-width- r src&quot;,&#10;          &quot;breakpoints&quot;: [0, 420, 667, 768, 992]&#10;        }]&#10;      }" class="yes template-article_view portaltype-article site-yes section-peace-justice subsection-trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212 userrole-anonymous"><div id="edit-bar-wrapper">
+            <div id="portal-personaltools-wrapper">
+
+<p class="hiddenStructure">Personal tools</p>
+
+
+
+
+
+</div>
+            
+            <div class="visualClear"></div>
+          </div><div id="fb-root"></div><script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1750901785130514";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script><!-- Facebook Pixel Code --><!-- DO NOT MODIFY --><!-- End Facebook Pixel Code --><div class="container">
+        <div id="topbanner" class="hidden-xs center-block"></div>
+      </div><nav class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+              <a class="navbar-brand" href="https://www.yesmagazine.org"><div data-min-width-0="&lt;img src=&quot;/++theme++yes.diazotheme/img/yes/yes_logo_sm.png&quot; width=&quot;150&quot;&#10;              height=&quot;46&quot; alt=&quot;YES! Magazine logo&quot;/&gt;" data-min-width-667="&lt;img src=&quot;/++theme++yes.diazotheme/img/yes/yes_logo_lg.png&quot; width=&quot;356&quot; height=&quot;160&quot; /&gt;"><img width="356" src="/++theme++yes.diazotheme/img/yes/yes_logo_lg.png" height="160" alt="YES! Magazine" /></div></a>              
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topnav-collapse" title="toggle menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              
+              <button class="navbar-toggle navbar-search" type="button" data-toggle="collapse" data-target="#topsearchboxxs"><span class="sr-only">toggle search</span>
+                    <span class="fa fa-search fa-lg"> </span></button>
+              
+              <form id="topsearchboxxs" class="row collapse height mobile form-horizontal" role="search" action="@@search">
+                  <div class="form-group-sm" id="searchinputmobxs">
+                    <label class="sr-only" for="SearchableText">Search</label><!-- screen reader only -->
+                    <div class="col-xs-10"><input id="searchGadgetxs" class="form-control" name="SearchableText" placeholder="Search" autocomplete="off" size="30" /></div>
+                    <div class="col-xs-2 no-gutter-pad"><button class="navbar-toggle" style="float:none;margin:0;padding:4px" type="submit">Go</button></div>
+                  </div>
+              </form>
+
+            </div><!-- /navbar-header -->
+
+            <div class="collapse navbar-collapse row" id="topnav-collapse">
+
+              <!-- multiple nav sections within this div -->
+              <div id="navbar-top">
+
+                <a href="https://www.yesmagazine.org/issues/dirt"><div data-min-width-667="&lt;img src='https://www.yesmagazine.org/issues/dirt/image' alt='The Dirt Issue' title='' height='146' width='115' class='img-responsive' /&gt;" id="issuenavimg"></div></a>  
+
+
+                <ul id="issuenav" class="hidden-xs nav navbar-nav navbar-right navbar-stacked"><li class="list"><small><a href="https://www.yesmagazine.org/issues/dirt">Current Issue</a></small></li><li class="list"><small><a href="https://yesmagazine.secure.force.com/renewal/YES_NewGiftSub?ica=Gift_txt_GiveGifts_2for1&amp;icl=TopRight_80">Give a Gift</a></small></li><li class="list"><small><a href="https://store.yesmagazine.org/account/login">My Subscription</a></small></li></ul>
+
+                <ul id="topbuttonsnav" class="nav navbar-nav nav-tabs navbar-left"><li class="toptab"><a href="https://store.yesmagazine.org/subscribe/?ica=Subs_txt_SubscribeGetFreeIssue_15&amp;icl=TopRight_19">Subscribe</a></li><li class="toptab"><a href="https://store.yesmagazine.org/donate/?ica=Don_txt_DonateNow_multi&amp;icl=Footer_1667">Donate</a></li></ul>
+
+              </div>
+
+              <div id="navbar-bottom">
+
+                <div id="buttonsnavmobilewrapper" class="visible-xs">
+                  <ul id="topbuttonsnav" class="nav navbar-nav navbar-left col-xs-6"><li class="toptab"><a href="https://store.yesmagazine.org/subscribe/?ica=Subs_txt_SubscribeGetFreeIssue_15&amp;icl=TopRight_19">Subscribe</a></li><li class="toptab"><a href="https://store.yesmagazine.org/donate/?ica=Don_txt_DonateNow_multi&amp;icl=Footer_1667">Donate</a></li></ul>
+
+                  <ul id="topbuttonsnavmobile" class="visible-xs-block nav navbar-nav navbar-left col-xs-6">
+                    <li><a href="https://store.yesmagazine.org/newsletter/signup.php">Get YES! Emails</a></li>
+                    <li><a href="https://store.yesmagazine.org">Store</a></li>
+                  </ul>
+                </div>
+
+                <ul id="navmobilequick" class="visible-xs-block nav navbar-nav navbar-left col-xs-6">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/most-popular">Most Popular</a></li>
+                  <li><a id="mobilecurrentissue" href="https://www.yesmagazine.org/issues/dirt">Current Issue</a></li>
+                  <li><a href="/for-teachers">For Teachers</a></li>
+                  <li><a href="/about">About</a></li>
+                </ul>
+
+                <ul id="nav" class="nav navbar-nav navbar-left col-xs-6 col-sm-11">
+	    
+    	    <li>
+    	        <a href="https://www.yesmagazine.org/peace-justice" class="peace-justice">Peace &amp; Justice</a>
+    		</li>
+    	
+    	    <li>
+    	        <a href="https://www.yesmagazine.org/planet" class="planet">Planet</a>
+    		</li>
+    	
+    	    <li>
+    	        <a href="https://www.yesmagazine.org/new-economy" class="new-economy">New Economy</a>
+    		</li>
+    	
+    	    <li>
+    	        <a href="https://www.yesmagazine.org/people-power" class="people-power">People Power</a>
+    		</li>
+    	
+    	    <li>
+    	        <a href="https://www.yesmagazine.org/happiness" class="happiness">Happiness</a>
+    		</li>
+    	
+            
+	</ul>
+                <button id="search-toggle" type="button" class="hidden-xs icon" data-toggle="collapse" data-target="#topsearchbox"><img src="/++theme++yes.diazotheme/++theme++yes.diazotheme/img/yes/search_icon.png" alt="search" /></button>
+
+
+                <ul id="tertiarynav" class="hidden-xs nav navbar-nav navbar-right">
+                  <li><a href="/native-leadership">Native Leadership</a></li>
+                  <li><a href="https://issues.yesmagazine.org/">Digital Edition</a></li>
+                  <li><a href="/issues">Magazine Issues</a></li>
+                  <li><a href="/for-teachers">For Teachers</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="https://store.yesmagazine.org">Store</a></li>  
+                </ul>  
+              </div><!-- /navbar-bottom -->
+
+
+
+            </div><!-- /topnav-collapse -->
+
+
+          </div>
+
+         </nav><!--/navbar-default --><div id="container" class="container"><!-- span all 12 cols -->
+
+          <div id="phonebanner" class="visible-xs center-block"></div>
+
+
+                <div id="content-columns">  
+
+
+                  <div id="topsearchbox" class="hidden-xs collapse height">
+                    <button type="button" style="position:relative; top:-15px; right:25px" class="close" data-toggle="collapse" data-target="#topsearchbox"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <form class="form-inline center-block" role="search" action="https://www.yesmagazine.org/@@search">
+                      <div class="form-group">
+                        <label class="sr-only" for="searchGadget">Search</label><!-- screen reader only -->
+                        <input id="searchGadget" class="form-control" name="SearchableText" placeholder="Search" autocomplete="off" />
+                         <button class="btn btn-default" type="submit"><span class="fa fa-search fa-lg"></span></button>
+                      </div>
+                      <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+                    </form>
+
+                  </div>             
+                  
+                     <div id="center-column" class="col-md-8">
+
+                        <div id="main" role="main" class="icons-on"><dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+                           
+
+                                                       
+
+                          
+
+
+                          <!-- /#homepage-content -->
+
+                          <!-- /.leftcolborderedsection.row -->  
+
+                          <!-- /.row.leftcolborderedsection -->  
+
+
+
+                            <!-- /.leftcolborderedsection.row -->
+
+
+                          <!-- /.row.leftcolborderedsection -->                            
+
+
+                          <article>
+                            <div id="content" class="content">
+
+                              <header>
+                                <div class="row">
+                                  <div id="content-header" class="article-header col-sm-offset-1 col-sm-10">
+                                    <h1 id="content-title" class="article-title"> 
+            
+        <span class="" id="parent-fieldname-title-3bd117552c41489f8af7dbaaab91e24e">
+            The Government Shutdown Put Thousands at Risk for Eviction
+        </span>
+    
+        </h1>
+
+                                    <div id="content-description" class="article-description">
+            
+        <span class="" id="parent-fieldname-subheadline-3bd117552c41489f8af7dbaaab91e24e">
+            Officials worried about the loss of trust after the longest shutdown in U.S. history put 1.1 million low-income households at risk of eviction.
+        </span>
+    
+        </div>
+                                  </div>
+
+                                </div>
+
+                                <div id="article-lead-image-row" class="row">
+                                  <figure class="article-lead-image">
+                                    <img class=" img-responsive no-min" src="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/trustinpublichousing.jpg/image" alt="trustinpublichousing.jpg" height="840" width="1400" />
+                                    <figcaption class="caption col-sm-6">
+                                      <div class="col-sm-offset-1 col-sm-11"> <p>The Farragut Houses, a public housing project in Brooklyn, New York. <span>The 35-day government shutdown was especially distressing for those who depend on the federal government for their basic needs, including food and shelter.</span></p>
+<p><span>Photo by Spencer Platt/Getty Images</span></p></div>
+                                    </figcaption>  
+                                  </figure>
+                                </div>
+
+                                <div class="row">  
+                                  <aside class="col-sm-offset-1 col-sm-10">
+                                    <div id="content-sharebar" class="share-bar row">
+                                      <div class="like-block col-xs-3 col-sm-2 no-gutter-pad">
+                                        <a id="like-fb" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212">
+                                        <div data-min-width-0="&#10;                                          &lt;img class=&quot;like-button share&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_fb_on.png&quot;&#10;                                            width=&quot;35&quot; alt=&quot;Share on Facebook&quot; /&gt;" data-min-width-667="&#10;                                          &lt;img class=&quot;like-button share s_facebook&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_fb_on.png&quot;&#10;                                            alt=&quot;Share on Facebook&quot; width=&quot;40&quot; /&gt;"></div></a>
+                                        <div class="like-counter counter c_facebook"></div>
+                                      </div>
+                                      <div class="like-block col-xs-3 col-sm-2 no-gutter-pad">
+                                        <a id="like-twitter" target="_blank" href="https://twitter.com/intent/tweet?via=yesmagazine&amp;text=The Government Shutdown Put Thousands at Risk for Eviction&amp;url=https%3A//www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212">
+                                        <div data-min-width-0="&#10;                                          &lt;img class=&quot;like-button share&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_tw_on.png&quot;&#10;                                            width=&quot;35&quot; alt=&quot;Tweet this&quot; /&gt;" data-min-width-667="&#10;                                          &lt;img class=&quot;like-button share s_twitter&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_tw_on.png&quot;&#10;                                            alt=&quot;Tweet this&quot;  width=&quot;40&quot; /&gt;"></div></a>
+                                        <div class="like-counter counter c_twitter"></div>
+                                      </div>
+                                      <div class="like-block col-xs-3 col-sm-2 no-gutter-pad">
+                                        <a id="like-gplus" target="_blank" href="https://plus.google.com/share?url=https%3A//www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212">
+                                          <div data-min-width-0="&#10;                                          &lt;img class=&quot;like-button share&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_g+_on.png&quot;&#10;                                            width=&quot;35&quot; alt=&quot;Share on Google+&quot; /&gt;" data-min-width-667="&#10;                                          &lt;img class=&quot;like-button share s_plus&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_g+_on.png&quot;&#10;                                            alt=&quot;Share on Google+&quot; width=&quot;40&quot; /&gt;"></div></a>
+                                        <div class="like-counter counter c_plus"></div>
+                                      </div>
+                                      <div class="like-block col-xs-3 col-sm-2 no-gutter-pad">
+                                        <a id="like-email" rel="overlay" href="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/sendto_form?ica=Email_this"><div data-min-width-0="&#10;                                          &lt;img class=&quot;like-button share&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_email_on.png&quot;&#10;                                            width=&quot;35&quot; alt=&quot;Share in email&quot; /&gt;" data-min-width-667="&#10;                                          &lt;img class=&quot;like-button share&quot;&#10;                                            src=&quot;++theme++yes.diazotheme/img/yes/share_email_on.png&quot;&#10;                                            alt=&quot;Share in email&quot; width=&quot;40&quot;/&gt;"></div></a>
+                                      </div>
+                                    </div>
+                                  </aside>
+                                </div>
+
+                                <div class="row byline">
+                                  <div class="col-sm-offset-1 col-sm-10">
+                                    <span class="author" rel="author"><a class="articleAuthor" href="https://www.yesmagazine.org/@@also-by?author=Amanda+Abrams">Amanda Abrams</a></span> 
+                                    <time pubdate="" class="published updated" datetime="2014-02-16" title="February 16, 2014">posted Feb 12, 2019</time>
+                                  </div>
+                                </div>
+
+                              </header>   
+
+
+                              <div class="row">  
+                                <div id="story-content" class="col-sm-offset-1 col-sm-10">
+          
+        <div class="" id="parent-fieldname-text-3bd117552c41489f8af7dbaaab91e24e">
+            <p><img class="image-left img-responsive no-min" src="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212/LABELANALYSIS.jpg" alt="" />The 35-day government shutdown wreaked havoc on millions of Americans lives and livelihoods as fewer food inspections took place, parks went uncleaned, museums shut their doors, airport lines grew longer, and whole agencies ground to a halt. The experience was especially distressing for those who depend on the federal government for their basic needs, including food and shelter.</p>
+<p>Thousands of furloughed employees—many living paycheck to paycheck—found themselves in line for free meals at pop-up kitchens and food pantries.</p>
+<p>Recipients of SNAP assistance worried whether their monthly benefits would end.</p>
+<p>And contractors with the Department of Housing and Urban Development and their tenants agonized over what a shutdown meant for them.</p>
+<p>“We work really, really hard to have good relationships with local landlords. And if there’s the slightest hint that they won’t get their subsidy payments as promised, it erodes trust,” said Kurt Wiest, executive director of the Bremerton Housing Authority in Washington state. “And this program operates on trust.”</p>
+<div class="promotion-inset">
+    <p><a class="external-link" href="https://store.yesmagazine.org/product/yes-donation/?ica=Don_20190215&amp;icl=InArticle" target="_blank" title=""><img src="https://www.yesmagazine.org/89_montgomery_ad900pxwide1.jpg" alt="Become a Monthly Donor" class="image-inline" title="Become a Monthly Donor" /></a></p>
+</div>
+<p>Now that the shutdown is over—at least for now—HUD spokespeople are claiming that the stoppage had no impact on tenants in federal housing programs. Technically, that’s true; in the end, no one receiving a housing subsidy lost their home.</p>
+<p>But as Wiest’s comment illustrates, the government’s halt brought a deep sense of apprehension to groups across the housing sector, causing collateral damage to relationships founded on the belief that the government pays its bills and issues its contracts on time.</p>
+<p>That breach of trust could take years to rectify.</p>
+<p>But with the possibility of another shutdown in mid-February looming, residents, employees, and service providers all said they’re on pins and needles as they try to move fully forward with business as usual, unsure of what will happen come Feb. 15, when the government’s continuing resolution expires.</p>
+<p>HUD directors appeared to have been caught flat-footed by the shutdown. Federal contracts for Section 8 Project-Based Rental Assistance properties, for example, began expiring soon after government programs formally were suspended. Those privately owned housing developments typically require residents to pay 30 percent of their incomes in rent, and the rest is covered by HUD. By the end of December, <a class="external-link" href="https://www.washingtonpost.com/business/economy/its-like-the-real-life-hunger-games-in-america-shutdown-threatens-huds-protections-for-vulnerable/2019/01/24/68d2df2a-1b2d-11e9-9ebf-c5fed1b7a081_story.html" target="_self" title=""> 650 HUD contracts with property owners failed to be renewed</a>, affecting approximately 21,500 units—two-thirds of which are housing for the elderly or people with disabilities. Another 1,500 contracts expired last month.</p>
+<p>What that means is that property owners weren’t getting paid a full month’s rent for their units from HUD. In response, some owners began demanding their low-income residents come up with the full rent—or else. Almost 40,000 households were at risk of eviction.</p>
+<p>Luckily, said Susan Popkin, a housing analyst at the Urban Institute, news of the demands made the media and the landlords backed down. “As far as I know, there were no actual evictions,” she said. Still, “it was a real threat to very vulnerable people: seniors and people with disabilities. A lot of people were very scared and stressed,” she added.</p>
+<p>Public housing authorities, which are responsible for 1.1 million low-income households, had enough operating reserves to last through the end of February. But as the shutdown lingered, many housing authority directors started to worry about running out of money.</p>
+<p>Some began to cut extraneous initiatives, such as programs to help public housing residents get on their feet. Others, like Mark Gillett, director of the Oklahoma City Housing Authority, reduced staff to part-time hours in order to save precious funds.</p>
+<p>“Housing authorities don’t have a lot of reserves, so we can’t run at full operation for very long” without funding, Gillett said.</p>
+<p>And because public housing authorities’ capital funds hadn’t been allocated before the shutdown began, directors were unable to make crucial repairs to complexes or fix up units when residents moved out.</p>
+<p>Agreements to build more affordable housing using low-income housing tax credits were also affected by the shutdown. “Developers couldn’t actually close their deals because no one was at HUD to continue processing their transactions,” said Adrianne Todman, executive director of the National Association of Housing and Redevelopment Officials. In some cases, the complicated agreements were simply delayed. In others, said Todman, “some had a specific time frame and reached the point of no return and lost their LIHTC status.”</p>
+<p>But HUD’s Section 8 Housing Choice Voucher program arguably took the biggest hit. Like public housing, the voucher program was funded through Feb. 28. However, just in case, many housing authorities, which administer the program, closed their waiting lists and refused to issue new vouchers until the government reopened.</p>
+<p>As the shutdown continued, housing authority directors began to fret.</p>
+<p>Soon, they’d be unable to cover the vouchers, and worried that tenants might lose their homes. “There is a provision in the law saying if a housing assistance payment isn’t paid, it shouldn’t be grounds for eviction,” Gillett said. “But it’s never been tested.”</p>
+<p>The greatest concern, though, was a big-picture one. Housing authorities are always looking to expand the number of landlords who accept housing choice vouchers; it’s not mandatory, and there are never enough homes for all the voucher holders out there. For a landlord, being tied to the government requires a fair amount of red tape, and the only real upside is the rent check that reliably appears at the first of the month.</p>
+<p>What would happen to the program’s reputation if that check failed to arrive?</p>
+<p>“Just the prospect of payments not being made will have a very disruptive impact—will the federal government contract be honored?” asked Sunia Zaterman, executive director of the Council of Large Public Housing Authorities. That’s particularly a concern in tight rental markets, where the demand for apartments is intense; some rental property owners may decide to abandon the voucher program for the private market.</p>
+<p>And with the threat of another shutdown hovering, those qualms are magnified—for landlords, but also for housing authority directors and residents. Across the board, there is considerable worry and tension about what will happen next.</p>
+<p>On Feb. 1, HUD sent out a letter to all housing authorities informing them that its housing programs would be funded for March and April. That is, Section 8 Project Based properties, public housing complexes, and Section 8 Housing Choice Vouchers would be fully covered until the end of April.</p>
+<p>“But what about May?” Wiest asked. “The uncertainty that we were dealing with regarding the last shutdown—we would like to have some assurance that things will continue as they’ve been operating for the last 40 years.” After all, no one thought the last shutdown would last as long as it did. If there’s another one, there’s no telling how long it could last.</p>
+<p>If it does, the real losers will be residents who use housing subsidies. And they’re already shaken.</p>
+<p>“Individuals like me who live in public housing or Section 8, it’s hard to know how our housing is being affected by the shutdown, because [government officials] won’t talk about it,” said Victoria Hilt, a public housing resident in Bremerton. “Will we get kicked out of our homes? Nobody talks about it “[so] we live in uncertainty.”</p>
+<p>That doubt is magnified for those residents on fixed incomes who receive other government benefits, she said. For example, many will cut down on paying bills in order to ensure that they have enough cash to buy food if their food stamps are canceled.</p>
+<p>Hilt, who has a 7-year-old daughter, says she’s frustrated with the paralysis in government.</p>
+<p>“What the common individual wants is a solution, even if it’s not picture-perfect,” she says. "I’d much rather have a solution than uncertainty … Everyone wouldn’t be happy, but there’d be one.”</p>
+            
+        </div>
+    
+        </div><!-- /#story-content -->
+                            </div><!-- /.row -->
+
+
+                          </div><!-- /#content -->
+
+                          <footer>
+                            <div class="row below-content-newsletter-wrapper" style="padding-bottom: 30px;">  
+				<span class="col-sm-offset-1 col-sm-10" style="color: #b2382a;font-size: 18px;font-weight: bold">No Paywall. No Ads. Just Readers Like You.<br />
+                                <span style="font-size: 16px;color: #000000;padding-left: 10px">You can help fund powerful stories to light the way forward.</span><br />
+                                <a class="external-link" style="color: #b2382a;font-size: 18px;font-weight: bold;padding-left: 10px" href="https://store.yesmagazine.org/donate/?ica=Donate&amp;icl=ArticleEnd">Donate Now.</a></span>
+
+                              <aside class="col-sm-offset-1 col-sm-10">
+                                <div id="below-content-newsletter" class="row">
+                                  <div>
+                                    <iframe id="bottom-newsletter-signup" class="NewsletterFrame" src="https://tfaforms.com/4627125" height="420" width="300" frameborder="0"></iframe>
+                                  </div>
+                                </div>
+                              </aside>
+                            </div>
+
+                            <div id="article-attribution"><div class="vcard row"><address rel="author" class="author"><div class="article-author-photo col-sm-offset-1 col-xs-4 col-sm-2"><a rel="author" class="url"><img class="photo img-responsive" width="78" height="93" src="resolveuid/8fefaba1f6734209b8d3b60ea8df2cc9" alt="" title="" /></a></div><div id="article-attribution" class="col-xs-8">Amanda Abrams <span>wrote this article for </span><a class="external-link" href="http://yesmagazine.org/" target="_self" title="">YES! Magazine</a><span>. </span><span>Amanda is a freelance journalist based in Durham, North Carolina. Learn more about her at </span><a href="http://amandaannabrams.com/" target="_blank">amandaannabrams.co</a></div></address></div></div>
+
+                            <!-- <div class="row paging">
+                              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-7 col-sm-4">
+                                <ul id="pagination" class="pagination" data-total-pages="4"></ul>
+                                <div><a href="javascript:void(0);">View as single page</a></div>
+                                <noscript>
+                                  <a rel="next" href="#">Next page</a>
+                                </noscript>  
+                              </div>
+                            </div> -->
+
+                          <div class="flexcontainer">
+
+                          <div class="row">  
+                            <aside class="col-sm-offset-1 col-sm-10">
+                            <div id="below-content-sharebar" class="share-bar row">
+                              <!-- jquery fill in with html from above share-bar -->  
+                            </div>
+
+                            </aside>
+                          </div>
+
+                            <div class="row" id="belowcontentportlets">
+                              <!-- below content portlets -->
+                              
+                            </div>                            
+
+
+                            
+
+                            <aside class="more-on-topic row">
+                              <div class="no-gutter-pad col-xs-offset-0.5 col-xs-11">
+                                <div data-min-width-0="&#10;                                &lt;header&gt;&lt;h5&gt;Read More&#10;                                " data-min-width-667="&lt;header&gt;&lt;h6&gt;Read More&lt;/h6&gt;&lt;/header&gt;"></div>
+                                <!-- more from topic -->
+                                <div class="row"><div class="more-item col-xs-10 col-sm-4"><figure><a href="https://www.yesmagazine.org/new-economy/how-to-respond-when-someone-you-love-asks-for-money-20181211"><div class="hidden-xs" data-min-width-667="&lt;img src='//www.yesmagazine.org/new-economy/how-to-respond-when-someone-you-love-asks-for-money-20181211/money-help.jpg/@@images/45cd7243-8e67-4332-a584-566bf727838e.jpeg' height='454' width='758' class='img-responsive no-min' class='img-responsive' /&gt;"></div></a><figcaption><a href="https://www.yesmagazine.org/new-economy/how-to-respond-when-someone-you-love-asks-for-money-20181211" class="state-published" title="Tips for preserving your boundaries and other people’s dignity.">Money Talks: How to Make Those Hard Conversations Easier</a></figcaption></figure></div><div class="more-item col-xs-10 col-sm-4"><figure><a href="https://www.yesmagazine.org/peace-justice/what-really-helps-the-unemployed-find-full-time-jobs-20180510"><div class="hidden-xs" data-min-width-667="&lt;img src='//www.yesmagazine.org/peace-justice/what-really-helps-the-unemployed-find-full-time-jobs-20180510/work-jobs-unemployment.jpg/@@images/38bc49c8-4aa6-44a6-8348-816929df5f92.jpeg' height='454' width='758' class='img-responsive no-min' class='img-responsive' /&gt;"></div></a><figcaption><a href="https://www.yesmagazine.org/peace-justice/what-really-helps-the-unemployed-find-full-time-jobs-20180510" class="state-published" title="Social safety net programs need more money, not less, for a work requirement program to succeed.">What Really Helps the Unemployed Find Full-Time Jobs</a></figcaption></figure></div><div class="more-item col-xs-10 col-sm-4"><figure><a href="https://www.yesmagazine.org/people-power/confronting-the-great-american-myth-20190201"><div class="hidden-xs" data-min-width-667="&lt;img src='//www.yesmagazine.org/people-power/confronting-the-great-american-myth-20190201/freedom.jpg/@@images/c7161be9-7c88-48c7-b1f7-015d4d89f4fd.jpeg' height='454' width='758' class='img-responsive no-min' class='img-responsive' /&gt;"></div></a><figcaption><a href="https://www.yesmagazine.org/people-power/confronting-the-great-american-myth-20190201" class="state-published" title="The founders of the United States have the society they wanted—one that keeps people like them in power.">Confronting the Great American Myth</a></figcaption></figure></div></div>
+
+                              </div>
+                            </aside> 
+
+                            <aside class="row disqus">
+                              <div class="col-sm-offset-0.5 col-sm-11">
+                                <header>
+                                  <div data-min-width-0="&#10;                                  &lt;h4 class=&quot;toggler centered-text&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#disqus_thread&quot;&gt;Comment on This Article&#10;                                  &lt;!-- &lt;span class=&quot;fa fa-caret-right fa-lg&quot;&gt;&lt;/span&gt; --&gt;&lt;/h4&gt;" data-min-width-667="&#10;                                  &lt;h4&gt;Comment on This Article&lt;/h4&gt;"></div>
+                                </header>
+                                <div id="disqus_thread" class="collapse collapse-mobile"></div>
+                                <div id="disqus_thread_wrapper">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">var disqus_identifier='3bd117552c41489f8af7dbaaab91e24e';var disqus_url='https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212';var disqus_shortname='yesmagazine';var disqus_title='The Government Shutdown Put Thousands at Risk for Eviction';</script>
+    <script type="text/javascript">
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+        <span>Please enable JavaScript to view</span>
+            <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+                                <noscript>Please enable JavaScript to view the comments powered by
+                                  <a href="https://disqus.com/?ref_noscript=yesmagazine">Disqus</a>.</noscript>
+                                <!-- <footer>       
+                                  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                </footer> -->
+                              </div>  
+                            </aside>  
+                          </div><!-- /.flexcontainer -->
+
+                          </footer>
+
+                        </article>
+
+                      </div><!-- /#main -->
+                      
+                       
+                     </div><!-- /#center-column -->
+                     
+                      <div id="right-column" class="col-md-4">
+
+                        <aside id="right-column-content">
+
+                          <div id="rightcolcolumns">
+
+                            <div class="yestagline row hidden-xs hidden-sm">
+                              <div class="no-gutter-pad col-sm-offset-1 col-sm-10">
+                                Nonprofit.  Independent.  <span style="white-space:nowrap">Reader-supported.</span>
+                              </div>
+                            </div>
+
+                            <iframe id="sidebar-newsletter-signup" class="hidden-xs hidden-sm NewsletterFrame" src="https://tfaforms.com/4627125" height="420" width="300" frameborder="0"></iframe>
+
+                            <div class="share-bar follow-bar rightcolborderedsection row">
+                              <div class="no-gutter-pad col-md-offset-1 col-md-10">
+                                <div class="row">
+                                    <div class="col-xs-5 col-md-12">
+                                      <h4><big>Follow Us</big></h4>
+                                    </div>  
+                                    <div class="like-block col-xs-2 col-md-4 no-gutter-pad centered-text">
+                                      <a href="https://facebook.com/yesmagazine"><img src="/++theme++yes.diazotheme/img/yes/follow_fb.png" width="46" height="42" alt="Like us on Facebook" />
+                                      </a>
+                                      <div class="like-counter counter f_facebook"></div>
+                                    </div>
+                                    <div class="like-block col-xs-2 col-md-4 no-gutter-pad centered-text">
+                                      <a href="https://twitter.com/intent/user?screen_name=yesmagazine"><img src="/++theme++yes.diazotheme/img/yes/follow_tw.png" width="46" height="42" alt="Follow us on Twitter" />
+                                      </a>
+                                      <div class="like-counter counter f_twitter"></div>
+                                    </div>
+                                    <div class="like-block col-xs-2 col-md-4 no-gutter-pad centered-text">
+                                      <a href="https://plus.google.com/+yesmagazine/posts"><img src="/++theme++yes.diazotheme/img/yes/follow_g+.png" width="46" height="42" alt="Plus One us on Google+" />
+                                      </a>
+                                      <div class="like-counter counter f_plus"></div>
+                                    </div>
+                                  </div>                                  
+                              </div> 
+                            </div>  
+
+
+                            <div class="hidden-xs hidden-sm tabbedportlets rightcolborderedsection row">
+                              <div class="col-md-offset-1 col-md-10 no-gutter-pad">
+
+                                <ul class="nav nav-tabs" role="tablist">
+                                  <li id="tab-most-popular" class="active"><a href="#mostpopular" role="tab" data-toggle="tab">Most Popular</a></li>
+                                  <li id="tab-most-recent"><a href="#mostrecent" role="tab" data-toggle="tab">Most Recent</a></li>
+                                </ul>
+
+                                <div class="tab-content">
+
+                                  <div class="tab-pane active" id="mostpopular">
+                                    <ol>
+        
+            <li class="tileItem visualIEFloatFix vevent article-title">
+             <a class="internal-link" href="https://www.yesmagazine.org/issues/dirt/how-removing-asphalt-is-softening-our-cities-20190218">How Removing Asphalt Is Softening Our Cities</a><br />
+
+             
+            </li>
+    
+        
+            <li class="tileItem visualIEFloatFix vevent article-title">
+             <a class="internal-link" href="https://www.yesmagazine.org/peace-justice/finding-reparations-in-an-unlikely-industry-weed-shop-owners-20190215">Finding Reparations in an Unlikely Industry</a><br />
+
+             
+            </li>
+    
+        
+            <li class="tileItem visualIEFloatFix vevent article-title">
+             <a class="internal-link" href="https://www.yesmagazine.org/new-economy/bill-mcKibben-climate-change-is-scary-not-the-green-new-Deal-aoc-20190214">Bill McKibben: Climate Change Is Scary—Not the Green New Deal</a><br />
+
+             
+            </li>
+    
+        
+            <li class="tileItem visualIEFloatFix vevent article-title">
+             <a class="internal-link" href="https://www.yesmagazine.org/people-power/california-decision-aims-to-end-aggressive-policing-in-schools-20190214">California Decision Aims to End Aggressive Policing in Schools</a><br />
+
+             
+            </li>
+    
+        
+            <li class="tileItem visualIEFloatFix vevent article-title">
+             <a class="internal-link" href="https://www.yesmagazine.org/issues/dirt/by-reconnecting-with-soil-we-heal-the-planet-and-ourselves-20190214">By Reconnecting With Soil, We Heal the Planet and Ourselves</a><br />
+
+             
+            </li>
+    
+        <span class="portletBottomLeft"></span>
+        <span>
+            <a href="https://www.yesmagazine.org/most-popular">
+               <span>More…</span>
+            </a>
+        </span>
+        <span class="portletBottomRight"></span>
+    </ol>
+                                  </div><!-- /#mostpopular -->
+
+                                  <div class="tab-pane" id="mostrecent">
+                                    <ul class="list-unstyled">
+        <li><a href="https://www.yesmagazine.org/planet/the-new-eat-lancet-planetary-health-diet-promises-to-save-the-earth-so-i-tried-it-for-a-week-20190222" class="tile contenttype-article" title="We know the broad strokes: Less meat, more beans. But true sustainability also means considering the practical realities of eating.">
+            The New Planetary Health Diet Promises to Save the Earth. So I Tried It for a Week
+            
+        </a></li>
+    
+        <li><a href="https://www.yesmagazine.org/planet/after-40-years-of-government-inaction-on-climate-have-we-finally-turned-a-corner-20190222" class="tile contenttype-article" title="Policy expert Gus Speth talks about Our Children’s Trust’s lawsuit, explaining the U.S.’s longtime knowledge of climate change even as it pushed fossil fuels. But now we've got a fighting chance.">
+            After 40 Years of Government Inaction on Climate, Have We Finally Turned a Corner?
+            
+        </a></li>
+    
+        <li><a href="https://www.yesmagazine.org/peace-justice/social-media-offers-a-new-teaching-tool-for-black-history-20190221" class="tile contenttype-article" title="Race Women on Instagram spotlights generations of Black women trailblazers.">
+            Social Media Offers a New Teaching Tool for Black History
+            
+        </a></li>
+    
+        <li><a href="https://www.yesmagazine.org/issues/dirt/22-race-related-films-that-will-make-you-laugh-cry-and-think-differently-20190221" class="tile contenttype-article" title="Research has shown that certain movies have caused social justice change, or simply inspired good things to happen.">
+            22 Race-Related Films That Will Make You Laugh, Cry, and Think Differently
+            
+        </a></li>
+    
+        <li><a href="https://www.yesmagazine.org/people-power/when-18-year-olds-were-too-immature-to-vote-20190220" class="tile contenttype-article" title="It took a long time, and a lot of activism. But the shift in public opinion wasn’t led by legislators or think tanks or journalists. It was led by young people.">
+            How Young People Became Politically Powerful and Won the Vote
+            
+        </a></li>
+    
+        <span class="portletBottomLeft"></span>
+        <span>
+        <li><a href="https://www.yesmagazine.org/recent-changes">
+           <span class="hiddenStructure">Most Recent - </span>
+           <span>More…</span>
+        </a></li>
+        </span>
+        <span class="portletBottomRight"></span>
+    </ul>
+                                  </div><!-- /#mostrecent -->
+
+                                </div><!-- /.tab-content -->
+
+                              </div><!-- /.tabbedportlets -->  
+                            
+                            </div><!-- /.col-sm-10 -->
+                             
+
+                            <div id="voicesfromyes" class="hidden-xs hidden-sm row rightcolborderedsection">
+                              <div class="no-gutter-pad col-md-offset-1 col-md-10">
+                                <h4 class="dog-eared">Voices from YES!</h4>
+
+                                <div id="voices-rows"><div class="media"><a class="pull-left" href="https://www.yesmagazine.org/@@also-by?author=Zenobia+Jeffries+Warfield"><img class="media-object" src="https://www.yesmagazine.org/portal_memberdata/portraits/zjeffries" alt="Zenobia Jeffries Warfield" /></a><div class="media-body"><h5 class="media-heading"><a href="https://www.yesmagazine.org/@@also-by?author=Zenobia+Jeffries+Warfield">Zenobia Jeffries Warfield</a></h5><a class="pull-left" href="https://www.yesmagazine.org/issues/dirt/22-race-related-films-that-will-make-you-laugh-cry-and-think-differently-20190221">22 Race-Related Films That Will Make You Laugh, Cry, and Think Differently</a></div></div><div class="media"><a class="pull-left" href="https://www.yesmagazine.org/@@also-by?author=Chris+Winters"><img class="media-object" src="https://www.yesmagazine.org/portal_memberdata/portraits/cwinters" alt="Chris Winters" /></a><div class="media-body"><h5 class="media-heading"><a href="https://www.yesmagazine.org/@@also-by?author=Chris+Winters">Chris Winters</a></h5><a class="pull-left" href="https://www.yesmagazine.org/people-power/a-vision-of-a-new-america-emerges-from-the-carnage-state-of-the-union-sotu-20190205">Abrams Counters Trump With a Compelling Vision for America</a></div></div><div class="media"><a class="pull-left" href="https://www.yesmagazine.org/@@also-by?author=Deonna+Anderson"><img class="media-object" src="https://www.yesmagazine.org/portal_memberdata/portraits/danderson" alt="Deonna Anderson" /></a><div class="media-body"><h5 class="media-heading"><a href="https://www.yesmagazine.org/@@also-by?author=Deonna+Anderson">Deonna Anderson</a></h5><a class="pull-left" href="https://www.yesmagazine.org/peace-justice/social-media-offers-a-new-teaching-tool-for-black-history-20190221">Social Media Offers a New Teaching Tool for Black History</a></div></div><div class="media"><a class="pull-left" href="https://www.yesmagazine.org/@@also-by?author=David+Korten"><img class="media-object" src="https://www.yesmagazine.org/portal_memberdata/portraits/davidk" alt="David Korten" /></a><div class="media-body"><h5 class="media-heading"><a href="https://www.yesmagazine.org/@@also-by?author=David+Korten">David Korten</a></h5><a class="pull-left" href="https://www.yesmagazine.org/people-power/the-plutocracy-we-have-vs-the-democracy-most-americans-want-20190207">Capitalism vs. Socialism Is a False Choice</a></div></div><div class="media"><a class="pull-left" href=""><img class="media-object" src="" alt="" /></a><div class="media-body"><h5 class="media-heading"><a href=""></a></h5><a class="pull-left" href=""></a></div></div></div><!-- /#voices-rows -->
+                              </div> 
+
+
+                            </div>  
+
+                          </div><!-- /#rightcolcolumns -->
+
+                        
+                        
+            
+                
+<div id="" class="hidden-xs hidden-sm row rightcolborderedsection"><div class="portletStaticText portlet-static-standing-rock no-gutter-pad col-md-offset-1 col-md-10"><div class="portletStaticText portlet-static-standing-rock"><p><a title="" href="https://www.yesmagazine.org/native-leadership" class="external-link" target="_self"><img src="https://www.yesmagazine.org/copy2_of_PortalImageBig.jpg" alt="Standing Rock 267" class="image-inline" title="Standing Rock 267" /></a></p></div></div></div>
+
+
+
+
+
+
+
+<div id="" class="hidden-xs hidden-sm row rightcolborderedsection"><div class="portlet portletStaticText portlet-static-jobs-at-yes no-gutter-pad col-md-offset-1 col-md-10"><h4 class="dog-eared">
+        
+        
+           Jobs at YES!
+        
+        
+    </h4><dd class="portletItem odd">
+        <p><a title="" href="https://www.yesmagazine.org/about/editor-in-chief" class="external-link" target="_self"> </a></p>&#13;
+<ul>&#13;
+<li><a title="" href="https://www.yesmagazine.org/about/editor-in-chief" class="external-link" target="_self">Editor in Chief</a></li>&#13;
+</ul>
+        
+            <span class="portletBottomLeft"></span>
+            <span class="portletBottomRight"></span>
+        
+    </dd></div></div>
+
+<div id="" class="hidden-xs hidden-sm row rightcolborderedsection"><div class="portletStaticText portlet-static-3-ways no-gutter-pad col-md-offset-1 col-md-10"><div class="portletStaticText portlet-static-3-ways"><p><a class="external-link" href="https://store.yesmagazine.org/donate" target="_self" title=""><img src="https://www.yesmagazine.org/copy_of_SupportSidebarPortlet_v41.jpg" alt="Donate" class="image-inline" title="Donate" /></a><a class="external-link" href="https://store.yesmagazine.org/subscribe" target="_self" title=""><img src="https://www.yesmagazine.org/SupportSidebarPortlet_v4215.jpg" alt="Subscribe to YES!" class="image-inline" title="Subscribe to YES!" /></a><a class="external-link" href="https://yesmagazine.secure.force.com/renewal/YES_NewGiftSub" target="_self" title=""><img src="https://www.yesmagazine.org/SupportSidebarPortlet_v43.jpg" alt="Gift Subscriptions" class="image-inline" title="Gift Subscriptions" /></a></p></div></div></div>
+
+<div id="" class="hidden-xs hidden-sm row rightcolborderedsection"><div class=" no-gutter-pad col-md-offset-1 col-md-10"><div>
+    
+<script type="text/javascript">
+  jQuery(function($) {
+    if (window.popform === undefined) {
+      var popform = {};
+      popform.got_cookies = null;
+      popform.cookies_enabled = function(uid) {
+        if (readCookie(uid) != null) {
+          return false;
+        }
+        createCookie(uid, '1', 2);
+        return readCookie(uid) != null;
+      };
+    }
+    if (popform.cookies_enabled("portlet-frame-a57f0cd4ea7f93422394ebdc0c61d0a7")) {
+      $("a#portlet-frame-a57f0cd4ea7f93422394ebdc0c61d0a7").prepOverlay({
+        subtype:"ajax",
+        width: "auto",
+      });
+      $(function(){
+        setTimeout(function() {
+          $("a#portlet-frame-a57f0cd4ea7f93422394ebdc0c61d0a7").click()
+        }, 20000);
+      });
+    }
+  });
+</script>
+
+    <a style="display: none;" id="portlet-frame-a57f0cd4ea7f93422394ebdc0c61d0a7" href="https://www.yesmagazine.org/peace-justice/trust-in-hud-public-housing-at-stake-over-looming-government-shutdown-20190212//@@portlet-frame-render?portletKey=%2Fyes%2Fyes&amp;portletName=fa-newsletter-form&amp;portletManager=plone.rightcolumn">Form Link</a>
+</div></div></div>
+
+
+
+
+            
+        </aside><!-- /#right-column-content -->
+
+                     </div><!-- /#right-column -->
+ 
+
+                     <div class="visualClear"> </div>
+                     
+                    <aside class="row hidden-xs" id="licensing">
+                      <div class="col-sm-offset-0.5 col-sm-11">
+
+  <div id="copyright-button">
+    <a class="link-plain" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons License">
+    <img style="vertical-align: text-top; margin-top: 3px; padding-left: 5px" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" alt="Creative Commons License" /></a>
+    
+  </div>
+
+  <div id="copyright-text">
+    <a href="https://www.yesmagazine.org/about/reprints">Reprints and reposts:</a>
+    YES! Magazine encourages you to make free use of this article by taking these <a href="http://www.yesmagazine.org/about/reprints">easy steps</a>.
+    
+      
+      <a class="link-plain" rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons License">Creative Commons License</a>
+      <!-- Name of license -->
+      
+    
+  </div>
+
+
+</div>
+                    </aside> 
+                     
+                  </div><!--/#content-columns -->
+
+
+               <footer role="navigation" class="col-xs-12">
+
+
+
+                  <div id="information" class="col-sm-3 col-sm-offset-0.5 hidden-xs"> <h4><a class="plain" href="/about/">About</a></h4>
+                    <ul id="information-list" class="list-unstyled">
+                      <li><a href="https://www.yesmagazine.org/about/staff/board-staff">Staff/Board</a></li> 
+                      <li><a href="https://www.yesmagazine.org/about/jobs-internships">Jobs &amp; Internships</a></li>
+                      <li><a href="https://www.yesmagazine.org/about/privacy-policy">Privacy Policy</a></li>
+                      <li><a href="https://www.yesmagazine.org/about/contact-us">Contact Us</a></li>           
+                    </ul>
+                  </div>
+                    
+                  <div id="support" class="col-sm-3 hidden-xs"><h4><a class="plain" href="/support-yes/">Support Our Work</a></h4>
+                    <ul id="support-list" class="list-unstyled">
+                      <li><a href="https://store.yesmagazine.org/donate/?ica=Don_txt_DonateNow_multi&amp;icl=Footer_1667">Donate</a></li>
+                      <li><a href="https://www.yesmagazine.org/support-yes/name-yes-in-your-will-or-retirement-plan">Planned Giving</a></li>
+                    </ul>
+                  </div>
+                  <div id="services" class="col-sm-3 hidden-xs"><h4><a class="plain" href="/subscribe">Subscribe</a></h4>
+                    <ul id="services-list" class="list-unstyled">
+                      <li><a href="https://store.yesmagazine.org/my-account/?ica=Mnge_txt_ManageSubscription_multi&amp;icl=Footer_1667">My Subscription</a></li>  
+                      <li><a href="https://yesmagazine.secure.force.com/renewal/YES_NewGiftSub?ica=Gift_txt_GiftSubscriptions_2for1&amp;icl=Footer_1667">Give a Gift</a></li>
+                      <li><a href="https://store.yesmagazine.org">YES! Store</a></li>
+                    </ul> 
+                  </div>
+                  <div id="follow" class="col-sm-2 hidden-xs"><h4>Follow Us</h4>
+                    <ul id="follow-list" class="list-unstyled">
+                      <li><a href="https://www.tfaforms.com/4631787">Get YES! Emails</a></li>
+                      <li><a href="https://www.facebook.com/yesmagazine">Facebook</a></li>
+                      <li><a href="https://twitter.com/yesmagazine">Twitter</a></li> 
+                      <li><a href="https://plus.google.com/+yesmagazine/posts">Google+</a></li> 
+                      <li><a href="https://www.yesmagazine.org/rss-feeds">RSS</a></li>
+                    </ul>
+                  </div>
+
+                  <div id="address-info-wrapper" class="col-sm-12">
+
+                    <div id="address">
+                      <div class="adr">
+                          <span class="fn org org-name">YES! Magazine</span>,
+                          <span class="street-address">284 Madrona Way NE, Ste 116</span>,
+                          <span class="locality">Bainbridge Island</span>,
+                          <span class="region">WA</span>
+                          <span class="postal-code">98110-2870</span> <span class="telephone">800/937-4451</span>
+                      </div>
+                    </div>
+
+                    <br />
+                    <span class="plone-site-info hidden">
+                      <span>
+                        <a href="https://www.yesmagazine.org/about/site-credits">Site Credits</a>                        
+                      </span>
+                      <span id="powered-by-plone" class="hidden-xs">
+                        Powered by <a href="https://plone.org">Plone</a>
+                        <br /><br />
+                        Please <span> <a href="/cdn-cgi/l/email-protection#a4d3c1c6c9c5d7d0c1d6e4ddc1d7c9c5c3c5decdcac18acbd6c3">report problems here</a>. </span>
+                      </span>
+                   </span> 
+
+                  </div>
+
+               </footer> 
+
+         </div><!--! end of #container --><div id="site-scripts"></div><!-- end scripts--><!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+            chromium.org/developers/how-tos/chrome-frame-getting-started --><!--[if lt IE 7 ]>
+            <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+            <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+            <![endif]--><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script class="yes-analytics"></script><div id="parsely-root" style="display: none">
+  <span id="parsely-cfg" data-parsely-site="yesmagazine.org"></span>
+</div><script>
+    (function(s, p, d) {
+      var h=d.location.protocol, i=p+"-"+s,
+          e=d.getElementById(i), r=d.getElementById(p+"-root"),
+          u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+          :"static."+p+".com";
+      if (e) return;
+      e = d.createElement(s); e.id = i; e.async = true;
+      e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+    })("script", "parsely", document);
+</script><div id="portal-colophon">
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using the Plone Open Source CMS/WCM.">Powered by Plone &amp; Python</a>
+  </li>
+</ul>
+</div>
+</div><script type="text/javascript">//<!--
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"a7147ba24c","agent":"","transactionName":"YlRTYhdVD0sHBUwLV1sea1kVUVMXBxRMC1tZVG5ADFEWFhYS","applicationID":"5609745","errorBeacon":"bam.nr-data.net","applicationTime":192}
+//--></script></body>
+      </html>

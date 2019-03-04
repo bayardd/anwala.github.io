@@ -1,0 +1,28 @@
+HUD’s House of Cards
+HUD’s System for Processing Public Records Requests Died During the Shutdown
+The contract for the agency’s electronic system for managing FOIA requests lapsed in early January and hasn’t been renewed. Delays are mounting.
+by Molly Parker, The Southern Illinoisan
+Feb. 13, 5 a.m. EST
+People walk outside the Department of Housing and Urban Development building in Washington, D.C. (Evelyn Hockstein for The Washington Post via Getty Images)
+HUD’s House of Cards
+Public Housing Failures
+This article was produced in partnership with The Southern Illinoisan, a member of the ProPublica Local Reporting Network in 2018.
+The partial federal shutdown ended weeks ago, but one lingering effect turns out to be citizens’ ability to get public records from a government agency.
+The U.S. Department of Housing and Urban Development’s public records management and tracking system has been offline since early January, when a contract to run it lapsed.
+Four Freedom of Information Act officers at HUD said the lack of a system has drastically slowed their ability to process requests and has presented challenges in tracking the dozens of them the agency receives each week.
+Members of the public can no longer submit requests via HUD’s website or track their status. Late last week, the agency updated its website to include new instructions for filing a FOIA request via email, fax or mail.
+“We knew the government was going to go dark during the shutdown, but we did not anticipate that the machinery would literally be removed while it was shut down,” said Austin Evers, executive director of American Oversight, a nonprofit ethics watchdog that has filed numerous Freedom of Information Act lawsuits against federal agencies during the Trump administration.
+Stay Informed
+Get ProPublica’s Daily Digest.
+HUD spokesman Brian Sullivan said the agency is working to select a new vendor after its contract with Copper River Enterprise Services expired on Jan. 7. He did not answer a question about when the system would be operational again. “Nothing was lost during this ‘outage,’ and work continues on the receiving/processing end,” Sullivan added.
+Many federal agencies stopped processing records requests because FOIA staff were not considered essential, meaning they were not on the job. What makes HUD distinct is that when the government reopened, the main system for processing and tracking requests was no longer working.
+HUD employees say that as a result, they have also had to redact public records manually.
+The now-shutdown system allowed for the automated online redaction of routine sensitive data that is usually withheld under FOIA, HUD noted in a budget document about five years ago.
+Even before the partial shutdown, HUD’s sluggish response time to records requests was flagged by the agency’s inspector general. That December 2017 report was critical of the agency’s tool for locating agency records and datasets.
+HUD received 2,383 public records requests last year, and it responded to 2,245. Still, the agency ended the year with more than 1,000 requests pending, up from just over 400 at the end of the 2014 fiscal year, agency records show . Though HUD received roughly the same number of requests in those years, HUD officials have blamed delays on requests from journalists and others seeking more voluminous records, datasets and email correspondence between officials.
+Read More
+HUD Long Neglected These Residents. Now As They Move Out, Some Feel HUD Let Them Down Again.
+A scramble for housing in southern Illinois has exposed mixed messages and false hope. “It’s betrayal, really,” one resident said of the way she’s been treated by HUD.
+Molly Parker is an investigative reporter for The Southern Illinoisan. Email her at [email protected] and follow her on Twitter @mollyparkerSI .
+Get the latest news from ProPublica every afternoon.
+Follow ProPublica

@@ -1,0 +1,1108 @@
+<!doctype html>
+
+<!--[if IE 8]><html lang="en-US" class="no-js ie-8 lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 9]><html lang="en-US" class="no-js ie9 lt-ie10"><![endif]-->
+<!--[if !IE]> -->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+
+<head>
+<!-- New Relic -->
+<script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(20),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{h?h-=1:o(c||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:s.now();i("err",[t,n])}var i=t("handle"),a=t(21),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",h=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(13),t(12),"addEventListener"in window&&t(6),s.xhrWrappable&&t(14),d=!0)}c.on("fn-start",function(t,e,n){d&&(h+=1)}),c.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),c.on("fn-end",function(){d&&!this.thrown&&h>0&&(h-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,S=y.hash,this[u]=b.now()}function o(){M--,y.hash!==S&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(10),x=t(11),E=t(8),P=t(6),O=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),N=j.get("tracer");t(15),b.features.spa=!0;var S,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(h,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),P.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),R.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+c),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+c),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(23)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(20);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(23)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t(23)(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,h,"dom-"),f.inPlace(HTMLHeadElement.prototype,h,"dom-"),f.inPlace(HTMLBodyElement.prototype,h,"dom-"),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(23)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(23),a=t("ee").get("promise"),c=i(a),s=t(20),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(23)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(23)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,P.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(23)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,P=document.createTextNode(E);new l(a).observe(P,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(19),l=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(20),c=t(21),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],21:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],22:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],23:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(21),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(20),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(20),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1071.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(17),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(22)},{}]},{},["loader",2,15,5,3,4]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"1d8c2aa18a",applicationID:"92680428",sa:1}
+</script>
+<!-- // end New Relic -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<!-- <meta property="fb:pages"content="112565666483" /> -->
+<title>Federal workers could see 1.9 percent pay increase in bill to avoid shutdown | WTOP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="wp-admin-url"
+	content="https://wtop.com/wp-admin/post.php?post=19315613&amp;action=edit">
+				<!-- Begin IndexExchange  -->
+			<script async src="//js-sec.indexww.com/ht/p/186967-76288346428612.js"></script>
+			<!-- End IndexExchange -->
+					<!-- SailThru -->
+			<meta name="sailthru.canonical" content="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/" />
+			<meta name="sailthru.date" content="2019-02-13 07:14:22" />
+			
+					<meta name="sailthru.tags" content="Congress News,Government News,mitchell miller,shutdown" />
+			
+				
+								<meta name="sailthru.image.full" content="https://wtop.com/wp-content/uploads/2019/01/Government_Shutdown_57587.jpg" />
+			<meta name="sailthru.image.thumb" content="https://wtop.com/wp-content/uploads/2019/01/Government_Shutdown_57587-150x150.jpg" />
+				<!-- /SailThru -->
+		<meta http-equiv="refresh" content="720" />
+<!-- Start The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="noydir" />
+<meta name="description" content="Federal workers would receive a 1.9 percent pay increase under language included in legislation aimed at averting a government shutdown, according to House Majority Leader Steny Hoyer, D-Md." />
+<meta property="og:image" content="https://wtop.com/wp-content/uploads/2019/01/Government_Shutdown_57587.jpg" />
+<meta property="og:image:width" content="2000" />
+<meta property="og:image:height" content="1495" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Federal workers could see 1.9 percent pay increase in bill to avoid shutdown | WTOP" />
+<meta property="og:description" content="Federal workers would receive a 1.9 percent pay increase under language included in legislation aimed at averting a government shutdown, according to House Majority Leader Steny Hoyer, D-Md." />
+<meta property="og:url" content="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/" />
+<meta property="og:site_name" content="WTOP" />
+<meta property="article:published_time" content="2019-02-13T19:14-05:00" />
+<meta property="article:modified_time" content="2019-02-14T05:23-05:00" />
+<meta property="og:updated_time" content="2019-02-14T05:23-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Federal workers could see 1.9 percent pay increase in bill to avoid shutdown | WTOP" />
+<meta name="twitter:description" content="Federal workers would receive a 1.9 percent pay increase under language included in legislation aimed at averting a government shutdown, according to House Majority Leader Steny Hoyer, D-Md." />
+<meta name="twitter:image" content="https://wtop.com/wp-content/uploads/2019/01/Government_Shutdown_57587.jpg" />
+<meta name="twitter:image:width" content="2000" />
+<meta name="twitter:image:height" content="1495" />
+<link rel="canonical" href="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://wtop.com/","name":"WTOP: Washington, DC&#8217;s Top News, Traffic, &#038; Weather"}},{"@type":"ListItem","position":2,"item":{"@id":"https://wtop.com/government/","name":"Government News"}},{"@type":"ListItem","position":3,"item":{"name":"Federal workers could see 1.9 percent pay increase in bill to avoid shutdown","image":"https://wtop.com/wp-content/uploads/2019/01/Government_Shutdown_57587.jpg","@id":"https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/"}}]}</script>
+<!-- End The SEO Framework by Sybre Waaijer | 0.00062s -->
+
+<link rel='dns-prefetch' href='//ajax.aspnetcdn.com' />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wtop.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.5"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='https://wtop.com/wp-includes/css/dashicons.min.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='https://wtop.com/wp-includes/css/jquery-ui-dialog.min.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='podcastone-styles-css'  href='https://wtop.com/wp-content/plugins/podcastone/podcastone.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dfp_custom_stickywidget-css'  href='https://wtop.com/wp-content/plugins/dfp-custom/assets/css/stickywidget.css?ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='SailThru-css'  href='https://wtop.com/wp-content/plugins/sailthru-custom/assets/css/sailthru.css?ver=190214-20114' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-parsely-style-css'  href='https://wtop.com/wp-content/plugins/wp-parsely/wp-parsely.css?ver=1550109675' type='text/css' media='all' />
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='webfonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,400italic,700italic,900italic|Lato:400,700,900,400italic,700italic,900italic' type='text/css' media='screen' />
+<link rel='stylesheet' id='oswaldfont-css'  href='//fonts.googleapis.com/css?family=Oswald:400,700,900' type='text/css' media='screen' />
+<link rel='stylesheet' id='robotofont-css'  href='//fonts.googleapis.com/css?family=Roboto:500,700,900' type='text/css' media='screen' />
+<link rel='stylesheet' id='normalize-css'  href='https://wtop.com/wp-content/themes/wtop/assets/vendor/foundation/css/normalize.css?ver=1550109675' type='text/css' media='screen' />
+<link rel='stylesheet' id='foundation-css'  href='https://wtop.com/wp-content/themes/wtop/assets/css/foundation.css?ver=1550109675' type='text/css' media='screen' />
+<link rel='stylesheet' id='slick-css'  href='https://wtop.com/wp-content/themes/wtop/assets/vendor/slick.js/slick/slick.css?ver=1550109675' type='text/css' media='screen' />
+<link rel='stylesheet' id='site-css'  href='https://wtop.com/wp-content/themes/wtop/assets/css/site.css?ver=1550109675' type='text/css' media='screen' />
+<link rel='stylesheet' id='print-css'  href='https://wtop.com/wp-content/themes/wtop/assets/css/print.css?ver=4.9.5' type='text/css' media='print' />
+<link rel='stylesheet' id='smartbanner-css'  href='https://wtop.com/wp-content/themes/wtop/assets/css/smartbanner.min.css?ver=1550109675' type='text/css' media='screen' />
+<link rel='stylesheet' id='elasticsearch_custom-css'  href='https://wtop.com/wp-content/themes/wtop/assets/css/elasticsearch_custom.css?ver=1550109675' type='text/css' media='screen' />
+		<!-- DFP -->
+		<script>
+			var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [];
+            var advelvetTargeting = [];
+            advelvetTargeting.push((Math.floor(Math.random() * 20) + 1) + "");
+            googletag.cmd.push(function () {
+                googletag.pubads().setTargeting('advelvet', advelvetTargeting);
+            });
+			(function() {
+				var gads = document.createElement("script");
+				gads.async = true;
+				gads.type = "text/javascript";
+				var useSSL = "https:" == document.location.protocol;
+				gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+				var node =document.getElementsByTagName("script")[0];
+				node.parentNode.insertBefore(gads, node);
+			})();
+		</script>
+		<!-- /DFP -->
+				<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TZGJTC"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-TZGJTC');</script>
+		<!-- End Google Tag Manager -->
+            		<!-- Google Analytics -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			//ga('create', 'UA-23103174-10', 'auto');
+			ga('create', 'UA-23103174-10', 'auto', {'allowLinker': true });
+ 
+  			ga('require', 'linker');
+  			ga('linker:autoLink', ['wtop.com','wtop.collegehoops.upickem.net']);
+					ga('set', 'dimension1', 'Government News');
+					ga('set', 'dimension2', 'Mitchell Miller');
+					ga('send', 'pageview');
+		</script>
+		<!-- /Google Analytics -->
+		<script src="/advertisement.js" defer></script>
+
+				<!-- Taboola -->
+                <script type="text/javascript">
+                    function downloadTaboolaAtOnload() {
+                        window._newsroom = window._newsroom || [];
+                                                !function (e, f, u) {
+                            e.async = 1;
+                            e.src = u;
+                            f.parentNode.insertBefore(e, f);
+                        }(document.createElement('script'), document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/wtop/newsroom.js');
+                    }
+                    if (window.addEventListener)
+                        window.addEventListener("load", downloadTaboolaAtOnload, false);
+                    else if (window.attachEvent)
+                        window.attachEvent("onload", downloadTaboolaAtOnload);
+                    else window.onload = downloadTaboolaAtOnload;
+                
+                    window._taboola = window._taboola || [];
+                    _taboola.push({article:'auto'});
+                    !function (e, f, u, i) {
+                      if (!document.getElementById(i)){
+                        e.async = 1;
+                        e.src = u;
+                        e.id = i;
+                        f.parentNode.insertBefore(e, f);
+                      }
+                    }(document.createElement('script'),
+                    document.getElementsByTagName('script')[0],
+                    '//cdn.taboola.com/libtrc/wtop/loader.js',
+                    'tb_loader_script');
+                    if(window.performance && typeof window.performance.mark == 'function')
+                      {window.performance.mark('tbl_ic');}
+                </script>
+                <!-- /Taboola -->
+				<!-- YieldMo -->
+		<script type="text/javascript">
+                    function downloadYieldMoAtOnload(){
+                        var e = document, t = window;
+                        if(t._ym===void 0){
+                            t._ym="";var m=e.createElement("script");
+                            m.type="text/javascript";
+                            m.async=!0;
+                            m.src="//static.yieldmo.com/ym.m5.js";
+                            (e.getElementsByTagName("head")[0]||e.getElementsByTagName("body")[0]).appendChild(m);
+                        } else {
+                            t._ym instanceof String||void 0===t._ym.chkPls||t._ym.chkPls();
+                        }
+                    }
+                    if (window.addEventListener)
+                        window.addEventListener("load", downloadYieldMoAtOnload, false);
+                    else if (window.attachEvent)
+                        window.attachEvent("onload", downloadYieldMoAtOnload);
+                    else window.onload = downloadYieldMoAtOnload; 
+                </script>
+		<!-- /YieldMo -->
+				<script>
+			window.Site = window.Site || {};
+			window.Site.icons = window.Site.icons || {};
+			window.Site.icons['arrow-down'] = "<svg class=\"Svg\" data-name=\"arrow-down\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"11px\" height=\"7px\" viewBox=\"0 0 11 7\" enable-background=\"new 0 0 11 7\" xml:space=\"preserve\">\t<image src=\"https:\/\/wtop.com\/wp-content\/themes\/wtop\/assets\/img\/icons\/arrow-down.png\" \/><path d=\"M9.786,0c-0.32,0-0.623,0.127-0.857,0.365l-3.43,3.601L2.143,0.444C1.911,0.162,1.573,0,1.214,0\n\tC0.545,0,0,0.561,0,1.25c0,0.296,0.101,0.58,0.285,0.805C0.3,2.076,0.316,2.097,0.335,2.116l4.279,4.493\n\tC4.843,6.857,5.165,7,5.497,7H5.5c0.333,0,0.654-0.143,0.876-0.385l4.291-4.506C10.882,1.876,11,1.571,11,1.25\n\tC11,0.561,10.455,0,9.786,0z\"\/><\/svg>";
+			window.Site.icons['image-arrow-circle-blue'] = "https:\/\/wtop.com\/wp-content\/themes\/wtop\/assets\/img\/icons\/arrow-circle-blue.png";
+			window.Site.icons['image-arrow-right-black'] = "https:\/\/wtop.com\/wp-content\/themes\/wtop\/assets\/img\/icons\/arrow-right-black.png";
+			window.Site.icons['image-arrow-left-black'] = "https:\/\/wtop.com\/wp-content\/themes\/wtop\/assets\/img\/icons\/arrow-left-black.png";
+		</script>
+		<script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jquery/jquery-1.11.1.min.js'></script>
+
+        <script>
+        // Fallback to loading jQuery from a local path if the CDN is unavailable
+        (window.jQuery || append_jquery_fallback() );
+            function append_jquery_fallback(){
+                var script = document.createElement('script');
+                script.setAttribute('type', 'text/javascript');
+                script.setAttribute('src', 'https://wtop.com/wp-content/themes/wtop/assets/vendor/jquery/dist/jquery.min.js');
+                document.write(script.outerHTML);
+            }
+        </script><script type='text/javascript'>
+/* <![CDATA[ */
+var DFP_config = {"account":"6585","template":"<div id=\"%id%\" class=\"\"  data-status=\"init\"><\/div>"};
+var DFP_ad_slots = [{"name":"wtop_header_banner","sizes":"[[970, 250], [970, 90], [728, 90], [468, 60], [320, 50], [1, 1]]","id":"DFP_slot_wtop_header_banner_1","sizeMapping":{"[990, 200]":"[[970, 90],[970, 250],[728, 90]]","[768, 200]":"[[728, 90], [468, 60]]","[500, 200]":"[[1, 1],[468, 60]]","[0, 0]":"[[1, 1],[320, 50]]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_contracting_banner","sizes":"[[970, 90]]","id":"DFP_slot_wtop_contracting_banner_1","sizeMapping":{"[981, 101]":"[[970, 90]]","[0, 0]":"[]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":"[970,250]","transition":4,"avoidRender":false},{"name":"wtop-taboola-ad-1","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-1_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop-taboola-ad-2","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-2_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop-taboola-ad-3","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-3_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop-taboola-ad-4","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-4_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop-taboola-ad-5","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-5_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop-taboola-ad-6","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-6_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop-taboola-ad-7","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-7_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop-taboola-ad-8","sizes":"[300, 250]","id":"DFP_slot_wtop-taboola-ad-8_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_footer_banner","sizes":"[[728, 90], [468, 60], [320, 50]]","id":"DFP_slot_wtop_footer_banner_1","sizeMapping":{"[981, 200]":"[728, 90]","[768, 200]":"[[728, 90], [468, 60]]","[0, 0]":"[320, 50]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_mobile_right","sizes":"[300, 250]","id":"DFP_slot_wtop_mobile_right_1","sizeMapping":{"[768, 200]":"[]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_in_article","sizes":"[300, 250]","id":"DFP_slot_wtop_in_article_1","sizeMapping":{"[0, 0]":"[]","[1050, 200]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_mobile_backfill","sizes":"[300, 250]","id":"DFP_slot_wtop_mobile_backfill_1","sizeMapping":{"[768, 200]":"[]","[0, 0]":"[300, 250]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_interstitial","sizes":"[1, 1]","id":"DFP_slot_wtop_interstitial_1","sizeMapping":{"[768, 200]":"[1, 1]","[0, 0]":"[]"},"extra":false,"outofpage":true,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_mobile_interstitial","sizes":"[1, 1]","id":"DFP_slot_wtop_mobile_interstitial_1","sizeMapping":{"[1825, 1025]":"[]","[768, 200]":"[]","[0, 0]":"[1,1]"},"extra":false,"outofpage":true,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_tout_interstitial","sizes":"[1, 1]","id":"DFP_slot_wtop_tout_interstitial_1","sizeMapping":{"[0, 0]":"[1,1]"},"extra":false,"outofpage":true,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_mobile_adhesion","sizes":"[320, 50]","id":"DFP_slot_wtop_mobile_adhesion_1","sizeMapping":{"[768, 200]":"[]","[0, 0]":"[[320,50], [300,50], [320,100]]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_mobile_top","sizes":"[320, 50]","id":"DFP_slot_wtop_mobile_top_1","sizeMapping":{"[768, 200]":"[]","[0, 0]":"[[320,50], [300,50], [320,100]]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_right_1","sizes":"[[300, 600], [300, 250]]","id":"DFP_slot_wtop_right_1_1","sizeMapping":{"[768, 200]":"[[300, 600], [300, 250]]","[0, 0]":"[]"},"extra":{"[300, 250]":["wtop_right_1_extra"]},"outofpage":false,"companion":true,"expandedSize":false,"transition":false,"avoidRender":false},{"name":"wtop_right_3","sizes":"[300, 250]","id":"DFP_slot_wtop_right_3_1","sizeMapping":{"[768, 200]":"[300, 250]","[0, 0]":"[]"},"extra":false,"outofpage":false,"companion":false,"expandedSize":false,"transition":false,"avoidRender":false}];
+var DFP_custom_targeting = {"is_front":"false","is_archive":"false","is_article":"true","is_gallery":"false","is_page":"false","is_traffic":"false","is_weather":"false","is_search":"false","is_author":"false","is_dev":"false","slug":"federal-workers-could-see-1-9-percent-pa","category":["congress","government"],"section":["congress","government"],"traffic":["congress","government"],"weather":["congress","government"],"region":["congress","government"],"tag":["mitchell-miller","shutdown"],"author":["Mitchell Miller"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://wtop.com/wp-content/plugins/dfp-custom/assets/js/dfp.js?ver=2.0.0'></script>
+<link rel='https://api.w.org/' href='https://wtop.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://wtop.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwtop.com%2Fgovernment%2F2019%2F02%2Ffederal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://wtop.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwtop.com%2Fgovernment%2F2019%2F02%2Ffederal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown%2F&#038;format=xml" />
+        <style>
+            body{
+                padding : 0px !important;
+            }
+            html.wp-toolbar{padding-top: 0px !important;}
+        </style>
+        
+<!-- BEGIN wp-parsely Plugin Version 1.13.0 -->
+<meta name="wp-parsely_version" id="wp-parsely_version" content="1.13.0"/>
+	<script type="application/ld+json">
+	{"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/wtop.com\/government\/2019\/02\/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown\/"},"headline":"Federal workers could see 1.9 percent pay increase in bill to avoid shutdown","url":"http:\/\/wtop.com\/government\/2019\/02\/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown\/","thumbnailUrl":"https:\/\/wtop.com\/wp-content\/uploads\/2019\/01\/Government_Shutdown_57587-150x150.jpg","image":{"@type":"ImageObject","url":"https:\/\/wtop.com\/wp-content\/uploads\/2019\/01\/Government_Shutdown_57587.jpg","width":2000,"height":1495},"dateCreated":"2019-02-14T00:14:22Z","datePublished":"2019-02-14T00:14:22Z","dateModified":"2019-02-14T00:14:22Z","articleSection":"Government News","author":[{"@type":"Person","name":"Mitchell Miller"}],"creator":["Mitchell Miller"],"keywords":["mitchell miller","shutdown"],"publisher":{"@type":"Organization","name":"WTOP","logo":{"@type":"ImageObject","url":"https:\/\/wtop.com\/wp-content\/themes\/wtop\/assets\/img\/icons\/logo-162x60.gif"}},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".schema-title",".schema-summary"]}}
+	</script>
+
+	<!-- END wp-parsely Plugin Version 1.13.0 -->
+<link rel="amphtml" href="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/amp/" /><link rel="alternate" type="application/rss+xml" title="WTOP &raquo; Feed" href="https://wtop.com/feed/" />
+		<link rel="apple-touch-icon" sizes="57x57" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/favicon-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/mstile-144x144.png">
+		<meta name="msapplication-config" content="https://wtop.com/wp-content/themes/wtop/assets/img/favicons/browserconfig.xml">
+		                <!-- Start SmartBanner configuration -->
+                <meta name="smartbanner:title" content="WTOP News">
+                <meta name="smartbanner:author" content="News Traffic Weather">
+                <meta name="smartbanner:price" content="FREE">
+                <meta name="smartbanner:price-suffix-google" content=" - In Google Play">
+                <meta name="smartbanner:icon-google" content="https://wtop.com/wp-content/themes/wtop/assets/img/app/Google-Play-Icon.png">
+                <meta name="smartbanner:button" content="VIEW">
+                <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=com.audionowdigital.player.wtopradio">
+                <meta name="smartbanner:enabled-platforms" content="android">
+                <!-- End SmartBanner configuration -->
+            				<!-- Begin Distroscale  -->
+					                        
+	                        <script type="text/javascript">
+	                            function downloadDistroscaleAtOnload() {
+	                                var element = document.createElement("script");
+	                                element.src = "//c.jsrdn.com/s/cs.js?p=22242";
+	                                document.body.appendChild(element);
+	                            }
+	                            if (window.addEventListener)
+	                                window.addEventListener("load", downloadDistroscaleAtOnload, false);
+	                            else if (window.attachEvent)
+	                                window.attachEvent("onload", downloadDistroscaleAtOnload);
+	                            else window.onload = downloadDistroscaleAtOnload;
+	                        </script>
+				<!-- End Distroscale -->
+				
+	<!--[if IE 8]>
+		<link rel="stylesheet" href="https://wtop.com/wp-content/themes/wtop/assets/css/ie8.css">
+		<script type="text/javascript" src="https://wtop.com/wp-content/themes/wtop/assets/vendor/shivie8/dist/shivie8.js"></script>
+		<script type="text/javascript" src="https://wtop.com/wp-content/themes/wtop/assets/vendor/object.keys/src/object.keys.js"></script>
+			<![endif]-->
+</head>
+
+<body class="post-template-default single single-post postid-19315613 single-format-standard">
+	<!-- Audio tracking -->
+    
+	<div class="Overflow">
+
+
+
+		<div class="clearfix_header"></div>
+
+		<header
+			class="h_new "
+			id="h_new">
+
+			<div class="row expanded ">
+
+				<div class="wtop-header-left">
+					<ul>
+						<li>
+							<div class="h_menu" id="openNav">
+								<div id="nav-icon1">
+									<span></span> <span></span> <span></span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="h_logo"> 
+																<a href="https://wtop.com" title="Homepage">
+										<svg class="Svg" data-name="logo-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222 80">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/logo-white.png" /><defs><style>.logo-1{fill:#fff;}</style></defs><path class="logo-1" d="M218.87,21c-3.7-7.7-11.87-9.8-19.81-9.83H174.27l-5.32,23c-.11-12.91-9.71-23.31-23.56-24.33a33,33,0,0,0-27.86,12.6l2.68-11.3H108.5L110.89.82H89.47L87.07,11.19H64.71l.1.14-.13-.15-13.78,27-.82-27H35.71l-13.78,27-.82-27H.72L4.09,64.48H24.26l12-23.4.71,23.4H57.08L76.41,26.64h7.1c-.58,2.59-.9,4-1.23,5.36l-2,8.51,0,.12-1.6,6.81a25.34,25.34,0,0,0-.78,6.43c0,.07,0,.14,0,.21.43,4.28,2.3,7.56,6.36,9.17a16.75,16.75,0,0,0,6.11,1.22h15.26a7,7,0,0,0,.92-.1,2.5,2.5,0,0,0,1.74-2.46,2.08,2.08,0,0,0-.77-1.66,3.55,3.55,0,0,0-1.56-.71,6.19,6.19,0,0,1-4.9-4c-1.42-3.44-.83-8.1-.46-10.17,1.14-5,4.31-18.84,4.31-18.84h9.9a29.82,29.82,0,0,0-3.39,9.19c-2.89,15.43,7.44,28.88,23.06,30,13.1,1,25.9-7,31.52-18.73l-7.42,32.18h20.15l3.41-14.77H195a19.93,19.93,0,0,0,5.75-.71,24.36,24.36,0,0,0,11.56-7.54C220.41,46.92,224.41,32.54,218.87,21ZM147,38.88c-1.37,6.94-5.23,12.42-8.82,12.72a4.84,4.84,0,0,1-.92,0,4.56,4.56,0,0,1-.89-.14c-3.37-.82-5-6.71-3.68-13.64s5.2-12.42,8.82-12.72a4.91,4.91,0,0,1,.93,0,4.62,4.62,0,0,1,.9.14C146.75,26.06,148.38,31.95,147,38.88Zm53.34-5.43a30.14,30.14,0,0,1-1.16,7.27,23.72,23.72,0,0,1-2.92,6.67A9.72,9.72,0,0,1,189,51.58a30.45,30.45,0,0,1-3.95,0l6.12-26.53h3.67a4.84,4.84,0,0,1,4.16,1.8,10.65,10.65,0,0,1,1.31,6Q200.36,33.2,200.35,33.45Z"/></svg>									</a>
+													</div>
+						</li>
+						<li class="nav"><a href="/headlines/">NEWS</a></li>
+						<li class="nav"><a href="/traffic/">TRAFFIC</a></li>
+						<li class="nav"><a href="/weather/">WEATHER</a></li>
+						<li class="nav"><a href="/listen-live/">Listen</a></li>
+
+					</ul>
+				</div>
+				<div class="wtop-header-right">
+					<ul>
+						<li>
+							<div class="wtop-welcome">
+								<a href="https://wtop.com">Washington's Top News</a>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="Nav-search-new show-for-xlarge-up">
+<form role="search" method="get" class="search-form" id="wtop-new-search" action="https://wtop.com/search/">
+	<input type="search" class="search-field" placeholder="Search" value="" name="s" autocomplete="off" />
+	<button type="submit" class="search-submit hide-for-xlarge-up" id="wtop-new-search-btn-mobile">
+		<svg class="Svg" data-name="search" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/search.png" /><path d="M21.4,18.5c0.4,0.4,0.6,0.9,0.6,1.5c0,1.1-0.9,2.1-2.1,2.1c-0.6,0-1.1-0.2-1.5-0.6l0,0l-6-6
+	c-1.2,0.7-2.7,1.1-4.2,1.1C3.7,16.5,0,12.8,0,8.3C0,3.7,3.7,0,8.3,0s8.3,3.7,8.3,8.3c0,1.5-0.4,3-1.1,4.2L21.4,18.5L21.4,18.5z
+	 M8.3,2.1c-3.4,0-6.2,2.8-6.2,6.2s2.8,6.2,6.2,6.2s6.2-2.8,6.2-6.2C14.4,4.8,11.7,2.1,8.3,2.1z"/></svg>	</button>
+	<button type="button" class="search-submit show-for-xlarge-up" id="wtop-new-search-btn-desktop">
+		<svg class="Svg" data-name="search" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/search.png" /><path d="M21.4,18.5c0.4,0.4,0.6,0.9,0.6,1.5c0,1.1-0.9,2.1-2.1,2.1c-0.6,0-1.1-0.2-1.5-0.6l0,0l-6-6
+	c-1.2,0.7-2.7,1.1-4.2,1.1C3.7,16.5,0,12.8,0,8.3C0,3.7,3.7,0,8.3,0s8.3,3.7,8.3,8.3c0,1.5-0.4,3-1.1,4.2L21.4,18.5L21.4,18.5z
+	 M8.3,2.1c-3.4,0-6.2,2.8-6.2,6.2s2.8,6.2,6.2,6.2s6.2-2.8,6.2-6.2C14.4,4.8,11.7,2.1,8.3,2.1z"/></svg>	</button>
+	
+	
+	                <div id="ajax-search-nonce" style="display:none">36c0a2401f</div>
+</form></div>
+			</div>
+
+
+		</header>
+		<span id='stickydepth' class='stickydepth_notready'>20</span><span id='stickyperiod' class='stickyperiod'>2</span><div id='scroller-anchor'></div><div id='header_sticky_ad'><div class="Ad Widget " id="" data-swiftype-index="false" data-status="init">
+		
+	<div class="Ad-content">
+		<div id="DFP_slot_wtop_header_banner_1" class="wtop_header_banner"  data-status="init"></div>	</div>
+</div></div><div id='header_sticky_ad_clearfix'></div>			 
+		<div id="mySidenav" class="sidenav">
+			<div class="Nav-search-mob hide-for-xlarge-up">
+<form role="search" method="get" class="search-form" id="wtop-new-search" action="https://wtop.com/search/">
+	<input type="search" class="search-field" placeholder="Search" value="" name="s" autocomplete="off" />
+	<button type="submit" class="search-submit hide-for-xlarge-up" id="wtop-new-search-btn-mobile">
+		<svg class="Svg" data-name="search" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/search.png" /><path d="M21.4,18.5c0.4,0.4,0.6,0.9,0.6,1.5c0,1.1-0.9,2.1-2.1,2.1c-0.6,0-1.1-0.2-1.5-0.6l0,0l-6-6
+	c-1.2,0.7-2.7,1.1-4.2,1.1C3.7,16.5,0,12.8,0,8.3C0,3.7,3.7,0,8.3,0s8.3,3.7,8.3,8.3c0,1.5-0.4,3-1.1,4.2L21.4,18.5L21.4,18.5z
+	 M8.3,2.1c-3.4,0-6.2,2.8-6.2,6.2s2.8,6.2,6.2,6.2s6.2-2.8,6.2-6.2C14.4,4.8,11.7,2.1,8.3,2.1z"/></svg>	</button>
+	<button type="button" class="search-submit show-for-xlarge-up" id="wtop-new-search-btn-desktop">
+		<svg class="Svg" data-name="search" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/search.png" /><path d="M21.4,18.5c0.4,0.4,0.6,0.9,0.6,1.5c0,1.1-0.9,2.1-2.1,2.1c-0.6,0-1.1-0.2-1.5-0.6l0,0l-6-6
+	c-1.2,0.7-2.7,1.1-4.2,1.1C3.7,16.5,0,12.8,0,8.3C0,3.7,3.7,0,8.3,0s8.3,3.7,8.3,8.3c0,1.5-0.4,3-1.1,4.2L21.4,18.5L21.4,18.5z
+	 M8.3,2.1c-3.4,0-6.2,2.8-6.2,6.2s2.8,6.2,6.2,6.2s6.2-2.8,6.2-6.2C14.4,4.8,11.7,2.1,8.3,2.1z"/></svg>	</button>
+	
+	
+	                <div id="ajax-search-nonce" style="display:none">36c0a2401f</div>
+</form></div>
+			<nav>
+				<div class="wrap clearfix">
+
+					<ul class="Dropdown-menu row">
+					 	 
+						<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13664096"><a href="https://wtop.com/headlines/" class="Nav-link">Headlines</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 Nav-menuItem--hasSubMenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13659211"><a href="https://wtop.com/local/" class="Nav-link">Local News</a>
+<ul class="Nav-menu Nav-menu--depth1 sub-menu">
+	<li class="Nav-menuItem Nav-menuItem--depth1 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659306"><a href="https://wtop.com/local/virginia/" class="Nav-link">Virginia</a></li>
+	<li class="Nav-menuItem Nav-menuItem--depth1 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659311"><a href="https://wtop.com/local/maryland/" class="Nav-link">Maryland</a></li>
+	<li class="Nav-menuItem Nav-menuItem--depth1 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659316"><a href="https://wtop.com/local/dc/" class="Nav-link">DC</a></li>
+	<li class="Nav-menuItem Nav-menuItem--depth1 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659321"><a href="https://wtop.com/weather-news/" class="Nav-link">Weather News</a></li>
+	<li class="Nav-menuItem Nav-menuItem--depth1 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659346"><a href="https://wtop.com/dc-transit/" class="Nav-link">Transportation News</a></li>
+</ul>
+</li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659351"><a href="https://wtop.com/national/" class="Nav-link">National</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659371"><a href="https://wtop.com/world/" class="Nav-link">World</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659396"><a href="https://wtop.com/business-finance/" class="Nav-link">Business &#038; Finance</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659406"><a href="https://wtop.com/government/" class="Nav-link">Government</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659421"><a href="https://wtop.com/living/" class="Nav-link">Living</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659431"><a href="https://wtop.com/entertainment/" class="Nav-link">Entertainment</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659471"><a href="https://wtop.com/sports/" class="Nav-link">Sports</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659511"><a href="https://wtop.com/tech/" class="Nav-link">Tech</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659516"><a href="https://wtop.com/trending-now/" class="Nav-link">Trending Now</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659526"><a href="https://federalnewsnetwork.com/" class="Nav-link">Federal News Network</a></li>
+<br><li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659686"><a href="https://wtop.com/media-galleries/" class="Nav-link">Photo Galleries</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659696"><a href="http://games.wtop.com/?arkpromo=site_hamburger" class="Nav-link">Fun &#038; Games</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659711"><a href="https://wtop.com/lotteries/" class="Nav-link">Lottery Results</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659716"><a href="https://wtop.com/contests/" class="Nav-link">Contests</a></li>
+<br><li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659806"><a href="https://wtop.com/listen-live/" class="Nav-link">Listen Live</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-13659771"><a href="https://wtop.com/podcast-dc/" class="Nav-link">Podcasts</a></li>
+				</ul>
+				</div>
+			</nav>
+		</div>
+	 
+				<div class="Boxnobg">
+               </div>
+
+		<div class="MainContainer" id="MainContainer"><!----><div class="Box row">
+	<div class="column xlarge-8 u-borderBetween-right">
+		<div class="SingleEntry Entry author-mitch-miller">
+
+		 <div class="breadcrumbs breadcrumbs-header" data-swiftype-index="false"> <span prefix="v: http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="https://wtop.com" rel="v:url" property="v:title">Home</a> &raquo; <span rel="v:child"><span typeof="v:Breadcrumb"><a href="https://wtop.com/government/" rel="v:url" property="v:title"><strong>Government News</strong></a> &raquo; <span rel="v:child"><span typeof="v:Breadcrumb"><span class="breadcrumb_last" property="v:title">Federal workers could see&hellip;</span></span></span></span></span></span></span> </div>
+			<div class="Entry-header">
+				<h1 class="Entry-title schema-title" data-swiftype-name="title" data-swiftype-type="string">Federal workers could see 1.9 percent pay increase in bill to avoid shutdown</h1>
+				<div class="Entry-info">
+								<div class="Entry-infoImg author-mitch-miller"><img  data-lazy-src="https://wtop.com/wp-content/uploads/2017/04/2017MitchellMiller-38-112x112.jpg" src="" alt="" class="lazyload" /></div>
+								<div class="Entry-infoContent">
+											By 
+                                                <a href="https://wtop.com/author/mitch-miller/" data-swiftype-name="author" data-swiftype-type="string">						
+						Mitchell Miller                        </a> 
+                        						 | <a href="https://twitter.com/mmillerwtop">@mmillerwtop</a>										                    
+					<span   class="Entry-date" data-swiftype-name="publish_date" data-swiftype-type="date">February 13, 2019 7:14 pm</span>
+					<span style="display:none;" data-swiftype-name="pretty_date" data-swiftype-type="string">02/13/2019 07:14pm</span>
+				</div>
+
+									<div class="Entry-infoSocial">
+						<div class="Entry-social">
+
+				<strong class="shares">21 Shares</strong>
+			
+	<span  class="st_facebook_custom" st_url="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/"><svg class="Svg" data-name="facebook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px" height="24px" viewBox="-299.5 408.5 12 24" enable-background="new -299.5 408.5 12 24" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/facebook.png" /><path fill="#FFFFFF" d="M-288.517,408.507c0,1.326,0,3.703,0,3.703s-2.784-0.273-3.481,0.773c-0.381,0.572-0.155,2.246-0.189,3.448
+	c1.215,0,2.478,0,3.693,0c-0.312,1.405-0.536,2.358-0.765,3.574c-1.052,0-2.948,0-2.948,0v11.503c0,0-3.48,0-5.116,0
+	c0.001-3.546-0.001-7.683,0-11.458c-0.795,0-1.382,0-2.177,0c0-1.326,0-2.293,0-3.62c0.771,0,1.382,0,2.153,0
+	c0.11-2.646,0.152-5.268,1.493-6.604C-294.347,408.326-292.909,408.507-288.517,408.507z"/></svg></span><span  class="st_twitter_custom" st_via="WTOP" st_url="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/"><svg class="Svg" data-name="twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23px" height="20px" viewBox="-294 406.5 23 20" enable-background="new -294 406.5 23 20" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/twitter.png" /><g >
+	<path fill="#FFFFFF" d="M-278.363,406.501c1.827-0.033,2.799,0.645,3.728,1.508c0.788-0.069,1.813-0.517,2.416-0.829
+		c0.196-0.109,0.391-0.219,0.587-0.327c-0.345,0.949-0.812,1.691-1.53,2.255c-0.16,0.126-0.318,0.295-0.518,0.375
+		c0,0.004,0,0.008,0,0.011c1.023-0.011,1.868-0.481,2.669-0.736c0,0.004,0,0.008,0,0.011c-0.421,0.682-0.991,1.374-1.599,1.87
+		c-0.246,0.199-0.491,0.397-0.736,0.596c0.013,1.104-0.016,2.157-0.219,3.085c-1.178,5.393-4.299,9.055-9.24,10.623
+		c-1.774,0.563-4.641,0.795-6.673,0.28c-1.008-0.255-1.918-0.543-2.773-0.923c-0.475-0.211-0.914-0.44-1.335-0.701
+		c-0.138-0.086-0.276-0.172-0.414-0.258c0.458,0.014,0.995,0.143,1.507,0.058c0.464-0.076,0.918-0.056,1.346-0.152
+		c1.067-0.238,2.014-0.554,2.83-1.04c0.396-0.235,0.996-0.513,1.277-0.853c-0.53,0.01-1.01-0.116-1.404-0.257
+		c-1.526-0.549-2.414-1.558-2.992-3.074c0.462,0.052,1.794,0.174,2.106-0.093c-0.582-0.033-1.142-0.376-1.542-0.631
+		c-1.227-0.783-2.228-2.094-2.221-4.114c0.163,0.078,0.324,0.156,0.485,0.235c0.308,0.132,0.622,0.203,0.99,0.28
+		c0.155,0.033,0.466,0.126,0.644,0.059c-0.008,0-0.015,0-0.023,0c-0.237-0.282-0.624-0.47-0.863-0.772
+		c-0.787-0.997-1.525-2.532-1.058-4.359c0.118-0.464,0.306-0.873,0.506-1.25c0.008,0.004,0.015,0.007,0.023,0.012
+		c0.092,0.195,0.296,0.339,0.426,0.502c0.402,0.507,0.898,0.965,1.403,1.367c1.722,1.372,3.273,2.215,5.765,2.84
+		c0.632,0.158,1.362,0.279,2.117,0.28c-0.212-0.629-0.144-1.647,0.023-2.255c0.42-1.531,1.332-2.634,2.669-3.226
+		c0.32-0.141,0.675-0.244,1.047-0.327C-278.747,406.548-278.555,406.524-278.363,406.501z"/>
+</g></svg></span><span  class="st_email_custom" st_url="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/"><svg class="Svg" data-name="email" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42.926px" height="31.179px" viewBox="0 0 42.926 31.179" enable-background="new 0 0 42.926 31.179" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/email.png" /><path fill="#FFFFFF" d="M39.001,0H3.925C1.761,0,0,1.761,0,3.926v23.327c0,2.165,1.761,3.926,3.925,3.926h35.076
+	c2.164,0,3.925-1.761,3.925-3.926V3.926C42.926,1.761,41.166,0,39.001,0z M21.988,15.51l-0.141,0.128
+	c-0.263,0.262-0.691,0.262-0.954,0L6.811,4h29.115L21.988,15.51z M13.578,14.773L4,24.35V6.863L13.578,14.773z M16.676,17.331
+	l1.467,1.211c0.901,0.86,2.064,1.29,3.228,1.29s2.327-0.43,3.228-1.29l1.609-1.329l9.966,9.966H6.828L16.676,17.331z M29.305,14.655
+	l9.621-7.945v17.566L29.305,14.655z"/></svg></span><span  class="print show-for-medium-up"><svg class="Svg" data-name="print" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42px" height="35px" viewBox="0 0 42 35" enable-background="new 0 0 42 35" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/print.png" /><g>
+	<path fill="#FFFFFF" d="M37.979,6.833h-4.684V0H8.343v6.833H4.021C1.804,6.833,0,8.661,0,10.908v14.415
+		c0,2.247,1.804,4.075,4.021,4.075h4.217V35h25.524v-5.602h4.217c2.218,0,4.021-1.828,4.021-4.075V10.908
+		C42,8.661,40.197,6.833,37.979,6.833z M12.364,4.075h16.911v2.758H12.364V4.075z M29.741,30.925H12.259v-6.217h17.482V30.925z
+		 M37.979,25.323h-4.217v-4.69H8.238v4.69H4.021V10.908h33.958V25.323z"/>
+	<rect x="8.437" y="13.67" fill="#FFFFFF" width="4.142" height="4.197"/>
+	<rect x="16.677" y="13.67" fill="#FFFFFF" width="4.142" height="4.197"/>
+</g></svg></span><span  class="st_sharethis_custom" st_url="https://wtop.com/government/2019/02/federal-workers-could-see-1-9-percent-pay-increase-in-bill-to-avoid-shutdown/"><svg class="Svg" data-name="more" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/more.png" /><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M15.5,7H10V1.5C10,0.672,9.328,0,8.5,0C7.672,0,7,0.672,7,1.5V7
+	H1.5C0.672,7,0,7.672,0,8.5C0,9.329,0.672,10,1.5,10H7v5.5C7,16.329,7.672,17,8.5,17c0.828,0,1.5-0.671,1.5-1.5V10h5.5
+	c0.828,0,1.5-0.671,1.5-1.5C17,7.672,16.328,7,15.5,7z"/></svg></span>
+</div>					</div>
+								</div>
+
+				
+			</div>
+
+						<div class="Entry-featured" id='article_featured_image_for_sticky_widget'>
+				<figure>
+	<div class="Img u-scale">
+		<img  src="https://wtop.com/wp-content/uploads/2019/01/Government_Shutdown_57587-780x520.jpg" alt="" />	</div>
+	<figcaption class="Img-caption">
+		Internal Revenue Service employee Mary Maldonado, of Dracut, Mass., center, displays a placard during a rally by federal employees and supporters, Thursday, Jan. 17, 2019, in front of the Statehouse, in Boston, held to call for an end of the partial shutdown of the federal government. (AP Photo/Steven Senne)	</figcaption>
+</figure>
+
+			</div>
+		                    
+        
+		
+		                        <div class="schema-summary" style="display:none">Federal workers would receive a 1.9 percent pay increase under language included in legislation aimed at averting a government shutdown, according to House Majority Leader Steny Hoyer, D-Md.</div>
+			<div class="Entry-content u-textFormat" data-swiftype-name="content" data-swiftype-type="text">
+								<p>WASHINGTON — Federal workers would receive a 1.9 percent pay increase under language included in legislation aimed at averting a government shutdown, according to House Majority Leader Steny Hoyer, D-Md.</p>
+<p>The pay hike would be less than the 2.6 percent increase the military received in legislation that Congress passed last year.</p>
+<p>President Donald Trump has proposed a pay freeze for federal employees. But lawmakers from the Washington area, who represent tens of thousands of federal workers, have been pushing to get them a pay increase.</p><div class="Ad Widget in_article" id="" data-swiftype-index="false" data-status="init">
+		
+	<div class="Ad-content">
+		<div id="DFP_slot_wtop_mobile_backfill_1" class="wtop_mobile_backfill"  data-status="init"></div>	</div>
+</div>
+<p>The final language of the legislation to avoid the shutdown is still being worked out.</p>
+
+<div class="Widget WidgetList WidgetRelatedStories alignright">
+			<h3 class="Widget-title">
+			Related Stories		</h3>
+		<ul class="Widget-list">
+			<li class="Widget-item">
+			<a class="Widget-itemLink" href="https://wtop.com/government/2019/02/highlights-of-the-330-billion-plus-bill-to-avoid-shutdown/">
+				<strong class="Widget-itemTitle">Highlights of the $330 billion-plus bill to avoid shutdown</strong>
+							<span class="tag tag--primary">Government News</span>
+						</a>
+		</li>
+			<li class="Widget-item">
+			<a class="Widget-itemLink" href="https://wtop.com/government/2019/02/republican-senator-says-trump-wont-sign-funding-agreement-that-includes-contractor-back-pay/">
+				<strong class="Widget-itemTitle">Republican senator says Trump &#8216;won&#8217;t sign&#8217; funding agreement that includes contractor back pay</strong>
+							<span class="tag tag--primary">Government News</span>
+						</a>
+		</li>
+		</ul>
+</div>
+<p>For the pay raise to go into effect, the bill would have to be passed by the House and Senate, then receive the president’s signature.</p>
+<p>Lawmakers are also trying to include language in the legislation that would provide back pay to federally contracted workers, related to the 35-day shutdown. The legislation is supported by lawmakers from Virginia, Maryland and D.C.</p>
+				                
+								<p><em>Like WTOP on <a href="https://www.facebook.com/wtopnews">Facebook</a> and follow <a href="https://twitter.com/WTOP">@WTOP</a> on Twitter to engage in conversation about this article and others.</em></p>
+<p>© 2019 WTOP. All Rights Reserved. This website is not intended for users located within the European Economic Area.</p>
+			</div>
+                        <div class="clearfix"></div>
+
+							<div class="MobileAd u-mobileFill">
+			<div class="Ad Widget " id="" data-swiftype-index="false" data-status="init">
+		
+	<div class="Ad-content">
+		<div id="DFP_slot_wtop_mobile_right_1" class="wtop_mobile_right"  data-status="init"></div>	</div>
+</div>			</div>
+		            		<!--  AMP ad slot - AdSense -->
+		<amp-ad
+			layout="responsive"
+			width=300
+			height=250
+			type="adsense"
+			data-ad-client="ca-pub-8087073732553662"
+			data-ad-slot="1172684273">
+		</amp-ad>
+		<!--  //end AMP ad -->
+		
+		
+			<div class="Entry-footer" data-swiftype-index="false">
+			  <div class="Entry-footer-row">
+				<div class="topics-container">
+				
+<div class="Topics ">
+	<div class="label">Topics:</div>
+	<div class="list">
+					<a class="tag" href="https://wtop.com/government/congress/">Congress News</a>
+					<a class="tag" href="https://wtop.com/government/">Government News</a>
+					<a class="tag" href="https://wtop.com/tag/mitchell-miller/">mitchell miller</a>
+					<a class="tag" href="https://wtop.com/tag/shutdown/">shutdown</a>
+			</div>
+</div>				</div>
+				<div class="comments-container">
+								</div>
+			  </div>
+			  
+			</div>
+			<div class="Entry-comments" id="comments">
+						</div>
+		</div>
+
+	
+		<hr>
+					<hr>
+			<div class="Ad Widget " id="" data-swiftype-index="false" data-status="init">
+		
+	<div class="Ad-content">
+		<div id="taboola_ad_1"></div>	</div>
+</div>
+	</div>
+	<div class="column xlarge-4 hide show-for-xlarge-up u-borderBetween-left u-boxPadding" data-swiftype-index="false">
+		<div class="Sidebar">
+
+			<div class='sticky_parent' data-widgetid='dfp_sticky_ad-6' style='height:1400px;'><span class='s_w_clearfix_dfp_sticky_ad-6'>800</span><div class="make_me_sticky" style="height:600px;"><div class="Ad Widget"><div class="Ad-content"><div id="DFP_slot_wtop_right_1_1" class="wtop_right_1"  data-status="init"></div></div></div></div></div>
+<div class="Widget WidgetTabs">
+	
+<div class="tabs-container">
+	<dl class="tabs" data-tab>
+					<dd class="active">
+				<a href="#recommended">Recommended</a>
+			</dd>
+					<dd class="">
+				<a href="#latest">Latest</a>
+			</dd>
+			</dl>
+
+	<div class="tabs-content">
+					<div id="recommended" class="content active">
+				
+<div class="Widget WidgetList ">
+		<ul class="Widget-list Widget-content">
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/entertainment/2019/02/curtain-set-to-go-up-on-a-host-less-but-drama-filled-oscars-2/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						In an upset, &#8216;Green Book&#8217; wins best picture at Oscars					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Entertainment News</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/asia/2019/02/trump-extends-china-tariff-deadline-cites-progress-in-talks/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						Trump extends China tariff deadline, cites progress in talks					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Asia News</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/weather-news/2019/02/high-winds-swing-with-high-temps-in-dc-area/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						As temperatures warm, wind advisory for DC-area					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Weather News</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/national/2019/02/r-kelly-met-underage-girl-while-on-trial-for-child-porn/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						Lawyer says R. Kelly to stay jailed until Monday or Tuesday					  </strong>
+					  
+					  
+													<span class="tag tag--primary">National News</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/dc/2019/02/1-dead-in-nw-dc-shooting/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						1 dead in NW DC shooting					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Washington, DC News</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+			</ul>
+</div>
+			</div>
+					<div id="latest" class="content ">
+				
+<div class="Widget WidgetList ">
+		<ul class="Widget-list Widget-content">
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/arlington/2019/02/arlington-county-adds-160-affordable-housing-units-atop-american-legion-post/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						Arlington County adds 160 affordable housing units atop American Legion Post					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Arlington County</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/montgomery-county/2019/02/woman-rescued-from-silver-spring-house-fire/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						Woman rescued from Silver Spring house fire					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Montgomery County </span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/virginia/2019/02/amazons-move-to-crystal-city-raises-concern-for-working-poor/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						Amazon&#8217;s move to Crystal City raises concern for working poor					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Business &amp; Finance </span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/animals-pets/2019/02/how-you-can-take-credit-for-the-pandas-rebound/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						Fans of the giant panda should take a bow for the species&#8217; resurgence					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Animals &amp; Pets</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+					<li class="Widget-item">
+
+							<a class="Widget-link" href="https://wtop.com/virginia/2019/02/police-seek-publics-help-in-confederate-monument-vandalism/">
+			
+				
+					<div class="Widget-itemContent">
+					  <strong class="Entry-title">
+					  						Police seek public&#8217;s help in Confederate monument vandalism					  </strong>
+					  
+					  
+													<span class="tag tag--primary">Virginia</span>
+											  					  
+					</div>
+
+							</a>
+			
+			</li>
+			</ul>
+</div>
+			</div>
+			</div>
+</div></div><div class='sticky_parent' data-widgetid='dfp_sticky_ad-10' style='height:750px;'><span class='s_w_clearfix_dfp_sticky_ad-10'>500</span><div class="make_me_sticky" style="height:250px;"><div class="Ad Widget"><div class="Ad-content"><div id="DFP_slot_wtop_right_3_1" class="wtop_right_3"  data-status="init"></div></div></div></div></div>        	<div class="Widget">
+        <h3 class="Widget-title">Federal News Network</h3>			<div class="Entry Widget-content">
+				<div class="textwidget"><div id="wfedonwtop_90A1377EA98E0D26D18AD25CFC6FF9B8"></div>
+<p><script src="https://wtop.com/wp-content/themes/wtop/assets/react_assets/js/bundle_App_WFEDOnWTOP.js"></script></p>
+</div>
+			</div>
+		        	</div>
+        
+<div class="Widget WidgetPhoto" data-tb-region="Photo_Widget_Fun & Games">
+	<h3 class="Widget-title">
+
+					<a href="http://games.wtop.com/?arkpromo=site_articleRR%20">
+		
+			Play Now
+						<svg class="Svg" data-name="arrow-circle" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/arrow-circle.png" /><path fill-rule="evenodd" clip-rule="evenodd" d="M10,20C4.477,20,0,15.523,0,10C0,4.477,4.477,0,10,0
+	c5.523,0,10,4.477,10,10C20,15.523,15.523,20,10,20z M10,1.875c-4.487,0-8.125,3.638-8.125,8.125c0,4.488,3.638,8.125,8.125,8.125
+	s8.125-3.637,8.125-8.125C18.125,5.513,14.488,1.875,10,1.875z M14.688,10.694l0.002,0.003l-3.125,2.812l-0.002-0.003
+	c-0.166,0.15-0.384,0.243-0.625,0.243C10.42,13.75,10,13.33,10,12.812c0-0.276,0.122-0.523,0.313-0.694l-0.002-0.002l1.309-1.178
+	H5.938C5.42,10.938,5,10.518,5,10c0-0.518,0.42-0.937,0.937-0.937h5.682l-1.309-1.178l0.002-0.003C10.122,7.71,10,7.464,10,7.188
+	c0-0.518,0.42-0.938,0.938-0.938c0.241,0,0.459,0.094,0.625,0.243l0.002-0.003l3.125,2.813l-0.002,0.003
+	C14.878,9.477,15,9.723,15,10C15,10.277,14.878,10.523,14.688,10.694z"/></svg>			</a>
+		
+	</h3>
+	<div class="Entry Widget-content">
+					<a href="http://games.wtop.com/?arkpromo=site_articleRR%20">
+		
+			<img  data-lazy-src="https://wtop.com/wp-content/uploads/2016/12/fun-games-200x650-280x187.jpg" src="" alt="" class="lazyload" />
+					</a>
+		
+					<h3 class="Entry-title">
+				<a href="http://games.wtop.com/?arkpromo=site_articleRR%20">				Fun &amp; Games				</a>			</h3>
+		
+					<div class="Entry-content">
+				<p>Need a break? Play a quick game of solitaire or Sudoku. Or take one of our fun quizzes!</p>
+			</div>
+		
+			</div>
+</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="ym_1146333851801729831" class="ym"></div>
+
+			
+			<footer class="Footer" data-swiftype-index="false">
+				<div class="NewsAlerts row">
+										<span>
+						<strong class="label">Get alerts</strong>
+						<a href="https://wtop.com/alerts/" class="button">Sign Up</a>
+					</span>				 
+										<span>
+						<strong class="label">Fun & Games</strong>
+						<a href="http://games.wtop.com/?arkpromo=site_footer" class="button">Play Now</a>
+					</span>				 
+										<div class="rightwrap">
+												<div class="righitems">
+							<a href="https://www.instagram.com/wtopnews/" target="_blank" >
+								<svg class="Svg" data-name="instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/instagram.png" /><image  data-name="Layer 0" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhBgcMHAdyUp4EAAABk0lEQVQoz42RPUjUYRzHP/+n/2E6dHiiJXSDEBJ4geFgbxTRENSQNEhTS0MtYUPUFIVBg1tL0WTQ4NDcFCTRYu9vQ2ggRBF3aSR5/E+T89Py739eL9hneX7fF54Hnl8kwHHaecsxzlAhokGgkxbucYnpmP0M8YkCM/RQoEAzj5lnB0/ZF3OBHI9oo07C77xiFwCz3Agc5h0JS1RZ/qO4kJ4z7A3EFOimgyKbUnuOSjp1kQNydAMmauKKC6retWSffZa8req0L3yvJpHn2UqNOi1sZ5LrnGCUHNcY5yRH+UzMDxK+RI7TzirSyh0meEknl5FztLGNI4ywSCDwDRvs9qIf3CAiPvGm/Y0Qy+n0xs0mDqU13GPNvJNpWg7ZV1SRVr5nOiEmUGss6Rf9BCY4m+nTTAEDmc6e1hFjF73lTkuOWTfvcJaV1xb1oHkf+tFZn7vFAZf/VdRT9hiJRYddWeOXI+fpaNpvhQfUOUCxyZ2LrNDF+nwN3P+PGrzGXquuz2Ak9HKFQyyx+pebAhuZ4irPfgJonztWQFYnCQAAAABJRU5ErkJggg=="/></svg>							</a>
+						</div>				 
+												<div class="righitems">
+							<a href="https://www.youtube.com/user/WTOPradio" target="_blank" >
+								<svg class="Svg" data-name="youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="20" viewBox="0 0 26 20">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/youtube.png" /><image  data-name="Layer 0" width="26" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAUCAQAAAA5SeU1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhBgcMHiYMDezYAAABJElEQVQ4y5WTvUrEQBRGz72EwG4EFXYbBcFOsdhGBAsFwS5qZWNjIYggqP12YuEL7APoEyhiJTaW/hRWljaCCKIguDGuOxkb2SKTxM03zXBmzszcgSsGkDkbMkKVCkMEwACCBQRDhOWTDyIinjiTW8CI2Te2/5FsJyJmhmvKZUJZLqnAvDKZQt1/pWmllkLKETtEBVJNGXakZ1qywAk/OVJVqTpwFLhhlU3uMiVf0ZzzEo6Z5ZAHt0rFZhl/sCtNmeIyveoVf5QdZIuxfiTpzXbZoOFuyJK+AVhij8Xs+z1ih71S54B1Kjlv7ni8OTBkjfGCQttZUoPivKs8Ujb3ynlp6QqjplWmCU3TqBhQVgipE+AT4AN+r90tHSDmi5g2L5xyAb/vsZ5gavV7BwAAAABJRU5ErkJggg=="/></svg>							</a>
+						</div>				 
+												<div class="righitems">
+							<a href="https://www.facebook.com/wtopnews/" target="_blank" >
+								<svg class="Svg" data-name="facebook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px" height="24px" viewBox="-299.5 408.5 12 24" enable-background="new -299.5 408.5 12 24" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/facebook.png" /><path fill="#FFFFFF" d="M-288.517,408.507c0,1.326,0,3.703,0,3.703s-2.784-0.273-3.481,0.773c-0.381,0.572-0.155,2.246-0.189,3.448
+	c1.215,0,2.478,0,3.693,0c-0.312,1.405-0.536,2.358-0.765,3.574c-1.052,0-2.948,0-2.948,0v11.503c0,0-3.48,0-5.116,0
+	c0.001-3.546-0.001-7.683,0-11.458c-0.795,0-1.382,0-2.177,0c0-1.326,0-2.293,0-3.62c0.771,0,1.382,0,2.153,0
+	c0.11-2.646,0.152-5.268,1.493-6.604C-294.347,408.326-292.909,408.507-288.517,408.507z"/></svg>							</a>
+						</div>				 
+												<div class="righitems">
+							<a href="https://twitter.com/WTOP" target="_blank" >
+								<svg class="Svg" data-name="twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23px" height="20px" viewBox="-294 406.5 23 20" enable-background="new -294 406.5 23 20" xml:space="preserve">	<image src="https://wtop.com/wp-content/themes/wtop/assets/img/icons/twitter.png" /><g >
+	<path fill="#FFFFFF" d="M-278.363,406.501c1.827-0.033,2.799,0.645,3.728,1.508c0.788-0.069,1.813-0.517,2.416-0.829
+		c0.196-0.109,0.391-0.219,0.587-0.327c-0.345,0.949-0.812,1.691-1.53,2.255c-0.16,0.126-0.318,0.295-0.518,0.375
+		c0,0.004,0,0.008,0,0.011c1.023-0.011,1.868-0.481,2.669-0.736c0,0.004,0,0.008,0,0.011c-0.421,0.682-0.991,1.374-1.599,1.87
+		c-0.246,0.199-0.491,0.397-0.736,0.596c0.013,1.104-0.016,2.157-0.219,3.085c-1.178,5.393-4.299,9.055-9.24,10.623
+		c-1.774,0.563-4.641,0.795-6.673,0.28c-1.008-0.255-1.918-0.543-2.773-0.923c-0.475-0.211-0.914-0.44-1.335-0.701
+		c-0.138-0.086-0.276-0.172-0.414-0.258c0.458,0.014,0.995,0.143,1.507,0.058c0.464-0.076,0.918-0.056,1.346-0.152
+		c1.067-0.238,2.014-0.554,2.83-1.04c0.396-0.235,0.996-0.513,1.277-0.853c-0.53,0.01-1.01-0.116-1.404-0.257
+		c-1.526-0.549-2.414-1.558-2.992-3.074c0.462,0.052,1.794,0.174,2.106-0.093c-0.582-0.033-1.142-0.376-1.542-0.631
+		c-1.227-0.783-2.228-2.094-2.221-4.114c0.163,0.078,0.324,0.156,0.485,0.235c0.308,0.132,0.622,0.203,0.99,0.28
+		c0.155,0.033,0.466,0.126,0.644,0.059c-0.008,0-0.015,0-0.023,0c-0.237-0.282-0.624-0.47-0.863-0.772
+		c-0.787-0.997-1.525-2.532-1.058-4.359c0.118-0.464,0.306-0.873,0.506-1.25c0.008,0.004,0.015,0.007,0.023,0.012
+		c0.092,0.195,0.296,0.339,0.426,0.502c0.402,0.507,0.898,0.965,1.403,1.367c1.722,1.372,3.273,2.215,5.765,2.84
+		c0.632,0.158,1.362,0.279,2.117,0.28c-0.212-0.629-0.144-1.647,0.023-2.255c0.42-1.531,1.332-2.634,2.669-3.226
+		c0.32-0.141,0.675-0.244,1.047-0.327C-278.747,406.548-278.555,406.524-278.363,406.501z"/>
+</g></svg>							</a>
+						</div>				 
+											</div>
+				</div>
+
+				<nav class="Nav Nav--footer"><ul class="Nav-menu Nav-menu--depth0 menu"><li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-19038092"><a href="https://wtop.com/about-wtop-news/" class="Nav-link">About Us</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-173210"><a href="https://wtop.com/news-team/" class="Nav-link">News Team</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-19255940"><a href="https://hubbardbroadcasting.com/" class="Nav-link">Careers</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-173213"><a href="https://wtop.com/advertise/" class="Nav-link">Advertise</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-324946"><a href="https://wtop.com/contests/" class="Nav-link">Contests</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-173218"><a href="https://wtop.com/contact-us/" class="Nav-link">Contacts</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-498441"><a href="https://wtop.com/submit-news-tip/" class="Nav-link">News Tips</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-1971916"><a href="https://wtop.com/wtop-charity-partners/" class="Nav-link">Charities</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-7377521"><a href="https://wtop.com/wtop-community-events/" class="Nav-link">Events</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-9125156"><a href="https://wtop.com/podcast-dc/" class="Nav-link">Podcast DC</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-6893326"><a href="https://federalnewsnetwork.com/" class="Nav-link">Federal News Network</a></li>
+</ul></nav>
+				<div class="Footer-copyright row">
+					<span class="copyright">Copyright 2019 Hubbard Radio Washington DC, LLC. All rights reserved. This website is not intended for users located within the European Economic Area.</span>
+					<ul class="Nav--footer-copyright">
+					<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-173219"><a href="https://wtop.com/feedback/" class="Nav-link">Feedback</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-2317001"><a href="http://corporate.hubbardradio.com/privacy-policy/" class="Nav-link">Privacy Policy</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-2317011"><a href="http://corporate.hubbardradio.com/terms-of-use/" class="Nav-link">Terms of Use</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-173222"><a href="https://wtop.com/copyright/" class="Nav-link">Copyright</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-7377581"><a href="http://corporate.hubbardradio.com/" class="Nav-link">Hubbard Radio</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-18871105"><a href="http://corporate.hubbardradio.com/dmca-notice/" class="Nav-link">DMCA Notice</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-custom menu-item-object-custom menu-item-6893391"><a href="https://wtop.com/wp-content/uploads/6_1_2018Wash-DC-Market.pdf" class="Nav-link">EEO</a></li>
+<li class="Nav-menuItem Nav-menuItem--depth0 menu-item menu-item-type-post_type menu-item-object-page menu-item-9245636"><a href="https://wtop.com/wtop-103-5-fm-wwwt-107-7-fm-wtlp-103-9-fm-wwfd-820-am-online-fcc-public-inspection-files/" class="Nav-link">FCC Public Inspection File</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div><!-- end .MainContainer -->
+		
+
+            <!--<div id='lazy_load_footer_ad' class=''></div>-->
+		<div class="Ad Widget " id="" data-swiftype-index="false" data-status="init">
+		
+	<div class="Ad-content">
+		<div id="DFP_slot_wtop_footer_banner_1" class="wtop_footer_banner"  data-status="init"></div>	</div>
+</div>		
+					<div class="MobileStaticAd u-mobileFill">
+			<div class="Ad Widget " id="" data-swiftype-index="false" data-status="init">
+		
+	<div class="Ad-content">
+		<div id="DFP_slot_wtop_mobile_adhesion_1" class="wtop_mobile_adhesion"  data-status="init"></div>	</div>
+</div>			</div>
+			<div class="dfp_mobile_adhesion_spacer"></div>
+		
+				
+		<div id="DFP_slot_wtop_interstitial_1" class="wtop_interstitial"  data-status="init"></div>		
+		<div id="DFP_slot_wtop_mobile_interstitial_1" class="wtop_mobile_interstitial"  data-status="init"></div>		
+		<div id="DFP_slot_wtop_tout_interstitial_1" class="wtop_tout_interstitial"  data-status="init"></div>
+	</div><!-- end .Overflow -->
+
+	<section id="wp-footer">
+		
+
+<!-- START Parse.ly Include: Standard -->
+	<script data-cfasync="false">
+
+		function uuidProfileCall() {
+			var rootUrl = 'https://api.parsely.com/v2/profile?apikey=wtop.com';
+			var uuid = '&uuid=' + PARSELY.config.parsely_site_uuid;
+			var requestUrl = rootUrl + uuid + '&url=' + window.location.href;
+			jQuery.ajax({
+				url: requestUrl,
+				dataType: "jsonp"
+			});
+		}
+
+		if (typeof PARSELY == 'object') {
+			var oldonload = PARSELY.onload;
+			if (typeof PARSELY.onload != 'function') {
+				PARSELY.onload = uuidProfileCall
+			}
+			else {
+				PARSELY.onload = function () {
+					if (oldonload) {
+						oldonload();
+					}
+					uuidProfileCall();
+				};
+			}
+		}
+
+		else {
+			PARSELY = {
+				onload: uuidProfileCall
+			}
+		}
+	</script>
+
+<div id="parsely-root" style="display: none">
+	<div id="parsely-cfg" data-parsely-site="wtop.com"></div>
+</div>
+<script data-cfasync="false">
+	(function (s, p, d) {
+		var h = d.location.protocol, i = p + "-" + s,
+			e = d.getElementById(i), r = d.getElementById(p + "-root"),
+			u = h === "https:" ? "d1z2jf7jlzjs58.cloudfront.net"
+				: "static." + p + ".com";
+		if (e) return;
+		e = d.createElement(s);
+		e.id = i;
+		e.async = true;
+		e.setAttribute('data-cfasync', 'false');
+		e.src = h + "//" + u + "/p.js";
+		r.appendChild(e);
+	})("script", "parsely", document);
+</script>
+
+<!-- END Parse.ly Include: Standard -->
+<script type='text/javascript' src='https://wtop.com/wp-content/plugins/dfp-custom/assets/js/stickywidget.min.js?ver=1.1'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/respond/dest/respond.min.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/modernizr/modernizr-custom.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/picturefill/dist/picturefill.min.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/lodash/dist/lodash.compat.min.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/fastclick/lib/fastclick.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/foundation/js/foundation/foundation.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/foundation/js/foundation/foundation.equalizer.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/foundation/js/foundation/foundation.tab.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/foundation/js/foundation/foundation.alert.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/foundation/js/foundation/foundation.reveal.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/slick.js/slick/slick.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/vendor/jquery.dotdotdot/src/js/jquery.dotdotdot.min.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/templates.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/site.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/temp_dfp_log.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/external_links.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/jquery.sonar.min.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/lazy-load-custom.min.js?ver=1550109675'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_js_data = {"template_url":"https:\/\/wtop.com\/wp-content\/themes\/wtop","ajaxurl":"https:\/\/wtop.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/hp_ajax_loader.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/header_new.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/smartbanner.min.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/video-tracking-jwplayer.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/video-tracking-youtube.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-content/themes/wtop/assets/js/elasticsearch_custom.js?ver=1550109675'></script>
+<script type='text/javascript' src='https://wtop.com/wp-includes/js/wp-embed.min.js?ver=4.9.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Sailthru_config = {"domain":"horizon.wtop.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://wtop.com/wp-content/plugins/sailthru-custom/assets/js/sailthru.js?ver=190214-20114'></script>
+<!-- Title diw: "Federal workers could see 1.9 percent pay increase in bill to avoid shutdown | " : "|" : "right" -->
+		<!-- ComScore -->
+		<script defer >
+		    var _comscore = _comscore || [];
+		    _comscore.push({ c1: "2", c2: "16067480" });
+                    function downloadComScoreAtOnload() {
+                        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+                        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+                        el.parentNode.insertBefore(s, el);
+                    }
+                    if (window.addEventListener)
+                        window.addEventListener("load", downloadComScoreAtOnload, false);
+                    else if (window.attachEvent)
+                        window.attachEvent("onload", downloadComScoreAtOnload);
+                    else window.onload = downloadComScoreAtOnload; 
+		</script>
+		<noscript>
+		  <img src="//b.scorecardresearch.com/p?c1=2&c2=16067480&cv=2.0&cj=1" />
+		</noscript>
+		<!-- /ComScore -->
+				<!-- Quantcast -->
+		<script type="text/javascript" defer >
+                    var _qevents = _qevents || [];
+
+                    function downloadQuantcastAtOnload() {
+                        var elem = document.createElement('script');
+                        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                        elem.async = true;
+                        elem.type = "text/javascript";
+                        var scpt = document.getElementsByTagName('script')[0];
+                        scpt.parentNode.insertBefore(elem, scpt);
+                    }
+
+                    _qevents.push({
+                            qacct:"p-sgZGQjSAzUNrD"
+                    });
+                    if (window.addEventListener)
+                        window.addEventListener("load", downloadQuantcastAtOnload, false);
+                    else if (window.attachEvent)
+                        window.attachEvent("onload", downloadQuantcastAtOnload);
+                    else window.onload = downloadQuantcastAtOnload; 
+		</script>
+		<noscript>
+			<div style="display:none;">
+				<img src="//pixel.quantserve.com/pixel/p-sgZGQjSAzUNrD.gif" border="0" height="1" width="1" alt="Quantcast"/>
+			</div>
+		</noscript>
+		<!-- /Quantcast -->
+				<!-- ShareThis -->
+		<script type="text/javascript">var switchTo5x=true; </script>
+		<script type="text/javascript" async="true" src="https://ws.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">
+                    // stLight.options({publisher: "de88ba6c-368a-4776-b217-b0f8e75b2f46", onhover: false, doNotHash: true, doNotCopy: true, hashAddressBar: false, shorten: false});
+                       wait();
+			// Wait until buttons.js is ready
+			function wait ( ) {
+				if ( typeof(stlib) === 'undefined' ) {
+					setTimeout(wait, 250);
+				} else {
+					initShareThis();
+				}
+			}
+			
+			function initShareThis() {
+				stLight.options({publisher: "de88ba6c-368a-4776-b217-b0f8e75b2f46", onhover: false, doNotHash: true, doNotCopy: true, hashAddressBar: false, shorten: false});
+			}         
+                </script>
+		<!-- /ShareThis -->
+				<!-- Taboola -->
+		<script type="text/javascript">
+			window._taboola = window._taboola || [];
+
+					_taboola.push({"mode":"thumbnails-c","container":"taboola_ad_1","placement":"Below Article Thumbnails","target_type":"mix"});
+		
+			_taboola.push({article: 'auto', flush: true });
+        </script>
+        	</section>
+                        <div class="website-page-data"
+                        data-pub-timestamp="1550016000000"
+                        data-site-section="Government News"
+                        data-article-author="Mitchell Miller"
+                        data-article-title="Federal workers could see 1.9 percent pay increase in bill to avoid shutdown" style="display:none"></div>
+        </body>
+</html>

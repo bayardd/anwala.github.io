@@ -1,0 +1,15 @@
+*Repeater Summary Details for GB3MH
+Keeper/NoV holder:  MALCOLM HARMAN [G3NZP]
+ 
+Band: 2M  ( RV50 )   Output frequency: 145.6250 MHz  RX Frequency: 145.0250 MHz
+This is an ANALOGUE VOICE REPEATER  [CTCSS tone is 88.5 Hz]
+Location/Whereabouts: EAST GRINSTEAD
+Location: EAST GRINSTEAD  NGR: TQ337354  Locator: IO91WC   Latitude/Longitude: 51.102217 / -0.090851
+[VIEW location]   [Note: Locations may be shown to an approximation in some cases for security reasons]
+ 
+Echolink Node:  453929    IRLP Node:  5569
+Group web site:  http://www.ashdownforestrg.org
+Database Entry: 30 Jan 2017
+Date of NoV Issue: 12 Feb 2017 
+Renewal Date: 12 Feb 2020 
+Report STATUS Change

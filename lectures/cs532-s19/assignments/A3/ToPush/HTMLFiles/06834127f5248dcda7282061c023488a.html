@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <title>Are you ready for the quiz?</title>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js"
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5CBB2XV");
+    </script>
+
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5CBB2XV"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe>
+    </noscript>
+
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="center-block">
+          <h1 id="question">Hello there!</h1>
+          <div>
+            <p>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                style="width:100%"
+                id="a1"
+              >
+                <span id="s1"></span>
+                <div id="d1"></div>
+              </button>
+            </p>
+            <p>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                style="width:100%"
+                id="a2"
+              >
+                <span id="s2"></span>
+                <div id="d2"></div>
+              </button>
+            </p>
+            <p>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                style="width:100%"
+                id="a3"
+              >
+                <span id="s3"></span>
+                <div id="d3"></div>
+              </button>
+            </p>
+            <p>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                style="width:100%"
+                id="a4"
+              >
+                <span id="s4"></span>
+                <div id="d4"></div>
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      function shuffle(a) {
+        var j, x, i;
+        for (i = a.length - 1; i > 0; i--) {
+          j = Math.floor(Math.random() * (i + 1));
+          x = a[i];
+          a[i] = a[j];
+          a[j] = x;
+        }
+        return a;
+      }
+
+      function indexRightAnswer(answers) {
+        var index = 0;
+        while (index < answers.length) {
+          if (answers[index][1]) {
+            return index;
+          }
+          index++;
+        }
+        return -1;
+      }
+
+      function updateAnswersDisplay(right_answer_index) {
+        $("#s1")
+          .addClass("fa")
+          .addClass("fa-times");
+        $("#s2")
+          .addClass("fa")
+          .addClass("fa-times");
+        $("#s3")
+          .addClass("fa")
+          .addClass("fa-times");
+        $("#s4")
+          .addClass("fa")
+          .addClass("fa-times");
+        var right_answer_id2 = "#s" + (right_answer_index + 1);
+        $(right_answer_id2)
+          .removeClass("fa-times")
+          .addClass("fa-check");
+        $("#a" + (right_answer_index + 1))
+          .removeClass("btn-dark")
+          .addClass("btn-success");
+        disableButtons();
+      }
+
+      function disableButtons() {
+        $("#a1").attr("disabled", "");
+        $("#a2").attr("disabled", "");
+        $("#a3").attr("disabled", "");
+        $("#a4").attr("disabled", "");
+      }
+
+      function answerClicked(btnIndex) {
+        //find if answer is correct or not
+        //display correct answer
+        var right_answer_index = indexRightAnswer(answers);
+        if (answers[btnIndex][1]) {
+          //correct answer
+          //green btn and add a correct sign
+          var right_answer_id = "a" + (btnIndex + 1);
+          $("#" + right_answer_id).removeClass("btn-dark");
+          $("#" + right_answer_id).addClass("btn-success");
+          updateAnswersDisplay(right_answer_index);
+        } else {
+          //right_answer_index = indexRightAnswer(answers);
+          var wrong_answer_id = "a" + (btnIndex + 1);
+          $("#" + wrong_answer_id).removeClass("btn-dark");
+          $("#" + wrong_answer_id).addClass("btn-danger");
+          updateAnswersDisplay(right_answer_index);
+        }
+      }
+    </script>
+    <script type="text/javascript">
+      var question = "Where were the 1900 Olympic games held?";
+      var answers = [
+        ["Paris", true],
+        ["Stockholm", false],
+        ["St Louis", false],
+        ["Stockholm", false]
+      ];
+      answers = shuffle(answers);
+      $(document).ready(function() {
+        document.getElementById("question").textContent = question;
+        document.getElementById("d1").textContent = answers[0][0];
+        document.getElementById("d2").textContent = answers[1][0];
+        document.getElementById("d3").textContent = answers[2][0];
+        document.getElementById("d4").textContent = answers[3][0];
+        //Attack custom click event
+        $("#a1").click(function() {
+          answerClicked(0);
+        });
+        $("#a2").click(function() {
+          answerClicked(1);
+        });
+        $("#a3").click(function() {
+          answerClicked(2);
+        });
+        $("#a4").click(function() {
+          answerClicked(3);
+        });
+      });
+    </script>
+    <div
+  class="modal fade"
+  id="modalLoginForm"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title w-100 font-weight-bold">
+          Enter your email to participate in exclusive trivia shows and win
+          prizes
+        </h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <!--
+            -
+            <i class="fa fa-envelope prefix grey-text"></i>
+          -->
+          <label data-error="wrong" data-success="right" for="defaultForm-email"
+            >Your email</label
+          >
+          <input
+            type="email"
+            id="defaultForm-email"
+            class="form-control validate"
+          />
+        </div>
+      </div>
+      <!--
+      <div class="modal-footer d-flex justify-content-center">
+      -->
+      <div class="d-flex justify-content-center"></div>
+        <button class="btn btn-lg btn-primary" id="submit_button">
+          Yes, I want to win prizes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+  <div class="text-center">
+    <a
+      href=""
+      class="btn btn-default btn-rounded mb-4"
+      data-toggle="modal"
+      data-target="#modalLoginForm"
+      >Launch Modal Login Form</a
+    >
+  </div>
+-->
+<script>
+  /*
+    add click event to open modal after a couple seconds
+    */
+
+  $(document).ready(function() {
+    // $("#modalLoginForm").modal();
+    popUpModal(5);
+    $("#submit_button").click(function() {
+      //post ajax request
+      var request = $.ajax({
+        url: "../../postmail",
+        type: "POST",
+        data: { email: $("#defaultForm-email").val() },
+        dataType: "json"
+      });
+      $("#modalLoginForm").modal("hide");
+    });
+  });
+
+  function popUpModal(numSeconds) {
+    setTimeout(function() {
+      $("#modalLoginForm").modal();
+    }, numSeconds * 1000);
+  }
+</script>
+  </body>
+</html>

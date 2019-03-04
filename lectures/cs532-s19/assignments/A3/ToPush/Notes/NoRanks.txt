@@ -1,0 +1,7 @@
+Page Rank 	 URI 
+---------- 	 ---
+0.0 		 https://apnews.com/18b632a262634e31918344f2c74a8e32 	
+0.0 		 https://newspunch.com/trump-sign-executive-order-extra-wall-funds-avoid-shutdown/ 	
+0.0 		 https://fullmagazine.us/immigration-spending-pact-has-more-than-a-border-wall/ 	
+0.0 		 https://dailywn.com/news/224240%0A 	
+0.0 		 https://www.nytimes.com/2019/02/14/us/politics/congress-trump-border-deal-wall.html?smid=nytcore-ios-share%0A 	

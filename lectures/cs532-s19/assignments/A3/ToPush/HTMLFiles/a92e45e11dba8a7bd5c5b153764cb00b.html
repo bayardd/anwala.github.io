@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<link rel="amphtml" href="https://cwa-union.org/news/aviation-safety-risk-if-government-shutdown-resumes?amp" />
+<link rel="shortcut icon" href="https://cwa-union.org/sites/all/themes/cwa_union/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="twitter:image" content="https://cwa-union.org/sites/default/files/styles/twitter_image_1024x512/public/20190214enews_5a_sarasteffenspressconference_tw.jpg?itok=W-JRZS_w" />
+<meta property="og:image" content="https://cwa-union.org/sites/default/files/images/news/20190214enews_5a_sarasteffenspressconference.jpg" />
+<meta property="og:image:width" content="696" />
+<meta property="og:image:height" content="364" />
+<meta name="description" content="At a press conference this week, CWA Secretary-Treasurer Sara Steffens and AFA-CWA International President Sara Nelson called on Congress and the White House to avoid another federal government shutdown in order to keep workers and the flying public safe." />
+<link rel="image_src" href="https://cwa-union.org/cwa.jpg" />
+<link rel="canonical" href="https://cwa-union.org/news/aviation-safety-risk-if-government-shutdown-resumes" />
+<link rel="shortlink" href="https://cwa-union.org/node/54513" />
+<meta property="og:site_name" content="Communications Workers of America" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cwa-union.org/news/aviation-safety-risk-if-government-shutdown-resumes" />
+<meta property="og:title" content="Aviation Safety at Risk if Government Shutdown Resumes" />
+<meta property="og:description" content="At a press conference this week, CWA Secretary-Treasurer Sara Steffens and AFA-CWA International President Sara Nelson called on Congress and the White House to avoid another federal government shutdown in order to keep workers and the flying public safe." />
+<meta property="og:updated_time" content="2019-02-14T15:42:47-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://cwa-union.org/news/aviation-safety-risk-if-government-shutdown-resumes" />
+<meta name="twitter:title" content="Aviation Safety at Risk if Government Shutdown Resumes" />
+<meta name="twitter:description" content="At a press conference this week, CWA Secretary-Treasurer Sara Steffens and AFA-CWA International President Sara Nelson called on Congress and the White House to avoid another federal government shutdown in order to keep workers and the flying public safe." />
+<meta property="article:publisher" content="https://www.facebook.com/CWAUnion" />
+<meta property="article:published_time" content="2019-02-14T13:32:54-05:00" />
+<meta property="article:modified_time" content="2019-02-14T15:42:47-05:00" />
+
+
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="VK91yKT3qdfzlGLGW6KcBfTdKkyqJrpmj5C7TvlVZyc" />
+  <title>Aviation Safety at Risk if Government Shutdown Resumes | Communications Workers of America</title>
+  <style>
+@import url("https://cwa-union.org/modules/system/system.base.css?pnao5f");
+</style>
+<style>
+@import url("https://cwa-union.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.datepicker.min.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/libraries/chosen/chosen.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/chosen/css/chosen-drupal.css?pnao5f");
+</style>
+<style>
+@import url("https://cwa-union.org/sites/all/modules/date/date_api/date.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/date/date_repeat_field/date_repeat_field.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/domain/domain_nav/domain_nav.css?pnao5f");
+@import url("https://cwa-union.org/modules/field/theme/field.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/fitvids/fitvids.css?pnao5f");
+@import url("https://cwa-union.org/modules/node/node.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/picture/picture_wysiwyg.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/views/css/views.css?pnao5f");
+</style>
+<style>
+@import url("https://cwa-union.org/sites/all/modules/colorbox/styles/plain/colorbox_style.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/ctools/css/ctools.css?pnao5f");
+</style>
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="all" />
+<style>
+@import url("https://cwa-union.org/sites/all/modules/cwau_mega_menu/css/bootstrap.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/cwau_mega_menu/css/base.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/cwau_mega_menu/css/default.css?pnao5f");
+@import url("https://cwa-union.org/sites/all/modules/cwau_mega_menu/css/compatibility.css?pnao5f");
+</style>
+<link type="text/css" rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/all.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/v4-shims.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,500italic,700,700italic,900,900italic,100italic,100,&amp;subset=latin,latin-ext" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:700&amp;subset=latin,latin-ext" media="all" />
+<style>
+@import url("https://cwa-union.org/sites/all/themes/cwa_union/css/style.css?pnao5f");
+</style>
+
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://cwa-union.org/sites/default/files/js/js_8Uo0Lfo4rde80mKuQKouHPoNnmHEnz2n3NSf3iTweYo.js"></script>
+<script src="https://cwa-union.org/sites/default/files/js/js_2jzGYx06a1cjkoQb3owxXnOS7Tv46KUaI-JBup_9c5I.js"></script>
+<script>document.createElement( "picture" );</script>
+<script src="https://cwa-union.org/sites/default/files/js/js_ptR1ZjZnexk8gj2Q9mIgM2M_6ztR4ckK-i_6gzFmlNM.js"></script>
+<script src="https://cwa-union.org/sites/default/files/js/js_KPXrG35ht2YXjjFK7pXemm30PHo4Jc0go6E0dNHBYAo.js"></script>
+<script src="https://cwa-union.org/sites/default/files/js/js_HbE2XwzjmAgINxgddfJIkmp_TqZJiMR223hyz8f84-0.js"></script>
+<script>window.CKEDITOR_BASEPATH = '/sites/all/libraries/ckeditor/'</script>
+<script src="https://cwa-union.org/sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-278151-5", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://cwa-union.org/sites/default/files/js/js_v8P_HM3Vdd1TBnfuQUy9CQ4Ft20mHrb9xSrPpHgmkps.js"></script>
+<script src="https://cwa-union.org/sites/default/files/js/js_HKlSG3x9Ju8X8IxXk1J0wRtOOConRqanaXSGc6NeJcw.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cwa_union","theme_token":"5cYT0CsyyIRsBB3OOpNoVwD1e-kvbeQ5b6CjVQw88Mc","js":{"sites\/all\/modules\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/picture\/picture.min.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"sites\/all\/modules\/date\/date_popup\/jquery.timeentry.pack.js":1,"0":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/libraries\/jstorage\/jstorage.min.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/modules\/date\/date_popup\/date_popup.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/modules\/cwau_mega_menu\/js\/mega_menu_resp.js":1,"sites\/all\/modules\/cwau_signup_block\/js\/email-signup.js":1,"sites\/all\/modules\/cwau_email_blocks\/js\/email-signup.js":1,"sites\/all\/modules\/chosen\/chosen.js":1,"sites\/all\/themes\/cwa_union\/js\/bootstrap.min.js":1,"sites\/all\/themes\/cwa_union\/js\/jquery.matchHeight-min.js":1,"sites\/all\/themes\/cwa_union\/js\/jquery.anystretch.js":1,"sites\/all\/themes\/cwa_union\/js\/cwa-union.js":1,"sites\/all\/themes\/cwa_union\/js\/email-signup.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/chosen\/css\/chosen-drupal.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.4.0\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"\/\/use.fontawesome.com\/releases\/v5.3.1\/css\/all.css":1,"\/\/use.fontawesome.com\/releases\/v5.3.1\/css\/v4-shims.css":1,"\/\/fonts.googleapis.com\/css?family=Roboto:400,300italic,300,400italic,500,500italic,700,700italic,900,900italic,100italic,100,\u0026subset=latin,latin-ext":1,"\/\/fonts.googleapis.com\/css?family=Roboto+Condensed:700\u0026subset=latin,latin-ext":1,"sites\/all\/themes\/cwa_union\/css\/style.css":1,"sites\/all\/themes\/cwa_union\/css\/tooltipser.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/search-results":true,"\/news":true},"datePopup":{"edit-posted-min-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"yy-mm-dd","yearRange":"-24:+0","fromTo":false,"defaultDate":"0y"}},"edit-posted-max-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"yy-mm-dd","yearRange":"-24:+0","fromTo":false,"defaultDate":"0y"}}},"chosen":{"selector":"select:visible","minimum_single":5,"minimum_multiple":0,"minimum_width":200,"options":{"disable_search":false,"disable_search_threshold":0,"search_contains":false,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"fitvids":{"custom_domains":["iframe[src^=\u0027https:\/\/facebook.com\u0027]"],"selectors":["body"],"simplifymarkup":1},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+
+
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-54513 node-type-news domain-cwa-union social-on">
+      <!-- FB Embed -->
+    <script>(function(d, s, id) {       var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=292909800809826";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="fb-root"></div>     <!-- Google Schema -->
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "Communications Workers of America",
+      "url" : "http://www.cwa-union.org",
+      "sameAs" : [
+        "http://www.facebook.com/CWAUnion",
+        "http://twitter.com/cwaunion",
+        "https://plus.google.com/+cwaunion",
+        "https://www.youtube.com/user/CWAUnion"
+      ]
+    }
+    </script>
+  
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+      <div class="responsive-nav-container hidden">
+     <div class="region region-responsive-nav">
+    <section id="block-menu-block-cwau-cwa-news-2" class="block block-menu-block clearfix">
+
+      
+  
+  <div class="menu-block-wrapper menu-block-cwau_cwa_news-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first expanded menu-mlid-688"><a href="/national-issues">National Issues</a><ul class="menu nav"><li class="first leaf menu-mlid-689"><a href="/national-issues/collective-bargaining">Collective Bargaining</a></li>
+<li class="leaf menu-mlid-693"><a href="/national-issues/secure-sustainable-jobs">Secure, Sustainable Jobs</a></li>
+<li class="leaf menu-mlid-697"><a href="/national-issues/health-care-retirement-security">Health Care &amp; Retirement Security</a></li>
+<li class="leaf has-children menu-mlid-699"><a href="/national-issues/economic-justice-democracy">Economic Justice &amp; Democracy</a></li>
+<li class="leaf has-children menu-mlid-702"><a href="/national-issues/human-rights">Human Rights</a></li>
+<li class="leaf menu-mlid-711"><a href="/national-issues/international-solidarity">International Solidarity</a></li>
+<li class="leaf has-children menu-mlid-713"><a href="/national-issues/health-and-safety">Health &amp; Safety</a></li>
+<li class="last leaf menu-mlid-899"><a href="/national-issues/legislation-and-politics">Legislation &amp; Politics</a></li>
+</ul></li>
+<li class="expanded menu-mlid-561"><a href="/news">News &amp; Events</a><ul class="menu nav"><li class="first leaf menu-mlid-1035"><a href="/news/e-newsletter" title="">E-Newsletter</a></li>
+<li class="leaf menu-mlid-883"><a href="/news/releases" title="">Press Releases</a></li>
+<li class="leaf menu-mlid-1123"><a href="/multimedia" title="">Photos, Video &amp; Audio</a></li>
+<li class="leaf menu-mlid-984"><a href="/events" title="">Events</a></li>
+<li class="last leaf menu-mlid-882"><a href="/cwa-news" title="">The CWA News</a></li>
+</ul></li>
+<li class="expanded menu-mlid-631"><a href="/for-members">For Members</a><ul class="menu nav"><li class="first leaf has-children menu-mlid-1111"><a href="/for-members#benefits" title="">Benefits, Scholarships &amp; Training</a></li>
+<li class="leaf has-children menu-mlid-632"><a href="/for-members/retired-members-council">Retired Members Council</a></li>
+<li class="leaf menu-mlid-638"><a href="/for-members/social-media-guidelines">Social Media Guidelines</a></li>
+<li class="leaf menu-mlid-639"><a href="/for-members/change-or-update-address-or-email">Change or Update Address / Email</a></li>
+<li class="leaf menu-mlid-900"><a href="/nextgen" title="">Next Generation</a></li>
+<li class="leaf menu-mlid-654"><a href="/for-members/elizabeth-glaser-pediatric-aids-foundation">Charity of Choice</a></li>
+<li class="leaf menu-mlid-904"><a href="https://myunionstore.com/cwa" title="">CWA Store</a></li>
+<li class="last leaf menu-mlid-1128"><a href="/get-local/directory" title="">Find Your Local</a></li>
+</ul></li>
+<li class="expanded menu-mlid-663"><a href="/for-locals">For Locals</a><ul class="menu nav"><li class="first leaf menu-mlid-681"><a href="/uopm">Union Operating Procedures Manual</a></li>
+<li class="leaf menu-mlid-666"><a href="/for-locals/cwa-constitution">CWA Constitution</a></li>
+<li class="leaf menu-mlid-675"><a href="/for-locals/online-communications-tools-for-locals">Local Website Tools</a></li>
+<li class="leaf menu-mlid-676"><a href="/for-locals/forms">Forms</a></li>
+<li class="last leaf menu-mlid-906"><a href="http://www.cwamaterials.org" title="">Order Materials</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-682"><a href="/join-union">Join The Union</a><ul class="menu nav"><li class="first leaf menu-mlid-686"><a href="/join-union/what-union">Why a Union</a></li>
+<li class="leaf menu-mlid-687"><a href="/join-union/how-organize">How to Organize</a></li>
+<li class="leaf menu-mlid-985"><a href="http://www.cwamaterials.org/organizing-s/1818.htm" title="">Get Organizing Materials</a></li>
+<li class="leaf menu-mlid-683"><a href="/join-union/contact-cwa-organizing-department">Need Help?</a></li>
+<li class="last leaf menu-mlid-1115"><a href="/news/victory" title="">Victory News</a></li>
+</ul></li>
+</ul></div>
+
+</section>
+  </div>
+  </div>
+<header id="header" role="banner" class="site-header">
+  <div class="container">
+    <div class="row">
+      <div class="site-logo">
+                  <a class="logo" href="/" title="Home">
+            <img src="/sites/all/themes/cwa_union/images/logo.svg" alt="Home" />
+          </a>
+                      </div>
+      <div class="utility-bar">
+                  <a class="utility-site-title" href="/" title="Home">Communications Workers of America</a>
+                            <div class="region region-header">
+    <section id="block-menu-block-cwau-menu-block-2" class="block block-menu-block clearfix">
+
+      
+  
+  <div class="menu-block-wrapper menu-block-cwau_menu_block-2 menu-name-menu-utility-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first last leaf has-children menu-mlid-749"><a href="/about">About</a></li>
+</ul></div>
+
+</section>
+<section id="block-boxes-header-text-resize-tooltip" class="block block-boxes block-boxes-simple utility-text-tool clearfix">
+
+      
+  
+  <div id='boxes-box-header_text_resize_tooltip' class='boxes-box'><div class="boxes-box-content"><div class="text-sizer">
+<div class="text-sizer-indicators"><span class="smaller">A</span><span class="larger">/A</span>
+<div class="text-sizer-instructions hidden">Use Ctrl+ or ⌘+ to increase font size or Ctrl- or ⌘- to decrease.</div>
+</div>
+</div></div></div>
+</section>
+<section id="block-boxes-header-utility-social" class="block block-boxes block-boxes-simple utility-social clearfix">
+
+      
+  
+  <div id='boxes-box-header_utility_social' class='boxes-box'><div class="boxes-box-content"><a href="http://twitter.com/cwaunion"><i class="fab fa-twitter"></i></a><a href="https://www.facebook.com/CWAUnion"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/cwaunion/"><i class="fab fa-instagram"></i></a></div></div>
+</section>
+<section id="block-boxes-header-email-subscribe" class="block block-boxes block-boxes-simple utility-signup clearfix">
+
+      
+  
+  <div id='boxes-box-header_email_subscribe' class='boxes-box'><div class="boxes-box-content"><form id="email-header">
+<input class="form-control form-text" type="text" size="30" maxlength="128" id="email-address" name="email-address" placeholder="email signup" /><button type="submit" id="email-subscribe" class="btn btn-primary form-submit"><i class="fa fa-envelope"></i></button>
+</form></div></div>
+</section>
+<section id="block-views-exp-site-search-page" class="block block-views utility-search clearfix">
+
+      
+  
+  <form action="/search-results" method="get" id="views-exposed-form-site-search-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-fulltext-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-item-search-api-views-fulltext form-type-textfield form-group"><input placeholder="Search" class="form-control form-text" type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="" size="30" maxlength="128" /></div>        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button type="submit" id="edit-submit-site-search" name="" value="&lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;" class="btn btn-primary form-submit"><i class="fa fa-search"></i></button>
+    </div>
+      </div>
+</div>
+</div></form>
+</section>
+  </div>
+              </div>
+              <div class="navigation">
+          <nav role="navigation">
+                            <div class="region region-navigation">
+    <section id="block-tb-megamenu-main-menu" class="block block-tb-megamenu clearfix">
+
+      
+  
+  <div  class="tb-megamenu tb-megamenu-main-menu">
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button">
+      <i class="fa fa-reorder"></i>
+    </button>
+    <div class="nav-collapse ">
+    <ul  class="tb-megamenu-nav nav level-0 items-8">
+  <li  data-id="688" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="left" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-left dropdown">
+  <a href="/national-issues"  class="dropdown-toggle">
+        
+    National Issues          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="" id="tb-megamenu-column-4" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-8">
+  <li  data-id="689" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/national-issues/collective-bargaining" >
+        
+    Collective Bargaining          </a>
+  </li>
+
+<li  data-id="693" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/national-issues/secure-sustainable-jobs" >
+        
+    Secure, Sustainable Jobs          </a>
+  </li>
+
+<li  data-id="697" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/national-issues/health-care-retirement-security" >
+        
+    Health Care & Retirement Security          </a>
+  </li>
+
+<li  data-id="699" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega dropdown-submenu">
+  <a href="/national-issues/economic-justice-democracy"  class="dropdown-toggle">
+        
+    Economic Justice & Democracy          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-1" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-5">
+  <li  data-id="897" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="http://www.democracyforus.org"  title="The Democracy Initiative">
+        
+    The Democracy Initiative          </a>
+  </li>
+
+<li  data-id="1755" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/national-issues/economic-justice-democracy/take-on-wall-street" >
+        
+    Take On Wall Street          </a>
+  </li>
+
+<li  data-id="700" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/national-issues/economic-justice-democracy/corporate-money-in-politics" >
+        
+    Corporate Money In Politics          </a>
+  </li>
+
+<li  data-id="701" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/national-issues/economic-justice-democracy/voting-rights" >
+        
+    Voting Rights          </a>
+  </li>
+
+<li  data-id="898" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="http://www.fixthesenatenow.org"  title="Senate Rules Reform">
+        
+    Senate Rules Reform          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="702" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega dropdown-submenu">
+  <a href="/national-issues/human-rights"  class="dropdown-toggle">
+        
+    Human Rights          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-2" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="707" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/national-issues/human-rights/womens-committee" >
+        
+    Women's Committee          </a>
+  </li>
+
+<li  data-id="703" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/national-issues/human-rights/committee-on-civil-rights-and-equity" >
+        
+    Committee on Civil Rights and Equity          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="711" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/national-issues/international-solidarity" >
+        
+    International Solidarity          </a>
+  </li>
+
+<li  data-id="713" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega dropdown-submenu">
+  <a href="/national-issues/health-and-safety"  class="dropdown-toggle">
+        
+    Health & Safety          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-3" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="718" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/national-issues/health-and-safety/health-and-safety-fact-sheets"  title="Health &amp; Safety Fact Sheets">
+        
+    Health & Safety Fact Sheets          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="899" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/national-issues/legislation-and-politics" >
+        
+    Legislation & Politics          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="561" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="left" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-left dropdown">
+  <a href="/news"  class="dropdown-toggle">
+        
+    News & Events          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-5" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-5">
+  <li  data-id="1035" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/news/e-newsletter"  title="E-Newsletter">
+        
+    E-Newsletter          </a>
+  </li>
+
+<li  data-id="883" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/news/releases"  title="Press Releases">
+        
+    Press Releases          </a>
+  </li>
+
+<li  data-id="1123" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/multimedia"  title="Photos, Video &amp; Audio">
+        
+    Photos, Video & Audio          </a>
+  </li>
+
+<li  data-id="984" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/events"  title="Events">
+        
+    Events          </a>
+  </li>
+
+<li  data-id="882" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/cwa-news"  title="The CWA News">
+        
+    The CWA News          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="631" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="left" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-left dropdown">
+  <a href="/for-members"  class="dropdown-toggle">
+        
+    For Members          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-8" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-8">
+  <li  data-id="1111" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega dropdown-submenu">
+  <a href="/for-members#benefits"  class="dropdown-toggle" title="Benefits, Scholarships &amp; Training">
+        
+    Benefits, Scholarships & Training          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-6" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="902" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/pages/beirne" >
+        
+    Joe Beirne Scholarship Program          </a>
+  </li>
+
+<li  data-id="1572" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/for-members/union-plus-scholarship-program" >
+        
+    Union Plus Scholarship Program          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="632" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega dropdown-submenu">
+  <a href="/for-members/retired-members-council"  class="dropdown-toggle">
+        
+    Retired Members Council          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-7" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-4">
+  <li  data-id="635" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/for-members/retired-members-council/rmc-benefits" >
+        
+    RMC Benefits          </a>
+  </li>
+
+<li  data-id="636" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/pages/rmc_chapters" >
+        
+    RMC Chapters          </a>
+  </li>
+
+<li  data-id="633" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/for-members/retired-members-council/council-board-roster" >
+        
+    Council Board Roster          </a>
+  </li>
+
+<li  data-id="637" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/for-members/retired-members-council/organizing-materials" >
+        
+    Organizing Materials          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="638" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/for-members/social-media-guidelines" >
+        
+    Social Media Guidelines          </a>
+  </li>
+
+<li  data-id="639" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/for-members/change-or-update-address-or-email" >
+        
+    Change or Update Address / Email          </a>
+  </li>
+
+<li  data-id="900" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/nextgen"  title="Next Generation">
+        
+    Next Generation          </a>
+  </li>
+
+<li  data-id="654" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/for-members/elizabeth-glaser-pediatric-aids-foundation" >
+        
+    Charity of Choice          </a>
+  </li>
+
+<li  data-id="904" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="https://myunionstore.com/cwa"  title="CWA Store">
+        
+    CWA Store          </a>
+  </li>
+
+<li  data-id="1128" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/get-local/directory"  title="Find Your Local">
+        
+    Find Your Local          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="663" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="left" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-left dropdown">
+  <a href="/for-locals"  class="dropdown-toggle">
+        
+    For Locals          </a>
+  <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-9" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-5">
+  <li  data-id="681" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/uopm" >
+        
+    Union Operating Procedures Manual          </a>
+  </li>
+
+<li  data-id="666" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/for-locals/cwa-constitution" >
+        
+    CWA Constitution          </a>
+  </li>
+
+<li  data-id="675" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="1" class="tb-megamenu-item level-2 mega">
+  <a href="/for-locals/online-communications-tools-for-locals" >
+        
+    Local Website Tools          </a>
+  </li>
+
+<li  data-id="676" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/for-locals/forms" >
+        
+    Forms          </a>
+  </li>
+
+<li  data-id="906" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="http://www.cwamaterials.org"  title="Order Materials">
+        
+    Order Materials          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="682" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="1" data-hidesub="1" class="tb-megamenu-item level-1 mega mega-align-justify sub-hidden-collapse">
+  <a href="/join-union" >
+        
+    Join The Union          </a>
+  </li>
+</ul>
+      </div>
+  </div>
+
+</section>
+  </div>
+                      </nav>
+        </div>
+          </div>
+  </div>
+</header> <!-- #page-header -->
+<div class="title-container container">
+  <div class="row">
+    <div class="col-sm-12 title-region" id="title-anchor">
+                                <h1 class="section-title section-title-wide">News</h1>
+                          </div>
+  </div>
+</div>
+<div class="main-container container">
+  <div class="row match-columns">
+    <section class="col-sm-9 col-sm-push-3 match-column">
+            <a id="main-content"></a>
+                                                    <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  
+  <article id="node-54513" class="node node-news node-promoted clearfix" about="/news/aviation-safety-risk-if-government-shutdown-resumes" typeof="sioc:Item foaf:Document">
+  <header>
+        <h1>Aviation Safety at Risk if Government Shutdown Resumes</h1>
+    <span property="dc:title" content="Aviation Safety at Risk if Government Shutdown Resumes" class="rdf-meta element-hidden"></span>  </header>
+   	    <div class="post-date">February 14, 2019</div>
+   <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>At a press conference at National Airport in Washington, D.C., this week, CWA Secretary-Treasurer Sara Steffens and AFA-CWA International President Sara Nelson joined labor union allies to call on Congress and the White House to avoid another federal government shutdown in order to keep workers and the flying public safe.</p>
+<p>"At CWA, we understand that some of the most important work we can do together is to fight for workplace safety," Steffens said. "Many of our members saw firsthand during the last shutdown how dangerous it is to furlough aviation safety officers and to withhold their paychecks. It was an extremely scary situation. It is wrong to use workers and their families and the flying public as a pawn in a political game. We are ready to do whatever it takes to stop this from happening again – to keep our members and the flying public safe."</p>
+<p align="center" style="text-align: center;"><img src="https://can2-prod.s3.amazonaws.com/uploads/data/000/258/922/original/5a_Sara_Steffens_Press_Conference_600.jpg" style="width: 100%; max-width: 600px;" width="600" /><br /><em>CWA Secretary-Treasurer Sara Steffens </em>(front)<em> and AFA-CWA International President Sara Nelson joined labor union allies to call on Congress and the White House to avoid another federal government shutdown in order to keep workers and the flying public safe.</em></p>
+<p><a href="https://www.afacwa.org/president_nelson_testifies_in_congress_about_impact_of_shutdown_on_aviation" target="_blank">Nelson also testified on Wednesday</a> before the House Transportation and Infrastructure Subcommittee on Aviation on the impact of the 35-day federal government shutdown and what we need to do to stop further damage.</p>
+<p>"Safety and security is non-negotiable," Nelson told Congress. "It is critical that Washington stop the threat of a day 36 and take steps to ensure this never happens again. We've all seen that aviation relies on many areas of government to keeping flying safe. We call on all lawmakers to ensure government workers are never locked out again."</p>
+<p>As the possibility of another shutdown looms, AFA-CWA members are holding pickets and leafleting at airports across the country this week to draw attention to the importance of keeping the government open and are calling for mass protests at airports if the shutdown resumes on February 16. <a href="https://www.generalstrike2019.org/" target="_blank">Click here to sign up to receive updates about the protests</a>.</p>
+<p align="center" style="text-align: center;"><img src="https://can2-prod.s3.amazonaws.com/uploads/data/000/258/923/original/5b_Nelson_Congressional_Testimony_Shutdown_600.jpg" style="width: 100%; max-width: 600px;" width="600" /><br /><em>AFA-CWA International President Sara Nelson testified before the House Transportation and Infrastructure Subcommittee on Aviation on the impact of the 35-day federal government shutdown and what we need to do to stop further damage. </em></p>
+</div></div></div><div class="field field-name-field-enewsletter-issue field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">eNewsletter Issue:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/news/e-newsletter/2019-02-14" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Feb 14, 2019 - T-Mobile/Sprint Merger Will Affect All Wireless Workers</a></div></div></div>
+    <footer>
+          </footer>
+    </article>
+
+</section>
+  </div>
+          </section>
+
+          <aside class="col-sm-3 col-sm-pull-9 match-column" role="complementary">
+          <div class="region region-sidebar-first">
+    <section id="block-boxes-media-info" class="block block-boxes block-boxes-simple clearfix">
+
+        <h2 class="section-title">For The Media</h2>
+    
+  
+  <div id='boxes-box-media_info' class='boxes-box'><div class="boxes-box-content"><p>For media inquiries, call CWA Communications at<br />202-434-1168, or email<br /><a href="mailto:news@cwa-union.org">Beth Allen</a>. To read about CWA Members, Leadership or Industries, visit our <a href="https://cwa-union.org/about">About page</a>.</p>
+</div></div>
+</section>
+<section id="block-views-exp-news-page" class="block block-views clearfix">
+
+        <h2 class="section-title">Search News</h2>
+    
+  
+  <form action="/news" method="get" id="views-exposed-form-news-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-type-wrapper" class="views-exposed-widget views-widget-filter-type">
+                  <label for="edit-type">
+            Type          </label>
+                        <div class="views-widget">
+          <div class="form-item form-item-type form-type-select form-group"><select class="form-control form-select" id="edit-type" name="type"><option value="All" selected="selected">- Any -</option><option value="news">News</option><option value="press_release">Press Release</option></select></div>        </div>
+              </div>
+          <div id="edit-tags-wrapper" class="views-exposed-widget views-widget-filter-field_tags_tid">
+                  <label for="edit-tags">
+            Tags          </label>
+                        <div class="views-widget">
+          <div class="form-item form-item-tags form-type-select form-group"><select multiple="multiple" name="tags[]" class="form-control form-select" id="edit-tags" size="9"><option value="16">AT&amp;T</option><option value="50">AT&amp;T Internet Services</option><option value="19">AT&amp;T Mobility</option><option value="198">AT&amp;T Mobility: Map Spotlight</option><option value="18">Bargaining/Companies</option><option value="38">Building a Movement</option><option value="40">Call Center Bill</option><option value="104">Chris Shelton Speeches</option><option value="11">Civil Rights &amp; Equity</option><option value="3">Collective Bargaining</option><option value="92">Communications System Industry (CSI)</option><option value="41">Corporate Money In Politics</option><option value="22">Customer Service</option><option value="33">CWA 73rd Convention</option><option value="48">CWA 74th Convention</option><option value="52">CWA 75th Convention</option><option value="581">CWA 76th Convention</option><option value="64">CWA Convention</option><option value="554">CWA Strong</option><option value="181">Democracy</option><option value="480">DirecTV</option><option value="46">Economic Justice &amp; Democracy</option><option value="26">Elizabeth Glaser Pediatric AIDS Foundation</option><option value="161">For Locals</option><option value="164">For Members</option><option value="9">Health &amp; Safety</option><option value="5">Health Care &amp; Retirement Security</option><option value="183">Holding Elected Officials Accountable</option><option value="83">How-To Guides</option><option value="14">Human Rights</option><option value="24">International Solidarity</option><option value="205">Jobs &amp; Trade</option><option value="10">Join Us</option><option value="67">Legislation &amp; Politics</option><option value="31">National Mediation Board</option><option value="485">NCPSO</option><option value="23">Next Generation</option><option value="106">NLRB</option><option value="512">PHEW</option><option value="526">Piedmont Airlines</option><option value="54">Political Action</option><option value="197">Press One For America</option><option value="27">Public Safety Officers</option><option value="20">Retired Members Council</option><option value="8">Secure Sustainable Jobs</option><option value="25">Senate Gridlock</option><option value="240">Take on Wall Street</option><option value="4">Telecom Policy</option><option value="15">Telecommunications</option><option value="61">TeleTech</option><option value="91">TeleTech: ADT/CSI</option><option value="85">TeleTech: Alcatel-Lucent</option><option value="84">TeleTech: AT&amp;T (Legacy T)</option><option value="94">TeleTech: AT&amp;T Legacy ATS Job Postings</option><option value="86">TeleTech: Avaya</option><option value="90">TeleTech: Benefits</option><option value="21">TeleTech: CenturyLink</option><option value="88">TeleTech: Frontier</option><option value="95">TeleTech: Mobilization and Organizing</option><option value="178">TeleTech: Nokia</option><option value="87">TeleTech: OFS</option><option value="93">TeleTech: Retirees</option><option value="206">TeleTech: Sodexo</option><option value="89">TeleTech: Windstream</option><option value="66">Union Hall Call</option><option value="17">Verizon</option><option value="47">Voter Suppression</option><option value="77">Where Workers Are Joining</option><option value="12">Women&#039;s Committee</option></select></div>        </div>
+              </div>
+          <div id="edit-keys-wrapper" class="views-exposed-widget views-widget-filter-keys">
+                  <label for="edit-keys">
+            Keywords          </label>
+                        <div class="views-widget">
+          <div class="form-item form-item-keys form-type-textfield form-group"><input title="Enter the terms you wish to search for." class="form-control form-text" type="text" id="edit-keys" name="keys" value="" size="15" maxlength="128" /></div>        </div>
+              </div>
+          <div id="edit-posted-wrapper" class="views-exposed-widget views-widget-filter-date_filter">
+                  <label for="edit-posted">
+            Posted between          </label>
+                        <div class="views-widget">
+          <div id="edit-date-filter-min-wrapper"><div id="edit-date-filter-min-inside-wrapper"><div  class="container-inline-date"><div class="form-item form-item-posted-min form-type-date-popup form-group"> <label class="control-label" for="edit-posted-min">Start date</label>
+<div id="edit-posted-min"  class="date-padding clearfix"><div class="form-item form-item-posted-min-date form-type-textfield form-group"><input class="form-control form-text" type="text" id="edit-posted-min-datepicker-popup-0" name="posted[min][date]" value="" size="20" maxlength="30" /> <label class="control-label element-invisible" for="edit-posted-min-datepicker-popup-0">Date</label>
+</div></div></div></div></div></div><div id="edit-date-filter-max-wrapper"><div id="edit-date-filter-max-inside-wrapper"><div  class="container-inline-date"><div class="form-item form-item-posted-max form-type-date-popup form-group"> <label class="control-label" for="edit-posted-max">End date</label>
+<div id="edit-posted-max"  class="date-padding clearfix"><div class="form-item form-item-posted-max-date form-type-textfield form-group"><input class="form-control form-text" type="text" id="edit-posted-max-datepicker-popup-0" name="posted[max][date]" value="" size="20" maxlength="30" /> <label class="control-label element-invisible" for="edit-posted-max-datepicker-popup-0">Date</label>
+</div></div></div></div></div></div>        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button type="submit" id="edit-submit-news" name="" value="Search" class="btn btn-primary form-submit">Search</button>
+    </div>
+      </div>
+</div>
+</div></form>
+</section>
+<section id="block-views-events-block" class="block block-views clearfix">
+
+        <h2 class="section-title">Upcoming Events</h2>
+    
+  
+  <div class="view view-events view-id-events view-display-id-block view-dom-id-634623bade4f1cc1132b711ee04f105d">
+        
+  
+  
+      <div class="view-content">
+      
+
+<div id="views-bootstrap-grid-1" class="views-bootstrap-grid-plugin-style">
+  
+          <div class="row">
+                  <div class="teaser col col-sm-12">
+            
+      <div class="teaser-date">
+  
+    
+      <div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2019-02-24T00:00:00-05:00">February 24, 2019</span> – <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2019-02-27T00:00:00-05:00">February 27, 2019</span></div>
+      </div>
+  
+
+      <h3 class="teaser-title">
+  
+    
+      <a href="/events/2019-cwa-district-3-meeting">2019 CWA District 3 Meeting</a>
+      </h3>
+  
+          </div>
+              </div>
+          <div class="row">
+                  <div class="teaser col col-sm-12">
+            
+      <div class="teaser-date">
+  
+    
+      <div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2019-03-03T00:00:00-05:00">March 3, 2019</span> – <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2019-03-05T00:00:00-05:00">March 5, 2019</span></div>
+      </div>
+  
+
+      <h3 class="teaser-title">
+  
+    
+      <a href="/events/cwa-telecommunications-technologies-leadership-conference-4">CWA Telecommunications &amp; Technologies Leadership Conference</a>
+      </h3>
+  
+          </div>
+              </div>
+          <div class="row">
+                  <div class="teaser col col-sm-12">
+            
+      <div class="teaser-date">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-03-20T00:00:00-04:00">March 20, 2019</span>
+      </div>
+  
+
+      <h3 class="teaser-title">
+  
+    
+      <a href="/events/afa-bod-meeting">AFA BOD Meeting</a>
+      </h3>
+  
+          </div>
+              </div>
+    
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/events" class="btn">More events</a>    </div>
+  
+  
+</div>
+</section>
+  </div>
+      </aside>  <!-- /#sidebar-first -->
+    
+  </div>
+
+  </div>
+
+  <footer class="footer container">
+    <div class="col-sm-6">
+        <div class="region region-footer">
+    <section id="block-boxes-footer-org-info" class="block block-boxes block-boxes-simple org-info org-info-address clearfix">
+
+      
+  
+  <div id='boxes-box-footer_org_info' class='boxes-box'><div class="boxes-box-content"><p>501 3RD STREET NW WASHINGTON, DC 20001<br />PHONE <a href="tel:2024341100">(202) 434-1100</a></p>
+</div></div>
+</section>
+<section id="block-boxes-footer-org-copyright" class="block block-boxes block-boxes-simple org-info org-info-copyright clearfix">
+
+      
+  
+  <div id='boxes-box-footer_org_copyright' class='boxes-box'><div class="boxes-box-content"><p>© 2019 COMMUNICATIONS WORKERS OF AMERICA, AFL-CIO, CLC<br />
+ALL RIGHTS RESERVED</p></div></div>
+</section>
+  </div>
+    </div>
+     <div class="col-sm-6">
+        <div class="region region-footer-right">
+    <section id="block-boxes-footer-menu" class="block block-boxes block-boxes-simple clearfix">
+
+      
+  
+  <div id='boxes-box-footer_menu' class='boxes-box'><div class="boxes-box-content"><p><a href="http://cwapolitical.org" target="_blank">CWAPolitical.org</a>  |  <a href="https://speedmatters.org/" target="_blank">SpeedMatters.org</a></p>
+<p><a href="https://cwa-union.org/about#districts">CWA District &amp; Sector Sites</a>  |  <a href="http://cwastore.org" target="_blank">CWAStore.org</a></p>
+<p><a href="https://cwa-union.org/site-map">Sitemap</a>  |  <a href="https://cwa-union.org/pages/privacy_policy">Privacy Policy</a>  |  <a href="https://cwa-union.org/about/contact-us">Contact CWA</a></p>
+</div></div>
+</section>
+  </div>
+    </div>
+  </footer>
+  <script src="https://cwa-union.org/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script src="https://cwa-union.org/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56e09327635087bb"></script>
+  
+      <!-- Facebook Tracking Pixel-->
+    <script>(function() {
+      var _fbq = window._fbq || (window._fbq = []);
+      if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+      }
+      _fbq.push(['addPixelId', '295424513960142']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+    <noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=295424513960142&amp;ev=NoScript" /></noscript>
+        <!-- LinkedIn Embed -->
+    <script type="text/javascript"> _linkedin_data_partner_id = "64415"; </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=64415&fmt=gif" /> </noscript>
+        <!-- Share Progress -->
+    <script src="//c.shpg.org/78/sp.js"></script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9f823ca851","applicationID":"43868853","transactionName":"blUBZhNSChJSWxFbDlcfIlEVWgsPHFYKVgRmQAJVBGwSCFZP","queueTime":0,"applicationTime":485,"atts":"QhICEFtIGRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

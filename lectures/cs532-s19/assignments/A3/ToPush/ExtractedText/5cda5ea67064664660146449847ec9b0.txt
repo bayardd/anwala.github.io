@@ -1,0 +1,18 @@
+Russia to Test Internet Shutdown, With Local Bitcoin and Ethereum Miners Hanging on the Line
+ 
+Russia plans to test a nationwide internet shutdown, and an intranet will be created as a back-up. The test stems from the first draft of a new law overseen by the Russian Parliament in 2018. The law is intended to ensure the independence of the Russian internet space (Runet) in the event of foreign aggression. But the shutdown has sparked fears for Bitcoin miners in Russia who rely on internet connectivity.
+Both Bitcoin and Ethereum are exposed to Russia’s internet experiment.
+According to Bitnodes , there are 10,476 Bitcoin nodes of which 291 (2.78%) are located in Russia, compared to 271 nodes (3.02%) on the  Ethereum network.
+Nodes are the fact checkers that validate information on the blockchain. As key components of blockchain technology, they process transactions and maintain a copy of the transactions stored on the distributed ledger. Each cryptocurrency has its own nodes to ensure transactions are not manipulated.
+Bitcoin mining is theoretically shielded from internet disruptions through Blockstream, a blockchain technology company that powers a satellite network. With satellites broadcasting the Bitcoin blockchain globally, for free and around the clock, miners in countries where governments have unplugged from the internet can connect to the Bitcoin blockchain and circumvent disruptions.
+To gain support for the experiment, Russia has agreed to cover the costs  incurred by internet service providers that will have to install new servers to redirect and filter web traffic – like China’s Great Firewall.
+Last year Russia banned popular messaging application Telegram which was trying to raise an initial coin offering to fund its new cryptocurrency.
+Russia initiated the ban after Telegram founder Paul Durov refused to turn over the encryption keys for the messaging application.
+Threats to block Telegram unless it gives up private data of its users won't bear fruit. Telegram will stand for freedom and privacy.
+— Pavel Durov (@durov) March 20, 2018
+Similar restrictions on the use of decentralized technology are still at play. Countries such as China and  India  have issued various restraints and outright bans on cryptocurrency-related activities.
+Local news outlet RBC reports that the internet shutdown experiment in Russia is expected to happen around April 1st.
+Check Out the Latest Headlines
+Disclaimer: Opinions expressed at The Daily Hodl are not investment advice. Investors should do their due diligence before making any high-risk investments in Bitcoin, cryptocurrency or digital assets. Please be advised that your transfers and trades are at your own risk, and any loses you may incur are your responsibility. The Daily Hodl does not recommend the buying or selling of any cryptocurrencies or digital assets, nor is The Daily Hodl an investment advisor. Please note that The Daily Hodl participates in affiliate marketing.
+Tags: News
+Crypto Livewire

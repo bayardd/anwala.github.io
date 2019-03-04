@@ -1,0 +1,24 @@
+Russia Readies Own Web To Survive Global Internet Shutdown
+Tyler Durden
+This article was originally published by Tyler Durden at Zero Hedge
+Russian authorities and major telecom operators are preparing to disconnect the country from the world wide web as part of an exercise to prepare for future cyber attacks, Russian news agency  RosBiznesKonsalting  (RBK) reported last week.
+The purpose of the exercise is to develop a threat analysis and provide feedback to a proposed law introduced in the Russian Parliament last December.
+The draft law, called the Digital Economy National Program, requires Russian internet service providers (ISP) to guarantee the independence of the Russian Internet (Runet) in the event of a foreign attack to sever the country’s internet from the world wide web.
+Telecom operators (MegaFon, VimpelCom (Beeline brand), MTS, Rostelecom and others) will have to introduce the “technical means” to re-route all Russian internet traffic to exchange points approved by the Federal Service for Supervision of Communications, Information Technology and Mass Media (Roskomnadzor), Russia’s federal executive body responsible for censorship in media and telecommunications.
+Roskomnazor will observe all internet traffic and make sure data between Russian users stays within the country’s borders, and is not re-routed abroad.
+The exercise is expected to occur before April 1, as Russian authorities have not given exact dates.
+The measures described in the law include Russia constructing its internet system, known as Domain Name System (DNS), so it can operate independently from the rest of the world.
+Across the world, 12 companies oversee the root servers for DNS and none are located in Russia. However, there are copies of Russia’s core internet address book inside the country suggesting its internet could keep operating if the US cut it off.
+Ultimately, the Russian government will require all domestic traffic to pass through government-controlled routing points. These hubs will filter traffic so that data sent between Russians internet users work seamlessly, but any data to foreign computers would be rejected.
+Besides protecting its internet, Russia is simultaneously building a mass censorship system similar to that seen in China.
+“What Russia wants to do is to bring those router points that handle data entering or exiting the country within its borders and under its control- so that it can then pull up the drawbridge, as it were, to external traffic if it’s under threat – or if it decides to censor what outside information people can access.
+China’s firewall is probably the world’s best known censorship tool and it has become a sophisticated operation. It also polices its router points, using filters and blocks on keywords and certain websites and redirecting web traffic so that computers cannot connect to sites the state does not wish Chinese citizens to see,” said BBC.
+The Russian government started preparations for creating its internet several years ago. Russian officials expect 95% of all internet traffic locally by next year.
+As for Russia unplugging its internet from the rest of the world for an upcoming training exercise, well, this could potentially anger Washington because it is one less sanction that can keep Moscow contained.
+Click here to subscribe : Join over one million monthly readers and receive breaking news, strategies, ideas and commentary.
+Please Spread The Word And Share This Post
+Author: Tyler Durden
+Views: Read by 2,234 people
+Date: February 14th, 2019
+Website: https://www.zerohedge.com/
+Copyright Information: This content has been contributed to SHTFplan by a third-party or has been republished with permission from the author. Please contact the author directly for republishing information.

@@ -1,0 +1,3929 @@
+<!doctype html>
+<script style="display:none">
+(function () {
+    var agent = window.navigator.userAgent,
+        safari = agent.indexOf('Safari') >= 0,
+        versionIndex = agent.indexOf('Version'),
+        version = 0,
+        // Returns null when healthy, undefined when localStorage is not supported.
+        unlocked = localStorage.getItem('federateUnlocked'),
+        // Site setting defined in site's environment.properties file.
+        active = true;
+
+    // Grab the Safari version number.
+    if (versionIndex >= 0) {
+        version = parseInt('' + agent.substring(versionIndex + 8));
+    }
+
+    // Global state for all other code in the page to use.
+    window.janrainSafariRefreshDetected = active && safari && version > 5 && unlocked === null;
+
+    // Provide console feedback when refresh is impending.
+    if (janrainSafariRefreshDetected) {
+        console.warn('[jsrd v1.0.1] JANRAIN / SAFARI REFRESH DETECTED!');
+    }
+}());
+</script>
+<html lang="en">
+    <!-- Methode uuid: "2cb28317-a599-4fe0-a9c0-1ac66580ac67" -->
+<head prefix="og: http://ogp.me/ns#">
+    <!--  one frameset common -->
+        
+
+
+
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UA8DVFJACQoCVFhUAgg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(21),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(22),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,N=y.hash,this[u]=g.now()}function o(){M--,y.hash!==N&&i(0,!0);var t=g.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=g.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,g=t("loader");if(w[v]&&g.xhrWrappable){var b=t(10),x=t(11),E=t(8),O=t(6),P=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),S=j.get("tracer");t(15),g.features.spa=!0;var N,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(l,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),P.buffer(["setTimeout"+c,"clearTimeout"+s,u]),T.buffer([u,"new-xhr","send-xhr"+s]),R.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),b.buffer([u]),x.buffer(["propagate",p,l,"executor-err","resolve"+s]),S.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+s),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+s),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),s=t(12),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(8);var b=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,e){var n=t[0];n instanceof b&&i("bst",[n,e,this.bstStart,g.now()])}),a.on(m,function(t,e,n){this.bstStart=g.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+l,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(24)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(21);e.exports=o;var a=window,s="fetch-",c=s+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,l="prototype";u&&d&&p&&(i(f,function(t,e){r(u[l],e,c),r(d[l],e,c)}),r(a,"fetch",s),o.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(s+"done",[null,e],n)}else o.emit(s+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(24)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){c.emit("jsonp-error",[],p),c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),c.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t("ee").get("jsonp"),f=t(24)(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-"),c.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(24)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=s(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(24),a=t("ee").get("promise"),s=i(a),c=t(21),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this),t[1]=s(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=s(t[0],"cb-",this),t[1]=s(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(24)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(24)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(24)(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(l,b),b.prototype=l.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(e.cat=c.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),l=t(19),h=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,l&&(l>34||l<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<d;s++)e.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(21),s=t(22),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],21:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],22:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],23:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],24:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(22),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],s])}u(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],s),d}finally{u(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[n]];return d&&d.push([b,n,r,a]),a}}function l(t,e){y[t]=m(t).concat(e)}function h(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",g[n]=e,e in u||(u[e]=[])})}var y={},g={},b={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var s="nr@context",c=t("gos"),f=t(21),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(g,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(21),u=t("ee"),d=t(20),p=window,l=p.document,h="addEventListener",m="attachEvent",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(17),l[h]?(l[h]("DOMContentLoaded",i,!1),p[h]("load",r,!1)):(l[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(23)},{}]},{},["loader",2,15,5,3,4]);</script>
+<script src="//cdn.blueconic.net/coxmediagroup.js"></script>
+        
+        <!-- nicheParams: ContextMap[envPropertyNiche:false, isNiche:false, legacyNiche:false, nicheClass:, nicheProductID:null, nicheReferrerSuffix:null, referredNiche:null, section:SiteSection [[+       584#] /PortalSites/daytondailynews.com/sports [FolderProxyImpl:PortalSection, 2.0.104160554]], sectionShortTitle:sports] -->
+<!-- begin site_meta_override block -->
+<!-- begin page_title_override block -->
+<title>Kierre James leader of Sinclair women's basketball team</title>
+<!-- end page_title_override block -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+        
+    
+    
+<!-- begin meta_description_override block -->
+<meta name="description" content="They are a mother and daughter on quite a ride." />
+<!-- end meta_description_override block -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+	
+	
+	
+
+
+
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com http://*.daytondailynews.com http://*.dayton.com http://*.mydaytondailynews.com http://*.journal-news.com http://*.springfieldnewssun.com http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com https:; img-src 'self' http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com http://*.daytondailynews.com http://*.dayton.com http://*.mydaytondailynews.com http://*.journal-news.com http://*.springfieldnewssun.com http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com https: blob: data: https:; script-src 'self' 'self' http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com http://*.daytondailynews.com http://*.dayton.com http://*.mydaytondailynews.com http://*.journal-news.com http://*.springfieldnewssun.com http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com https: 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com http://*.daytondailynews.com http://*.dayton.com http://*.mydaytondailynews.com http://*.journal-news.com http://*.springfieldnewssun.com http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com https: 'unsafe-inline'; media-src 'self' http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com http://*.daytondailynews.com http://*.dayton.com http://*.mydaytondailynews.com http://*.journal-news.com http://*.springfieldnewssun.com http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com https: blob: data:; font-src 'self' http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com http://*.daytondailynews.com http://*.dayton.com http://*.mydaytondailynews.com http://*.journal-news.com http://*.springfieldnewssun.com http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com https: data:; upgrade-insecure-requests;"><meta charset="UTF-8" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+
+<!-- begin canonical_url_override block -->
+<link rel="canonical" href="https://www.daytondailynews.com/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/" />
+<!-- end canonical_url_override block -->
+
+<!-- begin viewport_override block -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- end viewport_override block -->
+<!-- begin favicon_override block -->
+<link rel="apple-touch-icon" href="/r/PortalConfig/np-one/assets-one/mydaytondailynews/images/favicon-apple-touch-icon.png" />
+<link rel="shortcut icon" href="/r/PortalConfig/np-one/assets-one/mydaytondailynews/images/favicon.ico" />
+<!-- end favicon_override block -->
+
+<!-- begin og_meta_override block -->
+<meta property="og:image" content="https://www.daytondailynews.com/rf/image_large/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg" />
+<meta property="og:image:height" content="533" />
+<meta property="og:image:width" content="800" />
+<meta property="og:title" content="Archdeacon: Sinclair point guard and her mom on quite a ride " />
+<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://www.daytondailynews.com/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/" />
+<meta property="og:description" content="They are a mother and daughter on quite a ride." />
+<meta property="og:site_name" content="daytondailynews" />
+<!-- end og_meta_override block -->
+
+<!-- begin twitter_meta_override block -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="They are a mother and daughter on quite a ride." />
+<meta name="twitter:image" content="https://www.daytondailynews.com/rf/image_large/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg" />
+<meta name="twitter:site" content="@daytondailynews" />
+<meta name="twitter:title" content="Archdeacon: Sinclair point guard and her mom on quite a ride " />
+<meta name="twitter:url" content="https://www.daytondailynews.com/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/" />
+<!-- end twitter_meta_override block -->
+<!-- begin fb_appid_override block -->
+<meta property="fb:app_id" content="1509059885983561" />
+<meta property="fb:pages" content="146784110752" />
+<meta property="fb:pages" content="73117171555" />
+<meta property="fb:pages" content="327258147447888" />
+<meta property="fb:pages" content="927540540695784" />
+<meta property="fb:pages" content="400864686774960" />
+<meta property="fb:pages" content="168815400507" />
+<meta property="fb:pages" content="212371565450554" />
+<meta property="fb:pages" content="228663903834973" />
+<meta property="fb:pages" content="163728107037102" />
+<meta property="fb:pages" content="210895530407" />
+<meta property="fb:pages" content="146763445752" />
+<meta property="fb:pages" content="757828170969604" />
+<meta property="fb:pages" content="526163074188703" />
+<meta property="fb:pages" content="73484672682" />
+<meta property="fb:pages" content="137230649628606" />
+<meta property="fb:pages" content="107837429247830" />
+<meta property="fb:pages" content="128111708807" />
+<meta property="fb:pages" content="290130337851458" />
+<!-- end fb_appid_override block -->
+
+<!-- persrec meta configuration -->
+<meta property="og:pers_rec_image" content="https://www.daytondailynews.com/rf/image_large/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg" />
+	<meta property="og:pers_rec_first_pub_date" content="2019-02-14T15:23:00-0500" />
+
+<meta property="og:pers_rec_web_type" content="article" />
+	<!-- grab expiration date (if it exists) (implemented for persrec vendors) -->
+<!-- end persrec meta -->
+
+<link rel="amphtml" href="https://www.daytondailynews.com/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/amp.html" />
+    <meta name="language" content="English" />
+
+<!-- end site_meta_override block -->
+<!--  Start Structured Data -->
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+    "@type": "NewsArticle",
+	"inLanguage": "en_US",
+	"mainEntityofPage": "https://www.daytondailynews.com/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/",
+	"publisher": {
+		"@type": "Organization",
+		"name": "columnist",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://www.daytondailynews.com/rw/PortalConfig/np-free/assets/daytondailynews/images/small-logo.png"
+		}
+	},
+	"articleSection": "Sports",
+	"headline": "Archdeacon: Sinclair point guard and her mom on quite a ride",
+	"datePublished": "2019-02-14T20:23:00Z",
+	"dateModified": "2019-02-14T22:48:54Z",
+	"author": {
+		"@type": "Organization",
+		"name": " Tom Archdeacon"
+	},
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://www.daytondailynews.com/rf/image_inline/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg"
+	}
+}
+</script>
+<!--  End Structured Data -->
+<!-- IE11 fallback -->
+        <script src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script src="//www.daytondailynews.com/r/PortalConfig/common/assets/js/harmony-7.6.0.min.js"></script>
+
+<script style="display:none">
+        window.cmg = window.cmg || {};
+        cmg.adconf = {
+            slotconf: [],
+            targeting: {}
+        };
+    </script>
+<script style="display:none">
+    cmg.adconf.adunit = '12523293/Dayton_NP/ddn_web_default/sports';
+</script>
+<script style="display:none">
+    (function () {
+        cmg.adconf.targeting.sky = 'Clear' || 'ERROR';
+        cmg.adconf.targeting.weather = '';
+
+        
+                var floor = Math.floor(29 / 5) * 5;
+                cmg.adconf.targeting.temp_range = floor + ' to ' + (floor + 4);
+            
+    }());
+</script>
+<script style="display:none">
+    cmg.adconf.targeting.obj_type = location.pathname.indexOf('queryResult') > 0 ? 'List' : 'story';
+    cmg.adconf.targeting.obj_id = '6.0.1098942594';
+    cmg.adconf.targeting.uuid = '2cb28317-a599-4fe0-a9c0-1ac66580ac67';
+
+    </script>
+<script style="display:none">
+    (function () {
+        
+        function getQueryParam(name) {
+            var q = location.search.match(new RegExp('[?&]' + name + '=([^&#]*)'));
+            return q && q[1];
+        }
+
+        cmg.adconf.targeting.environ = location.search.indexOf('testads') > 0 ? 'debug' : location.host.split('.')[0];
+        cmg.adconf.targeting.mediatype = 'np-free';
+        cmg.adconf.targeting.qa = getQueryParam('qa') || '';
+    }());
+</script>
+<script style="display:none">
+        cmg.adconf.breakpoints = [
+            1,
+            768,
+            972,
+            
+        ];
+
+        
+        cmg.adconf.targeting.topics = [
+            
+                'archdeacon',
+            
+                'sinclair',
+            
+                'verticals_sports',
+            
+        ];
+
+        
+        cmg.adconf.targeting.categories = [
+            
+                    'Sports',
+                
+        ];
+
+        
+        googletag.cmd.push(function () {
+            var pubads = googletag.pubads();
+            
+                harmony.disable.initialLoad(true);
+            
+            pubads.collapseEmptyDivs(true);
+            pubads.enableSingleRequest();
+            pubads.setCentering(true);
+        });
+    </script>
+<meta name="eomportal-instanceid" content="230205"/>
+<meta name="eomportal-id" content="2068249"/>
+<meta name="eomportal-loid" content="6.0.1098942594"/>
+<meta name="eomportal-uuid" content="2cb28317-a599-4fe0-a9c0-1ac66580ac67"/>
+<meta name="eomportal-lastUpdate" content="Sun Feb 24 23:46:17 EST 2019"/>
+<link rel="stylesheet" type="text/css" href="/r/PortalConfig/np-one/assets-one/css/story.css"/>
+<link rel="stylesheet" type="text/css" href="/r/PortalConfig/np-one/assets-one/css/footer.css"/>
+<link rel="stylesheet" type="text/css" href="/r/PortalConfig/np-one/assets-one/css/ie11.css"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<!-- Meter objectType: story/NA -->
+
+
+
+
+<meta name="cmg:product" content="">
+
+
+
+    
+    
+    
+    
+    
+    
+        
+        
+        
+    
+        
+        
+        
+    
+    
+    
+
+    
+        
+        
+        
+    
+        
+        
+        
+    
+        
+        
+        
+    
+
+
+    
+    
+    <meta name="cmg:siteSection" content="Sports">
+    
+
+    
+    
+    
+        
+        
+            
+            
+            <meta name="cmg:mainSection" content="/sports">
+                
+         
+    
+
+    
+    <meta name="cmg:primaryCategory" content="/Sports">
+    
+
+    
+    <meta name="cmg:categories" content="/Sports, /Sports/College Basketball">
+    
+    
+    
+    <meta name="cmg:topics" content="archdeacon, sinclair, verticals_sports">
+    
+
+
+
+
+    
+    
+                    
+    
+    
+
+    
+
+<meta name="cmg:meter" content="true">
+
+
+
+<meta name="cmg:maxMeterTemporary" content="5">
+
+
+
+<meta name="cmg:updatePageViewDataDirectly" content="true">
+<!-- begin metrics_complete_override block -->
+        
+
+
+
+
+
+<script>localStorage.setItem("sdsat_debug", true);</script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+if(typeof(pubsub)=="undefined"){
+	pubsub={
+			subscribe:function(){
+				if(typeof(DDO.deferredSubscribe) == "undefined"){
+					DDO.deferredSubscribe = [];
+				}
+				DDO.deferredSubscribe.push(arguments);
+			},
+			publish:function(){
+				if(typeof(DDO.deferredPublish) == "undefined"){
+					DDO.deferredPublish = [];
+				}
+				DDO.deferredPublish.push(arguments);
+			}
+	};
+	
+}
+window.pubsub = pubsub;
+</script>
+
+<script src="//assets.adobedtm.com/20d5deb47c9e7fe47a9f969db01578a739d7179d/satelliteLib-3bdb96ce8c62153cdc81a8a72fc964fe2ffa1652.js"></script>
+
+
+
+
+<!-- begin metrics_complete_override block -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- METRIC TAG -->
+
+
+
+
+
+<!-- Primary Category -->
+
+
+
+
+<!-- Setting originating site Start-->
+
+
+
+
+
+
+	
+		
+	
+	
+
+
+
+
+ 
+
+
+	
+
+
+
+<!-- Setting originating site End-->
+
+<!-- Setting Site Domain and Site ID Start-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Setting Site Domain and Site ID End-->
+
+<!-- Setting Provide Name -->
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+		
+		
+			
+	
+	
+
+
+
+
+
+
+
+
+
+		
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	
+
+
+<!--Standalone -->
+
+
+
+
+<!-- Setting video proxy and video proxy play list vendor names -->
+
+ 
+<script>
+var DDO = DDO || {};
+
+<!-- begin metrics_dtm_library_override block -->
+	DDO.DTMLibraryURL = '//assets.adobedtm.com/20d5deb47c9e7fe47a9f969db01578a739d7179d/satelliteLib-3bdb96ce8c62153cdc81a8a72fc964fe2ffa1652.js';
+<!-- end metrics_dtm_library_override block -->
+
+
+DDO.hasLocalStorage = function(){
+	isDefined = typeof(localStorage) != "undefined";
+	if(isDefined){
+		localStorage.setItem("test", "test");
+		canRetrieve = localStorage.getItem("test") == "test";
+	}
+	localStorage.removeItem("test");
+	return isDefined && canRetrieve;
+		 
+}
+
+DDO.connextActive = function(){
+	var connextMetaTag = document.querySelector('meta[name="cmg:connext:config"]');
+	if(connextMetaTag){ 
+		return true;
+	}else{
+		return false;
+	}
+}
+
+</script>
+
+<script src="//www.daytondailynews.com/r//PortalConfig/np-one/metrics/js/dtm-ddo-utilities.js"></script>
+
+
+
+
+<script>
+
+	// 	SITE DATA
+	
+	DDO.siteData = {
+		siteID: 'daytondaily',
+	    siteDomain: 'daytondailynews.com',
+	    siteVersion: 'responsive site',
+	    siteFormat: 'news',
+	    siteMetro: 'oh: dayton',
+	    siteMedium: 'newspaper',
+	    siteType: 'main: onesite',
+	    siteCMS: 'methode'
+	};
+    // PAGE DATA
+	var isDwp = false;
+	console.log("isDwp: ", isDwp);
+	var isHome = isDwp && false;
+	console.log("page Title:" + 'Kierre James leader of Sinclair women&#039;s basketball team');
+	var trimPageNameUrl = removeExtracharFromUrl('/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/');
+	console.log("Primary Category: " + '/Sports');
+		    
+	DDO.pageData = {
+		pageFlow : "",
+		pageNumber : '1',
+		pageType : 'standalone page',
+		pageIsDwp: isDwp // Necessary for bookmarklet purposes.
+	};
+	if(isDwp) {
+	    DDO.pageData.pageContentType = (isHome) ? 'homepage' : 'section front';
+		DDO.pageData.pageMainSection = (isHome) ? '/'+'homepage' : '/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/';
+		DDO.pageData.pageName = (isHome) ? '/' + 'homepage' + '/' : '/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/';
+	} else {
+	    DDO.pageData.pageContentType = 'article';
+		DDO.pageData.pageMainSection ='/sports';
+		DDO.pageData.pageName = trimPageNameUrl;
+	}
+	
+	DDO.pageData.pageTitle = 'Kierre James leader of Sinclair women&#039;s basketball team';
+	DDO.pageData.pageSiteSection = (isHome) ? 'home' : 'Sports';
+	 
+	if (DDO.pageData.pageContentType == '') {
+		var pageName = DDO.pageData.pageName;
+		var pageNameSplit = pageName.split('/');
+		DDO.pageData.pageContentType = pageNameSplit[1];
+	}
+	
+	DDO.pageData.pageCategory = '';
+	if (DDO.pageData.pageCategory == 'Error') {
+		DDO.pageData.pageContentType = "Page not found";
+	}
+	DDO.pageData.pageSubCategory = '';
+	
+	if(DDO.pageData.pageContentType =='404'){		
+		DDO.pageData.pageType="errorpage";		
+		DDO.pageData.pageTitle="page not found";		
+		DDO.pageData.pageContentType = "404 page";		
+		URLArray = window.location.href.split('/');		
+		DDO.pageData.pageName = '/404_page/'+URLArray[URLArray.length-1];		
+	}
+	
+	if(DDO.pageData.pageContentType == 'weather'){
+		DDO.pageData.pageCategory = 'weather';
+		DDO.pageData.pageTitle = 'weather';
+	}
+	
+	if(DDO.pageData.pageContentType == 'search'){
+		var aMetricsSiteSearchType, aMetricsSearchTerms, aMetricsNumResults;
+		DDO.pageData.pageName = "/search-results/";
+		DDO.pageData.pageTitle = "search results";
+		DDO.pageData.pageMainSection = "/search";
+		DDO.pageData.pageContentType = "search"; 
+		DDO.pageData.pageSiteSection = "search";
+		
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	}
+	
+	// CONTENT DATA (contentViewType is set in access meter metrics)
+	DDO.contentData = DDO.contentData || {};
+	var contentTopics ='';
+	
+		contentTopics += false ? 'archdeacon' : 'archdeacon' + ',';
+	
+		contentTopics += false ? 'sinclair' : 'sinclair' + ',';
+	
+		contentTopics += true ? 'verticals_sports' : 'verticals_sports' + ',';
+	
+	DDO.contentData.contentTopics = contentTopics;
+	var contentByline = '';
+	
+		contentByline += true ? 'Tom Archdeacon' : 'Tom Archdeacon' + ',';
+	
+	DDO.contentData.contentByline = contentByline;
+	DDO.contentData.contentOriginatingSite =  'daytondaily';
+	DDO.contentData.contentID = '2cb28317-a599-4fe0-a9c0-1ac66580ac67';
+	DDO.contentData.contentVendor = '';
+	DDO.contentData.contentViewType = DDO.contentData.contentViewType || '';
+	DDO.contentData.contentPublishDate = '20190214202300';
+	DDO.contentData.contentUpdatedDate = '';
+	DDO.contentData.blogName = '';
+	DDO.contentData.galleryName = '';
+	var pageSubContentType = '';
+	if(pageSubContentType == 'Post') {
+		DDO.contentData.blogName = 'Kierre James leader of Sinclair women&#039;s basketball team';
+	}else if(DDO.pageData.pageContentType == 'gallery') {
+		DDO.contentData.galleryName = 'Kierre James leader of Sinclair women&#039;s basketball team';
+	}
+	
+	//We need to set this one only for imported stories.
+	DDO.contentData.contentOriginatingCMS='Methode';
+	DDO.contentData.contentOriginatingID='2cb28317-a599-4fe0-a9c0-1ac66580ac67';
+	DDO.contentData.melvilID='23806259';
+
+	
+	    
+	    
+	        DDO.contentData.connextProductID = '';
+	    
+		
+	
+	//SEARCH DATA PAGE CONTENT
+		
+   
+  
+   DDO.pageData.pageNumber = location.search.split('page=')[1] ? location.search.split('page=')[1] : location.search.split('offset=')[1] ? location.search.split('offset=')[1] : '1';
+   
+<!-- begin metrics_elements_override block -->
+
+
+<!-- end metrics_elements_override block -->	
+
+DDO.init = function(pubsub, dependentEvents) {
+	// The following code defers loading the DTM library until after certain events have been fired,
+	// namely janrain, mg2, and access meter.
+	// Note: we need to add access meter to list of dependent events etc!
+	DDO.dependentEvents = dependentEvents;// e.g. ['authn', 'authz'];
+	setTimeout(function(){
+		DDO.dependentEventCheck("TIMED OUT");
+	}, 10000);
+	if(dependentEvents.length == 0){
+		DDO.utilities.triggerDTMPageView();//DDO.utilities.loadDTMLibrary();
+	}
+	
+	pubsub.publish("DDO-initialized");
+	console.log('DDO: ', DDO);
+}
+
+//Function to remove last alphanumeric chars from DDO.pageData.pageName url
+function removeExtracharFromUrl(urlPath){
+    var urlArr = urlPath.split('/');
+    if (urlArr.length > 3) {
+    	var urlArr_new = [];
+		for (var i=0; i<urlArr.length-2;i++) {
+			urlArr_new.push(urlArr[i]);
+		}
+		return urlArr_new.join('/') + '/';
+    } 
+    else {
+    	return urlPath;	
+    }
+}
+
+</script>
+
+<!-- end metrics_complete_override block -->
+
+
+
+
+
+
+
+
+
+<script>
+DDO.interaction = {
+	init: function(pubsub, $){
+		// pubsubcutioner can use regex for event names, thus all interaction type events
+		// can be listened to assuming the data is correct.
+		pubsub.subscribe("site-interaction", function(event, data){
+			// data should be like: {element:"[widget clicked]",action: "[button clicked]"}
+			DDO.action("interaction.Website", data);
+		});
+	}
+};
+</script>
+
+
+
+
+
+
+<script>
+DDO.janrainPort = {
+	init: function(pubsub, $){
+		var returnUser = false;
+		var isModalOpen = false;
+		var autoLogin = true;
+		
+		pubsub.subscribe("janrain.sessionNotFound", function(){
+			pubsub.publish("authn-anonymous");
+		});
+		pubsub.subscribe("janrain.logout",function(){
+			pubsub.publish("authn-logout");
+		});
+		pubsub.subscribe("janrain.loginSuccess", function(event, data){
+			pubsub.publish("login-success");
+			pubsub.publish("authn-login", data);
+			if(!returnUser && !window.mg2){
+				pubsub.publish("login-complete");
+			}
+		});
+		pubsub.subscribe("janrain.loginFailed", function(){
+			pubsub.publish("login-error");
+		});
+		
+		pubsub.subscribe("janrain.sessionFound", function(event, data){
+			pubsub.publish("session-found");
+			pubsub.publish("authn-login", data);
+			if(autoLogin) { 
+				pubsub.publish("authn-login-return");
+			}
+			
+		});
+		pubsub.subscribe("janrain.onEmailSent", function(){
+			pubsub.publish("registration-success");
+		});
+		pubsub.subscribe("janrain.onModalOpen", function(){
+			if (!isModalOpen) {
+				pubsub.publish("authn-modal-open");
+				isModalOpen = true;
+				autoLogin = false;
+			}
+		});
+		pubsub.subscribe("janrain.onModalClose", function(){
+			pubsub.publish("authn-modal-close");
+			isModalOpen = false;
+		});
+	}
+}
+</script>
+
+
+
+
+
+
+<script>
+DDO.comment = {
+	init: function(pubsub, $){
+		pubsub.subscribe('livefyre.commentPosted', function(event, data){
+			DDO.action('commentSubmitted');
+			if (data.sharedToFacebook) {
+                pubsub.publish('authn-social-share', { type:'share-content', site:'facebook' });
+            }
+            if (data.sharedToTwitter) {
+                pubsub.publish('authn-social-share', { type:'share-content', site:'twitter' });
+            }
+		});
+		
+		pubsub.subscribe('additional-comments', function(event, data){
+			DDO.action('additionalComments', data);
+		});
+	}
+};
+</script>
+
+
+
+
+
+
+
+<script>
+DDO.socialShare = {
+	init: function(pubsub, $){
+		pubsub.subscribe("authn-social-share", function(event, data){
+			DDO.action("socialClick", data);			
+		});
+		pubsub.subscribe("livefyre.commentShared", function(event, data){
+			if (data.sharedToFacebook) {
+	            DDO.action('socialClick', { type:'share-comment', site:'facebook' });
+	        }
+	        if (data.sharedToTwitter) {
+	            DDO.action('socialClick', { type:'share-comment', site:'twitter' });
+	        }
+		});
+	
+	}
+};
+</script>
+
+
+
+
+
+
+<script>
+DDO.gallery = {
+	init: function(pubsub, $){
+		pubsub.subscribe("gallery-secondary", function(event, data){
+			DDO.action('gallerySecondaryPhotoView');
+		});
+		pubsub.subscribe("gallery-opened", function(event, data){
+			DDO.action('galleryOpened');
+		});
+	}
+};
+</script>
+
+
+
+
+
+
+<script>
+DDO.breakingNews = {
+	init: function(pubsub, $){
+		pubsub.subscribe("breaking-news-banner", function(event, data){
+			DDO.action("breakingNews", {contentType:DDO.pageData.pageContentType});
+		});
+		
+		pubsub.subscribe("breaking-news-story", function(event, data){
+			DDO.action('breakingNewsStory');
+		});
+	}
+};
+</script>
+
+
+
+
+
+
+<script>
+DDO.relatedObjects = {
+	init: function(pubsub, $){
+		pubsub.subscribe("related-objects", function(event, data){
+			DDO.action("relatedObjects", {contentType:DDO.pageData.pageContentType});
+		});
+		pubsub.subscribe("non-gallery-photo", function(event, data){
+			DDO.action("nonGalleryPhoto", {contentType:DDO.pageData.pageContentType});
+		});
+	}
+};
+</script>
+
+
+
+
+
+
+
+
+<script>
+window.breakpointArray = [1230, 990, 748];
+DDO.breakpoint = {
+	init: function(pubsub, $){
+		
+		DDO.pageData = DDO.pageData || {};
+		if (typeof $ !== 'undefined') {
+			var columns = getColumnNumber($(window).width());
+		}
+		DDO.pageData.pageLayout = columns + " column"
+		DDO.dependentEventCheck('breakpoint');
+		
+		pubsub.subscribe("breakpoint", function(event, data){
+			DDO.action("pageLayoutChange", data);
+		});
+	}
+};
+
+function getColumnNumber(width){
+    breakpointArray = window.breakpointArray || 0;
+    if(breakpointArray === 0){
+        console.log("Breakpoint metrics tag not included in Methode frameset. Cannot compute column widths.")
+        return false;
+    }else{
+        threeColumn = breakpointArray [0],
+        twoColumn = breakpointArray[1],
+        oneColumn = breakpointArray[2];
+        if(width<= oneColumn){
+            return 1;
+        }else if(width>oneColumn &&  width <= twoColumn){
+            return 2;
+        }else if (width>twoColumn &&  width <= threeColumn) {
+            return 3;
+        }else if (width>threeColumn){
+            return 4;
+        }
+
+    }
+
+}
+</script><!-- end metrics_complete_override block -->        
+    </head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50" id="body" class="body " data-webtype="story" >
+    <!-- Interscroller ad -->
+		<div id="cm-ad-PX01" class="PX01 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([1, 1]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                var conf = {
+                    name: 'PX01',
+                    id: 'cm-ad-PX01',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'PX01'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+            });
+        </script>
+<div id="cm-ad-NS01" class="NS01 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([1, 1]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                        sizes.push([1, 1]);
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([1, 1]);
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([1, 1]);
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'NS01',
+                    id: 'cm-ad-NS01',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'NS01'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+            });
+        </script>
+<div class="retargeting-pixel retargeting-pixel-header" style="display:none">
+	
+</div>
+<i
+	class="jsinclude"
+	style="display:none"
+	data-key="currentSite"
+	data-value="https://www.daytondailynews.com"
+	data-literal="false"
+></i>
+<script src="https://membercenter.daytondailynews.com/sdk.js"></script>
+
+<i
+	class="jsinclude"
+	style="display:none"
+	data-key="mc_prod"
+	data-value="true"
+	data-literal="true"
+></i>
+<i
+	class="jsinclude"
+	style="display:none"
+	data-key="membercenter_url"
+	data-value="https://membercenter.daytondailynews.com"
+	data-literal="false"
+></i>
+<div class="wallpaper-ad">
+			 	<div id="cm-ad-HS01" class="HS01 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([1, 1]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                var conf = {
+                    name: 'HS01',
+                    id: 'cm-ad-HS01',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'HS01'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [1, 768, 972];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+<!-- begin breaking_news_override block -->
+<!-- pubEndDateFull Sun Feb 24 22:10:43 EST 2019 -->
+            <!-- pubEndDateFull Sun Feb 24 17:52:00 EST 2019 -->
+            <!-- pubEndDateFull Sun Feb 24 10:43:00 EST 2019 -->
+            <!-- end breaking_news_override block -->
+<!-- begin header_override block -->
+        <div class="wrapper wrapper--header story-page">
+<!--    <div class="wrapper wrapper--header"> -->
+
+    <header class="container header">
+        <div class="header-mobile-container">
+            <div class="nav-menu-toggle">
+                <div class="nav-flyout-btn"></div>
+            </div>
+            
+            <a class="header-mobile-container__link daytondailynews" href="/" title="www.daytondailynews.com">
+                <div class="header__logo header__logo-container">
+                    <span  class="header__mobile-logo__image">
+                        <img class="daytondailynews" src="/r/PortalConfig/np-one/assets-one/daytondailynews/images/logo-mobile-full.svg" />
+                    </span>
+
+                    <span class="header__mobile-pinned-logo__image">
+                        <img class="daytondailynews" src="/r/PortalConfig/np-one/assets-one/daytondailynews/images/logo-short.svg" />
+                    </span>
+
+                    <img class="header__desktop-logo__image daytondailynews" src="/r/PortalConfig/np-one/assets-one/daytondailynews/images/logo-desktop-full.svg" name="www.daytondailynews.com" alt="www.daytondailynews.com Logo">
+                </div>
+            </a>
+
+            <div class="main-nav__user-desktop main-nav__user-mobile-pinned">
+                <div class="nav-auth js-nav-auth">
+    <div class="nav-auth__anon-user">
+            <div class="nav-auth__anon-user__icon js-auth-login">
+                <div class="nav-auth__anon-user__icon__img">
+                	<img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon.svg" name="user icon" alt="user icon">
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-auth__authed-user">
+            <a href="#" class="nav-auth__authed-user__icon main-nav__item__link js-user-profile">            
+                <div class="nav-auth__authed-user__icon__img">
+	                <img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-mobile.svg" name="user icon" alt="user icon">
+                </div>
+                <img class="nav-auth__authed-user__icon__avatar js-user-avatar" />
+            </a>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <nav class="sticky-nav">
+    <ul class="story-nav clearfix">
+        <li class="story-nav__item js-metrics-social-share">
+            <a
+                href="//www.facebook.com/share.php?u=https%3A%2F%2Fwww.daytondailynews.com%2Fsports%2Farchdeacon-sinclair-point-guard-and-her-mom-quite-ride%2FfoI7VuTEzHQhaEDQ7PRZJJ%2F&title=Archdeacon%3A%20Sinclair%20point%20guard%20and%20her%20mom%20on%20quite%20a%20ride"
+                class="story-nav__icon story-nav__facebook-icon"
+                title="Share on Facebook"
+                data-width="600"
+                data-height="280"
+                data-metrics-element="facebook"
+                data-metrics-element-subtitle="social-widget-top"
+                target="_blank">
+                <span class="sr-only">Share on Facebook</span></a>
+        </li>
+        <li class="story-nav__item js-metrics-social-share">
+            <a
+                href="//twitter.com/intent/tweet?url=https%3A%2F%2Fwww.daytondailynews.com%2Fsports%2Farchdeacon-sinclair-point-guard-and-her-mom-quite-ride%2FfoI7VuTEzHQhaEDQ7PRZJJ%2F&text=Archdeacon%3A%20Sinclair%20point%20guard%20and%20her%20mom%20on%20quite%20a%20ride"
+                class="story-nav__icon story-nav__twitter-icon"
+                title="Share on Twitter"
+                data-width="600"
+                data-height="280"
+                data-metrics-element="twitter"
+                data-metrics-element-subtitle="social-widget-top"
+                target="_blank">
+                <span class="sr-only">Share on Twitter</span></a>
+        <li class="story-nav__item">    
+            <a class="story-nav__icon story-nav__down-arrow-icon"></a>
+        </li>
+        <ul class="story-nav__mobile-dropdown">
+            <li class="story-nav__item">
+                <a class="story-nav__icon story-nav__up-arrow-icon"></a>
+            </li>
+            <li class="story-nav__item js-metrics-social-share">                
+                    <a
+                        href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.daytondailynews.com%2Fsports%2Farchdeacon-sinclair-point-guard-and-her-mom-quite-ride%2FfoI7VuTEzHQhaEDQ7PRZJJ%2F&media=https%3A%2F%2Fwww.daytondailynews.com%2Frf%2Fimage_inline%2FPub%2Fp10%2FDaytonDailyNews%2F2019%2F02%2F14%2FImages%2FnewsEngin.23806259_sinclair2.jpg&description=Archdeacon%3A%20Sinclair%20point%20guard%20and%20her%20mom%20on%20quite%20a%20ride"
+                        class="story-nav__icon story-nav__pinterest-icon"
+                        title="Share on Pinterest"
+                        data-width="850"
+                        data-height="700"
+                        data-metrics-element="pinterest"
+                        data-metrics-element-subtitle="social-widget-top"
+                        target="_blank">
+                        <span class="sr-only">Share on Pinterest</span>
+                    </a>
+                </li>
+            <li class="story-nav__item js-metrics-social-share">                
+                <a
+                    href="//www.reddit.com/submit?url=https%3A%2F%2Fwww.daytondailynews.com%2Fsports%2Farchdeacon-sinclair-point-guard-and-her-mom-quite-ride%2FfoI7VuTEzHQhaEDQ7PRZJJ%2F&title=Archdeacon%3A%20Sinclair%20point%20guard%20and%20her%20mom%20on%20quite%20a%20ride"
+                    class="story-nav__icon story-nav__reddit-icon"                  
+                    title="Share on Reddit"
+                    data-width="850"
+                    data-height="700"
+                    data-metrics-element="reddit"
+                    data-metrics-element-subtitle="social-widget-top"
+                    target="_blank">
+                    <span class="sr-only">Share on Reddit</span>
+                </a>   
+            </li>
+            <li class="story-nav__item js-metrics-social-share">                
+                <a
+                    href="mailto:?Subject=Archdeacon%3A%20Sinclair%20point%20guard%20and%20her%20mom%20on%20quite%20a%20ride&Body=They%20are%20a%20mother%20and%20daughter%20on%20quite%20a%20ride.One%20can%20be%20found%20astride%20a%20red%20and%20black%20Yamaha%20Royal%20Star%20Tour%20Deluxe%20motorcycle.The%20other%20is%20roaring%20along%20as%20the%20point%20guard%20of%20the%20Sinclair%20women%E2%80%99s%20basketball%20team%20that%20is%2019-3%20and%20now%20has%20won%20eight%20straight%20games.Wednesday%20night%20%E2%80%93%20following%20the%20Tartan%20Pride%E2%80%99s%20127-53%20romp%20over%20visiting%20Hocking%20College%20%E2%80%93%20both%20were%20dressed%20for%20their%20part.%3Cscript...https%3A%2F%2Fwww.daytondailynews.com%2Fsports%2Farchdeacon-sinclair-point-guard-and-her-mom-quite-ride%2FfoI7VuTEzHQhaEDQ7PRZJJ%2F"
+                    class="story-nav__icon story-nav__email-icon"
+                    title="Share via Email"
+                    data-width="600"
+                    data-height="400"
+                    data-metrics-element="email"
+                    data-metrics-element-subtitle="social-widget-top">
+                    <span class="sr-only">Share via Email</span>
+                </a>
+            </li>
+            <li class="story-nav__item">
+                    <a href="" class="story-nav__icon story-nav__comment-icon comments-header"></a>
+                </li>
+            </ul>
+        <li class="story-nav__item story-nav__user-icon">
+            <div class="nav-auth js-nav-auth">
+    <div class="nav-auth__anon-user">
+            <a href="#" class="nav-auth__anon-user__icon js-auth-login">
+                <div class="nav-auth__anon-user__icon__img">   
+                	<img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon.svg" name="user icon" alt="user icon">
+                </div>
+                <div class="nav-auth__anon-user__icon__text">Log In</div>
+            </a>
+        </div>
+
+        <div class="nav-auth__authed-user">
+            <a class="nav-auth__authed-user__icon main-nav__item__link">            
+                <div class="nav-auth__authed-user__icon__img">
+	                <img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg" name="user icon" alt="user icon">
+                </div>
+                <img class="nav-auth__authed-user__icon__avatar js-user-avatar" />
+            </a>
+          
+            <div class="nav-auth__authed-user__flyout-label main-nav__flyout__section-name">
+                <a class="nav-auth__authed-user__flyout-label__icon main-nav__item__link">
+                    <div class="nav-auth__authed-user__flyout-label__icon__img">
+                    	<img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg" name="user icon" alt="user icon">
+                    </div>
+                    <img class="nav-auth__authed-user__flyout-label__icon__avatar js-user-avatar" />
+                </a>
+                <div class="nav-auth__authed-user__flyout-label__overlay main-nav__flyout__section-name--overlay"></div>
+            </div>
+
+            <div class="main-nav__flyout nav-auth__authed-user__flyout js-auth-flyout">
+                <div class="nav-auth__authed-user__flyout__title" >
+                    <a href="#" class="js-user-name js-user-profile"></a>
+                </div>
+                <ul item-count="4" class="main-nav__flyout-subnav js-auth-flyout-subnav">
+                    <li class="main-nav__flyout-subnav__item js-auth-item hidden">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+                <div class="nav-auth__authed-user__flyout__logout">
+                    <a href="#" class="nav-auth__authed-user__flyout__logout__btn js-auth-logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+ 
+    </ul>
+
+    <ul class="main-nav">       
+        <li class="main-nav__item main-nav--sticky-logo">
+            <a href="/" class="main-nav__item__logo">
+                <img class="daytondailynews" src="/r/PortalConfig/np-one/assets-one/daytondailynews/images/logo-short.svg" name="www.daytondailynews.com" alt="www.daytondailynews.com Logo">        
+            </a>
+        </li>
+ 
+        <li data-name="News" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item  ">
+<a class="main-nav__item__link">News</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">News</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="11" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/">
+										All News</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/elections/">Politics</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/military/">Military</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/ideas-voices/">Ideas &amp; Voices</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/ohio/">Ohio News</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/ohio-news/lottery/">Ohio Lottery</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/nation-world/">Nation &amp; World</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_blank" href="http://dailylawjournal.org/">Daily Law Journal</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_blank" href="https://classifieds.daytondailynews.com/ads/public-notices/">Legal Notices</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/online/site-information/reprints/">Photo &amp; Page Reprints</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_blank" href="https://clark.com/">Clark Howard</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Local" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item  ">
+<a class="main-nav__item__link">Local</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Local</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="12" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/">
+										All Local</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/crime/">Crime</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/obituaries/">Obituaries</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/weather/school-closings/school-business-closings-and-delays/JE6IEGvJqJzSOJvuDpcIpN/">School Closings</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/investigations/">Investigations</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/path-forward/">Path Forward</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/beavercreek-news/LjLgQUQc2HNImND5z3ATWL/">Beavercreek</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/centerville-news/ZqDEiZkaBlDFJCzGsKB2OO/">Centerville</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/dayton-news/N4hi49fXT0P5xXWnv15J2L/">Dayton</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/huber-heights-news/BQYwjuCTV9RKQkESqrhapK/">Huber Heights</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/miamisburg-news/PPgepVuXkUC0Kh0UUU26JI/">Miamisburg</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/community/">More Communities</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Business" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item  ">
+<a class="main-nav__item__link">Business</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Business</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="3" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/business/">
+										All Business</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/jobs/">Jobs</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/business/b2bheadlines/">Sign up for B2B Headlines</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Sports" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item  selected">
+<a class="main-nav__item__link">Sports</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__item--selected"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Sports</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="10" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/">
+										All Sports</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/high-school/">High Schools</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/university-of-dayton-flyers/">UD Flyers</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/wright-state-university-raiders/">WSU Raiders</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/ohio-state-buckeyes/">OSU Buckeyes</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/miami-university-redhawks/">Miami RedHawks</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/dayton-dragons/">Dayton Dragons</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/cincinnati-bengals/">Cincinnati Bengals</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/cincinnati-reds/">Cincinnati Reds</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/cleveland-browns/">Cleveland Browns</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Life" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item  ">
+<a class="main-nav__item__link">Life</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Life</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="14" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/">
+										All Life</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/entertainment/">Entertainment</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/food/">Food &amp; Dining</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="http://www.legacy.com/celebration/dayton/">Celebrations</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/health/health-news/Pnipht4uwsV62GCInjFw5M/">Health</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/home--garden/home-garden/Bg2TxNHUDjU287YYrs5RNJ/">Home &amp; Garden</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/pets/pet-news/tKCY1AGNfoWb3p3IbCEUML/">Pets</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/technology/technology/HVdixb6xuORU0QRt2JouKK/">Technology</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/education/thinkeducation/">Think Education</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/travel/travel/vDK02jvOM0IZmMVO986gdN/">Travel</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://daytondailynews.upickem.net/engine/Votes.aspx?contestid=78995">Worship Guide</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://mylocal.daytondailynews.com/">My Local</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://www.dayton.com/what-to-do/">Things to Do</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/tv-listings/">TV</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Subscribers Only" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item  ">
+<a class="main-nav__item__link">Subscribers Only</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Subscribers Only</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="4" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://hub.daytondailynews.com/">
+										All Subscribers Only</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://www.daytondailynews.com/epaper">ePaper</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://hub.daytondailynews.com/deals">Deals</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://hub.daytondailynews.com/newsletters">Exclusive Newsletters</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Classifieds" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item  ">
+<a class="main-nav__item__link">Classifieds</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Classifieds</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="4" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://classifieds.daytondailynews.com/">
+										All Classifieds</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/jobs/">Jobs</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/cars/">Cars</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/homes/">Homes</a>
+</li>
+</ul>
+</div>
+</li><li class="main-nav__item main-nav__item--bottom-bar">
+            <span class="main-nav__item--separater-bar"></span>
+        </li>
+
+        <li class="main-nav__item main-nav__item--bottom-bar main-nav__item__epaper">
+            <a class="main-nav__item__link" href="http://www.daytondailynews.com/epaper" target="_blank">ePaper</a>
+        </li>
+        <li class="main-nav__item main-nav__item--bottom-bar main-nav__item__search-desktop">
+            <form class="main-nav__item__search">
+                <input type="text" class="main-nav__item__search__input" id="search" name="q" value=""> 
+                <img class="main-nav__search-icon" src="/r/PortalConfig/np-one/assets-one/images/icons/search-icon.svg"/>
+            </form>
+        </li>
+        
+        <li class="main-nav__item main-nav__weather-icon-desktop">
+            <a href="/weather/" class="main-nav__weather-icon-link">
+                <div class="weather-monochrome weather-21"></div>
+            </a>
+        </li>
+
+        <li class="main-nav__item main-nav__weather-temp-desktop">
+            <a href="/weather/" class="main-nav__weather-temp-text">
+                29&deg;
+            </a>
+        </li>
+
+        <li class="main-nav__item main-nav__user-desktop">
+            <div class="nav-auth js-nav-auth">
+    <div class="nav-auth__anon-user">
+            <a href="#" class="nav-auth__anon-user__icon js-auth-login">
+                <div class="nav-auth__anon-user__icon__img">   
+                	<img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon.svg" name="user icon" alt="user icon">
+                </div>
+                <div class="nav-auth__anon-user__icon__text">Log In</div>
+            </a>
+        </div>
+
+        <div class="nav-auth__authed-user">
+            <a class="nav-auth__authed-user__icon main-nav__item__link">            
+                <div class="nav-auth__authed-user__icon__img">
+	                <img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg" name="user icon" alt="user icon">
+                </div>
+                <img class="nav-auth__authed-user__icon__avatar js-user-avatar" />
+            </a>
+          
+            <div class="nav-auth__authed-user__flyout-label main-nav__flyout__section-name">
+                <a class="nav-auth__authed-user__flyout-label__icon main-nav__item__link">
+                    <div class="nav-auth__authed-user__flyout-label__icon__img">
+                    	<img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg" name="user icon" alt="user icon">
+                    </div>
+                    <img class="nav-auth__authed-user__flyout-label__icon__avatar js-user-avatar" />
+                </a>
+                <div class="nav-auth__authed-user__flyout-label__overlay main-nav__flyout__section-name--overlay"></div>
+            </div>
+
+            <div class="main-nav__flyout nav-auth__authed-user__flyout js-auth-flyout">
+                <div class="nav-auth__authed-user__flyout__title" >
+                    <a href="#" class="js-user-name js-user-profile"></a>
+                </div>
+                <ul item-count="4" class="main-nav__flyout-subnav js-auth-flyout-subnav">
+                    <li class="main-nav__flyout-subnav__item js-auth-item hidden">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+                <div class="nav-auth__authed-user__flyout__logout">
+                    <a href="#" class="nav-auth__authed-user__flyout__logout__btn js-auth-logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+        <!-- end header_desktop_account_override block -->         
+    </ul>
+</nav>
+<div class="header__subscribe-bar">
+            <a href="#" class="header__subscribe-bar__link"><span>Worth knowing. Worth supporting.</span> <span class="bold">Subscribe today for $1.00</span></a>
+        </div>
+    </header>
+</div>
+<div class="page-padding"></div>
+<!-- end header_override block -->
+        
+        <div id="page-content-wrapper">
+
+        <div class="container main-container">
+                    <div class="retargeting-pixel retargeting-pixel-body" style="display:none">
+	
+</div>
+<div class="cm-channel-root niche-page-root clearfix">
+                        <!-- begin content_override block -->
+                        <header class="tease tease--row--desktop story-header story-header--photo">
+    <div class="img-responsive tease__img tease__img--ndnvideo"> 
+	        </div>
+    <div class="tease__img tease__img--photo">
+			<div class="img-fluid">
+<img src="/rf/image_inline/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg" srcset="/rf/image_inline/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg 365w,/rf/image_md/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg 400w,/rf/image_large/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg 800w,/rf/image_lowres/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair2.jpg 1000w" sizes="(max-width: 1023px) 95vw, (min-width: 1024px) 840px, (min-width: 1280px) 1070px" id="U84713505101xEH"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    <div class="photo__caption__toggle">
+        <div class="fill-line fill-line--long"></div>
+        <div class="fill-line"></div>
+        <div class="fill-line fill-line--long"></div>
+        <div class="fill-line"></div>
+        <div class="fill-line fill-line--long"></div>
+    </div>
+    <div class="photo__caption">
+        <div class="photo__caption__text">
+            Sinclair women’s basketball player Kierre James and her mother, Lachelle. Eric Deeter/CONTRIBUTED
+
+
+            
+            
+                <div class="photo__credit__text hidden--large">
+                    Photo: columnist
+                </div>
+            
+        </div>
+    </div>
+    
+
+
+    <div class="photo__credit">
+        <div class="photo__credit__text">
+            Photo: columnist
+        </div>
+    </div>
+
+</div>
+    <div class="tease__content ">
+	    <div class="tease__text">
+	        <h1 class="tease__heading" data-character-count="60">Archdeacon: Sinclair point guard and her mom on quite a ride</h1>
+	    </div>
+	</div>
+</header>
+<div class="container">
+    <div class="byline tease__details">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+        
+            <a href="/sports/" class="label">Sports</a>
+        
+    
+<div class="tease__timestamp">
+        <time 
+            class="timestamp"
+            data-shorthandFormat="" 
+            data-updated="false" 
+            data-timestamp-original="20190214202300" 
+            data-timestamp="02/14/2019 20:23:00 GMT" 
+            data-pubdate="Feb 14, 2019"
+        ></time>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+	
+		
+		
+			
+			
+			
+			
+				
+			
+		  
+			
+			
+			
+			
+			 
+			
+			
+			
+		    
+		    
+			    
+			        
+	    			
+	    		
+	    		
+    		
+			
+			
+		
+	
+<div class="names">
+		                By
+		                <ul>
+		        <li>                    
+		        <a href="/online/contacts/tom-archdeacon/i9nzXzp2guVIYtpzRigE8O/" class="-section-text">Tom Archdeacon</a><span class="source">, columnist</span>
+		        </li>
+		        </ul>
+		            </div>
+		        </div></div>
+
+<article class="container">
+    <div class="story-text clearfix">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+		
+		    
+		    
+            
+		    
+		
+    
+    
+
+
+
+	
+	
+	
+	
+	
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+		        
+		            
+		            
+		                
+		                    
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+		                <div class="ad-container hidden--medium hidden--large">
+            <div id="cm-ad-MP01" class="MP01 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([320, 50]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([320, 150]);
+                    
+                        sizes.push([320, 50]);
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'MP01',
+                    id: 'cm-ad-MP01',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'MP01'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [1];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+        <div class="ad-container hidden--small">
+            <div id="cm-ad-HP01" class="HP01 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([728, 90]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                        sizes.push([728, 90]);
+                    
+                        sizes.push([728, 315]);
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([728, 90]);
+                    
+                        sizes.push([970, 250]);
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'HP01',
+                    id: 'cm-ad-HP01',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'HP01'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [768, 972];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+    <!-- paragraph: 1 / 52 -->
+    <div class="full-width "><p>They are a mother and daughter on quite a ride.</p></div><div class="story-rail not-sticky hidden--small hidden--medium">
+            <div class="ad-container">
+                <div id="cm-ad-RP01" class="RP01 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([300, 250]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'RP01',
+                    id: 'cm-ad-RP01',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'RP01'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [972];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+        </div>
+    <!-- paragraph: 2 / 52 -->
+    <p>One can be found astride a red and black Yamaha Royal Star Tour Deluxe motorcycle.</p><div class="ad-container hidden--medium hidden--large">
+            <div id="cm-ad-MP02" class="MP02 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([300, 250]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'MP02',
+                    id: 'cm-ad-MP02',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'MP02'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [1];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+        <div class="ad-container hidden--small hidden--large">
+            <div id="cm-ad-RP01" class="RP01 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([300, 250]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'RP01',
+                    id: 'cm-ad-RP01',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'RP01'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [768];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+    <!-- paragraph: 3 / 52 -->
+    <p>The other is roaring along as the point guard of the Sinclair women&rsquo;s basketball team that is 19-3 and now has won eight straight games.</p><!-- If Nativo is enabled and story is not 'short,' display Nativo-MOAP -->
+        <div class="story-nativo_placeholder--moap story-rail_break"></div>
+    <!-- paragraph: 4 / 52 -->
+    <p>Wednesday night &ndash; following the Tartan Pride&rsquo;s 127-53 romp over visiting Hocking College &ndash; both were dressed for their part.</p><!-- paragraph: 5 / 52 -->
+    <!-- The scriptblock tag represents a codeblock in Swing.  Codeblocks are always displayed centered. -->
+            <div class="inline-script-embed-container">
+                <script id="archdeacon_column_optimization_script" src="//host.coxmediagroup.com/cop/digital/sites/common/standalone/arch_column_optimization/js/scripts.js" data-first-paragraph="" data-second-paragraph="" data-stories=""></script></div>
+            <div class="story-interscroller__placeholder full-width"></div>
+        <!-- paragraph: 6 / 52 -->
+    <p>Kierre James wore her white and red-trimmed No. 3 Sinclair jersey and the well-earned smile that came from her double-double performance: 26 points and 10 assists.</p><!-- paragraph: 7 / 52 -->
+    <p>Her mom, Lachelle James, a juvenile probation officer in Lima, wore a fancy black T-shirt that across the front read &ldquo;Diamond Essence,&rdquo; the name of the all-women&rsquo;s motorcycle club she&rsquo;s in. On the back was a pink motorcycle and the club&rsquo;s motto: &ldquo;Riding Through It.&rdquo;</p><!-- paragraph: 8 / 52 -->
+    <p>Kierre, as Sinclair coach Trendale Perkins put it, &ldquo;is the heart and soul of the team.&rdquo;</p><!-- <div class="story-rail__break"></div> -->
+        <div class="story-rail hidden--small hidden--medium desktop-RP09">
+            <div class="ad-container sticky-element">
+                <div id="cm-ad-RP09" class="RP09 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([300, 250]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'RP09',
+                    id: 'cm-ad-RP09',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'RP09'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [972];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+        </div>
+    <div class="ad-container hidden--medium hidden--large">
+            <div id="cm-ad-MP03" class="MP03 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([300, 250]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'MP03',
+                    id: 'cm-ad-MP03',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'MP03'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [1];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+        <div class="ad-container hidden--small hidden--large">
+            <div id="cm-ad-RP09" class="RP09 cm-ad default"></div>
+
+    <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                var defaultSizes = [];
+                
+                    defaultSizes.push([300, 250]);
+                
+                var mapping = googletag.sizeMapping();
+                var sizes = [];
+                
+                    sizes = [];
+                    
+                    mapping.addSize(
+                        [1, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [768, 1], sizes
+                    );
+                
+                    sizes = [];
+                    
+                        sizes.push([300, 250]);
+                    
+                        sizes.push([300, 600]);
+                    
+                    mapping.addSize(
+                        [972, 1], sizes
+                    );
+                
+                var conf = {
+                    name: 'RP09',
+                    id: 'cm-ad-RP09',
+                    sizes: defaultSizes,
+                    group: 'default',
+                    adunit: cmg.adconf.adunit,
+                    outofpage: false,
+                    companion: false,
+                    mapping: mapping.build(),
+                    targeting: {
+                        ad_slot: 'RP09'
+                    }
+                };
+                cmg.adconf.slotconf.push(conf);
+                var slot = harmony.defineSlot(conf);
+
+                
+                    if (slot) {
+                        
+                        var bpMap = {},
+                            activeBPs = [768];
+                        activeBPs.forEach(function (bp) {
+                            bpMap[bp] = true;
+                        });
+
+                        
+                        harmony.on('update/slots', function (bp) {
+                            slot.enabled = bp in bpMap;
+                        }, true);
+                    }
+                
+            });
+        </script>
+</div>
+    <!-- paragraph: 9 / 52 -->
+    <p>Her mom, he noted, my well be the team&rsquo;s No. 1 fan.</p><!-- paragraph: 10 / 52 -->
+    <p>Lachelle worked her job with the Allen County Juvenile Court on Wednesday, then got in her car &ndash; &ldquo;I don&rsquo;t ride my motorcycle if it&rsquo;s under 50 degrees,&rdquo; she laughed &ndash; and then made the hour-and-15 minute drive to the Sinclair gym and took a seat two rows off the court.</p><!-- paragraph: 11 / 52 -->
+    <p>&ldquo;I haven&rsquo;t missed a home game yet and I&rsquo;ve been to every one on the road, too, except when they played Hocking College down there,&rdquo; she said with reference to the school in Nelsonville, two hours southeast of Dayton in Athens County.</p><!-- paragraph: 12 / 52 -->
+    <p>&ldquo;I love to see my daughter play,&rdquo; Lachelle said, &ldquo;She&rsquo;s my baby. And I think she enjoys seeing me here.</p><!-- paragraph: 13 / 52 -->
+    <p>&ldquo;When a kid looks in the audience, they should see somebody that belongs to them and cares about them.&rdquo;</p><!-- paragraph: 14 / 52 -->
+    <p>She sees the flip side &ndash; the part parent absenteeism plays &ndash; with her job in juvenile probation.</p><!-- paragraph: 15 / 52 -->
+    <p>As a parent she&rsquo;s always been involved in the lives of her daughter and her older son, Keanu.</p><!-- paragraph: 16 / 52 -->
+    <p>&ldquo;I lived with my mom growing up, but my dad was around and took part,&rdquo; Kierre said. &ldquo;Ever since I was little, though, my mom played a big part in my life. She was always there for me.&rdquo;</p><!-- paragraph: 17 / 52 -->
+    <p>Lachelle said she got a lot of help from her parents and her family:</p><!-- paragraph: 18 / 52 -->
+    <p>&ldquo;It really does take a village to raise a child.&rdquo;</p><!-- paragraph: 19 / 52 -->
+    <p>When it came to basketball, Kierre&rsquo;s older brother and cousins played a part.</p><!-- paragraph: 20 / 52 -->
+    <p>&ldquo;Kierre just fell in love with basketball at the age of four and she&rsquo;s been at it ever since,&rdquo; Lachelle said. &ldquo;She tried to keep up with her brother and she usually did. She was really little, but she was feisty.&rdquo;</p><!-- paragraph: 21 / 52 -->
+    <div class="inline-media-container inline-media-container--align-center">
+                <div class="img-fluid">
+                            <img
+                             class="photo"
+                             src="/rf/image_inline/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair3.jpg"
+                             srcset="/rf/image_inline/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair3.jpg 365w, /rf/image_md/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair3.jpg 400w, /rf/image_large/Pub/p10/DaytonDailyNews/2019/02/14/Images/newsEngin.23806259_sinclair3.jpg 800w"
+                             sizes="(max-width: 1004px) 95vw, (min-width: 1005px) 710px, 840px"
+                             title="" />
+                     </div>
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    <div class="photo__caption__toggle">
+        <div class="fill-line fill-line--long"></div>
+        <div class="fill-line"></div>
+        <div class="fill-line fill-line--long"></div>
+        <div class="fill-line"></div>
+        <div class="fill-line fill-line--long"></div>
+    </div>
+    <div class="photo__caption">
+        <div class="photo__caption__text">
+            Sinclair’s Kierre James against Hocking College on Wednesday night. The Tartan Pride won 127-53. Eric Deeter/CONTRIBUTED
+
+
+            
+        </div>
+    </div>
+    
+
+
+    <div class="photo__credit">
+        <div class="photo__credit__text">
+            Photo: columnist
+        </div>
+    </div>
+
+</div>
+            <!-- paragraph: 22 / 52 -->
+    <p>
+<strong>Memorable first impression</strong>
+</p><!-- paragraph: 23 / 52 -->
+    <p>Perkins said it was Kierre&rsquo;s AAU coach who first tipped him off about her:</p><!-- paragraph: 24 / 52 -->
+    <p>&ldquo;He sent me a DM (direct message) on Twitter and told me about this guard he had who was tough. I figured I needed to go see her.&rdquo;</p><!-- paragraph: 25 / 52 -->
+    <p>By then she was playing at Lima Senior High School.</p><!-- paragraph: 26 / 52 -->
+    <p>&ldquo;It&rsquo;s kind of a funny story,&rdquo; Perkins said. &ldquo;I got turned around up there and got lost a little bit trying to find her high school.</p><!-- paragraph: 27 / 52 -->
+    <p>&ldquo;When I finally get there, it was the second quarter and she immediately picked up her second foul and they sat her on the bench after that.</p><!-- paragraph: 28 / 52 -->
+    <p>&ldquo;I was ticked. I drove all that way and now she was on the bench the whole second quarter. I was like, &lsquo;Man, this is ridiculous.&rsquo;</p><!-- paragraph: 29 / 52 -->
+    <p>&ldquo;Anyway, the third quarter starts and her team is down about 10. And no lie, the kid goes on a 14 or 16-0 run by herself! At that point I knew we had to have her and I offered her on the spot.&rdquo;</p><!-- paragraph: 30 / 52 -->
+    <p>He admits that at a compact 5-foot-2, she &ldquo;definitely doesn&rsquo;t pass the eye test. She is kind of short. But while you can measure height, you can&rsquo;t measure heart and she&rsquo;s got a ton of it.</p><!-- paragraph: 31 / 52 -->
+    <p>&ldquo;Girlwise, I haven&rsquo;t coached a whole lot of dogs (as in ferocious, junkyard types.) I&rsquo;ve been coaching a long time and she&rsquo;s one of the only girls I&rsquo;d consider a dog. She can just take over a game.&rdquo;</p><!-- paragraph: 32 / 52 -->
+    <p>As the sophomore point guard on a team whose roster this season has fluctuated from seven to just five players, she&rsquo;s on the court an average of 36.3 minutes in every 40-minute contest and is averaging 21 points</p><!-- paragraph: 33 / 52 -->
+    <p>She given the team a second scoring threat alongside fellow sophomore Amanda Schroeder, who is averaging 25.4 points. Wednesday night the 6-foot forward from Carroll led Sinclair with 31 points and 16 rebounds.</p><!-- paragraph: 34 / 52 -->
+    <p>Myalisa Beal added 22, Sarah Bettinger, 20, and Keeara Nored, 17 points and 10 assists.</p><!-- paragraph: 35 / 52 -->
+    <p>&ldquo;Kierre&rsquo;s recruiting is starting to pick up,&rdquo; Perkins said. &ldquo;Delaware State called about her and so did Chowan University, a Division II school in North Carolina and Bluefield State, another D-II in West Virginia.</p><!-- paragraph: 36 / 52 -->
+    <p>&ldquo;There&rsquo;ll be more. After she graduates from here, you&rsquo;ll definite find her playing at another place next year.&rdquo;</p><!-- paragraph: 37 / 52 -->
+    <p>
+<strong>Future nurse</strong>
+</p><!-- paragraph: 38 / 52 -->
+    <p>Lachelle hopes her daughter continues her basketball at a four-year school, but said: &ldquo;Regardless, she&rsquo;s going to go on and get her nursing degree.&rdquo;</p><!-- paragraph: 39 / 52 -->
+    <p>Kierre said she&rsquo;s taking the prerequisite courses at Sinclair and said she&rsquo;s done some job shadowing at St. Rita&rsquo;s Hospital in Lima and at a nursing home there.&rdquo;</p><!-- paragraph: 40 / 52 -->
+    <p>&ldquo;Ever since I as a little kid I wanted to help people,&rdquo; she said.</p><!-- paragraph: 41 / 52 -->
+    <p>That example comes from her mom, as well.</p><!-- paragraph: 42 / 52 -->
+    <p>&ldquo;Yeah, she&rsquo;s pretty cool,&rdquo; 19-year-old Kierre admitted with a teenage shrug.</p><!-- paragraph: 43 / 52 -->
+    <p>As for her mom&rsquo;s Diamond Essence involvement, she just smiled: &ldquo;It&rsquo;s what she wants to do so she does it.&rdquo;</p><!-- paragraph: 44 / 52 -->
+    <p>Lachelle explained: &ldquo;I&rsquo;d always seen people on bikes. It looked like something I&rsquo;d like to do. So I YouTubed how to ride a bike and then I took a class and I&rsquo;ve loved it since. That was three years ago.&rdquo;</p><!-- paragraph: 45 / 52 -->
+    <p>She said there are 10 women in the club &ndash; they&rsquo;re from Lima, Toledo and Detroit and work a variety of jobs &ndash; and then they travel all over when they get together to ride:</p><!-- paragraph: 46 / 52 -->
+    <p>&ldquo;I&rsquo;ve been to Indianapolis, Detroit, all over the state. I just love the freedom of it.&rdquo;</p><!-- paragraph: 47 / 52 -->
+    <p>She said her dad, on the other hand, is a little nervous about her new passion: &ldquo;Every time I leave, he wants me to call him every time we stop, just to let him know I&rsquo;m alright.&rdquo;</p><!-- paragraph: 48 / 52 -->
+    <p>She said the club also gives back to the community: &ldquo;We&rsquo;ve got a yearly back to school drive and we feed the homeless We&rsquo;re just a bunch of ladies who love the community and love to ride.&rdquo;</p><!-- paragraph: 49 / 52 -->
+    <p>Her love of her daughter though is the one thing that tops that and it keeps Kierra on the back of her bike instead of up front.</p><!-- paragraph: 50 / 52 -->
+    <p>&ldquo;She&rsquo;s ridden with me,&rdquo; Lachelle said, &ldquo;I know she wants to learn and yeah&hellip;but not yet.&rdquo;</p><!-- paragraph: 51 / 52 -->
+    <p>And that&rsquo;s OK.</p><!-- paragraph: 52 / 52 -->
+    <p>Thanks to Sinclair basketball, her daughter&rsquo;s on quite a ride herself this season.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="story-nativo__placeholder--boap full-width story-rail__break"></div>
+
+		            
+		        
+            
+        
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	    
+	
+
+
+
+<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script>
+		        function cmg_loadFbComments(container) {
+		        	let commentsDiv = document.createElement('div');
+		        	commentsDiv.setAttribute('class', 'fb-comments');
+		        	commentsDiv.setAttribute('data-href', 'https://www.daytondailynews.com/sports/archdeacon-sinclair-point-guard-and-her-mom-quite-ride/foI7VuTEzHQhaEDQ7PRZJJ/');
+		        	commentsDiv.setAttribute('data-mobile', 'auto-detect');
+                    commentsDiv.setAttribute('data-colorscheme', '');
+	                commentsDiv.setAttribute('data-numposts', '');
+	                commentsDiv.setAttribute('data-order-by', '');
+	                commentsDiv.setAttribute('data-width', '');
+		        	if (typeof container === 'undefined') {
+		        		// no container element was passed in, so default to the body
+		        		container = document.querySelector('body');
+		        	}
+		        	container.appendChild(commentsDiv);
+		        	if (typeof FB !== 'undefined') {
+		        		// initialize the comments plugin
+		        		// we pass in the container rather than the newly-created div because the fb sdk can only act on a pre-existing dom element
+		        		// see https://developers.facebook.com/docs/reference/javascript/FB.XFBML.parse for more details
+		        	    FB.XFBML.parse(container);
+		        	}
+		        }
+	        </script>
+	    <div class="comment-desktop-container">
+       <div class="inner-close-container">
+           <div class="comments-close">X</div>
+       </div> 
+       <div class="inner-comment-container">
+           <div class="comments-widget"></div>  
+       </div>
+   </div>
+   </article>
+
+<!-- end content_override block -->
+                    </div>
+                </div>
+            <div class="retargeting-pixel retargeting-pixel-footer" style="display:none">
+	
+</div>
+<!-- begin footer_override block -->
+        <footer class="wrapper one-site">
+	<div class="container">
+		<div class="footer-heading footer--row">
+	<div class="footer-heading__logo">
+		<img class="footer-heading__logo-image daytondailynews" src="/r/PortalConfig/np-one/assets-one/daytondailynews/images/one-logo-footer.svg" alt="Footer Logo">
+	</div>
+	<div class="footer-heading__email">
+		<a class="footer-heading__email-heading" href="https://hub.daytondailynews.com/newsletters">
+			Sign up for our newsletters
+			<img class="footer-heading__email-button" src="/r/PortalConfig/np-one/assets-one/myajc/images/one-round-button.svg" alt="Footer Round Button">
+		</a>
+	</div>
+</div><div class="footer-menu footer--row">
+	<div aria-expanded="false" aria-haspopup="true" class="footer-menu__section">
+<a class="footer-menu__dropdown-toggler" href="#"><span class="footer-menu__section-heading">News</span><img alt="www.myajc.com Footer Menu Arrow" name="www.myajc.com" src="/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg" class="footer-menu__section__arrow"></a>
+<ul class="footer-menu__section-options">
+<li class="footer-menu__option-items">
+<a target="_self" title="ePaper" href="https://epaper.daytondailynews.com">ePaper</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Local News" href="/news/local/">Local News</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Obituaries" href="/news/obituaries/">Obituaries</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Weather" href="/weather/">Weather</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Sign up for Newsletters" href="https://hub.daytondailynews.com/newsletters">Sign up for Newsletters</a>
+</li>
+</ul>
+</div>
+<div aria-expanded="false" aria-haspopup="true" class="footer-menu__section">
+<a class="footer-menu__dropdown-toggler" href="#"><span class="footer-menu__section-heading">Customer Service</span><img alt="www.myajc.com Footer Menu Arrow" name="www.myajc.com" src="/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg" class="footer-menu__section__arrow"></a>
+<ul class="footer-menu__section-options">
+<li class="footer-menu__option-items">
+<a target="_self" title="Contact Us" href="/contact-us/">Contact Us</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Our Products" href="https://membercenter.daytondailynews.com/products">Our Products</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Feedback" href="https://myaccount.daytondailynews.com/feedback.aspx">Feedback</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="FAQs" href="/services/products/faqs/">FAQs</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Work Here" href="https://jobs.coxenterprises.com/Cox-Media-Group">Work Here</a>
+</li>
+</ul>
+</div>
+<div aria-expanded="false" aria-haspopup="true" class="footer-menu__section">
+<a class="footer-menu__dropdown-toggler" href="#"><span class="footer-menu__section-heading">Marketplace</span><img alt="www.myajc.com Footer Menu Arrow" name="www.myajc.com" src="/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg" class="footer-menu__section__arrow"></a>
+<ul class="footer-menu__section-options">
+<li class="footer-menu__option-items">
+<a target="_self" title="Classifieds" href="https://classifieds.daytondailynews.com/">Classifieds</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Jobs" href="/jobs/">Jobs</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Cars" href="/cars/">Cars</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Homes" href="/homes/">Homes</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_blank" title="Advertise" href="http://coxmediagroupohio.com/">Advertise</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="General Acceptance Policy" href="/general_acceptance_policy/">General Acceptance Policy</a>
+</li>
+</ul>
+</div>
+<div aria-expanded="false" aria-haspopup="true" class="footer-menu__section">
+<a class="footer-menu__dropdown-toggler" href="#"><span class="footer-menu__section-heading">Subscribe</span><img alt="www.myajc.com Footer Menu Arrow" name="www.myajc.com" src="/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg" class="footer-menu__section__arrow"></a>
+<ul class="footer-menu__section-options">
+<li class="footer-menu__option-items">
+<a target="_self" title="Subscribe Now" href="https://subscribe.daytondailynews.com/">Subscribe Now</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Manage Subscription" href="https://hub.daytondailynews.com/">Manage Subscription</a>
+</li>
+<li class="footer-menu__option-items">
+<a target="_self" title="Your Profile" href="https://hub.daytondailynews.com/">Your Profile</a>
+</li>
+</ul>
+</div><div class="footer-menu__section">
+		<a class="footer-menu__dropdown-toggler">
+			<span class="footer-menu__section-heading">Follow</span>
+		</a>
+		<div>
+			<a target="_blank" href="//www.facebook.com/daytondailynews">
+				<img class="footer-menu__section__facebook" src="/r/PortalConfig/np-one/assets-one/myajc/images/one-facebook-icon.svg" name="" alt="Footer Facebook Icon">
+			</a>
+			<a target="_blank" href="//www.twitter.com/daytondailynews">
+				<img class="footer-menu__section__twitter" src="/r/PortalConfig/np-one/assets-one/myajc/images/one-twitter-icon.svg" name="" alt="Footer Twitter Icon">
+			</a>
+		</div>
+	</div>
+</div>
+<div class="footer-sub footer--row">
+		</div>
+<div class="footer-terms">
+		<p>© <span class="current-year">2018</span>
+			<a href="//www.coxmediagroup.com" target="_blank">Cox Media Group</a>.
+			All Rights Reserved. By using this website, you accept the terms of our
+			<a href="/visitor_agreement/">Visitor Agreement</a> and
+			<a href="/privacy_policy/">Privacy Policy</a>, and understand your options regarding
+			<a href="/privacy_policy/#ad-choices">Ad Choices</a>
+			. Learn about
+			<a href="//jobs.coxmediagroup.com/" target="_blank">careers at Cox Media Group</a>.
+		</p>
+</div>
+</div>
+</footer>
+
+<script>
+var url = document.location.href.toString();
+if (url.indexOf("mode=new") != -1) {
+	if (url.indexOf("?mode=new&") != -1) {
+	    var newUrl = url.replace("?mode=new&","?");
+	} else if (url.indexOf("?mode=new") != -1) {
+	    var newUrl = url.replace("?mode=new","");
+	} else if (url.indexOf("&mode=new") != -1) {
+	    var newUrl = url.replace("&mode=new","");
+	}
+	if (history.replaceState) {
+		window.history.replaceState({"path":newUrl}, document.title, newUrl);
+	} else {
+		location.replace(newUrl);
+	}
+}
+</script>
+
+<script id="extended-scripts-block">
+<!-- begin extended_scripts_override block -->
+<!-- end extended_scripts_override block -->
+</script>
+<!-- end footer_override block -->
+        
+        </div> <script type="text/javascript" src="/r/PortalConfig/np-one/assets-one/js/story.min.js"></script>
+<script type="text/javascript" src="/r/PortalConfig/np-one/assets-one/js/footer.min.js"></script>
+<script async defer>
+          (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = '//connect.facebook.net/en_US/all.js#xfbml=1';
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        
+        <script src="//tru.am/scripts/custom/coxmedia.js"></script>
+
+        <script style="display:none">
+            googletag.cmd.push(function () {
+                
+                if (window.newrelic) {
+                    var pageload = performance.now();
+                    newrelic.addPageAction('cmg_ads_pageview', {
+                        cmg_ads_page_type: cmg.adconf.targeting.obj_type,
+                        cmg_ads_environment: cmg.adconf.targeting.environ,
+                        cmg_ads_media_type: cmg.adconf.targeting.mediatype,
+                        cmg_ads_adunit: cmg.adconf.adunit,
+                        cmg_ads_adunit_level_one: 'Dayton_NP',
+                        cmg_ads_adunit_level_two: 'ddn_web_default'
+                    });
+                    harmony.one('slotRenderEnded', function () {
+                        newrelic.addPageAction('cmg_ads_rendered', {
+                            cmg_ads_render_time: performance.now() - pageload,
+                            cmg_ads_page_type: cmg.adconf.targeting.obj_type,
+                            cmg_ads_environment: cmg.adconf.targeting.environ,
+                            cmg_ads_media_type: cmg.adconf.targeting.mediatype,
+                            cmg_ads_adunit: cmg.adconf.adunit,
+                            cmg_ads_adunit_level_one: 'Dayton_NP',
+                            cmg_ads_adunit_level_two: 'ddn_web_default'
+                        });
+                    }, true);
+                    harmony.on('slotRenderEnded', function (event) {
+                        event.slot._loadstart = performance.now();
+                    }, true);
+                    harmony.on('slotOnload', function (event) {
+                        newrelic.addPageAction('cmg_ads_load', {
+                            cmg_ads_slot: event.slot._name,
+                            cmg_ads_render_time: performance.now() - event.slot._loadstart,
+                            cmg_ads_page_type: cmg.adconf.targeting.obj_type,
+                            cmg_ads_environment: cmg.adconf.targeting.environ,
+                            cmg_ads_media_type: cmg.adconf.targeting.mediatype,
+                            cmg_ads_adunit: cmg.adconf.adunit,
+                            cmg_ads_adunit_level_one: 'Dayton_NP',
+                            cmg_ads_adunit_level_two: 'ddn_web_default'
+                        });
+                    });
+                }
+
+                
+                harmony.load.targeting(cmg.adconf.targeting);
+                harmony.load.breakpoints(cmg.adconf.breakpoints);
+
+                
+                if (cmg.adconf.breakpoints.length) {
+                    
+                    var currentBP = harmony.breakpoint();
+                    cmg.adconf.targeting.breakpoint = currentBP + 'px';
+                    googletag.pubads().setTargeting('breakpoint', currentBP + 'px');
+                    harmony.trigger('update/slots', currentBP);
+                    
+                    harmony.on('breakpoint/update', function (bp) {
+                        googletag.pubads().clear();
+                        googletag.pubads().setTargeting('breakpoint', bp + 'px');
+                        harmony.trigger('update/slots', bp);
+                        harmony.show.group('default');
+                        console.info('Ad System Update: Targeting key "breakpoint" changed to "' + bp + 'px"');
+                    }, true);
+                }
+
+                
+                if (!window.janrainSafariRefreshDetected) {
+                    harmony.show.group('default');
+                    harmony.trigger('ready');
+                }
+
+                
+                if (window.moatPrebidApi && moatPrebidApi.slotDataAvailable && moatPrebidApi.slotDataAvailable()) {
+                    moatPrebidApi.setMoatTargetingForAllSlots();
+                }
+            });
+        </script>
+<script style="display:none">
+    harmony.one('ready', function () {
+        function append(msg) {
+            msg = msg || '';
+            log += msg + '\n';
+        }
+        function title(name) {
+            log += '\n';
+            log += name;
+            log += '\n-------------\n'
+        }
+        var log = '/* -----===== Begin Ad Logs =====----- */\n';
+
+        title('Ad Unit:');
+        append(
+            cmg.adconf.adunit || 'ERROR: Ad unit could not be calculated!'
+        );
+        if (cmg.adconf.adunitOverride) {
+            append('WARNING: Ad unit override is active.');
+        }
+        
+
+        title('Breakpoints:');
+        append(
+            cmg.adconf.breakpoints.length ? cmg.adconf.breakpoints : 'None defined'
+        );
+
+        title('System Targeting:');
+        append(
+            JSON.stringify(cmg.adconf.targeting, null, 3) || 'WARNING: None defined.'
+        );
+
+        title('Slot Configurations:');
+        if (!cmg.adconf.slotconf.length) {
+            append('WARNING: This page contains no ad slots.');
+        }
+        var slotList = [];
+        cmg.adconf.slotconf.forEach(function (slot) {
+         if (slotList.indexOf(slot.name) == -1) {
+             slotList.push(slot.name);
+            append(slot.name);
+
+            append('. default sizes:');
+            slot.sizes = slot.sizes || [];
+            if (!slot.sizes.length) {
+                append('\tNone defined');
+            }
+            slot.sizes.forEach(function (size) {
+                append('\t' + size);
+            });
+
+            append('. group: ' + slot.group);
+            append('. companion? ' + (slot.companion ? 'yes' : 'no'));
+            append('. out-of-page? ' + (slot.interstitial ? 'yes' : 'no'));
+            append('. targeting: ' + JSON.stringify(slot.targeting, null, 3));
+
+            append('. size mapping:');
+            slot.mapping = slot.mapping || [];
+            if (!slot.mapping.length) {
+                append('\tNone defined');
+            }
+            slot.mapping.forEach(function (breakpoint) {
+                append('\tat width ' + breakpoint[0][0] + 'px, use sizes:');
+                if (!breakpoint[1].length) {
+                    append('\t\tNone defined');
+                }
+                breakpoint[1].forEach(function (size) {
+                    append('\t\t' + size);
+                });
+            });
+
+            append();
+        }
+        });
+
+        title('System Information:');
+        append('Methode tags version 4.0.4');
+        append('Harmony version ' + harmony.version);
+
+        log += '\n/* -----====== End Ad Logs ======----- */\n';
+
+        console.info(log);
+    });
+</script>
+<script>
+	            window.add_prebid_script = function () {
+	                var s = document.createElement( 'script' );
+	                s.setAttribute('src', 'https://acdn.adnxs.com/prebid/c/6990/pb.js');
+	                s.setAttribute('defer','');
+	                document.body.appendChild(s);
+	            }
+
+	            
+	                window.add_prebid_script();
+	            </script>
+        <script>_satellite.pageBottom();</script>
+        
+
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"19209659","applicationTime":37,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"aaf23b031f","transactionName":"MQYHNRZYCkZVBxcKVghMLzI0FgFaWUszDEsSAgkiC1cCXFNLDRNmVlNXBQtXARpbCgY8CVZRAQcWWAlQRwEXPFMWFw==","agent":"","errorBeacon":"bam.nr-data.net"}</script>
+
+<!-- begin header_mobile_nav_override block -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+   
+   
+
+
+
+
+	
+
+
+
+
+
+	
+		
+			
+			
+
+			
+	
+			
+			
+			
+			 
+			 
+				
+	
+			 
+			
+			
+			
+			  
+			     
+			    
+			    
+					
+			    	
+			    	
+			    
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+			    
+			    
+			    
+			    	
+					
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+				
+			
+			  
+			     
+			    
+			    
+					
+			    	
+			    	
+			    
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+			    
+			    
+			    
+			    	
+					
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+				
+			
+			  
+			     
+			    
+			    
+					
+			    	
+			    	
+			    
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+			    
+			    
+			    
+			    	
+					
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+				
+			
+			  
+			     
+			    
+			    
+					
+			    	
+			    	
+			    
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+			    
+			    
+			    
+			    	
+					
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+				
+			
+			  
+			     
+			    
+			    
+					
+			    	
+			    	
+			    
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+			    
+			    
+			    
+			    	
+					
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+				
+			
+			  
+			     
+			    
+			    
+					
+			    	
+			    	
+			    
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+			    
+			    
+			    
+			    	
+					
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+				
+			
+			  
+			     
+			    
+			    
+					
+			    	
+			    	
+			    
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+			    
+			    
+			    
+			    	
+					
+			    
+			    
+			    	
+						    
+			    
+			    
+			    	
+				
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+		
+	
+
+
+
+<div style="display:none" id="weather_widget_data">
+    hour1: 12:00 AM + 28 + 20
+    hour2: 1:00 AM + 27 + 20
+    hour3: 2:00 AM + 24 + 20</div>
+
+<nav class="hamburger">
+    <div class="nav-menu-toggle">
+            <div class="nav-flyout-btn"></div>
+    </div>
+    
+    <div class="header__logo--subnav">
+        <a href="/" title="www.daytondailynews.com">
+            <img class="daytondailynews" src="/r/PortalConfig/np-one/assets-one/daytondailynews/images/logo-mobile-hamburger.svg"/>
+        </a>
+    </div>
+    
+    <ul class="main-nav">
+
+        <li class="main-nav__item main-nav__user-mobile"><div class="nav-auth js-nav-auth">
+    <div class="nav-auth__anon-user">
+            <div class="nav-auth__anon-user__icon js-auth-login">
+                <div class="nav-auth__anon-user__icon__img">
+                	<img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon-white.svg" name="user icon" alt="user icon">
+                </div>
+                <div class="nav-auth__anon-user__icon__text">Log In</div>
+            </div>
+        </div>
+
+        <div class="nav-auth__authed-user js-auth-mobile">
+            <div class="nav-auth__authed-user__icon main-nav__item__link">
+                <div class="nav-auth__authed-user__icon__img">
+                   	<img src="/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-hamburger.svg" name="user icon" alt="user icon">
+                </div>
+                <img class="nav-auth__authed-user__icon__avatar js-user-avatar" />
+                <div class="nav-auth__authed-user__icon__text js-user-name"></div>
+            </div>
+          
+            <div class="main-nav__flyout nav-auth__authed-user__flyout">
+                <ul class="main-nav__flyout-subnav nav-auth__authed-user__flyout__subnav">
+                    <li class="main-nav__flyout-subnav__item nav-auth__authed-user__flyout__item nav-auth__authed-user__flyout__item--bold">
+                        <a href="#" class="js-auth-logout">Logout</a>
+                    </li>
+                    <li class="main-nav__flyout-subnav__item nav-auth__authed-user__flyout__item js-auth-item hidden">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>     
+ 
+    </div>
+</li>
+        
+        <li class="main-nav__item main-nav__item__search-mobile">
+          <div class="main-nav__item__search-form-container">
+            <img class="main-nav__search-icon-mobile" src="/r/PortalConfig/np-one/assets-one/images/icons/search-icon.svg"/>
+            <form  class="main-nav__item__search">
+                <input type="text" class="main-nav__item__search__input" id="search" name="q" value=""> 
+            </form>
+          </div>
+        </li>
+
+        <li data-name="News" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   ">
+<a class="main-nav__item__link">News</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">News</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="11" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/">
+										All News</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/elections/">Politics</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/military/">Military</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/ideas-voices/">Ideas &amp; Voices</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/ohio/">Ohio News</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/ohio-news/lottery/">Ohio Lottery</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/nation-world/">Nation &amp; World</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_blank" href="http://dailylawjournal.org/">Daily Law Journal</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_blank" href="https://classifieds.daytondailynews.com/ads/public-notices/">Legal Notices</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/online/site-information/reprints/">Photo &amp; Page Reprints</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_blank" href="https://clark.com/">Clark Howard</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Local" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   ">
+<a class="main-nav__item__link">Local</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Local</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="12" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/">
+										All Local</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/crime/">Crime</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/obituaries/">Obituaries</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/weather/school-closings/school-business-closings-and-delays/JE6IEGvJqJzSOJvuDpcIpN/">School Closings</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/investigations/">Investigations</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/path-forward/">Path Forward</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/beavercreek-news/LjLgQUQc2HNImND5z3ATWL/">Beavercreek</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/centerville-news/ZqDEiZkaBlDFJCzGsKB2OO/">Centerville</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/dayton-news/N4hi49fXT0P5xXWnv15J2L/">Dayton</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/huber-heights-news/BQYwjuCTV9RKQkESqrhapK/">Huber Heights</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/miamisburg-news/PPgepVuXkUC0Kh0UUU26JI/">Miamisburg</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/news/local/community/">More Communities</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Business" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   ">
+<a class="main-nav__item__link">Business</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Business</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="3" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/business/">
+										All Business</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/jobs/">Jobs</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/business/b2bheadlines/">Sign up for B2B Headlines</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Sports" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   ">
+<a class="main-nav__item__link">Sports</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Sports</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="10" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/">
+										All Sports</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/high-school/">High Schools</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/university-of-dayton-flyers/">UD Flyers</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/wright-state-university-raiders/">WSU Raiders</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/ohio-state-buckeyes/">OSU Buckeyes</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/miami-university-redhawks/">Miami RedHawks</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/dayton-dragons/">Dayton Dragons</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/cincinnati-bengals/">Cincinnati Bengals</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/cincinnati-reds/">Cincinnati Reds</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/sports/cleveland-browns/">Cleveland Browns</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Life" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   ">
+<a class="main-nav__item__link">Life</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Life</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="14" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/">
+										All Life</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/entertainment/">Entertainment</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/food/">Food &amp; Dining</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="http://www.legacy.com/celebration/dayton/">Celebrations</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/health/health-news/Pnipht4uwsV62GCInjFw5M/">Health</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/home--garden/home-garden/Bg2TxNHUDjU287YYrs5RNJ/">Home &amp; Garden</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/lifestyles/pets/pet-news/tKCY1AGNfoWb3p3IbCEUML/">Pets</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/technology/technology/HVdixb6xuORU0QRt2JouKK/">Technology</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/education/thinkeducation/">Think Education</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/travel/travel/vDK02jvOM0IZmMVO986gdN/">Travel</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://daytondailynews.upickem.net/engine/Votes.aspx?contestid=78995">Worship Guide</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://mylocal.daytondailynews.com/">My Local</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://www.dayton.com/what-to-do/">Things to Do</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/tv-listings/">TV</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Subscribers Only" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   ">
+<a class="main-nav__item__link">Subscribers Only</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Subscribers Only</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="4" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://hub.daytondailynews.com/">
+										All Subscribers Only</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://www.daytondailynews.com/epaper">ePaper</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://hub.daytondailynews.com/deals">Deals</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://hub.daytondailynews.com/newsletters">Exclusive Newsletters</a>
+</li>
+</ul>
+</div>
+</li><li data-name="Classifieds" data-id="" class="main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   ">
+<a class="main-nav__item__link">Classifieds</a>
+<div class="main-nav__item--circle"></div>
+<div class="main-nav__flyout__section-name">
+<a class="main-nav__item__link">Classifieds</a>
+<div class="main-nav__flyout__section-name--overlay"></div>
+</div>
+<div class="main-nav__flyout js-main-nav-flyout">
+<ul item-count="4" class="main-nav__flyout-subnav js-main-nav-flyout-subnav">
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="https://classifieds.daytondailynews.com/">
+										All Classifieds</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/jobs/">Jobs</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/cars/">Cars</a>
+</li>
+<li class="main-nav__flyout-subnav__item">
+<a target="_self" href="/homes/">Homes</a>
+</li>
+</ul>
+</div>
+</li><li class="main-nav__item main-nav__item--bottom-bar main-nav__item__epaper">
+	            <a class="main-nav__item__link" href="http://www.daytondailynews.com/epaper" target="_blank">ePaper</a>
+	        </li>
+        <li>
+            <div class="mobile-weather-widget">
+                <a href="/weather/">
+	<div class="weather-widget ">
+		<div class="weather-widget__top">
+		    <div class="weather-widget__met-img">
+					<img src="https://www.whio.com/rw/Pub/p9/WHIO/2018/08/15/Images/Jesse%20cutout-380h.png" />
+				</div>
+				<div class="weather-widget__met-info">
+					<div class="weather-widget__forecast-by">Forecast by Meteorologist</div>
+					<div class="weather-widget__met-name">Jesse Maag</div>
+					<img src="/rw/PortalConfig/np-one/assets-one/images/weatherlogo-affiliate-whio.png" />
+				</div>
+			<div class="weather-widget__now">
+				<div class="weather-widget__current-temp">
+				    <div class="weather-icon weather-21"></div>
+					29&deg; 
+				</div>
+				<div class="weather-widget__current-desc">
+					Clear</div>
+			</div>
+		</div>
+		<div class="weather-widget__bottom weather-background-21">
+			<div class="weather-widget__hour1">
+				<span class="weather-widget__hour1-time">12:00 AM</span>
+				<span class="weather-icon weather-20"></span>
+				<span class="weather-widget__hour1-temp">28&deg;</span>
+			</div>
+			<div class="weather-widget__hour2">
+				<span class="weather-widget__hour2-time">1:00 AM</span>
+				<span class="weather-icon weather-20"></span>
+				<span class="weather-widget__hour2-temp">27&deg;</span>
+			</div>
+			<div class="weather-widget__hour3">
+				<span class="weather-widget__hour3-time">2:00 AM</span>
+				<span class="weather-icon weather-20"></span>
+				<span class="weather-widget__hour3-temp">24&deg;</span>
+			</div>
+		</div>
+	</div>
+</a>
+</div>
+        </li>
+
+        <li>
+            
+            <div class="mobile-menu-footer">
+                <div class="mobile-menu-footer__social">
+                    <a target="_blank" href="//www.facebook.com/daytondailynews" class="mobile-menu-footer__social__facebook"> <img src="/r/PortalConfig/np-one/assets-one/images/icons/facebook.svg" name=""
+                        alt="Facebook Icon"> <span class="sr-only">Facebook</span>
+                    </a> <a target="_blank" href="//www.twitter.com/daytondailynews" class="mobile-menu-footer__social__twitter"> <img src="/r/PortalConfig/np-one/assets-one/images/icons/twitter.svg" name=""
+                        alt="Twitter Icon"> <span class="sr-only">Twitter</span>
+                    </a>
+                </div>
+                <div class="mobile-menu-footer__copyright">
+                    <span>&copy; 2019</span> <a href="https://www.coxmediagroup.com" target="_blank">Cox Media Group</a>
+                </div>
+                <div class="mobile-menu-footer__bottom-links">
+                    <a href="/visitor_agreement/">Visitor Agreement</a> &#124; <a href="/privacy_policy/">Privacy Policy</a> &#124; <a href="/contact-us/">Contact</a>
+                </div>
+                <a href="https://hub.daytondailynews.com/products#mobile-app" target="_blank">Mobile Apps</a>
+                	</div>
+        </li>
+    </ul>
+    
+    <div class="hamburger-close-btn">
+        <img class="" src="/r/PortalConfig/np-one/assets-one/images/icons/close.svg"/>
+    </div>
+
+</nav>
+<!-- end header_mobile_nav_override block -->
+
+<!--support for page refresh-->
+		
+</body>
+</html>

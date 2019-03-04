@@ -1,0 +1,10 @@
+What's up in emerging technology
+February 11, 2019
+Russia plans to temporarily disconnect the entire country from the internet
+The planned unplugging is part of a cyber war-gaming exercise to make sure Russia can still operate even if it is disconnected from outside its borders.
+The news: Russian authorities and internet providers will conduct a test to make sure data passing between its citizens and organizations can stay inside the country rather than being routed internationally, ZDNet reports . The exact test date has not been revealed, but it’s scheduled to take place before April 1, 2019.
+Why? The aim is to find out whether a proposed new Russian law works. It requires Russian ISPs to ensure they can continue to function even if disconnected by a foreign aggressor. The draft legislation, which was introduced in Russia’s parliament in December 2018, would also require Russian telecom companies to be able to reroute all internet traffic to exchange points approved by Roskomnadzor, Russia's telecoms regulator.
+Disruption: Although none of Russia’s internet providers have said they disagree with the law, they’ve argued that its implementation will cause major disruptions to Russian internet traffic, according to ZDNet. Internet shutdowns are expensive affairs—a 2016 analysis found that even briefly disrupting a nation’s online activities can cost its economy billions of dollars.
+The Great Firewall: In 2017, Russian officials announced plans to route 95% of all Russian internet traffic inside the country by 2020. This new exercise is also part of long-standing efforts by the Russian government to introduce a web traffic filtering system akin to the one in place in China . However, so far this has been a piecemeal effort. Roskomnadzor maintains a blacklist of banned apps and websites, which includes LinkedIn and  locally founded Telegram  yet does not include US-built services like WhatsApp, Facebook, and Google.
+Sign up here to our daily newsletter The Download to get your dose of the latest must-read news from the world of emerging tech.
+Image credit:

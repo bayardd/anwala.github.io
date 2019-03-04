@@ -1,0 +1,90 @@
+Singh v Minister for Immigration and Border Protection [2019] FCA 141
+Appeal from:
+Singh v Minister for Immigration [2018] FCCA 2296
+File number:
+7 February 2019
+Catchwords:
+MIGRATION – appeal from the Federal Circuit Court – whether the Australian Study Requirement for a Graduate Work Stream visa was met – whether misapprehension by the Appellants regarding the primary criteria for the visa stemming from an alleged mistake by their migration agent gave rise to jurisdictional error – whether an error by the Tribunal in finding that the First Appellant did not satisfy the skills requirement amounted to jurisdictional error.
+Held: The misapprehension by the Appellants and/or their migration agent did not give rise to jurisdictional error and that the mistake by the Tribunal was immaterial – appeal dismissed.
+Legislation:
+Migration Legislation Amendment Regulation 2013 No 1, Sch 2
+Migration Regulations 1994 (Cth) regs 1.15F, 485.221, 485.224
+Cases cited:
+Hossain v Minister for Immigration and Border Protection [2018] HCA 34; (2018) 359 ALR 1
+Maharjan v Minister for Immigration and Border Protection [2017] FCAFC 213, (2017) 258 FCR 1
+Singh v Minister for Immigration and Border Protection [2015] FCAFC 151
+SZFDE v Minister for Immigration and Citizenship [2007] HCA 35; (2007) 232 CLR 189
+Date of hearing:
+Administrative and Constitutional Law and Human Rights
+Category:
+Counsel for the First Appellant:
+The First Appellant appeared in person
+Counsel for the Second Appellant:
+The Second Appellant did not appear
+Counsel for the First Respondent:
+Ms N Milutinovic
+Solicitor for the First Respondent:
+Sparke Helmore
+Counsel for the Second Respondent:
+The Second Respondent filed a submitting notice save as to costs
+ORDERS
+MINISTER FOR IMMIGRATION AND BORDER PROTECTION
+First Respondent
+THE COURT ORDERS THAT:
+1.     The appeal is dismissed.
+2.    The Appellants are to pay the First Respondent’s costs of, and incidental to, the appeal fixed in the sum of $3,500.
+Note:    Entry of orders is dealt with in Rule 39.32 of the Federal Court Rules 2011.
+EX TEMPORE REASONS FOR JUDGMENT
+WHITE J:
+1    The appellants are nationals of India who have been in Australia since at least 2009.
+2    On 21 August 2015, the appellants applied for a Temporary Graduate (Class VC – Subclass 485) Graduate Work Stream visa.  The first appellant was the primary applicant and the second, his wife, the secondary applicant.
+3    The visa application was refused by a delegate of the Minister on 4 March 2016.  That decision was affirmed by the Administrative Appeals Tribunal (the Tribunal) on 9 March 2017. The appellants’ subsequent application for judicial review by the Federal Circuit Court (the FCC) of the Tribunal’s decision was unsuccessful: Singh v Minister for Immigration [2018] FCCA 2296.  The appellants now appeal against the dismissal of that application.
+4    One of the criteria for the Graduate Work Stream visa for which the appellants applied is contained in reg 485.221 of the Migration Regulations 1994 (Cth) (the Regulations).  The regulation provides:
+The applicant satisfied the Australian study requirement in the period of 6 months immediately before the day the application was made.
+5    The “Australian study requirement” referred to in reg 485.221 is defined in reg 1.15F of the Regulations relevantly as follows:
+1.15FAustralian study requirement
+(1)    A person satisfies the Australian study requirement if the person satisfies the Minister that the person has completed 1 or more degrees, diplomas or trade qualifications for award by an Australian educational institution as a result of a course or courses:
+(a)    that are registered courses; and
+(b)    that were completed in a total of at least 16 calendar months; and
+(c)    that were completed as a result of a total of at least 2 academic years study; and
+(d)    for which all instruction was conducted in English; and
+(e)    that the applicant undertook while in Australia as the holder of a visa authorising the applicant to study.
+Note:    Academic year is defined in regulation 1.03.
+(2)    In this regulation:
+completed, in relation to a degree, diploma or trade qualification, means having met the academic requirements for its award.
+Note:    The academic requirements for the award of a degree, diploma or trade qualification do not include the formal conferral of the degree, diploma or trade qualification. Therefore, a person can complete a degree, diploma or trade qualification, for subregulation (2), before the award is formally conferred.
+…
+6    As will be apparent from reg 1.15F, the Australian study requirement is that a person has completed one or more courses of the defined kind.  Participation in an incomplete course or in a course which was not completed will not suffice.  The evidence before the Tribunal indicated that the first appellant has completed courses in Australia as follows:
+•    4 July 2010
+Certificate III in Automotive Mechanical Technology
+Cambridge International College
+Certificate IV in Frontline Management
+TAFE SA
+Diploma of Marketing
+Durban International College
+7    The first appellant’s completion of the Diploma of Marketing on 23 April 2014 had occurred well over six months before the application for the visa was lodged on 21 August 2015.  The first appellant told the Tribunal that he had commenced study for an Advanced Diploma of Marketing but had not completed that course.  He said that he had ceased studying for the Advanced Diploma because he had thought that he could complete the course after the grant of the Graduate Work Stream visa. In the FCC, the appellant also referred to financial issues.
+8    The Tribunal affirmed the delegate’s decision because the first appellant could not satisfy the Australian study requirement, his last course having been completed well over six months before the lodgement of the visa application.  In addition, the Tribunal found that the first appellant had not provided evidence of a positive skills assessment, that being a further requirement imposed by reg 485.224.
+The FCC decision
+9    The first appellant represented himself in the FCC, as he did on this appeal.  The second appellant was not present and did not make any further submissions.
+10    The grounds of the appellants’ application in the FCC were expressed somewhat discursively but, in essence, raised two complaints.  The first was that the first appellant had relied on a registered migration agent in relation to the lodgement of the visa application, having no knowledge himself of the Migration Act 1958 (Cth) or of the Regulations.  He had not been aware that the lodgement of the visa application before the completion of the Advanced Diploma of Marketing (and more than six months after his completion of the Diploma of Marketing), would be fatal to the application.
+11    The second ground was that the Tribunal had been incorrect in concluding that he had a negative skills assessment.  In fact, he had a positive skills assessment as a motor mechanic, which satisfied the requirements of reg 485.224.  Furthermore, he had provided evidence of that in support of the application before the making of the delegate’s decision.
+12    The FCC Judge noted, appropriately, that it was not part of the FCC’s function to engage in a merits review of the appellants’ application.  Instead, the jurisdiction of the FCC was confined to that of judicial review, and was dependent in turn on a finding of jurisdictional error.
+13    The FCC Judge concluded that the first appellant’s misapprehension concerning the requirements for the Graduate Work Stream visa did not give rise to jurisdictional error, distinguishing in this respect the decision of the High Court in SZFDE v Minister for Immigration and Citizenship [2007] HCA 35; (2007) 232 CLR 189.
+14    In relation to the second matter, the FCC Judge noted the concession by counsel for the Minister that the first appellant had provided evidence of a positive skills assessment on or about 8 February 2016, that is, after the date on which the appellants had lodged the visa application, but before the delegate’s decision was made.  Counsel accepted that the Tribunal had overlooked relevant evidence in this respect.  The FCC Judge concluded that, whilst the Tribunal’s overlooking of the evidence concerning the skills assessment could constitute jurisdictional error, it was, in the circumstances of the appellants’ case, immaterial.  That was because the application for the Graduate Work Stream visa had to be dismissed in any event, by reason of the first appellant’s inability to satisfy the Australian study requirement.  That criterion was separate and distinct from the criterion contained in reg 485.224.
+The appeal to this Court
+15    The grounds in the Notice of Appeal to this Court replicate substantially, but not exactly, the grounds of the application in the FCC.  The first appellant introduces those grounds by saying:
+I strongly feel that somehow in my case the facts and claims of my innocence have not been taken into consideration and the decision lacks natural justice.
+16    The first appellant made submissions on the appeal. His wife was not present.  The Court was told that she was content to rely upon the first appellant’s submissions.
+17    The first matter upon which the appellants rely, namely, the allegation that they had, in effect, been let down by their migration agent, and their misapprehension concerning the criteria for a Graduate Work Stream visa does not provide a basis for judicial review.  Like the FCC Judge, I consider it appropriate to refer to the decision of the High Court in SZFDE.  In that case, the applicants had sought judicial review on the ground that they had not attended a Tribunal hearing by reason of reliance on incorrect advice given by a fraudulent migration agent.  The High Court found, at [51] to [52], that the Tribunal had thereby been disabled from discharging its imperative statutory function by the fraud “on” the Tribunal with the consequence that its decision was, in law, no decision at all.  However, the High Court went on to say, at [53]:
+[T]here are sound reasons of policy why a person whose conduct before an administrative tribunal has been affected, to the detriment of that person, by bad or negligent advice or some other mishap should not be heard to complain that the detriment vitiates the decision made.
+18    There has been no suggestion, whether in the Tribunal, the FCC or this Court, that the conduct of the appellants’ migration agent should be characterised as fraudulent, even in an extended meaning of that term.  Although there has been no express finding to this effect, the hearings have proceeded on the basis that the appellants’ allegations rise no higher than claims of mistake by the agent, mistake by the appellants and not of fraud: cf, Singh v Minister for Immigration and Border Protection [2015] FCAFC 151 at [48]; Maharjan v Minister for Immigration and Border Protection [2017] FCAFC 213, (2017) 258 FCR 1 at [40] (Gilmour and Mortimer JJ). Further, as the Full Court noted in Singh, at [54] to [55], without a finding of fraud, there is no basis for an inquiry as to whether the mistaken apprehension stultified the process of consideration of the application.
+19    The FCC Judge was correct to apply the principle in the passage of SZFDE quoted above in the circumstances of the present case.  This is not a case in which it can be said that the decision of the Tribunal was not a decision at all.  This means that the principal ground upon which the appellants sought judicial review was correctly dismissed.
+20    The appellants repeated in the Notice of Appeal their complaint concerning the mistake by the Tribunal in finding that the first appellant did not satisfy reg 485.224.  As already noted, the mistake by the Tribunal has been acknowledged by the Minister’s counsel.  However, that mistake had no consequence because of the appellants’ inability to satisfy reg 485.221.  That inability meant, by itself, that the application for the Graduate Work Stream visa had to be refused.  Accordingly, the mistake was of no consequence and could not warrant the exercise of the Court’s powers on judicial review: Hossain v Minister for Immigration and Border Protection [2018] HCA 34; (2018) 359 ALR 1 at [34]-[35].  That being so, the FCC Judge was correct to dismiss this ground.
+21    Counsel for the Minister drew attention, quite fairly, to the fact that, while the appellants had applied for a Graduate Work Stream visa, and the Minister’s delegate had dealt with the application on that basis, both the Tribunal and the FCC Judge had referred instead to a Skilled (Provisional) (Class VC) visa.  This gave rise, in theory, to the possibility that the decisions of both the Tribunal and the FCC had been made by reference to the incorrect regulations.
+22    The Graduate Work Stream visa was, until March 2013, known as the “Skilled Graduate visa”.  The change in name was effected by the Migration Legislation Amendment Regulation 2013 No 1, Sch 2.
+23    I accept counsel’s submission that the mistake is of no consequence. That is because, although the Tribunal and the FCC referred to the visa sought by the appellants by an incorrect name, they did refer to and apply the correct criteria applicable to the grant of the Graduate Work Stream visa.  That is to say, the Tribunal and the FCC applied the law correctly.
+24    I do not consider that the mistake can be described as merely typographical, as counsel submitted, but do accept that the misdescription is of no consequence, given that the law was applied correctly.
+25    The appellants have not demonstrated any other basis upon which it could be concluded that the FCC Judge was in error in rejecting the application for judicial review.
+26    For these reasons, the appeal to this Court is dismissed.
+I certify that the preceding twenty-six ( 26) numbered paragraphs are a true copy of the Reasons for Judgment herein of the Honourable Justice White.
+Associate:

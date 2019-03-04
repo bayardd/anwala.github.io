@@ -1,0 +1,13 @@
+US government shutdown leaves websites down
+US government shutdown leaves websites down
+Sites with expired TLS certificates are down with no IT staff to service them
+Shares
+A number of government websites are now inaccessible after 80 TLS certificates used by the US government have expired and with no staff on hand to renew them as a result of the government shutdown.
+According to Netfcraft , NASA, the US Department of Justice and the Court of Appeals are just some of the US government agencies whose websites have been affected by the shutdown.
+Hundreds of thousands of government workers have been furloughed including the staff responsible for handling IT support and cybersecurity.
+With no one to service them or update their TLS certificates, government websites are going down in droves which is raising concerns in the IT and cybersecurity industries.
+Expired TLS certificates
+Websites with expired certificates where admins followed proper procedures and implemented HSTS (HTTP Strict Transport Security) policies are completely down with users unable to even browse the sites.
+On the other hand, government websites with expired TLS certificates that failed to implement HSTS now show and HTTPS error in user's browsers. 
+The error can be bypassed by accessing these sites using HTTP but visitors have been warned against logging in or carrying out any sensitive operations as traffic and credentials are no longer encrypted and could be intercepted by malicious third parties.
+The government shutdown has affected the country as a whole but it has really hit hard on the cybersecurity front. Experts have warned that the situation presents the perfect opportunity for hostile countries and hackers to launch cyberattacks on the US government.

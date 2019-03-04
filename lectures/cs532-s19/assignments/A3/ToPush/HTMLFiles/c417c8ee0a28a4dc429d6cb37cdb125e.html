@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7" lang="pt-PT"><![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="pt-PT"><![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!--><html lang="pt-PT"><!--<![endif]-->
+<head>
+
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+		<link rel="dns-prefetch" href="//eco.imgix.net">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="dns-prefetch" href="//secure.gravatar.com">
+
+		<script type="text/javascript">(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
+	<link rel="shortcut icon" href="https://eco.sapo.pt/wp-content/themes/eco-theme/assets/favicon.ico"/>
+
+	<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="wW-1us6dSfjI9Fi0CWXDWt4jvxOnxvqZRBAV24qY5zg" />
+
+	<title>Não há shutdown, mas há muro. Trump pressiona Wall Street &#8211; ECO</title>
+<link rel="amphtml" href="https://eco.sapo.pt/2019/02/14/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street/amp/?utm_term=PANTHEON_STRIPPED&#038;utm_medium=PANTHEON_STRIPPED&#038;utm_source=PANTHEON_STRIPPED" /><link rel='stylesheet' id='wp-block-library-css'  href='https://eco.sapo.pt/wp-includes/css/dist/block-library/style.min.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='eco-theme-css'  href='https://eco.sapo.pt/wp-content/themes/eco-theme/assets/css/eco.min.css?ver=1551047146' type='text/css' media='all' />
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://eco.sapo.pt/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://eco.sapo.pt/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feco.sapo.pt%2F2019%2F02%2F14%2Fnao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://eco.sapo.pt/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feco.sapo.pt%2F2019%2F02%2F14%2Fnao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street%2F&#038;format=xml" />
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+ <!-- OneAll.com / Social Login for WordPress / v5.4.3 -->
+<script data-cfasync="false" type="text/javascript">
+ (function() {
+  var oa = document.createElement('script'); oa.type = 'text/javascript';
+  oa.async = true; oa.src = 'https://ecopt.api.oneall.com/socialize/library.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oa, s);
+ })();
+</script>
+<meta property="ix:host" content="eco.imgix.net">
+<meta property="ix:useHttps" content="true">
+		<meta property="article:published_time" content="2019-02-14T21:12:37Z"/>
+		<meta property="article:modified_time"  content="2019-02-14T21:12:37Z"/>
+		<meta name="apple-itunes-app"           content="app-id=1154525000, app-argument=/2019/02/14/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street/"/>
+		
+		<meta name="thumbnail"             content="https://eco.imgix.net/uploads/2018/09/cropped-wall-street-bolsa-1.jpg" />
+		<meta name="description"           content="As bolsas norte-americanas foram penalizadas pelos dados negativos das vendas a retalho no final do ano passado, bem como pela mais recente decisão de Trump relativa ao muro na fronteira com o México." />
+		<meta property="og:title"          content="Não há shutdown, mas há muro. Trump pressiona Wall Street" />
+		<meta property="og:type"           content="article" />
+		<meta property="og:url"            content="https://eco.sapo.pt/2019/02/14/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street/" />
+		<meta property="og:description"    content="As bolsas norte-americanas foram penalizadas pelos dados negativos das vendas a retalho no final do ano passado, bem como pela mais recente decisão de Trump relativa ao muro na fronteira com o México." />
+		<meta property="article:publisher" content="https://www.facebook.com/ECOEconomiaOnline/" />
+		<meta property="fb:app_id"         content="1135419809829108" />
+
+		
+		<meta name="twitter:card"          content="summary_large_image" />
+		<meta property="og:image"          content="https://eco.imgix.net/uploads/2018/09/cropped-wall-street-bolsa-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200" />
+		<meta property="og:image:height"   content="720" />
+		<meta property="og:image:width"    content="1280" />
+		<meta name="twitter:image"         content="https://eco.imgix.net/uploads/2018/09/cropped-wall-street-bolsa-1.jpg?mark64=aHR0cHM6Ly9lY28uaW1naXgubmV0L0VDT193YXRlcm1hcmsucG5nP2ZtPXBuZw%3D%3D&markscale=33&markalign=center,left&w=1200" />
+		<meta name="twitter:title"         content="Não há shutdown, mas há muro. Trump pressiona Wall Street" />
+		<meta name="twitter:description"   content="As bolsas norte-americanas foram penalizadas pelos dados negativos das vendas a retalho no final do ano passado, bem como pela mais recente decisão de Trump relativa ao muro na fronteira com o México." />
+
+
+		<link rel="canonical"              href="https://eco.sapo.pt/2019/02/14/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street/" />
+
+		
+		<meta name="author"                content="ECO" />
+		<meta property="og:locale"         content="pt_PT" />
+		<meta property="og:site_name"      content="ECO" />
+		<meta name="twitter:site"          content="@ECO_PT" />
+		<meta name="twitter:creator"       content="@ECO_PT" />
+	
+		<meta name="norton-safeweb-site-verification" content="l-6i4dj3dfqh2p6g7lij1cg8n78n4ulupc6ec4i3fiolysawy62tig8e4ip65a5vt50tu6v8--wjsnvir-gakahfim9-9qcoi4v89peeqekce51g7lktyke0ps-8f5w4" />
+	      <meta name="onesignal" content="wordpress-plugin"/>
+          <link rel="manifest"
+            href="https://eco.sapo.pt/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/manifest.json.php?gcm_sender_id="/>
+          <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>    <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://eco.sapo.pt");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '5292fabb-c02c-493a-ae68-5599e312b1fc';
+oneSignal_options['autoRegister'] = false;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "Economia Online";
+oneSignal_options['welcomeNotification']['message'] = "Obrigado por se inscrever para receber as notificações do ECO";
+oneSignal_options['path'] = "https://eco.sapo.pt/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.12e0c5f3-6b76-47bb-8015-fa3026009bd5";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['exampleNotificationTitleDesktop'] = 'Exemplo de notificações';
+oneSignal_options['promptOptions']['exampleNotificationMessageDesktop'] = 'Notificações irão aparecer no seu desktop';
+oneSignal_options['promptOptions']['exampleNotificationTitleMobile'] = 'Exemplo de notificação';
+oneSignal_options['promptOptions']['exampleNotificationMessageMobile'] = 'Notificações irão aparecer no seu dispositivo';
+oneSignal_options['promptOptions']['exampleNotificationCaption'] = '(pode cancelar a qualquer momento)';
+oneSignal_options['promptOptions']['acceptButtonText'] = 'Continuar';
+oneSignal_options['promptOptions']['cancelButtonText'] = 'Cancelar';
+oneSignal_options['promptOptions']['siteName'] = 'https://eco.sapo.pt';
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-left';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['prenotify'] = true;
+oneSignal_options['notifyButton']['showCredit'] = false;
+oneSignal_options['notifyButton']['text'] = {};
+oneSignal_options['notifyButton']['text']['message.prenotify'] = 'Subscrever notificações';
+oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = 'Subscrever notificações';
+oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = 'Notificações activas';
+oneSignal_options['notifyButton']['text']['tip.state.blocked'] = 'Notificações bloqueadas';
+oneSignal_options['notifyButton']['text']['message.action.subscribed'] = 'Obrigado';
+oneSignal_options['notifyButton']['text']['message.action.resubscribed'] = 'Notificações activas';
+oneSignal_options['notifyButton']['text']['message.action.unsubscribed'] = 'Não irá receber mais notificações';
+oneSignal_options['notifyButton']['text']['dialog.main.title'] = 'Gerir notificações';
+oneSignal_options['notifyButton']['text']['dialog.main.button.subscribe'] = 'Subscrever';
+oneSignal_options['notifyButton']['text']['dialog.main.button.unsubscribe'] = 'Cancelar';
+oneSignal_options['notifyButton']['text']['dialog.blocked.title'] = 'Desbloquear notificações';
+oneSignal_options['notifyButton']['text']['dialog.blocked.message'] = 'Siga as instruções para receber notificações';
+oneSignal_options['notifyButton']['colors'] = {};
+oneSignal_options['notifyButton']['colors']['circle.background'] = 'rgba(0,175,0,.97)';
+oneSignal_options['notifyButton']['colors']['pulse.color'] = 'rgba(0,175,0,.97)';
+oneSignal_options['notifyButton']['colors']['dialog.button.background'] = 'rgba(0,175,0,.97)';
+oneSignal_options['notifyButton']['colors']['dialog.button.background.active'] = 'rgba(0,175,0,.97)';
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+	googletag.cmd.push(function() {
+		/* DEFINE */
+
+		
+				/* tags to show in single article */
+		googletag.defineSlot('/1025113/eco-single-728x90', [[300, 250], [728, 90]], 'div-ad-slot-container-eco-single-728x90').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-relacionados-300x600', [300, 600], 'div-gpt-ad-1519294373100-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		
+		
+		/* Tags to show in every page */
+		googletag.defineSlot('/1025113/300x250_novo', [300, 250], 'div-gpt-ad-1542638469581-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-main-1x1', [1, 1], 'div-ad-slot-container-eco-main-1x1').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		if ( jQuery( window ).width() > 1220 ) {
+			googletag.defineSlot('/1025113/eco-main-1220x200', [1220, 200], 'div-ad-slot-container-eco-main-1220x200').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		}
+		googletag.defineSlot('/1025113/eco-grid-1120x396', [[728, 90], [1120, 396]], 'div-gpt-ad-1509446733667-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-main-728x90', [728, 90], 'div-ad-slot-container-eco-main-728x90').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-main-1120x396', [[1120, 200], [1220, 200], [1120, 396]], 'div-ad-slot-container-eco-main-1120x396').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-main-3-300x600', [[300, 600], [300, 250]], 'div-gpt-ad-1492078609256-1').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/topic_halfpage_1', [300, 600], 'div-gpt-ad-1550576471157-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/topic_halfpage_2', [300, 600], 'div-gpt-ad-1550253270363-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/topic_halfpage_3', [300, 600], 'div-gpt-ad-1550253521699-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/topic_halfpage_4', [300, 600], 'div-gpt-ad-1550253654728-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/topic_halfpage_5', [300, 600], 'div-gpt-ad-1550253735804-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-main-300x250', [[300, 600], [300, 250]], 'div-ad-slot-container-eco-main-300x250').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-main-300x600', [300, 600], 'div-ad-slot-container-eco-main-300x600').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-main-990x600', [990, 600], 'div-ad-slot-container-eco-main-990x600').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-bottom-300x250', [300, 250], 'div-gpt-ad-1496158333967-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-bottom-300x600', [300, 600], 'div-gpt-ad-1484574740122-1').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+		googletag.defineSlot('/1025113/eco-floorad-990x50', [1, 1], 'div-gpt-ad-1519387081980-0').addService(googletag.pubads()).setTargeting("pagina", ["post-template-default","single","single-post","postid-424705","single-format-standard"]).setTargeting("topico", ["internacional","mercados"]);
+
+
+
+		/* EVENTS */
+		// Callback reposition the header menu for monster banner
+		googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+
+			if ( event.slot.getAdUnitPath() === '/1025113/eco-topico-728x90' ) {
+
+				if ( ! event.isEmpty ) {
+					var ad_unit = jQuery('#div-ad-slot-container-eco-topico-728x90');
+					ad_unit.show();
+				}
+
+			}
+
+			if ( event.slot.getAdUnitPath() === '/1025113/eco-ultimas-300x60' ) {
+
+				if ( ! event.isEmpty ) {
+
+					var replace = jQuery('.ad_replace');
+					var ad_unit = jQuery('.trending--pub');
+
+					replace.hide();
+
+					ad_unit.show();
+				}
+
+			}
+
+			// Halfpage in class-block-explainer.
+			if ( event.slot.getAdUnitPath() === '/1025113/eco-main-300x600' && event.isEmpty ) {
+
+				jQuery('.grid-pub-container.explainer').hide();
+				jQuery('#ad-replace-card-halfpage').show();
+			}
+
+			
+
+			// Shows mrec instead of replace card if the pub tag is not empty.
+			if ( event.slot.getAdUnitPath() === '/1025113/eco-bottom-300x250' && event.isEmpty ) {
+
+				jQuery('.mrec-to-card').show();
+				// This breaks eco-block-large
+				//jQuery('.ad--mrec-topic').hide();
+
+				eco_replace_single_image( jQuery('.mrec-to-card img') );
+			}
+
+			if ( event.slot.getAdUnitPath() === '/1025113/eco-single-728x90' && event.isEmpty ) {
+
+				jQuery('body').addClass('eco-single-728x90-empty');
+			}
+
+			if ( event.slot.getAdUnitPath() === 'div-ad-slot-container-eco-single-728x90' && event.isEmpty ) {
+
+					jQuery('#div-ad-slot-container-eco-single-728x90').hide();
+			}
+		});
+
+		googletag.pubads().enableSingleRequest();
+		googletag.pubads().collapseEmptyDivs();
+		googletag.pubads().enableVideoAds();
+		googletag.enableServices();
+	});
+
+	function eco_replace_single_image( obj ) {
+
+		var parent_width    = obj.parent().width();
+		var data_src        = obj.attr('data-src');
+		var data_src_mobile = obj.attr('data-src-mobile');
+		var quality         = "&q=60&auto=compress,format";
+
+		//if we manage to know the target witdth
+		if ( undefined != data_src && parent_width ) {
+
+			// switches from square to 16x9 depending if we are on mobile or not
+			if ( undefined != data_src_mobile && window.innerWidth <= 640 ) {
+
+				obj.attr('src', data_src_mobile + "?w=" + parent_width + quality);
+
+				return;
+			}
+
+			//Replaces img scr with the image with proper size
+			obj.attr('src', data_src + "?w=" + parent_width + quality);
+		}
+
+	}
+
+
+</script>
+
+		<style>#bsu-placeholder {height:60px;position:relative;background-color:#111;}</style>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+	{n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+	;if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1771285969799621');
+	fbq('track', "PageView");</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=1771285969799621&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+
+		<!--[if lt IE 9]>
+	<script src="https://eco.sapo.pt/wp-content/themes/eco-theme/assets/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-P5MVSM');</script>
+	<!-- End Google Tag Manager -->
+
+</head>
+
+
+
+<body class="post-template-default single single-post postid-424705 single-format-standard with-header--solid">
+
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '1582823812017624',
+			xfbml      : true,
+			version    : 'v2.7'
+		});
+		FB.AppEvents.logPageView();
+	};
+
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+<svg style="display: none;"><defs><symbol id="AlertasDefinicoes-asset_AlertasDefinicoes" data-name="asset_AlertasDefinicoes" viewBox="0 0 19.55 20.37"><line x1="3.94" y1="3.18" x2="3.94" y2="0.85" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="3.94" y1="19.52" x2="3.94" y2="11.35" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><circle cx="3.94" cy="7.31" r="3.09" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="15.61" y1="16.02" x2="15.61" y2="19.52" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="15.61" y1="0.85" x2="15.61" y2="7.85" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><circle cx="15.61" cy="11.96" r="3.09" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="AlertasMarcarComoLidas-asset_AlertasMarcarComoLidas" data-name="asset_AlertasMarcarComoLidas" viewBox="0 0 22.12 22.7"><polyline points="6.13 11.15 10.54 15.18 21.27 0.85" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><path d="M20.59,12a9.87,9.87,0,1,1-9.87-9.87A9.9,9.9,0,0,1,20.59,12Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="ArrowNext--white-asset_ArrowNext" data-name="asset_ArrowNext" viewBox="0 0 8.7 15.7"><polyline points="0.85 0.85 7.85 7.85 0.85 14.85" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="ArrowNext-asset_ArrowNext" data-name="asset_ArrowNext" viewBox="0 0 8.7 15.7"><polyline points="0.85 0.85 7.85 7.85 0.85 14.85" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="ArrowPrevious--white-asset_ArrowPrevious" data-name="asset_ArrowPrevious" viewBox="0 0 8.7 15.7"><polyline points="7.85 14.85 0.85 7.85 7.85 0.85" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="ArrowPrevious-asset_ArrowPrevious" data-name="asset_ArrowPrevious" viewBox="0 0 8.7 15.7"><polyline points="7.85 14.85 0.85 7.85 7.85 0.85" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="BadgeComment-component_BadgeBkgr" data-name="component_BadgeBkgr" viewBox="0 0 21 20"><circle cx="11" cy="10" r="10" fill="#00d700"/></symbol><symbol id="BadgeComment-asset_BadgeComment" data-name="asset_BadgeComment" viewBox="0 0 21 20"><use id="BadgeComment-component_BadgeBkgr-3" data-name="component_BadgeBkgr" width="21" height="20" xlink:href="#BadgeComment-component_BadgeBkgr"/><path d="M16,9a5,5,0,1,0-6.77,4.65C9.34,13.68,11,16,11,16s1.64-2.31,1.76-2.36A5,5,0,0,0,16,9Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.2"/></symbol><symbol id="BadgeNewArticle-component_BadgeBkgr" data-name="component_BadgeBkgr" viewBox="0 0 21 20"><circle cx="11" cy="10" r="10" fill="#00d700"/></symbol><symbol id="BadgeNewArticle-asset_BadgeNewArticle" data-name="asset_BadgeNewArticle" viewBox="0 0 21 20"><use width="21" height="20" xlink:href="#BadgeNewArticle-component_BadgeBkgr"/><polygon points="13.23 15 6.95 15 6.95 5 15.05 5 15.05 13.16 13.23 15" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/><line x1="9.5" y1="8.8" x2="12.5" y2="8.8" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/><line x1="9.5" y1="11.2" x2="12.5" y2="11.2" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/></symbol><symbol id="BadgeStockChangeDown-asset_BadgeStockChangeDown" data-name="asset_BadgeStockChangeDown" viewBox="0 0 20 20"><g id="BadgeStockChangeDown-component_BadgeBkgr"><circle cx="10" cy="10" r="10" fill="#f50000"/></g><polyline points="5 6.46 7.35 10.2 10.89 7.86 14.33 12.69" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/><polyline points="11.8 12.87 15 13.54 15 9.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/></symbol><symbol id="BadgeStockChangeUp-component_BadgeBkgr" data-name="component_BadgeBkgr" viewBox="0 0 21 20"><circle cx="11" cy="10" r="10" fill="#00d700"/></symbol><symbol id="BadgeStockChangeUp-asset_BadgeStockChangeUp" data-name="asset_BadgeStockChangeUp" viewBox="0 0 21 20"><use width="21" height="20" xlink:href="#BadgeStockChangeUp-component_BadgeBkgr"/><polyline points="5.92 13.91 8.27 10.17 11.81 12.52 15.25 7.69" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/><polyline points="12.72 7.51 15.92 6.84 15.92 10.48" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/></symbol><symbol id="ButtonDetailBold-asset_ButtonDetailBold" data-name="asset_ButtonDetailBold" viewBox="0 0 26 24"><path d="M13,3a9,9,0,1,1-9,9,9,9,0,0,1,9-9m0-3A12,12,0,1,0,25,12,12,12,0,0,0,13,0h0Z" fill="#00d700"/><line x1="8.24" y1="12" x2="16.99" y2="12" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/><polyline points="14.26 8.5 17.76 12 14.26 15.5" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/></symbol><symbol id="ButtonDetailDark-Green-HighGreen-White-asset_ButtonDetailDark" data-name="asset_ButtonDetailDark" viewBox="0 0 26 25"><path d="M13,1.7A10.8,10.8,0,1,1,2.2,12.5,10.81,10.81,0,0,1,13,1.7M13,0A12.5,12.5,0,1,0,25.5,12.5,12.54,12.54,0,0,0,13,0h0Z" fill="currentColor"/><line x1="7" y1="12.5" x2="17" y2="12.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><polyline points="13.88 8.5 17.88 12.5 13.88 16.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol> <symbol id="CheckboxChecked-b0fb35c7-0f3b-428f-84c3-b72fd80fb929" data-name="asset_CheckboxChecked" viewBox="0 0 26 26"> <path d="M26,13A13,13,0,0,1,13,26h0A13,13,0,0,1,0,13H0A13,13,0,0,1,13,0h0A13,13,0,0,1,26,13Z" fill="#00af00"/> <polyline points="6.05 13.7 10.22 17.87 19.04 9.04" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/> </symbol>  <symbol id="CheckboxOutline-1057bf60-1a4e-4841-bc18-4aaf3b5e6283" data-name="asset_CheckboxOutline" viewBox="0 0 26 26"> <g> <path d="M13,25.15A12.15,12.15,0,1,1,25.15,13,12.16,12.16,0,0,1,13,25.15Z" fill="#f7f8f7"/> <path d="M13,1.7A11.3,11.3,0,1,1,1.7,13,11.31,11.31,0,0,1,13,1.7M13,0A13,13,0,1,0,26,13,13,13,0,0,0,13,0Z" fill="#b2b5b2"/> </g> </symbol> <symbol id="ClearField-asset_ClearField" data-name="asset_ClearField" viewBox="0 0 30 30"><rect x="5" y="4.99" width="20" height="20" fill="#fff" opacity="0"/><path d="M15,1.7A13.3,13.3,0,1,1,1.7,15,13.31,13.31,0,0,1,15,1.7M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0h0Z" fill="#00d700"/><line x1="10.62" y1="19.34" x2="19.38" y2="10.66" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="19.41" y1="19.31" x2="10.59" y2="10.69" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="CloseShareDark-asset_CloseShareDark" data-name="asset_CloseShareDark" viewBox="0 0 30 30"><circle cx="15" cy="15" r="15" fill="#262f26"/><line x1="10.62" y1="19.34" x2="19.38" y2="10.66" fill="none" stroke="#cccecc" stroke-linecap="round" stroke-linejoin="round"/><line x1="19.41" y1="19.31" x2="10.59" y2="10.69" fill="none" stroke="#cccecc" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="CloseShareLight-asset_CloseShareLight" data-name="asset_CloseShareLight" viewBox="0 0 30 30"><circle cx="15" cy="15" r="15" fill="#fafafa"/><line x1="10.62" y1="19.34" x2="19.38" y2="10.66" fill="none" stroke="#999d99" stroke-linecap="round" stroke-linejoin="round"/><line x1="19.41" y1="19.31" x2="10.59" y2="10.69" fill="none" stroke="#999d99" stroke-linecap="round" stroke-linejoin="round"/></symbol> <symbol id="CommentBig-9a88489c-54c9-493c-b70f-299ff8ac3d96" data-name="asset_CommentBig" viewBox="0 0 27.45 32.7"> <path d="M13.72,32.7h0a.85.85,0,0,1-.72-.4L9.56,26.8a13.72,13.72,0,1,1,8.32,0l-3.44,5.5A.85.85,0,0,1,13.72,32.7Z"/> <path d="M13.72,32.7h0a.85.85,0,0,1-.72-.4L9.56,26.8a13.72,13.72,0,1,1,8.32,0l-3.44,5.5A.85.85,0,0,1,13.72,32.7Zm0-31a12,12,0,0,0-3.37,23.56.85.85,0,0,1,.48.37l2.89,4.62,2.89-4.62a.85.85,0,0,1,.48-.37A12,12,0,0,0,13.72,1.7Z" fill="#00d700"/> <path d="M18.22,13.08H14.57V9.43a.85.85,0,0,0-1.7,0v3.65H9.22a.85.85,0,1,0,0,1.7h3.65v3.65a.85.85,0,0,0,1.7,0V14.78h3.65a.85.85,0,1,0,0-1.7Z" fill="currentColor"/> </symbol> <symbol id="CommentCollapse-asset_CommentCollapse" data-name="asset_CommentCollapse" viewBox="0 0 15.8 15.8"><polygon points="1.86 9.75 6.05 9.75 6.05 13.94 1.86 9.75" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><polygon points="13.73 6.26 9.54 6.26 9.54 2.07 13.73 6.26" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><line x1="10.04" y1="5.76" x2="14.9" y2="0.9" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><line x1="0.9" y1="14.9" x2="5.76" y2="10.04" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></symbol><symbol id="CommentExpand-asset_CommentExpand" data-name="asset_CommentExpand" viewBox="0 0 15.8 15.8"><line x1="9.65" y1="6.15" x2="14.9" y2="0.9" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><line x1="0.9" y1="14.9" x2="6.44" y2="9.36" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><polygon points="5.11 14.9 0.9 14.9 0.9 10.69 5.11 14.9" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><polygon points="10.69 0.9 14.9 0.9 14.9 5.11 10.69 0.9" fill="none" stroke="#666c66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></symbol><symbol id="CommentOptions-asset_CommentOptions" data-name="asset_CommentOptions" viewBox="0 0 12 12"><rect width="12" height="12" fill="none"/><polyline points="10.5 3.75 6 8.25 1.5 3.75" fill="none" stroke="#bfc2bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></symbol><symbol id="CommentSmall-asset_CommentSmall" data-name="asset_CommentSmall" viewBox="0 0 19.14 22.7"><g id="CommentSmall-asset_CommentGreenAddOnWhite"><path d="M18.29,9.57A8.72,8.72,0,1,0,7.13,17.94l2.44,3.91L12,17.94A8.72,8.72,0,0,0,18.29,9.57Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="9.57" y1="6.56" x2="9.57" y2="12.65" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="6.53" y1="9.61" x2="12.62" y2="9.61" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></g></symbol><symbol id="CommentUpVoteSelected-asset_CommentUpVoteSelected" data-name="asset_CommentUpVoteSelected" viewBox="0 0 26 21.7"><path d="M22.62,10.76h0l-9,9.79a0.81,0.81,0,0,1-1.22,0l-9-9.78,0,0a5.84,5.84,0,1,1,9-7.35l0,0.07A0.67,0.67,0,0,0,13,3.8a0.65,0.65,0,0,0,.57-0.3A5.84,5.84,0,1,1,22.62,10.76Z" fill="#00d700" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="CommentUpVoteUnselected-asset_CommentUpVoteUnselected" data-name="asset_CommentUpVoteUnselected" viewBox="0 0 26 21.7"><path d="M22.62,10.76h0l-9,9.79a0.81,0.81,0,0,1-1.22,0l-9-9.78,0,0a5.84,5.84,0,1,1,9-7.35l0,0.07A0.67,0.67,0,0,0,13,3.8a0.65,0.65,0,0,0,.57-0.3A5.84,5.84,0,1,1,22.62,10.76Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><style>.cls-1{fill:#fff;}</style> <symbol id="FacebookLine-3d005e2c-0aa1-479a-8a98-ed9b51a3bd3a" data-name="asset_FacebookLineOnWhite" viewBox="0 0 30 30"> <path d="M30,15A15,15,0,1,1,15,0,15,15,0,0,1,30,15Z"/> <path d="M15,1.7A13.3,13.3,0,1,1,1.7,15,13.31,13.31,0,0,1,15,1.7M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0Z" fill="#0064be"/> <path d="M16.12,15.1v6.4h-2.4V15.1h-2.4V13.5h2.4V11.56a3,3,0,0,1,.73-2.19,2.67,2.67,0,0,1,2-.77,3.68,3.68,0,0,1,1.24.1v2.1h-.5a1.07,1.07,0,0,0-1.1,1V13.5h2.2L18,15.1Z" fill="currentColor"/> </symbol> <symbol id="FollowColorOnDark-asset_FollowColorOnDark" data-name="asset_FollowColorOnDark" viewBox="0 0 35 35"><path d="M17.5,34.5a17,17,0,1,1,17-17A17,17,0,0,1,17.5,34.5Z" fill="#00d700"/><path d="M17.5,1A16.5,16.5,0,1,1,1,17.5,16.52,16.52,0,0,1,17.5,1m0-1A17.5,17.5,0,1,0,35,17.5,17.55,17.55,0,0,0,17.5,0h0Z" fill="#00d700"/><path d="M17.5,11A9.42,9.42,0,0,0,8.8,17.5,9.42,9.42,0,0,0,17.5,24a9.42,9.42,0,0,0,8.7-6.53A9.42,9.42,0,0,0,17.5,11Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.7"/><ellipse cx="17.5" cy="17.5" rx="2.29" ry="2.27" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.7"/></symbol><symbol id="FollowColorOnWhite-asset_FollowColorOnWhite" data-name="asset_FollowColorOnWhite" viewBox="0 0 35 35"><path d="M35,17.5A17.55,17.55,0,0,1,17.5,35h0A17.55,17.55,0,0,1,0,17.5H0A17.55,17.55,0,0,1,17.5,0h0A17.55,17.55,0,0,1,35,17.5h0Z" fill="#fafafa"/><path d="M17.5,11A9.42,9.42,0,0,0,8.8,17.5,9.42,9.42,0,0,0,17.5,24a9.42,9.42,0,0,0,8.7-6.53A9.42,9.42,0,0,0,17.5,11Z" fill="none" stroke="#00d700" stroke-miterlimit="10" stroke-width="1.7"/><ellipse cx="17.5" cy="17.5" rx="2.29" ry="2.27" fill="none" stroke="#00d700" stroke-miterlimit="10" stroke-width="1.7"/></symbol><symbol id="FooterFacebook-asset_FooterFacebook" data-name="asset_FooterFacebook" viewBox="0 0 35 35"><path d="M18.8,17.62v7.47H16V17.62H13.2V15.75H16V13.49a3.55,3.55,0,0,1,.85-2.56,3.12,3.12,0,0,1,2.37-.9,4.29,4.29,0,0,1,1.44.11V12.6H20.08a1.25,1.25,0,0,0-1.28,1.11v2h2.56L21,17.62H18.8Z" fill="currentColor"/></symbol><symbol id="FooterGoogle+-asset_FooterGoogle_" data-name="asset_FooterGoogle+" viewBox="0 0 35 35"><path id="FooterGoogle+-path2998" d="M19.31,13.47a5.45,5.45,0,0,0-3.88-1.53,5.62,5.62,0,1,0,.08,11.24,5,5,0,0,0,5.21-5.11H15.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="25.81" y1="15.61" x2="25.81" y2="19.52" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="23.85" y1="17.56" x2="27.77" y2="17.56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="FooterInstagram-asset_FooterInstagram" data-name="asset_FooterInstagram" viewBox="0 0 35 35"><rect x="10.5" y="10.5" width="14" height="14" rx="4" ry="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><circle cx="17.5" cy="17.5" r="2.9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><circle cx="21.63" cy="13.55" r="0.81" fill="currentColor"/></symbol><symbol id="FooterLinkedIn-asset_FooterLinkedIn" data-name="asset_FooterLinkedIn" viewBox="0 0 35 35"><rect x="12.24" y="14.69" width="2.76" height="8.21" fill="currentColor"/><path d="M13.52,10.23A1.48,1.48,0,1,1,12,11.71a1.48,1.48,0,0,1,1.48-1.48" fill="currentColor"/><path d="M15.92,14.69h2.61v1.12h0A2.68,2.68,0,0,1,21,14.48c2.58,0,3.06,1.62,3.06,3.83V22.9H21.49v-4c0-1,0-2.18-1.33-2.18s-1.53,1-1.53,2.11V22.9H15.92" fill="currentColor"/></symbol><symbol id="FooterTwitter-asset_FooterTwitter" data-name="asset_FooterTwitter" viewBox="0 0 35 35"><path d="M25,13.22a5.74,5.74,0,0,1-1.65.45,2.88,2.88,0,0,0,1.26-1.59,5.74,5.74,0,0,1-1.82.7,2.88,2.88,0,0,0-4.9,2.62,8.15,8.15,0,0,1-5.92-3,2.88,2.88,0,0,0,.89,3.84,2.86,2.86,0,0,1-1.3-.36v0a2.87,2.87,0,0,0,2.3,2.82,2.89,2.89,0,0,1-.76.1,2.85,2.85,0,0,1-.54-0.05,2.88,2.88,0,0,0,2.68,2A5.76,5.76,0,0,1,11.64,22,5.93,5.93,0,0,1,11,22a8.17,8.17,0,0,0,12.58-6.88c0-.12,0-0.25,0-0.37A5.85,5.85,0,0,0,25,13.22Z" fill="currentColor"/></symbol><symbol id="Gallery-Expand-asset_Gallery_Expand" data-name="asset_Gallery Expand" viewBox="0 0 35 35"><g id="Gallery-Expand-asset_ActionButtonLightOnDark"><circle cx="17.5" cy="17.5" r="17.5" fill="#4c534c" fill-opacity="0.6"/></g><line x1="19" y1="16" x2="24.25" y2="10.75" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><line x1="10.25" y1="24.75" x2="15.79" y2="19.21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><polygon points="14.46 24.75 10.25 24.75 10.25 20.54 14.46 24.75" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/><polygon points="20.04 10.75 24.25 10.75 24.25 14.96 20.04 10.75" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></symbol><symbol id="Gallery-asset_Gallery" data-name="asset_Gallery" viewBox="0 0 24 24"><path d="M9.46,5.91a0.31,0.31,0,0,1,.3.3V9.49a0.3,0.3,0,0,1-.3.3H6.19a0.31,0.31,0,0,1-.3-0.3V6.21a0.31,0.31,0,0,1,.3-0.3H9.46m0-1.7H6.19a2,2,0,0,0-2,2V9.49a2,2,0,0,0,2,2H9.46a2,2,0,0,0,2-2V6.21a2,2,0,0,0-2-2h0Z" fill="#fff"/><path d="M18.19,5.91a0.31,0.31,0,0,1,.3.3V9.49a0.3,0.3,0,0,1-.3.3H14.91a0.3,0.3,0,0,1-.3-0.3V6.21a0.31,0.31,0,0,1,.3-0.3h3.27m0-1.7H14.91a2,2,0,0,0-2,2V9.49a2,2,0,0,0,2,2h3.27a2,2,0,0,0,2-2V6.21a2,2,0,0,0-2-2h0Z" fill="#fff"/><path d="M9.46,14.64a0.3,0.3,0,0,1,.3.3v3.27a0.3,0.3,0,0,1-.3.3H6.19a0.31,0.31,0,0,1-.3-0.3V14.94a0.31,0.31,0,0,1,.3-0.3H9.46m0-1.7H6.19a2,2,0,0,0-2,2v3.27a2,2,0,0,0,2,2H9.46a2,2,0,0,0,2-2V14.94a2,2,0,0,0-2-2h0Z" fill="#fff"/><path d="M18.19,14.64a0.3,0.3,0,0,1,.3.3v3.27a0.3,0.3,0,0,1-.3.3H14.91a0.3,0.3,0,0,1-.3-0.3V14.94a0.3,0.3,0,0,1,.3-0.3h3.27m0-1.7H14.91a2,2,0,0,0-2,2v3.27a2,2,0,0,0,2,2h3.27a2,2,0,0,0,2-2V14.94a2,2,0,0,0-2-2h0Z" fill="#fff"/><g opacity="0"><path d="M22.3,1.7V22.3H1.7V1.7H22.3M24,0H0V24H24V0h0Z" fill="#fff"/></g></symbol> <symbol id="Hamburguer-asset_MenuWhite" data-name="asset_MenuWhite" viewBox="0 0 30 30"> <line x1="5.85" y1="7.5" x2="24.15" y2="7.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/> <line x1="5.85" y1="15" x2="24.15" y2="15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/> <line x1="5.85" y1="22.5" x2="24.15" y2="22.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/> <rect width="30" height="30" fill="none"/> </symbol> <symbol id="HighlightFacebook-asset_HighlightFacebook" data-name="asset_HighlightFacebook" viewBox="0 0 25 25"><rect width="25" height="25" fill="none"/><path id="HighlightFacebook-f" d="M14,22.37v-9h3L17.5,9.86H14V7.61c0-1,.28-1.71,1.74-1.71h1.86V2.77a24.87,24.87,0,0,0-2.71-.14c-2.68,0-4.51,1.64-4.51,4.64V9.86h-3v3.51h3v9H14Z" fill="none" stroke="#999d99" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="HighlightLinkedin-asset_HighlightLinkedin" data-name="asset_HighlightLinkedin" viewBox="0 0 18.25 21.31"><path d="M0.85,20.46v-13H8.67V9.23H8.73a4.25,4.25,0,0,1,3.83-2.1c4.09,0,4.85,2.69,4.85,6.2v7.13h-4V14.13c0-1.51,0-3.45-2.1-3.45S8.84,12.32,8.84,14v6.44h-8Z" fill="none" stroke="#999d99" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><circle cx="2.87" cy="2.77" r="1.92" fill="none" stroke="#999d99" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="4.8" y1="20.46" x2="4.8" y2="7.45" fill="none" stroke="#999d99" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="HighlightTwitter-asset_HighlightTwitter" data-name="asset_HighlightTwitter" viewBox="0 0 25 25"><rect width="25" height="25" fill="none"/><path d="M22.5,6.3a8.2,8.2,0,0,1-2.36.65,4.12,4.12,0,0,0,1.8-2.27,8.22,8.22,0,0,1-2.61,1,4.11,4.11,0,0,0-7,3.74A11.65,11.65,0,0,1,3.89,5.12,4.11,4.11,0,0,0,5.16,10.6a4.09,4.09,0,0,1-1.86-.51v0.05a4.11,4.11,0,0,0,3.29,4,4.11,4.11,0,0,1-1.85.07,4.11,4.11,0,0,0,3.83,2.85,8.23,8.23,0,0,1-5.1,1.76,8.35,8.35,0,0,1-1-.06,11.61,11.61,0,0,0,6.29,1.84A11.59,11.59,0,0,0,20.46,9q0-.27,0-0.53A8.34,8.34,0,0,0,22.5,6.3Z" fill="none" stroke="#999d99" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol> <symbol id="LinkedInLine-5c84c09d-2c80-4372-88d5-ea2298e45180" data-name="asset_LinkedInLineOnWhite" viewBox="0 0 30 30"> <path d="M30,15A15,15,0,1,1,15,0,15,15,0,0,1,30,15Z"/> <path d="M15,1.7A13.3,13.3,0,1,1,1.7,15,13.31,13.31,0,0,1,15,1.7M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0Z" fill="#007acf"/> <g> <rect x="8.98" y="12.32" width="2.76" height="8.21" fill="currentColor"/> <path d="M10.25,7.86A1.48,1.48,0,1,1,8.77,9.34a1.48,1.48,0,0,1,1.48-1.48" fill="currentColor"/> <path d="M13.11,12.36h2.61v1.12h0a2.68,2.68,0,0,1,2.41-1.33c2.58,0,3.06,1.62,3.06,3.83v4.58H18.68v-4c0-1,0-2.18-1.33-2.18s-1.53,1-1.53,2.11v4.06H13.11Z" fill="currentColor"/> </g> </symbol> <symbol id="LoginTopEco-asset_LoginTopEco" data-name="asset_LoginTopEco" viewBox="0 0 43.17 63.49"><path d="M31.78,20.36A11.39,11.39,0,1,0,43.17,31.75,11.4,11.4,0,0,0,31.78,20.36Zm0,18a6.65,6.65,0,1,1,6.65-6.65A6.66,6.66,0,0,1,31.78,38.4Z" fill="#00d700"/><path d="M31.75,53.25a2.37,2.37,0,1,0,0-4.74,16.77,16.77,0,0,1,0-33.54,2.37,2.37,0,0,0,0-4.74A21.53,21.53,0,0,0,10.38,29.38H4.85A27,27,0,0,1,31.75,4.74a2.37,2.37,0,0,0,0-4.74,31.75,31.75,0,0,0,0,63.49,2.37,2.37,0,0,0,0-4.74A27,27,0,0,1,4.85,34.11h5.53A21.53,21.53,0,0,0,31.75,53.25Z" fill="#00d700"/></symbol> <symbol id="MapGetDirections-d0439a5a-27a0-4a0c-b418-fc88080e639d" data-name="asset_MapGetDirections" viewBox="0 0 30 30"> <path d="M15,1.5A13.5,13.5,0,1,1,1.5,15,13.52,13.52,0,0,1,15,1.5M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0Z" fill="#00d700"/> <path d="M20.82,13.31l-1.1-3.5a1.42,1.42,0,0,0-1.35-1H11.69a1.42,1.42,0,0,0-1.35,1l-1.1,3.54a1.64,1.64,0,0,0-1.34,1.6v3.95h.71V20a1.07,1.07,0,1,0,2.12,0V18.88h8.49V20a1.07,1.07,0,1,0,2.12,0V18.88H22V14.94A1.59,1.59,0,0,0,20.82,13.31Zm-9.27-2.79c.1-.32.26-.57.63-.57H18c.36,0,.52.25.63.57l.84,2.83H10.72Zm-1.44,6.22a1,1,0,1,1,1-1A1,1,0,0,1,10.11,16.74Zm9.7,0a1,1,0,1,1,1-1A1,1,0,0,1,19.81,16.74Z" fill="#00d700"/> </symbol>  <symbol id="MapMarker-f0697d7a-700c-466c-a921-08d502c70b96" data-name="asset_MapMarker" viewBox="0 0 55 63.89"> <g> <circle cx="27.5" cy="27.5" r="27.5" fill="#00d700"/> <polygon points="27.5 31.89 45.96 47.89 27.5 63.89 9.04 47.89 27.5 31.89" fill="#00d700"/> </g> <g> <path d="M26.7,21.34a5.8,5.8,0,1,0,5.8,5.8A5.81,5.81,0,0,0,26.7,21.34Zm0,9.19a3.39,3.39,0,1,1,3.39-3.39A3.39,3.39,0,0,1,26.7,30.53Z" fill="#fff"/> <path d="M26.68,38.1a1.21,1.21,0,0,0,0-2.41,8.55,8.55,0,0,1,0-17.09,1.21,1.21,0,0,0,0-2.41,11,11,0,0,0-10.89,9.75H13A13.78,13.78,0,0,1,26.68,13.38a1.21,1.21,0,0,0,0-2.41,16.18,16.18,0,0,0,0,32.36,1.21,1.21,0,0,0,0-2.41A13.78,13.78,0,0,1,13,28.35h2.82A11,11,0,0,0,26.68,38.1Z" fill="#fff"/> </g> </symbol>  <symbol id="MediaBadgeAudio-263754e4-8f15-4767-a031-855253f32ec5" data-name="asset_MediaBadgeAudio" viewBox="0 0 30 30"> <path d="M15,29.5A14.5,14.5,0,1,1,29.5,15,14.52,14.52,0,0,1,15,29.5Z" fill="#00d700" opacity="0.8"/> <path d="M14,9.39a.68.68,0,0,0-.35.13l-3.32,2.75-.15.13H8.5a.2.2,0,0,0-.2.2v4.77a.2.2,0,0,0,.2.2h1.67l.15.13,3.32,2.77a.68.68,0,0,0,.35.13l.41-.2a.71.71,0,0,0,.12-.36V9.95a.71.71,0,0,0-.12-.36Z" fill="#fff"/> <path d="M21,14.5h-3.6a.5.5,0,0,0,0,1H21a.5.5,0,0,0,0-1Z" fill="#fff"/> <path d="M17.35,11.89a.5.5,0,0,0,.28-.09l2.54-1.73a.5.5,0,0,0-.56-.83L17.07,11a.5.5,0,0,0,.28.91Z" fill="#fff"/> <path d="M17.63,18.2a.51.51,0,0,0-.69.13.5.5,0,0,0,.13.69l2.54,1.73a.5.5,0,0,0,.56-.83Z" fill="#fff"/> </symbol> <symbol id="MediaBadgeGraph-asset_MediaBagdeGraph" data-name="asset_MediaBagdeGraph" viewBox="0 0 30 30"><path d="M15,29.5A14.5,14.5,0,1,1,29.5,15,14.52,14.52,0,0,1,15,29.5Z" fill="#00d700" opacity="0.8"/><rect x="8.7" y="11.57" width="2.59" height="10" rx="0.5" ry="0.5" fill="#fff"/><rect x="18.11" y="14.57" width="2.59" height="7" rx="0.5" ry="0.5" fill="#fff"/><rect x="13.52" y="8.57" width="2.59" height="13" rx="0.5" ry="0.5" fill="#fff"/></symbol><symbol id="MediaBadgePhoto-asset_MediaBagdePhoto" data-name="asset_MediaBagdePhoto" viewBox="0 0 30 30"><path d="M15,29.5A14.5,14.5,0,1,1,29.5,15,14.52,14.52,0,0,1,15,29.5Z" fill="#00d700" opacity="0.8"/><circle cx="14.82" cy="15.67" r="1.63" fill="#fff"/><path d="M17.42,11.72V10.6a0.87,0.87,0,0,0-.87-0.87H13.09a0.87,0.87,0,0,0-.87.87v1.12H10.06a1.73,1.73,0,0,0-1.73,1.73v5.08a1.73,1.73,0,0,0,1.73,1.73h9.53a1.73,1.73,0,0,0,1.73-1.73V13.45a1.73,1.73,0,0,0-1.73-1.73H17.42Zm-2.6,7a3,3,0,1,1,3-3A3,3,0,0,1,14.82,18.68Z" fill="#fff"/></symbol> <symbol id="MediaBadgeQuote-900d3523-70b6-496e-8999-ee65da1a0176" data-name="asset_MediaBadgeQuote" viewBox="0 0 30 30"> <path d="M15,29.5A14.5,14.5,0,1,1,29.5,15,14.52,14.52,0,0,1,15,29.5Z" fill="#00d700" opacity="0.8"/> <path d="M10.27,13.66a4.77,4.77,0,0,0-.39.94,2.52,2.52,0,0,1,.72-.21,2.55,2.55,0,1,1-2.13,3.28l0,0A6.17,6.17,0,0,1,12.69,10a.73.73,0,1,1,.4,1.41A4.68,4.68,0,0,0,10.27,13.66Zm8,.73a2.52,2.52,0,0,0-.72.21,4.77,4.77,0,0,1,.39-.94,4.68,4.68,0,0,1,2.82-2.24.73.73,0,1,0-.4-1.41,6.17,6.17,0,0,0-4.24,7.63l0,0a2.55,2.55,0,1,0,2.13-3.28Z" fill="#fff"/> </symbol> <symbol id="MediaBadgeVideo-asset_MediaBadgeVideo" data-name="asset_MediaBadgeVideo" viewBox="0 0 30 30"><path d="M15,29.5A14.5,14.5,0,1,1,29.5,15,14.52,14.52,0,0,1,15,29.5Z" fill="#00d700" opacity="0.8"/><path d="M12.52,9.53l8.42,4.72a0.75,0.75,0,0,1,0,1.31l-8.42,4.72a0.75,0.75,0,0,1-1.12-.65V10.19A0.75,0.75,0,0,1,12.52,9.53Z" fill="#fff"/></symbol><symbol id="MediaPause-asset_MediaPause" data-name="asset_MediaPause" viewBox="0 0 35 35"><g id="MediaPause-asset_ActionButtonGreen"><circle cx="17.5" cy="17.5" r="17.5" fill="#0a0" fill-opacity="0.9"/></g><rect x="11.94" y="11.5" width="3" height="12" rx="1" ry="1" fill="#fff"/><rect x="20.06" y="11.5" width="3" height="12" rx="1" ry="1" fill="#fff"/></symbol><symbol id="MediaPlay-asset_MediaPlay" data-name="asset_MediaPlay" viewBox="0 0 35 35"><g id="MediaPlay-asset_ActionButtonGreen"><circle cx="17.5" cy="17.5" r="17.5" fill="#0a0" fill-opacity="0.9"/></g><path d="M13,18.39V11.82a0.53,0.53,0,0,1,.87-0.5l4,2.29,1.72,1,3.74,2.25a0.55,0.55,0,0,1,0,1l-3.85,2.27-1.72,1-3.85,2.27A0.52,0.52,0,0,1,13,23V18.39Z" fill="#fff"/></symbol><symbol id="MenuBookmarks-asset_MenuBookmarks" data-name="asset_MenuBookmarks" viewBox="0 0 14.7 18.7"><path d="M13.85,17.85l-6.57-5-6.43,5v-15a2,2,0,0,1,2-2h9a2,2,0,0,1,2,2v15Z" fill="none" stroke="#b2b5b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="MenuNotifications-asset_MenuNotifications" data-name="asset_MenuNotifications" viewBox="0 0 20 20"><path d="M17.5,15l-1.38-1.61a4.85,4.85,0,0,1-1.21-3.28V8.16a4.55,4.55,0,0,0-3.35-4.37,1.51,1.51,0,0,0,0-.24,1.58,1.58,0,0,0-3.16,0,1.51,1.51,0,0,0,0,.24A4.55,4.55,0,0,0,5.09,8.16V10.1a4.85,4.85,0,0,1-1.21,3.28L2.5,15h15Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><path d="M13,15a3,3,0,0,1-6,0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="MenuSearch-asset_MenuSearch" data-name="asset_MenuSearch" viewBox="0 0 15.09 16.02"><ellipse cx="6.25" cy="6.22" rx="5.47" ry="5.5" transform="matrix(0.11, -0.99, 0.99, 0.11, -0.63, 11.74)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><line x1="10.01" y1="10.92" x2="14.19" y2="15.12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></symbol> <symbol id="MessengerLine-e2e83b8b-d91f-40ac-90a2-8ba50a4b682a" data-name="asset_MessengerLineOnWhite" viewBox="0 0 30.5 30.5"> <path d="M15.25,0A15.25,15.25,0,0,0,0,15.25a17.34,17.34,0,0,0,3,9L1.11,29.85,6.85,28a16.67,16.67,0,0,0,8.4,2.52,15.25,15.25,0,1,0,0-30.5Z"/> <path d="M15.25,1.7a13.55,13.55,0,1,1,0,27.1A15.08,15.08,0,0,1,7.8,26.57a1.7,1.7,0,0,0-1.48-.21l-2.52.82.79-2.35a1.71,1.71,0,0,0-.23-1.53A15.74,15.74,0,0,1,1.7,15.25,13.56,13.56,0,0,1,15.25,1.7m0-1.7A15.25,15.25,0,0,0,0,15.25a17.34,17.34,0,0,0,3,9L1.11,29.85,6.85,28a16.67,16.67,0,0,0,8.4,2.52,15.25,15.25,0,0,0,0-30.5Z" fill="#0082ff"/> <polygon points="16.67 19.3 13.14 15.51 6.25 19.3 13.83 11.2 17.45 14.99 24.25 11.2 16.67 19.3" fill="currentColor"/> </symbol> <symbol id="Picture-asset_Picture" data-name="asset_Picture" viewBox="0 0 15 14"><rect width="15" height="14" fill="none"/><g opacity="0.7"><circle cx="7.5" cy="7.85" r="2" fill="#cccecc" opacity="0.9"/><path d="M10.5,3.3V2a1,1,0,0,0-1-1h-4a1,1,0,0,0-1,1V3.3H2a2,2,0,0,0-2,2v5.87a2,2,0,0,0,2,2H13a2,2,0,0,0,2-2V5.3a2,2,0,0,0-2-2H10.5Zm-3,8A3.48,3.48,0,1,1,11,7.85,3.48,3.48,0,0,1,7.5,11.33Z" fill="#cccecc" opacity="0.9"/></g></symbol><symbol id="RemoveItem-asset_RemoveItem" data-name="asset_RemoveItem" viewBox="0 0 20 20.33"><path d="M10,1.5a8.59,8.59,0,0,1,8.5,8.67A8.59,8.59,0,0,1,10,18.83a8.59,8.59,0,0,1-8.5-8.67A8.59,8.59,0,0,1,10,1.5M10,0A10.08,10.08,0,0,0,0,10.17,10.08,10.08,0,0,0,10,20.33,10.08,10.08,0,0,0,20,10.17,10.08,10.08,0,0,0,10,0h0Z" fill="#cccecc"/><line x1="6.87" y1="13.21" x2="13.13" y2="7.12" fill="none" stroke="#cccecc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><line x1="13.15" y1="13.18" x2="6.85" y2="7.15" fill="none" stroke="#cccecc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/></symbol><symbol id="SearchBig-asset_SearchBig" data-name="asset_SearchBig" viewBox="0 0 30 30"><rect width="30" height="30" fill="#fff" opacity="0"/><path d="M13.38,2.9h0A9.39,9.39,0,0,1,14.43,3a9.16,9.16,0,0,1,6.16,3.39,9.05,9.05,0,0,1,1.95,6.72,9.16,9.16,0,0,1-9.12,8.11,9.39,9.39,0,0,1-1.05-.06A9.16,9.16,0,0,1,6.2,17.73,9.05,9.05,0,0,1,4.26,11,9.16,9.16,0,0,1,13.38,2.9m0-1.7a10.84,10.84,0,0,0-1.2,21.62,11,11,0,0,0,1.24.07,10.84,10.84,0,0,0,1.2-21.62,11,11,0,0,0-1.24-.07h0Z" fill="#00d700"/><line x1="20.08" y1="20.38" x2="27.5" y2="27.83" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="ShareWhite-asset_ShareWhite" data-name="asset_ShareWhite" viewBox="0 0 15.7 21.26"><path d="M13.06,6.41h0.22A1.57,1.57,0,0,1,14.85,8v5.43a7,7,0,0,1-7,7h0a7,7,0,0,1-7-7V8A1.57,1.57,0,0,1,2.42,6.41H2.64" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="7.85" y1="13.06" x2="7.85" y2="0.85" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><polyline points="5.5 3.21 7.85 0.85 10.21 3.21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="Star-asset_Star" data-name="asset_Star" viewBox="0 0 14.3 13.65"><path d="M7.61,0.31L9.34,4.47l4.49,0.36a0.5,0.5,0,0,1,.29.88L10.7,8.64l1,4.39a0.5,0.5,0,0,1-.75.54L7.15,11.22,3.3,13.57A0.5,0.5,0,0,1,2.55,13l1-4.39L0.18,5.71A0.5,0.5,0,0,1,.46,4.83L5,4.47,6.69,0.31A0.5,0.5,0,0,1,7.61.31Z" fill="#00d700"/></symbol> <symbol id="StocksArrow-898985ba-0097-40ad-896a-ffacb35768ad" data-name="asset_StocksArrow" viewBox="0 0 8 11"> <line x1="4" y1="0.75" x2="4" y2="10.19" fill="none" stroke="#000a00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/> <polyline points="7.25 7.08 4 10.25 0.75 7.08" fill="none" stroke="#000a00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/> </symbol> <symbol id="TimelineExplicadorIndex-asset_TimelineExplicadorIndex" data-name="asset_TimelineExplicadorIndex" viewBox="0 0 40 40"><path d="M20,1A19,19,0,1,1,1,20,19,19,0,0,1,20,1m0-1A20,20,0,1,0,40,20,20,20,0,0,0,20,0h0Z" fill="#00d700"/><line x1="16.02" y1="14.5" x2="28.66" y2="14.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="16.02" y1="20" x2="28.66" y2="20" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="16.02" y1="25.5" x2="28.66" y2="25.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="11.34" y1="14.5" x2="12.34" y2="14.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="11.34" y1="20" x2="12.34" y2="20" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="11.34" y1="25.5" x2="12.34" y2="25.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="TimelineIndex-asset_TimelineIndex" data-name="asset_TimelineIndex" viewBox="0 0 40 40"><circle cx="20" cy="20" r="20" fill="#0a0"/><line x1="16.02" y1="14.5" x2="28.66" y2="14.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="16.02" y1="20" x2="28.66" y2="20" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="16.02" y1="25.5" x2="28.66" y2="25.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="11.34" y1="14.5" x2="12.34" y2="14.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="11.34" y1="20" x2="12.34" y2="20" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="11.34" y1="25.5" x2="12.34" y2="25.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol id="TwitLogoTop-asset_TwitLogoTop" data-name="asset_TwitLogoTop" viewBox="0 0 15 15"><rect width="15" height="15" fill="none"/><path d="M14,3.47a5.33,5.33,0,0,1-1.53.42,2.67,2.67,0,0,0,1.17-1.48,5.34,5.34,0,0,1-1.69.65A2.67,2.67,0,0,0,7.4,5.49a7.57,7.57,0,0,1-5.5-2.79,2.67,2.67,0,0,0,.83,3.56,2.66,2.66,0,0,1-1.21-.33V6A2.67,2.67,0,0,0,3.66,8.58a2.67,2.67,0,0,1-1.2,0,2.67,2.67,0,0,0,2.49,1.85,5.35,5.35,0,0,1-3.31,1.14,5.43,5.43,0,0,1-.64,0,7.55,7.55,0,0,0,4.09,1.2,7.54,7.54,0,0,0,7.59-7.59q0-.17,0-0.35A5.42,5.42,0,0,0,14,3.47Z" fill="#b2e7fc"/></symbol><symbol id="TwitVerified-asset_TwitVerified" data-name="asset_TwitVerified" viewBox="0 0 12 12"><circle cx="6" cy="6" r="6" fill="#00aff5"/><polyline points="3.5 6.7 4.72 7.92 8.5 4.15" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"/></symbol> <symbol id="TwitterLine-4c13ccba-7e52-4054-bc95-a0a00e1ba994" data-name="asset_TwitterLineOnWhite" viewBox="0 0 30 30"> <path d="M30,15A15,15,0,1,1,15,0,15,15,0,0,1,30,15Z"/> <path d="M15,1.7A13.3,13.3,0,1,1,1.7,15,13.31,13.31,0,0,1,15,1.7M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0Z" fill="#00aff5"/> <path d="M21.89,11a5.33,5.33,0,0,1-1.53.42A2.67,2.67,0,0,0,21.53,10a5.33,5.33,0,0,1-1.69.65A2.67,2.67,0,0,0,15.3,13a7.57,7.57,0,0,1-5.5-2.79,2.67,2.67,0,0,0,.83,3.56,2.66,2.66,0,0,1-1.21-.33v0a2.67,2.67,0,0,0,2.14,2.62,2.69,2.69,0,0,1-.7.09,2.65,2.65,0,0,1-.5,0A2.67,2.67,0,0,0,12.84,18a5.35,5.35,0,0,1-3.31,1.14,5.5,5.5,0,0,1-.64,0,7.59,7.59,0,0,0,11.68-6.39c0-.12,0-.23,0-.35A5.43,5.43,0,0,0,21.89,11Z" fill="currentColor"/> </symbol>  <symbol id="WhatsupLine-5bd364a6-689c-476f-a337-0ac66be67ef1" data-name="asset_WhatsupLineOnWhite" viewBox="0 0 30.5 30.5"> <path d="M15.25,0A15.25,15.25,0,0,0,0,15.25a17.34,17.34,0,0,0,3,9L1.11,29.85,6.85,28a16.67,16.67,0,0,0,8.4,2.52,15.25,15.25,0,1,0,0-30.5Z"/> <path d="M15.25,1.7a13.55,13.55,0,1,1,0,27.1A15.09,15.09,0,0,1,7.8,26.57a1.7,1.7,0,0,0-1.48-.21l-2.52.82.79-2.35a1.7,1.7,0,0,0-.23-1.54A15.57,15.57,0,0,1,1.7,15.25,13.56,13.56,0,0,1,15.25,1.7m0-1.7A15.25,15.25,0,0,0,0,15.25a17.34,17.34,0,0,0,3,9L1.11,29.85,6.85,28a16.67,16.67,0,0,0,8.4,2.52,15.25,15.25,0,1,0,0-30.5Z" fill="#25d166"/> <path d="M10.3,9.57a1.53,1.53,0,0,1,.54-.22h1a.59.59,0,0,1,.4.34l1.06,2.49a.86.86,0,0,1,0,.9c-.27.35-.84,1-.84,1a.4.4,0,0,0,0,.52,10.46,10.46,0,0,0,1.77,2.18,8.43,8.43,0,0,0,2.53,1.57c.55.18.66-.06.87-.33l.86-1.09a.51.51,0,0,1,.66-.13L21.71,18a.35.35,0,0,1,.28.34,2.34,2.34,0,0,1-.58,2,3.91,3.91,0,0,1-3.21,1,12.58,12.58,0,0,1-5.06-2.47,16.59,16.59,0,0,1-3.61-4.45A4.31,4.31,0,0,1,9,12.17,3.62,3.62,0,0,1,10.3,9.57Z" fill="currentColor"/> </symbol> </defs><symbol viewBox="0 0 26 25" id="shape-AccordionButtonBlack"><g id="AccordionButtonBlack-asset_ButtonDetailDark-3"><path d="M23.8,12.5c0,5.925 -4.875,10.8 -10.8,10.8c-5.925,0 -10.8,-4.875 -10.8,-10.8c0,-5.925 4.875,-10.8 10.8,-10.8c5.923,0.005 10.795,4.877 10.8,10.8M25.5,12.5c0,-6.857 -5.643,-12.5 -12.5,-12.5c-6.857,0 -12.5,5.643 -12.5,12.5c0,6.857 5.643,12.5 12.5,12.5c6.849,-0.022 12.478,-5.651 12.5,-12.5Z"/><path d="M13,6.5l0,10"/><path d="M17,13.38l-4,4l-4,-4"/></g></symbol><symbol viewBox="0 0 26 25" id="shape-AccordionButtonGreen"><g id="AccordionButtonGreen-asset_ButtonDetailDark-3"><path d="M23.8,12.5c0,5.925 -4.875,10.8 -10.8,10.8c-5.925,0 -10.8,-4.875 -10.8,-10.8c0,-5.925 4.875,-10.8 10.8,-10.8c5.923,0.005 10.795,4.877 10.8,10.8M25.5,12.5c0,-6.857 -5.643,-12.5 -12.5,-12.5c-6.857,0 -12.5,5.643 -12.5,12.5c0,6.857 5.643,12.5 12.5,12.5c6.849,-0.022 12.478,-5.651 12.5,-12.5l0,0Z"/><path d="M13,6.5l0,10"/><path d="M17,13.38l-4,4l-4,-4"/></g></symbol><symbol viewBox="0 0 19.55 20.37" id="shape-AlertasDefinicoes"><g id="AlertasDefinicoes-OVERLAY"><use id="AlertasDefinicoes-asset_AlertasDefinicoes-3" data-name="asset_AlertasDefinicoes" width="19.55" height="20.37" xlink:href="#AlertasDefinicoes-asset_AlertasDefinicoes"/></g></symbol><symbol viewBox="0 0 22.12 22.7" id="shape-AlertasMarcarComoLidas"><g id="AlertasMarcarComoLidas-OVERLAY"><use id="AlertasMarcarComoLidas-asset_AlertasMarcarComoLidas-3" data-name="asset_AlertasMarcarComoLidas" width="22.12" height="22.7" xlink:href="#AlertasMarcarComoLidas-asset_AlertasMarcarComoLidas"/></g></symbol><symbol viewBox="0 0 39.6 21.9" id="shape-ArrowDown"> <path fill="#00AF00" d="M2.3,0c0.5,0,1.1,0.2,1.5,0.6l16.1,16.1L35.9,0.6c0.8-0.8,2.2-0.8,3,0c0.8,0.8,0.8,2.2,0,3L21.4,21.2
+			c-0.8,0.8-2.2,0.8-3,0L0.7,3.6c-0.8-0.8-0.8-2.2,0-3C1.2,0.2,1.7,0,2.3,0z"/> </symbol><symbol viewBox="0 0 8.7 15.7" id="shape-ArrowNext--white"><g id="ArrowNext--white-OVERLAY"><use id="ArrowNext--white-asset_ArrowNext-3" data-name="asset_ArrowNext" width="8.7" height="15.7" xlink:href="#ArrowNext--white-asset_ArrowNext"/></g></symbol><symbol viewBox="0 0 8.7 15.7" id="shape-ArrowNext"><g id="ArrowNext-OVERLAY"><use id="ArrowNext-asset_ArrowNext-3" data-name="asset_ArrowNext" width="8.7" height="15.7" xlink:href="#ArrowNext-asset_ArrowNext"/></g></symbol><symbol viewBox="0 0 8.7 15.7" id="shape-ArrowPrevious--white"><g id="ArrowPrevious--white-OVERLAY"><use id="ArrowPrevious--white-asset_ArrowPrevious-3" data-name="asset_ArrowPrevious" width="8.7" height="15.7" xlink:href="#ArrowPrevious--white-asset_ArrowPrevious"/></g></symbol><symbol viewBox="0 0 8.7 15.7" id="shape-ArrowPrevious"><g id="ArrowPrevious-OVERLAY"><use id="ArrowPrevious-asset_ArrowPrevious-3" data-name="asset_ArrowPrevious" width="8.7" height="15.7" xlink:href="#ArrowPrevious-asset_ArrowPrevious"/></g></symbol><symbol viewBox="0 0 39.6 21.9" id="shape-ArrowUp"> <path fill="#00AF00" d="M37.4,21.9c-0.5,0-1.1-0.2-1.5-0.6L19.8,5.2L3.8,21.2c-0.8,0.8-2.2,0.8-3,0c-0.8-0.8-0.8-2.2,0-3L18.3,0.6
+			c0.8-0.8,2.2-0.8,3,0l17.6,17.6c0.8,0.8,0.8,2.2,0,3C38.5,21.7,38,21.9,37.4,21.9z"/> </symbol><symbol viewBox="0 0 21 20" id="shape-BadgeComment"><g id="BadgeComment-SCREENS"><use width="21" height="20" xlink:href="#BadgeComment-asset_BadgeComment"/></g></symbol><symbol viewBox="0 0 21 20" id="shape-BadgeNewArticle"><g id="BadgeNewArticle-SCREENS"><use width="21" height="20" xlink:href="#BadgeNewArticle-asset_BadgeNewArticle"/></g></symbol><symbol viewBox="0 0 20 20" id="shape-BadgeStockChangeDown"><g id="BadgeStockChangeDown-SCREENS"><use width="20" height="20" xlink:href="#BadgeStockChangeDown-asset_BadgeStockChangeDown"/></g></symbol><symbol viewBox="0 0 21 20" id="shape-BadgeStockChangeUp"><g id="BadgeStockChangeUp-SCREENS"><use width="21" height="20" xlink:href="#BadgeStockChangeUp-asset_BadgeStockChangeUp"/></g></symbol><symbol viewBox="0 0 26 24" id="shape-ButtonDetailBold"><g id="ButtonDetailBold-OVERLAY"><use id="ButtonDetailBold-asset_ButtonDetailBold-3" data-name="asset_ButtonDetailBold" width="26" height="24" xlink:href="#ButtonDetailBold-asset_ButtonDetailBold"/></g></symbol><symbol viewBox="0 0 26 25" id="shape-ButtonDetailDark-Green-HighGreen-White"><g id="ButtonDetailDark-Green-HighGreen-White-SCREENS"><use id="ButtonDetailDark-Green-HighGreen-White-asset_ButtonDetailDark-3" data-name="asset_ButtonDetailDark" width="26" height="25" xlink:href="#ButtonDetailDark-Green-HighGreen-White-asset_ButtonDetailDark"/></g></symbol><symbol viewBox="0 0 26 26" id="shape-CheckboxChecked">   <g id="CheckboxChecked-42481898-a521-46fe-94a3-9e1ab1f2c372" data-name="Layer 2"> <g id="CheckboxChecked-100a8479-573b-4200-983f-68387c9e7949" data-name="OVERLAY"> <use id="CheckboxChecked-bc2e9175-e8de-440c-806a-176a82759220" data-name="asset_CheckboxChecked" width="26" height="26" xlink:href="#CheckboxChecked-b0fb35c7-0f3b-428f-84c3-b72fd80fb929"/> </g> </g> </symbol><symbol viewBox="0 0 26 26" id="shape-CheckboxOutline">   <g id="CheckboxOutline-9463f4ba-491a-48ac-9808-103de41af85c" data-name="Layer 2"> <g id="CheckboxOutline-f4cbbd2f-1a10-4737-a9fc-213f7f262bf6" data-name="OVERLAY"> <use id="CheckboxOutline-a4077286-2018-409b-abaa-13e9fe8fd7e9" data-name="asset_CheckboxOutline" width="26" height="26" xlink:href="#CheckboxOutline-1057bf60-1a4e-4841-bc18-4aaf3b5e6283"/> </g> </g> </symbol><symbol viewBox="0 0 30 30" id="shape-ClearField"><g id="ClearField-SCREENS"><use width="30" height="30" xlink:href="#ClearField-asset_ClearField"/></g></symbol><symbol viewBox="0 0 16 16" id="shape-Close"><g id="Close-asset_Close"><path d="M7.742,8.824c-1.215,1.188 -2.437,2.368 -3.638,3.57c-0.081,0.074 -0.168,0.118 -0.276,0.14c-0.039,0.004 -0.038,0.004 -0.078,0.006c-0.08,-0.003 -0.155,-0.018 -0.227,-0.054c-0.204,-0.104 -0.313,-0.341 -0.259,-0.563c0.019,-0.078 0.056,-0.145 0.106,-0.208c1.165,-1.26 2.373,-2.478 3.596,-3.683c-1.188,-1.215 -2.368,-2.437 -3.57,-3.638c-0.054,-0.059 -0.097,-0.123 -0.122,-0.199c-0.016,-0.05 -0.024,-0.103 -0.024,-0.155c0,-0.258 0.204,-0.478 0.461,-0.498c0.135,-0.011 0.259,0.035 0.364,0.118c1.26,1.165 2.478,2.373 3.683,3.596c1.215,-1.188 2.437,-2.368 3.638,-3.57c0.099,-0.09 0.219,-0.146 0.354,-0.146c0.258,0 0.478,0.204 0.498,0.461c0.005,0.052 0,0.105 -0.012,0.156c-0.019,0.078 -0.056,0.145 -0.106,0.208c-1.165,1.26 -2.373,2.478 -3.596,3.683c1.188,1.215 2.368,2.437 3.57,3.638c0.054,0.059 0.097,0.123 0.122,0.199c0.066,0.204 -0.009,0.434 -0.182,0.56c-0.065,0.047 -0.138,0.073 -0.216,0.089c-0.039,0.004 -0.039,0.004 -0.078,0.006c-0.04,-0.002 -0.078,-0.005 -0.117,-0.014c-0.078,-0.019 -0.145,-0.056 -0.208,-0.106c-1.26,-1.165 -2.478,-2.373 -3.683,-3.596Z" fill="currentColor"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-CloseShareDark"><g id="CloseShareDark-SCREENS"><use width="30" height="30" xlink:href="#CloseShareDark-asset_CloseShareDark"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-CloseShareLight"><g id="CloseShareLight-SCREENS"><use width="30" height="30" xlink:href="#CloseShareLight-asset_CloseShareLight"/></g></symbol><symbol viewBox="0 0 31 36" id="shape-CommentBig--empty"> <g id="CommentBig--empty-cc92c205-9765-47c0-a017-67d7877d1d98"> <path d="M15.454,32.999c-0.276,0 -0.551,-0.183 -0.643,-0.367l-3.124,-5.054c-6.615,-2.113 -10.291,-9.188 -8.177,-15.803c2.113,-6.615 9.188,-10.29 15.803,-8.177c6.615,2.113 10.291,9.188 8.177,15.803c-1.194,3.859 -4.318,6.983 -8.177,8.177l-3.124,5.054c-0.184,0.276 -0.459,0.367 -0.735,0.367ZM15.453,5.185c-5.755,-0.087 -10.552,4.535 -10.639,10.29c0,4.797 3.139,8.982 7.674,10.29c0.174,0.088 0.349,0.175 0.436,0.349l2.529,4.012l2.529,-4.012c0.087,-0.174 0.262,-0.261 0.436,-0.349c5.581,-1.569 8.808,-7.325 7.238,-12.906c-1.221,-4.534 -5.494,-7.674 -10.203,-7.674Z" fill="currentColor"/> </g> </symbol><symbol viewBox="0 0 27.45 32.7" id="shape-CommentBig">   <g id="CommentBig-61d02f2f-78be-4d00-acd4-4d72b9f7d039" data-name="Layer 2"> <g id="CommentBig-3aace0a3-197d-4832-b089-cfc53bea3583" data-name="SCREENS"> <use id="CommentBig-cc92c205-9765-47c0-a017-67d7877d1d98" data-name="asset_CommentBig" width="27.45" height="32.7" xlink:href="#CommentBig-9a88489c-54c9-493c-b70f-299ff8ac3d96"/> </g> </g> </symbol><symbol viewBox="0 0 15.8 15.8" id="shape-CommentCollapse"><g id="CommentCollapse-SCREENS"><use id="CommentCollapse-asset_CommentCollapse-3" data-name="asset_CommentCollapse" width="15.8" height="15.8" xlink:href="#CommentCollapse-asset_CommentCollapse"/></g></symbol><symbol viewBox="0 0 15.8 15.8" id="shape-CommentExpand"><g id="CommentExpand-SCREENS"><use id="CommentExpand-asset_CommentExpand-3" data-name="asset_CommentExpand" width="15.8" height="15.8" xlink:href="#CommentExpand-asset_CommentExpand"/></g></symbol><symbol viewBox="0 0 24.13 28.7" id="shape-CommentMedium"><path d="M23.28,12.06A11.21,11.21,0,1,0,8.92,22.82l3.14,5,3.14-5A11.21,11.21,0,0,0,23.28,12.06Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="12.06" y1="8.74" x2="12.06" y2="15.74" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="8.56" y1="12.24" x2="15.56" y2="12.24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><g id="CommentMedium-SCREENS"><use id="CommentMedium-asset_CommentMedium-3" data-name="asset_CommentMedium" width="24.13" height="28.7" xlink:href="#asset_CommentMedium"/></g></symbol><symbol viewBox="0 0 12 12" id="shape-CommentOptions"><g id="CommentOptions-SCREENS"><use width="12" height="12" xlink:href="#CommentOptions-asset_CommentOptions"/></g></symbol><symbol viewBox="0 0 19.14 22.7" id="shape-CommentSmall"><g id="CommentSmall-SCREENS"><use id="CommentSmall-asset_CommentSmall-3" data-name="asset_CommentSmall" width="19.14" height="22.7" xlink:href="#CommentSmall-asset_CommentSmall"/></g></symbol><symbol viewBox="0 0 26 21.7" id="shape-CommentUpVoteSelected"><g id="CommentUpVoteSelected-SCREENS"><use id="CommentUpVoteSelected-asset_CommentUpVoteSelected-3" data-name="asset_CommentUpVoteSelected" width="26" height="21.7" xlink:href="#CommentUpVoteSelected-asset_CommentUpVoteSelected"/></g></symbol><symbol viewBox="0 0 26 21.7" id="shape-CommentUpVoteUnselected"><g id="CommentUpVoteUnselected-SCREENS"><use width="26" height="21.7" xlink:href="#CommentUpVoteUnselected-asset_CommentUpVoteUnselected"/></g></symbol><symbol viewBox="0 0 177.55 46" id="shape-ECO_Logo_English"><g id="ECO_Logo_English-Layer_2" data-name="Layer 2"><g id="ECO_Logo_English-Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M23,38.58a1.72,1.72,0,0,0,0-3.43,12.15,12.15,0,0,1,0-24.3,1.72,1.72,0,1,0,.26-3.43H23A15.6,15.6,0,0,0,7.52,21.28h-4A19.6,19.6,0,0,1,23,3.43a1.71,1.71,0,0,0,1.58-1.85A1.71,1.71,0,0,0,23,0a23,23,0,0,0,0,46,1.72,1.72,0,0,0,0-3.43A19.58,19.58,0,0,1,3.51,24.72h4A15.6,15.6,0,0,0,23,38.58Z"/><path class="cls-1" d="M23,14.75A8.25,8.25,0,1,0,31.28,23,8.25,8.25,0,0,0,23,14.75Zm0,13.07A4.82,4.82,0,1,1,27.85,23,4.82,4.82,0,0,1,23,27.82Z"/><path class="cls-1" d="M51.36,14.59h2.37a1.73,1.73,0,0,0,0-3.45H51.36a11.83,11.83,0,0,0-.69,23.65h3.06A1.73,1.73,0,1,0,54,31.34a1.13,1.13,0,0,0-.26,0H51.36a8.39,8.39,0,0,1-8.19-6.65h4.56a1.73,1.73,0,0,0,0-3.45H43.17A8.39,8.39,0,0,1,51.36,14.59Z"/><path class="cls-1" d="M70.1,14.59h2.21a1.73,1.73,0,0,0,0-3.45H70.1a11.83,11.83,0,0,0-.69,23.65h2.9a1.73,1.73,0,1,0,.26-3.45,1.13,1.13,0,0,0-.26,0H70.1a8.38,8.38,0,1,1,0-16.75Z"/><path class="cls-1" d="M88.69,11.14A11.83,11.83,0,1,0,100.51,23,11.83,11.83,0,0,0,88.69,11.14Zm0,20.13A8.3,8.3,0,1,1,97,23v0A8.31,8.31,0,0,1,88.69,31.27Z"/><path class="cls-1" d="M114.05,15.66a3.17,3.17,0,0,1,.9,2.26,3.13,3.13,0,0,1-.9,2.26,2.9,2.9,0,0,1-2.16.93,3.15,3.15,0,0,1-1.86-.57V24h-1.49V14.86H110v.42a3,3,0,0,1,1.86-.57A2.94,2.94,0,0,1,114.05,15.66ZM113,19.26a2,2,0,0,0,0-2.68,1.7,1.7,0,0,0-1.29-.57,1.83,1.83,0,0,0-1.64.86V19a1.84,1.84,0,0,0,1.64.85A1.78,1.78,0,0,0,113,19.26Z"/><path class="cls-1" d="M121.59,20.23a3.39,3.39,0,0,1-4.63,0,3.18,3.18,0,0,1-.93-2.31,3.09,3.09,0,0,1,.93-2.28,3.17,3.17,0,0,1,2.31-.92,3.16,3.16,0,0,1,3.24,3.2A3.05,3.05,0,0,1,121.59,20.23Zm-2.31-4.16a1.75,1.75,0,0,0-1.77,1.72v.13a1.94,1.94,0,0,0,.5,1.34,1.72,1.72,0,0,0,1.27.54,1.62,1.62,0,0,0,1.27-.54,2.08,2.08,0,0,0,.5-1.34,1.75,1.75,0,0,0-1.65-1.85h-.12Z"/><path class="cls-1" d="M125.32,15.63a3,3,0,0,1,2.22-.89v1.4a2.86,2.86,0,0,0-2.22,1v3.79h-1.49V14.86h1.49Z"/><path class="cls-1" d="M133.39,20.89a5.57,5.57,0,0,1-1.52.26A2.29,2.29,0,0,1,129.5,19a2,2,0,0,1,0-.35V16.11h-1.39V14.86h1.39V12.63H131v2.23h2.23v1.26H131v2.5a1,1,0,0,0,.77,1.16.86.86,0,0,0,.39,0,3.36,3.36,0,0,0,1-.16Z"/><path class="cls-1" d="M140.6,21h-1.46v-.51a2.83,2.83,0,0,1-1.89.7,2.52,2.52,0,0,1-2-.8,2.92,2.92,0,0,1-.73-2.14V14.85H136v3.27a1.48,1.48,0,0,0,1.26,1.65h.24a2,2,0,0,0,1.59-.9v-4h1.48Z"/><path class="cls-1" d="M148.52,21a2.89,2.89,0,0,1-.87,2.22,3.11,3.11,0,0,1-2.23.84,3.31,3.31,0,0,1-2.16-.71,2.6,2.6,0,0,1-1-1.82h1.52a1.49,1.49,0,0,0,1.63,1.18,1.54,1.54,0,0,0,1.63-1.43,1.22,1.22,0,0,0,0-.27v-.75a3.15,3.15,0,0,1-1.88.56,3.06,3.06,0,0,1-3.06-3,3,3,0,0,1,3.07-3.13,3.23,3.23,0,0,1,1.88.57v-.34h1.48ZM147,18.62V16.78a1.89,1.89,0,0,0-1.66-.88,1.72,1.72,0,0,0-1.3.53,1.89,1.89,0,0,0-.5,1.32,1.67,1.67,0,0,0,.51,1.19,1.78,1.78,0,0,0,1.28.54A1.89,1.89,0,0,0,147,18.62Z"/><path class="cls-1" d="M156.15,21h-1.48v-.51a2.88,2.88,0,0,1-1.9.7,2.53,2.53,0,0,1-2-.8,3,3,0,0,1-.72-2.14V14.85h1.48v3.27a1.47,1.47,0,0,0,1.25,1.65h.24a2,2,0,0,0,1.59-.9v-4h1.48Z"/><path class="cls-1" d="M163.82,18.49h-4.68a1.67,1.67,0,0,0,1.78,1.34,1.29,1.29,0,0,0,1.23-.56h1.59a2.83,2.83,0,0,1-2.86,1.83,3.2,3.2,0,1,1,0-6.4,2.87,2.87,0,0,1,2.12.87,3.13,3.13,0,0,1,.87,2.23A3.87,3.87,0,0,1,163.82,18.49Zm-4.74-1.13h3.23a1.48,1.48,0,0,0-1.54-1.4h0A1.64,1.64,0,0,0,159.08,17.36Z"/><path class="cls-1" d="M166.16,18.91c.11.68.62,1,1.5,1,.72,0,1.22-.26,1.22-.67s-.25-.57-.72-.64l-1.36-.18c-1.2-.2-1.81-.81-1.81-1.76,0-1.2,1-2,2.56-2a3.61,3.61,0,0,1,1.68.39,1.93,1.93,0,0,1,1,1.63h-1.37c-.05-.58-.59-.89-1.32-.89s-1.09.29-1.09.66.29.61.87.7l1.14.18c1.22.2,1.82.81,1.82,1.77,0,1.28-1.09,2-2.69,2s-2.69-.7-2.82-2.26Z"/><path class="cls-1" d="M177.5,18.49h-4.68a1.67,1.67,0,0,0,1.78,1.34,1.3,1.3,0,0,0,1.23-.56h1.59a2.83,2.83,0,0,1-2.86,1.83,3.2,3.2,0,1,1,0-6.4,2.85,2.85,0,0,1,2.11.87,3.14,3.14,0,0,1,.88,2.23C177.54,18,177.53,18.27,177.5,18.49Zm-4.69-1.13H176a1.47,1.47,0,0,0-1.54-1.4h0A1.62,1.62,0,0,0,172.81,17.36Z"/><path class="cls-1" d="M114.42,30.34h-4.68a1.68,1.68,0,0,0,1.78,1.34,1.32,1.32,0,0,0,1.24-.56h1.59A2.86,2.86,0,0,1,111.48,33a3.2,3.2,0,0,1,0-6.4,2.87,2.87,0,0,1,2.12.87,3.13,3.13,0,0,1,.87,2.23C114.46,29.89,114.45,30.11,114.42,30.34Zm-4.7-1.14H113a1.48,1.48,0,0,0-1.54-1.4h0A1.64,1.64,0,0,0,109.72,29.2Z"/><path class="cls-1" d="M120.24,30.51h1.52a2.73,2.73,0,0,1-1,1.77,3.15,3.15,0,0,1-2,.67,3.2,3.2,0,0,1-2.31-5.47,3.19,3.19,0,0,1,2.31-.92,3.08,3.08,0,0,1,2,.68,2.55,2.55,0,0,1,1,1.74h-1.52a1.38,1.38,0,0,0-1.47-1.06,1.85,1.85,0,1,0,0,3.69A1.41,1.41,0,0,0,120.24,30.51Z"/><path class="cls-1" d="M128.41,32.07a3.24,3.24,0,0,1-4.6,0,3.31,3.31,0,0,1-1-2.34,3.13,3.13,0,0,1,.93-2.28,3.21,3.21,0,0,1,2.32-.92,3.13,3.13,0,0,1,2.31.92,3.34,3.34,0,0,1,0,4.59Zm-2.31-4.16a1.74,1.74,0,0,0-1.76,1.73v.12a1.9,1.9,0,0,0,.5,1.34,1.69,1.69,0,0,0,1.27.54,1.58,1.58,0,0,0,1.26-.54,2,2,0,0,0,.5-1.34,1.75,1.75,0,0,0-1.65-1.85Z"/><path class="cls-1" d="M136,27.31a3,3,0,0,1,.72,2.13v3.37h-1.51V29.54c0-1.06-.56-1.67-1.49-1.67a2.09,2.09,0,0,0-1.57.88v4.06h-1.48V26.72h1.5v.53a2.88,2.88,0,0,1,1.88-.7A2.41,2.41,0,0,1,136,27.31Z"/><path class="cls-1" d="M143.54,32.07a3.39,3.39,0,0,1-4.63,0,3.14,3.14,0,0,1-.93-2.31,3.06,3.06,0,0,1,.93-2.28,3.17,3.17,0,0,1,2.31-.92,3.25,3.25,0,0,1,2.32,5.51Zm-2.31-4.16a1.74,1.74,0,0,0-1.77,1.72v.13a1.9,1.9,0,0,0,.5,1.34,1.69,1.69,0,0,0,1.27.54,1.58,1.58,0,0,0,1.26-.54,2,2,0,0,0,.5-1.34,1.75,1.75,0,0,0-1.64-1.85Z"/><path class="cls-1" d="M155.11,27.32a3,3,0,0,1,.76,2.11V32.8h-1.5V29.54c0-1.06-.53-1.67-1.47-1.67a1.69,1.69,0,0,0-1.4.84,3,3,0,0,1,.08.73v3.37h-1.49V29.55c0-1.07-.54-1.67-1.47-1.67a1.65,1.65,0,0,0-1.33.82v4.12H145.8V26.73h1.49v.42a2.26,2.26,0,0,1,1.64-.62,2.44,2.44,0,0,1,2,.93,3.22,3.22,0,0,1,2.3-.93A2.42,2.42,0,0,1,155.11,27.32Z"/><path class="cls-1" d="M160,35.85h-1.57L159.69,33l-3-6.31h1.6l2.19,4.55,2-4.55H164Z"/></g></g></symbol><symbol viewBox="0 0 30 30" id="shape-FacebookLine">   <g id="FacebookLine-d63d191b-5c7e-45ee-bd07-5eb1073109ac" data-name="Layer 2"> <g id="FacebookLine-2a05b708-e020-4979-be07-68e8430780d2" data-name="SCREENS"> <use id="FacebookLine-c295a22e-6b5e-4965-8ec9-680643b201fa" data-name="asset_FacebookLineOnWhite" width="30" height="30" xlink:href="#FacebookLine-3d005e2c-0aa1-479a-8a98-ed9b51a3bd3a"/> </g> </g> </symbol><symbol viewBox="0 0 35 35" id="shape-FollowColorOnDark"><g id="FollowColorOnDark-SCREENS"><use id="FollowColorOnDark-asset_FollowColorOnDark-3" data-name="asset_FollowColorOnDark" width="35" height="35" xlink:href="#FollowColorOnDark-asset_FollowColorOnDark"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-FollowColorOnWhite"><g id="FollowColorOnWhite-SCREENS"><use id="FollowColorOnWhite-asset_FollowColorOnWhite-3" data-name="asset_FollowColorOnWhite" width="35" height="35" xlink:href="#FollowColorOnWhite-asset_FollowColorOnWhite"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-FooterFacebook"><g id="FooterFacebook-SCREENS"><use width="35" height="35" xlink:href="#FooterFacebook-asset_FooterFacebook"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-FooterGoogle+"><g id="FooterGoogle+-SCREENS"><use width="35" height="35" xlink:href="#FooterGoogle+-asset_FooterGoogle_"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-FooterInstagram"><g id="FooterInstagram-Layer_2" data-name="Layer 2"><g id="FooterInstagram-SCREENS"><use width="35" height="35" xlink:href="#FooterInstagram-asset_FooterInstagram"/></g></g></symbol><symbol viewBox="0 0 35 35" id="shape-FooterLinkedIn"><g id="FooterLinkedIn-SCREENS"><use width="35" height="35" xlink:href="#FooterLinkedIn-asset_FooterLinkedIn"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-FooterTwitter"><g id="FooterTwitter-SCREENS"><use width="35" height="35" xlink:href="#FooterTwitter-asset_FooterTwitter"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-Gallery-Expand"><g id="Gallery-Expand-SCREENS"><use width="35" height="35" xlink:href="#Gallery-Expand-asset_Gallery_Expand"/></g></symbol><symbol viewBox="0 0 24 24" id="shape-Gallery"><g id="Gallery-SCREENS"><use width="24" height="24" xlink:href="#Gallery-asset_Gallery"/></g></symbol><symbol viewBox="0 0 11 8" id="shape-GalleryNext"><g id="GalleryNext-385e1df6-7ebe-44ed-b7ac-c6886818b1a1"><path d="M0.75,4l9.44,0"/><path d="M7.08,0.75l3.17,3.25l-3.17,3.25"/></g></symbol><symbol viewBox="0 0 11 8" id="shape-GalleryPrev"><g id="GalleryPrev-385e1df6-7ebe-44ed-b7ac-c6886818b1a1"><path d="M10.25,4l-9.44,0"/><path d="M3.92,7.25l-3.17,-3.25l3.17,-3.25"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-Hamburguer">   <g id="Hamburguer-Layer_2" data-name="Layer 2"> <g id="Hamburguer-SCREENS"> <use id="Hamburguer-asset_MenuWhite-3" data-name="asset_MenuWhite" width="30" height="30" xlink:href="#Hamburguer-asset_MenuWhite"/> </g> </g> </symbol><symbol viewBox="0 0 25 25" id="shape-HighlightFacebook"><g id="HighlightFacebook-SCREENS"><use id="HighlightFacebook-asset_HighlightFacebook-3" data-name="asset_HighlightFacebook" width="25" height="25" xlink:href="#HighlightFacebook-asset_HighlightFacebook"/></g></symbol><symbol viewBox="0 0 25 25" id="shape-HighlightHighlight"><g id="HighlightHighlight-asset_HighlightHighlight-3"><path d="M2.87,21.66c-0.068,-0.003 -0.085,-0.002 -0.152,-0.014c-0.175,-0.032 -0.339,-0.12 -0.462,-0.249c-0.071,-0.073 -0.128,-0.159 -0.168,-0.253c-0.04,-0.094 -0.063,-0.194 -0.067,-0.296c-0.015,-0.336 0.177,-0.658 0.48,-0.804c0.118,-0.056 0.24,-0.078 0.369,-0.084l18,0c0.068,0.003 0.085,0.002 0.152,0.014c0.175,0.032 0.339,0.12 0.462,0.249c0.233,0.243 0.3,0.611 0.168,0.921c-0.04,0.094 -0.097,0.18 -0.168,0.253c-0.07,0.074 -0.154,0.135 -0.245,0.179c-0.118,0.056 -0.24,0.078 -0.369,0.084c-6,0 -12,0 -18,0Z" fill="currentColor"/><path d="M3.384,19.52c-0.103,-0.005 -0.201,-0.019 -0.297,-0.056c-0.289,-0.11 -0.499,-0.376 -0.54,-0.682c-0.017,-0.129 0,-0.251 0.035,-0.375l2.21,-6.78c0.026,-0.071 0.055,-0.138 0.096,-0.201c0.042,-0.064 0.091,-0.117 0.145,-0.17c3.486,-3.116 6.925,-6.285 10.457,-9.349c0.239,-0.197 0.502,-0.358 0.791,-0.472c0.771,-0.303 1.659,-0.252 2.391,0.136c0.297,0.158 0.557,0.368 0.784,0.615c0.758,0.887 1.532,1.76 2.273,2.66c0.19,0.243 0.344,0.509 0.45,0.8c0.276,0.756 0.217,1.615 -0.16,2.326c-0.145,0.274 -0.336,0.517 -0.558,0.732c-3.426,3.146 -6.901,6.238 -10.351,9.357c-0.071,0.059 -0.144,0.11 -0.229,0.147c-0.063,0.028 -0.128,0.045 -0.196,0.059l-7.15,1.24c-0.075,0.01 -0.075,0.01 -0.151,0.013ZM4.636,17.591l5.516,-0.956c3.388,-3.063 6.88,-6.014 10.164,-9.189c0.079,-0.081 0.148,-0.17 0.201,-0.271c0.153,-0.289 0.177,-0.64 0.065,-0.947c-0.042,-0.115 -0.103,-0.221 -0.179,-0.318c-0.729,-0.885 -1.461,-1.77 -2.236,-2.615c-0.086,-0.088 -0.183,-0.164 -0.292,-0.222c-0.297,-0.158 -0.66,-0.178 -0.973,-0.055c-0.126,0.049 -0.238,0.121 -0.34,0.21l-10.225,9.143c-0.567,1.74 -1.134,3.48 -1.701,5.22Z" fill="currentColor"/></g></symbol><symbol viewBox="0 0 18.25 21.31" id="shape-HighlightLinkedin"><g id="HighlightLinkedin-SCREENS"><use id="HighlightLinkedin-asset_HighlightLinkedin-3" data-name="asset_HighlightLinkedin" width="18.25" height="21.31" xlink:href="#HighlightLinkedin-asset_HighlightLinkedin"/></g></symbol><symbol viewBox="0 0 25 25" id="shape-HighlightTwitter"><g id="HighlightTwitter-SCREENS"><use id="HighlightTwitter-asset_HighlightTwitter-3" data-name="asset_HighlightTwitter" width="25" height="25" xlink:href="#HighlightTwitter-asset_HighlightTwitter"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-LinkedInLine">   <g id="LinkedInLine-87834928-a21d-4a8f-af11-6105e142dd63" data-name="Layer 2"> <g id="LinkedInLine-d302a1b9-0aa9-4f99-8aad-88d52d996e50" data-name="SCREENS"> <use id="LinkedInLine-23cb3b6b-95db-4bc6-af26-3b204f17de2d" data-name="asset_LinkedInLineOnWhite" width="30" height="30" xlink:href="#LinkedInLine-5c84c09d-2c80-4372-88d5-ea2298e45180"/> </g> </g> </symbol><symbol viewBox="0 0 43.17 63.49" id="shape-LoginTopEco"><g id="LoginTopEco-SCREENS"><use id="LoginTopEco-asset_LoginTopEco-3" data-name="asset_LoginTopEco" width="43.17" height="63.49" xlink:href="#LoginTopEco-asset_LoginTopEco"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-MapGetDirections">   <g id="MapGetDirections-613b3186-be33-43e5-9a2b-588bb054f37f" data-name="Layer 2"> <g id="MapGetDirections-32d5794d-72f0-446b-942e-c5f919ca7188" data-name="OVERLAY"> <use width="30" height="30" xlink:href="#MapGetDirections-d0439a5a-27a0-4a0c-b418-fc88080e639d"/> </g> </g> </symbol><symbol viewBox="0 0 55 63.89" id="shape-MapMarker">   <g id="MapMarker-806d0c9e-9e6b-49de-8462-6fa71fc3af5d" data-name="Layer 2"> <g id="MapMarker-95fccf18-5914-4ef5-a697-067645ba8310" data-name="OVERLAY"> <use id="MapMarker-81f5c9b7-8121-4680-8f78-098b2b49b4cf" data-name="asset_MapMarker" width="55" height="63.89" xlink:href="#MapMarker-f0697d7a-700c-466c-a921-08d502c70b96"/> </g> </g> </symbol><symbol viewBox="0 0 30 30" id="shape-MediaBadgeAudio">   <g id="MediaBadgeAudio-5cd56f5c-98e9-459c-88a3-81fb9879bc43" data-name="Layer 2"> <g id="MediaBadgeAudio-06bc53f2-ad46-4898-b17e-4172e7e8f8bd" data-name="OVERLAY"> <use id="MediaBadgeAudio-48c926da-145b-4846-8b52-ad8cd5570037" data-name="asset_MediaBadgeAudio" width="30" height="30" xlink:href="#MediaBadgeAudio-263754e4-8f15-4767-a031-855253f32ec5"/> </g> </g> </symbol><symbol viewBox="0 0 30 30" id="shape-MediaBadgeGraph"><g id="MediaBadgeGraph-SCREENS"><use id="MediaBadgeGraph-asset_MediaBagdeGraph-3" data-name="asset_MediaBagdeGraph" width="30" height="30" xlink:href="#MediaBadgeGraph-asset_MediaBagdeGraph"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-MediaBadgePhoto"><g id="MediaBadgePhoto-SCREENS"><use id="MediaBadgePhoto-asset_MediaBagdePhoto-3" data-name="asset_MediaBagdePhoto" width="30" height="30" xlink:href="#MediaBadgePhoto-asset_MediaBagdePhoto"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-MediaBadgeQuote">   <g id="MediaBadgeQuote-011b072a-b543-42e5-90f0-4261d59fed86" data-name="Layer 2"> <g id="MediaBadgeQuote-d45d7a5e-69fc-4572-b94b-66bb5d109d99" data-name="OVERLAY"> <use id="MediaBadgeQuote-7de1ba1d-c8b8-4a1c-aed5-46876fd8f4a4" data-name="asset_MediaBadgeQuote" width="30" height="30" xlink:href="#MediaBadgeQuote-900d3523-70b6-496e-8999-ee65da1a0176"/> </g> </g> </symbol><symbol viewBox="0 0 30 30" id="shape-MediaBadgeVideo"><g id="MediaBadgeVideo-SCREENS"><use id="MediaBadgeVideo-asset_MediaBadgeVideo-3" data-name="asset_MediaBadgeVideo" width="30" height="30" xlink:href="#MediaBadgeVideo-asset_MediaBadgeVideo"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-MediaPause"><g id="MediaPause-SCREENS"><use width="35" height="35" xlink:href="#MediaPause-asset_MediaPause"/></g></symbol><symbol viewBox="0 0 35 35" id="shape-MediaPlay"><g id="MediaPlay-SCREENS"><use id="MediaPlay-asset_MediaPlay-3" data-name="asset_MediaPlay" width="35" height="35" xlink:href="#MediaPlay-asset_MediaPlay"/></g></symbol><symbol viewBox="0 0 11 14" id="shape-MediaPlayAlt"> <path fill="currentColor" d="M0.0102361896,8.23392089 L0.0102361896,1.45487467 C-0.0347768801,1.22514045 0.071432026,0.992235169 0.27440218,0.875585654 C0.477372335,0.75893614 0.732079739,0.78441825 0.907918109,0.938965526 L5.0351913,3.30182943 L6.80991877,4.33364773 L10.6689192,6.6552389 C10.8706557,6.74768619 11,6.94923787 11,7.17114805 C11,7.39305822 10.8706557,7.59460991 10.6689192,7.6870572 L6.69641876,10.0292847 L4.92169129,11.061103 L0.949190841,13.4033306 C0.795186852,13.5815761 0.542933931,13.6385269 0.327287062,13.5437371 C0.111640193,13.4489473 -0.0169601008,13.2245884 0.0102361896,12.9906032 L0.0102361896,8.23392089 L0.0102361896,8.23392089 Z" id="MediaPlayAlt-Shape"/> </symbol><symbol viewBox="0 0 14.7 18.7" id="shape-MenuBookmarks"><g id="MenuBookmarks-SCREENS"><use width="14.7" height="18.7" xlink:href="#MenuBookmarks-asset_MenuBookmarks"/></g></symbol><symbol viewBox="0 0 20 20" id="shape-MenuNotifications"><g id="MenuNotifications-SCREENS"><use id="MenuNotifications-asset_MenuNotifications-3" data-name="asset_MenuNotifications" width="20" height="20" xlink:href="#MenuNotifications-asset_MenuNotifications"/></g></symbol><symbol viewBox="0 0 15.09 16.02" id="shape-MenuSearch"><g id="MenuSearch-SCREENS"><use width="15.09" height="16.02" xlink:href="#MenuSearch-asset_MenuSearch"/></g></symbol><symbol viewBox="0 0 30.5 30.5" id="shape-MessengerLine">   <g id="MessengerLine-b67f4407-2bfb-4511-ab60-ac7f7a082daf" data-name="Layer 2"> <g id="MessengerLine-841ab4e9-81b1-4086-a668-ba118ba25dd1" data-name="SCREENS"> <use id="MessengerLine-dcba93f0-c890-497b-be07-0a0f5297081b" data-name="asset_MessengerLineOnWhite" width="30.5" height="30.5" xlink:href="#MessengerLine-e2e83b8b-d91f-40ac-90a2-8ba50a4b682a"/> </g> </g> </symbol><symbol viewBox="0 0 15.73 17" id="shape-MyAccountAlert"><g id="MyAccountAlert-Layer_2" data-name="Layer 2"><g id="MyAccountAlert-OVERLAY"><path d="M14.49,12.17c.33,0,.51-.18.3-.43L14,10.79a4.93,4.93,0,0,1-1.13-3.33v-2a4.9,4.9,0,0,0-5-4.58,4.9,4.9,0,0,0-5,4.58v2a5.2,5.2,0,0,1-1.13,3.44l-.81.84c-.21.26,0,.43.34.43Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><path d="M10.66,13a3,3,0,0,1-2.79,3.13A3,3,0,0,1,5.09,13" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></g></g></symbol><symbol viewBox="0 0 12.7 16.72" id="shape-MyAccountBookmark"><g id="MyAccountBookmark-Layer_2" data-name="Layer 2"><g id="MyAccountBookmark-OVERLAY"><path d="M11.85,15.87,6.29,11.08.85,15.87V1.65c0-1,1.8-.77,2.71-.77H11c.91,0,.88-.28.88.77Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></g></g></symbol><symbol viewBox="0 0 16.65 19.7" id="shape-MyAccountComments"><g id="MyAccountComments-Layer_2" data-name="Layer 2"><g id="MyAccountComments-OVERLAY"><path d="M15.8,8.33A7.48,7.48,0,1,0,6.23,15.5l2.1,3.35,2.1-3.35A7.47,7.47,0,0,0,15.8,8.33Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="8.33" y1="6.55" x2="8.33" y2="10.55" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="6.33" y1="8.55" x2="10.33" y2="8.55" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></g></g></symbol><symbol viewBox="0 0 18.93 15.7" id="shape-MyAccountFollow"><g id="MyAccountFollow-Layer_2" data-name="Layer 2"><g id="MyAccountFollow-OVERLAY"><path d="M9.47.85c-3.92,0-7.26,2.9-8.62,7,1.35,4.1,4.7,7,8.62,7s7.26-2.9,8.62-7C16.73,3.75,13.38.85,9.47.85Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><ellipse cx="9.47" cy="7.85" rx="2.27" ry="2.25" fill="none" stroke="#00d700" stroke-miterlimit="10" stroke-width="1.7"/></g></g></symbol><symbol viewBox="0 0 15.66 16.7" id="shape-MyAccountHighlighted"><g id="MyAccountHighlighted-Layer_2" data-name="Layer 2"><g id="MyAccountHighlighted-OVERLAY"><line x1="0.85" y1="15.85" x2="14.3" y2="15.85" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><path d="M6.58,12.32l-5.35.93L2.89,8.18l7.73-7a1.49,1.49,0,0,1,2.11.12l1.7,1.91a1.49,1.49,0,0,1-.12,2.11Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></g></g></symbol><symbol viewBox="0 0 14.7 16.87" id="shape-MyAccountLogout"><g id="MyAccountLogout-Layer_2" data-name="Layer 2"><g id="MyAccountLogout-OVERLAY"><path d="M11.21,4.29a6.5,6.5,0,1,1-7.62-.07" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="7.29" y1="9" x2="7.29" y2="1" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></g></symbol><symbol viewBox="0 0 15.77 16.63" id="shape-MyAccountUser"><g id="MyAccountUser-Layer_2" data-name="Layer 2"><g id="MyAccountUser-OVERLAY"><circle cx="7.89" cy="4.55" r="3.7" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><path d="M14.92,15.78H.85c0-3,3.15-6.18,7-6.18S14.92,12.78,14.92,15.78Z" fill="none" stroke="#00d700" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></g></g></symbol><symbol viewBox="0 0 15 14" id="shape-Picture"><g id="Picture-OVERLAY"><use width="15" height="14" xlink:href="#Picture-asset_Picture"/></g></symbol><symbol viewBox="0 0 20 20.33" id="shape-RemoveItem"><g id="RemoveItem-OVERLAY"><use width="20" height="20.33" xlink:href="#RemoveItem-asset_RemoveItem"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-SearchBig"><g id="SearchBig-SCREENS"><use width="30" height="30" xlink:href="#SearchBig-asset_SearchBig"/></g></symbol><symbol viewBox="0 0 15.7 21.26" id="shape-ShareGreen"><path d="M13.06,6.41h0.22A1.57,1.57,0,0,1,14.85,8v5.43a7,7,0,0,1-7,7h0a7,7,0,0,1-7-7V8A1.57,1.57,0,0,1,2.42,6.41H2.64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><line x1="7.85" y1="13.06" x2="7.85" y2="0.85" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><polyline points="5.5 3.21 7.85 0.85 10.21 3.21" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></symbol><symbol viewBox="0 0 15.7 21.26" id="shape-ShareWhite"><g id="ShareWhite-SCREENS"><use width="15.7" height="21.26" xlink:href="#ShareWhite-asset_ShareWhite"/></g></symbol><symbol viewBox="0 0 14.3 13.65" id="shape-Star"><g id="Star-SCREENS"><use width="14.3" height="13.65" xlink:href="#Star-asset_Star"/></g></symbol><symbol viewBox="0 0 8 11" id="shape-StocksArrow">   <g id="StocksArrow-1c973aaa-317a-4429-81f6-2bc5e9ed623e" data-name="Layer 2"> <g id="StocksArrow-3e902219-e8c4-43ce-ae15-94be8a3a534c" data-name="OVERLAY"> <use id="StocksArrow-385e1df6-7ebe-44ed-b7ac-c6886818b1a1" data-name="asset_StocksArrow" width="8" height="11" xlink:href="#StocksArrow-898985ba-0097-40ad-896a-ffacb35768ad"/> </g> </g> </symbol><symbol viewBox="0 0 40 40" id="shape-TimelineExplicadorIndex"><g id="TimelineExplicadorIndex-SCREENS"><use width="40" height="40" xlink:href="#TimelineExplicadorIndex-asset_TimelineExplicadorIndex"/></g></symbol><symbol viewBox="0 0 40 40" id="shape-TimelineIndex"><g id="TimelineIndex-SCREENS"><use width="40" height="40" xlink:href="#TimelineIndex-asset_TimelineIndex"/></g></symbol><symbol viewBox="0 0 15 15" id="shape-TwitLogoTop"><g id="TwitLogoTop-SCREENS"><use width="15" height="15" xlink:href="#TwitLogoTop-asset_TwitLogoTop"/></g></symbol><symbol viewBox="0 0 12 12" id="shape-TwitVerified"><g id="TwitVerified-SCREENS"><use width="12" height="12" xlink:href="#TwitVerified-asset_TwitVerified"/></g></symbol><symbol viewBox="0 0 30 30" id="shape-TwitterLine">   <g id="TwitterLine-da5c4548-db15-47e0-9bd5-2eeccecff437" data-name="Layer 2"> <g id="TwitterLine-2ed88d42-5849-44ff-bde1-fa711c6a07de" data-name="SCREENS"> <use id="TwitterLine-eef50e40-2d05-4bb4-a180-e4b3f294e54d" data-name="asset_TwitterLineOnWhite" width="30" height="30" xlink:href="#TwitterLine-4c13ccba-7e52-4054-bc95-a0a00e1ba994"/> </g> </g> </symbol><symbol viewBox="0 0 30.5 30.5" id="shape-WhatsupLine">   <g id="WhatsupLine-e03ae328-7364-4421-b7f3-ff9bacb9dfee" data-name="Layer 2"> <g id="WhatsupLine-50ac5479-94ca-4f7d-a4ff-8fecb13f666d" data-name="SCREENS"> <use id="WhatsupLine-e7315c4f-90f3-4c83-bffa-e3355e484fe9" data-name="asset_WhatsupLineOnWhite" width="30.5" height="30.5" xlink:href="#WhatsupLine-5bd364a6-689c-476f-a337-0ac66be67ef1"/> </g> </g> </symbol><symbol viewBox="0 0 14.49 10.62" id="shape-checkmarkCopy"><g id="checkmarkCopy-Layer_2" data-name="Layer 2"><g id="checkmarkCopy-OVERLAY"><polyline points="0.9 5.86 4.76 9.72 13.59 0.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></g></g></symbol><symbol viewBox="0 0 15.4 18.56" id="shape-footer_apple"><g id="footer_apple-Layer_2" data-name="Layer 2"><g id="footer_apple-SCREENS"><path d="M12.4,10.32a3.87,3.87,0,0,1,1.78-3.77A4.32,4.32,0,0,0,11.83,5a4.1,4.1,0,0,0-3,.39,3.3,3.3,0,0,1-1.1.31C6.71,5.65,5.93,4.52,3.9,5A4.79,4.79,0,0,0,.76,8.93a10.57,10.57,0,0,0,1.41,6.29c1.11,1.91,2.23,2.63,3,2.64s1.6-.57,2.56-.72,1.55.35,2.5.61,1.27,0,2.36-.9a11.32,11.32,0,0,0,2.07-3.57,3.82,3.82,0,0,1-2.3-3Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/><path d="M12.4,10.32" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/><path d="M10.31,3.41A3.24,3.24,0,0,0,11,.7,5,5,0,0,0,8.55,2a3.7,3.7,0,0,0-.82,2.64,4.63,4.63,0,0,0,2.58-1.21Zm0,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/></g></g></symbol><symbol viewBox="0 0 17.07 19.78" id="shape-footer_google"><g id="footer_google-Layer_2" data-name="Layer 2"><g id="footer_google-SCREENS"><line x1="11.54" y1="6.87" x2="0.98" y2="18.79" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/><line x1="0.94" y1="0.99" x2="11.58" y2="12.83" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/><path d="M12.34,7.32,8.49,5.09,1.3.81C.89.58.7.72.7,1.21V18.67c0,.37.07.53.42.33L8.6,14.61l3.79-2.22,3.67-2.13c.43-.25.38-.59,0-.79Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/></g></g></symbol><symbol viewBox="0 0 15.35 16.44" id="shape-footer_newsletter">  <g id="footer_newsletter-Layer_2" data-name="Layer 2"> <g id="footer_newsletter-SCREENS"> <polyline points="0.7 5.7 0.7 15.74 14.63 15.74 14.63 5.7" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/> <polygon points="14.61 5.72 7.66 11.37 0.71 5.72 7.66 0.7 14.61 5.72" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/> <line x1="1.07" y1="15.61" x2="5.57" y2="9.68" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/> <line x1="14.65" y1="15.61" x2="9.74" y2="9.68" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/> </g> </g> </symbol><symbol viewBox="0 0 14.58 12.7" id="shape-related"><g id="related-Layer_2" data-name="Layer 2"><g id="related-SCREENS"><polyline points="13.72 7.85 0.85 7.85 0.85 0.85" fill="none" stroke="#d4d5d4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/><polyline points="9.72 3.85 13.72 7.85 9.72 11.85" fill="none" stroke="#d4d5d4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></g></g></symbol></svg>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://googletagmanager.com/ns.html?id=GTM-P5MVSM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="page" class="site">
+		<div id="bsu-placeholder"></div>
+
+	<header id="masthead" class="site-header" role="banner">
+		<nav class="site-header__container">
+
+			
+<div class="site-header__nav-area container">
+	<div class="site-header__nav-inner">
+		<a href="#off-canvas--secondary-menu" id="off-canvas-secondary-menu-trigger" class="off-canvas-menu-trigger icon-button js-trigger--off-canvas" title="Mais">
+	<svg class="eco-sprite" role="img"><use xlink:href="#shape-Hamburguer"></use></svg>
+</a>
+<div id="header-search" class="main-navigation__search header__search main-navigation__block main-navigation__block--desktop">
+	<a href="#off-canvas--search" id="search-trigger" class="main-navigation__icon--search search-trigger icon-button" title="Toggle search form">
+		<svg class="eco-sprite search-trigger__open" role="img"><use xlink:href="#shape-MenuSearch"></use></svg>
+		<svg class="eco-sprite search-trigger__close" role="img"><use xlink:href="#shape-Close"></use></svg>
+	</a>
+</div>
+	</div>
+
+				<div class="site-branding">
+
+				
+				<p class="site-title">
+
+					<a href="https://eco.sapo.pt/" rel="home">
+						<svg class="site-branding__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.51 46">
+  <g class="site-branding__logo-symbol">
+    <path d="M23,38.58a1.72,1.72,0,0,0,0-3.43,12.15,12.15,0,0,1,0-24.3,1.72,1.72,0,1,0,.26-3.43H23A15.6,15.6,0,0,0,7.52,21.28h-4A19.6,19.6,0,0,1,23,3.43a1.71,1.71,0,0,0,1.58-1.85A1.71,1.71,0,0,0,23,0a23,23,0,0,0,0,46,1.72,1.72,0,0,0,0-3.43A19.58,19.58,0,0,1,3.51,24.72h4A15.6,15.6,0,0,0,23,38.58Z" fill="#fff"/>
+    <path d="M23,14.75A8.25,8.25,0,1,0,31.28,23,8.25,8.25,0,0,0,23,14.75Zm0,13.07A4.82,4.82,0,1,1,27.85,23,4.82,4.82,0,0,1,23,27.82Z" fill="#fff"/>
+    <path d="M51.36,14.59h2.37a1.73,1.73,0,0,0,0-3.45H51.36a11.83,11.83,0,0,0-.69,23.65h3.06A1.73,1.73,0,1,0,54,31.34a1.13,1.13,0,0,0-.26,0H51.36a8.39,8.39,0,0,1-8.19-6.65h4.56a1.73,1.73,0,0,0,0-3.45H43.17A8.39,8.39,0,0,1,51.36,14.59Z" fill="#fff"/>
+    <path d="M70.1,14.59h2.21a1.73,1.73,0,0,0,0-3.45H70.1a11.83,11.83,0,0,0-.69,23.65h2.9a1.73,1.73,0,1,0,.26-3.45,1.13,1.13,0,0,0-.26,0H70.1a8.38,8.38,0,1,1,0-16.75Z" fill="#fff"/>
+    <path d="M88.69,11.14A11.83,11.83,0,1,0,100.51,23,11.83,11.83,0,0,0,88.69,11.14Zm0,20.13A8.3,8.3,0,1,1,97,23v0A8.31,8.31,0,0,1,88.69,31.27Z" fill="#fff"/>
+  </g>
+</svg>
+					</a>
+
+				</p>
+
+			</div><!-- .site-branding -->
+<a href="#off-canvas--menu" id="off-canvas-menu-trigger" class="mobile-menu-trigger off-canvas-menu-trigger icon-button js-trigger--off-canvas">
+	<svg class="eco-sprite" role="img"><use xlink:href="#shape-Hamburguer"></use></svg>
+</a>
+
+	<div class="site-header__nav-inner">
+		<div class="header__account main-navigation__block main-navigation__block--desktop">
+
+	<!-- Trigger/Open The Login Modal -->
+			<a href="#" class="main-navigation__login-button">Entrar</a>
+	
+</div>
+<div class="main-navigation__block">
+	<a target="_blank" href="https://econews.pt/" title="Portuguese Economy News"><span class="tag--invert">ECO News</span></a>
+</div>
+	</div>
+</div>
+
+<div id="main-navigation" class="main-navigation" role="navigation">
+	<div class="header-menu main-navigation__block main-navigation__block--desktop container">
+	<div class="menu-menu-principal-container"><ul id="primary-menu" class="primary-menu"><li id="menu-item-424714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424714"><a href="https://eco.sapo.pt/ultimas/">Últimas</a></li>
+<li id="menu-item-10818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10818"><a href="https://eco.sapo.pt/mercados/">Mercados</a></li>
+<li id="menu-item-5725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5725"><a href="https://eco.sapo.pt/obsessoes/">Obsessões</a></li>
+<li id="menu-item-424715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424715"><a href="/opiniao/">Opiniões</a></li>
+<li id="menu-item-201117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201117"><a href="https://eco.sapo.pt/advocatus/">Advocatus</a></li>
+<li id="menu-item-424716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424716"><a target="_blank" href="https://eco.substack.com/about">ECO Insider</a></li>
+</ul></div></div>
+</div>
+
+			<!-- Search Overlay-->
+
+
+<div id="off-canvas--search" class="search off-canvas off-canvas--top">
+	<div class="off-canvas__overlay off-canvas__overlay--search"></div>
+
+	<div class="header-search off-canvas__wrapper">
+		<div class="off-canvas__header">
+
+			
+
+<form id="searchform" class="search__form" method="get" action="https://eco.sapo.pt/">
+	<div class="container">
+		<div class="search__container js-search-container">
+
+			<span class="search__search-icon search__button js-search-icon">
+				<svg class="eco-sprite" role="img"><use xlink:href="#shape-SearchBig"></use></svg>
+			</span>
+
+			<input id="s" class="search__input js-search-input" type="text" name="s" placeholder="Pesquisar" autocomplete="off" value="">
+
+			<button type="reset" class="search__reset search__button search__button--hide js-search-reset">
+				<svg class="eco-sprite" role="img" alt="Limpar"><use xlink:href="#shape-ClearField"></use></svg>
+			</button>
+
+			<button type="submit" class="search__submit search__button js-search-submit">
+				<svg class="eco-sprite" role="img" alt="Pesquisar"><use xlink:href="#shape-ButtonDetailDark-Green-HighGreen-White"></use></svg>
+			</button>
+
+		</div>
+	</div> <!-- .container-->
+
+
+	</form>
+
+
+
+
+		</div>	</div></div>		</nav>
+
+	</header><!-- #masthead -->
+
+	
+<div id="off-canvas-menu" class="off-canvas-menu__button dl-menuwrapper">
+	<div class="off-canvas off-canvas-menu off-canvas--vertical off-canvas--right" id="off-canvas--menu">
+		<div class="off-canvas__overlay"></div>
+
+		<div class="off-canvas__wrapper">
+
+			<div class="off-canvas-menu__header">
+				<h3 class="off-canvas-menu__title">Menu</h3>
+				<button class="off-canvas-menu__close off-canvas__close js-trigger--off-canvas-close">
+					<svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg>
+				</button>
+			</div>
+
+			<div class="off-canvas__content">
+
+				<div class="off-canvas-menu__secondary-nav">
+					<div class="main-navigation__social-container">
+    <span class="main-navigation__social-label">Siga-nos:</span>
+	<ul class="social">
+		
+	<li class="social__item social__item--twitter meta__icon-container">
+		<a class="social__link twitter" href="https://twitter.com/ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterTwitter"></use></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container">
+		<a class="social__link linkedin" href="https://www.linkedin.com/company/10878000" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterLinkedIn"></use></a>
+	</li><li class="social__item social__item--facebook meta__icon-container">
+	<a class="social__link facebook" href="https://www.facebook.com/ECOEconomiaOnline/" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterFacebook"></use></svg></a>	</ul>
+</div>
+<div class="main-navigation__block">
+	<a target="_blank" href="https://econews.pt/" title="Portuguese Economy News"><span class="tag--invert">ECO News</span></a>
+</div>
+				</div>
+
+								<div class="header-menu">
+					<div class="menu-menu-mobile-container"><ul id="mobile" class="menu"><li id="menu-item-202702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202702"><a href="https://eco.sapo.pt/ultimas/">Últimas</a></li>
+<li id="menu-item-202694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-202694"><a href="#">Mercados</a>
+<ul class="sub-menu">
+	<li id="menu-item-202692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202692"><a href="https://eco.sapo.pt/mercados/">Notícias</a></li>
+	<li id="menu-item-202685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202685"><a href="https://eco.sapo.pt/mercados/bolsa/">PSI 20</a></li>
+	<li id="menu-item-202682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202682"><a href="https://eco.sapo.pt/mercados/bolsas-internacionais/">Bolsas internacionais</a></li>
+	<li id="menu-item-202684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202684"><a href="https://eco.sapo.pt/mercados/obrigacoes/">Obrigações</a></li>
+	<li id="menu-item-202683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202683"><a href="https://eco.sapo.pt/mercados/cambios/">Câmbios</a></li>
+	<li id="menu-item-202686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202686"><a href="https://eco.sapo.pt/mercados/taxas-de-juro/">Taxas de Juro</a></li>
+</ul>
+</li>
+<li id="menu-item-202704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202704"><a href="/opiniao">Opiniões</a></li>
+<li id="menu-item-202697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202697"><a href="https://eco.sapo.pt/obsessoes/">Obsessões</a></li>
+<li id="menu-item-202696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202696"><a href="https://eco.sapo.pt/advocatus/">Advocatus</a></li>
+<li id="menu-item-425115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425115"><a href="https://eco.substack.com/about">ECO Insider</a></li>
+<li id="menu-item-202705" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202705"><a href="/entrevistas">Entrevistas</a></li>
+<li id="menu-item-202706" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202706"><a href="/reportagens">Reportagens</a></li>
+<li id="menu-item-312717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-312717"><a href="/especiais">Especiais</a></li>
+<li id="menu-item-202707" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202707"><a href="/descodificadores">Descodificadores</a></li>
+<li id="menu-item-409167" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409167"><a href="https://eco.sapo.pt/topico/brands-eco/">BRANDS&#8217; ECO</a></li>
+<li id="menu-item-409166" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409166"><a href="https://eco.sapo.pt/topico/brands-advocatus/">BRANDS&#8217; ADVOCATUS</a></li>
+<li id="menu-item-425095" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425095"><a href="https://eco.sapo.pt/topico/ecoolhunter/">EcoolHunter</a></li>
+<li id="menu-item-202701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-202701"><a href="https://eco.sapo.pt/topicos/">Secções</a>
+<ul class="sub-menu">
+	<li id="menu-item-425100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425100"><a href="https://eco.sapo.pt/topico/empreendedorismo/">Empreendorismo</a></li>
+	<li id="menu-item-425104" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425104"><a href="https://eco.sapo.pt/topico/automoveis/">Automóveis</a></li>
+	<li id="menu-item-425105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425105"><a href="https://eco.sapo.pt/topico/imobiliario/">Imobiliário</a></li>
+	<li id="menu-item-425106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425106"><a href="https://eco.sapo.pt/topico/fundos-comunitarios/">Fundos comunitários</a></li>
+	<li id="menu-item-425107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425107"><a href="https://eco.sapo.pt/topico/financas-pessoais/">Finanças Pessoais</a></li>
+	<li id="menu-item-425108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425108"><a href="https://eco.sapo.pt/topico/tecnologia/">Tecnologia</a></li>
+	<li id="menu-item-425110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425110"><a href="https://eco.sapo.pt/topico/lifestyle/">Lifestyle</a></li>
+</ul>
+</li>
+<li id="menu-item-202700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202700"><a href="https://eco.sapo.pt/autores/">Autores</a></li>
+<li id="menu-item-204082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204082"><a href="https://eco.sapo.pt/newsletters/">Newsletters</a></li>
+<li id="menu-item-425097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-425097"><a href="https://eco.sapo.pt/advocatus/manifesto-editorial-advocatus/">Manifesto Editorial</a></li>
+<li id="menu-item-425098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-425098"><a href="https://eco.sapo.pt/ficha-tecnica/">Ficha Técnica</a></li>
+</ul></div>
+										<div class="header__account menu">
+
+																			<a href="#" class="main-navigation__login-button menu-item">Entrar / Registar</a>
+						
+					</div>
+					
+					
+
+<form id="searchform" class="search__form" method="get" action="https://eco.sapo.pt/">
+	<div class="container">
+		<div class="search__container js-search-container">
+
+			<span class="search__search-icon search__button js-search-icon">
+				<svg class="eco-sprite" role="img"><use xlink:href="#shape-SearchBig"></use></svg>
+			</span>
+
+			<input id="s" class="search__input js-search-input" type="text" name="s" placeholder="Pesquisar" autocomplete="off" value="">
+
+			<button type="reset" class="search__reset search__button search__button--hide js-search-reset">
+				<svg class="eco-sprite" role="img" alt="Limpar"><use xlink:href="#shape-ClearField"></use></svg>
+			</button>
+
+			<button type="submit" class="search__submit search__button js-search-submit">
+				<svg class="eco-sprite" role="img" alt="Pesquisar"><use xlink:href="#shape-ButtonDetailDark-Green-HighGreen-White"></use></svg>
+			</button>
+
+		</div>
+	</div> <!-- .container-->
+
+
+	</form>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="off-canvas-secondary-menu" class="off-canvas-secondary-menu dl-menuwrapper">
+	<div class="secondary-menu off-canvas off-canvas-menu off-canvas--vertical off-canvas--left" id="off-canvas--secondary-menu">
+		<div class="off-canvas__overlay"></div>
+
+		<div class="off-canvas__wrapper">
+
+			<div class="off-canvas-menu__header">
+				<h3 class="off-canvas-menu__title">Mais</h3>
+				<button class="off-canvas-menu__close off-canvas__close js-trigger--off-canvas-close">
+					<svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg>
+				</button>
+			</div>
+
+			<div class="off-canvas__content">
+
+				<div class="off-canvas-menu__secondary-nav">
+					<div class="main-navigation__social-container">
+    <span class="main-navigation__social-label">Siga-nos:</span>
+	<ul class="social">
+		
+	<li class="social__item social__item--twitter meta__icon-container">
+		<a class="social__link twitter" href="https://twitter.com/ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterTwitter"></use></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container">
+		<a class="social__link linkedin" href="https://www.linkedin.com/company/10878000" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterLinkedIn"></use></a>
+	</li><li class="social__item social__item--facebook meta__icon-container">
+	<a class="social__link facebook" href="https://www.facebook.com/ECOEconomiaOnline/" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterFacebook"></use></svg></a>	</ul>
+</div>
+<div class="main-navigation__block">
+	<a target="_blank" href="https://econews.pt/" title="Portuguese Economy News"><span class="tag--invert">ECO News</span></a>
+</div>
+				</div>
+
+								<div class="header-menu">
+					<div class="menu-menu-explorar-container"><ul id="secondary" class="menu"><li id="menu-item-202002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202002"><a href="https://eco.sapo.pt/ultimas/">Últimas</a></li>
+<li id="menu-item-424988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424988"><a href="https://eco.sapo.pt/mercados/">Mercados</a>
+<ul class="sub-menu">
+	<li id="menu-item-424992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424992"><a href="https://eco.sapo.pt/mercados/bolsa/">PSI 20</a></li>
+	<li id="menu-item-424989" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424989"><a href="https://eco.sapo.pt/mercados/bolsas-internacionais/">Bolsas internacionais</a></li>
+	<li id="menu-item-424991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424991"><a href="https://eco.sapo.pt/mercados/obrigacoes/">Obrigações</a></li>
+	<li id="menu-item-424990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424990"><a href="https://eco.sapo.pt/mercados/cambios/">Câmbios</a></li>
+	<li id="menu-item-424993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424993"><a href="https://eco.sapo.pt/mercados/taxas-de-juro/">Taxas de Juro</a></li>
+</ul>
+</li>
+<li id="menu-item-202003" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202003"><a href="/opiniao">Opiniões</a></li>
+<li id="menu-item-202004" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202004"><a href="/entrevistas">Entrevistas</a></li>
+<li id="menu-item-202005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202005"><a href="/reportagens">Reportagens</a></li>
+<li id="menu-item-311167" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-311167"><a href="/especiais">Especiais</a></li>
+<li id="menu-item-202007" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-202007"><a href="/descodificadores">Descodificadores</a></li>
+<li id="menu-item-409164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409164"><a href="https://eco.sapo.pt/topico/brands-eco/">BRANDS&#8217; ECO</a></li>
+<li id="menu-item-409165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409165"><a href="https://eco.sapo.pt/topico/brands-advocatus/">BRANDS&#8217; ADVOCATUS</a></li>
+<li id="menu-item-413719" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-413719"><a href="https://eco.sapo.pt/topico/ecoolhunter/">EcoolHunter</a></li>
+<li id="menu-item-202013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-202013"><a href="https://eco.sapo.pt/topicos/">Secções</a>
+<ul class="sub-menu">
+	<li id="menu-item-424693" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424693"><a href="/topico/empreendedorismo/">Empreendedorismo</a></li>
+	<li id="menu-item-424694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424694"><a href="/topico/automoveis/">Automóveis</a></li>
+	<li id="menu-item-424696" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424696"><a href="/topico/imobiliario/">Imobiliário</a></li>
+	<li id="menu-item-424697" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424697"><a href="/topico/fundos-comunitarios/">Fundos Comunitários</a></li>
+	<li id="menu-item-424698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424698"><a href="/topico/financas-pessoais/">Finanças Pessoais</a></li>
+	<li id="menu-item-424699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424699"><a href="/topico/tecnologia/">Tecnologia</a></li>
+	<li id="menu-item-424700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424700"><a href="/topico/lifestyle/">Lifestyle</a></li>
+</ul>
+</li>
+<li id="menu-item-202014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202014"><a href="https://eco.sapo.pt/autores/">Autores</a></li>
+<li id="menu-item-204083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204083"><a href="https://eco.sapo.pt/newsletters/">Newsletters</a></li>
+<li id="menu-item-424702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424702"><a href="https://eco.sapo.pt/manifesto-editorial/">Manifesto Editorial</a></li>
+<li id="menu-item-424701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424701"><a href="https://eco.sapo.pt/ficha-tecnica/">Ficha Técnica</a></li>
+</ul></div>				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+<div class="sapopub" data-sas-siteid="181192" data-sas-pageid="867026" data-sas-formatid="38559" data-pub="sas"></div>
+
+
+	
+<!-- The Modal -->
+<div id="loginModal" class="modal login-modal">
+
+	<!-- Modal content -->
+	<div class="login-modal__content">
+
+		<div class="login-modal__brand-echo">
+			<span class="login-modal__brand-echo--outer">
+				<span class="login-modal__brand">
+					<svg class="eco-sprite" role="img"><use xlink:href="#shape-LoginTopEco"></use></svg>
+				</span>
+			</span>
+		</div>
+
+		<h3 class="login-modal__title">Participe e Acompanhe</h3>
+		<p class="login-modal__disclaimer">Dê a sua opinião nos debates, siga autores, personalidades e empresas</p>
+
+		 <!-- OneAll.com / Social Login for WordPress / v5.4.3 -->
+<div class="oneall_social_login">
+ <div class="oneall_social_login_providers" id="oneall_social_login_providers_1924252"></div>
+ <script data-cfasync="false" type="text/javascript">
+  var _oneall = _oneall || [];
+  _oneall.push(['social_login', 'set_providers', ['facebook','linkedin','reddit','twitter']]);
+  _oneall.push(['social_login', 'set_callback_uri', (window.location.href + ((window.location.href.split('?')[1] ? '&amp;': '?') + "oa_social_login_source=shortcode"))]);
+  _oneall.push(['social_login', 'set_custom_css_uri', 'https://secure.oneallcdn.com/css/api/socialize/themes/wordpress/modern.css']);
+  _oneall.push(['social_login', 'do_render_ui', 'oneall_social_login_providers_1924252']);
+ </script>
+</div>
+		<p class="login-modal__policy">Ao registar-se está a aceitar os <a href="/termos-e-condicoes/">Termos e Condições</a> e a <a href="/politica-de-privacidade/">Política de Privacidade.</a></p>
+
+	</div>
+
+	<span class="login-modal__close"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CloseShareDark"></use></svg></span>
+</div>
+	<div id="content" class="site-content"> 
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<div class="container container--with-sidebar">
+	<div class="echo echo--double echo--top-right echo--dark position--static hide--medium-down"></div>
+	<article id="post-424705" class="entry entry--single sticky-sidebar__sidebar post-424705 post type-post status-publish format-standard hentry tag-internacional tag-mercados">
+		<div class="theiaStickySidebar">
+
+			<div class="content-trimmer">
+
+				<header class="entry__header">
+
+					<div class="tags">
+						<a href="https://eco.sapo.pt/topico/mercados/"><span class="tag--main-topic">Mercados</span></a>					</div>
+
+											<h1 class="title">
+														Não há shutdown, mas há muro. Trump pressiona Wall Street
+						</h1>
+					
+					<div class="meta">
+						<div class="meta__group">
+
+							<div class="meta__block">
+								<ul class="meta__info"><li class="meta__author"><a href="https://eco.sapo.pt/perfil/rafaela-relvas/" title="Posts by Rafaela Burd Relvas" class="author url fn" rel="author">Rafaela Burd Relvas</a></li><li class="meta__time">14 Fevereiro 2019</li></ul>							</div>
+
+							<div class="meta__block">
+								<ul class="social">
+
+		<li class="social__item social__item--facebook meta__icon-container js-open-mini-modal">
+		<a class="social__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FacebookLine"></use></svg></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container js-open-mini-modal">
+		<a class="social__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705&#038;title=N%C3%A3o+h%C3%A1+shutdown%2C+mas+h%C3%A1+muro.+Trump+pressiona+Wall+Street&#038;summary=As+bolsas+norte-americanas+foram+penalizadas+pelos+dados+negativos+das+vendas+a+retalho+no+final+do+ano+passado%2C+bem+como+pela+mais+recente+decis%C3%A3o+de+Trump+relativa+ao+muro+na+fronteira+com+o+M%C3%A9xico.&#038;source=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-LinkedInLine"></use></a>
+	</li>
+	<li class="social__item social__item--whatsapp meta__icon-container js-open-mini-modal">
+		<a class="social__link whatsapp" href="whatsapp://send?text=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-WhatsupLine"></use></a>
+	</li>
+			<li class="social__item social__item--facebook-messenger meta__icon-container hide--small">
+			<a class="social__link facebook-messenger" href="https://eco.sapo.pt/?p=424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-MessengerLine"></use></a>
+		</li>
+		<li class="social__item social__item--twitter meta__icon-container js-open-mini-modal">
+		<a class="social__link twitter" href="https://twitter.com/share?url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705&#038;text=N%C3%A3o+h%C3%A1+shutdown%2C+mas+h%C3%A1+muro.+Trump+pressiona+Wall+Street&#038;via=ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-TwitterLine"></use></a>
+	</li>
+	<li>
+		<span class="share-url__count"></span>
+	</li>
+</ul>
+							</div>
+
+							<div class="meta__block">
+								<a data-link="https://eco.sapo.pt/2019/02/14/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street/" class="meta__comments-link meta__comments-link--big js-trigger--off-canvas" href="#off-canvas--comments">
+	<span class="meta__comments-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentBig"></use></svg></span>
+	<span class="meta__comments-text"></span>
+</a>							</div>
+						</div>
+					</div>
+
+					<h2 class="entry__lead"> As bolsas norte-americanas foram penalizadas pelos dados negativos das vendas a retalho no final do ano passado, bem como pela mais recente decisão de Trump relativa ao muro na fronteira com o México. </h2>
+					 
+					<div class="social__follow">
+						<a href="https://twitter.com/ECO_PT?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-lang="en" data-size="small"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>						<div class="fb-like" style="margin-right: 5px; margin-left: 5px;" data-href="https://www.facebook.com/ECOEconomiaOnline/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false" target="_blank"></div>					</div>
+
+				</header>				<div class="entry__content"> <p>As bolsas norte-americanas fecharam em queda, num dia que ficou marcado pelos receios dos investidores relativamente a um <strong>abrandamento económico</strong>, depois de terem sido divulgados dados que dão conta de uma desaceleração da atividade económica. A pesar esteve também a decisão de Donald Trump de <strong>declarar</strong><strong> emergência nacional para <a target="_blank" href="https://eco.sapo.pt/2019/01/09/donald-trump-justifica-muro-eua-mexico-com-crescente-crise-humanitaria/" target="_blank" rel="noopener">construir o muro na fronteira com o México</a></strong>.</p>
+<p>O índice de referência <strong>S&amp;P 500</strong> fechou a cair 0,27%, para os 2.745,72 pontos. Já o industrial <strong>Dow Jones</strong> perdeu 0,41%, para os 25.439,39 pontos, enquanto o tecnológico <strong>Nasdaq</strong> contrariou a tendência e fechou acima da linha de água, a valorizar 0,09%, para os 7.426,95 pontos.</p>
+<p>A contribuir para este movimento estiveram os dados divulgados esta quinta-feira pelas autoridades norte-americanas, que mostram que as <strong>vendas a retalho caíram 1,2% em dezembro, a maior queda registada desde 2009</strong>, agravando os receios de um abrandamento económico.</p>
+<p>A condicionar o desempenho dos mercados esteve também uma decisão tomada por Donald Trump já perto da hora de fecho das bolsas. O presidente norte-americano decidiu assinar um decreto que evita um novo shutdown dos EUA, mas ao mesmo tempo declara emergência nacional, de forma a ter acesso a mais fundos que permitam financiar a construção do muro na fronteira com o México.</p>
+<p>Por esta altura, os investidores aguardam também por novidades sobre as relações comerciais entre os Estados Unidos e a China. Para esta sexta-feira, está marcado um <strong>encontro entre o presidente chinês, Xi Jinping, e o secretário de Estado do Tesouro norte-americano, Steven Mnuchin</strong>.</p>
+ </div> 
+				<div class="eco-insider-pub">
+	<a href="https://eco.substack.com/about" target="_blank"><img class="aligncenter" src="/wp-content/themes/eco-theme/assets/images/eco-insider.png"></a>
+</div>
+				<div class="lightbox">
+    <span class="lightbox__close"><svg class="svg-sprite" role="img"><use xlink:href="#shape-CloseShareDark"></use></svg></span>
+    <div class="lightbox__image"></div>
+</div>
+				<footer class="entry__footer">
+
+					<div class="sapopub" data-sas-siteid="181192" data-sas-pageid="867026" data-sas-formatid="41137" data-pub="sas"></div>
+
+					<div class="meta">
+
+						<div class="meta__group">
+
+							<div class="meta__block">
+								<a data-link="https://eco.sapo.pt/2019/02/14/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street/" class="meta__comments-link meta__comments-link--big js-trigger--off-canvas" href="#off-canvas--comments">
+	<span class="meta__comments-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentBig"></use></svg></span>
+	<span class="meta__comments-text"></span>
+</a>							</div>
+							<div class="meta__block">
+								<ul class="social">
+
+		<li class="social__item social__item--facebook meta__icon-container js-open-mini-modal">
+		<a class="social__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FacebookLine"></use></svg></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container js-open-mini-modal">
+		<a class="social__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705&#038;title=N%C3%A3o+h%C3%A1+shutdown%2C+mas+h%C3%A1+muro.+Trump+pressiona+Wall+Street&#038;summary=As+bolsas+norte-americanas+foram+penalizadas+pelos+dados+negativos+das+vendas+a+retalho+no+final+do+ano+passado%2C+bem+como+pela+mais+recente+decis%C3%A3o+de+Trump+relativa+ao+muro+na+fronteira+com+o+M%C3%A9xico.&#038;source=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-LinkedInLine"></use></a>
+	</li>
+	<li class="social__item social__item--whatsapp meta__icon-container js-open-mini-modal">
+		<a class="social__link whatsapp" href="whatsapp://send?text=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-WhatsupLine"></use></a>
+	</li>
+			<li class="social__item social__item--facebook-messenger meta__icon-container hide--small">
+			<a class="social__link facebook-messenger" href="https://eco.sapo.pt/?p=424705" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-MessengerLine"></use></a>
+		</li>
+		<li class="social__item social__item--twitter meta__icon-container js-open-mini-modal">
+		<a class="social__link twitter" href="https://twitter.com/share?url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D424705&#038;text=N%C3%A3o+h%C3%A1+shutdown%2C+mas+h%C3%A1+muro.+Trump+pressiona+Wall+Street&#038;via=ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-TwitterLine"></use></a>
+	</li>
+	<li>
+		<span class="share-url__count"></span>
+	</li>
+</ul>
+							</div>
+
+							<div class="meta__block">
+								
+
+<div class="share-url">
+	<span class="share-url__string" style="text-overflow: ellipsis; width: 210px; overflow: hidden; white-space: nowrap;">https://eco.sapo.pt/2019/02/14/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street/</span>
+	<button class="share-url__button">Copiar<span class="icon"><svg class="eco-sprite" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-CheckboxChecked"></use></svg></span></button>
+</div>							</div>
+
+						</div>
+					</div>
+
+				</footer>				<button class="button button--large button--invert button--trimmer" aria-hidden="true">Continuar a ler...</button>
+			</div>		</div>	</article>
+	<div class="sidebar sticky-sidebar__sidebar">
+	<div class="theiaStickySidebar">
+		<div class="sidebar__content">
+				<div class="sapopub" data-sas-siteid="181192" data-sas-pageid="867025" data-sas-formatid="34643" data-pub="sas"></div>
+
+	<div class="card-latest card card--trending trending">
+		<h2 class="trending__title">
+			<a class="icon-button" href="https://eco.sapo.pt/ultimas/">Últimas<svg class="eco-sprite icon icon--go" role="img"><use xlink:href="#shape-ButtonDetailBold"></use></svg></a>
+		</h2>
+
+		<div class="trending__list-container">
+			<ul class="trending__list" >
+
+				
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/marques-mendes-centeno-quer-fazer-um-brilharete-ja-a-meio-do-ano-com-um-defice-zero-ou-ate-excedente/">
+							<p class="trending__news-title">
+																Centeno quer fazer brilharete já a meio do ano com défice 0%							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 20:54:59">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/marques-mendes-centeno-quer-fazer-um-brilharete-ja-a-meio-do-ano-com-um-defice-zero-ou-ate-excedente/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/catarina-martins-ctt-manipulam-dados-que-divulgam-e-mentem-ao-regulador/">
+							<p class="trending__news-title">
+																Catarina Martins acusa CTT de manipularem dados							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 20:43:36">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/catarina-martins-ctt-manipulam-dados-que-divulgam-e-mentem-ao-regulador/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/ue-exige-a-may-que-apresente-acordo-com-apoio-na-cimeira-de-marco/">
+							<p class="trending__news-title">
+																UE exige a May acordo com apoio na cimeira de março							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 20:38:45">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/ue-exige-a-may-que-apresente-acordo-com-apoio-na-cimeira-de-marco/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/estes-sao-os-paises-mais-saudaveis-do-mundo-adivinha-em-que-lugar-esta-portugal/">
+							<p class="trending__news-title">
+																Estes são os países mais saudáveis do mundo. E Portugal?							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 17:45:11">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/estes-sao-os-paises-mais-saudaveis-do-mundo-adivinha-em-que-lugar-esta-portugal/"></a>
+					</li>
+
+					
+					<li class="trending__item ad_replace">
+						<a href="https://eco.sapo.pt/2019/02/24/ps-ataca-passos-coelho-por-torcer-para-que-as-coisas-corram-mal/">
+							<p class="trending__news-title">
+																PS: Passos Coelho &#8220;torce para que as coisas corram mal&#8221;							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 17:00:37">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/ps-ataca-passos-coelho-por-torcer-para-que-as-coisas-corram-mal/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/portugal-com-setima-maior-superficie-de-pomares-da-ue-veja-o-video/">
+							<p class="trending__news-title">
+																Vídeo: Portugal com sétima maior superfície de pomares da UE							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 16:33:58">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/portugal-com-setima-maior-superficie-de-pomares-da-ue-veja-o-video/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/trump-afirma-que-coreia-do-norte-pode-tornar-se-potencia-economica-mas-sem-armas-nucleares/">
+							<p class="trending__news-title">
+																Trump: Coreia do Norte pode tornar-se potência económica							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 15:50:02">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/trump-afirma-que-coreia-do-norte-pode-tornar-se-potencia-economica-mas-sem-armas-nucleares/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/rui-rio-diz-que-governo-tem-discursos-contraditorios-em-relacao-aos-enfermeiros/">
+							<p class="trending__news-title">
+																Rio: Governo tem discursos contraditórios sobre enfermeiros							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 15:38:54">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/rui-rio-diz-que-governo-tem-discursos-contraditorios-em-relacao-aos-enfermeiros/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/theresa-may-diz-que-acordo-do-brexit-sera-votado-ate-12-de-marco/">
+							<p class="trending__news-title">
+																May diz que acordo do Brexit será votado até 12 de março							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 15:26:13">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/theresa-may-diz-que-acordo-do-brexit-sera-votado-ate-12-de-marco/"></a>
+					</li>
+
+					
+					<li class="trending__item ">
+						<a href="https://eco.sapo.pt/2019/02/24/nova-lista-negra-da-ue-no-combate-ao-branqueamento-de-capitais-e-um-primeiro-sucesso-eua-contestam/">
+							<p class="trending__news-title">
+																Nova lista negra da UE &#8220;é um 1.º sucesso&#8221;. EUA contestam							</p>
+
+							<p class="meta">
+								<span class="meta__info meta__time"><time datetime="2019-02-24 13:55:41">24 Fevereiro 2019</time></span>
+							</p>
+						</a>
+						<a class="link-cover" href="https://eco.sapo.pt/2019/02/24/nova-lista-negra-da-ue-no-combate-ao-branqueamento-de-capitais-e-um-primeiro-sucesso-eua-contestam/"></a>
+					</li>
+
+					
+			</ul><!-- .trending__list -->
+		</div> <!-- .trending__list-container-->
+	</div> <!-- .card card--trending trending-->
+
+
+<div class="card--trending trending">
+	<h2 class="trending__title">
+		Populares
+	</h2>
+
+	<div class="trending__list-container">
+		<ul class="trending__list">
+			
+				<li class="trending__item">
+					<a href="https://eco.sapo.pt/2019/02/20/cartoes-de-cidadao-vao-mudar-portugueses-vao-ter-bi-igual-aos-outros-paises-da-europa/">
+						<p class="trending__news-title">Portugueses vão ter cartão do cidadão igual aos europeus</p>
+						<div class="meta">
+							<span class="meta__info meta__time"><time datetime="2019-02-20 14:48:36">20 Fevereiro 2019</time></span>
+						</div>
+					</a>
+				</li>
+
+				
+				<li class="trending__item">
+					<a href="https://eco.sapo.pt/2019/02/21/estado-vai-dar-250-euros-aos-contribuintes-para-comprar-bicicleta-eletrica/">
+						<p class="trending__news-title">Estado vai dar 250 euros para compra de bicicleta elétrica</p>
+						<div class="meta">
+							<span class="meta__info meta__time"><time datetime="2019-02-21 08:26:46">21 Fevereiro 2019</time></span>
+						</div>
+					</a>
+				</li>
+
+				
+				<li class="trending__item">
+					<a href="https://eco.sapo.pt/2019/02/22/cavaco-silva-avisa-que-portugal-arrisca-ser-lanterna-vermelha-da-zona-euro/">
+						<p class="trending__news-title">Portugal arrisca ser &#8220;lanterna vermelha&#8221; da Zona Euro</p>
+						<div class="meta">
+							<span class="meta__info meta__time"><time datetime="2019-02-22 21:01:30">22 Fevereiro 2019</time></span>
+						</div>
+					</a>
+				</li>
+
+				
+				<li class="trending__item">
+					<a href="https://eco.sapo.pt/2019/02/21/ps-indica-deputados-para-a-comissao-de-inquerito-a-caixa/">
+						<p class="trending__news-title">Comissão de inquérito à CGD toma posse. É presidida pelo PSD</p>
+						<div class="meta">
+							<span class="meta__info meta__time"><time datetime="2019-02-21 10:52:22">21 Fevereiro 2019</time></span>
+						</div>
+					</a>
+				</li>
+
+				
+				<li class="trending__item">
+					<a href="https://eco.sapo.pt/2019/02/21/vitor-constancio-ganhou-26-milhoes-de-euros-em-oito-anos-no-bce/">
+						<p class="trending__news-title">Vítor Constâncio ganhou 2,6 milhões em oito anos no BCE</p>
+						<div class="meta">
+							<span class="meta__info meta__time"><time datetime="2019-02-21 13:24:23">21 Fevereiro 2019</time></span>
+						</div>
+					</a>
+				</li>
+
+				
+				<li class="trending__item">
+					<a href="https://eco.sapo.pt/2019/02/20/caso-edp-tribunal-da-relacao-revoga-decisao-de-juiz-ivo-rosa/">
+						<p class="trending__news-title">Caso EDP. Tribunal da Relação revoga decisão de Ivo Rosa</p>
+						<div class="meta">
+							<span class="meta__info meta__time"><time datetime="2019-02-20 14:12:18">20 Fevereiro 2019</time></span>
+						</div>
+					</a>
+				</li>
+
+						</ul>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript" src="https://s.frames.news/publishers/eco.pt/loader" async></script>
+<div id="off-canvas--comments" class="off-canvas off-canvas--vertical off-canvas--right">
+	<div class="off-canvas__overlay"></div>
+		<div v-bind:class="{'expanded': isExpanded }" class="comments--off-canvas off-canvas__wrapper js-comments-wrapper" v-cloak>
+
+	
+	<div class="comments__header off-canvas__header js-comments-header" v-if="!screenParentId">
+		<h2 class="comments__status">
+			<span class="comments__header-icon icon"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentBig--empty"></use></svg></span> 
+			Comentários (<span class="js-comments-header-number">{{ total }}</span>)
+		</h2>
+		<h3 class="comments__title">Não há shutdown, mas há muro. Trump pressiona Wall Street</h3>
+
+		<button v-on:click.prevent="closeCanvas" class="comments__close off-canvas__close">
+			<svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg>
+		</button>
+		<button href="#" v-on:click.prevent="expandCanvas" class="comments__expand icon-button"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentExpand"></use></svg></button>
+	</div>
+	
+		<div class="comments__header comments__header--sub-comments off-canvas__header js-subcomments-header" v-if="screenParentId">
+
+		<div class="comments__header-replies-info">
+			<span class="comments__header-reply-icon icon"><svg class="eco-sprite" role="img"><use xlink:href="#shape-HighlightHighlight"></use></svg></span>
+			Respostas a <span class="meta__author js-meta_author">{{ screenParentAuthor }}</span> (<span class="js-meta_replies">{{ totalReplies }}</span>)
+		</div>
+
+		<button href="#" v-on:click.prevent="goToMainComments" class="comments__back icon-button js-comments-back"><img src="https://eco.sapo.pt/wp-content/themes/eco-theme/assets/images/tmp-to-svg/comments--back.png" alt=""></button>
+		<button href="#" v-on:click.prevent="expandCanvas" class="comments__expand icon-button"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentExpand"></use></svg></button>
+
+	</div>	
+
+
+	<div class="off-canvas__content comments__content">
+		<div class="comments__list" v-bind:class="{ 'comments__list--replies' : screenParentId }">
+			<div class="comment" v-for="(comment, index) in comments"  v-bind:class="ownCommentClass( comment.author )" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+	<div class="comment__header">
+		<div class="comment__avatar comment__avatar--writer">
+			<img alt="Avatar" v-bind:src="comment.author_avatar_urls['48']" v-bind:srcset="comment.author_avatar_urls['96'] + ' 2x'" class="avatar avatar-40 photo portrait" height="40" width="40">
+		</div>
+		<div class="comment__name" v-bind:class="postAuthorClass( comment.author )">
+			{{ comment.author_name }}
+		</div>
+		<time class="comment__time" v-bind:datetime="comment.date_gmt + '+00:00'" itemprop="datePublished"></time>
+	</div>
+	<div class="comment__content" v-bind:class="{ 'comment__content--collapsed' : collapsedComment( index ) }">
+		<div v-html="comment.content.rendered"></div>
+		<button v-if="collapsedComment(index)" v-on:click.prevent="expandComment( index, $event )" class="comment__more">Ler mais</button>
+	</div>
+		<div class="comment__footer" v-if="!comment.parent && !screenParentId">
+		<div class="comment__actions">
+			<div class="comment__favorites">
+							</div>
+			<a href="#" v-on:click.prevent="goToComment( index, $event )" class="comment__reply comment__icon icon-button" title="Responder comentário"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentBig"></use></svg></a>
+		</div>
+
+				<a href="#" v-on:click.prevent="goToComment( index, $event )" v-if="comment.replies.count" class="comment__reply-details">
+			<div class="comment__last-reply">
+				<div class="comment__avatar comment__avatar--reply">
+					<img alt="Avatar" v-bind:src="comment.replies.last_avatar_url['24']" v-bind:srcset="comment.replies.last_avatar_url['48'] + ' 2x'" class="avatar avatar-20 photo portrait" height="20" width="20">
+				</div>
+				<span class="comment__reply-name">{{ comment.replies.last_author_name }}</span> respondeu
+			</div>
+			<div class="comment__reply-count">{{ comment.replies.count }} {{ labelComment( comment.replies.count ) }}</div>
+		</a>
+			</div>
+	</div>		</div>
+
+				<div class="comments__empty-state-container comments__empty-state-container--off-canvas" v-if="noComments">
+
+			<div class="comments__empty-state">
+				<div class="comments__empty-state-icon">
+					<svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentMedium"></use></svg>
+				</div>
+				<p>{{ noCommentsLabel }}</p>
+
+			</div>
+			<div class="comments__empty-state-message" v-if="!screenParentId">
+				<p>Ainda ninguém comentou este artigo.</p>
+				<p>Promova a discussão dando a sua opinião</p>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="off-canvas__footer">
+				<form action="https://eco.sapo.pt/wp-comments-post.php" method="post" id="commentform">
+			<div class="comments__footer-container">
+
+				<div class="comments__write" v-on:click="focusWrite" v-bind:class="{ 'active': isWriteFocus }">
+										<div class="comments__write-avatar comment__avatar" id="js-eco-comment-user" data-user="0" data-post-author="23">
+						<img alt='Imagem de Rafaela Burd Relvas' src='https://secure.gravatar.com/avatar/?s=150&#038;d=mm&#038;r=g' class='avatar photo avatar-wordpress-social-login portrait'/>					</div>
+
+					<div class="comments__input-container">
+						<div v-on:keyup="changeCommentContent" id="comments__input" class="comments__input" contenteditable v-bind:placeholder="writeCommentLabel" v-if="currentUserId > 0"></div>
+						<div class="comments__input" v-if="!currentUserId">Precisa fazer <a href="#off-canvas--comments" class="main-navigation__login-button">login</a> para poder comentar.</div>
+					</div>
+
+					<div class="comments__write-actions">
+
+						<div class="comments__post-comment">
+							<button v-on:click.prevent.stop="triggerCancelButton" class="comments__cancel button button--cancel">Cancelar</button>
+														<input type='hidden' name='comment_post_ID' value='424705' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+													</div>
+
+					</div>				</div>
+			</div>		</form>
+
+
+	</div>
+</div>
+</div>
+
+<div class="container">
+		<div class="related-news grid-block grid-block--flex has-publicity">
+		
+<article class="card-complex card card--highlight card--bg js-share-overlay">
+	<div class="card__image">
+		<img data-src="https://eco.imgix.net/uploads/2017/11/cropped-cropped-trump-1.jpg"  src="https://eco.imgix.net/uploads/2017/11/cropped-cropped-trump-1.jpg?w=5&#038;q=20&#038;auto=compress,format" alt="">
+
+			</div>
+
+	<div class="card__info">
+
+		<a href="https://eco.sapo.pt/2019/01/09/donald-trump-justifica-muro-eua-mexico-com-crescente-crise-humanitaria/">
+			<h3 class="card__title">
+								Trump justifica muro EUA/México com razões de segurança			</h3>
+		</a>
+
+		<div class="meta">
+			<span class="meta__info meta__time">Lusa, <time datetime="2019-01-09 08:09:09">9 Janeiro 2019</time></span>
+		</div>
+	</div>
+	<div class="card__info">
+
+		<p class="card__lead">Trump justificou a construção de um muro na fronteira com o México com uma "crescente crise humanitária", pressionando os democratas a assumirem um acordo para o financiamento.</p>
+
+	</div>
+	<a class="link-cover" href="https://eco.sapo.pt/2019/01/09/donald-trump-justifica-muro-eua-mexico-com-crescente-crise-humanitaria/"></a>
+
+	<div class="card__bottom-section">
+		<div class="meta">
+			<div class="meta__group card__icon-group">
+				<a class="meta__share-link">
+	<span class="meta__share-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-ShareGreen"></use></svg></span>
+		<span class="meta__share-text">3</span>
+	</a>
+				<a data-link="https://eco.sapo.pt/2019/01/09/donald-trump-justifica-muro-eua-mexico-com-crescente-crise-humanitaria/" class="meta__comments-link  js-trigger--off-canvas" href="#off-canvas--comments">
+	<span class="meta__comments-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentSmall"></use></svg></span>
+	<span class="meta__comments-text"></span>
+</a>			</div>
+		</div>
+	</div>
+	<div class="social-overlay">
+	<div class="social-overlay-wrapper">
+
+		<div class="social-overlay__close"><span><svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg></span></div>
+
+		<ul class="social">
+
+		<li class="social__item social__item--facebook meta__icon-container js-open-mini-modal">
+		<a class="social__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D407615" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FacebookLine"></use></svg></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container js-open-mini-modal">
+		<a class="social__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D407615&#038;title=Trump+justifica+muro+EUA%2FM%C3%A9xico+com+raz%C3%B5es+de+seguran%C3%A7a&#038;summary=Trump+justificou+a+constru%C3%A7%C3%A3o+de+um+muro+na+fronteira+com+o+M%C3%A9xico+com+uma+%22crescente+crise+humanit%C3%A1ria%22%2C+pressionando+os+democratas+a+assumirem+um+acordo+para+o+financiamento.&#038;source=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D407615" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-LinkedInLine"></use></a>
+	</li>
+	<li class="social__item social__item--whatsapp meta__icon-container js-open-mini-modal">
+		<a class="social__link whatsapp" href="whatsapp://send?text=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D407615" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-WhatsupLine"></use></a>
+	</li>
+			<li class="social__item social__item--facebook-messenger meta__icon-container hide--small">
+			<a class="social__link facebook-messenger" href="https://eco.sapo.pt/?p=407615" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-MessengerLine"></use></a>
+		</li>
+		<li class="social__item social__item--twitter meta__icon-container js-open-mini-modal">
+		<a class="social__link twitter" href="https://twitter.com/share?url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D407615&#038;text=Trump+justifica+muro+EUA%2FM%C3%A9xico+com+raz%C3%B5es+de+seguran%C3%A7a&#038;via=ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-TwitterLine"></use></a>
+	</li>
+	<li>
+		<span class="share-url__count"></span>
+	</li>
+</ul>
+		
+
+<div class="share-url">
+	<span class="share-url__string" style="text-overflow: ellipsis; width: 210px; overflow: hidden; white-space: nowrap;">https://eco.sapo.pt/2019/01/09/donald-trump-justifica-muro-eua-mexico-com-crescente-crise-humanitaria/</span>
+	<button class="share-url__button">Copiar<span class="icon"><svg class="eco-sprite" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-CheckboxChecked"></use></svg></span></button>
+</div>
+	</div>
+</div>
+</article>
+			<div class="grid-inner-flex mobile-related-articles js-slider-mobile-singleSlide">
+
+					
+<article class="card-simple card js-share-overlay">
+	<div class="card__image">
+		<img data-src="https://eco.imgix.net/uploads/2018/06/cropped-doc-20180612-24332316-06801545.jpg"
+			 src="https://eco.imgix.net/uploads/2018/06/cropped-doc-20180612-24332316-06801545.jpg?w=5&#038;q=20&#038;auto=compress,format"
+			 alt="">
+
+			</div>
+
+	<div class="card__info">
+
+		<a href="https://eco.sapo.pt/2019/02/09/trump-anuncia-novo-encontro-com-kim-jong-un-no-vietname/">
+			<h3 class="card__title">
+								Trump anuncia novo encontro com Kim Jong Un no Vietname			</h3>
+		</a>
+
+		<div class="meta">
+			<span class="meta__info meta__time"> ECO, <time datetime="2019-02-09 15:00:09">9 Fevereiro 2019</time> </span>
+		</div>
+
+	</div>
+	<a class="link-cover" href="https://eco.sapo.pt/2019/02/09/trump-anuncia-novo-encontro-com-kim-jong-un-no-vietname/"></a>
+
+	<div class="card__bottom-section">
+		<div class="meta">
+			<div class="meta__group card__icon-group">
+
+				<div class="meta__block">
+					<a class="meta__share-link">
+	<span class="meta__share-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-ShareGreen"></use></svg></span>
+		<span class="meta__share-text">8</span>
+	</a>
+				</div>
+				<div class="meta__block">
+					<a data-link="https://eco.sapo.pt/2019/02/09/trump-anuncia-novo-encontro-com-kim-jong-un-no-vietname/" class="meta__comments-link  js-trigger--off-canvas" href="#off-canvas--comments">
+	<span class="meta__comments-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentSmall"></use></svg></span>
+	<span class="meta__comments-text"></span>
+</a>				</div>			</div>
+		</div>	</div>
+	<div class="social-overlay">
+	<div class="social-overlay-wrapper">
+
+		<div class="social-overlay__close"><span><svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg></span></div>
+
+		<ul class="social">
+
+		<li class="social__item social__item--facebook meta__icon-container js-open-mini-modal">
+		<a class="social__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D422255" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FacebookLine"></use></svg></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container js-open-mini-modal">
+		<a class="social__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D422255&#038;title=Trump+anuncia+novo+encontro+com+Kim+Jong+Un+no+Vietname&#038;summary=Presidente+norte-americano+escreveu+no+Twitter+que+se+vai+encontrar+com+o+l%C3%ADder+norte-coreano+no+final+deste+m%C3%AAs.+Disse+que+a+Coreia+de+Norte+se+vai+tornar+numa+pot%C3%AAncia+econ%C3%B3mica+com+Kim+Jong+Un.&#038;source=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D422255" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-LinkedInLine"></use></a>
+	</li>
+	<li class="social__item social__item--whatsapp meta__icon-container js-open-mini-modal">
+		<a class="social__link whatsapp" href="whatsapp://send?text=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D422255" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-WhatsupLine"></use></a>
+	</li>
+			<li class="social__item social__item--facebook-messenger meta__icon-container hide--small">
+			<a class="social__link facebook-messenger" href="https://eco.sapo.pt/?p=422255" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-MessengerLine"></use></a>
+		</li>
+		<li class="social__item social__item--twitter meta__icon-container js-open-mini-modal">
+		<a class="social__link twitter" href="https://twitter.com/share?url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D422255&#038;text=Trump+anuncia+novo+encontro+com+Kim+Jong+Un+no+Vietname&#038;via=ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-TwitterLine"></use></a>
+	</li>
+	<li>
+		<span class="share-url__count"></span>
+	</li>
+</ul>
+		
+
+<div class="share-url">
+	<span class="share-url__string" style="text-overflow: ellipsis; width: 210px; overflow: hidden; white-space: nowrap;">https://eco.sapo.pt/2019/02/09/trump-anuncia-novo-encontro-com-kim-jong-un-no-vietname/</span>
+	<button class="share-url__button">Copiar<span class="icon"><svg class="eco-sprite" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-CheckboxChecked"></use></svg></span></button>
+</div>
+	</div>
+</div>
+</article>
+
+<article class="card-simple card js-share-overlay">
+	<div class="card__image">
+		<img data-src="https://eco.imgix.net/uploads/2019/02/cropped-166414_151159251606290_4020520_n-2.jpg"
+			 src="https://eco.imgix.net/uploads/2019/02/cropped-166414_151159251606290_4020520_n-2.jpg?w=5&#038;q=20&#038;auto=compress,format"
+			 alt="">
+
+			</div>
+
+	<div class="card__info">
+
+		<a href="https://eco.sapo.pt/2019/02/06/trump-anuncia-malpass-como-o-seu-candidato-ao-banco-mundial/">
+			<h3 class="card__title">
+								Trump anuncia Malpass como o seu candidato ao Banco Mundial			</h3>
+		</a>
+
+		<div class="meta">
+			<span class="meta__info meta__time"> Lusa, <time datetime="2019-02-06 20:54:28">6 Fevereiro 2019</time> </span>
+		</div>
+
+	</div>
+	<a class="link-cover" href="https://eco.sapo.pt/2019/02/06/trump-anuncia-malpass-como-o-seu-candidato-ao-banco-mundial/"></a>
+
+	<div class="card__bottom-section">
+		<div class="meta">
+			<div class="meta__group card__icon-group">
+
+				<div class="meta__block">
+					<a class="meta__share-link">
+	<span class="meta__share-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-ShareGreen"></use></svg></span>
+		<span class="meta__share-text">1</span>
+	</a>
+				</div>
+				<div class="meta__block">
+					<a data-link="https://eco.sapo.pt/2019/02/06/trump-anuncia-malpass-como-o-seu-candidato-ao-banco-mundial/" class="meta__comments-link  js-trigger--off-canvas" href="#off-canvas--comments">
+	<span class="meta__comments-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentSmall"></use></svg></span>
+	<span class="meta__comments-text"></span>
+</a>				</div>			</div>
+		</div>	</div>
+	<div class="social-overlay">
+	<div class="social-overlay-wrapper">
+
+		<div class="social-overlay__close"><span><svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg></span></div>
+
+		<ul class="social">
+
+		<li class="social__item social__item--facebook meta__icon-container js-open-mini-modal">
+		<a class="social__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420972" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FacebookLine"></use></svg></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container js-open-mini-modal">
+		<a class="social__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420972&#038;title=Trump+anuncia+Malpass+como+o+seu+candidato+ao+Banco+Mundial&#038;summary=O+Presidente+norte-americano+indicou+para+a+presid%C3%AAncia+do+Banco+Mundial+o+subsecret%C3%A1rio+do+Tesouro%2C+que+%C3%A9+um+cr%C3%ADtico+da+institui%C3%A7%C3%A3o+financeira.&#038;source=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420972" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-LinkedInLine"></use></a>
+	</li>
+	<li class="social__item social__item--whatsapp meta__icon-container js-open-mini-modal">
+		<a class="social__link whatsapp" href="whatsapp://send?text=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420972" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-WhatsupLine"></use></a>
+	</li>
+			<li class="social__item social__item--facebook-messenger meta__icon-container hide--small">
+			<a class="social__link facebook-messenger" href="https://eco.sapo.pt/?p=420972" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-MessengerLine"></use></a>
+		</li>
+		<li class="social__item social__item--twitter meta__icon-container js-open-mini-modal">
+		<a class="social__link twitter" href="https://twitter.com/share?url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420972&#038;text=Trump+anuncia+Malpass+como+o+seu+candidato+ao+Banco+Mundial&#038;via=ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-TwitterLine"></use></a>
+	</li>
+	<li>
+		<span class="share-url__count"></span>
+	</li>
+</ul>
+		
+
+<div class="share-url">
+	<span class="share-url__string" style="text-overflow: ellipsis; width: 210px; overflow: hidden; white-space: nowrap;">https://eco.sapo.pt/2019/02/06/trump-anuncia-malpass-como-o-seu-candidato-ao-banco-mundial/</span>
+	<button class="share-url__button">Copiar<span class="icon"><svg class="eco-sprite" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-CheckboxChecked"></use></svg></span></button>
+</div>
+	</div>
+</div>
+</article>
+
+<article class="card-simple card js-share-overlay">
+	<div class="card__image">
+		<img data-src="https://eco.imgix.net/uploads/2019/01/cropped-donald-trump2.jpg"
+			 src="https://eco.imgix.net/uploads/2019/01/cropped-donald-trump2.jpg?w=5&#038;q=20&#038;auto=compress,format"
+			 alt="">
+
+			</div>
+
+	<div class="card__info">
+
+		<a href="https://eco.sapo.pt/2019/02/06/trump-exige-a-pequim-mudancas-estruturais-nas-praticas-comerciais/">
+			<h3 class="card__title">
+								Trump exige a Pequim &#8220;mudanças estruturais&#8221; no comércio			</h3>
+		</a>
+
+		<div class="meta">
+			<span class="meta__info meta__time"> Paulo Moutinho, <time datetime="2019-02-06 07:30:14">6 Fevereiro 2019</time> </span>
+		</div>
+
+	</div>
+	<a class="link-cover" href="https://eco.sapo.pt/2019/02/06/trump-exige-a-pequim-mudancas-estruturais-nas-praticas-comerciais/"></a>
+
+	<div class="card__bottom-section">
+		<div class="meta">
+			<div class="meta__group card__icon-group">
+
+				<div class="meta__block">
+					<a class="meta__share-link">
+	<span class="meta__share-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-ShareGreen"></use></svg></span>
+		<span class="meta__share-text">1</span>
+	</a>
+				</div>
+				<div class="meta__block">
+					<a data-link="https://eco.sapo.pt/2019/02/06/trump-exige-a-pequim-mudancas-estruturais-nas-praticas-comerciais/" class="meta__comments-link  js-trigger--off-canvas" href="#off-canvas--comments">
+	<span class="meta__comments-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentSmall"></use></svg></span>
+	<span class="meta__comments-text"></span>
+</a>				</div>			</div>
+		</div>	</div>
+	<div class="social-overlay">
+	<div class="social-overlay-wrapper">
+
+		<div class="social-overlay__close"><span><svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg></span></div>
+
+		<ul class="social">
+
+		<li class="social__item social__item--facebook meta__icon-container js-open-mini-modal">
+		<a class="social__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420278" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FacebookLine"></use></svg></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container js-open-mini-modal">
+		<a class="social__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420278&#038;title=Trump+exige+a+Pequim+%E2%80%9Cmudan%C3%A7as+estruturais%E2%80%9D+no+com%C3%A9rcio&#038;summary=%22Estamos+a+trabalhar+num+novo+acordo+comercial+com+a+China%22%2C+disse+Trump%2C+exigindo+%22mudan%C3%A7as+estruturais%22+a+Pequim+nas+pr%C3%A1ticas+comerciais.&#038;source=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420278" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-LinkedInLine"></use></a>
+	</li>
+	<li class="social__item social__item--whatsapp meta__icon-container js-open-mini-modal">
+		<a class="social__link whatsapp" href="whatsapp://send?text=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420278" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-WhatsupLine"></use></a>
+	</li>
+			<li class="social__item social__item--facebook-messenger meta__icon-container hide--small">
+			<a class="social__link facebook-messenger" href="https://eco.sapo.pt/?p=420278" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-MessengerLine"></use></a>
+		</li>
+		<li class="social__item social__item--twitter meta__icon-container js-open-mini-modal">
+		<a class="social__link twitter" href="https://twitter.com/share?url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D420278&#038;text=Trump+exige+a+Pequim+%E2%80%9Cmudan%C3%A7as+estruturais%E2%80%9D+no+com%C3%A9rcio&#038;via=ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-TwitterLine"></use></a>
+	</li>
+	<li>
+		<span class="share-url__count"></span>
+	</li>
+</ul>
+		
+
+<div class="share-url">
+	<span class="share-url__string" style="text-overflow: ellipsis; width: 210px; overflow: hidden; white-space: nowrap;">https://eco.sapo.pt/2019/02/06/trump-exige-a-pequim-mudancas-estruturais-nas-praticas-comerciais/</span>
+	<button class="share-url__button">Copiar<span class="icon"><svg class="eco-sprite" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-CheckboxChecked"></use></svg></span></button>
+</div>
+	</div>
+</div>
+</article>
+
+<article class="card-simple card js-share-overlay">
+	<div class="card__image">
+		<img data-src="https://eco.imgix.net/uploads/2018/01/cropped-cropped-9-1-1.jpg"
+			 src="https://eco.imgix.net/uploads/2018/01/cropped-cropped-9-1-1.jpg?w=5&#038;q=20&#038;auto=compress,format"
+			 alt="">
+
+			</div>
+
+	<div class="card__info">
+
+		<a href="https://eco.sapo.pt/2018/12/22/trump-quer-financiar-muro-com-o-mexico-eua-entram-em-shutdown/">
+			<h3 class="card__title">
+								Trump quer financiar muro com o México. EUA em &#8216;shutdown&#8217;			</h3>
+		</a>
+
+		<div class="meta">
+			<span class="meta__info meta__time"> ECO, Lusa, <time datetime="2018-12-22 09:31:19">22 Dezembro 2018</time> </span>
+		</div>
+
+	</div>
+	<a class="link-cover" href="https://eco.sapo.pt/2018/12/22/trump-quer-financiar-muro-com-o-mexico-eua-entram-em-shutdown/"></a>
+
+	<div class="card__bottom-section">
+		<div class="meta">
+			<div class="meta__group card__icon-group">
+
+				<div class="meta__block">
+					<a class="meta__share-link">
+	<span class="meta__share-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-ShareGreen"></use></svg></span>
+		<span class="meta__share-text">8</span>
+	</a>
+				</div>
+				<div class="meta__block">
+					<a data-link="https://eco.sapo.pt/2018/12/22/trump-quer-financiar-muro-com-o-mexico-eua-entram-em-shutdown/" class="meta__comments-link  js-trigger--off-canvas" href="#off-canvas--comments">
+	<span class="meta__comments-icon meta__icon-container"><svg class="eco-sprite" role="img"><use xlink:href="#shape-CommentSmall"></use></svg></span>
+	<span class="meta__comments-text">1</span>
+</a>				</div>			</div>
+		</div>	</div>
+	<div class="social-overlay">
+	<div class="social-overlay-wrapper">
+
+		<div class="social-overlay__close"><span><svg class="eco-sprite" role="img"><use xlink:href="#shape-Close"></use></svg></span></div>
+
+		<ul class="social">
+
+		<li class="social__item social__item--facebook meta__icon-container js-open-mini-modal">
+		<a class="social__link facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D402640" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FacebookLine"></use></svg></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container js-open-mini-modal">
+		<a class="social__link linkedin" href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D402640&#038;title=Trump+quer+financiar+muro+com+o+M%C3%A9xico.+EUA+em+%E2%80%98shutdown%E2%80%99&#038;summary=Os+servi%C3%A7os+p%C3%BAblicos+americanos+est%C3%A3o+paralisados%2C+o+chamado+%27shutdown%27%2C+na+sequ%C3%AAncia+do+falhan%C3%A7o+de+um+acordo+sobre+o+or%C3%A7amento.+Trump+n%C3%A3o+abdica+do+muro+com+o+M%C3%A9xico.&#038;source=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D402640" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-LinkedInLine"></use></a>
+	</li>
+	<li class="social__item social__item--whatsapp meta__icon-container js-open-mini-modal">
+		<a class="social__link whatsapp" href="whatsapp://send?text=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D402640" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-WhatsupLine"></use></a>
+	</li>
+			<li class="social__item social__item--facebook-messenger meta__icon-container hide--small">
+			<a class="social__link facebook-messenger" href="https://eco.sapo.pt/?p=402640" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-MessengerLine"></use></a>
+		</li>
+		<li class="social__item social__item--twitter meta__icon-container js-open-mini-modal">
+		<a class="social__link twitter" href="https://twitter.com/share?url=https%3A%2F%2Feco.sapo.pt%2F%3Fp%3D402640&#038;text=Trump+quer+financiar+muro+com+o+M%C3%A9xico.+EUA+em+%E2%80%98shutdown%E2%80%99&#038;via=ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-TwitterLine"></use></a>
+	</li>
+	<li>
+		<span class="share-url__count"></span>
+	</li>
+</ul>
+		
+
+<div class="share-url">
+	<span class="share-url__string" style="text-overflow: ellipsis; width: 210px; overflow: hidden; white-space: nowrap;">https://eco.sapo.pt/2018/12/22/trump-quer-financiar-muro-com-o-mexico-eua-entram-em-shutdown/</span>
+	<button class="share-url__button">Copiar<span class="icon"><svg class="eco-sprite" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-CheckboxChecked"></use></svg></span></button>
+</div>
+	</div>
+</div>
+</article>
+
+			</div>
+
+			<div class="grid-pub-container has-publicity__show">
+
+			<div class="sapopub" data-sas-siteid="181192" data-sas-pageid="867025" data-sas-formatid="34643" data-pub="sas"></div>
+	</div>
+			</div>
+</div>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+
+
+
+</div>
+<footer id="colophon" class="site-footer" role="contentinfo">
+
+	<div class="site-footer__links echo echo--double echo--top-left">
+		<div class="container">
+
+			<div class="site-footer__content">
+
+				<div class="footer-follow">
+
+										<div class="footer-newsletter">
+						<div class="footer-newsletter__actions">
+							<h3 class="footer__title">Newsletters</h3>
+							<p>Receba gratuitamente informação económica de referência</p>
+														<a href="https://eco.sapo.pt/newsletters/"  class="button footer__button"><svg class="eco-sprite" role="img"><use xlink:href="#shape-footer_newsletter"></use></svg>Subscrever</a>
+						</div>
+					</div>
+
+											<div class="footer-social">
+		<h3 class="footer__title">Siga-nos</h3>
+
+		<ul class="social">
+			
+	<li class="social__item social__item--twitter meta__icon-container">
+		<a class="social__link twitter" href="https://twitter.com/ECO_PT" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterTwitter"></use></a>
+	</li>
+	<li class="social__item social__item--linkedin meta__icon-container">
+		<a class="social__link linkedin" href="https://www.linkedin.com/company/10878000" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterLinkedIn"></use></a>
+	</li>
+		<li class="social__item social__item--facebook meta__icon-container">
+			<a class="social__link facebook" href="https://www.facebook.com/ECOEconomiaOnline/" target="_blank" ><svg class="eco-sprite" role="img"><use xlink:href="#shape-FooterFacebook"></use></svg></a>
+		</li>		</ul>
+	</div>
+
+				</div>
+
+				<div class="footer__menus-container">
+
+										<div class="footer-menu site-footer__block">
+						<h3 class="footer__title">Explorar</h3>
+						<div class="menu-navegacao-footer-explorar-container"><ul id="footer-menu" class="menu"><li id="menu-item-11363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11363"><a href="/empresas">Empresas</a></li>
+<li id="menu-item-11364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11364"><a href="/personalidades">Personalidades</a></li>
+<li id="menu-item-11365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11365"><a href="/descodificadores">Descodificadores</a></li>
+<li id="menu-item-11366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11366"><a href="/entrevistas">Entrevistas</a></li>
+<li id="menu-item-11367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11367"><a href="/reportagens">Reportagens</a></li>
+<li id="menu-item-312716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-312716"><a href="/especiais">Especiais</a></li>
+<li id="menu-item-11368" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11368"><a href="/opiniao">Opinião</a></li>
+<li id="menu-item-409169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409169"><a href="https://eco.sapo.pt/topico/brands-eco/">BRANDS&#8217; ECO</a></li>
+<li id="menu-item-409170" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409170"><a href="https://eco.sapo.pt/topico/brands-advocatus/">BRANDS&#8217; ADVOCATUS</a></li>
+<li id="menu-item-413720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-413720"><a href="https://eco.sapo.pt/topico/ecoolhunter/">EcoolHunter</a></li>
+<li id="menu-item-11362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11362"><a href="https://eco.sapo.pt/autores/">Autores</a></li>
+</ul></div>					</div>
+
+										<div class="footer-menu site-footer__block">
+						<h3 class="footer__title">Sobre</h3>
+						<div class="menu-navegacao-footer-sobre-container"><ul id="footer-about-menu" class="menu"><li id="menu-item-11371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11371"><a href="/manifesto-editorial/">Manifesto Editorial</a></li>
+<li id="menu-item-11372" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11372"><a href="/ficha-tecnica/">Ficha Técnica</a></li>
+<li id="menu-item-11373" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11373"><a href="/politica-de-privacidade/">Política de Privacidade</a></li>
+<li id="menu-item-11370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11370"><a href="https://eco.sapo.pt/contactos/">Contactos</a></li>
+</ul></div>					</div>
+
+																<div class="footer-menu site-footer__block">
+							<h3 class="footer__title">Download</h3>
+							<p class="footer__disclaimer">Disponível gratuitamente para iPhone, iPad, Apple Watch e Android</p>
+							
+						<a href="https://itunes.apple.com/us/app/eco-economia-online/id1154525000?mt=8"  class="button footer__button footer__download" target="_blank"><svg class="eco-sprite" role="img"><use xlink:href="#shape-footer_apple"></use></svg>App Store</a>
+						<a href="https://play.google.com/store/apps/details?id=pt.eco.mobile.android"  class="button footer__button footer__download" target="_blank"><svg class="eco-sprite" role="img"><use xlink:href="#shape-footer_google"></use></svg>Google Play</a>						</div>
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="site-footer__info">
+		<div class="container">
+
+			<div class="site-info">
+				&copy; Copyright ECO 2019 Swipe News, SA. Todos os Direitos Reservados			</div>
+		</div>
+	</div>
+
+</footer></div>
+<script type="text/javascript">
+			var _sf_async_config={};
+			_sf_async_config.uid = 64190;
+			_sf_async_config.domain = "eco.sapo.pt";
+			_sf_async_config.useCanonical = true;
+		(function(){
+	  		function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('language', 'javascript');
+			e.setAttribute('type', 'text/javascript');
+			e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+			document.body.appendChild(e);
+		  }
+		  var oldonload = window.onload;
+		  window.onload = (typeof window.onload != 'function') ?
+			 loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+		})();
+		</script>
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var ECO_JS = {"nonce_api":"8836e03e45","nonce_rest":"892544f0c3","nonce_load_more":"b0d8dd8c87","ajax_base":"https:\/\/eco.sapo.pt\/ajaxeco\/","ajax_route":"https:\/\/eco.sapo.pt\/wp-json\/","archive_load_more":"12","wp_ajax_url":"https:\/\/eco.sapo.pt\/wp-admin\/admin-ajax.php","permalink":"https:\/\/eco.sapo.pt\/2019\/02\/14\/nao-ha-shutdown-mas-ha-muro-trump-pressiona-wall-street\/","post_id":"424705"};
+var author = {"name":"Rafaela Burd Relvas"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-content/themes/eco-theme/assets/js/eco.min.js?ver=1551047147'></script>
+<script type='text/javascript' src='https://js.sapo.pt/Projects/CPU/latest/lazypub.min.js?ver=0.1'></script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/wp-a11y.min.js?ver=5.0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"Nenhum resultado encontrado.","oneResult":"Encontrado 1 resultado. Utilize as teclas de seta para cima e para baixo para navegar.","manyResults":"%d resultados encontrados. Use as setas para cima ou baixo para navegar.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://eco.sapo.pt/wp-includes/js/wp-embed.min.js?ver=5.0.2'></script>
+
+<!-- /1025113/eco-floorad-990x50 -->
+<div id="div-gpt-ad-1519387081980-0">
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1519387081980-0'); });
+</script>
+</div>
+<div id="outdated">
+ <h6>O seu browser est&aacute; desatualizado!</h6>
+ <p>Atualize o seu browser para ter uma melhor experi&ecirc;ncia e visualiza&ccedil;&atilde;o deste site. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/pt">Atualize o seu browser agora</a></p>
+ <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Fechar">&times;</a></p>
+</div>
+
+<script async id="bsuScript" src="//js.sapo.pt/Projects/bsuv3/js/bsuv3.min.js" data-partner="eco" data-width="1120"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80916086-1', 'auto');
+  ga('require', 'displayfeatures');
+  // prevent author being undefined
+  if ( typeof author !== 'undefined' ) {
+	  ga('set', 'dimension1', author.name);
+  }
+
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Begin BlueKai Tag -->
+<script type="text/javascript">
+	window.bk_async = function() {
+		// ALLOW MULTIPLE CALLS/SINGLE PAGE APPS
+		//bk_allow_multiple_calls=  true ; bk_use_multiple_iframes=  true ;
+
+		BKTAG.doTag( 44234, 4);  // you will be supplied with this
+	};
+	(function() {
+		var scripts = document.getElementsByTagName('script')[0];
+		var s = document.createElement('script');
+		s.async = true;
+		s.src = "https://tags.bkrtx.com/js/bk-coretag.js";
+		scripts.parentNode.insertBefore(s, scripts);
+	}());
+</script>
+<!-- End BlueKai Tag -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d919eb13d6","applicationID":"240703717","transactionName":"YlRSMkcHWUADVxdaXVsecQVBD1hdTUcKXVVZVA==","queueTime":0,"applicationTime":360,"atts":"ThNRRA8dSk4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

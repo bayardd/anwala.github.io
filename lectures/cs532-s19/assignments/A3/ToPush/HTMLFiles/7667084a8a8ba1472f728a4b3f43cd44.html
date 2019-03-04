@@ -1,0 +1,2345 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Paddy Power</title>
+<meta name="keywords" content="Egaming, E-Gaming, Bingo, Games, Casino, Paddy Power, offers" />
+<meta name="description" content="The latest E-Gaming offers from Paddy Power." />
+<meta name="robots" content="index,nofollow" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link href="https://promotions.cdnbf.net/media/english_uk/files/ci_various/font1/plugins/lp_js/pp/style_v10_payment-removed.min.css" rel="stylesheet"><!-- FOLDER_HEAD_START START -->
+<!-- GLOBAL_PP_HEAD_START START -->
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- GLOBAL_STATELY START -->
+<script type="text/javascript">
+/*
+stately.js v1.15
+No dependencies on other libraries. Will use jQuery for DOMContentLoaded event if present.
+*/
+var STATELY = STATELY || (function(d) {
+    var states = {},
+        groups = 0,
+        journal = [],
+        started = false,
+        start_states = {},
+        set_loaded = true,
+        listeners = {},
+        current_state = {},
+        debug = false;
+
+    function addCSS(css, id) {
+        if (id && document.getElementById(id)) document.getElementById(id).remove();
+        var head = document.getElementsByTagName('head')[0];
+        var styleElement = document.createElement('style');
+        if (id) styleElement.id = id;
+        styleElement.setAttribute('type', 'text/css');
+        if (styleElement.styleSheet) { // IE
+            styleElement.styleSheet.cssText = css;
+        } else { // the world
+            styleElement.appendChild(document.createTextNode(css));
+        }
+        head.appendChild(styleElement);
+        return this;
+    }
+
+    function hasClass(e, c) {
+        var r = new RegExp("^" + c + "\\s+|\\s+" + c + "\\s+|\\s+" + c + "$", "g");
+        var ec = " " + e.className + " ";
+        return r.test(ec);
+    }
+
+    function addClass(e, c) {
+        if (!hasClass(e, c)) {
+            var ec = (e.className + " " + c).replace(/^ *| *$/g, "");
+            e.className = ec;
+        }
+    }
+
+    function removeClass(e, c) {
+        var r = new RegExp("^" + c + "\\s+|\\s+" + c + "\\s+|\\s+" + c + "$", "g");
+        var ec = " " + e.className + " ";
+        ec = ec.replace(r, " ").replace(/^ *| *$/g, "").replace(/\s+/g, " ");;
+        e.className = ec;
+    }
+
+    function toggleClass(e, c1, c2) {
+        if (hasClass(e, c1)) {
+            removeClass(e, c1);
+            addClass(e, c2);
+        } else {
+            removeClass(e, c2);
+            addClass(e, c1);
+        }
+    }
+
+
+    function group(name, statelist, scope, typ, typ_selected) {
+        if (arguments.length == 1) {
+            name = name.split('|');
+            for (var i = 0; i < name.length; i++) {
+                name[i] = name[i].split('-');
+                if (name[i].length < 2) continue;
+                group(name[i][0], name[i][1]);
+            }
+            return this;
+        }
+        if (typeof statelist === 'string') statelist = statelist.split(',');
+        journal.push([name, statelist, scope, typ, typ_selected]);
+        //start_states[name]=statelist[0];
+        if (started) {
+            build(name, statelist, scope, typ, typ_selected);
+        }
+        //.current_state[name]=statelist[0];
+        if (started) {
+            build(name, statelist, scope, typ, typ_selected);
+            set(name, statelist[0]);
+            _write(name);
+        }
+        return this;
+    }
+
+    function build(name, statelist, scope, typ, typ_selected) {
+        var selector;
+        scope = scope || d.body;
+        if (scope === null || typeof scope === 'undefined') {
+            throw new Error("Scope for state " + name + " is illegal or missing.");
+        }
+        typ = typ || 'display:none;';
+        typ_selected = typ_selected || '';
+        if (typeof(scope) === "object" && ('tagName' in scope)) {
+            if (scope.tagName === "BODY") {
+                selector = "body";
+            } else if (scope.hasAttribute('id')) {
+                selector = '#' + scope.id;
+            } else {
+                groups += 1;
+                scope.id = "stately_" + groups;
+                selector = '#' + scope.id;
+            }
+
+        } else if (typeof(scope) === "string") {
+            selector = '#' + scope;
+            var scope_tmp = d.getElementById(scope);
+            scope = scope_tmp;
+        }
+        states[(selector != 'body' ? selector.substring(1) + '-' : '') + name] = {
+            n: name,
+            a: statelist,
+            e: scope,
+            r: selector,
+            t: typ,
+            on: typ_selected
+        };
+        //set((selector != 'body' ? selector.substring(1) + '-' : '') + name, statelist[0]);
+        // Was overwriting early set states
+    }
+
+    function _write(state) {
+        var css = "",
+            s, i, j, sep = "";
+
+        for (i = 0; i < journal.length; i++) {
+            if (typeof(state) == 'undefined' || state == journal[i][0]) build(journal[i][0], journal[i][1], journal[i][2], journal[i][3], journal[i][4]);
+        }
+
+        for (s in states) {
+            if ((typeof(state) == 'undefined' || state == s) && states[s].hasOwnProperty('a') && typeof(states[s].a) !== "undefined") {
+                for (i = 0; i < states[s].a.length; i++) {
+                    for (j = 0; j < states[s].a.length; j++) {
+                        if (i != j) {
+                            css += sep + states[s].r + "." + states[s].n + "-" + states[s].a[i] + " " + "." + states[s].n + "-" + states[s].a[j];
+                            sep = ",";
+                        }
+                    }
+                }
+                css += "{" + states[s].t + "}\n";
+                sep = "";
+                for (i = 0; i < states[s].a.length; i++) {
+                    css += sep + states[s].r + "." + states[s].n + "-" + states[s].a[i] + " " + "." + states[s].n + "-not-" + states[s].a[i];
+                    sep = ",";
+                }
+                css += "{" + states[s].t + "}\n";
+                sep = "";
+                if ('on' in states[s] && states[s].on) {
+                    for (i = 0; i < states[s].a.length; i++) {
+                        css += sep + states[s].r + "." + states[s].n + "-" + states[s].a[i] + " " + "." + states[s].n + "-" + states[s].a[i];
+                        sep = ",";
+                    }
+                    css += "{" + states[s].on + "}\n";
+                    sep = "";
+                }
+            }
+        }
+        addCSS(css);
+
+        for (s in states) {
+            if (typeof(state) == 'undefined' || state == s) {
+                if (s in start_states) set((states[s].r != 'body' ? states[s].r.substring(1) + '-' : '') + s, start_states[s]);
+                else set((states[s].r != 'body' ? states[s].r.substring(1) + '-' : '') + s, states[s].a[0]);
+            }
+        }
+    }
+
+    function get(n) {
+        if (typeof(n) === 'undefined') return current_state;
+        return current_state[n];
+    }
+
+    function groupAttr(n, a) {
+        if (typeof a === 'undefined') return states[n];
+        return states[n][a];
+    }
+
+    function set(name, state) {
+        var i, prv;
+
+        if (typeof(name) === "object") {
+            for (i in name) set(i, name[i]);
+            return this;
+        }
+
+        debug && window.console && console.log && console.log('set', started, name, state);
+
+        if (state == 'debug') debug = (state === true) || state === 'y';
+
+        if (started) {
+            if (states[name] && states[name].a && 'length' in states[name].a && states[name].a.indexOf(state) >= 0) {
+                for (i = 0; i < states[name].a.length; i++) {
+                    if (states[name].a[i] != state && states[name].e) removeClass(states[name].e, states[name].n + "-" + states[name].a[i]);
+                }
+                addClass(states[name].e, states[name].n + "-" + state);
+            }
+            current_state[name] = state;
+            trigger('set-' + name, state);
+            trigger('change', name, state);
+            trigger('set-' + name + "-" + state);
+        }
+        start_states[name] = state;
+
+        if (name == 'loaded' && started) {
+            if (state == 'y') {
+                removeClass(d.body, "loading");
+                addClass(d.body, "loaded");
+            } else if (state == 'n') {
+                removeClass(d.body, "loaded");
+                addClass(d.body, "loading");
+            }
+        }
+
+        return this;
+    }
+
+    function onload(f) {
+        if (started) {
+            f();
+            return;
+        }
+        if (document.addEventListener) {
+            document.addEventListener("DOMContentLoaded", f, false);
+        } else if (window.jQuery) {
+            jQuery(f);
+        } else {
+            var w = window.onload;
+            window.onload = function() {
+                f();
+                if (w) w();
+            };
+        }
+    }
+
+    onload(function() {
+        started = true;
+        _write();
+        if (set_loaded) loaded();
+        trigger('started', states, current_state);
+    });
+
+    function setLoadState(s) {
+        set_loaded = (s === true);
+    };
+
+    function loaded(l) {
+        if (arguments.length == 0) l = true;
+        else l = (l === true);
+        if (l) {
+            if (started) {
+                debug && window.console && console.log && console.log("loaded");
+                addClass(d.body, 'loaded');
+                removeClass(d.body, 'loading');
+                set('loaded', 'y');
+                trigger('loaded');
+            } else set_loaded = true;
+        } else {
+            set('loaded', 'n');
+        }
+    };
+
+    function setStateStyle(n, a, b) {
+        if (n in states) {
+            if (a) states[n]['t'] = a;
+            if (b) states[n]['on'] = b;
+            return this;
+        }
+        for (i = 0; i < journal.length; i++) {
+            if (n === journal[i][0]) {
+                if (a) journal[i][3] = a;
+                if (b) journal[i][3] = b;
+            }
+        }
+        return this;
+    }
+
+    function on(name, func) {
+        if (typeof(func) === 'function') {
+            if (name in listeners) listeners[name].push(func);
+            else listeners[name] = [func];
+        } else {
+            window.console && console.error && console.error('Used an invalid function as a callback.');
+        }
+        return this;
+    }
+
+    function toggle(name) {
+        var i;
+        if (name in states) {
+            for (i = 0; i < states[name]['a'].length; i++) {
+                if (current_state[name] == states[name]['a'][i]) {
+                    i += 1;
+                    if (i >= states[name]['a'].length) i = 0;
+                    set(name, states[name]['a'][i]);
+                    break;
+                }
+            }
+
+        }
+        return this;
+    }
+
+    // Can accept arbitrary number of parameters,
+
+    function trigger(name) {
+        var a = Array.prototype.slice.call(arguments),
+            i;
+        if (a.length > 1) a = a.slice(1);
+        else a = null;
+        if (name in listeners) {
+            for (i in listeners[name]) {
+                if (listeners[name][i].apply && listeners[name][i].apply(this, a)) break;
+            }
+        }
+    }
+
+    function onchange(n, f) {
+        on('set-' + n, f);
+    };
+
+
+    return {
+        version: "1.15",
+        addCSS: addCSS,
+        group: group,
+        set: set,
+        get: get,
+        setStateStyle: setStateStyle,
+        onload: onload,
+        setLoadState: setLoadState,
+        loaded: loaded,
+        onchange: onchange,
+        on: on,
+        trigger: trigger,
+        toggle: toggle,
+        flush: _write,
+        groupAttr: groupAttr
+    };
+})(document);
+</script>
+
+<!-- GLOBAL_STATELY END -->
+<script>
+    (function(name) {
+        var server = null,
+            offset = null;
+
+        Object.defineProperty(window, name, {
+            'get': function() {
+                return new Date((new Date()).valueOf() - offset);
+            },
+            'set': function(e) {
+                clock = e;
+                offset = (new Date()) - clock;
+            }
+        });
+    })('SERVERCLOCK');
+SERVERCLOCK=(function(srv) {
+    var d="";
+    try {
+        if (d) d=d.replace('T',' ').split(' ');
+        if (d.length===1) d.push('12:00:00');
+        d[1]=d[1].split(':');
+        if (d[1].length===1) d[1].push('00');
+        if (d[1].length===2) d[1].push('00');
+        d=d[0]+'T'+d[1].slice(0,3).join(':')+'.000Z';
+        d=new Date(d);
+        if (isNaN(d)) return srv;
+    } catch (e) {}
+    return d || srv;
+})(new Date('2019-02-25T04:49:23.000Z'));
+</script>
+<script>
+var COUNTDOWN = (function() {
+    var timer, fmt = '%hh:%mm:%ss', started=false,onupdate=null,
+        onzero = null;
+
+    function update() {
+        $('[data-countdown-to]').each(function(i,e  ) {
+            var d, days = 0,
+                t = new Date($(e).data('countdown-to')), dest=$(e).data('countdown-url') || "https://promotions.paddypower.com/b10g10-grand-national" || null,
+                f = $(e).data('countdown-format') || fmt,
+                l = Math.floor((t - SERVERCLOCK) / 1000),
+                hh = Math.floor(l / 60 / 60),
+                mm = Math.floor((l - hh * 3600) / 60),
+                ss = l - mm * 60 - hh * 3600;
+if (onupdate && typeof onupdate==='function') onupdate.call(e,hh,mm,ss,l);
+            if (l < 0) {
+                if (onzero && typeof onzero==='function') {
+                   if (onzero(e, i)===false) {
+                      return;
+                   }
+                }
+                if (dest && /^https?:\/\//.test(dest)) window.location.replace(dest);
+                return ;
+            }
+            if (typeof f === 'function') {
+                f.call(e, hh, mm, ss)
+            } else if (f.indexOf('%') >= 0) {
+                d = f;
+                if (d.indexOf('%d') >= 0) {
+                    days = Math.floor(hh / 24);
+                    hh = hh % 24;
+
+                }
+                d = d.replace(/{%(.*?)%}/g, function(x, e) {
+                    return (new Function("d", "h", "m", "s", "return (" + e + ")"))(days, hh, mm, ss);
+                });
+                d = d.replace('%ddd', ('000' + days).substr(-3)).replace('%dd', ('00' + days).substr(-2)).replace('%d', days);
+                d = d.replace('%hhhh', ('0000' + hh).substr(-4)).replace('%hhh', ('000' + hh).substr(-3)).replace('%hh', hh < 10 ? '0' + hh : hh).replace('%h', hh).replace('%mm', mm < 10 ? '0' + mm : mm).replace('%m', mm).replace('%ss', ss < 10 ? '0' + ss : ss).replace('%s', ss);
+
+                if (d != $(e).html()) $(e).html(d);
+            } else if (window[f] && typeof window[f] === 'function') window[f].call(e, hh, mm, ss);
+        });
+    }
+
+    function format(f) {
+        fmt = f || '%hh:%mm:%ss';
+return this;
+    }
+
+    function start(interval) {
+        update();
+        interval = interval || 1000;
+        if (timer) window.clearInterval(timer);
+        timer = setInterval(update, interval);
+started=true;
+    }
+    return {
+started: function() {return started===true;},
+        start: start,
+        format: format,
+        onzero: function(f) {
+            onzero = f;
+return this;
+        },
+onupdate: function(f) {
+            onupdate= f;
+return this;
+        }
+    };
+})();
+</script>
+
+
+
+
+<script>
+STATELY.group('session-n,y');
+window.session=window.session||{loggedin:false, accountid: 0, custid:0, mobireloadurl: null, cro: false };
+(function(sess) {
+window.session.loggedin=sess.loggedin;
+window.session.accountid=sess.accountid;
+window.session.custid=sess.custid;
+window.session.cro=sess.cro;
+STATELY.set('session',session.loggedin?'y':'n');
+})( {"cro":false,"loggedin":false,"accountid":0,"custid":0} );
+
+    function cookie(name) {
+        return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(name).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || '';
+    }
+
+// Look for significant cookie changes every half second to avoid bothering the server unnecessarily
+(function() {
+
+    var tmr=null, cookies={ ssoid:cookie('ssoid') };
+    function checkCookieChange() {
+        if (tmr) clearTimeout(tmr);
+        var ssoid= cookie('ssoid'), change = ssoid!==cookies.ssoid ;
+        if (change) {
+            if (window.session && window.session.onchange && typeof window.session.onchange==='function') window.session.onchange();
+            else window.location.reload();
+cookies.ssoid=ssoid;
+        }
+        tmr = setTimeout(checkCookieChange, 500);
+    }
+    checkCookieChange();
+})();
+</script>
+
+
+
+<!-- GLOBAL_PP_HEAD_START END -->
+<!-- FOLDER_HEAD_START END -->
+
+<!-- GLOBAL_PP_FOLDER_CODE START -->
+
+<link rel="shortcut icon" href="//promotions.cdnbf.net/media/english_uk/files/paddypower/favicon.ico?201707207" />
+
+
+<!-- GLOBAL_PP_FOLDER_JS START -->
+<script>
+// Array.map polyfill
+Array.prototype.map || (Array.prototype.map = function(a, b) {
+    var c, d, e;
+    if (null == this) throw new TypeError(" this is null or not defined");
+    var f = Object(this),
+        g = f.length >>> 0;
+    if ("function" != typeof a) throw new TypeError(a + " is not a function");
+    for (arguments.length > 1 && (c = b), d = new Array(g), e = 0; e < g;) {
+        var h, i;
+        e in f && (h = f[e], i = a.call(c, h, e, f), d[e] = i), e++
+    }
+    return d
+});
+
+(function() {
+
+    var i, pa, redirected = false,
+        cookie_domain = document.domain.split('.').slice(-2).join('.');
+
+    try { document.domain = cookie_domain; } catch (e) {}
+
+    function writeAffidCookie() {
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + 45);
+        document.cookie = "AFF_ID=" + query.AFF_ID + "; path=/; domain=." + cookie_domain + "; expires=" + exdate.toUTCString();
+    }
+
+    window.getCookie = function(name, subcookie, sep) {
+        var result = null,
+            i, c;
+        subcookie = subcookie || '';
+        sep = sep || '~';
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (i = 0; i < ca.length; i++) {
+            c = ca[i];
+            while (c.length > 0 && c.charAt(0) == ' ') c = c.substring(1);
+            if (c.indexOf(nameEQ) === 0) {
+                result = unescape(c.substring(nameEQ.length, c.length));
+                break;
+            }
+        }
+        if (result !== null && subcookie !== '') {
+
+            result = result.split(sep);
+            for (i = 0; i < result.length; i++) {
+                c = result[i].split('=');
+                if (c.length > 1 && c[0] === subcookie) {
+                    result = c[1];
+                    break;
+                }
+            }
+        }
+
+        return result;
+    };
+
+    // Decompose a query string (if passed) or the current page's query string into an object for quick reference
+    window.parseQuery = function(q) {
+        var p, t, i;
+
+        q = typeof q==='string' ? q : window.location.search.substring(1);
+        q = q.replace(/;/g, '&').split('&');
+        p = {};
+
+        for (i = 0; i < q.length; i++) {
+            if (q[i].length === 0) continue;
+            t = q[i].split('=');
+            if (t.length > 1) {
+                p[t[0]] = t.slice(1).join('=');
+            }
+        }
+        return p;
+    }
+	// Overlay and merge the query string in o into url, returning a new url+query
+	window.mergeQuery = function(url, o) {
+		if (!url || typeof url !== 'string') return ''; // IF we haven't got a url give up
+
+		o = o || '';
+
+		var r = url.split('?');
+		if (r.length == 1) {
+			r.push('');
+		} else {
+			r[1] = r.slice(1).join('?'); // Put back together a badly constructed url. It happens.
+		}
+
+		if (typeof o === 'string') o = parseParameters(o);
+		var p = parseParameters(r[1]);
+		for (var t in o) {
+			p[t] = o[t];
+		}
+		var returnURL = '';
+		if (p.returnURL) {
+			returnURL = p.returnURL;
+			delete p.returnURL;
+		}
+
+		url = r[0] + '?' + $.map(p, function(e, f) {
+			return f + '=' + e;
+		}).join('&');
+
+		url = url.replace(/[?&]$|/, '');
+		if (returnURL) {
+			var last = '';
+			while (returnURL != last) {
+				last = returnURL;
+				returnURL = decodeURIComponent(unescape(returnURL));
+			}
+			returnURL = encodeURIComponent(returnURL);
+			url += (url.split('?').length > 1 ? '&' : '?') + 'returnURL=' + returnURL;
+		}
+		return url;
+	}
+	// Overlay and merge the query string in o into url, returning a new url+query
+	window.mergeQuery = function(url, o) {
+		if (!url || typeof url !== 'string') return ''; // IF we haven't got a url give up
+
+        var fragments = url.split('#'),
+            fragment = null;
+        if (fragments.length > 1) fragment = fragments.slice(1).join('#');
+        url = fragments[0];
+
+
+		o = o || '';
+
+		var r = url.split('?');
+		if (r.length == 1) {
+			r.push('');
+		} else {
+			r[1] = r.slice(1).join('?'); // Put back together a badly constructed url. It happens.
+		}
+
+		if (typeof o === 'string') o = parseQuery(o);
+		var p = parseQuery(r[1]);
+		for (var t in o) {
+            if (['testpanel', 'date', 'BOUNCE_CUSTOMERS', 'BOUNCE_BAD_AFF_ID', 'BOUNCE_EXPIRED', 'DEFAULT_AFF_ID', 'ALLOWED_AFF_IDS', 'regflip', 'mobi'].indexOf(t) >= 0) continue;
+            if (t !== 'AFF_ID' || (!p.AFF_ID && o[t])) p[t] = o[t]; // Only overwrite the original parameter if it's not AFF_ID, or there's no AFF_ID in the original url and this AFF_ID is not blank
+		}
+		var returnURL = '';
+		if (p.returnURL) {
+			returnURL = p.returnURL;
+			delete p.returnURL;
+		}
+
+		url = r[0] + '?' + $.map(p, function(e, f) {
+			return f + '=' + e;
+		}).join('&');
+
+		url = url.replace(/[?&]$|/, '');
+		if (returnURL) {
+			var last = '';
+			while (returnURL != last) {
+				last = returnURL;
+				returnURL = decodeURIComponent(unescape(returnURL));
+			}
+			returnURL = encodeURIComponent(returnURL);
+			url += (url.split('?').length > 1 ? '&' : '?') + 'returnURL=' + returnURL;
+		}
+
+		if (fragment) url += '#' + fragment;
+		return url;
+	}
+
+    // Overlay and merge the query string in o into url, returning a new url+query
+    window.mergeQuery_save = function(url, o) {
+        var fragments = url.split('#'),
+            fragment = null;
+        if (fragments.length > 1) fragment = fragments.slice(1).join('#');
+        url = fragments[0];
+
+        if (!url || typeof url !== 'string') return ''; // IF we haven't got a url give up
+
+        o = o || '';
+
+        var r = url.split('?');
+        if (r.length == 1) {
+            r.push('');
+        } else {
+            r[1] = r.slice(1).join('?'); // Put back together a badly constructed url. It happens.
+        }
+
+        if (typeof o === 'string') o = parseQuery(o);
+        var p = parseQuery(r[1]);
+        for (var t in o) {
+            if (['testpanel', 'date', 'BOUNCE_CUSTOMERS', 'BOUNCE_BAD_AFF_ID', 'BOUNCE_EXPIRED', 'DEFAULT_AFF_ID', 'ALLOWED_AFF_IDS', 'regflip', 'mobi'].indexOf(t) >= 0) continue;
+            if (t !== 'AFF_ID' || (!p.AFF_ID && o[t])) p[t] = o[t]; // Only overwrite the original parameter if it's not AFF_ID, or there's no AFF_ID in the original url and this AFF_ID is not blank
+        }
+
+        url = r[0] + '?' + $.map(p, function(e, f) {
+            return f + '=' + e;
+        }).join('&');
+
+        url = url.replace(/[?&]$|/g, '');
+        if (fragment) url += '#' + fragment;
+        return url;
+    }
+
+    // Navigate to url, overlaying all this page's query parameters (apart from AFF_ID if present in url)
+    window.redirect = function(url) {
+        if (!url || redirected) return; // Give up if the url is missing or blank or if we've already been redirected
+        url = mergeQuery(url, query);
+        redirected = true;
+        if (query.testpanel === 'true') {
+            $(function() {
+                alert('Bounce to\n' + url);
+            });
+            return;
+        }
+        // $(document.body).append('<a id="selfclick" href="' + url+ '" style="display:none;"></a>');
+
+        //$('#selfclick')[0].click();
+
+
+        top.window.location.replace(url);
+    };
+
+    function isCustomer() {
+        return !!((window.session && (window.session.loggedin || (window.session.accountid!=='' && window.session.accountid!=0) || (window.session.custid!=='' && window.session.custid!=0)) ) || getCookie('ssoid') || getCookie('cust_prefs') || getCookie('ac_prefs') || getCookie('custId') );
+    }
+
+    window.query = parseQuery();
+    if (query.testpanel === 'true' && query.date) {
+        SERVERCLOCK = new Date(query.date.replace('+', 'T').split('.')[0] + '.000Z');
+        if (isNaN(SERVERCLOCK)) alert('"' + query.date + '" not a valid date/time.');
+    }
+
+    window.page = {
+        'bounce_customers': typeof query.BOUNCE_CUSTOMERS!=='undefined'? query.BOUNCE_CUSTOMERS:'http://www.paddypower.com/bet',
+        'bounce_expired': query.BOUNCE_EXPIRED || 'https://promotions.paddypower.com/b10g10-grand-national',
+        'bounce_bad_aff_id': '',
+        'countdown': query.COUNTDOWN || '31 May 2044 17:15:00 UTC',
+        'expire': null,
+        'allowed_aff_ids': [],
+        'visible_aff_ids': [],
+        'default_aff_id': (typeof query.DEFAULT_AFF_ID == 'string') ? query.DEFAULT_AFF_ID : ''
+    };
+
+    // Make sure our aff id list has no blanks or spaces
+    pa = (typeof query.ALLOWED_AFF_IDS == 'string' ? query.ALLOWED_AFF_IDS : '').split(',');
+    for (i = 0; i < pa.length; i++) {
+        pa[i] = pa[i].replace(/\s+|\s+$/g, '');
+        if (pa[i]) {
+            page.allowed_aff_ids.push(pa[i]);
+            page.visible_aff_ids.push(pa[i]);
+        }
+    }
+
+    // If the default add id in not the whitelist, add it to the visible list so we have a state for it
+    if (page.default_aff_id && page.allowed_aff_ids.indexOf(page.default_aff_id) < 0) page.visible_aff_ids.push(page.default_aff_id);
+
+    window.STATELY && STATELY.group('testpanel-no,min,max|customer-n,y|expired-n,y');
+
+    // Try and parse the countdown date/time, alerting if we can't so we're unlikely to go live with something invalid
+    if (page.countdown) page.expire = new Date(page.countdown);
+    if (isNaN(page.expire)) alert('"' + page.countdown + '" doesn\'t seem to be a valid date/time.')
+
+
+    query.AFF_ID = query.AFF_ID || query.aff_id || page.default_aff_id || '';
+    if (query.aff_id) delete query.aff_id;
+    writeAffidCookie();
+
+    // If we have a whitelist, but AFF_ID is empty or not in the whitelist...
+    if (page.allowed_aff_ids.length > 0 && page.allowed_aff_ids.indexOf(query.AFF_ID || '-') < 0) {
+        query.AFF_ID = page.default_aff_id || ''; // Fix the aff id
+        writeAffidCookie();
+        // If there's a bounce url, go there
+        if (page.bounce_bad_aff_id) redirect(page.bounce_bad_aff_id);
+    }
+
+
+    // If we have a bounce url for existing customers and there's cookie evidence, go there
+    if (isCustomer()) {
+        //if (page.bounce_customers) redirect(page.bounce_customers);
+        window.STATELY && STATELY.set('customer', 'y');
+    }
+
+
+    // If we have a bounce url for when the page expires, and we have a valid countdown that's been passed, go there
+    if (page.expire && !isNaN(page.expire) && page.expire < SERVERCLOCK) {
+        if (page.bounce_expired) redirect(page.bounce_expired);
+        window.STATELY && STATELY.set('expired', 'y');
+    }
+
+    // Set up most of our page state groups for dynamic content
+    window.STATELY && STATELY.group('channel-desktop,androidphone,androidtablet,iphone,ipad,other');
+    window.STATELY && STATELY.group('region-IRL,GBR,ROW|currency-EUR,GBP|loaded-n,y');
+
+    // If our main countdown hits zero, change the page state to expired
+    window.COUNTDOWN && COUNTDOWN.onzero(function(e) {
+        if (window.STATELY && STATELY.get('expired') == 'n' && e.id == 'main') {
+            window.STATELY && STATELY.set('expired', 'y');
+            COUNTDOWN.onzero(null); // Stop checking once we've expired once
+        }
+    });
+
+    // Create the domain state group so that the current domain is first
+    // That way we never need to set it
+    var tld = document.domain.split('.').slice(-1) != 'mobi' ? 'com' : 'mobi';
+    window.STATELY && STATELY.group('domain-' + tld + ',' + (tld == 'com' ? 'mobi' : 'com'));
+
+    // When the region state is set, set the appropraiet currency state
+    window.STATELY && STATELY.on('set-region', function(v) {
+        STATELY.set('currency', (v == 'GBR' ? 'GBP' : 'EUR'));
+    });
+
+    // If we have an AFF_ID, set the state (otherwise it defaults to NA)
+    if (query.AFF_ID && page.visible_aff_ids.indexOf(query.AFF_ID) >= 0) {
+        window.STATELY && STATELY.set('affid', query.AFF_ID);
+    }
+})();
+
+
+
+window.country = "USA";
+if (['GBR', 'IRL'].indexOf(window.country) >= 0) {
+    window.STATELY && STATELY.set('region', window.country);
+} else {
+    window.STATELY && STATELY.set('region', 'ROW');
+}
+</script>
+<!-- GLOBAL_PP_FOLDER_JS END -->
+<!-- GLOBAL_PP_FOLDER_CODE END -->
+
+<script type="text/javascript"> var device_is_mobile = false; </script>
+<style type="text/css">
+<!-- 
+@font-face {
+	font-family: 'DIN';
+	src: url('https://promotions.cdnbf.net/media/english_uk/files/ci_various/fonts/din_condensed_bold/DIN_Condensed_Bold.eot') format('eot');
+	src: url('https://promotions.cdnbf.net/media/english_uk/files/ci_various/fonts/din_condensed_bold/DIN_Condensed_Bold.eot?#iefix') format('embedded-opentype');
+	src: url('https://promotions.cdnbf.net/media/english_uk/files/ci_various/fonts/din_condensed_bold/DIN_Condensed_Bold.woff') format('woff'),
+	url('https://promotions.cdnbf.net/media/english_uk/files/ci_various/fonts/din_condensed_bold/DIN_Condensed_Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.social__icon--fb span, .social__icon--tw span {
+    background-image: url(https://promotions.cdnbf.net/media/english_uk/files/ci_various/font1/plugins/svg_imgs/ds12465-footer_v1.svg);
+}
+
+
+.aff-logo img {
+    display: none;
+    max-width: 240px;
+}
+@media screen and (max-width: 480px) {
+  .aff-logo img {
+    max-width: 180px;
+  }
+}
+
+.banner {
+  background-image: url(https://promotions.cdnbf.net/media/english_uk/images/paddypower/BG_1915X602_opt.jpg);
+}
+@media (max-width: 767px) {
+  .banner {
+    background-image: url(https://promotions.cdnbf.net/media/english_uk/images/paddypower/BG_512X1379_opt.jpg);
+    background-position: center center;
+  }
+.banner__line--0 {
+    max-width: 420px;
+    margin: 0 auto 0.75em;
+}
+}
+
+.terms-list-ul li {
+    margin: 10px 0px;
+    line-height: 1.2em;
+}
+
+
+.terms-list-ul {
+    list-style: disc;
+    padding-left: 30px;
+}
+
+
+
+.disclaimer__copy {
+    font-size: 12px;
+    text-align: center;
+line-height: 14px;
+}
+
+.disclaimer__copy a {text-decoration:underline}
+
+.new-logos {
+    font-size: 0;
+  text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 10px;
+    background-image: url(https://promotions.cdnbf.net/media/english_uk/images/paddypower/acquisition/ds33354_sprite_v3.png);
+    height: 50px;
+    min-width: 28px;
+    background-repeat: no-repeat;
+    background-size: 740px;
+}
+
+.logo--alderney {
+    width: 116px;
+    background-position: 0 50%;
+}
+.logo--mga {
+    width: 103px;
+    background-position: 19% 50%;
+}
+.logo--gc {
+    width: 103px;
+    background-position: 39% 50%;
+}
+.logo--mga {
+    width: 124px;
+    background-position: 19% 50%;
+}
+.logo--gc {
+    width: 122px;
+    background-position: 39% 50%;
+}
+.logo--18 {
+    background-position: 52% 50%;
+    width: 33px;
+}
+.logo--wtfs {
+    background-position: 62% 50%;
+    width: 92px;
+}
+
+.logo--gamecare {
+    width: 73px;
+    background-position: 74% 50%;
+}
+.logo--therapy {
+    background-position: 81% 50%;
+    width: 36px;
+}
+.logo--gamstop {
+    background-position: 99% 50%;
+    width: 127px;
+}
+.logo a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.banner__line--0 {
+     font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    margin-bottom: 0.75em;
+    font-weight: 600;
+
+}
+.banner__line--1 {
+    font-size: 8em;
+    line-height: 0.8em;
+    color: #ff0;
+}
+.banner__line--2 {
+    color: #ff0;
+    font-size: 3.2em;
+    line-height: 1.2em;
+}
+.banner__line--3 {
+    font-size: 3.2em;
+    line-height: 0.8em;
+}
+.banner__line--4 {
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-top: 1em;
+}
+.new-sf {
+padding:25px 0; 
+margin:0; 
+ 
+text-align:center; 
+font-family:Arial, Tahoma, sans-serif; 
+
+}
+ .new-sf > .container {
+display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;}
+
+.soc_ico_wrapper {
+	width:35%; 
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; 
+   flex-direction: row;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;}
+.social__icon {border-radius:0px}
+.soc_ico_wrapper .social__bubble {
+	   max-width: 130px;
+    padding: 0px;
+    text-align: left;
+    margin-left: 5px;
+}
+.mob_ico_wrapper {width:65%; 
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+.dppapps { display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; 
+   flex-direction: row;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start; width:45%}
+
+.mob_ico_wrapper img {width:100%; height:auto; padding: 0px 10px;     alignment-baseline: middle;
+    float: left;}
+.mobile_ico { 
+width:5.5em;
+
+}
+
+.mobile_ico--caption {
+	padding: 5px 0px;
+	position: relative;
+    float: left;
+    text-align: left;
+ 
+	}
+	
+.mobile_ico--caption h1 {font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:1.5em}	
+.mobile_ico--caption h2 {font-weight:700; font-family: 'Penumbra Sans Std'; color:#004833; font-size:1.3em; line-height:1.2em; text-transform:uppercase
+    }
+	
+.logo-mobile {
+	width:50%; 
+padding: 0px 0px;
+display: -webkit-flex;
+  	 display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row; 
+   height:70px}
+.logo-apple {width:100%;}   
+ .logo-mobile img {
+	 width: 100%;
+    padding: 10px;
+    }
+
+ .logo-android {width:100%;}  	
+
+@media screen and (max-width: 949px) 
+
+{
+	.dppapps {width:45%}
+.mobile_ico--caption {
+     padding: 0px 0px;
+    font-size: 0.98em;
+    width: 52%;
+}	
+.logo-mobile {width:55%}
+.logo-mobile img {
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.mobile_ico--caption h1, .mobile_ico--caption h2 {font-size:0.9em}
+.soc_ico_wrapper {width:45%}
+.soc_ico_wrapper .social__bubble {max-width:80px;}
+	}
+	@media screen and (max-width:764px) 
+	
+
+{
+	.mob_ico_wrapper {width:100%; 
+	 display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center; }
+	.dppapps,.logo-mobile {width:41%}
+	.new-sf > .container {
+		 display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-flow: column;
+   flex-flow: column;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+		}
+		
+		.soc_ico_wrapper  {width:100%; padding: 0.65em; display: flex;
+  align-items: center;
+  justify-content: center;}
+		.soc_ico_wrapper .social__bubble {height:100%}
+}
+
+@media screen and (max-width:480px) 
+	
+
+{
+	
+	 .mob_ico_wrapper  {
+		 display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-flow: column;
+   flex-flow: column;
+		}
+		.mobile_ico--caption {    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 2em;}
+
+.logo-mobile {    width: 100%;
+    margin: 0em 1em 0em 1em;
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; 
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;}
+.logo-apple {  width:100%;}
+.logo-android {  width:100%;}
+.dppapps{   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column; 
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center; width:100%; margin: 1em}
+.mob_ico_wrapper img {float:right}
+.soc_ico_wrapper {
+    width: 100%;
+    margin: 1em ;
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; 
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+	
+	}
+
+
+.social-footer-apps .social__bubble:before{
+display:none;
+}
+.social__icon {
+    align-self: flex-start;
+}
+
+.social-footer-apps .social__bubble {
+    font-size: 22px;
+    line-height: 24px;
+    position: initial;
+    display: initial;
+    width: initial;
+    border-radius: initial;
+    background: initial;
+    -webkit-box-align: initial;
+    -webkit-align-items: initial;
+    -ms-flex-align: initial;
+    align-items: initial;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 949px) {
+.social__item {
+    width: 47%;
+}
+}
+
+
+@media only screen and (max-width: 765px) {
+.social__item {
+    width: 50%;
+    justify-content: center;
+}
+.logo-mobile{
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.social-footer-apps .social__bubble {
+    font-size: 16px;
+    line-height: 16px;
+}
+.logo-mobile {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+}
+.rating {
+display: none;
+}
+
+@media (max-width: 640px){
+.banner__headline {
+    padding-bottom: 0px;
+}
+.banner__image img {
+    max-width: 80%;
+}
+.banner__headline {
+    padding-top: 20px;
+}
+.banner__inner {
+    justify-content: flex-start;
+}
+.banner__image {
+    padding-top: 10px;
+}
+}
+
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+.banner {
+    background-position: 37% 100%;
+}
+.banner__image, .banner__headline {
+    flex: 1;
+}
+.banner__image {
+    align-self: flex-end;
+}
+}
+.header__inner {
+    display: flex;
+    padding: 7px 10px;}
+
+b, strong
+{ font-family:Arial, Tahoma, sans-serif; font-weight:bold; }
+
+
+.bottom-reg-btn-container{
+    background: #f8f7f5;
+}
+.bottom-reg-btn {
+    padding: 40px 0px;
+}
+.bottom-reg-btn .button, .bottom-reg-btn .terms {
+    text-align: center;
+}
+.bottom-reg-btn .terms {
+    color: #000;
+    margin-top: 10px;
+}
+
+.terms-section h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* new style */
+
+@media only screen and (min-width:960px){
+.banner.bundle-box-active, 
+.banner__headline {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+}
+
+.banner__headline {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.terms a {
+    font-size: 12px;
+    font-weight: normal;
+    max-width: 400px;
+    line-height: 1.2;
+}
+
+.additional {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 300px;
+}
+
+.additional:before {
+    content: "Plus";
+    width: 88px;
+    height: 30px;
+    display: inline-block;
+    line-height: 28px;
+    text-transform: uppercase;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+    top: -12px;
+    color: #fff;
+    margin: 0;
+    border: none;
+    font-family: Penumbra Sans Std,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.additional .title {
+    color: #ffffff;
+    border: 2px solid #fff;
+    border-top: none;
+    position: relative;
+}
+
+
+.additional .title:before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 40%;
+    width: 7px;
+    height: 7px;
+    border-width: 4px;
+    right: 15px;
+    border: 4px solid;
+    border-color: transparent #fafafa #fafafa transparent;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: -0.55556em 0 0 0;
+}
+
+.additional .title-wrapper {
+    width: calc(100% - 1.2em);
+    padding: 20px;
+    font-family: Penumbra Sans Std,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.additional .title-wrapper:before, 
+.additional .title-wrapper:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 0;
+    border-top: 2px solid #fff;
+    width: 40%;
+    background: #fff;
+    top: 0;
+    right: 0;
+}
+
+.additional .title-wrapper:before {
+    left: 0;
+}
+
+.more {
+    font-weight: 700;
+    padding-top: 10px;
+    cursor: pointer;
+    color: #3a9ed8;
+}
+
+.open-text .more {
+    display: block !important;
+    background: #000;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-top: none;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/*SCP*/
+body > iframe {
+    display: none;
+}
+.header {
+    background: #013b29;
+}
+.popup-wrapper .close {
+    background: none;
+}
+.close.close-popup:before {
+    content: '\2716';
+    color: #013b29;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+}
+li.pay-logo.pl5, li.pay-logo.pl7 {
+    display: none;
+}
+.open-text .more {
+    background: #013b29;
+    font-family: arial;
+}
+.prc {
+    display: none;
+    color: #fff;
+    max-width: 340px;
+    margin: 0 auto;
+}
+.prc h3 {
+    font-family: DIN;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+}
+.prc p {
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0.5em;
+}
+.prc img {
+    max-width: 100px;
+    margin-left: 10px;
+    margin-bottom: 0.25em;
+}
+.prc-inline {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 0.8em;
+}
+
+@media screen and (max-width: 350px) {
+
+.prc h3 {
+
+    font-size: 18px;
+}
+}	
+
+
+
+
+/*World Cup Reskin*/
+
+/* TIMER STYLES*/
+.timer {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+    font-family: batfair_flama_medium, sans-serif;
+    font-size: 20px;
+}
+.timer .timer-text {
+    color: #ffff00;
+    font-family: Penumbra Sans Std,Arial,sans-serif;
+    font-weight: 700;
+}
+.time.counter-wrapper {
+    color: #fff;
+    font-weight: 900;
+}
+/* TIMER STYLES END*/
+
+
+p.steps__copy {
+    font-size: 0.9em;
+}
+.banner__image {
+    margin-right: -10%;
+}
+.banner {
+    overflow: hidden;
+}
+.banner__line--0 {
+    font-family: DIN;
+    line-height: 1;
+    color: #31953e;
+    background: #ffffff;
+    padding: 0.2em 0 0.1em;
+}
+.button a {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 28px;
+    background: #3e9fd4;
+    border-bottom: 3px solid #317fad;
+    padding: 0.5em 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+p.steps__copy {
+    font-size: 0.75em;
+}
+
+.banner__headline {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.banner .terms a {
+    text-shadow: 1px 1px #222222;
+}
+.banner__line--0 {
+    font-size: 1.75em;
+}
+.button a {
+    font-size: 22px;
+}
+}
+
+@media (min-width: 960px) {
+.banner__inner {
+    min-height: calc(100vh - 230px);
+}
+}
+// -->
+</style>
+
+<!-- FOLDER_HEAD_END START -->
+<!-- GLOBAL_PP_HEAD_END START -->
+
+<!-- Maxymiser JavaScript
+<script type="text/javascript" src="//service.maxymiser.net/cdn/paddypower/js/mmcore.js"></script>
+Maxymiser JavaScript ends -->
+
+<!-- GLOBAL_PP_HEAD_END END -->
+<!-- FOLDER_HEAD_END END -->
+
+</head>
+<body class="loading loaded-n">
+<!-- FOLDER_BODY_START START -->
+<!-- GLOBAL_PP_BODY_START START -->
+<!-- GLOBAL_PP_ANALYTICS START -->
+<script type="text/javascript">
+window.browserLanguage = ((window.navigator && window.navigator.languages && window.navigator.languages.length) ? (window.navigator.languages[0]) : ( window.navigator && window.navigator.userLanguage) || (window.navigator && window.navigator.language) || 'en').substr( 0, 2);
+
+
+            var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+            var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+(function() {
+  var channel='desktop', ua;
+    ua=navigator.userAgent.toLowerCase();
+  if (device_is_mobile || ua.indexOf('ppwrapper')>=0) {
+    channel='other';
+    ua=navigator.userAgent.toLowerCase();
+    if (ua.indexOf('ipad')>=0) channel='ipad';
+    else if (ua.indexOf('iphone')>=0 || (ua.indexOf('ppwrapper')>=0 && ua.indexOf('ios')>=0)) channel='iphone';
+    else if (ua.indexOf('android')>=0 && ua.indexOf('mobile')>=0) channel='androidphone';
+    else if (ua.indexOf('android')>=0) channel='androidtablet';
+
+    STATELY.set('channel',channel);
+window.device=channel;
+
+  }
+STATELY.flush();
+
+})();
+
+    function getPPCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+var reg=/(?:^|\|)st=(.+?)(?:\||$)/.exec(getPPCookie('bfsd')), regtypes={reg:'registered', p:'new prospect', rp: 'returning prospect'};
+var  dataLayer= [{
+        'event':'ga_pageLoad'  ,
+        'ga_target_property':'UA-63107437-17',
+        'acc_id': window.session && window.session.accountid? window.session.accountid: '',
+        'vertical': 'promotions',
+        'aff_id': query.AFF_ID || '',
+        'product': 'promotions' ,
+        'locale': window.browserLanguage || '',
+        'login_status': window.session && window.session.loggedin?'logged in':'logged out',
+        'orientation':device_is_mobile ? (h > w ? 'portrait' : 'landscape') : 'desktop',
+'app_id': '',
+        'country': "US",
+        'efid': window.query.efid || getPPCookie('efid') || '',
+        'rfr': window.query.rfr || getPPCookie('rfr') || '',
+        'pid': window.query.pid || getPPCookie('pid') || '',
+        'ttp': window.query.ttp || getPPCookie('ttp') || '',
+        'bid': window.query.bid || getPPCookie('bid') || '',
+        'mpch': window.query.mpch || getPPCookie('mpch') || '',
+        'promo_code': window.query.promotionCode || 'YSKA01' || getPPCookie('promotionCode') || '',
+        'pla': window.query.pla || getPPCookie('pla') || '',
+        'clkid': window.query.clkID || getPPCookie('clkID') || window.query.clkid || getPPCookie('clkid') || '',
+        'sid': getPPCookie('sid') || '',
+        'StickyTags': getCookie('StickyTags') || '',
+        'TrackingTags': getCookie('TrackingTags') || '',
+        'device model' : '',
+'brand': 'pp',
+                'bucket_id':'', 
+                'test_group':'',  
+                'test_name':'',
+'reg_status': reg!==null && regtypes[reg[1]]?regtypes[reg[1]]:'',
+                        
+'jurisdiction':window.session && window.session.cro ? "".replace(/^pp_/,'') : ''
+
+        }];
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P32JX6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;if (window.query.gtm!=='false')f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P32JX6');</script>
+<!-- End Google Tag Manager -->
+
+<!-- GLOBAL_PP_ANALYTICS END -->
+<!-- GLOBAL_PP_BODY_START END -->
+<!-- FOLDER_BODY_START END -->
+<!-- body start -->
+<header class="header">
+    <div class="container  header__inner">
+        <div class="loaded-y">
+            <a href="http://www.paddypower.com/bet"><img src="https://promotions.cdnbf.net/media/english_uk/images/sports/lpimg/ds34131/ds34131_logo_v1.png" alt="Paddy Power Logo" /></a>
+        </div>
+        <div class="loaded-y">
+            <a class="header__link" href="http://www.paddypower.com/bet">Existing customer?</a>
+        </div>
+
+    </div>
+</header>
+
+<section class="banner">
+    <div class="container  banner__inner">
+        <article class="banner__headline">
+            <div class="aff-logo"><img /></div>
+            <h2 class="banner__line  banner__line--0">new customers only</h2>
+            <h2 class="banner__line  banner__line--1">€20</h2>
+            <h2 class="banner__line  banner__line--2">RISK FREE</h2>
+            <h2 class="banner__line  banner__line--3">FIRST BET</h2>
+            <h2 class="banner__line  banner__line--4">MONEY BACK IN CASH IF IT LOSES</h2>
+
+            <div class="additional">
+                <div class="title" style="display: block;">
+                    <div class="title-wrapper"><nobr>Join Paddy's Rewards Club</nobr></div>
+                </div>
+                <div class="more" style="display: none;">
+                    <div class="wrapper">Opt in to Paddy's Rewards Club. We will give you a free £10 bet every week when you place 5x bets of £10+. Across any sport, Monday - Sunday.</div>
+                </div>
+            </div>
+
+            <div class="prc">
+                <div class="prc-inline">
+                    <img src="https://promotions.cdnbf.net/media/english_uk/images/ds28194_pp_rewards.png" class="prc-img" />
+                    <h3>Plus weekly free bets with</h3>
+                </div>
+                <p></p>
+            </div>
+
+            <div class="loaded-y button">
+                <a href="https://register.paddypower.com/account/registration">Join now</a>
+            </div>
+            <div class="terms modal-terms">
+                <a class="loaded-y" href="#">New customers only, limited to one per person. If you’ve previously had a Paddy Power account, you will not qualify for the offer. Place your FIRST bet on any Sportsbook market and if it loses we will refund your stake in CASH. Max refund for this offer is €20. Only deposits made using Cards or Paypal will qualify for this promotion. T&Cs apply. Paddy's Rewards Club: Get a €10 free bet when you place 5x bets of €10+. T&Cs apply.</a>
+            </div>
+            <div class="timer">
+                <span class="timer-text">Expires in:</span>
+                <span class="time counter-wrapper" data-countdown-to="31 May 2044 17:15:00 UTC">00:00:00</span>
+            </div>
+        </article>
+        <figure class="banner__image">
+            <img alt="Paddy Power" src="https://promotions.cdnbf.net/media/english_uk/images/paddypower/785x602_20_Risk_Free21.png" />
+        </figure>
+    </div>
+</section>
+
+<section class="steps">
+    <div class="container  steps__inner">
+        <ul class="steps__list">
+            <li class="steps__item  steps__item--one">
+                <h3 class="steps__headline">Join</h3>
+                <p class="steps__copy">Open a new account using Promo Code YSKA01</p>
+            </li>
+            <li class="steps__item  steps__item--two">
+                <h3 class="steps__headline">BET</h3>
+                <p class="steps__copy">Place a £20 sportsbook bet.
+</p>
+            </li>
+            <li class="steps__item  steps__item--three">
+                <h3 class="steps__headline">REFUND</h3>
+                <p class="steps__copy">If your FIRST bet is a loser we'll refund it in cash. Max refund is £20.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="bottom-reg-btn-container">
+    <div class="container bottom-reg-btn">
+        <div class="loaded-y button">
+            <a href="https://register.paddypower.com/account/registration">Join now</a>
+        </div>
+        <div class="terms modal-terms">
+            <a class="loaded-y" href="#">T&amp;Cs apply</a>
+        </div>
+    </div>
+</section>
+
+<section class="new-sf reviews-y beige">
+    <div class="container social-footer-apps">
+        <div class="mob_ico_wrapper ">
+            <div class="dppapps">
+                <div class="mobile_ico">
+                    <img src="https://promotions.cdnbf.net/media/english_uk/images/paddypower/acquisition/icon_sb.png" alt="Paddy Power Mobile App">
+                </div>
+                <div class="mobile_ico--caption">
+                    <h1>Download the</h1>
+                    <h2>Paddy Power Apps</h2>
+                </div>
+            </div>
+            <div class="logo-mobile">
+                <a class="logo-apple" target="_blank" href="https://app.appsflyer.com/id382030091?pid=LandingPage&c=B10G30">
+                    <div>
+                        <div>
+                            <img src="https://promotions.cdnbf.net/media/english_uk/files/ci_various/font1/plugins/sbkimg/apple-badge.svg">
+                        </div>
+                    </div>
+                </a>
+      
+                <a class="logo-android" target="_blank" href="https://play.google.com/store/apps/details?id=com.paddypower.sportsbook.u.inhouse">
+                    <div>
+                        <div>
+                            <img src="https://promotions.cdnbf.net/media/english_uk/files/ci_various/font1/plugins/sbkimg/google-play-badge.svg">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="soc_ico_wrapper ">
+            <div class="social__item">
+                <div class="social__icon  social__icon--fb"><span> </span></div>
+                <div class="social__bubble"><span style="color:#3c5a9a">1.56m</span>
+                    <br class="resp-br" />likes</div>
+            </div>
+            <div class="social__item  social__item--end">
+                <div class="social__icon  social__icon--tw"><span> </span></div>
+                <div class="social__bubble"><span style="color:#55aded">605k</span>
+                    <br class="resp-br" />followers</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="beige">
+    
+        <section class="payment">
+        <ul class="payment__list">
+            <li class="pay-logo pl1"></li>
+            <li class="pay-logo pl2"></li>
+            <li class="pay-logo pl3"></li>
+            <li class="pay-logo pl4"></li>
+            <li class="pay-logo pl5"></li>
+            <li class="pay-logo pl7"></li>
+            <li class="pay-logo pl8"></li>
+            <li class="pay-logo pl9"></li>
+        </ul>
+    </section>
+
+    <div class="container">
+        <section class="terms-section">
+            <h3><strong>Terms and Conditions</strong></h3>
+<h4><strong>Who can take part</strong>?</h4>
+<ul class="terms-list-ul">
+    <li>New customers only. Available to residents of UK or Republic of Ireland.</li>
+</ul>
+<p> </p>
+<h4><strong>How and when can I qualify?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Open a new account using promo code YSKA01</li>
+    <li>Deposit a minimum of €10 using a Debit/Credit Card or PayPal</li>
+    <li>Place a Sportsbook bet. For the purposes of this promotion, your first ever bet will be counted as the qualifying bet.</li>
+</ul>
+<p> </p>
+<h4><strong>What can I win?</strong></h4>
+<ul class="terms-list-ul">
+    <li>If your qualifying bet is settled as a loser we will refund you stake in CASH</li>
+    <li>Maximum refund is €20</li>
+</ul>
+<p> </p>
+<h4><strong>When will I get my prize?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Refund will be processed within 1 hour after the qualifying bet has been settled as a loser.</li>
+</ul>
+<p> </p>
+<h4><strong>What else do I need to know?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Sign up offers are limited to one per person, family, household address, email address, and shared computer. We reserve the right to withdraw the availability of free bet offers to any customers.</li>
+    <li>Deposits made with e-wallets including Skrill, Paysafe and Neteller will not count towards this promotion. Only Debit/Credit Cards and Paypal are eligible.</li>
+    <li>Customers registering through this offer are not eligible for any other sign up promotion.</li>
+</ul>
+<p> </p>
+<h4><strong>Other essential stuff:</strong></h4>
+<ul class="terms-list-ul">
+    <li>Paddy Power reserves the right in its discretion to exclude and/or limit the availability of the offer to certain customers.</li>
+    <li>The full terms and conditions of Paddypower.com also apply to this offer</li>
+</ul>
+<p> </p>
+<p> </p>
+<h3><strong>PADDY'S REWARDS T&Cs</strong></h3>
+<p> </p>
+<h4><strong>Who can take part?</strong></h4>
+<ul class="terms-list-ul">
+    <li>To register for the weekly free bet, login with your new or existing Paddy Power account and join the promotion.</li>
+    <li>Applies to online, mobile, phone and text bets only. Does not apply in retail shops.</li>
+</ul>
+<p> </p>
+<h4><strong>How & when can I qualify?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Place 5 bets of £10 or more on Sports and Virtuals and you will be credited with a free £10 bet the Monday after your 5th qualifying bet.</li>
+    <li>Your qualifying bets can be placed on any sport and will qualify as long as the odds, or combined odds, are 1/2 (1.5) or greater.</li>
+    <li>Each bet must be settled to qualify. </li>
+    <li>Applies to bets placed on all Sports and Virtuals only. Gaming bets do not qualify for this promotion.</li>
+    <li>Your bet count resets to zero at 00:01 the Monday after your 5th qualifying bet. This allows you to start again for this promotion. </li>
+</ul>
+<p> </p>
+<h4><strong>What can I win?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Max free bet is £10 per customer per week.</li>
+</ul>
+<p> </p>
+<h4><strong>When will I get my prize?</strong></h4>
+<ul class="terms-list-ul">
+    <li>All free bets will be credited the next Monday after your 5th qualifying bet.</li>
+    <li>Free bets will be credited by 12pm.</li>
+    <li>Free bets will be available to use on any market until 23.59.59 on the following Sunday after being credited.</li>
+</ul>
+<p> </p>
+<h4><strong>What else do I need to know?</strong></h4>
+<ul class="terms-list-ul">
+    <li>If you don’t have any settled bets for 30 days on your account, your bet count will drop to zero.     </li>
+    <li>Cashed out and partially cashed out bets do not apply for this offer.</li>
+    <li>Contingency and void bets will not qualify for this offer.</li>
+    <li>Multiple bets on the same selection do not count (for example if you place x5 bets of £10 on Manchester United to beat Arsenal only x1 of these bets will count towards the offer).</li>
+    <li>Stakes from free bets cannot be used to qualify for further free bets (ie, qualifying bets must be made using your own funds).</li>
+    <li>Does not apply to Tote, Lotto or pools bets.</li>
+    <li>Free bet stake not returned in winnings.</li>
+</ul>
+<p> </p>
+<h4><strong>Other boring but essential stuff:</strong></h4>
+<ul class="terms-list-ul">
+    <li>We reserve the right to exclude players who participate in the promotion with multiple accounts.</li>
+    <li>If you abuse the promotion, for example, if we suspect that you are using an abusive strategy to complete the wagering requirement, or you are able to guarantee profits regardless of the outcome of sporting events (whether individually or as part of a group), we reserve the right to exclude you from the promotion and to withhold the prize.</li>
+    <li>We reserve the right to withdraw the availability of this offer to any player or group of players, or to modify the terms and conditions of this promotion at any time.  This will not impact any players who have already started wagering under the promotion.  </li>
+    <li>Paddy Power betting rules apply, see <a href="https://www.paddypower.com/en/aboutUs/Betting.Rules/">here</a>.</li>
+</ul>
+        </section>
+    </div>
+    <section class="disclaimer">
+        <div class="container">
+            <p class="disclaimer__copy">PPB Counterparty Services Limited, Triq il-Kappillan Mifsud, St. Venera, SVR 1851, MALTA, is licensed and regulated by the <a class="footer-link-global" href="http://www.mga.org.mt/" target="_blank">Malta Gaming Authority</a>. Licence Number: MGA/CL2/294/2006 12 March 2013, and for customers in the UK, licensed and regulated by the <a class="footer-link-global" href="http://www.gamblingcommission.gov.uk/" target="_blank">Gambling Commission</a>. Games are provided by PPB Entertainment Limited, Triq il-Kappillan Mifsud, St. Venera, SVR 1851, MALTA, is licensed and regulated by the <a class="footer-link-global" href="http://www.mga.org.mt/" target="_blank">Malta Gaming Authority</a>. Licence Number: MGA/CL1/185/2004 1st July 2015, and for customers in the UK, licensed and regulated by the <a class="footer-link-global" href="http://www.gamblingcommission.gov.uk/" target="_blank">Gambling Commission</a>. Casino, Bingo and Poker are provided by Paddy Power Services Limited, company Number 1894, is licensed and regulated by the <a class="footer-link-global" href="https://www.gamblingcontrol.org/" target="_blank">Alderney Gambling Control Commission</a>, and for customers in the UK, licensed and regulated by the <a class="footer-link-global" href="http://www.gamblingcommission.gov.uk/" target="_blank">Gambling Commission</a>. <a class="footer-link-global" href="http://responsiblegaming.paddypower.com/" target="_blank">Gambling can be addictive, please play responsibly</a>.</p>
+<div class="regulatory-logos">
+    <ul class="new-logos">
+        <li class="logo  logo--alderney"><a class="footer-link-global" target="_blank" href="https://www.gamblingcontrol.org/">Alderney GCC</a></li>
+        <li class="logo  logo--mga"><a class="footer-link-global" target="_blank" href="https://www.authorisation.mga.org.mt/verification.aspx?lang=en&company=4f2ce9bc-6584-440c-8643-9314defffd0e">MGA</a></li>
+        <li class="logo  logo--gc"><a class="footer-link-global" target="_blank" href="http://www.gamblingcommission.gov.uk/">Gambling Commission</a></li>
+        <li class="logo  logo--18"><a class="footer-link-global" target="_blank" href="https://support.paddypower.com/app/answers/detail/a_id/70/">18+</a></li>
+        <li class="logo  logo--wtfs"><a class="footer-link-global" target="_blank" href="http://responsiblegaming.paddypower.com/">WTFS</a></li>
+        <li class="logo  logo--gamecare"><a class="footer-link-global" target="_blank" href="http://www.gamcare.org.uk/">Gamecare</a></li>
+        <li class="logo  logo--therapy"><a class="footer-link-global" target="_blank" href="http://www.gamblingtherapy.org">Therapy</a></li>
+        <li class="logo  logo--gamstop"><a class="footer-link-global" target="_blank" href="https://www.gamstop.co.uk">GAM STOP</a></li>
+    </ul>
+</div>
+        </div>
+    </section>
+</div>
+<div class="popup-wrapper">
+    <div class="close-bg close-popup"></div>
+    <div class="wrapper">
+        <div class="close close-popup"></div>
+        <div class="popup">
+            <div class="text">
+                <h3><strong>Terms and Conditions</strong></h3>
+<h4><strong>Who can take part</strong>?</h4>
+<ul class="terms-list-ul">
+    <li>New customers only. Available to residents of UK or Republic of Ireland.</li>
+</ul>
+<p> </p>
+<h4><strong>How and when can I qualify?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Open a new account using promo code YSKA01</li>
+    <li>Deposit a minimum of €10 using a Debit/Credit Card or PayPal</li>
+    <li>Place a Sportsbook bet. For the purposes of this promotion, your first ever bet will be counted as the qualifying bet.</li>
+</ul>
+<p> </p>
+<h4><strong>What can I win?</strong></h4>
+<ul class="terms-list-ul">
+    <li>If your qualifying bet is settled as a loser we will refund you stake in CASH</li>
+    <li>Maximum refund is €20</li>
+</ul>
+<p> </p>
+<h4><strong>When will I get my prize?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Refund will be processed within 1 hour after the qualifying bet has been settled as a loser.</li>
+</ul>
+<p> </p>
+<h4><strong>What else do I need to know?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Sign up offers are limited to one per person, family, household address, email address, and shared computer. We reserve the right to withdraw the availability of free bet offers to any customers.</li>
+    <li>Deposits made with e-wallets including Skrill, Paysafe and Neteller will not count towards this promotion. Only Debit/Credit Cards and Paypal are eligible.</li>
+    <li>Customers registering through this offer are not eligible for any other sign up promotion.</li>
+</ul>
+<p> </p>
+<h4><strong>Other essential stuff:</strong></h4>
+<ul class="terms-list-ul">
+    <li>Paddy Power reserves the right in its discretion to exclude and/or limit the availability of the offer to certain customers.</li>
+    <li>The full terms and conditions of Paddypower.com also apply to this offer</li>
+</ul>
+<p> </p>
+<p> </p>
+<h3><strong>PADDY'S REWARDS T&Cs</strong></h3>
+<p> </p>
+<h4><strong>Who can take part?</strong></h4>
+<ul class="terms-list-ul">
+    <li>To register for the weekly free bet, login with your new or existing Paddy Power account and join the promotion.</li>
+    <li>Applies to online, mobile, phone and text bets only. Does not apply in retail shops.</li>
+</ul>
+<p> </p>
+<h4><strong>How & when can I qualify?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Place 5 bets of £10 or more on Sports and Virtuals and you will be credited with a free £10 bet the Monday after your 5th qualifying bet.</li>
+    <li>Your qualifying bets can be placed on any sport and will qualify as long as the odds, or combined odds, are 1/2 (1.5) or greater.</li>
+    <li>Each bet must be settled to qualify. </li>
+    <li>Applies to bets placed on all Sports and Virtuals only. Gaming bets do not qualify for this promotion.</li>
+    <li>Your bet count resets to zero at 00:01 the Monday after your 5th qualifying bet. This allows you to start again for this promotion. </li>
+</ul>
+<p> </p>
+<h4><strong>What can I win?</strong></h4>
+<ul class="terms-list-ul">
+    <li>Max free bet is £10 per customer per week.</li>
+</ul>
+<p> </p>
+<h4><strong>When will I get my prize?</strong></h4>
+<ul class="terms-list-ul">
+    <li>All free bets will be credited the next Monday after your 5th qualifying bet.</li>
+    <li>Free bets will be credited by 12pm.</li>
+    <li>Free bets will be available to use on any market until 23.59.59 on the following Sunday after being credited.</li>
+</ul>
+<p> </p>
+<h4><strong>What else do I need to know?</strong></h4>
+<ul class="terms-list-ul">
+    <li>If you don’t have any settled bets for 30 days on your account, your bet count will drop to zero.     </li>
+    <li>Cashed out and partially cashed out bets do not apply for this offer.</li>
+    <li>Contingency and void bets will not qualify for this offer.</li>
+    <li>Multiple bets on the same selection do not count (for example if you place x5 bets of £10 on Manchester United to beat Arsenal only x1 of these bets will count towards the offer).</li>
+    <li>Stakes from free bets cannot be used to qualify for further free bets (ie, qualifying bets must be made using your own funds).</li>
+    <li>Does not apply to Tote, Lotto or pools bets.</li>
+    <li>Free bet stake not returned in winnings.</li>
+</ul>
+<p> </p>
+<h4><strong>Other boring but essential stuff:</strong></h4>
+<ul class="terms-list-ul">
+    <li>We reserve the right to exclude players who participate in the promotion with multiple accounts.</li>
+    <li>If you abuse the promotion, for example, if we suspect that you are using an abusive strategy to complete the wagering requirement, or you are able to guarantee profits regardless of the outcome of sporting events (whether individually or as part of a group), we reserve the right to exclude you from the promotion and to withhold the prize.</li>
+    <li>We reserve the right to withdraw the availability of this offer to any player or group of players, or to modify the terms and conditions of this promotion at any time.  This will not impact any players who have already started wagering under the promotion.  </li>
+    <li>Paddy Power betting rules apply, see <a href="https://www.paddypower.com/en/aboutUs/Betting.Rules/">here</a>.</li>
+</ul>
+            </div>
+        </div>
+        <div class="button-wrapper button">
+            <a href="https://register.paddypower.com/account/registration" class="loaded-y">Join now</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">// <![CDATA[
+// Show the timer if there's less than 6 hours to go
+COUNTDOWN.onupdate(function(hh,mm,ss,v) {
+   if  (hh<6) {
+      $(".timer").show() ;
+      COUNTDOWN.onupdate(null);
+   }
+});
+
+
+    $(document).ready(function () {
+
+        var boxCopyChecker = "y";
+        if (boxCopyChecker != 'y') {
+            $(".additional").addClass('non-expandable');
+        }
+
+        $(".additional").click(function (event) {
+            if ($(this).hasClass('open-text')) {
+                $(this).removeClass('open-text')
+            } else {
+                if (boxCopyChecker == 'y') {
+                    $(this).addClass('open-text')
+                }
+            }
+            event.stopPropagation();
+        });
+
+        var boxChecker = "n";
+        if (boxChecker == 'n') {
+            $(".additional").hide();
+            //$( ".banner__headline" ).css('justify-content', 'center');
+        }
+
+        var prcChecker = 'y';
+        if (prcChecker == 'y') {
+            $(".prc").show();
+        }
+
+        var socialFooter = 'y';
+        if (socialFooter == 'y') {
+            $(".new-sf").show();
+        } else {
+            $(".new-sf").hide();
+        }
+
+        $(".modal-terms a").click(function (a) {
+            a.preventDefault()
+            a.stopPropagation()
+            $(".popup-wrapper").addClass("active")
+        })
+        $(".close-popup").click(function () {
+            $(".popup-wrapper").removeClass("active")
+        });
+
+if('https://www.paddypower.com/bet' !== '') {
+  $('.button a').each(function(i, e) {
+    var s = $(e).attr('href');
+    if (/\?/.test(s)) s += '&';
+    else s += '?';
+    s += 'returnURL=' + escape('https://www.paddypower.com/bet');
+    $(e).attr('href', s);
+  })
+}
+    });
+// ]]></script>
+
+
+
+<script type="text/javascript">
+var logos = [5021220, 5019422]
+	var searchForRfr = $(location).attr('search');
+
+	var rfrString = "rfr=";
+	var pidString = "pid=";
+
+	if (searchForRfr.indexOf(rfrString) > -1 ) {
+		
+		var getWholeRfr = searchForRfr.substring(searchForRfr.indexOf(rfrString) + 4);
+
+		function getNumCode(code) {
+			var theNum = "";
+			for (var letter = 0; letter < code.length; letter ++) {
+				if (! isNaN(code[letter]) ) {
+					theNum += code[letter]
+					
+				} else {
+					break;
+				};                                 
+			} 
+                        return theNum;
+		}
+		
+		var checkFor = getNumCode(getWholeRfr)
+                
+		checkFor = parseInt(checkFor); 
+                console.log("checkFor ", checkFor)
+		if (checkFor == 12865) {
+			var getPid = searchForRfr.substring(searchForRfr.indexOf(pidString) + 4);
+			var pidNum = parseInt(getNumCode(getPid))
+			if (pidNum == 7202 || pidNum == 1269947) {
+				var theUrl
+				if (pidNum == 7202) {
+					theUrl = "https://promotions.cdnbf.net/media/english_uk/images/april_2015/may_june/remain/img/aff12865-1.png?0209"
+				}
+				else {
+					theUrl = "https://promotions.cdnbf.net/media/english_uk/images/april_2015/may_june/remain/img/aff12865-2.png?0209"
+				}
+				$('.aff-logo img').attr("src", theUrl)
+                $('body').addClass("aff-present")
+				$('.aff-logo img').show();
+			}
+		}
+		else {
+			for (var i = 0; i < logos.length; i ++) {
+				if (logos[i] == checkFor ) {
+	                console.log("success")
+					var theUrl = "https://promotions.cdnbf.net/media/english_uk/images/april_2015/may_june/remain/img/aff"
+					theUrl += checkFor
+					var theUrlEnd = ".png?20182"
+					theUrl += theUrlEnd
+                    $('.aff-logo img').attr("src", theUrl)
+                    $('body').addClass("aff-present")
+                    $('.aff-logo img').show();
+				}
+			}
+		}
+	}
+</script><!-- body end -->
+
+
+<!-- FOLDER_BODY_END START -->
+<!-- GLOBAL_PP_BODY_END START -->
+
+<script type="text/javascript">
+if (typeof window.pageFullyLoaded2==='function' && window.removeEventListener) {
+    window.removeEventListener("load", pageFullyLoaded2, false);
+}
+
+(function() {
+function fixDate(d) {
+var dte=d.split(' ');
+if (dte.length==1) {
+   dte.push('00:00:00');
+} else {
+   dte[1]=dte[1].split(':');
+   while(dte[1].length<3) dte[1].push('00');
+   dte[1]=dte[1].join(':');
+};
+dte=new Date(dte.slice(0,2).join('T')+'.000Z');
+return dte;
+}
+var now=query.dte?fixDate(decodeURIComponent(query.dte.replace(/\+/g,' '))):SERVERCLOCK;
+$('[data-show-from]').each(function(i,e){
+   e=$(e);
+   if (now<fixDate(e.data('show-from'))) e.hide();
+});
+$('[data-show-until]').each(function(i,e){
+   e=$(e);
+   if (now>=fixDate(e.data('show-until'))) e.hide();
+});
+})();
+
+if (page.countdown) COUNTDOWN.start(200);
+
+// Fix the currency symbols
+$('body *:contains(£),body *:contains(&p' + 'ound;),body *:contains(&e' + 'uro;),body *:contains(€)').contents().filter(function() {
+    return this.nodeType === 3 && /[£€]/.test((this.textContent || this.innerText || this.innerHTML))
+}).parent().each(function(i, e) {
+    var h = $(e).html();
+    if (h) {
+        $(e).html(h.replace(/[£€](?:[^0-9]*)([0-9]+)/g, function($0, $1) {
+            return ' <span class="currency-GBP">&' + 'pound;</span><span class="currency-EUR">&' + 'euro;</span>' + $1;
+        }));
+    }
+});
+
+// Merge parameters with all page links
+$('a[href]').each(function(i, e) {
+
+var promo="YSKA01", regflip=true, loginflip=true;
+
+if (loginflip && !(/^https:\/\/identitysso.paddypower.com\//.test(e.href)) && ( /^https?:\/\/paddypower\.com\/?$/.test(e.href) || /https:\/\/.*\/login/.test(e.href) || /https?:\/\/sports\.paddypower\.mobi/.test(e.href) ) ) {
+e.href=window.mergeQuery("https://www.paddypower.com/bet", query);
+}
+
+if (regflip && /^https:\/\/[a-z]+\.paddypower\.com\/registration|^https:\/\/accounts2\.paddypower\.mobi\/register/.test(e.href)) {
+e.href="https://register.paddypower.com/account/registration";
+}
+    e.href = window.mergeQuery(e.href, query);
+    
+    if (promo!=="" && /^https:\/\/register\.paddypower\.com\/account\/registration/.test(e.href) && !(/[?&]promotionCode=/.test(e.href))) {
+        e.href = window.mergeQuery(e.href, {promotionCode: promo});
+    }
+});
+
+// Make background optionally clickable
+if (/\s*y/i.test('y') ) {
+$('.banner').on('click', function() {
+if ($('.button a[href]:visible').length>0) window.location=$('.banner .button a[href]:visible')[0].href || $('.button a[href]:visible')[0].href;
+});
+}
+
+// Gather aff ids in the content that we don't know about, also build or states from the HTML
+var group_states=[];
+$('body [class^="affid-"], body [class*=" affid-"]').each(function(i, e) {
+    var c = e.className.split(' '), i, j, p;
+    for (i = 0; i < c.length; i++) {
+        p = c[i].split('-');
+        if (p.length >1 && p[0] == 'affid') {
+p[1]=p.slice(1).join('-');
+        	// Check if this is a group of OR-ed states
+        	p[1]=p[1].replace(',','-').split('-');
+for (j=0; j<p[1].length; j++) {
+if (page.visible_aff_ids.indexOf(p[1][j]) < 0) page.visible_aff_ids.push(p[1][j]);
+}
+        	if (p[1].length>1) {
+$(e).removeClass('affid-'+p[1].join(',')).addClass('affid-'+p[1].join('-'));
+        		group_states.push(['body.affid-NA .affid-'+p[1].join('-')]);
+        		for (j=0; j<page.visible_aff_ids.length; j++) {
+	        		if (p[1].indexOf(page.visible_aff_ids[j])<0) group_states.push('body.affid-'+page.visible_aff_ids[j]+' .affid-'+p[1].join('-'));
+        		}
+        	}
+        }
+    }
+});
+STATELY.group('affid-NA' + (page.visible_aff_ids.length > 0 ? ',' + page.visible_aff_ids.join(',') : ''));
+STATELY.addCSS(group_states.join(',')+'{display:none;}');
+</script>
+
+
+<!-- GLOBAL_PP_BODY_END END -->
+
+<!-- FOLDER_BODY_END END -->
+    <div id="ssc-footer" style="display:none">
+        <link rel="stylesheet" href="https://ie2-sscpp.cdnppb.net/static/all-fca3f2c1e9443855e769c2f3f0a21e5a.css"/>
+        <div id="ssc-footer-container" class="ssc-container ssc-theme-paddypower ssc-no-js ssc-loggedOut ssc-prod-promotionscms ssc-jur-intl ssc-reg-gb ssc-lang-en ssc-cc-gb ssc-cha-desktop">
+<script type="text/javascript">
+window.ssc=window.ssc||function(){};ssc.imediateScript=ssc.imediateScript||function(node){(function sscEnableJsCaller(){var container=document.getElementById(node);if(container&&typeof container==='object'){container.className=container.className.replace('ssc-no-js','').replace(' ',' ');container.className+=' ssc-js';}else{setTimeout(sscEnableJsCaller, 300);}}());if(node==="ssc-header-container"){window.ssc.earlyConfig={windowLocSearch:window.location.search,windowLocHash:window.location.hash}}};
+</script>
+<script type="text/javascript">
+ssc.imediateScript("ssc-footer-container");if(!ssc.isHeaderLoaded){ssc.cookieSpace=(function(){var date=new Date(),expr,timestamp=new Date().getTime(),existingCookies,existingCookiesArray,cookie,cname="bfsd=",cookieIsSet,minutes,path,bfSType,bfDomain,getCookie,stringTrim;path="/";bfDomain=document.location.hostname.match(/\.(.*)$/)[1];date.setTime(date.getTime()+(365*24*60*60*1000));expr="; expires="+date.toGMTString();existingCookies=document.cookie;existingCookiesArray=existingCookies.split(";");stringTrim=function(str){return str.replace(/^\s+|\s+$/g,'');}
+getCookie=function(){var cIsSet,sCookie,sType,timeStamp,TsArr,sessionTypeArr;for(var i=0;i<existingCookiesArray.length;i++){cookie=stringTrim(existingCookiesArray[i]);if(cookie.indexOf(cname)==0){cIsSet=true;sCookie=cookie.substring(cname.length);cookieArr=sCookie.split("|");TsArr=cookieArr[0];sessionTypeArr=cookieArr[1];timeStamp=stringTrim(TsArr).split("=")[1];sType=sessionTypeArr.split("=")[1];}}
+return{cookieIsSet:cIsSet,sessionCookie:sCookie,sessionType:sType,TS:timeStamp}};cookieIsSet=getCookie().cookieIsSet;if(cookieIsSet){if(getCookie().sessionType==="p"){minutes=Math.round((timestamp-getCookie().TS)/(60*1000));if(minutes>24*60){document.cookie=cname+"ts="+timestamp+"|st=rp; expires="+expr+"; path="+path+"; domain="+bfDomain;}}}else{cookieIsSet=true;document.cookie=cname+"ts="+timestamp+"|st=p; expires="+expr+"; path="+path+"; domain="+bfDomain;}
+if(ssc.isLoggedIn){if(!cookieIsSet||(cookieIsSet&&getCookie().sessionType!=="reg")){cookieIsSet=true;document.cookie=cname+"ts="+timestamp+"|st=reg; expires="+expr+"; path="+path+"; domain="+bfDomain;}}
+switch(getCookie().sessionType){case"p":bfSType="New prospect";if(minutes>24*60){bfSType="Returning Prospect";}
+break;case"rp":bfSType="Returning Prospect";break;case"reg":bfSType="Returning Registered";break;default:if(ssc.isLoggedIn){bfSType="Returning Registered";}else{bfSType="New prospect";}
+break;}return{bfSessionType:bfSType}})();ssc.initGA=function(){ga('set','dimension49',ssc.cookieSpace.bfSessionType);};}
+</script>
+<script type="text/javascript">
+ssc.isFooterLoaded = true;
+</script>
+<footer id="footer">
+<div id="mod-footer-577226-container" class="mod">
+<div id="mod-footer-577226" class="mod-footer mod-footer-footer">
+<div class="ssc-ncb ssc-cp ssc-theme-paddypower ssc-hide ssc-prod-promotionscms ssc-jur-intl ssc-reg-gb ssc-lang-en ssc-cc-gb ssc-cha-desktop">
+<div class="ssc-cp-inner">
+<div class="ssc-cp-left">
+<p>
+To help personalise content, tailor your experience and help us improve our services, Paddy Power uses cookies. By navigating our site, you agree to allow us to use cookies, in accordance with our
+<a class=" sscmw width(788) height(500) autoscroll(true) ssc-cookiePolicyBannerLink" data-gtml="cookie policy" target="_popup" href="http://www.paddypower.com/aboutUs/Cookie.Policy/">Cookie Policy</a>
+and
+<a class=" sscmw width(788) height(500) autoscroll(true) ssc-privacyPolicyBannerLink" data-gtml="privacy policy" target="_popup" href="http://www.paddypower.com/aboutUs/Privacy.Policy/">Privacy Policy</a>.
+</p>
+</div>
+<div class="ssc-cp-right ssc-cp-bottom">
+<a href="" class="ssc-cpgi ssc-cta ssc-cta-primary ssc-privacyPolicyBannerButton" data-gtml="close"><span>Ok, I get it</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script type="text/javascript">
+window.ssc=window.ssc||function(){};ssc.imediateScript=ssc.imediateScript||function(node){(function sscEnableJsCaller(){var container=document.getElementById(node);if(container&&typeof container==='object'){container.className=container.className.replace('ssc-no-js','').replace(' ',' ');container.className+=' ssc-js';}else{setTimeout(sscEnableJsCaller, 300);}}());if(node==="ssc-header-container"){window.ssc.earlyConfig={windowLocSearch:window.location.search,windowLocHash:window.location.hash}}};
+</script>
+<script type="text/javascript">
+//after review, we need to minify this code.
+var newPlatformConfig = {"toggles":[],"page":{"config":{"isAjaxRequest":false,"pageLoadTimeout":8000,"enableGtm":true,"showInlineScripts":true,"isLoggedIn":false,"headerType":"REGULAR","footerType":"REGULAR","requestURI":"/api/v1.0/content","title":{"default":"Paddypower"},"device":{"channel":"DESKTOP","platform":"default"},"brand":"paddypower","isDisaster":false},"layout":{"footer":["footer"],"header":["header"]}},"modules":[{"constructor":"","type":"footer","moduleId":"footer","instanceId":"577226","config":{"container":true,"boundingBox":"#mod-footer-577226-container","redirectToAusDomain":false,"production":{"ready":0},"isArcadeMobile":false,"showCookiePolicyBanner":true,"srcNode":"#mod-footer-577226","ajax":{"enabled":false},"identitySSOLogoutEndpoint":"/api/logout","enablePushToWrapper":false,"GtmOnFirstLogin":true,"userDateTime":"2019-02-25-04-49-23","isCasinoProduct":false,"showNewHelpLink":true,"info":{"enabled":0},"isItalyFooter":false,"countryByIp":"GB","debug":{"enabled":0},"showLoggedInSince":false,"domainTest":"prd.internal","enableRegulatoryPopup":false,"accountId":null,"identitySSOUrl":"https://identitysso.","wasSessionProfitAndLossEndpoint":"/api/v3.0/profitAndLoss","sscSessionNotifEndpoint":"/api/v1/sessionNotificationStatus/","trusted":0,"showAustraliaReboot":false,"loggedIn":false,"name":"footer","sourceDomain":"betfair.com","showLastLoggedInDate":true,"currencyCode":"GBP","responsibleGambling":true,"isPokerProduct":false,"requires":{"css":["footer"],"js":["footer"]}},"services":[],"translations":{"SSC.FOOTER.REGULATORY.POPUP.INFOPANEL.TEXT.TIME":"- Current time:","SSC.FOOTER.REGULATORY.POPUP.TITLE":"Session Details","SSC.FOOTER.REGULATORY.POPUP.BALANCE.LOSS":"Stakes","SSC.FOOTER.REGULATORY.POPUP.FAILURE.TEXT":"We're sorry but there is a technical issue preventing us from showing you information about your betting. Don't worry, this is temporary. Our tech team is working hard to fix this and you should be able to see it when your Session Details are next shown to you in an hour.","SSC.FOOTER.REGULATORY.POPUP.BALANCE.PROFIT":"Returns","SSC.FOOTER.REGULATORY.POPUP.SHOW.MORE":"More info","SSC.FOOTER.REGULATORY.POPUP.BUTTON.SUBMIT":"Continue","SSC.FOOTER.REGULATORY.POPUP.SHOW.LESS":"Less info","SSC.FOOTER.REGULATORY.POPUP.BALANCE.SUBTITLE":"Profit and Loss","SSC.FOOTER.REGULATORY.POPUP.DETAILS.PROFIT.TEXT":"This is the total of the winnings you have received in this session across all products, inclusive of stakes.","SSC.FOOTER.REGULATORY.POPUP.DETAILS.EXPOSURE.TEXT":"This is the sum of your liabilities in all Exchange markets which you have unsettled bets in. This includes matched and unmatched bets.","COMMON.MANAGED.WINDOW.ERROR":"We could not open the window you requested. Please attempt re-configuring your firewall or ad-blocker and try again.","SSC.FOOTER.REGULATORY.POPUP.DETAILS.EXPOSURE.TITLE":"Exposure","SSC.FOOTER.REGULATORY.POPUP.DETAILS.PROFIT.TITLE":"Returns","SSC.FOOTER.REGULATORY.POPUP.BALANCE.EXPOSURE":"Exposure","SSC.FOOTER.REGULATORY.POPUP.DETAILS.LOSS.TEXT":"This is the total value of bets you have placed in this session across all products. For Exchange, this is bets once settled.","SSC.FOOTER.REGULATORY.POPUP.INFOPANEL.TEXT.LOGGED":"You've been logged in for","SSC.FOOTER.REGULATORY.POPUP.DETAILS.LOSS.TITLE":"Stakes","COMMON.DO.NOT.SHOW.AGAIN":"Do not show this message again","SSC.FOOTER.REGULATORY.POPUP.BUTTON.LOGOUT":"Log Out"},"modules":[]},{"constructor":"","type":"header","moduleId":"header","instanceId":"577227","config":{"container":true,"boundingBox":"#mod-header-577227-container","debug":{"enabled":0},"production":{"ready":0},"isBeforeText":false,"displayResponsibleGamblingInfo":false,"showLanguageSelector":false,"currencySymbol":null,"srcNode":"#mod-header-577227","ajax":{"enabled":false},"enableRomaniaVegas":false,"headerchangelocale":{"method":"GET","url":""},"showSportsbookBonus":true,"trusted":0,"loggedIn":false,"showNewHelpLink":true,"name":"header","currencyCode":"GBP","showWebMessaging":true,"info":{"enabled":0},"requires":{"css":["header"],"js":["header"]}},"services":["retrievessc","webmessaging"],"translations":{"COMMON.SYMBOL.AUD":"$","COMMON.DO.NOT.SHOW.AGAIN.RU":"Не показывать это сообщение снова.","COMMON.DO.NOT.SHOW.AGAIN.DE":"Diese Meldung nicht mehr anzeigen","SSC.FOOTER.LOCALE.IRL":"English - IRE","COMMON.DO.NOT.SHOW.AGAIN.DA":"Vis ikke denne besked igen","COMMON.DO.NOT.SHOW.AGAIN.RO":"Nu mai afișează acest mesaj","COMMON.SYMBOL.SEK":"SEK","COMMON.DO.NOT.SHOW.AGAIN.BG":"Не показвай повече това съобщение","COMMON.DO.NOT.SHOW.AGAIN":"Do not show this message again","COMMON.DO.NOT.SHOW.AGAIN.PT":"Não mostrar esta mensagem novamente","COMMON.SYMBOL.DEFAULT":"&euro;","COMMON.SYMBOL.SGD":"SGD","COMMON.DO.NOT.SHOW.AGAIN.ES":"No volver a mostrar este mensaje","COMMON.SYMBOL.RON":"RON","COMMON.CLOSE":"Close","COMMON.OK.ES":"ACEPTAR","COMMON.SYMBOL.DKK":"kr.","SSC.FOOTER.LOCALE.AUS_NZL":"English - AUS & NZ","COMMON.SYMBOL.USD":"$","COMMON.SYMBOL.CAD":"$","COMMON.MANAGED.WINDOW.ERROR":"We could not open the window you requested. Please attempt re-configuring your firewall or ad-blocker and try again.","COMMON.SYMBOL.NOK":"NOK","COMMON.DO.NOT.SHOW.AGAIN.SV":"Visa inte det här meddelandet igen","COMMON.SYMBOL.HKD":"HKD","COMMON.SYMBOL.EUR":"&euro;","COMMON.OK":"OK","COMMON.DO.NOT.SHOW.AGAIN.IT":"Non mostrare di nuovo questo messaggio","COMMON.SYMBOL.GBP":"&pound;","COMMON.DO.NOT.SHOW.AGAIN.EL":"Να μην εμφανιστεί ξανά αυτό το μήνυμα","COMMON.CANCEL":"Cancel"},"modules":[{"constructor":"","type":"main-navigation","moduleId":"main-navigation","instanceId":"577233","config":{"container":true,"displayContactUsInfo":false,"enableArcadeSpain":false,"showSbkLanguagePopup":false,"boundingBox":"#mod-main-navigation-577233-container","debug":{"enabled":0},"supportedLocales":"UK_ENGLISH, IRELAND_ENGLISH, DANISH, GERMAN, GREEK, SPANISH, ITALIAN, PORTUGUESE, RUSSIAN, SWEDISH","production":{"ready":0},"useArcadeSpainCookie":false,"enableVegasCookieUAT":true,"srcNode":"#mod-main-navigation-577233","ajax":{"enabled":false},"enableRomaniaVegas":false,"trusted":0,"loggedIn":false,"enableVegas":true,"name":"main-navigation","info":{"enabled":0},"requires":{"css":["main-navigation"],"js":["main-navigation"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"login","moduleId":"login","instanceId":"577234","config":{"container":true,"quickDepositWallets":["MAIN"],"boundingBox":"#mod-login-577234-container","production":{"ready":0},"showTotalWallet":false,"italyWageringActivated":false,"handleVegasROBonusWallet":false,"srcNode":"#mod-login-577234","quickDepositWindowHeight":580,"ajax":{"enabled":false},"tmxId":"23686fab-2181-4046-9a7f-d88f94154d2a","accountStatus":null,"showBoostToken":true,"showSportsbookBonus":true,"showVegasBonus":false,"enableVegas":true,"quickDepositEnabled":false,"walletLimitToQuickDeposit":"5","usernamePlaceholder":"username","info":{"enabled":0},"enableArcadeSpain":false,"debug":{"enabled":0},"quickDepositCurrencyValues":[{"ALL":250,"BRL":5,"BGN":5,"COP":5000,"HRK":20000,"HUF":1000,"ISK":500,"MYR":10,"MXN":50,"USD":5,"PYG":20000,"PEN":10,"RUB":400,"TWD":100,"THB":100,"BDT":500,"BZD":10,"BOB":30,"CRC":2500,"DOP":300,"MDL":100,"PKR":500,"AED":20,"UYU":200,"ARS":100,"BAM":10,"KHR":20000,"CAD":5,"JPY":500,"KZT":2000,"MKD":200,"ANG":10,"ZAR":50,"KRW":5000,"LKR":1000,"UZS":50000,"VND":100000,"BSD":5,"XOF":3000,"CVE":500,"KYD":5,"CNY":30,"XCD":10,"EGP":100,"IDR":60000,"JMD":500,"KES":500,"LBP":5000,"CHF":5,"MOP":50,"MUR":200,"MAD":50,"NGN":2000,"PHP":200,"QAR":10,"SAR":10,"SCR":50,"SLL":50000,"SGD":5,"TZS":10000,"CZK":100,"INR":400,"PLN":25,"UAH":100,"AUD":5,"DKK":50,"EUR":5,"HKD":50,"NOK":50,"RON":25,"SEK":50,"GBP":5}],"useArcadeSpainCookie":false,"handleCasinoBonusWallet":false,"handleCasinoFunBonusWallet":false,"handleVegasBonusWallet":false,"enableVegasCookieUAT":true,"formatCurrencyBackwards":false,"enableRomaniaVegas":false,"showCasinoBonus":true,"showThreatMetrix":true,"trusted":0,"isPaddyAusNzl":false,"showAustraliaReboot":false,"loggedIn":false,"name":"login","quickDepositPywHandler":true,"handleArcadeBonusWallet":false,"quickDepositWindowWidth":900,"handleGamesBonusWallet":false,"requires":{"css":["login"],"js":["login"]},"username":null},"services":["wallets"],"translations":{"SSC.LOGIN.PASSWORD":"password","SSC.LOGIN.EMAIL.AS.USERNAME":"email/username","SSC.LOGIN.USERNAME":"username"},"modules":[]},{"constructor":"","type":"web-messaging","moduleId":"web-messaging","instanceId":"577230","config":{"container":true,"debug":{"enabled":0},"production":{"ready":0},"trusted":0,"loggedIn":false,"name":"web-messaging","ajax":{"enabled":false},"info":{"enabled":0},"requires":{"css":["web-messaging"],"js":["web-messaging"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"main-navigation","moduleId":"main-navigation","instanceId":"577229","config":{"container":true,"displayContactUsInfo":false,"enableArcadeSpain":false,"showSbkLanguagePopup":false,"debug":{"enabled":0},"supportedLocales":"UK_ENGLISH, IRELAND_ENGLISH, DANISH, GERMAN, GREEK, SPANISH, ITALIAN, PORTUGUESE, RUSSIAN, SWEDISH","production":{"ready":0},"useArcadeSpainCookie":false,"enableVegasCookieUAT":true,"ajax":{"enabled":false},"enableRomaniaVegas":false,"trusted":0,"loggedIn":false,"enableVegas":true,"name":"main-navigation","info":{"enabled":0},"requires":{"css":["main-navigation"],"js":["main-navigation"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"login","moduleId":"login","instanceId":"577228","config":{"container":true,"quickDepositWallets":["MAIN"],"production":{"ready":0},"showTotalWallet":false,"italyWageringActivated":false,"handleVegasROBonusWallet":false,"quickDepositWindowHeight":580,"ajax":{"enabled":false},"tmxId":"23686fab-2181-4046-9a7f-d88f94154d2a","accountStatus":null,"showBoostToken":true,"showSportsbookBonus":true,"showVegasBonus":false,"enableVegas":true,"quickDepositEnabled":false,"walletLimitToQuickDeposit":"5","info":{"enabled":0},"enableArcadeSpain":false,"debug":{"enabled":0},"quickDepositCurrencyValues":[{"ALL":250,"BRL":5,"BGN":5,"COP":5000,"HRK":20000,"HUF":1000,"ISK":500,"MYR":10,"MXN":50,"USD":5,"PYG":20000,"PEN":10,"RUB":400,"TWD":100,"THB":100,"BDT":500,"BZD":10,"BOB":30,"CRC":2500,"DOP":300,"MDL":100,"PKR":500,"AED":20,"UYU":200,"ARS":100,"BAM":10,"KHR":20000,"CAD":5,"JPY":500,"KZT":2000,"MKD":200,"ANG":10,"ZAR":50,"KRW":5000,"LKR":1000,"UZS":50000,"VND":100000,"BSD":5,"XOF":3000,"CVE":500,"KYD":5,"CNY":30,"XCD":10,"EGP":100,"IDR":60000,"JMD":500,"KES":500,"LBP":5000,"CHF":5,"MOP":50,"MUR":200,"MAD":50,"NGN":2000,"PHP":200,"QAR":10,"SAR":10,"SCR":50,"SLL":50000,"SGD":5,"TZS":10000,"CZK":100,"INR":400,"PLN":25,"UAH":100,"AUD":5,"DKK":50,"EUR":5,"HKD":50,"NOK":50,"RON":25,"SEK":50,"GBP":5}],"useArcadeSpainCookie":false,"handleCasinoBonusWallet":false,"handleCasinoFunBonusWallet":false,"handleVegasBonusWallet":false,"enableVegasCookieUAT":true,"formatCurrencyBackwards":false,"enableRomaniaVegas":false,"showCasinoBonus":true,"showThreatMetrix":true,"trusted":0,"isPaddyAusNzl":false,"showAustraliaReboot":false,"loggedIn":false,"name":"login","quickDepositPywHandler":true,"handleArcadeBonusWallet":false,"quickDepositWindowWidth":900,"handleGamesBonusWallet":false,"requires":{"css":["login"],"js":["login"]},"username":null},"services":["wallets"],"translations":{},"modules":[]}]}],"services":[{"constructor":"Retrievessc","type":"retrievessc","moduleId":"retrievessc","config":{"loggedIn":false,"requires":{"js":["retrievessc-service"]}},"services":[]},{"constructor":"Wallets","type":"wallets","moduleId":"wallets","config":{"WASUrlAggregated":"/wallet-service/v3.0/wallets?walletNames=[MAIN,POKER,SPORTSBOOK_BONUS,GAMES_BONUS,SPORTSBOOK_BONUS_CASH,BOOST_TOKENS,VEGAS_BONUS]&alt=json","WASUrlCasinoFunBonus":"/wallet-service/v3.0/wallets?walletNames=[CASINO_FUN_BONUS]&alt=json","showNewWasEndpoint":true,"loggedIn":false,"X-Brand":"paddypower","WASUrlRTBonus":"/wallet-service/v3.0/wallets?walletNames=[RT_BONUS]&alt=json","WASUrlCasino":"/wallet-service/v3.0/wallets?walletNames=[CASINO_BONUS]&alt=json","WASUrlReduced":"/wallet-service/v3.0/wallets?walletNames=[MAIN,POKER]&alt=json","WASUrlROVegas":"/wallet-service/v3.0/wallets?walletNames=[VEGAS_BONUS]&alt=json","X-BF-Jurisdiction":"pp_international","requires":{"js":["wallets-service"]}},"services":[]},{"constructor":"Webmessaging","type":"webmessaging","moduleId":"webmessaging","config":{"tailFragment":"?response=application/jsonp&client=promotionscms&now=","baseUrl":"https://messaging.paddypower.com","loggedIn":false,"serviceFragment":"/services/ws/","templateBaseUrl":"https://messaging.paddypower.com","requires":{"js":["webmessaging-service"]}},"services":[]}]},
+oldPlatformConfig = ssc.platformConfig;
+if (oldPlatformConfig) {
+var newPlatformConfigFooterModule = findFooterModule(newPlatformConfig);
+var oldPlatformConfigFooterModule = findFooterModule(oldPlatformConfig);
+function findFooterModule(config) {
+for (var i = 0; i < config.modules.length; i++) {
+if (config.modules[i].hasOwnProperty('moduleId') && config.modules[i].moduleId === 'footer') {
+return config.modules[i];
+}
+}
+};
+function mergeDifferences(putFrom, putInto) {
+for (var i = 0; i < putFrom.length; i++) {
+if (putInto.indexOf(putFrom[i]) === -1) {
+putInto.push(putFrom[i]);
+}
+}
+return putInto;
+};
+function resolveDifferences(oldVal, newVal, param) {
+var oldParam = Object.keys(oldVal[param]);
+var newParam = Object.keys(newVal[param]);
+if (oldParam.length > 0) { newParam = mergeDifferences(oldVal[param], newVal[param]); }
+if (newParam.length > 0) { oldParam = mergeDifferences(oldVal[param], newVal[param]); }
+return oldParam;
+};
+if (JSON.stringify(oldPlatformConfigFooterModule.translations) !== JSON.stringify(newPlatformConfigFooterModule.translations)) {
+oldPlatformConfigFooterModule.translations = resolveDifferences(oldPlatformConfigFooterModule, newPlatformConfigFooterModule, 'translations');
+}
+}
+if(!oldPlatformConfig) {ssc.platformConfig=newPlatformConfig;ssc.platformConfig.page.config.bundle={enabled:false};ssc.platformConfig.page.config.bundle.enabled=true;ssc.platformConfig.clientContext={version:"",brand:"paddypower",product:"promotionscms",clientProductName:"promotionscms",selectedTab:"promotionscms",jurisdiction:"intl",region:"gb",language:"en",channel:"desktop",isMasterAccount:"false"}}
+ssc.testConf = true;
+</script>
+</div>    </div>
+
+    <script type="text/javascript">
+        (function() {
+            if(window.self === window.top) {
+                var s = document.createElement('script');
+                s.src = "https://ie2-sscpp.cdnppb.net/static/all-f0b4c77bf25696844015ec7bada8c985.js";
+                s.type = 'text/javascript';
+                s.async = 'true';
+                var firstScript = document.getElementsByTagName('script')[0];
+                firstScript.parentNode.insertBefore(s, firstScript);
+
+                document.getElementById('ssc-footer').style.display='block';
+            }
+        })();
+    </script>
+
+</body>
+
+</html>
