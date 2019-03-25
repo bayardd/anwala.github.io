@@ -10,6 +10,9 @@ The Notes folder contains 3 files
 	
 	The acnwala-friendscount.csv file, containing all of the information necessary for Facebook
 	The EncodedFollowers.JSON file, used to contain data written in binary.
+	The EncodedFollowersExtraCredit.json file, used to contain data written in binary for question 4.
+	The followerRecordsExtraCredit.csv, used to keep record of the number of friends from Twitter, question 4 of the extra 		credit.
+	
 	The followerRecords.csv, used to keep record of the number of followers from Twitter.
 
 The Report folder
