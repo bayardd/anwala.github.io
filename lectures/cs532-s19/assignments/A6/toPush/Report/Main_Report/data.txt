@@ -1,0 +1,105 @@
+First User Chosen: 	 368
+Second User Chosen: 	 81 
+Third User Chosen: 	 135 
+
+First User Rating: 
+ID 368 Top 3 Rated Movies: 
+
+Name of Movie: Titanic (1997) 	 Rating: 5.0 
+Name of Movie: Paradise Lost: The Child Murders at Robin Hood Hills (1996) 	 Rating: 5.0 
+Name of Movie: From Dusk Till Dawn (1996) 	 Rating: 5.0 
+
+ID 368 Bottom 3 Rated Movies: 
+Name of Movie: Carrie (1976) 	 Rating: 1.0 
+Name of Movie: Tales from the Crypt Presents: Bordello of Blood (1996) 	 Rating: 1.0 
+Name of Movie: Candyman (1992) 	 Rating: 2.0 
+
+Second User Rating: 
+ID 81 Top 3 Rated Movies: 
+
+Name of Movie: Trainspotting (1996) 	 Rating: 5.0 
+Name of Movie: Time to Kill, A (1996) 	 Rating: 5.0 
+Name of Movie: Silence of the Lambs, The (1991) 	 Rating: 5.0 
+
+ ID 81 Bottom 3 Rated Movies: 
+
+Name of Movie: Beverly Hills Ninja (1997) 	 Rating: 1.0 
+Name of Movie: Father of the Bride Part II (1995) 	 Rating: 1.0 
+Name of Movie: Grumpier Old Men (1995) 	 Rating: 1.0 
+
+Third User Rating: 
+ID 135 Top 3 Movies: 
+
+Name of Movie: Silence of the Lambs, The (1991) 	 Rating: 5.0 
+Name of Movie: Usual Suspects, The (1995) 	 Rating: 4.0 
+Name of Movie: Unforgiven (1992) 	 Rating: 4.0 
+
+ ID 135 Bottom 3 Rated Movies: 
+
+Name of Movie: Tales from the Hood (1995) 	 Rating: 1.0 
+Name of Movie: Assassins (1995) 	 Rating: 2.0 
+Name of Movie: Hard Target (1993) 	 Rating: 2.0 
+
+
+Substitute User ID: 368 
+
+Five other users with highest correlation: 
+
+User ID:791 	Correlation Value: 1
+User ID:449 	Correlation Value: 1
+User ID:420 	Correlation Value: 1
+User ID:154 	Correlation Value: 1
+User ID:915 	Correlation Value: 1
+
+Five other users with lowest correlation: 
+User ID:51 	Correlation Value: -1
+User ID:183 	Correlation Value: -1
+User ID:107 	Correlation Value: -1
+User ID:127 	Correlation Value: -1
+User ID:147 	Correlation Value: -1
+
+Computed Top 5 Movies to be Watched: 
+Name of Movie: They Made Me a Criminal (1939)	 Calculated Rating: 5.0
+Name of Movie: Star Kid (1997)	 Calculated Rating: 5.0
+Name of Movie: Someone Else's America (1995)	 Calculated Rating: 5.0
+Name of Movie: Santa with Muscles (1996)	 Calculated Rating: 5.0
+Name of Movie: Little City (1998)	 Calculated Rating: 5.0
+
+Computed Bottom 5 Movies to be Watched: 
+Name of Movie: 3 Ninjas: High Noon At Mega Mountain (1998)	 Calculated Rating: 1.0
+Name of Movie: Amityville 1992: It's About Time (1992)	 Calculated Rating: 1.0
+Name of Movie: Amityville: A New Generation (1993)	 Calculated Rating: 1.0
+Name of Movie: Amityville: Dollhouse (1996)	 Calculated Rating: 1.0
+Name of Movie: August (1996)	 Calculated Rating: 1.0
+
+
+Favorite Movie: 	 Jurassic Park (1993)
+Least Favorite Movie: 	 Children of the Corn: The Gathering (1996)
+
+Top Recommended Movies to be Watched for Jurassic Park: 
+Name of Movie: You So Crazy (1994)	 Calculated Correlation: 1.0
+Name of Movie: Witness (1985)	 Calculated Correlation: 1.0
+Name of Movie: Wings of Courage (1995)	 Calculated Correlation: 1.0
+Name of Movie: Wife, The (1995)	 Calculated Correlation: 1.0
+Name of Movie: Two Much (1996)	 Calculated Correlation: 1.0
+
+Bottom Recommended Movies to be Watched for Jurassic Park
+Name of Movie: A Chef in Love (1996)	 Calculated Correlation: 0
+Name of Movie: American Strays (1996)	 Calculated Correlation: 0
+Name of Movie: August (1996)	 Calculated Correlation: 0
+Name of Movie: Ayn Rand: A Sense of Life (1997)	 Calculated Correlation: 0
+Name of Movie: B*A*P*S (1997)	 Calculated Correlation: 0
+
+Top Recommended Movies to be Watched for Children of the Corn: 
+Name of Movie: Wooden Man's Bride, The (Wu Kui) (1994)	 Calculated Correlation: 1.0
+Name of Movie: Winter Guest, The (1997)	 Calculated Correlation: 1.0
+Name of Movie: Wild Reeds (1994)	 Calculated Correlation: 1.0
+Name of Movie: White Balloon, The (1995)	 Calculated Correlation: 1.0
+Name of Movie: When the Cats Away (Chacun cherche son chat) (1996)	 Calculated Correlation: 1.0
+
+Bottom Recommended Movies to be Watched for Children of the Corn
+Name of Movie: 'Til There Was You (1997)	 Calculated Correlation: 0
+Name of Movie: 8 Heads in a Duffel Bag (1997)	 Calculated Correlation: 0
+Name of Movie: 8 Seconds (1994)	 Calculated Correlation: 0
+Name of Movie: Addicted to Love (1997)	 Calculated Correlation: 0
+Name of Movie: Affair to Remember, An (1957)	 Calculated Correlation: 0
