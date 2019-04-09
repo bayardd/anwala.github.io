@@ -1,0 +1,382 @@
+K = 5
+Number of Iterations: 7
+CoolDad Music
+
+The Daily Guru
+
+Top Games
+
+Dave's Music Database
+
+Shreveport Songs
+
+Kids songs and stories
+
+New Age Music Reviews
+
+WLUR 91.5 FM Music Review
+
+The Corvallis Review
+
+Thomas Nield
+
+The Aspirational Data Scientist
+
+Life Is Study
+
+Murder Accountability Project
+
+Data Points
+
+Technology Directory
+
+Future of CIO
+
+ScriptShadow: Screenwriting and Screenplay reviews
+
+
+-------------------------------------------
+Web Science and Digital Libraries Research Group
+
+Farce the Music
+
+Glitterball Suicide
+
+Solsticio de invierno
+
+2 or 3 lines (and so much more)
+
+This Is Country Music
+
+Just Not Said
+
+Center of the Nation Concerts
+
+Amsterdam Songwriters Guild
+
+BERET, A SINGER THAT PART!
+
+News Worldwide
+
+Magical Movement Company: Carolyn's blog
+
+Gapplegate Classical-Modern Music Review
+
+Gapplegate Music Review
+
+Chicago Schlager Music Review
+
+Forgotten Hits
+
+Data Science Notes
+
+The KHIT Blog
+
+Happy Data Scientist
+
+Open and Shut?
+
+The Tree of Life
+
+Big Data & Society
+
+Hacking Directory
+
+Higher Ed Data Stories
+
+On Web-Security and -Insecurity
+
+A View of the Web
+
+My Articles
+
+Digitization 101
+
+Genealogy's Star
+
+Adventures in Computation
+
+Disciplined Systematic Global Macro Views
+
+BishopBlog
+
+Who Wants What from Whom?
+
+
+-------------------------------------------
+Sun Valley Bands
+
+Centennial HS Spartan Regiment
+
+band@westwood
+
+Indian Springs Middle School Band
+
+Blanco Middle School Bands
+
+Hebron Band
+
+Movie News
+
+Scott's Music Reviews
+
+Ciara's Country
+
+Seth Saith
+
+Javarevisited
+
+Data Science Struggle
+
+Google Webmaster Central Blog
+
+Web Reflection
+
+Tech Tutorials
+
+A Library Writer's Blog
+
+Low Cost Online Statistical Data Analysis and data science Experts
+
+
+-------------------------------------------
+Ale Montosi Blog
+
+Memento Mori!
+
+
+-------------------------------------------
+Singer Buddy
+
+Indie Obsessive
+
+Business News Online
+
+GROUP 11
+
+Free eTraining
+
+Corkboard Connections
+
+Membership Marketing Blog
+
+
+-------------------------------------------
+
+K = 10
+Number of Iterations: 5
+band@westwood
+Indian Springs Middle School Band
+Blanco Middle School Bands
+Amsterdam Songwriters Guild
+Scott's Music Reviews
+Data Science Struggle
+Data Points
+
+-------------------------------------------
+Forgotten Hits
+Who Wants What from Whom?
+
+-------------------------------------------
+CoolDad Music
+Magical Movement Company: Carolyn's blog
+
+-------------------------------------------
+Singer Buddy
+Dave's Music Database
+New Age Music Reviews
+Free eTraining
+Future of CIO
+
+-------------------------------------------
+The Corvallis Review
+The Aspirational Data Scientist
+Life Is Study
+ScriptShadow: Screenwriting and Screenplay reviews
+
+-------------------------------------------
+The Daily Guru
+Movie News
+Indie Obsessive
+Ciara's Country
+Data Science Notes
+Happy Data Scientist
+Big Data & Society
+Higher Ed Data Stories
+Low Cost Online Statistical Data Analysis and data science Experts
+
+-------------------------------------------
+Thomas Nield
+Memento Mori!
+
+-------------------------------------------
+Farce the Music
+Solsticio de invierno
+Sun Valley Bands
+Centennial HS Spartan Regiment
+BERET, A SINGER THAT PART!
+Gapplegate Classical-Modern Music Review
+Gapplegate Music Review
+WLUR 91.5 FM Music Review
+The KHIT Blog
+Murder Accountability Project
+Hacking Directory
+A View of the Web
+
+-------------------------------------------
+Center of the Nation Concerts
+Hebron Band
+Shreveport Songs
+Chicago Schlager Music Review
+Business News Online
+Technology Directory
+My Articles
+GROUP 11
+
+-------------------------------------------
+Web Science and Digital Libraries Research Group
+Glitterball Suicide
+Ale Montosi Blog
+2 or 3 lines (and so much more)
+This Is Country Music
+Just Not Said
+Top Games
+News Worldwide
+Kids songs and stories
+Seth Saith
+Javarevisited
+Open and Shut?
+The Tree of Life
+On Web-Security and -Insecurity
+Google Webmaster Central Blog
+Web Reflection
+Tech Tutorials
+Digitization 101
+A Library Writer's Blog
+Genealogy's Star
+Corkboard Connections
+Membership Marketing Blog
+Adventures in Computation
+Disciplined Systematic Global Macro Views
+BishopBlog
+
+-------------------------------------------
+
+K = 20
+Number of Iterations: 3
+The Corvallis Review
+Murder Accountability Project
+Business News Online
+Data Points
+
+------------------------------------------
+The Daily Guru
+WLUR 91.5 FM Music Review
+Chicago Schlager Music Review
+
+------------------------------------------
+
+------------------------------------------
+Ale Montosi Blog
+
+------------------------------------------
+Web Science and Digital Libraries Research Group
+Farce the Music
+2 or 3 lines (and so much more)
+This Is Country Music
+Just Not Said
+Center of the Nation Concerts
+Blanco Middle School Bands
+News Worldwide
+Gapplegate Music Review
+Scott's Music Reviews
+The Tree of Life
+Genealogy's Star
+Disciplined Systematic Global Macro Views
+BishopBlog
+Who Wants What from Whom?
+
+------------------------------------------
+New Age Music Reviews
+
+------------------------------------------
+
+------------------------------------------
+Movie News
+Indie Obsessive
+Forgotten Hits
+
+------------------------------------------
+Dave's Music Database
+Shreveport Songs
+The Aspirational Data Scientist
+Data Science Notes
+Open and Shut?
+Technology Directory
+Free eTraining
+Membership Marketing Blog
+
+------------------------------------------
+
+------------------------------------------
+
+------------------------------------------
+
+------------------------------------------
+A Library Writer's Blog
+
+------------------------------------------
+Singer Buddy
+Kids songs and stories
+Data Science Struggle
+
+------------------------------------------
+Magical Movement Company: Carolyn's blog
+Gapplegate Classical-Modern Music Review
+Thomas Nield
+Javarevisited
+Happy Data Scientist
+Big Data & Society
+Hacking Directory
+Higher Ed Data Stories
+On Web-Security and -Insecurity
+Google Webmaster Central Blog
+Web Reflection
+Tech Tutorials
+My Articles
+GROUP 11
+Low Cost Online Statistical Data Analysis and data science Experts
+Adventures in Computation
+
+------------------------------------------
+
+------------------------------------------
+Seth Saith
+Life Is Study
+ScriptShadow: Screenwriting and Screenplay reviews
+
+------------------------------------------
+CoolDad Music
+Glitterball Suicide
+Top Games
+band@westwood
+Indian Springs Middle School Band
+Hebron Band
+Ciara's Country
+A View of the Web
+Digitization 101
+Corkboard Connections
+
+------------------------------------------
+Solsticio de invierno
+Amsterdam Songwriters Guild
+BERET, A SINGER THAT PART!
+The KHIT Blog
+Future of CIO
+Memento Mori!
+
+------------------------------------------
+Sun Valley Bands
+Centennial HS Spartan Regiment
+
+------------------------------------------
