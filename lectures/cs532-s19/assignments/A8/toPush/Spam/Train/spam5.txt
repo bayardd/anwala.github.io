@@ -1,0 +1,8 @@
+TensorFlow
+New! Introduction to TensorFlow for AI, ML and DL
+deeplearning.ai
+This new course from deeplearning.ai, created in collaboration with the TensorFlow team at Google, builds on your ML and DL foundation by teaching you how to build scalable AI algorithms to solve real-world problems using TensorFlow, a popular open-source framework for machine learning.
+Learn best practices for using TensorFlow, a popular open-source machine learning framework
+Build and train a neural network for a computer vision application in TensorFlow
+Understand how to use convolutions to improve your neural network
+This is the first course in a new TensorFlow Specialization from deeplearning.ai, with more courses coming soon! Enroll today to get started with Course 1.

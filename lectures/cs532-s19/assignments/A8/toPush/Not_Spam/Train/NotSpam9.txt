@@ -1,0 +1,4 @@
+I am happy to see that the development of deep learning methodology is selected for Turing Award this year. Turing Award is often considered as Nobel Prize in CS. Three of my graduate students have been having some fun with deep learning for almost two years with application in biological images. We are still puzzled by the many challenges it has. If you are interested in this direction, let me know. Understanding deep learning requires good mathematical foundation, particularly linear algebra. This is an example of importance of math for advanced computer science techniques, and in fact many advanced computational ideas are built on good use of math. Computer Science is way beyond coding.
+
+
+Jing

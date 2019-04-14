@@ -1,0 +1,90 @@
+			Training files and title subsets listed below.
+----------------------------------------------------------------------------------- 
+
+		File Name + Class						 Headline 
+------------------------------------    -------------------------------------------
+File Name: spamFile1	 Class: Spam 		Enter to win a $100 Amazon gift card 
+
+File Name: notSpam1		 Class: NotSpam 	I write first to invite your participation
+
+File Name: spamFile2	 Class: Spam 		Buy the more popular, higher rated 
+
+File Name: notSpam2		 Class: NotSpam 	The Norfolk Police Department
+
+File Name: spamFile3	 Class: Spam 		Here are this week's five links 
+
+File Name: notSpam3		 Class: NotSpam 	Heart to Heart Career Training Center
+
+File Name: spamFile4	 Class: Spam 		Master’s Degree Learning Within Reach 
+
+File Name: notSpam4		 Class: NotSpam 	We would like to invite your undergraduate
+
+File Name: spamFile5	 Class: Spam 		New! Introduction to TensorFlow 
+
+File Name: notSpam5		 Class: NotSpam 	Below is the Monarch Crown
+
+File Name: spamFile6	 Class: Spam 		Continue the Johns Hopkins experience 
+
+File Name: notSpam6		 Class: NotSpam 	Time tickets were updated March 27
+
+File Name: spamFile7	 Class: Spam 		These are the Skills of T﻿omorrow 
+
+File Name: notSpam7		 Class: NotSpam 	As part of the Monarch community
+
+File Name: spamFile8	 Class: Spam 		The MSc in Innovation and Entrepreneurship 
+
+File Name: notSpam8		 Class: NotSpam 	Did you know that the Mane
+
+File Name: spamFile9	 Class: Spam 		Your Learning Experience Just Got Better 
+
+File Name: notSpam9		 Class: NotSpam 	I am happy to see that the development
+
+File Name: spamFile10	 Class: Spam 		You want better audio right? 
+
+File Name: notSpam10     Class: NotSpam 	Here is a tip for registering for a class
+
+			Testing files and title subsets listed below.
+----------------------------------------------------------------------------------- 
+
+		File Name + Class							 Predicted Class 									 Headline 
+--------------------------------------------       ---------------------------    --------------------------------------
+File Name: spamFile11	Expected Class: Spam 		 Predicted Class: spam 			Learn from world-class academics 
+
+File Name: notSpam11	Expected Class: NotSpam 	 Predicted Class: NotSpam 		I hope that your semester is going well
+
+File Name: spamFile12	Expected Class: Spam 		 Predicted Class: spam 			Get your first month of learning 
+
+File Name: notSpam12	Expected Class: NotSpam 	 Predicted Class: NotSpam 		Visionary Integration Professionals (VIP)
+
+File Name: spamFile13	Expected Class: Spam 		 Predicted Class: spam 			Here are this week's five links 
+
+File Name: notSpam13	Expected Class: NotSpam 	 Predicted Class: NotSpam 		Monarch diversity and not a study space
+
+File Name: spamFile14	Expected Class: Spam 		 Predicted Class: spam 			Transform your CV and open the door 
+
+File Name: notSpam14	Expected Class: NotSpam 	 Predicted Class: NotSpam 		Talk to professors and students who currently are doing research
+
+File Name: spamFile15	Expected Class: Spam 		 Predicted Class: spam 			Add a powerful new skill 
+
+File Name: notSpam15	Expected Class: NotSpam 	 Predicted Class: spam 		ODU to offer new Master of Library and Information Studies
+
+File Name: spamFile16	Expected Class: Spam 		 Predicted Class: spam 			Enhance your career 
+
+File Name: notSpam16	Expected Class: NotSpam 	 Predicted Class: NotSpam 		Additional questions to consider can be found on the Registrar’s Office website
+
+File Name: spamFile17	Expected Class: Spam 		 Predicted Class: spam 			Reach your goals with courses 
+
+File Name: notSpam17	Expected Class: NotSpam 	 Predicted Class: NotSpam 		I know the Monarch community joins me in expressing our profound
+
+File Name: spamFile18	Expected Class: Spam 		 Predicted Class: spam 			Black Friday is on 
+
+File Name: notSpam18	Expected Class: NotSpam 	 Predicted Class: NotSpam 		I hope your semester is off to a great start
+
+File Name: spamFile19	Expected Class: Spam 		 Predicted Class: spam 			Worpdress Aliexpress Dropshipping MasterClass 
+
+File Name: notSpam19	Expected Class: NotSpam 	 Predicted Class: NotSpam 		You have been invited to membership in the Old Dominion University
+
+File Name: spamFile20	Expected Class: Spam 		 Predicted Class: spam 			Create Your Own WordPress Website 
+
+File Name: notSpam20	Expected Class: NotSpam 	 Predicted Class: NotSpam 		Preregistration for Fall 2019 classes is April
+

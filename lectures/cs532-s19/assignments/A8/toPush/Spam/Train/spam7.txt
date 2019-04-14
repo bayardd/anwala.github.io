@@ -1,0 +1,87 @@
+These are the Skills of T﻿omorrow
+Global Skills
+The first ever Coursera Global Skills Index shows you the skills of t﻿omorrow. Learn more about the skills you’ll need to succeed in your industry.
+TRENDING SKILL
+Data Structure
+  Algorithmic programming methods, dynamic programming, debugging and testing strategy
+Algos
+Data Structures and Algorithms
+UC San Diego & Higher School of Economics
+Enroll Now		
+6 courses
+TRENDING SKILL
+Cloud Computing
+  MapReduce, key-value/NoSQL stores, Gossip Protocol, widely-used distributed algorithms
+Cloud Computing
+Cloud Computing
+University of Illinois at Urbana-Champaign
+Enroll Now		
+6 courses
+TRENDING SKILL
+Python Programming
+  Retrieving and processing data, scrape web data, retrieve data from APIs, data visualization
+Python
+Python for Everybody
+University of Michigan
+Enroll Now		
+5 courses
+TRENDING SKILL
+Problem-Solving
+  Spreadsheet automation & customization, macro creation, subroutines, array manipulation
+VBA
+Excel/VBA for Creative Problem Solving
+University of Colorado Boulder
+Enroll Now		
+3 courses
+TRENDING SKILL
+Cybersecurity
+  Design and build secure sofware and hardware systems, cryptography, Trojan detection
+Cybersecurity
+Cybersecurity
+University of Maryland
+Enroll Now		
+5 courses
+TRENDING SKILL
+Data Visualization
+  Data pipeline development, parallel computing, functional programming, big data analysis
+Scala
+Functional Programming in Scala
+EPFL
+Enroll Now		
+5 courses
+TRENDING SKILL
+Programming Languages
+  Java syntax and semantics, Java packages, data storage and manipulation
+Java
+Java Programming & Software Engineering Fundamentals
+Duke University
+Enroll Now		
+5 courses
+TRENDING SKILL
+Authentication
+  Desktop support, IT security, Linux OS, scaling infrastructure
+IT
+Google IT Support Professional Certificate
+Google
+Enroll Now		
+5 courses
+TRENDING SKILL
+Web applications
+  JavaScript, jQuery, JSON, Database applications in PHP, SQL for database creation
+Web apps
+Web Applications for Everybody
+University of Michigan
+Enroll Now		
+4 courses
+TRENDING SKILL
+Application Programming Interfaces
+  Design and build APIs, deployment, security, REST APIs
+API
+Developing APIs with Google Cloud’s Apigee API Platform
+Google Cloud
+Enroll Now		
+3 courses
+Learn a trending skill
+Start Now
+THE COURSERA GLOBAL SKILLS INDEX
+The 2019 Coursera Global Skills Index unites Coursera’s deep expertise in data and education to highlight the world’s top trending career skills. Learn more about tomorrow’s skills in Business, Technology, and Data Science benchmarked across 60 countries and 10 industries. 

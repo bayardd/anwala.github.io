@@ -1,0 +1,25 @@
+Dear David:
+
+Here is a tip for registering for a class after the instructor has issued a "closed-class" override for you.
+
+Scenario: You searched for a class and the search results tell you the class is full and has no waitlist option. You emailed the instructor with your UIN and the CRN of the class, and requested overload permission to register. The instructor has emailed back to tell you you should now be able to register for it.
+ 
+How do you register?
+STEP 1
+Check to be sure the correct override was assigned. You can see it in XE Registration Prepare for Registration. (A sample is provided here.)
+
+ 
+STEP 2
+After you have determined that the override exists, in XE go to the Enter CRNs tab and enter the CRN of the course.
+Remember that the override is for you only. It does not open up the class. The class will continue to show closed if you search for it.
+ 
+STEP 3
+Submit your registration. If there are no other registration errors or restrictions, you should see the class in your schedule and your list of registered classes.
+ 
+WAITLISTING OPTION
+If the class has a waitlist option, XE Registration will tell you. 
+Click this link-->Instructions for using waitlisting for step-by-step instructions on how waitlisting works.
+We hope you will find this tip useful!
+Sincerely, 
+Enrollment Services Team 
+Office of the University Registrar

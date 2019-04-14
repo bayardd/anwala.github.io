@@ -1,0 +1,23 @@
+Here are this week's five links that are worth your time:
+
+Learn SQL with this free 4-hour course on the popular PostgreSQL database. You'll learn Queries, Joins, Aggregations, and other important concepts (4 hour watch)
+
+Here are 570 free online programming and computer science courses you can start in April (browsable list)
+
+How to use Python to build your own AI that wins at Connect Four (1.5 hour watch)
+
+How to build your own online multiplayer game using Python and Pygame (2.5 hour watch)
+
+In this week's episode of the freeCodeCamp Podcast, I interview Adam Hollett, a software developer at Shopify in Ottawa, Canada. He worked as a writer before teaching himself to code using freeCodeCamp and taking his career in a more technical direction. (1 hour listen in your podcast player on your phone, or here in your browser): https://www.freecodecamp.org/news/podcast-episode-57
+
+Quote of the Week: "One person's 'paranoia' is another person's 'engineering redundancy.'" — Marcus J. Ranum
+
+
+freeCodeCamp is a donor-supported nonprofit. Help the community reach our goal of 10,000 monthly supporters. (We're already 47% of the way there!) Become a supporter at
+
+
+Happy coding!
+
+	Quincy Larson
+
+Teacher at freeCodeCamp.org

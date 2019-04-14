@@ -1,0 +1,23 @@
+Here are this week's five links that are worth your time:
+
+1. How to build your own iPhone and Android app from a single JavaScript codebase by using React Native - a powerful tool that turns websites into mobile apps (4 hour watch): https://www.freecodecamp.org/news/create-an-app-that-works-on-ios-android-and-the-web-with-react-native-web
+
+2. How to make a custom website from scratch using WordPress (4 hour watch): https://www.freecodecamp.org/news/how-to-make-a-custom-website-from-scratch-using-wordpress
+
+3. Asymptotic Analysis explained with Pokémon: a deep dive into Complexity Analysis (34 minute read): https://medium.freecodecamp.org/8bf4396804e0
+
+4. Allan didn't like his corporate job, so he spent his nights and weekends at the public library learning to code through freeCodeCamp. 2 years ago he got his first developer job, and now he's launching his own company. He just posted his story on our forum (3 minute read): https://www.freecodecamp.org/forum/t/264857
+
+5. In this week's episode of the freeCodeCamp Podcast, Abbey interviews Tracy Lee about how she became a developer, her love of JavaScript frameworks, and what it's like to be a developer evangelist (1 hour listen in your podcast player on your phone, or here in your browser): https://podcast.freecodecamp.org
+
+Quote of the Week: "The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards." - Gene Spafford
+
+
+freeCodeCamp is a donor-supported nonprofit. Help the community reach our goal of 10,000 monthly supporters. (We're already 45% of the way there!) Become a supporter at: https://donate.freecodecamp.org
+
+
+Happy coding!
+
+- Quincy Larson
+
+Teacher at freeCodeCamp.org
