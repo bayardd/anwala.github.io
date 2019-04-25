@@ -157,7 +157,9 @@ with open('RSSExtraCollection.csv', mode='r') as test:
 	for row in reader:
 
 		for key, value in row.items():
+			print(value)
 			feedList.append(value)
+
 
 apcount = {}
 wordcounts = {}
@@ -177,7 +179,7 @@ wordlist = []
 for (w, bc) in apcount.items():
     frac = float(bc) / len(feedList)
 
-    if(frac > .01 and frac < .8 and len(wordlist) < 1000):
+    if(frac > .001 and frac < .8 and len(wordlist) < 1000):
         count2 += 1
         print(count2)
         wordlist.append(w)
