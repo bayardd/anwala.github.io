@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Assignment
+% LaTeX Template
+% Version 2.0 (12/1/2019)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Frits Wenneker
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{scrartcl} % Font size
+\usepackage{comment}
+\usepackage{color}
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+
+
+%Code retrieved from: https://www.overleaf.com/project/5c52d66b6343590b46b4fd03
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{
+	\normalfont\normalsize
+	\textsc{Old Dominion University}\\ % Your university, school and/or department name(s)
+	\vspace{25pt} % Whitespace
+	\rule{\linewidth}{0.5pt}\\ % Thin top horizontal rule
+	\vspace{20pt} % Whitespace
+	{\huge Assignment 9}\\ % The assignment title
+	\vspace{12pt} % Whitespace
+	\rule{\linewidth}{2pt}\\ % Thick bottom horizontal rule
+	\vspace{12pt} % Whitespace
+}
+
+\author{\LARGE David Bayard} % Your name
+
+\date{\normalsize\today} % Today's date (\today) or a custom date
+
+\begin{document}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{pythonStyle}{
+  backgroundcolor=\color{backcolour},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\footnotesize,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  keepspaces=true,
+  numbers=left,
+  numbersep=5pt,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=2
+}
+
+\lstset{style=pythonStyle}
+
+
+\maketitle % Print the title
+
+\pagebreak
+\section*{Question 1.}
+
+
+
+%------------------------------------------------
+
+\subsection*{ Use knnestimate() to compute the nearest neighbors for both:
+	http://f-measure.blogspot.com/
+	http://ws-dl.blogspot.com/}
+\bigskip\bigskip
+
+
+\large Solution:
+\newline \small
+
+\tabto{2.0cm} In order to compute the nearest neighbors for both URIs, the cosine distance metric was implemented. This was done by using the scipy library, which offers a method to calculate cosine distance as shown below. 
+\newline \newline
+
+\begin{lstlisting}[language = Python, caption = cosine distance metric]
+def cosSimilarity(v1,v2):
+  
+  return (spatial.distance.cosine(v1, v2))
+\end{lstlisting} \bigskip 
+
+\tabto{2.0cm} This method takes two 1 dimensional arrays and calculates the distance between them as shown below.
+
+$$ 1 - \frac{u \cdot v}{||u|| _2  \ ||v|| _2}   $$
+$ where \ || * ||_2 \ is \ the \ 2 \ norm \ of \ its \ argument \ * \ and \ u   \cdot \ v \ is \ the \ cross \ product \ of \ u \ and \ v $
+
+\bigskip
+\tabto{2.0cm} In order for this method to work, two 1 dimensional arrays are required. This is done by extracting the data from the blogdata.txt file introduced in assignment 7. This file contains the frequency of 1000 words in each row, as well as the blog title. \newline \newline 
+
+\tabto{2.0cm} To create the 1 dimensional arrays, each row must be read from the blogdata.txt file, and the blog titles need to be removed. The readfile function from assignment 7 is used to do this, returning a list of 1 dimensional lists, representing each blog. 
+
+\begin{lstlisting}[language = Python, caption=Extract numbers from blogdata.txt file]
+ 
+ data=[]
+  for line in lines[1:]:
+    p=line.strip( ).split('\t')
+  # First column in each row is the rowname
+    rownames.append(p[0])
+  # The data for this row is the remainder of the row
+    data.append([float(x) for x in p[1:]])
+
+
+\end{lstlisting} \bigskip 
+
+\tabto{2.0cm} Using the 1 dimensional list of lists, the knn estimate function may be called to find the nearest k neighbors of a specific blog, represented as a matrix. By providing this function the indexes 0 and 1 of the returned list, representing F-Measuree and Web Science and Digital Libraries Research Group respectively, the distance of k elements from those blogs is estimated. 
+
+\begin{lstlisting}[language = Python, caption= knn measure function]
+def knnestimate(data,vec1,k=5):
+  # Get sorted distances
+  newList = []
+  dlist=getdistances(data,vec1)
+
+  for i in range(0,k):
+    newList.append(dlist[i])
+
+  return newList
+\end{lstlisting}
+
+\tabto{2.0cm} The function above returns the nearest k neighbors of the provided matrix, against all other matrices in the blogdata.txt file. This is done by calling the getdistances function, which uses the cosSimalirity function to find the cosine distance between a pair of matrices.
+
+\begin{lstlisting}[language = Python, caption= get distances function]
+for i in range(len(data)):
+    vec2=data[i]
+    
+    # Add the distance and the index
+    distancelist.append((cosSimilarity(vec1,vec2),i))
+  
+  # Sort by distance
+  distancelist.sort()
+  return distancelist
+\end{lstlisting}
+
+\tabto{2.0cm} This function returns a sorted list of distances between every matrix in the data file and the matrix to compare. The code below depicts how to generate the nearest k neighbors of a specific matrix.
+
+
+\begin{lstlisting}[language = Python, caption= get distances of F-Measure and Web Science blogs]
+# Distance of k neighbors from f-measure blog
+f_measureDist = helper.knnestimate(data, data[0],5)
+
+# Distance of k neighbors from web science blog
+web_ScienceDist = helper.knnestimate(data,data[1],5)
+\end{lstlisting}
+
+\tabto{2.0cm} The tables below depict the nearest neighbors for both the f-measure and web science blogs, for k = 5
+\bigskip
+\begin{center}
+\begin{tabular}{ |p{3cm}||p{3cm}|p{5cm} }
+ \hline
+ \multicolumn{3}{|c|}{F-Measure Blog} \\
+ \hline
+ Cosine Distance & Index & Blog Title\\
+ \hline
+ 0.0 & 0 & F-Measure\\
+ 0.6247023086160843 & 35 & Indie Obsessive \\
+ 0.7324998119138642 & 7 & 2 or 3 lines \\
+ 0.8257794856910945 & 24 & Dave's Music Database\\
+ 0.8263925840186517 & 8 & This Is Country Music\\
+ \hline
+\end{tabular}
+\end{center}
+
+\bigskip
+
+\begin{center}
+\begin{tabular}{ |p{3cm}||p{3cm}|p{5cm}|  }
+ \hline
+ \multicolumn{3}{|c|}{Web Science Blog} \\
+ \hline
+ Cosine Distance & Index & Blog Title\\
+ \hline
+ 0.0 & 1 & Web Science and Digital Libraries Research Group\\
+ 0.40134546076893296 & 73 & BishopBlog \\
+ 0.4524798903145403 & 42 & Data Science Notes\\
+ 0.454005920449409 & 51 & Big Data Society\\
+ 0.48310622025301797 & 48 & The Tree of Life \\
+ \hline
+\end{tabular}
+\end{center}
+
+\bigskip
+\tabto{2.0cm} Looking at the tables above, it is evident that the nearest neighbors are related to the blog being compares. This is due to the fact that each of the blogs closest to the one being compared maintain the same theme, either being music or data science. The data for k values of 1,2,5,10, and 20 are stored in the distanceFile.txt file.
+
+\end{document}
